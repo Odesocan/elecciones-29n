@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { easeCubicOut, scaleLinear, select } from 'd3';
-import { ARTICULOS_VISIBLES, ENLACES, FECHA_COMPROBACION, FISCAL_POR_ID, PARTIDOS, TEMAS, urlPrograma } from '../config.js';
+import { ARTICULOS_VISIBLES, ENLACES, FECHA_COMPROBACION, PARTIDOS, TEMAS, urlPrograma } from '../config.js';
 import { enlaceArticulo } from '../datos.js';
 import { compartir, irA, ordinal, pad, pct, pctVoz, plural, sinMovimiento, varsPartido } from '../util.js';
 import LogoPartido from './LogoPartido.jsx';
@@ -392,17 +392,6 @@ function Tarjeta({ articulo: a, partido, tema, onElegirTema }) {
             <button type="button" key={o.id} className="np-tag" onClick={() => onElegirTema(o.id)}>
               {o.nombre}
             </button>
-          ))}
-        </p>
-      )}
-      {/* Impacto fiscal declarado (la prueba de las cuentas) */}
-      {a.fiscal.length > 0 && (
-        <p className="np-art-fiscal">
-          <span className="np-art-fiscal-tit">Efecto en las cuentas públicas:</span>
-          {a.fiscal.map((f) => (
-            <span key={f} className={`np-ftag is-${FISCAL_POR_ID[f].lado}`} title={FISCAL_POR_ID[f].alcance}>
-              {FISCAL_POR_ID[f].corto}
-            </span>
           ))}
         </p>
       )}

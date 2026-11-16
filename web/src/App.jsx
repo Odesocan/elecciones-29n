@@ -6,7 +6,6 @@ import Hero from './componentes/Hero.jsx';
 import SelectorTemas from './componentes/SelectorTemas.jsx';
 import MapaProgramas from './componentes/MapaProgramas.jsx';
 import VistaTema from './componentes/VistaTema.jsx';
-import CuentasProgramas from './componentes/CuentasProgramas.jsx';
 import Cierre from './componentes/Cierre.jsx';
 import { ContextoLogos } from './componentes/LogoPartido.jsx';
 
@@ -217,15 +216,6 @@ export default function App({ src, hero = true, logos = './logos/' }) {
               onElegir={elegirTema}
               onElegirPartido={elegirPartido}
             />
-          </div>
-        </div>
-      )}
-
-      {/* La prueba de las cuentas: la lectura crítica (solo si hay clasificación fiscal) */}
-      {estado === 'listo' && idx.cuentas.hay && (
-        <div className="np-banda np-banda-cuentas">
-          <div className="np-in">
-            <CuentasProgramas idx={idx} onElegirTema={elegirTema} />
           </div>
         </div>
       )}

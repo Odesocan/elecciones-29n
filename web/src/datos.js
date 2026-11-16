@@ -4,12 +4,10 @@
 //  · una URL a JSON o un data:application/json;base64,… (versión autocontenida)
 //  · «#id» de un <script type="text/csv"> de la propia página
 import { csv, csvParse, json } from 'd3';
-import { FISCAL, PARTIDOS, RIESGO, TEMAS, urlPrograma } from './config.js';
+import { PARTIDOS, TEMAS, urlPrograma } from './config.js';
 
 const IDS_PARTIDO = new Set(PARTIDOS.map((p) => p.id));
 const IDS_TEMA = new Set(TEMAS.map((t) => t.id));
-const IDS_FISCAL = new Set(FISCAL.map((c) => c.id));
-const LADO = Object.fromEntries(FISCAL.map((c) => [c.id, c.lado]));
 
 // Divi sustituye los saltos de línea del módulo Código por este marcador.
 const SALTO_DIVI = /<!--\s*\[et_pb_line_break_holder\]\s*-->/g;
@@ -50,13 +48,6 @@ function normalizar(filas) {
       texto: String(f.texto || '').trim(),
       url: String(f.url || '').trim(),
       nota: String(f.nota || '').trim(),
-      // Impacto fiscal declarado (vacío = sin impacto presupuestario directo;
-      // «pendiente» = aún sin clasificar: no entra en la prueba de las cuentas)
-      fiscalPendiente: String(f.fiscal || '').trim() === 'pendiente',
-      fiscal: String(f.fiscal || '')
-        .split(/[;|]/)
-        .map((t) => t.trim().toLowerCase())
-        .filter((t) => IDS_FISCAL.has(t)),
     });
   });
   if (avisos.length) console.warn('[ODESOCAN · programas] Filas descartadas:\n' + avisos.join('\n'));
@@ -145,48 +136,7 @@ export function indexar(articulos) {
 
   return {
     indice, maximo, totalTema, disponibles, totalPartido, cuota, maxCuota, mediaTema, puesto, destacados,
-    cuentas: pruebaDeLasCuentas(articulos),
   };
-}
-
-// ── La prueba de las cuentas ──
-// Por partido: qué medidas RESTAN dinero a las cuentas públicas (bajan
-// ingresos o suben gasto) y cuáles lo SUMAN (suben ingresos o recortan gasto).
-// Se cuentan medidas, no euros.
-// ratio = restan / suman  →  «por cada medida que suma, X que restan»
-// (null si no suma ninguna). El mismo cálculo está en pipeline/exportar.py.
-export function pruebaDeLasCuentas(articulos) {
-  const hay = articulos.some((a) => a.fiscal.length);
-  const porPartido = new Map();
-  for (const p of PARTIDOS) {
-    const suyos = articulos.filter((a) => a.partido === p.id);
-    if (!suyos.length) continue;
-    if (suyos.some((a) => a.fiscalPendiente)) {
-      porPartido.set(p.id, { pendiente: true, medidas: suyos.length });
-      continue;
-    }
-    const por = Object.fromEntries(FISCAL.map((c) => [c.id, suyos.filter((a) => a.fiscal.includes(c.id))]));
-    const restan = suyos.filter((a) => a.fiscal.some((f) => LADO[f] === 'resta'));
-    const suman = suyos.filter((a) => a.fiscal.some((f) => LADO[f] === 'suma'));
-    porPartido.set(p.id, {
-      medidas: suyos.length,
-      por,
-      restan,
-      suman,
-      ratio: suman.length ? restan.length / suman.length : null,
-      // Riesgo de viabilidad: las que restan superan «umbral» veces a las que suman
-      // (incluye restar sin que ninguna sume). Misma regla en pipeline/exportar.py.
-      riesgo: restan.length > 0 && restan.length > RIESGO.umbral * suman.length,
-      conImporte: restan.filter((a) => a.fiscal.includes('importe')),
-    });
-  }
-  // Escala común de las barras: % del programa, el mayor de todos.
-  let maxPct = 0;
-  for (const c of porPartido.values())
-    if (!c.pendiente)
-      for (const id of ['menos_ingresos', 'mas_gasto', 'mas_ingresos', 'menos_gasto'])
-      maxPct = Math.max(maxPct, c.por[id].length / c.medidas);
-  return { hay, porPartido, maxPct };
 }
 
 export function enlaceArticulo(articulo, partido) {

@@ -13,8 +13,9 @@ Columnas de programas.csv (contrato con la web, ver web/src/datos.js):
   titulo, texto              literales del programa
   url      enlace propio (vacío: se construye con la URL del PDF y la página)
   nota     aviso visible en la ficha («Texto incompleto en el PDF original»)
-  fiscal   etiquetas de impacto fiscal separadas por «;» (config/fiscal.json);
-           vacío = sin impacto presupuestario directo · «pendiente» = aún sin clasificar
+
+La prueba de las cuentas (impacto fiscal) se descartó el 16-11-2026: la etiqueta
+fiscal ya no va a la web; solo queda, archivada, en la hoja de revisión interna.
 """
 import csv
 import json
@@ -24,7 +25,7 @@ from . import apartados, clasificar, config, rutas
 from .segmentar import cargar as cargar_segmentos
 from .verificar import Verificador
 
-COLUMNAS_WEB = ['partido', 'tema', 'ref', 'pagina', 'titulo', 'texto', 'url', 'nota', 'fiscal']
+COLUMNAS_WEB = ['partido', 'tema', 'ref', 'pagina', 'titulo', 'texto', 'url', 'nota']
 COLUMNAS_REVISION = ['partido', 'medida', 'pagina', 'apartado', 'titulo', 'tema_principal', 'otros_temas',
                      'impacto_fiscal',
                      'revisado_ok', 'correccion', 'correccion_fiscal', 'comentario']
@@ -98,7 +99,7 @@ def volcar() -> bool:
 
     rutas.CSV_WEB.parent.mkdir(parents=True, exist_ok=True)
     with open(rutas.CSV_WEB, 'w', encoding='utf-8', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=COLUMNAS_WEB, extrasaction='ignore')  # el apartado no va a la web
+        w = csv.DictWriter(f, fieldnames=COLUMNAS_WEB, extrasaction='ignore')  # ni el apartado ni lo fiscal van a la web
         w.writeheader()
         w.writerows(filas)
     _escribir_revision(filas)
@@ -111,10 +112,9 @@ def volcar() -> bool:
     for fl in filas:
         for t in fl['tema'].split(';'):
             por_tema[t][fl['partido']] += 1
-    cuentas = prueba_de_las_cuentas(filas, list(informe))
     rutas.INFORMES.mkdir(parents=True, exist_ok=True)
     (rutas.INFORMES / 'verificacion.json').write_text(
-        json.dumps({'informe': informe, 'por_tema': por_tema, 'cuentas': cuentas}, ensure_ascii=False, indent=1) + '\n',
+        json.dumps({'informe': informe, 'por_tema': por_tema}, ensure_ascii=False, indent=1) + '\n',
         encoding='utf-8')
 
     ok = True
@@ -126,44 +126,9 @@ def volcar() -> bool:
               + (f' · sin tema {r["sin_tema"]}' if r['sin_tema'] else ''))
         for k, v in problemas.items():
             print(f'        ✗ {k.replace("_", " ")}: {v}')
-    for pid, c in cuentas.items():
-        if c.get('pendiente'):
-            print(f'   ⚠ {pid}: {len(informe[pid]["sin_fiscal"])} medidas sin clasificar en impacto fiscal')
-        else:
-            print(f"   · {pid} · cuentas: {c['restan']} restan ({c['menos_ingresos']} menos ingresos, "
-                  f"{c['mas_gasto']} más gasto) · {c['suman']} suman ({c['mas_ingresos']} más ingresos, "
-                  f"{c['menos_gasto']} menos gasto) · ratio 1:{c['ratio'] if c['ratio'] is not None else '∞'} · "
-                  f"con importe {c['con_importe']}" + (' · RIESGO DE VIABILIDAD' if c['riesgo_viabilidad'] else ''))
     total = sum(r['filas'] for r in informe.values())
     literales = sum(r['filas'] + len(r['sin_tema']) for r in informe.values())
     revisables = sum(r['medidas'] - len(r['por_anunciar']) - len(r['faltan_en_clasificacion']) for r in informe.values())
     print(f'   {total} filas → {rutas.relativa(rutas.CSV_WEB)} · literales {literales}/{revisables}')
     print(f'   hoja de revisión → {rutas.relativa(rutas.REVISION)} · informe → datos/informes/verificacion.json')
     return ok
-
-
-def prueba_de_las_cuentas(filas, pids):
-    """Recuento fiscal por partido (el mismo cálculo que hace la web en datos.js)."""
-    out = {}
-    umbral = config.riesgo_viabilidad()['umbral']
-    for pid in pids:
-        mias = [set(f['fiscal'].split(';')) - {''} for f in filas if f['partido'] == pid]
-        if any('pendiente' in e for e in mias):
-            out[pid] = {'pendiente': True}
-            continue
-        # Restan dinero a las cuentas públicas (ingresan menos o gastan más) /
-        # lo suman (ingresan más o gastan menos).
-        restan = sum(1 for e in mias if e & {'menos_ingresos', 'mas_gasto'})
-        suman = sum(1 for e in mias if e & {'mas_ingresos', 'menos_gasto'})
-        out[pid] = {
-            'medidas': len(mias),
-            **{k: sum(1 for e in mias if k in e)
-               for k in ('menos_ingresos', 'mas_gasto', 'mas_ingresos', 'menos_gasto', 'consolidacion')},
-            'restan': restan,
-            'suman': suman,
-            'ratio': round(restan / suman, 1) if suman else None,
-            # Riesgo de viabilidad: restan > umbral × suman (config/fiscal.json)
-            'riesgo_viabilidad': restan > 0 and restan > umbral * suman,
-            'con_importe': sum(1 for e in mias if 'importe' in e and e & {'menos_ingresos', 'mas_gasto'}),
-        }
-    return out

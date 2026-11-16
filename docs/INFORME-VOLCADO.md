@@ -141,14 +141,22 @@ Las reglas de reparto están en [CRITERIOS-CLASIFICACION.md](CRITERIOS-CLASIFICA
   - la gestión de Adif y Renfe (PSOE 25), en `estado`, frente al pacto de seguridad ferroviaria (PSOE 22), en `justicia`;
   - las multas de tráfico (Vox 45), en `estado` como potestad sancionadora de la Administración.
 
-## La prueba de las cuentas (impacto fiscal) · 14-11-2026
+## La prueba de las cuentas (impacto fiscal) · 14-11-2026 · descartada el 16-11-2026
+
+> **Descartada el 16-11-2026.** El equipo decidió no publicarla por tres motivos:
+>
+> 1. es difícil de interpretar;
+> 2. una de sus lecturas principales puntúa en positivo la austeridad económica, al margen de la garantía de derechos;
+> 3. otra lectura anima a la abstención, porque todos los programas llevaban la alerta de riesgo de viabilidad.
+>
+> Se conserva aquí como registro de lo que se hizo. Se han quitado de la tabla el ratio y la etiqueta de riesgo, que eran el veredicto.
 
 **Pregunta:** ¿dice cada programa cómo pagar lo que promete? Cada medida se etiquetó según el efecto presupuestario que declara: baja ingresos, sube el gasto, sube ingresos, recorta gasto, promete reducir el déficit o la deuda, o pone importe en euros. Las reglas están en [CRITERIOS-IMPACTO-FISCAL.md](CRITERIOS-IMPACTO-FISCAL.md).
 
 **Método:**
 1. Clasificó un agente de IA por programa, con las mismas instrucciones escritas.
 2. `clasificar contrastar` cruzó las etiquetas con señales del texto y generó [contraste-fiscal.md](../datos/informes/contraste-fiscal.md).
-3. Se revisaron a mano todas las medidas que «suman», porque son pocas y deciden el ratio, y los casos cruzados entre partidos.
+3. Se revisaron a mano todas las medidas que «suman», porque son pocas, y los casos cruzados entre partidos.
 4. **El equipo la revisó el 16-11-2026 y la da por correcta.** Los casos dudosos de abajo se quedan como están. La de UPC, añadida el mismo día después de esa revisión, está **pendiente** de que la revise el equipo.
 
 | | CC–1ºC | PP | PSOE | UPC | Vox |
@@ -159,11 +167,9 @@ Las reglas de reparto están en [CRITERIOS-CLASIFICACION.md](CRITERIOS-CLASIFICA
 | Medidas que lo **suman** | 0 | 6 (2 %) | 16 (3 %) | 2 (13 %) | 15 (13 %) |
 | · suben ingresos | 0 | 2 | 15 | 2 | 2 |
 | · recortan gasto | 0 | 5 | 1 | 0 | 13 |
-| **Ratio** (restan por cada una que suma) | sin contrapartidas | 1 : 18,2 | 1 : 15,1 | 1 : 4 | 1 : 3,9 |
 | Dicen en euros cuánto dinero suponen | 0 de 69 | 2 de 109 (pp-117, pp-126) | 9 de 242 | 0 de 8 | 0 de 58 |
 | Prometen reducir déficit o deuda | 0 | 2 (pp-004, pp-107) | 3 (psoe-125, 126, 129) | 0 | 1 (vox-003) |
 | Memoria económica | no | no | no | no | no |
-| Etiqueta «Riesgo de viabilidad» (restan > 2 × suman) | sí | sí | sí | sí | sí |
 
 Notas sobre la tabla:
 

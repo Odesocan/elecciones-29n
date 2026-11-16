@@ -7,7 +7,6 @@
 import { partidos } from '../../config/partidos.json';
 import { temas } from '../../config/temas.json';
 import campana from '../../config/campana.json';
-import { categorias, riesgo_viabilidad } from '../../config/fiscal.json';
 
 // Votación y cuenta atrás (hora canaria; el 29-N Canarias está en UTC+0).
 export const FECHA_ELECCION = campana.eleccion.fecha;
@@ -24,8 +23,6 @@ export const FECHA_COMPROBACION = campana.fecha_comprobacion;
 // `programa`: URL del PDF oficial ('' si aún no está publicado). Se usa para
 // el enlace «Programa (PDF)» y, si una fila del CSV no trae `url`, para
 // construir el enlace a la página concreta (#page=N).
-// `memoriaEconomica`: si el documento cuantifica el coste total de sus
-// propuestas (true/false; null si el programa no está publicado).
 // `pdfPropio`: el partido facilitó el documento sin versión en línea (UPC);
 // se publica junto al CSV y se enlaza con urlPrograma().
 export const PARTIDOS = partidos.map(({ id, sigla, nombre, color, logo, programa }) => ({
@@ -36,7 +33,6 @@ export const PARTIDOS = partidos.map(({ id, sigla, nombre, color, logo, programa
   logo,
   programa: programa?.url || '',
   pdfPropio: programa?.pdf_propio ? programa.archivo : '',
-  memoriaEconomica: programa ? Boolean(programa.memoria_economica) : null,
 }));
 
 // Carpeta de los datos publicados (la del CSV), para enlazar los PDF propios.
@@ -62,10 +58,3 @@ export const TEMAS = temas;
 export const ARTICULOS_VISIBLES = campana.articulos_visibles;
 
 export const ENLACES = campana.enlaces;
-
-// «La prueba de las cuentas»: categorías de impacto fiscal (config/fiscal.json).
-// lado: 'resta' · 'suma' · 'compromiso' · 'marca'
-export const FISCAL = categorias;
-export const FISCAL_POR_ID = Object.fromEntries(categorias.map((c) => [c.id, c]));
-// Etiqueta roja «Riesgo de viabilidad»: restan > umbral × suman (config/fiscal.json).
-export const RIESGO = riesgo_viabilidad;

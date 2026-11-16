@@ -23,7 +23,7 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 
 1. **Leer, no resumir.** Todas las medidas son **texto literal** del programa, verificado letra a letra contra el PDF oficial y con un enlace a su página.
 2. **Comparar con justicia.** Las mismas reglas valen para todos los partidos, las métricas son relativas para que el programa más largo no gane por extensión, y los partidos van en orden alfabético.
-3. **Mirar con sentido crítico.** La prueba de las cuentas comprueba si cada programa dice cómo pagar lo que promete.
+3. **Mirar con sentido crítico.** La prueba de las cuentas se descartó el 16-11-2026 (apartado 4). Hoy la herramienta no tiene capa crítica; está previsto que la aporte el IGDS cuando el equipo lo valide.
 
 ### Arco narrativo (de arriba abajo)
 
@@ -33,8 +33,7 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 | 2 | **Elegir** | «Elige un tema»: 18 mosaicos (desplegable en móvil) | Entrar por lo que le importa a cada persona |
 | 3 | **Leer** | Vista de tema: medidas literales por partido | El corazón: leer y comparar |
 | 4 | **Ver el conjunto** | Mapa «Lo que dicen. Y lo que no.» | Qué peso da cada programa a cada tema |
-| 5 | **Mirar con lupa** | «Prometer es gratis. Pagarlo, no.» | La capa crítica: ¿cuadran las cuentas? |
-| 6 | **Actuar** | «Lee. Compara. Decide.» y compartir | Pasarlo a otra persona |
+| 5 | **Actuar** | «Lee. Compara. Decide.» y compartir | Pasarlo a otra persona |
 
 ---
 
@@ -55,8 +54,6 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 │  Bloques por partido → fichas de medida → ← Tema anterior · Siguiente tema →
 ├ BANDA DEL MAPA (blanca, filete navy) ─────────────────────────────────────
 │  «LO QUE DICEN. [Y LO QUE NO.]» · matriz 18 temas × 5 partidos + Media
-├ BANDA DE LAS CUENTAS (gris claro, filete navy) ───────────────────────────
-│  «PROMETER ES GRATIS. [PAGARLO, NO.]» · leyenda del riesgo · 5 tarjetas
 └ FRANJA FINAL TEAL ─ «El próximo 29 de noviembre · LEE. COMPARA. [DECIDE.]» · Pásaselo a alguien
 ```
 
@@ -71,13 +68,10 @@ Se basa en el sistema editorial **`.np`** de ODESOCAN, con el eco del cartel de 
 | Uso | Color | Notas |
 |---|---|---|
 | Teal de marca | `#00C8B4` | Bandas del cartel y la franja final; cajas de los titulares |
-| Navy | `#0D1B2A` | Tipografía del cartel, cifras del reloj y lado «resta» de las cuentas |
+| Navy | `#0D1B2A` | Tipografía del cartel y cifras del reloj |
 | Tinta / cuerpo | `#1A1A24` / `#2B2B38` | Texto |
 | Gris de metadatos | `#5F6B7A` | Versión AA (5,4:1) del `#7A8898` de la guía |
 | Teal claro | `#E3F8F5` | Fondos suaves, fila activa del mapa |
-| «Suman dinero» | `#009E8F` barras · `#00756A` texto | Teal oscurecido para cumplir AA sobre blanco |
-| «Restan dinero» | navy | — |
-| Riesgo de viabilidad | `#B3261E` con texto blanco (6,5:1) | Siempre con icono ⚠ y texto, para no confundirlo con un color de partido |
 
 ### Colores de partido
 
@@ -106,9 +100,9 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
 
 ### Recursos gráficos recurrentes
 
-- **Caja** (`np-caja`): una palabra en caja blanca o teal dentro de un titular, como «ESPERAN.» en el cartel. Se repite en «Y LO QUE NO.», «PAGARLO, NO.» y «DECIDE.».
+- **Caja** (`np-caja`): una palabra en caja blanca o teal dentro de un titular, como «ESPERAN.» en el cartel. Se repite en «Y LO QUE NO.» y «DECIDE.».
 - **Filete izquierdo** de 4 px en el color de su contexto: sumario, avisos, el peso del tema en cada partido.
-- **Bandas** a todo el ancho para marcar los actos del relato: teal, blanca, mapa, cuentas, teal.
+- **Bandas** a todo el ancho para marcar los actos del relato: teal, blanca, mapa, teal.
 
 ---
 
@@ -145,7 +139,6 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
   - Meta «Medida N · Pág. X», titular y **texto literal entre comillas angulares**, con «Leer completo» si es largo.
   - Aviso «⚠ Texto incompleto en el PDF original» cuando procede.
   - «También en: otros temas».
-  - Etiquetas de **efecto en las cuentas públicas**.
   - «Ver en el programa ↗», que abre el PDF en su página.
 - **Programa pendiente:** recuadro «Este programa aún no se ha publicado (última comprobación…)». Nunca se muestra como «no propone nada».
 - **Ningún artículo:** «No hemos localizado artículos… ¿Crees que falta alguno? Escríbenos», con enlace a la página de contacto.
@@ -160,22 +153,15 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
   - El nombre de un tema abre el tema.
   - Las siglas resaltan su columna y muestran sus **tres temas con más peso**.
 
-### La prueba de las cuentas (`CuentasProgramas`) · «Prometer es gratis. Pagarlo, no.»
+### La prueba de las cuentas · descartada el 16-11-2026
 
-La capa crítica. Una tarjeta por partido:
+La banda «Prometer es gratis. Pagarlo, no.» (`CuentasProgramas`) contaba, por partido, las medidas que restan y las que suman dinero a las cuentas públicas, y ponía una etiqueta roja de «Riesgo de viabilidad». También mostraba en cada ficha de medida su efecto en las cuentas públicas. El equipo la descartó por tres motivos:
 
-- **Cabecera:** logo, sigla, nº de medidas y, si procede, la etiqueta roja **⚠ Riesgo de viabilidad**.
-- **Ratio en grande:** «**1 : 18**, por cada medida que suma dinero a las cuentas públicas, 18 lo restan». Si ninguna suma: «**Sin contrapartidas**».
-- **Dos bloques de barras etiquetadas:**
-  - **Restan dinero a las cuentas públicas:** «Bajan impuestos o cotizaciones», «Suben el gasto público».
-  - **Suman dinero a las cuentas públicas:** «Suben los ingresos», «Recortan gasto».
-- **Comprobaciones:**
-  - Si las medidas dicen en euros cuánto dinero suponen.
-  - Si el programa trae memoria económica.
-  - Si promete además reducir el déficit o la deuda.
-- **«Ver las medidas de…»:** despliega, por categoría, las medidas literales con su enlace al PDF.
-- **Encima de las tarjetas:** la leyenda de la etiqueta de riesgo.
-- **Debajo:** la nota de límites («Contamos medidas, no euros…»).
+1. es difícil de interpretar;
+2. una de sus lecturas principales puntúa en positivo la austeridad económica, al margen de la garantía de derechos;
+3. otra lectura anima a la abstención, porque todos los programas llevaban la alerta de riesgo de viabilidad.
+
+Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV publicado y la regla de riesgo. La clasificación fiscal se conserva como archivo ([CRITERIOS-IMPACTO-FISCAL.md](CRITERIOS-IMPACTO-FISCAL.md)).
 
 ### Franja final (`Cierre`)
 
@@ -190,26 +176,13 @@ La capa crítica. Una tarjeta por partido:
 | **Peso de un tema** | medidas del partido en el tema ÷ total de medidas del partido | Barritas, barras, mapa, bloque de partido | Comparar programas de 100 y de 241 medidas. El recuento absoluto premiaba al más largo |
 | **Puesto del tema** | Orden de los 18 temas por peso dentro de cada programa, con aviso de empate | Bloque de partido | Responder a «qué importa más a cada uno» |
 | **Media** | Peso medio entre programas publicados | Columna del mapa | Una referencia común sin sesgo de extensión |
-| **Ratio de las cuentas** | medidas que restan ÷ medidas que suman | Tarjetas de las cuentas | ¿Dice cómo pagar lo que promete? |
-| **Riesgo de viabilidad** | restan > 2 × suman, o restan y ninguna suma | Etiqueta roja | Regla mecánica, la misma para todos. El umbral está en `config/fiscal.json` |
-
-**Restan** dinero las medidas que bajan impuestos o suben el gasto. **Suman** las que suben ingresos o recortan gasto.
 
 ### Codificación visual
 
 - **Mapa:** área de la burbuja ∝ peso, con escala raíz cuadrada. Radio entre 3,5 y 15 px; el mínimo sirve para que un tema con una sola medida se vea.
 - **Barritas de los mosaicos:** escala raíz. Son un índice visual; las cifras exactas están en el mapa y en cada tema.
-- **Barras de tema y de cuentas:** escala **lineal** y **común a todos los partidos y temas**. Al cambiar de tema, la animación enseña diferencias reales, no reescaladas.
+- **Barras de tema:** escala **lineal** y **común a todos los partidos y temas**. Al cambiar de tema, la animación enseña diferencias reales, no reescaladas.
 - **Reparto del trabajo:** D3 calcula escalas y anima (anchos, radios, opacidades) y React pinta la estructura. Con «reducir movimiento» no hay animaciones.
-
-### Lenguaje de las cuentas
-
-- **Verbos:** se usa «**restan / suman** dinero a las cuentas públicas», no «cuestan / aportan». Decir que una medida de gasto «cuesta» era redundante y confuso.
-- **Gráfico:** cada barra dice lo que hacen las medidas («Suben el gasto público»). Se descartó una balanza de filas × columnas porque «Restan» junto a «Gasto» se leía como «restan gasto», es decir, un recorte.
-- **Límites a la vista:**
-  - Se cuentan medidas, no euros.
-  - No cuenta como medida que suma la promesa de que algo «se pagará solo».
-  - La clasificación es preliminar.
 
 ---
 
@@ -245,10 +218,8 @@ La capa crítica. Una tarjeta por partido:
 
 - **Se adapta al contenedor, no a la ventana:** `@container` sobre el ancho real de la columna de Divi.
   - **560 px:** el mapa crece y aparecen los números de tema; el selector de temas deja de ser un desplegable.
-  - **620 px:** las tarjetas de las cuentas pasan a 2 columnas.
   - **760 px:** cambios de rejilla intermedios.
   - **900 px:** mapa con su introducción al lado y modo de lectura en paralelo.
-  - **1000 px:** tarjetas de las cuentas a 3 columnas.
 - **Shadow DOM:** los estilos del tema WordPress no entran en la herramienta y los de la herramienta no salen. Se ha probado con una página de CSS «hostil».
 - **Cabecera fija de Divi:** `data-margen` compensa su altura en los saltos y en las cabeceras fijas de cada partido.
 - **Bloque limpio:** un comentario, un contenedor y un script. Los datos, el JS y los logos se publican aparte (ver el README).
@@ -259,8 +230,8 @@ La capa crítica. Una tarjeta por partido:
 
 - **Orden:** alfabético por sigla en toda la herramienta.
 - **Atribución:** solo se atribuye a un partido lo que dice su texto literal, con enlace a la página del PDF.
-- **Clasificación:** la temática y la fiscal siguen criterios escritos e iguales para todos ([CRITERIOS-CLASIFICACION.md](CRITERIOS-CLASIFICACION.md), [CRITERIOS-IMPACTO-FISCAL.md](CRITERIOS-IMPACTO-FISCAL.md)). Son preliminares y están pendientes de revisión humana.
-- **Sin veredictos escritos a mano:** la crítica sale de hechos comprobables (contrapartidas, memoria económica, importes) y de reglas mecánicas (la etiqueta de riesgo).
+- **Clasificación:** la temática sigue criterios escritos e iguales para todos ([CRITERIOS-CLASIFICACION.md](CRITERIOS-CLASIFICACION.md)). La fiscal ya no se publica (apartado 4).
+- **Sin veredictos:** la herramienta muestra textos literales y pesos de cada tema; no puntúa ni etiqueta los programas.
 - **Peso ≠ calidad:** más espacio no significa mejores propuestas, y se recuerda junto a cada gráfico.
 
 ---
@@ -280,6 +251,8 @@ La capa crítica. Una tarjeta por partido:
 | 14-11 | Franja final «El próximo 29 de noviembre»; reloj en una fila y sin pausa |
 | 14-11 | UPC en el teal de su «P»; logos oficiales de los cinco; colores de PP y PSOE tomados de sus logos |
 | 14-11 | Se deja de cargar DM Serif Display, sin uso desde que se quitó la cita |
+| 16-11 | Se quita el modo boceto: sin franja de aviso |
+| 16-11 | Se descarta **la prueba de las cuentas**: es difícil de interpretar, una de sus lecturas premia la austeridad al margen de la garantía de derechos y la alerta de riesgo, común a todos los programas, podía animar a la abstención |
 
 ---
 

@@ -2,14 +2,22 @@
 type: metodologia
 fase: investigacion
 proyecto: PE_29N
-tags: [PE_29N, impacto-fiscal, prueba-de-las-cuentas, criterios]
-status: vigente
+tags: [PE_29N, impacto-fiscal, prueba-de-las-cuentas, criterios, descartado]
+status: descartado
 actualizado: 2026-11-16
 aliases: ["PE_29N · Criterios de impacto fiscal"]
 fuente: "OBSERVATORIO/Programas electorales 29N/docs/CRITERIOS-IMPACTO-FISCAL.md"
 ---
 
 # Criterios de clasificación del impacto fiscal
+
+> **Descartado el 16-11-2026.** El equipo decidió no publicar la prueba de las cuentas por tres motivos:
+>
+> 1. es difícil de interpretar;
+> 2. una de sus lecturas principales puntúa en positivo la austeridad económica, al margen de la garantía de derechos;
+> 3. otra lectura anima a la abstención, porque todos los programas llevaban la alerta de riesgo de viabilidad.
+>
+> Ya no está en la web ni en el CSV publicado, y se quitó la regla de «riesgo de viabilidad». Este documento y la clasificación (`datos/fiscal/`) se conservan como archivo, sin uso en la herramienta.
 
 **La prueba de las cuentas.** Un programa que baja impuestos y sube el gasto sin decir de dónde saldrá el dinero promete más de lo que puede pagar. Para comprobarlo con los mismos criterios en todos los programas, cada medida se etiqueta según el **efecto presupuestario que declara**.
 

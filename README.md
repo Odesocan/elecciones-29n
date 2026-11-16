@@ -18,7 +18,6 @@ Permite comparar, en **18 temas**, las medidas de los programas electorales de *
 - Con su **texto literal**, verificado letra a letra contra el PDF oficial.
 - Con un enlace a la página exacta del documento.
 - Con el **peso** que cada partido da a cada tema: el % de su programa.
-- Con **la prueba de las cuentas**, una lectura crítica que va más allá de describir. Cuenta cuántas medidas de cada programa **restan** dinero a las cuentas públicas (bajan impuestos o suben el gasto) y cuántas lo **suman** (suben ingresos o recortan gasto). Con eso calcula el ratio «1 : x» y comprueba si cada programa dice cuánto dinero hace falta para lo que promete.
 
 Se publica como un **bloque de código para Divi**: unas pocas líneas que se pegan en un módulo «Código».
 
@@ -30,7 +29,7 @@ Se publica como un **bloque de código para Divi**: unas pocas líneas que se pe
 | UPC · *Una sola papeleta. Todo un pueblo* (manifiesto facilitado por el partido) | publicado | 16 ejes |
 | Vox · *Es sentido común* | publicado | 115 |
 
-> La clasificación temática y la fiscal las hizo un agente de IA con reglas escritas. El equipo **revisó la fiscal el 16-11-2026 y la da por correcta**; la temática sigue **pendiente de revisión humana**. Los textos son 972 de 972 literales. El detalle está en [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md).
+> La clasificación temática la hizo un agente de IA con reglas escritas y sigue **pendiente de revisión humana**. Los textos son 972 de 972 literales; el detalle está en [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md). **La prueba de las cuentas (impacto fiscal) se descartó el 16-11-2026** y ya no se publica: los motivos están en [docs/CRITERIOS-IMPACTO-FISCAL.md](docs/CRITERIOS-IMPACTO-FISCAL.md).
 
 ---
 
@@ -88,7 +87,7 @@ flowchart LR
 ├── config/                      FUENTE ÚNICA DE VERDAD (la leen Python y la web)
 │   ├── partidos.json            siglas, nombres, colores, logos, URL + SHA-256 del PDF oficial
 │   ├── temas.json               las 18 temáticas: id, nombre y alcance (regla pública)
-│   ├── fiscal.json              categorías de la prueba de las cuentas (resta / suma)
+│   ├── fiscal.json              categorías de impacto fiscal (archivo: la prueba de las cuentas se descartó)
 │   └── campana.json             fechas, aviso de boceto, enlaces, publicación en Divi
 │
 ├── pipeline/                    ① DE LOS PDF AL CSV (Python ≥ 3.10)
@@ -114,12 +113,12 @@ flowchart LR
 │   ├── texto/                   caché de extracción (no va a git)
 │   ├── segmentos/{id}.jsonl     una medida por línea
 │   ├── clasificacion/{id}.json  temas de cada medida (IA + revisión humana)
-│   ├── fiscal/{id}.json         impacto fiscal de cada medida (IA + revisión humana)
+│   ├── fiscal/{id}.json         impacto fiscal de cada medida (archivo, ya no se publica)
 │   ├── revision/                revision-clasificacion.csv: hoja de trabajo del equipo
 │   ├── igds/                    IGDS: fase0.json, codificacion/ (IA), ajustes.json (coherencia),
 │   │                            validacion/ (hojas A, B y C para el equipo), igds-medidas.csv,
 │   │                            igds-areas.csv, igds-resultados.json (lotes/ no va a git)
-│   └── informes/                verificacion.json (qué se volcó, recuento de las cuentas)
+│   └── informes/                verificacion.json (qué se volcó y recuento por tema)
 │                                contraste-fiscal.md (qué revisar), igds.md, igds-contraste.md
 │                                e igds-validacion.md
 │
@@ -133,7 +132,7 @@ flowchart LR
 │   │   ├── util.js              formato, colores accesibles, URL, compartir
 │   │   ├── estilos.css          sistema visual .np (aislado en el Shadow DOM)
 │   │   └── componentes/         Hero · CuentaAtras · SelectorTemas · VistaTema
-│   │                            MapaProgramas · CuentasProgramas · Cierre · LogoPartido
+│   │                            MapaProgramas · Cierre · LogoPartido
 │   ├── public/data/programas.csv  ← lo escribe el pipeline (contrato ①→②)
 │   ├── public/logos/            logos oficiales (cuando lleguen)
 │   ├── scripts/empaquetar-divi.mjs   ③ monta divi/
@@ -151,7 +150,7 @@ flowchart LR
 └── docs/
     ├── DISENO.md                    resumen del diseño: relato, sistema visual, componentes, métricas
     ├── CRITERIOS-CLASIFICACION.md   reglas de clasificación temática (las mismas para todos)
-    ├── CRITERIOS-IMPACTO-FISCAL.md  reglas de la prueba de las cuentas
+    ├── CRITERIOS-IMPACTO-FISCAL.md  reglas de la prueba de las cuentas (descartada el 16-11-2026)
     ├── CRITERIOS-IGDS.md            libro de códigos del IGDS y reglas operativas (prueba)
     ├── ANALISIS-IGDS.md             análisis previo de los resultados del IGDS, antes de visualizarlo
     ├── VALIDACION-IGDS.md           instrucciones para validar el IGDS (hojas A, B y C)
@@ -165,8 +164,8 @@ flowchart LR
 | `config/*.json` | el equipo | pipeline y web | ver el campo `_leeme` de cada archivo |
 | `datos/segmentos/{id}.jsonl` | `segmentar` | `clasificar`, `exportar` | `id` (`pp-083`), `partido`, `ref`, `pagina`, `apartado` (lista: capítulo › apartado), `titulo`, `texto`, `aviso`, `piezas?` |
 | `datos/clasificacion/{id}.json` | IA / equipo (`clasificar revision`) | `exportar` | `{"pp-083": ["tema principal", "otro"]}` (de 1 a 3 temas) |
-| `datos/fiscal/{id}.json` | IA / equipo (`clasificar revision`) | `exportar` | `{"pp-083": ["menos_ingresos"]}` (de 0 a 4 etiquetas; `[]` = sin impacto) |
-| `web/public/data/programas.csv` | `exportar` | web ([datos.js](web/src/datos.js)) | `partido, tema, ref, pagina, titulo, texto, url, nota, fiscal`. `tema` lleva los ids separados por `;`, con el principal primero. `fiscal` lleva las etiquetas separadas por `;`, o `pendiente` si aún no se ha clasificado |
+| `datos/fiscal/{id}.json` | IA / equipo (`clasificar revision`) | `exportar` (solo la hoja de revisión) | `{"pp-083": ["menos_ingresos"]}` (de 0 a 4 etiquetas; `[]` = sin impacto). Archivo: ya no se publica |
+| `web/public/data/programas.csv` | `exportar` | web ([datos.js](web/src/datos.js)) | `partido, tema, ref, pagina, titulo, texto, url, nota`. `tema` lleva los ids separados por `;`, con el principal primero. Desde el 16-11-2026 no lleva la columna `fiscal` |
 | `divi/*` | `empaquetar-divi.mjs` | WordPress / Divi | ver [Publicar en Divi](#publicar-en-divi) |
 
 La web solo conoce `programas.csv` y `config/`. Por eso también acepta un CSV hecho a mano o una Google Sheet publicada como CSV, siempre que tenga esas columnas.
@@ -309,10 +308,9 @@ El `.gitignore` deja fuera:
 
 1. Abre `datos/revision/revision-clasificacion.csv` en Excel. El separador es «;».
 2. En cada fila:
-   - Marca `revisado_ok` si los temas y el impacto fiscal están bien.
+   - Marca `revisado_ok` si los temas están bien.
    - O escribe en `correccion` los temas correctos, con el principal primero. Ejemplo: `vivienda;economia`.
-   - O escribe en `correccion_fiscal` las etiquetas fiscales correctas. Ejemplo: `menos_ingresos;menos_gasto`. Para dejar una medida sin impacto, escribe `ninguno`.
-   - Para empezar por lo más dudoso, mira `datos/informes/contraste-fiscal.md` (lo genera `python3 maestro.py clasificar contrastar`).
+   - Las columnas `impacto_fiscal` y `correccion_fiscal` se conservan como archivo: la prueba de las cuentas se descartó el 16-11-2026 y no hace falta revisarlas.
    - La columna `apartado` dice en qué capítulo y apartado del programa está la medida. Sirve de contexto, sobre todo en las viñetas breves del PSOE, pero el tema lo decide lo que la medida hace.
 3. Aplica las correcciones:
    ```bash
@@ -323,7 +321,7 @@ El `.gitignore` deja fuera:
    python3 maestro.py
    ```
 
-Las columnas que escribe el equipo se conservan siempre. Los criterios están en [docs/CRITERIOS-CLASIFICACION.md](docs/CRITERIOS-CLASIFICACION.md) y [docs/CRITERIOS-IMPACTO-FISCAL.md](docs/CRITERIOS-IMPACTO-FISCAL.md). Cuando la revisión termine, en `config/campana.json` pon `boceto.activo: false` y quita o cambia `boceto.aviso`.
+Las columnas que escribe el equipo se conservan siempre. Los criterios están en [docs/CRITERIOS-CLASIFICACION.md](docs/CRITERIOS-CLASIFICACION.md). El modo boceto (`boceto.activo` y `boceto.aviso` en `config/campana.json`) está desactivado desde el 16-11-2026.
 
 ### Añadir un programa nuevo
 
@@ -429,19 +427,12 @@ Los md del proyecto están en el vault de ODESOCAN (`OBSERVATORIO/Obsidian`) con
   - El cálculo está en `indexar()` ([web/src/datos.js](web/src/datos.js)).
 - **Peso ≠ calidad.** Se repite en el mapa y en las barras: lo que dicen solo se sabe leyendo.
 - **Cierre.** Solo la franja de campaña «Lee. Compara. Decide.» con el botón de compartir. La cita, la lista de PDF y el apartado de método se quitaron a petición del equipo el 14-11-2026. Los PDF siguen enlazados en el bloque de cada partido y en cada medida, y el método está en este README y en docs/.
-- **La prueba de las cuentas (capa crítica).** Bajar impuestos y subir el gasto restan dinero a las cuentas públicas. Hacerlo sin medidas que lo sumen es prometer más de lo que se puede pagar.
-  - **Vocabulario:** se dice «restan / suman» y no «cuestan / aportan», porque decir que una medida de gasto «cuesta» era redundante y confuso.
-  - **Gráfico:** dos bloques, «Restan dinero a las cuentas públicas» y «Suman dinero a las cuentas públicas». Cada barra dice lo que hacen las medidas («Suben el gasto», «Recortan gasto»…). Se descartó una balanza de filas × columnas porque «Restan» junto a «Gasto» se leía como «restan gasto», es decir, un recorte. Para comprobarlo con la misma regla en todos los programas:
-  - Cada medida se etiqueta según el efecto presupuestario que **declara** ([criterios](docs/CRITERIOS-IMPACTO-FISCAL.md)).
-  - Se muestran el ratio «1 : x» (cuántas medidas restan dinero por cada una que lo suma), las cifras absolutas y su peso en el programa.
-  - Se comprueban tres cosas: si las medidas dicen en euros cuánto dinero suponen, si el programa trae memoria económica (`memoria_economica` en `config/partidos.json`) y si promete a la vez reducir el déficit o la deuda.
-  - **Etiqueta roja «Riesgo de viabilidad»** junto al nombre del partido cuando las medidas que restan dinero son **más del doble** de las que lo suman (o restan y ninguna suma). La regla y el umbral están en `config/fiscal.json → riesgo_viabilidad`, son iguales para todos y se explican en una leyenda encima de las tarjetas. La etiqueta lleva icono y texto para no confundirse con el rojo corporativo de un partido.
-  - No hay un texto de conclusión: hablan las tarjetas y la etiqueta, que se calculan con los datos y cambian solas cuando cambian.
-  - Límites, que se dicen en la propia sección:
-    - Se cuentan medidas, no euros.
-    - No se acepta como contrapartida que una medida «se pagará sola» con el crecimiento.
-    - No se emite un veredicto por partido: se aplica la misma prueba a todos.
-  - Colores: los dos lados (suma / resta) tienen colores fijos, iguales para todos los partidos. El color de cada partido solo identifica de quién es la tarjeta.
+- **La prueba de las cuentas: descartada el 16-11-2026.** Contaba, por partido, las medidas que restan y las que suman dinero a las cuentas públicas, con un ratio «1 : x» y una etiqueta roja de «Riesgo de viabilidad». El equipo la descartó por tres motivos:
+  1. es difícil de interpretar;
+  2. una de sus lecturas principales puntúa en positivo la austeridad económica, al margen de la garantía de derechos;
+  3. otra lectura anima a la abstención, porque todos los programas llevaban la alerta de riesgo de viabilidad.
+
+  Se quitaron de la web la sección, las etiquetas de cada medida y la regla de riesgo, y del CSV publicado, la columna `fiscal`. La clasificación fiscal (`datos/fiscal/`) y sus criterios se conservan como archivo.
 - **Literalidad.** Solo se publican textos que aparecen letra a letra en el PDF oficial. Las erratas del original se respetan.
 - **Accesibilidad.**
   - Objetivos táctiles ≥ 44 px, `aria-pressed` y región `aria-live`.
@@ -463,9 +454,9 @@ El detalle, con la atribución sugerida, está en [LICENSE-DATOS.md](LICENSE-DAT
 
 - [ ] Confirmar el color de CC–1ºC. Los demás salen de sus logos oficiales (14-11-2026): PP #1E4B8F, PSOE #DA0200, Vox #5AC035 y UPC #3D9E9A (la «P», no el amarillo). CC–1ºC mantiene el amarillo #FFC800, común a sus dos logos.
 - [ ] Revisión humana de la clasificación temática. El equipo hizo una revisión parcial (16-11-2026) y pidió dos temas nuevos, «infancia» e «idi», ya creados. Queda revisar el resto, empezando por los casos dudosos de [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md): el reparto de «administraciones» entre `estado` y `justicia`, y las 71 medidas de los temas nuevos.
-- [x] Revisión humana de la clasificación fiscal: hecha por el equipo el 16-11-2026 en los cuatro programas cargados, que la da por correcta. La de UPC, cargada después, está pendiente.
+- [x] Revisión humana de la clasificación fiscal: hecha por el equipo el 16-11-2026 en los cuatro programas cargados. Ese mismo día se descartó la prueba de las cuentas, así que la de UPC ya no hace falta revisarla.
 - [ ] IGDS (prueba): rellenar las hojas de validación de `datos/igds/validacion/` siguiendo [docs/VALIDACION-IGDS.md](docs/VALIDACION-IGDS.md) (la A, primero y a ciegas), ejecutar `igds concordancia` y decidir los 8 puntos abiertos del libro de códigos ([docs/ANALISIS-IGDS.md](docs/ANALISIS-IGDS.md)); después, decidir su visualización.
-- [x] UPC: su manifiesto, facilitado directamente por el partido como único documento programático, se cargó el 16-11-2026 (16 ejes) y se codificó en el IGDS el mismo día (lotes 23 y 24: N 75, IGDS 0,0, declarativas 70,7 %). Falta que el equipo revise su clasificación temática y fiscal, y validar su codificación con el resto (hojas A y C).
+- [x] UPC: su manifiesto, facilitado directamente por el partido como único documento programático, se cargó el 16-11-2026 (16 ejes) y se codificó en el IGDS el mismo día (lotes 23 y 24: N 75, IGDS 0,0, declarativas 70,7 %). Falta que el equipo revise su clasificación temática y validar su codificación del IGDS con el resto (hojas A y C).
 - [x] Revisión cruzada de la clasificación del PSOE (temas y fiscal), hecha el 16-11-2026: se leyeron las 500 medidas y se compararon con las equivalentes de los otros tres programas. El resultado está en [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md).
 - [x] Repositorio público y publicación: https://github.com/Odesocan/elecciones-29n con GitHub Pages (16-11-2026); `publicacion.base_url` apunta a `https://odesocan.github.io/elecciones-29n/divi/`.
 - [x] Licencia del repositorio (16-11-2026): código MIT y datos y documentación de ODESOCAN CC BY 4.0. Los textos de los programas, el PDF de UPC y los logos quedan fuera ([LICENSE-DATOS.md](LICENSE-DATOS.md)).

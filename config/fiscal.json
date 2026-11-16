@@ -1,10 +1,9 @@
 {
   "_leeme": [
-    "Prueba de las cuentas: impacto presupuestario que DECLARA cada medida. Lo leen el pipeline y la web.",
+    "DESCARTADA el 16-11-2026 · Prueba de las cuentas: impacto presupuestario que DECLARA cada medida. Ya no se publica: solo se conserva, archivada, en la hoja de revisión interna (motivos en docs/CRITERIOS-IMPACTO-FISCAL.md).",
     "lado: «resta» (resta dinero a las cuentas públicas: ingresa menos o gasta más), «suma» (ingresa más o gasta menos), «compromiso» (objetivo genérico) o «marca» (dato extra).",
     "Reglas completas de clasificación: docs/CRITERIOS-IMPACTO-FISCAL.md. Clasificación: datos/fiscal/{partido}.json.",
-    "Si se cambia un id, hay que cambiarlo también en datos/fiscal/*.json; «clasificar validar --dimension fiscal» lo detecta.",
-    "riesgo_viabilidad: etiqueta roja junto al partido cuando las medidas que restan dinero son más de «umbral» veces las que lo suman (o restan y ninguna suma)."
+    "Si se cambia un id, hay que cambiarlo también en datos/fiscal/*.json; «clasificar validar --dimension fiscal» lo detecta."
   ],
   "categorias": [
     {
@@ -49,10 +48,5 @@
       "corto": "Con importe",
       "alcance": "La medida dice en euros cuánto dinero público supone: lo que gasta, moviliza o recauda."
     }
-  ],
-  "riesgo_viabilidad": {
-    "umbral": 2,
-    "etiqueta": "Riesgo de viabilidad",
-    "regla": "Las medidas que restan dinero a las cuentas públicas son más del doble de las que lo suman."
-  }
+  ]
 }

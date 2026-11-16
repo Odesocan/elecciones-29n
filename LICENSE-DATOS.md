@@ -16,7 +16,7 @@ Se puede usar, copiar, modificar y redistribuir, también con fines comerciales,
 
 El trabajo propio del Observatorio de Derechos Sociales de Canarias (ODESOCAN) se publica bajo **Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**: https://creativecommons.org/licenses/by/4.0/deed.es. Incluye:
 
-- la clasificación temática y fiscal de las medidas (`datos/clasificacion/`, `datos/fiscal/`, y las columnas `tema` y `fiscal` de los CSV);
+- la clasificación temática de las medidas (`datos/clasificacion/` y la columna `tema` de los CSV) y la clasificación fiscal archivada (`datos/fiscal/`), que ya no se publica en la herramienta;
 - la segmentación en medidas y sus metadatos (identificadores, páginas, apartados, avisos), sin el texto de los programas;
 - la codificación, los resultados y las hojas de validación del IGDS (`datos/igds/`);
 - los informes (`datos/informes/`) y la hoja de revisión (`datos/revision/`);

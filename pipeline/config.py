@@ -36,11 +36,6 @@ def fiscal():
     return _leer('fiscal.json')['categorias']
 
 
-def riesgo_viabilidad():
-    """Regla de la etiqueta roja: restan > umbral × suman."""
-    return _leer('fiscal.json')['riesgo_viabilidad']
-
-
 def ids_fiscal():
     return [c['id'] for c in fiscal()]
 
