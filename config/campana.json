@@ -5,7 +5,7 @@
     "boceto.activo: muestra «logo» en los huecos sin logo. boceto.aviso: franja superior; \"\" para quitarla.",
     "  Cuando el equipo haya revisado la clasificación: activo=false y cambiar o vaciar el aviso.",
     "fecha_comprobacion: última vez que se buscaron los programas pendientes (se muestra en PSOE/UPC).",
-    "igds.activo: muestra el apartado «Prometer no es garantizar» (IGDS). Activo desde el 16-11-2026, con el sello de provisional hasta que el equipo valide la codificación;",
+    "igds.activo: muestra el apartado «Prometer no es garantizar» (IGDS). Se publicó el 16-11-2026 y se retiró de la web ese mismo día a petición del equipo (false);",
     "  en el servidor de desarrollo (maestro.py servir) se ve siempre, para revisarlo. igds.sello: aviso junto al título (\"\" para quitarlo).",
     "  Textos del apartado: config/igds.json → web. Datos: «python3 maestro.py igds calcular».",
     "publicacion.base_url: URL pública de la carpeta divi/ terminada en «/». Con ella se genera el bloque limpio. Desde el 16-11-2026 es GitHub Pages del repositorio público.",
@@ -26,7 +26,7 @@
   },
   "fecha_comprobacion": "16 de noviembre de 2026",
   "igds": {
-    "activo": true,
+    "activo": false,
     "sello": "Provisional · pendiente de validación humana"
   },
   "articulos_visibles": 3,

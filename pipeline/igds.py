@@ -3,7 +3,7 @@
 Cuántas medidas de cada 100 del programa son garantías objetivas de derechos
 sociales. Libro de códigos y reglas operativas: docs/CRITERIOS-IGDS.md.
 Produce datos, un informe para analizarlos y el resumen que usa el apartado
-«Prometer no es garantizar» de la herramienta (provisional hasta la validación humana).
+«Prometer no es garantizar» de la herramienta (retirado de la web el 16-11-2026).
 
     python3 maestro.py igds fase0      ¿se lee completo cada programa?
     python3 maestro.py igds preparar   lotes de codificación (medidas + prosa)
