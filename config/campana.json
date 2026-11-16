@@ -18,8 +18,8 @@
     "cierre_colegios": "2026-11-29T20:00:00Z"
   },
   "boceto": {
-    "activo": true,
-    "aviso": "Boceto · Textos literales de los programas publicados · Clasificación temática preliminar, pendiente de revisión"
+    "activo": false,
+    "aviso": ""
   },
   "fecha_comprobacion": "16 de noviembre de 2026",
   "articulos_visibles": 3,

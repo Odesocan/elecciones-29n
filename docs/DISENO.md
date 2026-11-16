@@ -41,7 +41,7 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 ## 2. Recorrido de la página
 
 ```
-┌ Franja de aviso (rayada) ─ «Boceto · Textos literales… · Clasificación preliminar…»
+┌ Franja de aviso (rayada), solo en modo boceto: desactivada desde el 16-11-2026
 ├ BANDA TEAL ───────────────────────────────────────────────────────────────
 │  Antetítulo «Elecciones generales / 29 de noviembre»   QUEDAN [14][20][51][48]
 │  LEE,  NO SE LO / [ESPERAN.]
@@ -289,4 +289,4 @@ La capa crítica. Una tarjeta por partido:
 - [ ] Decidir si se recupera en algún sitio discreto la explicación del método, que hoy solo está en este repositorio.
 - [ ] Valorar si se oculta la sigla cuando el logo ya la contiene (PP, PSOE, Vox), por ejemplo «PSOE/♥ PSOE».
 - [x] Contraste entre el teal de UPC y el teal de «suman»: las barras de las cuentas usan el navy y el teal de «suman», no el color del partido, así que no se confunden (comprobado al entrar UPC, 16-11).
-- [ ] Quitar el modo boceto (franja de aviso) cuando el equipo revise la clasificación.
+- [x] Quitar el modo boceto (franja de aviso y «logo» en los huecos sin logo): desactivado el 16-11-2026 (`boceto.activo: false`, `boceto.aviso: ""`).
