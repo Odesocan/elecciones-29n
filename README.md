@@ -81,6 +81,8 @@ flowchart LR
 ├── maestro.py                   ← script maestro: orquesta todas las etapas
 ├── requirements.txt             pypdf (versión fijada: la extracción depende de ella)
 ├── index.html                   página publicada en GitHub Pages (la genera `maestro.py divi`)
+├── LICENSE                      licencia MIT del código
+├── LICENSE-DATOS.md             CC BY 4.0 de los datos y documentos de ODESOCAN; qué es de terceros
 ├── .nojekyll                    GitHub Pages sirve los archivos tal cual
 │
 ├── config/                      FUENTE ÚNICA DE VERDAD (la leen Python y la web)
@@ -449,6 +451,14 @@ Los md del proyecto están en el vault de ODESOCAN (`OBSERVATORIO/Obsidian`) con
 - **URL compartible.** `?tema=vivienda&partidos=pp+vox` abre ese tema con esos partidos. Se usa `replaceState`, no `#`, porque Divi salta a las anclas.
 - **Fuentes.** IBM Plex Sans/Mono (sistema `.np` de ODESOCAN) y Anton para el eco del cartel, desde Google Fonts. Si la web las aloja en local por RGPD, quita `cargarFuentes()` de [web/src/embed.jsx](web/src/embed.jsx).
 
+## Licencia
+
+- **Código** (`maestro.py`, `pipeline/`, `web/` y lo que genera en `divi/` e `index.html`): [MIT](LICENSE).
+- **Datos, clasificaciones, criterios y documentación de ODESOCAN:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). Se pueden reutilizar citando a ODESOCAN.
+- **No los cubre ninguna licencia:** los textos literales de los programas, el manifiesto de UPC y los logos. Son de cada partido y coalición.
+
+El detalle, con la atribución sugerida, está en [LICENSE-DATOS.md](LICENSE-DATOS.md).
+
 ## Pendiente
 
 - [ ] Confirmar el color de CC–1ºC. Los demás salen de sus logos oficiales (14-11-2026): PP #1E4B8F, PSOE #DA0200, Vox #5AC035 y UPC #3D9E9A (la «P», no el amarillo). CC–1ºC mantiene el amarillo #FFC800, común a sus dos logos.
@@ -458,4 +468,4 @@ Los md del proyecto están en el vault de ODESOCAN (`OBSERVATORIO/Obsidian`) con
 - [x] UPC: su manifiesto, facilitado directamente por el partido como único documento programático, se cargó el 16-11-2026 (16 ejes). Falta que el equipo revise su clasificación temática y fiscal, y codificarlo en el IGDS si se quiere incluir.
 - [x] Revisión cruzada de la clasificación del PSOE (temas y fiscal), hecha el 16-11-2026: se leyeron las 500 medidas y se compararon con las equivalentes de los otros tres programas. El resultado está en [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md).
 - [x] Repositorio público y publicación: https://github.com/Odesocan/elecciones-29n con GitHub Pages (16-11-2026); `publicacion.base_url` apunta a `https://odesocan.github.io/elecciones-29n/divi/`.
-- [ ] Licencia del repositorio.
+- [x] Licencia del repositorio (16-11-2026): código MIT y datos y documentación de ODESOCAN CC BY 4.0. Los textos de los programas, el PDF de UPC y los logos quedan fuera ([LICENSE-DATOS.md](LICENSE-DATOS.md)).

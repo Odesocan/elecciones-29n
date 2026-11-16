@@ -141,7 +141,7 @@ writeFileSync(
 <main class="pagina">
 ${bloque('divi/', { logosURL: logos.length ? 'divi/logos/' : 'ninguno', margen: 16 })}</main>
 <footer class="pie">
-  Observatorio de Derechos Sociales de Canarias (ODESOCAN) · <a href="https://odesocan.org">odesocan.org</a>${REPO ? ` · Código, datos y método: <a href="${REPO}">${REPO.replace(/^https:\/\//, '')}</a>` : ''} · Versión ${version} · ${hoy}
+  Observatorio de Derechos Sociales de Canarias (ODESOCAN) · <a href="https://odesocan.org">odesocan.org</a>${REPO ? ` · Código, datos y método: <a href="${REPO}">${REPO.replace(/^https:\/\//, '')}</a> · <a href="${REPO}/blob/main/LICENSE-DATOS.md">Licencias</a>: código MIT, datos CC BY 4.0; los textos de los programas y los logos son de cada partido` : ''} · Versión ${version} · ${hoy}
 </footer>
 </body>
 </html>
