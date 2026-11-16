@@ -2,7 +2,8 @@
 
 Cuántas medidas de cada 100 del programa son garantías objetivas de derechos
 sociales. Libro de códigos y reglas operativas: docs/CRITERIOS-IGDS.md.
-Todavía no tiene visualización: produce datos y un informe para analizarlos.
+Produce datos, un informe para analizarlos y el resumen que usa el apartado
+«Prometer no es garantizar» de la herramienta (oculto hasta la validación humana).
 
     python3 maestro.py igds fase0      ¿se lee completo cada programa?
     python3 maestro.py igds preparar   lotes de codificación (medidas + prosa)
@@ -573,6 +574,7 @@ def calcular(pids):
             }
     (rutas.IGDS / 'igds-resultados.json').write_text(json.dumps(resultados, ensure_ascii=False, indent=1),
                                                      encoding='utf-8')
+    _web(pids, filas, resultados)
     _informe(pids, resultados, f0, nombre_area, cfg)
     for pid in pids:
         g = resultados[pid]['global']
@@ -583,6 +585,77 @@ def calcular(pids):
     print(f'   → {rutas.relativa(rutas.IGDS / "igds-medidas.csv")} · {rutas.relativa(rutas.IGDS / "igds-areas.csv")} · '
           f'{rutas.relativa(rutas.INFORMES / "igds.md")}')
     return all(all(r['control'].values()) for r in resultados.values())
+
+
+# ── Resumen para la herramienta ─────────────────────────────────────────
+# Cada medida va a UNA categoría, en este orden (es también el orden de las
+# casillas en el gráfico «De cada 100 medidas»). La marca DEC se cuenta
+# aparte dentro de cada categoría: una declarativa puede estar en cualquiera.
+CATEGORIAS_WEB = ['g', 'near', 'otros', 'reg', 'fuera']
+# Categorías cuyas medidas se pueden leer en la herramienta (fragmento literal).
+LEGIBLES_WEB = ['g', 'near', 'reg']
+WEB_JSON = 'igds-web.json'                                    # resumen: va dentro del JS
+WEB_MEDIDAS = rutas.WEB / 'public' / 'data' / 'igds-medidas.json'  # textos: se piden al abrir una lista
+
+
+def _categoria(f):
+    """g: las cuatro dimensiones · reg: regresiva · near: tres de cuatro (sin
+    ser regresiva) · otros: una o dos · fuera: ninguna (no trata un derecho social)."""
+    s = sum(f[d] for d in DIMS)
+    if f['g']:
+        return 'g'
+    if f['reg']:
+        return 'reg'
+    return 'near' if s == 3 else 'otros' if s else 'fuera'
+
+
+def _web(pids, filas, resultados):
+    """Lo que necesita el apartado IGDS de la web (web/src/componentes/Garantias.jsx),
+    en dos archivos para no cargar el JS de la herramienta con textos:
+      · datos/igds/igds-web.json (va dentro del JS): recuentos por categoría,
+        la dimensión que falta en las medidas a una respuesta y las áreas;
+      · web/public/data/igds-medidas.json (se publica junto al CSV y se pide
+        solo al abrir una lista): síntesis y fragmento literal de las medidas
+        de las categorías que se pueden leer, con su página.
+    Se genera aquí para que la web no recalcule nada: la regla es la de este módulo."""
+    resumen = {
+        '_leeme': 'Generado por «python3 maestro.py igds calcular»: no se edita a mano. Lo usa la web '
+                  '(apartado IGDS). Categorías exclusivas en este orden; cada una con [medidas, de ellas declarativas].',
+        'categorias': CATEGORIAS_WEB,
+        'partidos': {},
+    }
+    textos = {'_leeme': 'Generado por «python3 maestro.py igds calcular». Por partido y categoría: '
+                        '[página, área, síntesis, fragmento literal] y, en «near», la dimensión que falta.'}
+    for pid in pids:
+        fp = [f for f in filas if f['pid'] == pid]
+        cats = {k: [0, 0] for k in CATEGORIAS_WEB}
+        medidas = {k: [] for k in LEGIBLES_WEB}
+        areas = {k: Counter() for k in LEGIBLES_WEB}
+        falta = Counter()
+        for f in fp:
+            k = _categoria(f)
+            cats[k][0] += 1
+            cats[k][1] += f['dec']
+            if k not in medidas:
+                continue
+            m = [f['pagina'], f['area'], f['medida_sintesis'], f['fragmento']]
+            if k == 'near':
+                d = next(d for d in DIMS if not f[d])
+                m.append(d)
+                falta[d] += 1
+            medidas[k].append(m)
+            areas[k][f['area']] += 1
+        g = resultados[pid]['global']
+        resumen['partidos'][pid] = {
+            'n': len(fp), 'igds': g['igds'], 'ir': g['ir'], 'iv': g['iv'],
+            'limitante': g.get('limitante', []), 'categorias': cats,
+            'falta': dict(falta.most_common()),
+            'areas': {k: dict(v.most_common()) for k, v in areas.items()},
+        }
+        textos[pid] = medidas
+    (rutas.IGDS / WEB_JSON).write_text(json.dumps(resumen, ensure_ascii=False, indent=1), encoding='utf-8')
+    WEB_MEDIDAS.parent.mkdir(parents=True, exist_ok=True)
+    WEB_MEDIDAS.write_text(json.dumps(textos, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
 
 
 def _informe(pids, res, f0, nombre_area, cfg):

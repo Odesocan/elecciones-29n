@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { AVISO, PARTIDOS, TEMAS, fijarBaseDatos } from './config.js';
+import { AVISO, IGDS_ACTIVO, PARTIDOS, TEMAS, fijarBaseDatos } from './config.js';
 import { cargarArticulos, indexar } from './datos.js';
 import { escribirURL, guardarLeidos, irA, leerLeidos, leerURL, pctVoz, plural } from './util.js';
 import Hero from './componentes/Hero.jsx';
@@ -7,6 +7,7 @@ import SelectorTemas from './componentes/SelectorTemas.jsx';
 import MapaProgramas from './componentes/MapaProgramas.jsx';
 import VistaTema from './componentes/VistaTema.jsx';
 import Cierre from './componentes/Cierre.jsx';
+import Garantias from './componentes/Garantias.jsx';
 import { ContextoLogos } from './componentes/LogoPartido.jsx';
 
 export default function App({ src, hero = true, logos = './logos/' }) {
@@ -216,6 +217,15 @@ export default function App({ src, hero = true, logos = './logos/' }) {
               onElegir={elegirTema}
               onElegirPartido={elegirPartido}
             />
+          </div>
+        </div>
+      )}
+
+      {/* La capa crítica: el IGDS (oculta hasta que el equipo la valide, ver config/campana.json) */}
+      {estado === 'listo' && IGDS_ACTIVO && (
+        <div className="np-banda np-banda-gar">
+          <div className="np-in">
+            <Garantias />
           </div>
         </div>
       )}

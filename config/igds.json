@@ -1,6 +1,6 @@
 {
   "_leeme": [
-    "IGDS · Índice de Garantía de Derechos Sociales (PRUEBA, sin visualización todavía). Lo lee pipeline/igds.py.",
+    "IGDS · Índice de Garantía de Derechos Sociales (PRUEBA). Lo lee pipeline/igds.py. En la herramienta: apartado «Prometer no es garantizar», oculto hasta la validación humana (config/campana.json → igds.activo).",
     "Libro de códigos y reglas operativas: docs/CRITERIOS-IGDS.md. Codificación: datos/igds/codificacion/. Resultados: datos/igds/ y datos/informes/igds.md.",
     "Primera codificación pendiente de validación humana."
   ],
@@ -37,5 +37,98 @@
     "ciega_ambito_social": 20,
     "ciega_resto": 10,
     "unidades_atomizacion": 10
+  },
+  "web": {
+    "_leeme": [
+      "Textos del apartado IGDS de la herramienta (web/src/componentes/Garantias.jsx). Se muestran tal cual.",
+      "Las cifras no se escriben aquí: salen de datos/igds/igds-web.json («maestro.py igds calcular»).",
+      "Lenguaje inclusivo por colectivización, guion corto, registro técnico y neutral. Tras cambiar algo: «python3 maestro.py divi».",
+      "notas_partido: nota junto al panel de una formación en una categoría (g, near, otros, reg, fuera, dec).",
+      "cierre_exi: solo se muestra si la exigibilidad es la dimensión limitante en todos los programas."
+    ],
+    "kicker": "Índice de garantía de derechos sociales",
+    "titulo": "Prometer no es",
+    "titulo_caja": "garantizar.",
+    "entradilla": "De cada 100 medidas de cada programa, ¿cuántas garantizan un derecho social como lo hace la sanidad pública? Para saberlo, a cada medida se le hacen cuatro preguntas.",
+    "regla": "Cuatro síes: garantía completa. Si falla una, ya no lo es.",
+    "preguntas": [
+      {
+        "dim": "uni",
+        "pregunta": "¿Llega a toda la población?",
+        "breve": "Sin demostrar renta ni méritos, ni haber cotizado antes.",
+        "nota": "Sí, si es para toda la población o para todo el colectivo afectado, por ejemplo todas las familias con menores de 3 años. No, si exige no superar un nivel de renta, demostrar necesidad, ganar una convocatoria o haber cotizado."
+      },
+      {
+        "dim": "exi",
+        "pregunta": "¿Se puede reclamar?",
+        "breve": "Hay una ley, un plazo, una ratio o un estándar que obliga.",
+        "nota": "Sí, si hay una ley que reconoce el derecho, una cartera de servicios garantizada, un plazo máximo, una ratio o un estándar mínimo. No, si se formula como «impulsar», «fomentar», «estudiar» o «promover», o con planes, campañas y convocatorias. Pedir a otra administración que actúe tampoco cuenta."
+      },
+      {
+        "dim": "des",
+        "pregunta": "¿Lo garantiza lo público?",
+        "breve": "Servicio público o gratuito, o un límite al precio.",
+        "nota": "Sí, si lo presta directamente lo público, es gratuito o se regula el precio para todas las personas. No, si son bonos, cheques, deducciones fiscales o ayudas para pagar en el mercado."
+      },
+      {
+        "dim": "ndi",
+        "pregunta": "¿No excluye a nadie?",
+        "breve": "Ni por origen o situación administrativa, ni por sexo, género u orientación.",
+        "nota": "Sí, si no deja fuera a nadie por esos motivos o si corrige una discriminación. No, si excluye a algún grupo, por ejemplo a las personas extranjeras."
+      }
+    ],
+    "categorias": {
+      "g": {
+        "nombre": "Garantía completa",
+        "corto": "Sí a las cuatro preguntas",
+        "explica": "Garantizan un derecho como lo hace la sanidad pública. Es el IGDS: cuántas medidas de cada 100 lo consiguen.",
+        "nota": "Si falla una sola pregunta, la medida ya no cuenta. Por eso es un índice exigente y sus valores son bajos en los cinco programas."
+      },
+      "near": {
+        "nombre": "Se acercan",
+        "corto": "Sí a tres de las cuatro",
+        "explica": "Les falta una sola respuesta para ser una garantía completa.",
+        "nota": "Las regresivas no entran aquí aunque respondan sí a tres preguntas: tienen su propia categoría."
+      },
+      "otros": {
+        "nombre": "Otras medidas sociales",
+        "corto": "Sí a una o dos",
+        "explica": "Tratan un derecho social, pero les faltan dos o tres respuestas para garantizarlo.",
+        "nota": "Son derechos sociales el acceso a la vivienda, la sanidad, la salud mental, la educación, el empleo, los cuidados, un medio ambiente sano, los espacios verdes, una migración segura y la igualdad."
+      },
+      "reg": {
+        "nombre": "Regresivas",
+        "corto": "Recortan o excluyen",
+        "explica": "Quitan o recortan una garantía que ya existe, o excluyen por origen, situación administrativa, sexo, género u orientación. Se cuentan aparte: no restan del IGDS.",
+        "nota": "Bajar impuestos o reducir el gasto en general no se considera regresivo por sí mismo."
+      },
+      "fuera": {
+        "nombre": "Resto del programa",
+        "corto": "No tratan derechos sociales",
+        "explica": "Economía, instituciones, infraestructuras, seguridad, autogobierno y otros asuntos.",
+        "nota": "Cuentan en el total: el índice se calcula sobre todas las medidas del programa."
+      },
+      "dec": {
+        "nombre": "Declarativas",
+        "corto": "Sin instrumento: el punto",
+        "explica": "Anuncian una intención sin decir cómo se hará: ni norma, ni prestación, ni plazo, ni dotación. Pueden estar en cualquier categoría: el punto se suma al color de la casilla.",
+        "nota": "Una cantidad o un fondo concreto ya no es declarativo, aunque no baste para que se pueda reclamar."
+      }
+    },
+    "notas_partido": {
+      "cc": {
+        "g": "Muchas de sus medidas piden al Estado que actúe («reclamar», «exigir», «defender»). Por regla, pedir a otra administración no es comprometer una ley propia, y la segunda pregunta queda en no."
+      },
+      "upc": {
+        "g": "Su programa es un manifiesto de 6 páginas, el único documento programático que presentó para el 29N. Varias medidas responden sí a tres preguntas, pero ninguna dice con qué norma se garantiza.",
+        "dec": "El manifiesto está escrito casi entero como posición («defendemos», «apostamos por»), sin decir con qué instrumento se llevará a cabo."
+      }
+    },
+    "cierre_exi": "En los cinco programas, la respuesta que más falta es la segunda: con qué ley, plazo o estándar se podrá reclamar. Es una buena pregunta para hacer a cada candidatura.",
+    "metodo": [
+      "Primera codificación, hecha con IA siguiendo el libro de códigos de ODESOCAN y pendiente de validación humana.",
+      "Se cuentan medidas, no euros ni páginas, con las mismas reglas para las cinco formaciones. Una medida repetida en el mismo programa cuenta una vez.",
+      "El índice mide si se compromete un instrumento obligatorio, no la orientación de lo que se pide. Afecta sobre todo a las formaciones que no se presentan para gobernar."
+    ]
   }
 }

@@ -13,7 +13,7 @@ fuente: "OBSERVATORIO/Programas electorales 29N/docs/ANALISIS-IGDS.md"
 
 Índice de Garantía de Derechos Sociales aplicado a los programas de las Elecciones Generales del 29N 2026 (Cortes Generales). Estado a 16-11-2026, con las cinco formaciones: el PSOE se incorporó el 15-11 y UPC el 16-11.
 
-**Es una primera codificación, pendiente de validación humana.** La hizo una IA con el libro de códigos de [CRITERIOS-IGDS.md](CRITERIOS-IGDS.md), en lotes independientes, y la coordinación la revisó para que todas las formaciones tuvieran la misma regla. Todavía no tiene visualización. De UPC se codifica su manifiesto «Una sola papeleta. Todo un pueblo» (6 páginas), que la formación comunicó directamente como su único documento programático para el 29N.
+**Es una primera codificación, pendiente de validación humana.** La hizo una IA con el libro de códigos de [CRITERIOS-IGDS.md](CRITERIOS-IGDS.md), en lotes independientes, y la coordinación la revisó para que todas las formaciones tuvieran la misma regla. Su visualización, el apartado «Prometer no es garantizar» de la herramienta, está construida pero no se publica hasta cerrar la validación (ver [DISENO.md](DISENO.md), apartado 4). De UPC se codifica su manifiesto «Una sola papeleta. Todo un pueblo» (6 páginas), que la formación comunicó directamente como su único documento programático para el 29N.
 
 **Dónde está cada cosa:**
 
@@ -195,3 +195,5 @@ Al codificar el PSOE se fijaron además tres reglas, ya escritas en los criterio
   - indicar siempre el denominador y que hubo tres rondas de codificación hasta que la validación lo cierre;
   - indicar que el documento de UPC es un manifiesto de 6 páginas, su único documento programático;
   - aplicar las reglas de la herramienta: orden alfabético, las mismas reglas para todas las formaciones y fragmento literal de cada medida.
+
+  **Cómo se resolvió (16-11-2026).** El apartado «Prometer no es garantizar» ([DISENO.md](DISENO.md), apartado 4) presenta el embudo dentro de una rejilla de 100 casillas por programa. Las regresivas van aparte, con un aspa y sin restar del índice, y las declarativas, con un punto. Muestra siempre el denominador («48 de 681 medidas»), el sello de provisional y la nota sobre el manifiesto de UPC, y deja leer el fragmento literal de cada medida. Del perfil de las cuatro dimensiones enseña lo que más pesa en la lectura: qué pregunta falla en las medidas que se acercan. El perfil completo sigue en el informe.

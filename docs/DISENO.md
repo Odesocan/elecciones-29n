@@ -23,7 +23,7 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 
 1. **Leer, no resumir.** Todas las medidas son **texto literal** del programa, verificado letra a letra contra el PDF oficial y con un enlace a su página.
 2. **Comparar con justicia.** Las mismas reglas valen para todos los partidos, las métricas son relativas para que el programa más largo no gane por extensión, y los partidos van en orden alfabético.
-3. **Mirar con sentido crítico.** La prueba de las cuentas se descartó el 16-11-2026 (apartado 4). Hoy la herramienta no tiene capa crítica; está previsto que la aporte el IGDS cuando el equipo lo valide.
+3. **Mirar con sentido crítico.** La capa crítica es el IGDS, en el apartado «Prometer no es garantizar» (apartado 4): cuántas medidas de cada 100 garantizan un derecho social. Está construido desde el 16-11-2026, pero no se publica hasta que el equipo valide la codificación (`igds.activo` en `config/campana.json`). Sustituye a la prueba de las cuentas, descartada ese mismo día.
 
 ### Arco narrativo (de arriba abajo)
 
@@ -33,7 +33,8 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 | 2 | **Elegir** | «Elige un tema»: 18 mosaicos (desplegable en móvil) | Entrar por lo que le importa a cada persona |
 | 3 | **Leer** | Vista de tema: medidas literales por partido | El corazón: leer y comparar |
 | 4 | **Ver el conjunto** | Mapa «Lo que dicen. Y lo que no.» | Qué peso da cada programa a cada tema |
-| 5 | **Actuar** | «Lee. Compara. Decide.» y compartir | Pasarlo a otra persona |
+| 5 | **Mirar con sentido crítico** | «Prometer no es garantizar»: el IGDS, de cada 100 medidas (oculto hasta validarlo) | Saber cuántas medidas garantizan un derecho y qué preguntar a cada candidatura |
+| 6 | **Actuar** | «Lee. Compara. Decide.» y compartir | Pasarlo a otra persona |
 
 ---
 
@@ -54,6 +55,9 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 │  Bloques por partido → fichas de medida → ← Tema anterior · Siguiente tema →
 ├ BANDA DEL MAPA (blanca, filete navy) ─────────────────────────────────────
 │  «LO QUE DICEN. [Y LO QUE NO.]» · matriz 18 temas × 5 partidos + Media
+├ BANDA DEL IGDS (blanca, filete navy; solo con igds.activo) ──────────────
+│  «PROMETER NO ES [GARANTIZAR.]» · las cuatro preguntas · leyenda-mando
+│  5 rejillas de 100 casillas · notas emergentes · lista de medidas literales
 └ FRANJA FINAL TEAL ─ «El próximo 29 de noviembre · LEE. COMPARA. [DECIDE.]» · Pásaselo a alguien
 ```
 
@@ -158,6 +162,36 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
   - El nombre de un tema abre el tema.
   - Las siglas resaltan su columna y muestran sus **tres temas con más peso**.
 
+### Garantías (`Garantias`) · «Prometer no es garantizar»
+
+La capa crítica: el IGDS de ODESOCAN ([CRITERIOS-IGDS.md](CRITERIOS-IGDS.md)). Está oculta hasta que el equipo valide la codificación: se enciende con `igds.activo` en `config/campana.json`. En el servidor de desarrollo se ve siempre, y mientras sea provisional lleva el sello de `igds.sello`.
+
+- **Las cuatro preguntas**, en lenguaje llano y numeradas: ¿llega a toda la población? (UNI), ¿se puede reclamar? (EXI), ¿lo garantiza lo público? (DES), ¿no excluye a nadie? (NDI). Cada una tiene una nota emergente «Cuándo es sí» con la regla del libro de códigos, con ejemplos genéricos, no medidas de ningún partido. La regla del índice va en una línea: cuatro síes, garantía completa.
+- **De cada 100 medidas:** una rejilla de 10 × 10 casillas por programa, en orden alfabético. Cada casilla es 1 de cada 100 medidas, así que la escala es relativa y común. Las casillas pueden partirse, para que 0,4 se vea como 0,4 de casilla y no desaparezca al redondear.
+- **Categorías exclusivas, en este orden:**
+  - garantía completa, en el color del partido;
+  - se acercan (tres síes), al 55 %;
+  - otras medidas sociales (uno o dos síes), al 20 %;
+  - regresivas, en blanco con aspa navy y sin color de partido;
+  - resto del programa, casilla vacía.
+
+  Más intenso significa más cerca de garantizar el derecho. Las **declarativas** llevan un punto navy encima de su casilla, porque pueden estar en cualquier categoría.
+- **La leyenda es el mando.** Seis botones (`aria-pressed`), cada uno con su muestra, su nombre y una línea de explicación. Al elegir uno:
+  - esa categoría se resalta en los cinco programas, y el resto se atenúa al 30 % sin desaparecer;
+  - las cifras cuentan hasta su valor, con el mismo contador que las barras del paso 2;
+  - debajo aparece la explicación y una nota «Cómo se cuenta».
+
+  Por defecto está elegida la garantía completa, es decir, el IGDS.
+- **Notas en cada panel:**
+  - calculadas con los datos: «Dónde están» (áreas de las garantías o de las regresivas) y «Qué les falta» (qué pregunta falla en las que se acercan);
+  - editoriales, desde `config/igds.json → web.notas_partido`: «¿Por qué 0?» en CC–1ºC (pedir al Estado no es comprometer una ley propia) y en UPC (manifiesto de 6 páginas).
+
+  Las notas emergentes se despliegan debajo de su botón, sin tapar nada, y se cierran con Escape.
+- **Leer las medidas.** En garantía completa, se acercan y regresivas, cada panel ofrece «Leer las N». Abre debajo la lista con la síntesis de ODESOCAN, el fragmento literal entre comillas, el área, el enlace a la página del PDF y, en las que se acercan, «Le falta: …». Los textos (`igds-medidas.json`) se publican junto al CSV y solo se piden al abrir la primera lista. En la versión autocontenida no hay carpeta de datos y el botón no aparece.
+- **Cierre:** «En los cinco programas, la respuesta que más falta es la segunda… Es una buena pregunta para hacer a cada candidatura.» Solo aparece si la exigibilidad es la dimensión limitante en todos los programas. Se calcula, no se da por supuesto.
+- **Tabla de datos** desplegable con todas las categorías y formaciones, más las notas de método: codificación con IA pendiente de validación humana, se cuentan medidas y no euros, y el índice mide instrumentos y no orientación. Enlaces al libro de códigos y al CSV de medidas.
+- **Textos:** `config/igds.json → web`, editables sin tocar el código. **Cifras:** `datos/igds/igds-web.json`, que genera `maestro.py igds calcular`. La web no recalcula nada.
+
 ### La prueba de las cuentas · descartada el 16-11-2026
 
 La banda «Prometer es gratis. Pagarlo, no.» (`CuentasProgramas`) contaba, por partido, las medidas que restan y las que suman dinero a las cuentas públicas, y ponía una etiqueta roja de «Riesgo de viabilidad». También mostraba en cada ficha de medida su efecto en las cuentas públicas. El equipo la descartó por tres motivos:
@@ -181,12 +215,16 @@ Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV p
 | **Peso de un tema** | medidas del partido en el tema ÷ total de medidas del partido | Barritas, barras, mapa, bloque de partido | Comparar programas de 100 y de 241 medidas. El recuento absoluto premiaba al más largo |
 | **Puesto del tema** | Orden de los 18 temas por peso dentro de cada programa, con aviso de empate | Bloque de partido | Responder a «qué importa más a cada uno» |
 | **Media** | Peso medio entre programas publicados | Columna del mapa | Una referencia común sin sesgo de extensión |
+| **IGDS** | medidas con las cuatro dimensiones a 1 ÷ total de medidas del programa × 100 | Rejillas del IGDS | Cuántas de cada 100 garantizan un derecho; relativo, como el peso de un tema |
+| **Se acercan · otras sociales · resto** | medidas con 3, con 1 o 2 y con 0 dimensiones a 1 (sin las regresivas) ÷ total × 100 | Rejillas del IGDS | El embudo: dónde se quedan las medidas que no llegan a garantía |
+| **IR · IV** | regresivas y declarativas ÷ total × 100 | Rejillas del IGDS (aspa y punto) | Las marcas complementarias del libro, a la vista y sin restar del IGDS |
 
 ### Codificación visual
 
 - **Mapa:** área de la burbuja ∝ peso, con escala raíz cuadrada. Radio entre 3,5 y 15 px; el mínimo sirve para que un tema con una sola medida se vea.
 - **Barritas de los mosaicos:** escala raíz. Son un índice visual; las cifras exactas están en el mapa y en cada tema.
 - **Barras de tema:** escala **lineal** y **común a todos los partidos y temas**. Al cambiar de tema, la animación enseña diferencias reales, no reescaladas.
+- **Rejillas del IGDS:** gráfico de unidades, 1 casilla por cada 100 medidas, con casillas partidas para los decimales. Las cifras del IGDS llevan un decimal (0,4 no es 0). El partido se reconoce por su logo, su sigla y su posición; el color lo refuerza, pero no es lo único que lo identifica: amarillo, verde y rojo se confunden con daltonismo.
 - **Reparto del trabajo:** D3 calcula escalas y anima (anchos, radios, opacidades) y React pinta la estructura. Con «reducir movimiento» no hay animaciones.
 
 ---
@@ -236,7 +274,7 @@ Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV p
 - **Orden:** alfabético por sigla en toda la herramienta.
 - **Atribución:** solo se atribuye a un partido lo que dice su texto literal, con enlace a la página del PDF.
 - **Clasificación:** la temática sigue criterios escritos e iguales para todos ([CRITERIOS-CLASIFICACION.md](CRITERIOS-CLASIFICACION.md)). La fiscal ya no se publica (apartado 4).
-- **Sin veredictos:** la herramienta muestra textos literales y pesos de cada tema; no puntúa ni etiqueta los programas.
+- **Sin veredictos:** la herramienta muestra textos literales y pesos de cada tema; no puntúa ni etiqueta los programas. El IGDS cuenta cuántas medidas cumplen una regla escrita e igual para todos. No da una nota global ni resta las regresivas, enseña los límites del índice y deja leer las medidas literales que lo respaldan.
 - **Peso ≠ calidad:** más espacio no significa mejores propuestas, y se recuerda junto a cada gráfico.
 
 ---
@@ -259,12 +297,14 @@ Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV p
 | 16-11 | Se quita el modo boceto: sin franja de aviso |
 | 16-11 | Barras del paso 2: logo al comienzo de cada barra en lugar del nombre tras el eje, porcentaje más grande en la punta y contador al cambiar de tema |
 | 16-11 | Se descarta **la prueba de las cuentas**: es difícil de interpretar, una de sus lecturas premia la austeridad al margen de la garantía de derechos y la alerta de riesgo, común a todos los programas, podía animar a la abstención |
+| 16-11 | Capa crítica: el **IGDS** en rejillas de «de cada 100 medidas», con las declarativas (punto) y las regresivas (aspa) en el mismo gráfico y una leyenda explicativa que hace de mando. Se descartaron el radar (el área engaña: UPC tenía el más lleno con IGDS 0), las barras (tres intensidades del mismo color no se distinguen en amarillo y verde) y el treemap (cuenta medidas en absoluto y borra a quien tiene 0). Oculto hasta la validación humana |
 
 ---
 
 ## 11. Pendiente de diseño
 
 - [ ] Confirmar el color de CC–1ºC.
+- [ ] Publicar el IGDS (`igds.activo: true`) cuando el equipo cierre la validación humana. Entonces, revisar los textos de `config/igds.json → web` y quitar o cambiar el sello «Provisional».
 - [ ] Decidir si se recupera en algún sitio discreto la explicación del método, que hoy solo está en este repositorio.
 - [ ] Valorar si se oculta la sigla cuando el logo ya la contiene (PP, PSOE, Vox), por ejemplo «PSOE/♥ PSOE».
 - [x] Contraste entre el teal de UPC y el teal de «suman»: las barras de las cuentas usan el navy y el teal de «suman», no el color del partido, así que no se confunden (comprobado al entrar UPC, 16-11).

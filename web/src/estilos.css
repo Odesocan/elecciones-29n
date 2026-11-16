@@ -1401,6 +1401,469 @@
   }
 }
 
+/* ── Prometer no es garantizar · IGDS (Garantias.jsx) ───────────── */
+.np-banda-gar {
+  background: #fff;
+  border-top: 3px solid var(--np-navy);
+}
+.np-gar {
+  display: grid;
+  gap: 1.5rem;
+}
+/* Que la tabla (con su propio desplazamiento) no ensanche la sección en móvil */
+.np-gar > * {
+  min-width: 0;
+}
+.np-gar-intro {
+  max-width: 46rem;
+}
+.np-gar-sello {
+  display: block;
+  width: fit-content;
+  margin-top: 0.4rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px dashed var(--np-muted);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+.np-gar .np-texto {
+  max-width: 40rem;
+}
+
+/* Las cuatro preguntas */
+.np-gar-preguntas {
+  display: grid;
+  gap: 0.6rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+.np-gar-pregunta {
+  display: grid;
+  align-content: start;
+  gap: 0.3rem;
+  padding: 0.85rem 0.9rem 0.7rem;
+  background: #f3f5f7;
+  border-top: 3px solid var(--np-teal);
+}
+.np-gar-pnum {
+  font: 400 1.75rem/1 var(--np-display);
+  color: var(--np-navy);
+}
+.np-gar-preg {
+  font: 600 1.0625rem/1.3 var(--np-sans);
+  color: var(--np-tinta);
+}
+.np-gar-breve {
+  font: 400 0.875rem/1.45 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+.np-gar-regla {
+  font: 600 1rem/1.45 var(--np-sans);
+  color: var(--np-navy);
+  border-left: 4px solid var(--np-teal);
+  padding: 0.3rem 0.75rem;
+}
+@container np (min-width: 480px) {
+  .np-gar-preguntas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@container np (min-width: 900px) {
+  .np-gar-preguntas {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* La leyenda es el mando */
+.np-gar-mando {
+  display: grid;
+  gap: 0.6rem;
+}
+.np-gar-mando .np-leyenda-tit {
+  margin-bottom: 0;
+}
+.np-gar-leyenda {
+  display: grid;
+  gap: 0.4rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 13.5rem), 1fr));
+}
+.np-gar-ley {
+  display: grid;
+  grid-template-columns: 1.375rem minmax(0, 1fr);
+  gap: 0.6rem;
+  align-items: start;
+  min-height: 44px;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--np-linea);
+  background: #fff;
+  text-align: left;
+}
+.np-gar-ley:hover {
+  background: #f3f5f7;
+}
+.np-gar-ley[aria-pressed='true'] {
+  background: #f3f5f7;
+  border-color: var(--np-navy);
+  box-shadow: inset 0 0 0 1px var(--np-navy);
+}
+.np-gar-ley strong {
+  display: block;
+  font: 600 0.9375rem/1.3 var(--np-sans);
+  color: var(--np-tinta);
+}
+.np-gar-ley strong + span {
+  display: block;
+  font: 400 0.8125rem/1.35 var(--np-sans);
+  color: var(--np-muted);
+}
+.np-gar-muestra {
+  width: 1.375rem;
+  height: 1.375rem;
+  margin-top: 0.1rem;
+}
+.np-gar-color {
+  font: 400 0.8125rem/1.5 var(--np-mono);
+  color: var(--np-muted);
+}
+.np-gar-explica {
+  padding: 0.55rem 0.85rem 0.6rem;
+  border-left: 4px solid var(--np-teal);
+  background: var(--np-teal-claro);
+}
+.np-gar-explica > p {
+  max-width: 52rem;
+  font: 400 1rem/1.55 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+.np-gar-explica strong {
+  font-weight: 600;
+  color: var(--np-tinta);
+}
+
+/* Casillas: más intenso, más cerca de la garantía.
+   Regresivas con aspa (sin color de partido) y resto, casilla vacía. */
+.np-gar-g {
+  fill: var(--p, var(--np-navy));
+}
+.np-gar-near {
+  fill: var(--p, var(--np-navy));
+  fill-opacity: 0.55;
+}
+.np-gar-otros {
+  fill: var(--p, var(--np-navy));
+  fill-opacity: 0.2;
+}
+.np-gar-reg {
+  fill: #fff;
+  stroke: var(--np-navy);
+  stroke-width: 1.1;
+}
+.np-gar-aspa {
+  fill: none;
+  stroke: var(--np-navy);
+  stroke-width: 1.3;
+  stroke-linecap: round;
+}
+.np-gar-fuera {
+  fill: #fff;
+  stroke: #c9d1d9;
+  stroke-width: 1;
+}
+.np-gar-punto {
+  fill: var(--np-navy);
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+/* Un panel por programa */
+.np-gar-paneles {
+  display: grid;
+  gap: 1.5rem 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@container np (min-width: 600px) {
+  .np-gar-paneles {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@container np (min-width: 900px) {
+  .np-gar-paneles {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+.np-gar-panel {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: 0.3rem;
+  min-width: 0;
+  padding-top: 0.6rem;
+  border-top: 4px solid var(--p);
+}
+.np-gar-cab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 1.75rem;
+}
+.np-gar-sigla {
+  font: 600 0.875rem/1 var(--np-mono);
+  letter-spacing: 0.04em;
+  color: var(--np-tinta);
+}
+.np-gar-rejilla {
+  width: 100%;
+  max-width: 13rem;
+  height: auto;
+  margin: 0.35rem 0 0.2rem;
+}
+.np-gar-cifra {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.1rem 0.45rem;
+}
+.np-gar-num {
+  min-width: 2.6ch;
+  font: 400 clamp(2rem, 5cqi, 2.75rem) / 1 var(--np-display);
+  font-variant-numeric: tabular-nums;
+  color: var(--np-navy);
+}
+.np-gar-de {
+  font: 400 0.75rem/1.2 var(--np-mono);
+  color: var(--np-muted);
+}
+.np-gar-n {
+  font: 400 0.8125rem/1.4 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+.np-gar-leer {
+  margin-top: 0.3rem;
+  min-height: 44px;
+  padding: 0.55rem 0.8rem;
+  font: 600 0.75rem/1.2 var(--np-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--np-navy);
+  background: #fff;
+  border: 2px solid var(--np-navy);
+}
+.np-gar-leer:hover,
+.np-gar-leer[aria-expanded='true'] {
+  background: var(--np-navy);
+  color: #fff;
+}
+
+/* Notas emergentes: se despliegan debajo, sin tapar nada */
+.np-gar-nota {
+  width: 100%;
+}
+.np-gar-nota-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 32px;
+  font: 600 0.75rem/1.2 var(--np-mono);
+  color: var(--np-navy);
+  text-decoration: underline;
+  text-decoration-color: var(--np-teal);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.np-gar-nota-i {
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 50%;
+  background: var(--np-navy);
+  color: #fff;
+  font: 600 0.6875rem/1 var(--np-mono);
+}
+.np-gar-nota-btn[aria-expanded='true'] .np-gar-nota-i {
+  background: var(--np-teal);
+  color: var(--np-navy);
+}
+.np-gar-nota-txt {
+  position: relative;
+  margin-top: 0.45rem;
+  padding: 0.6rem 0.75rem;
+  background: var(--np-teal-claro);
+  font: 400 0.8125rem/1.5 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+.np-gar-nota-txt::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 0.35rem;
+  border: 6px solid transparent;
+  border-top: 0;
+  border-bottom-color: var(--np-teal-claro);
+}
+.np-gar-nota.is-abierta .np-gar-nota-txt {
+  animation: np-gar-emerge 0.18s ease-out;
+}
+@keyframes np-gar-emerge {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+.np-gar-explica .np-gar-nota-txt {
+  background: #fff;
+}
+.np-gar-explica .np-gar-nota-txt::before {
+  border-bottom-color: #fff;
+}
+.np-gar-falta {
+  display: grid;
+  gap: 0.2rem;
+}
+.np-gar-falta li {
+  display: flex;
+  gap: 0.45rem;
+}
+.np-gar-falta strong {
+  min-width: 2.5ch;
+  font: 600 0.8125rem/1.5 var(--np-mono);
+  color: var(--np-tinta);
+}
+
+/* Lista de medidas literales */
+.np-gar-lectura {
+  padding: 0.9rem 0 0 1rem;
+  border-left: 4px solid var(--p);
+  scroll-margin-top: var(--np-margen-sup, 96px);
+}
+.np-gar-lectura-cab {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.9rem;
+}
+.np-gar-lectura-tit {
+  font: 400 clamp(1.375rem, 3.5cqi, 1.875rem) / 1.1 var(--np-display);
+  text-transform: uppercase;
+  color: var(--np-navy);
+}
+.np-gar-lectura-tit:focus {
+  outline: none;
+}
+.np-gar-lectura-tit span {
+  display: block;
+  margin-top: 0.3rem;
+  font: 400 0.8125rem/1.3 var(--np-mono);
+  text-transform: none;
+  color: var(--np-muted);
+}
+.np-gar-lista {
+  display: grid;
+  gap: 0.9rem;
+}
+.np-gar-lista li {
+  max-width: 52rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--np-linea);
+}
+.np-gar-sintesis {
+  font: 600 1rem/1.4 var(--np-sans);
+  color: var(--np-tinta);
+}
+.np-gar-cita {
+  margin-top: 0.3rem;
+  font: 300 0.9375rem/1.6 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+.np-gar-meta {
+  margin-top: 0.35rem;
+  font: 400 0.75rem/1.5 var(--np-mono);
+  color: var(--np-muted);
+}
+.np-gar-meta a {
+  color: var(--np-navy);
+  text-decoration-color: var(--np-teal);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+.np-gar-le-falta {
+  color: var(--np-tinta);
+}
+.np-gar-mas {
+  margin-top: 0.9rem;
+}
+.np-gar-lectura-estado {
+  display: grid;
+  justify-items: start;
+  gap: 0.6rem;
+  font: 400 0.9375rem/1.5 var(--np-sans);
+  color: var(--np-muted);
+}
+
+/* Cierre, tabla y método */
+.np-gar-cierre {
+  max-width: 52rem;
+  padding: 0.9rem 1.1rem;
+  font: 600 clamp(1.0625rem, 2.6cqi, 1.25rem) / 1.45 var(--np-sans);
+  color: var(--np-navy);
+  background: var(--np-teal);
+}
+.np-gar-datos summary {
+  padding: 0.6rem 0;
+  cursor: pointer;
+  font: 600 0.8125rem/1.3 var(--np-mono);
+  color: var(--np-navy);
+}
+.np-gar-tabla-env {
+  overflow-x: auto;
+  margin-top: 0.4rem;
+}
+.np-gar-tabla {
+  width: 100%;
+  min-width: 34rem;
+  border-collapse: collapse;
+  font: 400 0.8125rem/1.4 var(--np-mono);
+  font-variant-numeric: tabular-nums;
+}
+.np-gar-tabla th,
+.np-gar-tabla td {
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid var(--np-linea);
+  text-align: right;
+}
+.np-gar-tabla th[scope='row'],
+.np-gar-tabla thead th:first-child {
+  text-align: left;
+  font: 600 0.8125rem/1.3 var(--np-sans);
+  color: var(--np-tinta);
+}
+.np-gar-tabla small {
+  color: var(--np-muted);
+}
+.np-gar-total td {
+  font-weight: 600;
+}
+.np-gar-metodo {
+  display: grid;
+  gap: 0.35rem;
+  max-width: 52rem;
+}
+.np-gar-metodo .np-nota {
+  margin-top: 0;
+}
+.np-gar-fuentes {
+  font: 400 0.8125rem/1.5 var(--np-mono);
+  color: var(--np-muted);
+}
+.np-gar-fuentes a {
+  color: var(--np-navy);
+  text-decoration-color: var(--np-teal);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
 /* Franja final de campaña */
 .np-final {
   display: flex;
@@ -1513,5 +1976,25 @@
   }
   .np-barra-chip {
     border: 2px solid CanvasText;
+  }
+  .np-gar-ley[aria-pressed='true'] {
+    outline: 3px solid Highlight;
+  }
+  .np-gar-g,
+  .np-gar-near,
+  .np-gar-otros,
+  .np-gar-punto {
+    fill: CanvasText;
+  }
+  .np-gar-punto {
+    stroke: Canvas;
+  }
+  .np-gar-reg,
+  .np-gar-fuera {
+    fill: Canvas;
+    stroke: CanvasText;
+  }
+  .np-gar-aspa {
+    stroke: CanvasText;
   }
 }

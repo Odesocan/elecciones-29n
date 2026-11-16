@@ -7,6 +7,10 @@
 import { partidos } from '../../config/partidos.json';
 import { temas } from '../../config/temas.json';
 import campana from '../../config/campana.json';
+import igds from '../../config/igds.json';
+// Resumen del IGDS que genera «python3 maestro.py igds calcular» (solo recuentos;
+// los textos de las medidas se piden aparte, ver urlDatos).
+import igdsDatos from '../../datos/igds/igds-web.json';
 
 // Votación y cuenta atrás (hora canaria; el 29-N Canarias está en UTC+0).
 export const FECHA_ELECCION = campana.eleccion.fecha;
@@ -50,6 +54,18 @@ export function urlPrograma(partido) {
   if (partido?.programa) return partido.programa;
   return partido?.pdfPropio && baseDatos ? new URL(partido.pdfPropio, baseDatos).href : '';
 }
+// Otro archivo publicado junto al CSV ('' si el CSV va incrustado).
+export const urlDatos = (archivo) => (baseDatos ? new URL(archivo, baseDatos).href : '');
+
+// ── IGDS · «Prometer no es garantizar» ──────────────────────────
+// Se muestra si campana.igds.activo es true. En el servidor de desarrollo se
+// ve siempre, para que el equipo lo revise antes de publicarlo.
+export const IGDS_ACTIVO = Boolean(campana.igds?.activo) || import.meta.env.DEV;
+export const IGDS_SELLO = campana.igds?.sello || '';
+export const IGDS_TEXTOS = igds.web;
+export const IGDS_DATOS = igdsDatos;
+export const IGDS_AREAS = Object.fromEntries(igds.areas.map((a) => [a.id, a.nombre]));
+export const REPOSITORIO = campana.publicacion?.repositorio || '';
 
 // Las temáticas (18 desde el 16-11-2026). `alcance` es la regla de clasificación, visible al público.
 export const TEMAS = temas;

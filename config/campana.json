@@ -5,6 +5,9 @@
     "boceto.activo: muestra «logo» en los huecos sin logo. boceto.aviso: franja superior; \"\" para quitarla.",
     "  Cuando el equipo haya revisado la clasificación: activo=false y cambiar o vaciar el aviso.",
     "fecha_comprobacion: última vez que se buscaron los programas pendientes (se muestra en PSOE/UPC).",
+    "igds.activo: muestra el apartado «Prometer no es garantizar» (IGDS). false hasta que el equipo valide la codificación;",
+    "  en el servidor de desarrollo (maestro.py servir) se ve siempre, para revisarlo. igds.sello: aviso junto al título (\"\" para quitarlo).",
+    "  Textos del apartado: config/igds.json → web. Datos: «python3 maestro.py igds calcular».",
     "publicacion.base_url: URL pública de la carpeta divi/ terminada en «/». Con ella se genera el bloque limpio. Desde el 16-11-2026 es GitHub Pages del repositorio público.",
     "  · GitHub Pages (en uso): https://odesocan.github.io/elecciones-29n/divi/ · cada git push actualiza la web en 1-2 minutos, sin purgar cachés.",
     "  · Alternativas: jsDelivr (https://cdn.jsdelivr.net/gh/Odesocan/elecciones-29n@main/divi/) o la Mediateca de WordPress.",
@@ -22,6 +25,10 @@
     "aviso": ""
   },
   "fecha_comprobacion": "16 de noviembre de 2026",
+  "igds": {
+    "activo": false,
+    "sello": "Provisional · pendiente de validación humana"
+  },
   "articulos_visibles": 3,
   "enlaces": {
     "contacto": "https://odesocan.org/contacta/"

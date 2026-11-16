@@ -39,6 +39,11 @@ copyFileSync(raiz('web/public/data/programas.csv'), `${DIVI}/data/programas.csv`
 // Programas que el partido facilitó sin versión en línea (pdf_propio, UPC): se publican junto al CSV.
 const pdfsPropios = readdirSync(raiz('web/public/data')).filter((f) => f.endsWith('.pdf'));
 for (const f of pdfsPropios) copyFileSync(raiz(`web/public/data/${f}`), `${DIVI}/data/${f}`);
+// Textos de las medidas del IGDS (los genera «maestro.py igds calcular»): la
+// herramienta los pide junto al CSV solo al abrir una lista.
+const IGDS_MEDIDAS = 'igds-medidas.json';
+const hayIgds = readdirSync(raiz('web/public/data')).includes(IGDS_MEDIDAS);
+if (hayIgds) copyFileSync(raiz(`web/public/data/${IGDS_MEDIDAS}`), `${DIVI}/data/${IGDS_MEDIDAS}`);
 
 const logos = readdirSync(raiz('web/public/logos')).filter((f) => /\.(png|webp|jpe?g|svg)$/i.test(f));
 if (logos.length) {
@@ -156,6 +161,7 @@ console.log(`   ${kb('bloque-divi.html')}  bloque-divi.html                ← p
 console.log(`   ${kb('odesocan-programas.js')}  odesocan-programas.js           ┐ publicar en`);
 console.log(`   ${kb('data/programas.csv')}  data/programas.csv              ┘ ${BASE || '(falta publicacion.base_url)'}`);
 for (const f of pdfsPropios) console.log(`   ${kb(`data/${f}`)}  data/${f.padEnd(28)}  (programa sin versión en línea: también se publica)`);
+if (hayIgds) console.log(`   ${kb(`data/${IGDS_MEDIDAS}`)}  data/${IGDS_MEDIDAS.padEnd(28)}  (medidas del IGDS: se piden al abrir una lista)`);
 console.log(`   ${logos.length ? `${String(logos.length).padStart(4)} arch.` : '   sin  '}  logos/${logos.length ? '' : '  (sin logos oficiales: se ve el color del partido)'}`);
 console.log(`   ${kb('bloque-divi-autocontenido.html')}  bloque-divi-autocontenido.html  (alternativa sin alojar nada)`);
 console.log('             prueba/  index.html             python3 maestro.py probar → http://127.0.0.1:4173');

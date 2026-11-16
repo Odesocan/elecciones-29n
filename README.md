@@ -18,6 +18,7 @@ Permite comparar, en **18 temas**, las medidas de los programas electorales de *
 - Con su **texto literal**, verificado letra a letra contra el PDF oficial.
 - Con un enlace a la página exacta del documento.
 - Con el **peso** que cada partido da a cada tema: el % de su programa.
+- Con una capa crítica, el **IGDS** («Prometer no es garantizar»): de cada 100 medidas, cuántas garantizan un derecho social, cuántas se acercan, cuántas son regresivas y cuántas declarativas. Está construida, pero **oculta hasta que el equipo valide la codificación** (`config/campana.json → igds.activo`).
 
 Se publica como un **bloque de código para Divi**: unas pocas líneas que se pegan en un módulo «Código».
 
@@ -103,7 +104,7 @@ flowchart LR
 │   ├── contraste.py             control de calidad fiscal: señales del texto frente a etiquetas
 │   ├── verificar.py             etapa 5 · cada texto está literalmente en el PDF
 │   ├── exportar.py              etapa 6 · CSV de la web, hoja de revisión, informe
-│   ├── igds.py                  índice de garantía de derechos sociales (en prueba, sin visualizar)
+│   ├── igds.py                  índice de garantía de derechos sociales (en prueba; su apartado web, oculto)
 │   ├── igds_validacion.py       muestra para la validación humana del IGDS y concordancia
 │   ├── obsidian.py              enlaces de los md en el vault de Obsidian (PE_29N) y su frontmatter
 │   └── estado.py                resumen por partido
@@ -117,7 +118,7 @@ flowchart LR
 │   ├── revision/                revision-clasificacion.csv: hoja de trabajo del equipo
 │   ├── igds/                    IGDS: fase0.json, codificacion/ (IA), ajustes.json (coherencia),
 │   │                            validacion/ (hojas A, B y C para el equipo), igds-medidas.csv,
-│   │                            igds-areas.csv, igds-resultados.json (lotes/ no va a git)
+│   │                            igds-areas.csv, igds-resultados.json, igds-web.json (lotes/ no va a git)
 │   └── informes/                verificacion.json (qué se volcó y recuento por tema)
 │                                contraste-fiscal.md (qué revisar), igds.md, igds-contraste.md
 │                                e igds-validacion.md
@@ -132,8 +133,9 @@ flowchart LR
 │   │   ├── util.js              formato, colores accesibles, URL, compartir
 │   │   ├── estilos.css          sistema visual .np (aislado en el Shadow DOM)
 │   │   └── componentes/         Hero · CuentaAtras · SelectorTemas · VistaTema
-│   │                            MapaProgramas · Cierre · LogoPartido
+│   │                            MapaProgramas · Garantias (IGDS) · Cierre · LogoPartido
 │   ├── public/data/programas.csv  ← lo escribe el pipeline (contrato ①→②)
+│   ├── public/data/igds-medidas.json  ← lo escribe «igds calcular»: medidas del IGDS que se pueden leer
 │   ├── public/logos/            logos oficiales (cuando lleguen)
 │   ├── scripts/empaquetar-divi.mjs   ③ monta divi/
 │   ├── vite.config.js           servidor de desarrollo
@@ -141,8 +143,9 @@ flowchart LR
 │
 ├── divi/                        ③ SALIDA PARA LA WEB (generada)
 │   ├── bloque-divi.html         ← EL BLOQUE LIMPIO: lo que se pega en Divi
-│   ├── odesocan-programas.js    la herramienta en un solo archivo (≈ 260 KB)
+│   ├── odesocan-programas.js    la herramienta en un solo archivo (≈ 285 KB)
 │   ├── data/programas.csv       los datos
+│   ├── data/igds-medidas.json   medidas del IGDS (se piden al abrir una lista)
 │   ├── logos/                   (si hay logos oficiales)
 │   ├── bloque-divi-autocontenido.html   alternativa sin alojar nada (no va a git)
 │   └── prueba/                  páginas con CSS «hostil» de tema WordPress (no van a git)
@@ -166,9 +169,11 @@ flowchart LR
 | `datos/clasificacion/{id}.json` | IA / equipo (`clasificar revision`) | `exportar` | `{"pp-083": ["tema principal", "otro"]}` (de 1 a 3 temas) |
 | `datos/fiscal/{id}.json` | IA / equipo (`clasificar revision`) | `exportar` (solo la hoja de revisión) | `{"pp-083": ["menos_ingresos"]}` (de 0 a 4 etiquetas; `[]` = sin impacto). Archivo: ya no se publica |
 | `web/public/data/programas.csv` | `exportar` | web ([datos.js](web/src/datos.js)) | `partido, tema, ref, pagina, titulo, texto, url, nota`. `tema` lleva los ids separados por `;`, con el principal primero. Desde el 16-11-2026 no lleva la columna `fiscal` |
+| `datos/igds/igds-web.json` | `igds calcular` | web ([config.js](web/src/config.js), va dentro del JS) | por partido: `n`, `igds`, `ir`, `iv`, `limitante`, `categorias` (`g`, `near`, `otros`, `reg`, `fuera`: [medidas, de ellas declarativas]), `falta` y `areas` |
+| `web/public/data/igds-medidas.json` | `igds calcular` | web (al abrir una lista del IGDS) | por partido y categoría (`g`, `near`, `reg`): `[página, área, síntesis, fragmento literal, dimensión que falta?]` |
 | `divi/*` | `empaquetar-divi.mjs` | WordPress / Divi | ver [Publicar en Divi](#publicar-en-divi) |
 
-La web solo conoce `programas.csv` y `config/`. Por eso también acepta un CSV hecho a mano o una Google Sheet publicada como CSV, siempre que tenga esas columnas.
+La web solo conoce `programas.csv`, `config/` y los dos archivos del IGDS. Por eso también acepta un CSV hecho a mano o una Google Sheet publicada como CSV, siempre que tenga esas columnas.
 
 ---
 
@@ -455,7 +460,7 @@ El detalle, con la atribución sugerida, está en [LICENSE-DATOS.md](LICENSE-DAT
 - [ ] Confirmar el color de CC–1ºC. Los demás salen de sus logos oficiales (14-11-2026): PP #1E4B8F, PSOE #DA0200, Vox #5AC035 y UPC #3D9E9A (la «P», no el amarillo). CC–1ºC mantiene el amarillo #FFC800, común a sus dos logos.
 - [ ] Revisión humana de la clasificación temática. El equipo hizo una revisión parcial (16-11-2026) y pidió dos temas nuevos, «infancia» e «idi», ya creados. Queda revisar el resto, empezando por los casos dudosos de [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md): el reparto de «administraciones» entre `estado` y `justicia`, y las 71 medidas de los temas nuevos.
 - [x] Revisión humana de la clasificación fiscal: hecha por el equipo el 16-11-2026 en los cuatro programas cargados. Ese mismo día se descartó la prueba de las cuentas, así que la de UPC ya no hace falta revisarla.
-- [ ] IGDS (prueba): rellenar las hojas de validación de `datos/igds/validacion/` siguiendo [docs/VALIDACION-IGDS.md](docs/VALIDACION-IGDS.md) (la A, primero y a ciegas), ejecutar `igds concordancia` y decidir los 8 puntos abiertos del libro de códigos ([docs/ANALISIS-IGDS.md](docs/ANALISIS-IGDS.md)); después, decidir su visualización.
+- [ ] IGDS (prueba): rellenar las hojas de validación de `datos/igds/validacion/` siguiendo [docs/VALIDACION-IGDS.md](docs/VALIDACION-IGDS.md) (la A, primero y a ciegas), ejecutar `igds concordancia` y decidir los 8 puntos abiertos del libro de códigos ([docs/ANALISIS-IGDS.md](docs/ANALISIS-IGDS.md)); después, publicar su apartado (`igds.activo: true` en `config/campana.json`) y revisar sus textos en `config/igds.json → web`.
 - [x] UPC: su manifiesto, facilitado directamente por el partido como único documento programático, se cargó el 16-11-2026 (16 ejes) y se codificó en el IGDS el mismo día (lotes 23 y 24: N 75, IGDS 0,0, declarativas 70,7 %). Falta que el equipo revise su clasificación temática y validar su codificación del IGDS con el resto (hojas A y C).
 - [x] Revisión cruzada de la clasificación del PSOE (temas y fiscal), hecha el 16-11-2026: se leyeron las 500 medidas y se compararon con las equivalentes de los otros tres programas. El resultado está en [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md).
 - [x] Repositorio público y publicación: https://github.com/Odesocan/elecciones-29n con GitHub Pages (16-11-2026); `publicacion.base_url` apunta a `https://odesocan.github.io/elecciones-29n/divi/`.

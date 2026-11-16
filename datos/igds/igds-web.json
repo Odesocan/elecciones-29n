@@ -1,0 +1,298 @@
+{
+ "_leeme": "Generado por «python3 maestro.py igds calcular»: no se edita a mano. Lo usa la web (apartado IGDS). Categorías exclusivas en este orden; cada una con [medidas, de ellas declarativas].",
+ "categorias": [
+  "g",
+  "near",
+  "otros",
+  "reg",
+  "fuera"
+ ],
+ "partidos": {
+  "cc": {
+   "n": 174,
+   "igds": 0.0,
+   "ir": 1.1,
+   "iv": 32.8,
+   "limitante": [
+    "EXI"
+   ],
+   "categorias": {
+    "g": [
+     0,
+     0
+    ],
+    "near": [
+     26,
+     4
+    ],
+    "otros": [
+     30,
+     12
+    ],
+    "reg": [
+     2,
+     0
+    ],
+    "fuera": [
+     116,
+     41
+    ]
+   },
+   "falta": {
+    "exi": 26
+   },
+   "areas": {
+    "g": {},
+    "near": {
+     "SAN": 5,
+     "EDU": 5,
+     "VIV": 5,
+     "CUI": 3,
+     "MAM": 3,
+     "MIG": 2,
+     "SME": 1,
+     "IGU": 1,
+     "EVE": 1
+    },
+    "reg": {
+     "VIV": 1,
+     "MIG": 1
+    }
+   }
+  },
+  "pp": {
+   "n": 617,
+   "igds": 2.4,
+   "ir": 3.9,
+   "iv": 28.8,
+   "limitante": [
+    "EXI"
+   ],
+   "categorias": {
+    "g": [
+     15,
+     0
+    ],
+    "near": [
+     63,
+     22
+    ],
+    "otros": [
+     84,
+     30
+    ],
+    "reg": [
+     24,
+     2
+    ],
+    "fuera": [
+     431,
+     124
+    ]
+   },
+   "falta": {
+    "exi": 51,
+    "uni": 8,
+    "des": 4
+   },
+   "areas": {
+    "g": {
+     "EDU": 6,
+     "VIV": 3,
+     "OTR": 2,
+     "IGU": 1,
+     "MIG": 1,
+     "CUI": 1,
+     "SAN": 1
+    },
+    "near": {
+     "SAN": 21,
+     "OTR": 11,
+     "CUI": 9,
+     "SME": 6,
+     "EDU": 5,
+     "IGU": 4,
+     "MIG": 2,
+     "VIV": 2,
+     "EMP": 2,
+     "MAM": 1
+    },
+    "reg": {
+     "MIG": 18,
+     "OTR": 2,
+     "IGU": 2,
+     "VIV": 2
+    }
+   }
+  },
+  "psoe": {
+   "n": 681,
+   "igds": 7.0,
+   "ir": 0.0,
+   "iv": 31.7,
+   "limitante": [
+    "EXI"
+   ],
+   "categorias": {
+    "g": [
+     48,
+     0
+    ],
+    "near": [
+     158,
+     35
+    ],
+    "otros": [
+     131,
+     54
+    ],
+    "reg": [
+     0,
+     0
+    ],
+    "fuera": [
+     344,
+     127
+    ]
+   },
+   "falta": {
+    "exi": 136,
+    "uni": 14,
+    "des": 8
+   },
+   "areas": {
+    "g": {
+     "EMP": 11,
+     "IGU": 9,
+     "OTR": 8,
+     "VIV": 5,
+     "SAN": 5,
+     "EDU": 4,
+     "CUI": 4,
+     "SME": 1,
+     "MAM": 1
+    },
+    "near": {
+     "OTR": 26,
+     "SAN": 25,
+     "IGU": 23,
+     "EDU": 21,
+     "CUI": 17,
+     "EMP": 16,
+     "VIV": 13,
+     "MAM": 9,
+     "SME": 4,
+     "MIG": 4
+    },
+    "reg": {}
+   }
+  },
+  "upc": {
+   "n": 75,
+   "igds": 0.0,
+   "ir": 0.0,
+   "iv": 70.7,
+   "limitante": [
+    "EXI"
+   ],
+   "categorias": {
+    "g": [
+     0,
+     0
+    ],
+    "near": [
+     15,
+     13
+    ],
+    "otros": [
+     21,
+     17
+    ],
+    "reg": [
+     0,
+     0
+    ],
+    "fuera": [
+     39,
+     23
+    ]
+   },
+   "falta": {
+    "exi": 15
+   },
+   "areas": {
+    "g": {},
+    "near": {
+     "VIV": 3,
+     "EMP": 3,
+     "SAN": 2,
+     "EDU": 2,
+     "MIG": 2,
+     "OTR": 1,
+     "SME": 1,
+     "CUI": 1
+    },
+    "reg": {}
+   }
+  },
+  "vox": {
+   "n": 256,
+   "igds": 0.4,
+   "ir": 17.2,
+   "iv": 34.8,
+   "limitante": [
+    "EXI"
+   ],
+   "categorias": {
+    "g": [
+     1,
+     0
+    ],
+    "near": [
+     26,
+     12
+    ],
+    "otros": [
+     40,
+     15
+    ],
+    "reg": [
+     44,
+     7
+    ],
+    "fuera": [
+     145,
+     55
+    ]
+   },
+   "falta": {
+    "exi": 26
+   },
+   "areas": {
+    "g": {
+     "EDU": 1
+    },
+    "near": {
+     "SAN": 11,
+     "CUI": 8,
+     "EDU": 3,
+     "OTR": 1,
+     "VIV": 1,
+     "SME": 1,
+     "IGU": 1
+    },
+    "reg": {
+     "MIG": 16,
+     "VIV": 8,
+     "EDU": 5,
+     "MAM": 4,
+     "OTR": 4,
+     "SAN": 3,
+     "IGU": 2,
+     "EMP": 1,
+     "CUI": 1
+    }
+   }
+  }
+ }
+}
