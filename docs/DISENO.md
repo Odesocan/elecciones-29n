@@ -23,7 +23,7 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 
 1. **Leer, no resumir.** Todas las medidas son **texto literal** del programa, verificado letra a letra contra el PDF oficial y con un enlace a su página.
 2. **Comparar con justicia.** Las mismas reglas valen para todos los partidos, las métricas son relativas para que el programa más largo no gane por extensión, y los partidos van en orden alfabético.
-3. **Mirar con sentido crítico.** La capa crítica es el IGDS, en el apartado «Prometer no es garantizar» (apartado 4): cuántas medidas de cada 100 garantizan un derecho social. Está construido desde el 16-11-2026, pero no se publica hasta que el equipo valide la codificación (`igds.activo` en `config/campana.json`). Sustituye a la prueba de las cuentas, descartada ese mismo día.
+3. **Mirar con sentido crítico.** La capa crítica es el IGDS, en el apartado «Prometer no es garantizar» (apartado 4): cuántas medidas de cada 100 garantizan un derecho social. Está publicado desde el 16-11-2026 (`igds.activo` en `config/campana.json`), con el sello «Provisional · pendiente de validación humana» hasta que el equipo valide la codificación. Sustituye a la prueba de las cuentas, descartada ese mismo día.
 
 ### Arco narrativo (de arriba abajo)
 
@@ -33,7 +33,7 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 | 2 | **Elegir** | «Elige un tema»: 18 mosaicos (desplegable en móvil) | Entrar por lo que le importa a cada persona |
 | 3 | **Leer** | Vista de tema: medidas literales por partido | El corazón: leer y comparar |
 | 4 | **Ver el conjunto** | Mapa «Lo que dicen. Y lo que no.» | Qué peso da cada programa a cada tema |
-| 5 | **Mirar con sentido crítico** | «Prometer no es garantizar»: el IGDS, de cada 100 medidas (oculto hasta validarlo) | Saber cuántas medidas garantizan un derecho y qué preguntar a cada candidatura |
+| 5 | **Mirar con sentido crítico** | «Prometer no es garantizar»: el IGDS, de cada 100 medidas (provisional hasta validarlo) | Saber cuántas medidas garantizan un derecho y qué preguntar a cada candidatura |
 | 6 | **Actuar** | «Lee. Compara. Decide.» y compartir | Pasarlo a otra persona |
 
 ---
@@ -55,7 +55,7 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 │  Bloques por partido → fichas de medida → ← Tema anterior · Siguiente tema →
 ├ BANDA DEL MAPA (blanca, filete navy) ─────────────────────────────────────
 │  «LO QUE DICEN. [Y LO QUE NO.]» · matriz 18 temas × 5 partidos + Media
-├ BANDA DEL IGDS (blanca, filete navy; solo con igds.activo) ──────────────
+├ BANDA DEL IGDS (blanca, filete navy; con igds.activo, encendido desde el 16-11) ──────────────
 │  «PROMETER NO ES [GARANTIZAR.]» · las cuatro preguntas · leyenda-mando
 │  5 rejillas de 100 casillas · notas emergentes · lista de medidas literales
 └ FRANJA FINAL TEAL ─ «El próximo 29 de noviembre · LEE. COMPARA. [DECIDE.]» · Pásaselo a alguien
@@ -164,7 +164,7 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
 
 ### Garantías (`Garantias`) · «Prometer no es garantizar»
 
-La capa crítica: el IGDS de ODESOCAN ([CRITERIOS-IGDS.md](CRITERIOS-IGDS.md)). Está oculta hasta que el equipo valide la codificación: se enciende con `igds.activo` en `config/campana.json`. En el servidor de desarrollo se ve siempre, y mientras sea provisional lleva el sello de `igds.sello`.
+La capa crítica: el IGDS de ODESOCAN ([CRITERIOS-IGDS.md](CRITERIOS-IGDS.md)). Se publica desde el 16-11-2026, a petición del equipo, antes de cerrar la validación humana. Se enciende y se apaga con `igds.activo` en `config/campana.json`; en el servidor de desarrollo se ve siempre. Mientras sea provisional lleva el sello de `igds.sello`.
 
 - **Las cuatro preguntas**, en lenguaje llano y numeradas: ¿llega a toda la población? (UNI), ¿se puede reclamar? (EXI), ¿lo garantiza lo público? (DES), ¿no excluye a nadie? (NDI). Cada una tiene una nota emergente «Cuándo es sí» con la regla del libro de códigos, con ejemplos genéricos, no medidas de ningún partido. La regla del índice va en una línea: cuatro síes, garantía completa.
 - **De cada 100 medidas:** una rejilla de 10 × 10 casillas por programa, en orden alfabético. Cada casilla es 1 de cada 100 medidas, así que la escala es relativa y común. Las casillas pueden partirse, para que 0,4 se vea como 0,4 de casilla y no desaparezca al redondear.
@@ -298,13 +298,15 @@ Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV p
 | 16-11 | Barras del paso 2: logo al comienzo de cada barra en lugar del nombre tras el eje, porcentaje más grande en la punta y contador al cambiar de tema |
 | 16-11 | Se descarta **la prueba de las cuentas**: es difícil de interpretar, una de sus lecturas premia la austeridad al margen de la garantía de derechos y la alerta de riesgo, común a todos los programas, podía animar a la abstención |
 | 16-11 | Capa crítica: el **IGDS** en rejillas de «de cada 100 medidas», con las declarativas (punto) y las regresivas (aspa) en el mismo gráfico y una leyenda explicativa que hace de mando. Se descartaron el radar (el área engaña: UPC tenía el más lleno con IGDS 0), las barras (tres intensidades del mismo color no se distinguen en amarillo y verde) y el treemap (cuenta medidas en absoluto y borra a quien tiene 0). Oculto hasta la validación humana |
+| 16-11 | Se publica el IGDS (`igds.activo: true`) antes de cerrar la validación, con el sello «Provisional · pendiente de validación humana» y la nota de método sobre la codificación con IA |
 
 ---
 
 ## 11. Pendiente de diseño
 
 - [ ] Confirmar el color de CC–1ºC.
-- [ ] Publicar el IGDS (`igds.activo: true`) cuando el equipo cierre la validación humana. Entonces, revisar los textos de `config/igds.json → web` y quitar o cambiar el sello «Provisional».
+- [x] Publicar el IGDS (`igds.activo: true`): publicado el 16-11-2026 con el sello de provisional.
+- [ ] Cuando el equipo cierre la validación humana: recalcular (`igds calcular`), revisar los textos de `config/igds.json → web` y quitar o cambiar el sello «Provisional» y la primera nota de método.
 - [ ] Decidir si se recupera en algún sitio discreto la explicación del método, que hoy solo está en este repositorio.
 - [ ] Valorar si se oculta la sigla cuando el logo ya la contiene (PP, PSOE, Vox), por ejemplo «PSOE/♥ PSOE».
 - [x] Contraste entre el teal de UPC y el teal de «suman»: las barras de las cuentas usan el navy y el teal de «suman», no el color del partido, así que no se confunden (comprobado al entrar UPC, 16-11).

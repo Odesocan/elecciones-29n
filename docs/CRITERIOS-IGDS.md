@@ -13,7 +13,7 @@ fuente: "OBSERVATORIO/Programas electorales 29N/docs/CRITERIOS-IGDS.md"
 
 Índice de Garantía de Derechos Sociales de ODESOCAN aplicado a los programas
 de las Elecciones Generales del 29N 2026. **Primera codificación, pendiente de
-validación humana.** Su apartado en la herramienta («Prometer no es garantizar») está construido, pero oculto hasta que se valide.
+validación humana.** Su apartado en la herramienta («Prometer no es garantizar») se publica con el sello de provisional hasta que se valide.
 
 El IGDS mide cuántas medidas de cada 100 del programa son garantías objetivas
 de derechos sociales: acceso que no exige demostrar renta, merecimiento,

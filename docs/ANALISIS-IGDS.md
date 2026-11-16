@@ -13,7 +13,7 @@ fuente: "OBSERVATORIO/Programas electorales 29N/docs/ANALISIS-IGDS.md"
 
 Índice de Garantía de Derechos Sociales aplicado a los programas de las Elecciones Generales del 29N 2026 (Cortes Generales). Estado a 16-11-2026, con las cinco formaciones: el PSOE se incorporó el 15-11 y UPC el 16-11.
 
-**Es una primera codificación, pendiente de validación humana.** La hizo una IA con el libro de códigos de [CRITERIOS-IGDS.md](CRITERIOS-IGDS.md), en lotes independientes, y la coordinación la revisó para que todas las formaciones tuvieran la misma regla. Su visualización, el apartado «Prometer no es garantizar» de la herramienta, está construida pero no se publica hasta cerrar la validación (ver [DISENO.md](DISENO.md), apartado 4). De UPC se codifica su manifiesto «Una sola papeleta. Todo un pueblo» (6 páginas), que la formación comunicó directamente como su único documento programático para el 29N.
+**Es una primera codificación, pendiente de validación humana.** La hizo una IA con el libro de códigos de [CRITERIOS-IGDS.md](CRITERIOS-IGDS.md), en lotes independientes, y la coordinación la revisó para que todas las formaciones tuvieran la misma regla. Su visualización, el apartado «Prometer no es garantizar» de la herramienta, se publica desde el 16-11-2026 con el sello de provisional hasta cerrar la validación (ver [DISENO.md](DISENO.md), apartado 4). De UPC se codifica su manifiesto «Una sola papeleta. Todo un pueblo» (6 páginas), que la formación comunicó directamente como su único documento programático para el 29N.
 
 **Dónde está cada cosa:**
 

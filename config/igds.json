@@ -1,6 +1,6 @@
 {
   "_leeme": [
-    "IGDS · Índice de Garantía de Derechos Sociales (PRUEBA). Lo lee pipeline/igds.py. En la herramienta: apartado «Prometer no es garantizar», oculto hasta la validación humana (config/campana.json → igds.activo).",
+    "IGDS · Índice de Garantía de Derechos Sociales (PRUEBA). Lo lee pipeline/igds.py. En la herramienta: apartado «Prometer no es garantizar», publicado con el sello de provisional hasta la validación humana (config/campana.json → igds).",
     "Libro de códigos y reglas operativas: docs/CRITERIOS-IGDS.md. Codificación: datos/igds/codificacion/. Resultados: datos/igds/ y datos/informes/igds.md.",
     "Primera codificación pendiente de validación humana."
   ],
