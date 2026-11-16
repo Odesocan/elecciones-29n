@@ -13,7 +13,6 @@ fuente: "OBSERVATORIO/Programas electorales 29N/datos/informes/igds.md"
 
 Generales 29N 2026 / Cortes Generales. **Primera codificación, pendiente de validación humana.** Libro de códigos y reglas operativas: [docs/CRITERIOS-IGDS.md](../../docs/CRITERIOS-IGDS.md). Tabla de medidas: [datos/igds/igds-medidas.csv](../igds/igds-medidas.csv). Generado por `python3 maestro.py igds calcular`: no se edita a mano.
 
-UPC no se codifica: su programa aún no está publicado.
 
 ## Resumen
 
@@ -22,6 +21,7 @@ UPC no se codifica: su programa aún no está publicado.
 | CC–1ºC | 174 | 0,0 | 27,0 | 0,0 | 16,7 | 32,2 | 1,1 | 32,8 | EXI |
 | PP | 617 | 2,4 | 20,3 | 4,9 | 12,3 | 26,3 | 3,9 | 28,8 | EXI |
 | PSOE | 681 | 7,0 | 43,2 | 10,4 | 30,8 | 49,5 | 0,0 | 31,7 | EXI |
+| UPC | 75 | 0,0 | 44,0 | 0,0 | 21,3 | 48,0 | 0,0 | 70,7 | EXI |
 | Vox | 256 | 0,4 | 23,0 | 0,8 | 12,5 | 26,2 | 17,2 | 34,8 | EXI |
 
 ## CC–1ºC
@@ -790,6 +790,74 @@ N = 681 medidas (15 salen de la prosa). Dimensión limitante: **EXI**. Confianza
 - `psoe-p92-04` (MIG, confianza media): Facilitar el acceso al empleo de las personas migrantes. Admite dos áreas: MIG por el colectivo y el bloque, EMP por el objeto (el acceso al empleo). Propuesta: MIG, porque forma parte de la política migratoria del bloque.
 - `psoe-p93-02` (IGU, confianza media): Difundir la contribución de la población migrante a la economía y a la sociedad. Atomización y área: puede leerse como segundo instrumento del mismo objeto que la medida anterior (contrarrestar los prejuicios contra la población migrante) y admite MIG. Propuesta: medida aparte en IGU, porque la acción (difundir) y el objeto (la contribución) son distintos de combatir los bulos.
 - `psoe-p94-04` (OTR, confianza media): Dar prioridad a las denuncias de las organizaciones de protección de la infancia para que las plataformas retiren con rapidez los contenidos y las cuentas que ponen en riesgo a la infancia. Caso frontera EXI: «tendrán prioridad» fija una obligación para las plataformas, pero sin plazo máximo de retirada («cuanto antes»). También puede leerse como desarrollo de psoe-408 (poderes de la CNMC para aplicar el Reglamento de Servicios Digitales). Propuesta: medida nueva con EXI 1, como las obligaciones a plataformas de pp-168-03; si se exige plazo, EXI 0.
+
+## UPC
+
+### 1. Fase 0 · Viabilidad
+
+- «Una sola papeleta. Todo un pueblo»: 6 páginas; índice no; 0 apartados detectados.
+- Páginas sin texto: 2 (portadas, fotografías, separadores o en blanco; revisadas a la vista: ninguna es una imagen con medidas).
+- 16 medidas numeradas y 1 bloques de prosa (154 palabras); texto asignado a una unidad: 100,0 % (el resto son títulos, índice y numeración).
+- Huecos «por anunciar» del propio PDF: 0; medidas cortadas en el original: ninguna.
+- Texto completo y legible: se codifica.
+
+### 3. Resultados globales
+
+| Indicador | Valor | Numerador / denominador |
+|---|---|---|
+| I_UNI | 44,0 | 33 / 75 |
+| I_EXI | 0,0 | 0 / 75 |
+| I_DES | 21,3 | 16 / 75 |
+| I_NDI | 48,0 | 36 / 75 |
+| **IGDS** | 0,0 | 0 / 75 |
+| IR | 0,0 | 0 / 75 |
+| IV | 70,7 | 53 / 75 |
+
+N = 75 medidas (0 salen de la prosa). Dimensión limitante: **EXI**. Confianza: alta 57, baja 3, media 15.
+
+### 4. Matriz por área temática
+
+| area | n | i_uni | i_exi | i_des | i_ndi | igds | ir | iv |
+|---|---|---|---|---|---|---|---|---|
+| VIV Vivienda | 6 | 83,3 | 0,0 | 50,0 | 100,0 | 0,0 | 0,0 | 50,0 |
+| SAN Sanidad | 3 | 100,0 | 0,0 | 66,7 | 100,0 | 0,0 | 0,0 | 100,0 |
+| SME Salud mental | 1 | 100,0 | 0,0 | 100,0 | 100,0 | 0,0 | 0,0 | 100,0 |
+| EDU Educación | 2 | 100,0 | 0,0 | 100,0 | 100,0 | 0,0 | 0,0 | 100,0 |
+| EMP Empleo | 7 | 100,0 | 0,0 | 42,9 | 100,0 | 0,0 | 0,0 | 85,7 |
+| CUI Cuidados y dependencia | 2 | 100,0 | 0,0 | 50,0 | 100,0 | 0,0 | 0,0 | 100,0 |
+| MAM Medio ambiente | 4 | 25,0 | 0,0 | 0,0 | 25,0 | 0,0 | 0,0 | 75,0 |
+| MIG Migración segura | 5 | 100,0 | 0,0 | 40,0 | 100,0 | 0,0 | 0,0 | 100,0 |
+| IGU Igualdad y no discriminación | 6 | 100,0 | 0,0 | 0,0 | 100,0 | 0,0 | 0,0 | 100,0 |
+| OTR Otras áreas | 39 | 2,6 | 0,0 | 5,1 | 7,7 | 0,0 | 0,0 | 56,4 |
+
+### 5. Silencios, control de calidad y casos dudosos
+
+**Áreas en silencio:** EVE Espacios verdes.
+
+**Control de calidad:** igds menor o igual que min ik ✓ · dec implica exi 0 ✓ · g 1 implica todas 1 ✓ · reg implica g 0 ✓ · suma areas igual n ✓ · sin ids duplicados ✓.
+
+**Repeticiones descartadas** (no cuentan en N): 6.
+
+- upc-011: Sistema público de cuidados que avance en la corresponsabilidad → repite upc-006
+- upc-015: Canarias acogedora y contraria a la xenofobia → repite upc-012
+- upc-001: Reclamar una financiación justa para Canarias → repite upc-002
+- upc-001: Reclamar una participación adecuada de Canarias en los presupuestos estatales y europeos → repite upc-003
+- upc-001: Reclamar el reconocimiento efectivo de la condición de región ultraperiférica → repite upc-004
+- upc-016: Derecho de la juventud a quedarse en las islas con vivienda asequible, empleo digno, educación pública y salud mental → repite upc-005
+
+**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 0.
+
+
+**Casos dudosos:** 8.
+
+- `upc-003-05` (OTR, confianza media): Exigir financiación estatal para la lucha contra la pobreza en Canarias. Financiación genérica contra la pobreza, sin prestación ni colectivo definidos; se codifica como cc-015-01. Propuesta: mantener OTR con NDI 1.
+- `upc-003-06` (MAM, confianza baja): Exigir compensaciones estatales por el coste del agua en Canarias. El agua es un suministro básico del hogar, pero la medida solo pide compensar sobrecostes, sin decir si llegan al precio que pagan los hogares. Propuesta: MAM con NDI 1; 0 en las cuatro si el equipo entiende que es política sectorial.
+- `upc-004-04` (MIG, confianza baja): Que el marco financiero europeo atienda la realidad migratoria de Canarias. Enunciado muy genérico dentro de una lista de fondos europeos: no dice si se refiere a la acogida. Propuesta: MIG declarativa; OTR con 0 en las cuatro si se lee como mera financiación.
+- `upc-005-03` (VIV, confianza media): Regular los precios del alquiler en las zonas tensionadas e intervenir el mercado. Regulación de precios anunciada sin contenido (índice, límite o congelación), a diferencia de psoe-062. Propuesta: EXI 0 por la regla de leyes anunciadas sin contenido.
+- `upc-006-03` (OTR, confianza media): Defender unos servicios sociales públicos, universales y de calidad, con financiación suficiente. Servicios sociales generales: el libro no tiene área de protección social y van a OTR, como psoe-202. Propuesta: OTR.
+- `upc-006-08` (OTR, confianza media): Defender pensiones públicas dignas, garantizadas y revalorizadas conforme al coste de la vida. Pensiones en OTR por falta de área de protección social; reafirma la revalorización vigente. Propuesta: OTR con EXI 0, como psoe-100.
+- `upc-010-01` (EMP, confianza media): Aumentar el salario mínimo y defender salarios dignos. El aumento del SMI solo está en el titular; el texto habla de salarios dignos. Propuesta: una medida, EMP 1011 declarativa.
+- `upc-012-05` (MIG, confianza baja): Rechazar la externalización de fronteras. Posición de política migratoria; se lee como defensa del acceso a la protección internacional. Propuesta: MIG declarativa; 0 en las cuatro si el equipo la considera política exterior.
 
 ## Vox
 

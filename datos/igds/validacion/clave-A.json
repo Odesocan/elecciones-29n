@@ -16,6 +16,10 @@
   "psoe": {
    "ambito social": 288,
    "resto": 341
+  },
+  "upc": {
+   "ambito social": 36,
+   "resto": 39
   }
  },
  "codigos": {
@@ -617,6 +621,156 @@
   "A-120": {
    "id_medida": "psoe-205-01",
    "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-121": {
+   "id_medida": "upc-010-03",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-122": {
+   "id_medida": "upc-009-02",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-123": {
+   "id_medida": "upc-003-01",
+   "pid": "upc",
+   "estrato": "resto"
+  },
+  "A-124": {
+   "id_medida": "upc-003-06",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-125": {
+   "id_medida": "upc-010-02",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-126": {
+   "id_medida": "upc-003-04",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-127": {
+   "id_medida": "upc-006-03",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-128": {
+   "id_medida": "upc-011-01",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-129": {
+   "id_medida": "upc-007-03",
+   "pid": "upc",
+   "estrato": "resto"
+  },
+  "A-130": {
+   "id_medida": "upc-014-04",
+   "pid": "upc",
+   "estrato": "resto"
+  },
+  "A-131": {
+   "id_medida": "upc-005-02",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-132": {
+   "id_medida": "upc-005-01",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-133": {
+   "id_medida": "upc-012-01",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-134": {
+   "id_medida": "upc-010-07",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-135": {
+   "id_medida": "upc-002-01",
+   "pid": "upc",
+   "estrato": "resto"
+  },
+  "A-136": {
+   "id_medida": "upc-011-05",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-137": {
+   "id_medida": "upc-012-03",
+   "pid": "upc",
+   "estrato": "resto"
+  },
+  "A-138": {
+   "id_medida": "upc-012-05",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-139": {
+   "id_medida": "upc-011-03",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-140": {
+   "id_medida": "upc-010-06",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-141": {
+   "id_medida": "upc-012-02",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-142": {
+   "id_medida": "upc-013-01",
+   "pid": "upc",
+   "estrato": "resto"
+  },
+  "A-143": {
+   "id_medida": "upc-009-03",
+   "pid": "upc",
+   "estrato": "resto"
+  },
+  "A-144": {
+   "id_medida": "upc-003-08",
+   "pid": "upc",
+   "estrato": "resto"
+  },
+  "A-145": {
+   "id_medida": "upc-004-02",
+   "pid": "upc",
+   "estrato": "resto"
+  },
+  "A-146": {
+   "id_medida": "upc-012-06",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-147": {
+   "id_medida": "upc-008-06",
+   "pid": "upc",
+   "estrato": "resto"
+  },
+  "A-148": {
+   "id_medida": "upc-005-03",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-149": {
+   "id_medida": "upc-006-07",
+   "pid": "upc",
+   "estrato": "ambito social"
+  },
+  "A-150": {
+   "id_medida": "upc-011-02",
+   "pid": "upc",
    "estrato": "ambito social"
   }
  }

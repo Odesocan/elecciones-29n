@@ -245,5 +245,25 @@
    "p57: Sistema de dependencia, cuidados y políticas sociales",
    "p58: Nueva longevidad: vivir más, vivir mejor"
   ]
+ },
+ "upc": {
+  "sigla": "UPC",
+  "programa": "Una sola papeleta. Todo un pueblo",
+  "paginas": 6,
+  "indice": false,
+  "apartados": 0,
+  "paginas_sin_texto": [
+   1,
+   6
+  ],
+  "numeradas": 16,
+  "por_anunciar": [],
+  "cortadas": [],
+  "bloques_prosa": [
+   "upc-p02"
+  ],
+  "palabras_prosa": 154,
+  "cobertura": 1.0,
+  "lineas_sueltas": []
  }
 }

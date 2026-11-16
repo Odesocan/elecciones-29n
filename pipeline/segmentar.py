@@ -117,7 +117,10 @@ def reparar_palabras(l, vocab):
                 a, b = pa.group(2).lower(), pb.group(1).lower()
                 # «A probar» → «Aprobar»: letra mayúscula suelta a principio de frase
                 inicial = len(a) == 1 and pa.group(2).isupper() and (len(out) == 1 or out[-2].endswith(('.', ':')))
-                if (a + b) in vocab and (a not in vocab or b not in vocab or inicial):
+                # «c on» → «con»: una consonante suelta no es palabra en castellano, aunque
+                # el otro modo de extracción la parta igual (y por eso esté en el vocabulario)
+                suelta = len(a) == 1 and a in 'bcdfghjklmnñpqrstvwxz'
+                if (a + b) in vocab and (a not in vocab or b not in vocab or inicial or suelta):
                     out[-1] += tok
                     continue
         out.append(tok)

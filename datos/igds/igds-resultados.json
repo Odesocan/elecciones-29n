@@ -4558,6 +4558,382 @@
    "Repetición circular entre lotes del PSOE": 2
   }
  },
+ "upc": {
+  "sigla": "UPC",
+  "global": {
+   "n": 75,
+   "sumas": {
+    "uni": 33,
+    "exi": 0,
+    "des": 16,
+    "ndi": 36,
+    "g": 0,
+    "reg": 0,
+    "dec": 53
+   },
+   "i_uni": 44.0,
+   "i_exi": 0.0,
+   "i_des": 21.3,
+   "i_ndi": 48.0,
+   "igds": 0.0,
+   "ir": 0.0,
+   "iv": 70.7,
+   "limitante": [
+    "EXI"
+   ]
+  },
+  "areas": {
+   "VIV": {
+    "n": 6,
+    "sumas": {
+     "uni": 5,
+     "exi": 0,
+     "des": 3,
+     "ndi": 6,
+     "g": 0,
+     "reg": 0,
+     "dec": 3
+    },
+    "i_uni": 83.3,
+    "i_exi": 0.0,
+    "i_des": 50.0,
+    "i_ndi": 100.0,
+    "igds": 0.0,
+    "ir": 0.0,
+    "iv": 50.0,
+    "limitante": [
+     "EXI"
+    ]
+   },
+   "SAN": {
+    "n": 3,
+    "sumas": {
+     "uni": 3,
+     "exi": 0,
+     "des": 2,
+     "ndi": 3,
+     "g": 0,
+     "reg": 0,
+     "dec": 3
+    },
+    "i_uni": 100.0,
+    "i_exi": 0.0,
+    "i_des": 66.7,
+    "i_ndi": 100.0,
+    "igds": 0.0,
+    "ir": 0.0,
+    "iv": 100.0,
+    "limitante": [
+     "EXI"
+    ]
+   },
+   "SME": {
+    "n": 1,
+    "sumas": {
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "g": 0,
+     "reg": 0,
+     "dec": 1
+    },
+    "i_uni": 100.0,
+    "i_exi": 0.0,
+    "i_des": 100.0,
+    "i_ndi": 100.0,
+    "igds": 0.0,
+    "ir": 0.0,
+    "iv": 100.0,
+    "limitante": [
+     "EXI"
+    ]
+   },
+   "EDU": {
+    "n": 2,
+    "sumas": {
+     "uni": 2,
+     "exi": 0,
+     "des": 2,
+     "ndi": 2,
+     "g": 0,
+     "reg": 0,
+     "dec": 2
+    },
+    "i_uni": 100.0,
+    "i_exi": 0.0,
+    "i_des": 100.0,
+    "i_ndi": 100.0,
+    "igds": 0.0,
+    "ir": 0.0,
+    "iv": 100.0,
+    "limitante": [
+     "EXI"
+    ]
+   },
+   "EMP": {
+    "n": 7,
+    "sumas": {
+     "uni": 7,
+     "exi": 0,
+     "des": 3,
+     "ndi": 7,
+     "g": 0,
+     "reg": 0,
+     "dec": 6
+    },
+    "i_uni": 100.0,
+    "i_exi": 0.0,
+    "i_des": 42.9,
+    "i_ndi": 100.0,
+    "igds": 0.0,
+    "ir": 0.0,
+    "iv": 85.7,
+    "limitante": [
+     "EXI"
+    ]
+   },
+   "CUI": {
+    "n": 2,
+    "sumas": {
+     "uni": 2,
+     "exi": 0,
+     "des": 1,
+     "ndi": 2,
+     "g": 0,
+     "reg": 0,
+     "dec": 2
+    },
+    "i_uni": 100.0,
+    "i_exi": 0.0,
+    "i_des": 50.0,
+    "i_ndi": 100.0,
+    "igds": 0.0,
+    "ir": 0.0,
+    "iv": 100.0,
+    "limitante": [
+     "EXI"
+    ]
+   },
+   "MAM": {
+    "n": 4,
+    "sumas": {
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "g": 0,
+     "reg": 0,
+     "dec": 3
+    },
+    "i_uni": 25.0,
+    "i_exi": 0.0,
+    "i_des": 0.0,
+    "i_ndi": 25.0,
+    "igds": 0.0,
+    "ir": 0.0,
+    "iv": 75.0,
+    "limitante": [
+     "EXI",
+     "DES"
+    ]
+   },
+   "EVE": {
+    "n": 0,
+    "sumas": {
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "g": 0,
+     "reg": 0,
+     "dec": 0
+    },
+    "i_uni": null,
+    "i_exi": null,
+    "i_des": null,
+    "i_ndi": null,
+    "igds": null,
+    "ir": null,
+    "iv": null
+   },
+   "MIG": {
+    "n": 5,
+    "sumas": {
+     "uni": 5,
+     "exi": 0,
+     "des": 2,
+     "ndi": 5,
+     "g": 0,
+     "reg": 0,
+     "dec": 5
+    },
+    "i_uni": 100.0,
+    "i_exi": 0.0,
+    "i_des": 40.0,
+    "i_ndi": 100.0,
+    "igds": 0.0,
+    "ir": 0.0,
+    "iv": 100.0,
+    "limitante": [
+     "EXI"
+    ]
+   },
+   "IGU": {
+    "n": 6,
+    "sumas": {
+     "uni": 6,
+     "exi": 0,
+     "des": 0,
+     "ndi": 6,
+     "g": 0,
+     "reg": 0,
+     "dec": 6
+    },
+    "i_uni": 100.0,
+    "i_exi": 0.0,
+    "i_des": 0.0,
+    "i_ndi": 100.0,
+    "igds": 0.0,
+    "ir": 0.0,
+    "iv": 100.0,
+    "limitante": [
+     "EXI",
+     "DES"
+    ]
+   },
+   "OTR": {
+    "n": 39,
+    "sumas": {
+     "uni": 1,
+     "exi": 0,
+     "des": 2,
+     "ndi": 3,
+     "g": 0,
+     "reg": 0,
+     "dec": 22
+    },
+    "i_uni": 2.6,
+    "i_exi": 0.0,
+    "i_des": 5.1,
+    "i_ndi": 7.7,
+    "igds": 0.0,
+    "ir": 0.0,
+    "iv": 56.4,
+    "limitante": [
+     "EXI"
+    ]
+   }
+  },
+  "silencio": [
+   "EVE"
+  ],
+  "control": {
+   "igds_menor_o_igual_que_min_ik": true,
+   "dec_implica_exi_0": true,
+   "g_1_implica_todas_1": true,
+   "reg_implica_g_0": true,
+   "suma_areas_igual_n": true,
+   "sin_ids_duplicados": true
+  },
+  "medidas_de_prosa": 0,
+  "repeticiones_descartadas": [
+   {
+    "unidad": "upc-011",
+    "sintesis": "Sistema público de cuidados que avance en la corresponsabilidad",
+    "repite": "upc-006"
+   },
+   {
+    "unidad": "upc-015",
+    "sintesis": "Canarias acogedora y contraria a la xenofobia",
+    "repite": "upc-012"
+   },
+   {
+    "unidad": "upc-001",
+    "sintesis": "Reclamar una financiación justa para Canarias",
+    "repite": "upc-002"
+   },
+   {
+    "unidad": "upc-001",
+    "sintesis": "Reclamar una participación adecuada de Canarias en los presupuestos estatales y europeos",
+    "repite": "upc-003"
+   },
+   {
+    "unidad": "upc-001",
+    "sintesis": "Reclamar el reconocimiento efectivo de la condición de región ultraperiférica",
+    "repite": "upc-004"
+   },
+   {
+    "unidad": "upc-016",
+    "sintesis": "Derecho de la juventud a quedarse en las islas con vivienda asequible, empleo digno, educación pública y salud mental",
+    "repite": "upc-005"
+   }
+  ],
+  "dudosos": [
+   {
+    "id": "upc-003-05",
+    "area": "OTR",
+    "sintesis": "Exigir financiación estatal para la lucha contra la pobreza en Canarias",
+    "motivo": "Financiación genérica contra la pobreza, sin prestación ni colectivo definidos; se codifica como cc-015-01. Propuesta: mantener OTR con NDI 1.",
+    "confianza": "media"
+   },
+   {
+    "id": "upc-003-06",
+    "area": "MAM",
+    "sintesis": "Exigir compensaciones estatales por el coste del agua en Canarias",
+    "motivo": "El agua es un suministro básico del hogar, pero la medida solo pide compensar sobrecostes, sin decir si llegan al precio que pagan los hogares. Propuesta: MAM con NDI 1; 0 en las cuatro si el equipo entiende que es política sectorial.",
+    "confianza": "baja"
+   },
+   {
+    "id": "upc-004-04",
+    "area": "MIG",
+    "sintesis": "Que el marco financiero europeo atienda la realidad migratoria de Canarias",
+    "motivo": "Enunciado muy genérico dentro de una lista de fondos europeos: no dice si se refiere a la acogida. Propuesta: MIG declarativa; OTR con 0 en las cuatro si se lee como mera financiación.",
+    "confianza": "baja"
+   },
+   {
+    "id": "upc-005-03",
+    "area": "VIV",
+    "sintesis": "Regular los precios del alquiler en las zonas tensionadas e intervenir el mercado",
+    "motivo": "Regulación de precios anunciada sin contenido (índice, límite o congelación), a diferencia de psoe-062. Propuesta: EXI 0 por la regla de leyes anunciadas sin contenido.",
+    "confianza": "media"
+   },
+   {
+    "id": "upc-006-03",
+    "area": "OTR",
+    "sintesis": "Defender unos servicios sociales públicos, universales y de calidad, con financiación suficiente",
+    "motivo": "Servicios sociales generales: el libro no tiene área de protección social y van a OTR, como psoe-202. Propuesta: OTR.",
+    "confianza": "media"
+   },
+   {
+    "id": "upc-006-08",
+    "area": "OTR",
+    "sintesis": "Defender pensiones públicas dignas, garantizadas y revalorizadas conforme al coste de la vida",
+    "motivo": "Pensiones en OTR por falta de área de protección social; reafirma la revalorización vigente. Propuesta: OTR con EXI 0, como psoe-100.",
+    "confianza": "media"
+   },
+   {
+    "id": "upc-010-01",
+    "area": "EMP",
+    "sintesis": "Aumentar el salario mínimo y defender salarios dignos",
+    "motivo": "El aumento del SMI solo está en el titular; el texto habla de salarios dignos. Propuesta: una medida, EMP 1011 declarativa.",
+    "confianza": "media"
+   },
+   {
+    "id": "upc-012-05",
+    "area": "MIG",
+    "sintesis": "Rechazar la externalización de fronteras",
+    "motivo": "Posición de política migratoria; se lee como defensa del acceso a la protección internacional. Propuesta: MIG declarativa; 0 en las cuatro si el equipo la considera política exterior.",
+    "confianza": "baja"
+   }
+  ],
+  "confianza": {
+   "alta": 57,
+   "media": 15,
+   "baja": 3
+  },
+  "ajustes": {}
+ },
  "vox": {
   "sigla": "Vox",
   "global": {

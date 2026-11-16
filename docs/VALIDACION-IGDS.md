@@ -21,16 +21,23 @@ Hay tres hojas en `datos/igds/validacion/`. Son archivos CSV con «;» que se ab
 
 | Hoja | Qué contiene | Qué mide | Tiempo aproximado |
 |---|---|---|---|
-| **A · codificación ciega** (`A-codificacion-ciega.csv`) | 120 medidas al azar, 30 por formación, sin la codificación de la IA | Fiabilidad: acuerdo y kappa por dimensión | 4 h |
+| **A · codificación ciega** (`A-codificacion-ciega.csv`) | 150 medidas al azar, 30 por formación, sin la codificación de la IA | Fiabilidad: acuerdo y kappa por dimensión | 5 h |
 | **B · verificación** (`B-verificacion.csv`) | Todas las medidas que más pesan en el resultado: garantías completas, regresivas y medidas con ajuste de coherencia (189) | Si las decisiones clave se sostienen | 3 h |
-| **C · atomización** (`C-atomizacion.csv`) | 40 unidades, 10 por formación, con su texto completo y las medidas que salieron de él | Si el denominador está bien construido | 2 h |
+| **C · atomización** (`C-atomizacion.csv`) | 50 unidades, 10 por formación, con su texto completo y las medidas que salieron de él | Si el denominador está bien construido | 2,5 h |
 
 **Ampliación con el PSOE (15-11-2026).** El PSOE se añadió al final de cada hoja con su propia semilla, sin cambiar ni una fila de las anteriores:
 - hoja A: códigos A-091 a A-120;
 - hoja B: 52 filas;
 - hoja C: 10 unidades.
 
-Si alguien ya había empezado, solo tiene que seguir por el final. En la hoja A, las filas del PSOE van juntas al final y no mezcladas con las de los otros partidos. Conviene codificarlas sin mirar las anteriores.
+**Ampliación con UPC (16-11-2026).** UPC se añadió igual, al final de cada hoja y con su propia semilla:
+- hoja A: códigos A-121 a A-150;
+- hoja B: ninguna fila, porque UPC no tiene garantías completas, medidas regresivas ni ajustes de coherencia;
+- hoja C: 10 de sus 16 ejes. Conviene mirarlos con atención: UPC es la formación con más medidas por eje (4,7), porque sus ejes son enumeraciones.
+
+Hay una medida de UPC que conviene revisar aunque no esté en la hoja B: la regulación de los precios del alquiler en zonas tensionadas (`upc-005-03`). Es la única que podría cambiar su IGDS (ver [ANALISIS-IGDS.md](ANALISIS-IGDS.md), apartado 4).
+
+Si alguien ya había empezado, solo tiene que seguir por el final. En la hoja A, las filas de cada formación añadida (PSOE, UPC) van juntas al final y no mezcladas con las de los otros partidos. Conviene codificarlas sin mirar las anteriores.
 
 Se puede repartir entre varias personas, pero **la hoja A tiene que hacerla primero alguien que no haya visto la codificación**: ni `igds-medidas.csv`, ni la hoja B, ni los informes, ni `clave-A.json`, que es la que traduce los códigos A-001… a medidas. Si se ve antes, la persona se ancla en lo que decidió la IA y el acuerdo sale inflado.
 
@@ -95,6 +102,6 @@ Si una hoja tiene un valor no válido, el informe lo dice.
 4. Se recalcula con `python3 maestro.py igds calcular`.
 
 **La muestra es fija.**
-- **Hoja A:** se elige al azar con la semilla de `config/igds.json`. Por formación son 20 medidas del ámbito social y 10 del resto, y no incluye las que ya están en la hoja B. Una formación que se codifica después (como el PSOE) se añade al final con una semilla derivada de la principal y de su id, sin tocar lo anterior.
+- **Hoja A:** se elige al azar con la semilla de `config/igds.json`. Por formación son 20 medidas del ámbito social y 10 del resto, y no incluye las que ya están en la hoja B. Una formación que se codifica después (como el PSOE o UPC) se añade al final con una semilla derivada de la principal y de su id, sin tocar lo anterior.
 - **Hoja C:** 10 unidades al azar por formación.
 - **Rehacer la muestra:** `igds muestra` se niega a sobrescribir hojas en las que ya hay trabajo; solo se rehace con `--forzar`. No la rehagas una vez repartidas las hojas.
