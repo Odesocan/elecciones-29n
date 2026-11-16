@@ -65,7 +65,6 @@ export const IGDS_SELLO = campana.igds?.sello || '';
 export const IGDS_TEXTOS = igds.web;
 export const IGDS_DATOS = igdsDatos;
 export const IGDS_AREAS = Object.fromEntries(igds.areas.map((a) => [a.id, a.nombre]));
-export const REPOSITORIO = campana.publicacion?.repositorio || '';
 
 // Las temáticas (18 desde el 16-11-2026). `alcance` es la regla de clasificación, visible al público.
 export const TEMAS = temas;

@@ -17,7 +17,7 @@ validación humana.** Su apartado en la herramienta («Prometer no es garantizar
 
 El IGDS mide cuántas medidas de cada 100 del programa son garantías objetivas
 de derechos sociales: acceso que no exige demostrar renta, merecimiento,
-nacionalidad o capacidad de pago, igual que la sanidad pública universal.
+nacionalidad o capacidad de pago.
 
 La parte 1 es el libro de códigos tal como lo fijó el equipo. La parte 2 son
 las reglas operativas que se añaden para aplicarlo **igual a todas las
@@ -32,7 +32,7 @@ explica cómo se registra la codificación.
 
 - **UNI · Incondicionalidad/universalidad.** 1 si la titularidad corresponde a toda la población o a todo el colectivo definido por la situación protegida, sin prueba de renta ni de merecimiento. Las acciones positivas que se suman al acceso universal son compatibles. 0 si hay umbral de renta, prueba de necesidad, convocatoria competitiva, requisito de merecimiento o cotización previa.
 - **EXI · Exigibilidad.** 1 si hay un instrumento con fuerza obligatoria (ley que reconoce el derecho, cartera garantizada, plazo máximo, ratio, estándar mínimo, obligación de provisión). 0 si se formula con «fomentar», «impulsar», «estudiar» o «promover», o mediante planes, campañas o convocatorias. Las declarativas valen siempre 0.
-- **DES · Desmercantilización.** 1 si hay provisión pública directa o gratuita, prestación en servicio, o regulación que limita el precio o las condiciones del mercado para todas las personas. 0 si hay bonos, cheques, deducciones, subvenciones a la demanda o incentivos a la oferta privada sin regulación del precio.
+- **DES · Desmercantilización.** 1 si la medida da acceso público sin ningún tipo de copago: un servicio público que hoy es gratuito o una prestación monetaria pública. 0 si regula precios, condiciones o conductas sin proveer nada (un límite al precio no es una garantía pública), si para acceder hay que pagar una renta, una tasa o un copago, o si hay bonos, cheques, deducciones, subvenciones a la demanda o incentivos a la oferta privada. *Criterio fijado por el equipo el 16-11-2026; antes contaban también la provisión con precio regulado y la regulación del mercado.*
 - **NDI · No discriminación.** 1 si el acceso no excluye por origen, situación administrativa, sexo, género u orientación (de forma explícita o por formularse para toda la población sin cláusulas de exclusión), o si la medida corrige una discriminación. 0 si contiene una exclusión o no se refiere al acceso a un derecho.
 
 Si una medida no regula ni provee el acceso a ningún derecho social, vale 0 en
@@ -98,7 +98,7 @@ Se toma como referencia el Pacto Internacional de Derechos Económicos, Sociales
   - trabajo y condiciones laborales dignas;
   - seguridad social y garantía de ingresos (pensiones, desempleo, ingreso mínimo, prestaciones por crianza);
   - cuidados, dependencia y discapacidad;
-  - protección de la infancia y de la familia;
+  - protección de la infancia y de los entornos convivenciales;
   - alimentación;
   - igualdad y no discriminación, incluida la protección frente a la violencia de género;
   - medio ambiente sano y espacios verdes;
@@ -130,7 +130,7 @@ Se toma como referencia el Pacto Internacional de Derechos Económicos, Sociales
 | EVE | Parques, zonas verdes urbanas, arbolado, naturaleza en la ciudad |
 | MIG | Inmigración, asilo, acogida, menores migrantes sin referentes familiares, fronteras, nacionalidad, expulsiones |
 | IGU | Igualdad de género, violencia de género, LGTBI, antidiscriminación, accesibilidad universal |
-| OTR | Todo lo demás: fiscalidad, instituciones, seguridad, defensa, economía, infraestructuras, pensiones, rentas mínimas, infancia y familia (salvo crianza y conciliación), cultura, deporte |
+| OTR | Todo lo demás: fiscalidad, instituciones, seguridad, defensa, economía, infraestructuras, pensiones, rentas mínimas, infancia y entornos convivenciales (salvo crianza y conciliación), cultura, deporte |
 
 Las pensiones y las rentas mínimas van a OTR porque el libro no tiene un área de protección social. Es una carencia del libro que se señala en el informe.
 
@@ -162,22 +162,20 @@ Las pensiones y las rentas mínimas van a OTR porque el libro no tiene un área 
 - **Reconocer un derecho en una norma con nombre** (la Constitución, una ley concreta): EXI = 1, aunque el verbo sea «impulsar». Reconocerlo sin nombrar la norma («reconocer los cuidados como derecho social»), o reafirmar un derecho que ya existe, es EXI = 0. El reconocimiento por sí solo no provee ni regula: DES = 0 si no añade un servicio o una regulación.
 - **Leyes anunciadas sin contenido** («actualizar la Ley de Prevención», «aprobar una Ley de Negociación Colectiva»): EXI = 0. Con una regla, cifra, plazo, obligación o prestación concreta: EXI = 1. Las leyes ya vigentes cuentan como EXI = 1 solo si la medida se refiere a una prestación concreta que la ley reconoce.
 
-**DES**
-- DES = 1 para:
-  - provisión pública directa o gratuita y prestación en servicio;
-  - vivienda pública o protegida con precio o renta regulados;
-  - regulación de precios o condiciones para todas las personas (límite de alquiler, precio máximo, tarifa regulada).
-- DES = 0 para:
-  - deducciones, bonificaciones y rebajas fiscales;
-  - bonos, cheques y ayudas a la demanda;
-  - avales;
-  - incentivos a la oferta privada sin precio regulado;
-  - ayudas monetarias ligadas a comprar un bien o servicio en el mercado (ayuda al alquiler, a la compra, cheque).
-- Las prestaciones monetarias públicas de garantía de ingresos (pensiones, ingreso mínimo, prestación por crianza, cotización a cargo del Estado) son provisión pública directa: DES = 1. Es una interpretación del libro que se señala en el informe para su validación.
-- Conciertos y gestión indirecta: DES = 1 solo si el servicio es gratuito o tiene precio regulado para todas las personas usuarias, con `revisar` = 1.
-- Si la medida no nombra ninguna provisión (ni servicio, ni sistema público, ni regulación), no se presume provisión pública: DES = 0.
-- DES = 1 si actúa dentro de un sistema público de provisión (Sistema Nacional de Salud, sistema educativo, sistema de dependencia, servicios sociales públicos), si presta un servicio en especie o si regula con fuerza obligatoria el precio o las condiciones del mercado para todas las personas (contratos de suministros, plataformas digitales, uso turístico de vivienda, conciliación laboral).
-- Esta regla corrige una aclaración anterior que hablaba solo de «regulación de precio» y estrechaba el libro.
+**DES** (criterio del equipo del 16-11-2026)
+- DES = 1 solo si la medida da acceso público **sin ningún tipo de copago**:
+  - un servicio público que hoy es gratuito para quien lo usa: atención del Sistema Nacional de Salud, enseñanza en centros sostenidos con fondos públicos en las etapas gratuitas, servicios sociales y de protección sin copago (atención a víctimas, protección de la infancia, acogida), bienes ambientales de uso público;
+  - un servicio que la medida declara gratuito («gratuita», «sin coste», «sin copago»);
+  - una prestación monetaria pública (pensiones, ingreso mínimo, prestación por crianza, cotización a cargo del Estado, prestaciones de la Seguridad Social): no hay copago porque no se paga nada.
+- DES = 0:
+  - **regulación sin provisión:** límites o congelación de precios y rentas, regulación del mercado de la vivienda, regulación laboral (salario mínimo, jornada, despido, contratos), leyes de protección, igualdad o entornos digitales y otras normas que regulan conductas sin proveer un servicio o una prestación. Un límite al precio no es una garantía pública;
+  - **vivienda pública, protegida o asequible:** se paga una renta o un precio, aunque esté limitado;
+  - **servicios con tasas, copago o precio:** dependencia y cuidados de larga duración, residencias, servicios sociales con copago, universidad y enseñanzas artísticas, educación de 0 a 3 años si la medida no dice que es gratuita, comedor escolar, farmacia, suministros, transporte y cultura de pago;
+  - deducciones, bonificaciones y rebajas fiscales; bonos, cheques y ayudas a la demanda; avales; incentivos a la oferta privada; ayudas ligadas a comprar en el mercado.
+- Conciertos y gestión indirecta: DES = 1 solo si el servicio es gratuito para quien lo usa, con `revisar` = 1.
+- Una ley que garantiza el acceso a un servicio público gratuito concreto (por ejemplo, los cuidados paliativos en el Sistema Nacional de Salud) sigue la regla del servicio. Una ley descrita solo por lo que regula, prohíbe o sanciona es regulación: DES = 0.
+- Si la medida no nombra ninguna provisión, no se presume provisión pública: DES = 0.
+- El cambio se aplicó a todas las medidas que tenían DES = 1 mediante tres grupos de `datos/igds/ajustes.json` («DES (16-11)»), sin tocar la codificación original. Los casos de frontera (servicios sociales, educación de 0 a 3 años, formación profesional, enseñanzas artísticas, tratamientos con copago farmacéutico) quedan para la validación humana.
 
 **NDI**
 - NDI = 0 para:
@@ -223,7 +221,7 @@ Medidas reales de los tres programas, para calibrar. Se resumen las medidas y se
 | cc-014 | Más financiación estatal para una oferta suficiente de plazas públicas gratuitas de 0 a 3 años | EDU | 1 | 0 | 1 | 1 | 0 | 0 | 0 | EXI 0: es una dotación, no reconoce el derecho ni fija una obligación |
 | pp-226 | Ley nacional de cuidados paliativos que asegure su acceso a toda persona (equipos, dolor, pediatría, domicilio, apoyo psicológico) | SAN | 1 | 1 | 1 | 1 | 1 | 0 | 0 | Varios instrumentos para un mismo objeto: una medida |
 | pp-226 | Acompañar a las familias en la enfermedad y el duelo | SAN | 1 | 0 | 1 | 1 | 0 | 0 | 1 | Otro objeto: medida aparte. Sin instrumento, declarativa |
-| pp-114 | Pacto de Estado y aportación estatal del 50 % del coste público de la dependencia | CUI | 1 | 0 | 1 | 1 | 0 | 0 | 0 | EXI 0: financiación, no un derecho ni un estándar |
+| pp-114 | Pacto de Estado y aportación estatal del 50 % del coste público de la dependencia | CUI | 1 | 0 | 0 | 1 | 0 | 0 | 0 | EXI 0: financiación, no un derecho ni un estándar. DES 0: la dependencia tiene copago (criterio del 16-11-2026) |
 | pp-114 | Deducción del 40 % de lo pagado por la atención profesional de una persona mayor dependiente | CUI | 0 | 0 | 0 | 1 | 0 | 0 | 0 | UNI 0: solo para quien puede pagar. EXI y DES 0: deducción |
 | pp-114 | El Estado cotiza por quien deja de trabajar o reduce jornada para cuidar a un familiar dependiente | CUI | 1 | 1 | 1 | 1 | 1 | 0 | 0 | Cotización pública garantizada a todo el colectivo, sin prueba de renta |
 | pp-153 | IVA del 4 % en la compra de la primera vivienda para menores de 40 años | VIV | 0 | 0 | 0 | 1 | 0 | 0 | 0 | UNI 0: exige poder comprar. EXI y DES 0: rebaja fiscal |

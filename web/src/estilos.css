@@ -1524,20 +1524,6 @@
   font: 400 0.8125rem/1.5 var(--np-mono);
   color: var(--np-muted);
 }
-.np-gar-explica {
-  padding: 0.55rem 0.85rem 0.6rem;
-  border-left: 4px solid var(--np-teal);
-  background: var(--np-teal-claro);
-}
-.np-gar-explica > p {
-  max-width: 52rem;
-  font: 400 1rem/1.55 var(--np-sans);
-  color: var(--np-cuerpo);
-}
-.np-gar-explica strong {
-  font-weight: 600;
-  color: var(--np-tinta);
-}
 
 /* Casillas: más intenso, más cerca de la garantía.
    Regresivas con aspa (sin color de partido) y resto, casilla vacía. */
@@ -1632,6 +1618,13 @@
   font: 400 0.75rem/1.2 var(--np-mono);
   color: var(--np-muted);
 }
+/* Qué cuenta la cifra: la categoría resaltada o, sin ninguna, la garantía completa */
+.np-gar-que {
+  font: 600 0.6875rem/1.3 var(--np-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--np-tinta);
+}
 .np-gar-n {
   font: 400 0.8125rem/1.4 var(--np-sans);
   color: var(--np-cuerpo);
@@ -1709,12 +1702,6 @@
     opacity: 0;
     transform: translateY(-4px);
   }
-}
-.np-gar-explica .np-gar-nota-txt {
-  background: #fff;
-}
-.np-gar-explica .np-gar-nota-txt::before {
-  border-bottom-color: #fff;
 }
 .np-gar-falta {
   display: grid;
@@ -1844,24 +1831,6 @@
 }
 .np-gar-total td {
   font-weight: 600;
-}
-.np-gar-metodo {
-  display: grid;
-  gap: 0.35rem;
-  max-width: 52rem;
-}
-.np-gar-metodo .np-nota {
-  margin-top: 0;
-}
-.np-gar-fuentes {
-  font: 400 0.8125rem/1.5 var(--np-mono);
-  color: var(--np-muted);
-}
-.np-gar-fuentes a {
-  color: var(--np-navy);
-  text-decoration-color: var(--np-teal);
-  text-decoration-thickness: 2px;
-  text-underline-offset: 2px;
 }
 
 /* Franja final de campaña */

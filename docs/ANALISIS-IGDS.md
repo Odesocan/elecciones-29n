@@ -29,6 +29,37 @@ Todo se regenera con `python3 maestro.py igds calcular`.
 
 ---
 
+## 0. Cambio de criterio en DES (16-11-2026)
+
+El equipo fijó que la dimensión 3 (DES) solo vale 1 cuando la medida da acceso público **sin ningún tipo de copago**: un servicio público que hoy es gratuito o una prestación monetaria pública. Pasan a DES 0:
+- un límite al precio, que no es una garantía pública;
+- la regulación laboral o del mercado y las leyes de protección, que regulan sin proveer;
+- la vivienda con renta;
+- los servicios con tasas o copago.
+
+Se aplicó a las 363 medidas que tenían DES 1, de las que 138 pasan a 0, con tres grupos de `datos/igds/ajustes.json` y sin tocar la codificación original. La regla está en [CRITERIOS-IGDS.md](CRITERIOS-IGDS.md).
+
+| | CC–1ºC | PP | PSOE | UPC | Vox |
+|---|---|---|---|---|---|
+| IGDS con el criterio anterior | 0,0 | 2,4 (15) | 7,0 (48) | 0,0 | 0,4 (1) |
+| **IGDS ahora** | **0,0** | **1,5** (9) | **1,8** (12) | **0,0** | **0,4** (1) |
+| I_DES antes → ahora | 16,7 → 11,5 | 12,3 → 9,6 | 30,8 → 16,9 | 21,3 → 9,3 | 12,5 → 9,4 |
+| A una dimensión de la garantía (sin regresivas) | 17 | 58 | 135 | 6 | 20 |
+
+- **Lo que queda como garantía completa:** servicios públicos gratuitos y prestaciones monetarias.
+  - PP: educación de 0 a 3 años y FP gratuitas, cuidados paliativos, cotización por cuidados, atención a menores migrantes y medidas de la escuela pública.
+  - PSOE: atención psicológica gratuita, salud bucodental, eutanasia, aborto, ratios y orientación en la escuela pública, coeducación, visita a domicilio, prestación por crianza, año cotizado, remuneración de cuidadoras y ayudas a huérfanos.
+  - Vox: educación de 0 a 3 años gratuita.
+- **Lo que deja de serlo:** la regulación laboral, del alquiler y de las plataformas digitales, y las leyes de protección. Son 36 garantías del PSOE y 6 del PP.
+- **La distancia entre PSOE y PP** pasa de casi el triple a 1,8 frente a 1,5: buena parte de la diferencia anterior venía de la regulación.
+- **La exigibilidad sigue siendo la dimensión limitante** en las cinco formaciones. En el PSOE, 44 de las medidas que se quedan a una dimensión fallan ahora en DES.
+- **UPC:** su regulación del alquiler (upc-005-03) ya no podría cambiar su IGDS, porque ahora tiene DES 0.
+- **Casos de frontera** para la validación: servicios sociales, educación de 0 a 3 años, formación profesional, enseñanzas artísticas y tratamientos con copago farmacéutico.
+
+Los apartados 1 a 6 describen la prueba con el criterio anterior, salvo donde se indica.
+
+---
+
 ## 1. Fase 0: los cinco programas se leen completos
 
 | | CC–1ºC | PP | PSOE | UPC | Vox |
@@ -164,8 +195,8 @@ El orden de las formaciones no cambia con el denominador, pero las magnitudes s�
 ## 5. Problemas del libro de códigos que hay que decidir
 
 1. **No hay área de protección social.** Pensiones, ingreso mínimo vital, prestaciones familiares y servicios sociales generales van a OTR y se diluyen. *Propuesta:* añadir un área PRO (garantía de ingresos).
-2. **DES y prestaciones monetarias.** Se ha leído que una prestación pública de garantía de ingresos es «provisión pública directa» (DES 1), y que una ayuda ligada a comprar en el mercado es DES 0. *Propuesta:* confirmarlo o fijar lo contrario.
-3. **DES en igualdad y regulación.** Se ha aplicado DES 1 a las leyes de protección y a la regulación obligatoria de condiciones (alquiler, plataformas, mercado laboral). *Propuesta:* confirmarlo. Afecta mucho al PSOE, cuyas garantías completas son en buena parte regulación.
+2. **DES y prestaciones monetarias.** Se ha leído que una prestación pública de garantía de ingresos es «provisión pública directa» (DES 1), y que una ayuda ligada a comprar en el mercado es DES 0. *Propuesta:* confirmarlo o fijar lo contrario. **Decidido el 16-11-2026:** DES 1, porque una prestación monetaria pública no tiene copago.
+3. **DES en igualdad y regulación.** Se ha aplicado DES 1 a las leyes de protección y a la regulación obligatoria de condiciones (alquiler, plataformas, mercado laboral). *Propuesta:* confirmarlo. Afecta mucho al PSOE, cuyas garantías completas son en buena parte regulación. **Decidido el 16-11-2026:** DES 0. Regular no es proveer, y un límite al precio no es una garantía pública (apartado 0).
 4. **EXI y las formaciones que no gobiernan.** «Reclamar al Estado» vale siempre 0. Afecta a CC–1ºC y a UPC. *Propuesta:* mantener la regla y añadir un indicador complementario de orientación, por ejemplo la proporción de medidas que cumplen UNI, DES y NDI aunque fallen en EXI.
 5. **Motivos de regresividad.** La lista (origen, situación administrativa, sexo, género, orientación) no incluye religión ni lengua. Afecta a los menús halal, al programa de lengua árabe y a la prohibición del burka. *Propuesta:* decidir si se añaden.
 6. **Regresividad implícita.** Hay medidas que no nombran la garantía que suprimen: «derecho a la vida desde la concepción», derogaciones genéricas o la legislación laboral. *Propuesta:* REG 1 solo si el texto identifica la garantía, y `revisar` en los demás casos.
@@ -184,7 +215,7 @@ Al codificar el PSOE se fijaron además tres reglas, ya escritas en los criterio
   - las 64 garantías completas (16 de CC–1ºC, PP y Vox, y 48 del PSOE; UPC no tiene);
   - las 70 regresivas;
   - una muestra ciega de 30 medidas por formación;
-  - en UPC, además, la regulación del alquiler (upc-005-03), que es la única medida que podría mover su IGDS.
+  - en UPC, además, la regulación del alquiler (upc-005-03), que con el criterio anterior era la única medida que podía mover su IGDS (con el de DES del 16-11, ya no).
 
   Las hojas están en `datos/igds/validacion/` y se han ampliado con el PSOE y con UPC sin cambiar las filas anteriores. Cómo rellenarlas está en [VALIDACION-IGDS.md](VALIDACION-IGDS.md).
 - **Decisiones del equipo:** los 8 puntos del apartado 5. Varias cambian los resultados, sobre todo 1, 2, 3, 4 y 5.

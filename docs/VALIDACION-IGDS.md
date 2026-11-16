@@ -35,7 +35,10 @@ Hay tres hojas en `datos/igds/validacion/`. Son archivos CSV con «;» que se ab
 - hoja B: ninguna fila, porque UPC no tiene garantías completas, medidas regresivas ni ajustes de coherencia;
 - hoja C: 10 de sus 16 ejes. Conviene mirarlos con atención: UPC es la formación con más medidas por eje (4,7), porque sus ejes son enumeraciones.
 
-Hay una medida de UPC que conviene revisar aunque no esté en la hoja B: la regulación de los precios del alquiler en zonas tensionadas (`upc-005-03`). Es la única que podría cambiar su IGDS (ver [ANALISIS-IGDS.md](ANALISIS-IGDS.md), apartado 4).
+**Cambio de criterio en DES (16-11-2026).** DES solo vale 1 si la medida da acceso público sin ningún tipo de copago ([CRITERIOS-IGDS.md](CRITERIOS-IGDS.md)). El cambio se aplicó con tres grupos «DES (16-11)» de `ajustes.json`, y 138 medidas pasan a DES 0. Las hojas se generaron antes, así que hay que tenerlo en cuenta al revisarlas:
+- **Hoja A (ciega):** no cambia. Hay que codificar DES con el criterio nuevo.
+- **Hoja B:** muestra DES con el criterio anterior y no incluye los nuevos ajustes. Al revisarla, se aplica el criterio nuevo. Las garantías completas que dejaron de serlo (6 del PP y 36 del PSOE) siguen en la hoja.
+- **UPC:** la regulación del alquiler (`upc-005-03`) ya no puede cambiar su IGDS, porque ahora tiene DES 0.
 
 Si alguien ya había empezado, solo tiene que seguir por el final. En la hoja A, las filas de cada formación añadida (PSOE, UPC) van juntas al final y no mezcladas con las de los otros partidos. Conviene codificarlas sin mirar las anteriores.
 

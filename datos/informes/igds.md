@@ -18,11 +18,11 @@ Generales 29N 2026 / Cortes Generales. **Primera codificación, pendiente de val
 
 | Formación | N | IGDS | I_UNI | I_EXI | I_DES | I_NDI | IR | IV | Limitante |
 |---|---|---|---|---|---|---|---|---|---|
-| CC–1ºC | 174 | 0,0 | 27,0 | 0,0 | 16,7 | 32,2 | 1,1 | 32,8 | EXI |
-| PP | 617 | 2,4 | 20,3 | 4,9 | 12,3 | 26,3 | 3,9 | 28,8 | EXI |
-| PSOE | 681 | 7,0 | 43,2 | 10,4 | 30,8 | 49,5 | 0,0 | 31,7 | EXI |
-| UPC | 75 | 0,0 | 44,0 | 0,0 | 21,3 | 48,0 | 0,0 | 70,7 | EXI |
-| Vox | 256 | 0,4 | 23,0 | 0,8 | 12,5 | 26,2 | 17,2 | 34,8 | EXI |
+| CC–1ºC | 174 | 0,0 | 27,0 | 0,0 | 11,5 | 32,2 | 1,1 | 32,8 | EXI |
+| PP | 617 | 1,5 | 20,3 | 4,9 | 9,6 | 26,3 | 3,9 | 28,8 | EXI |
+| PSOE | 681 | 1,8 | 43,2 | 10,4 | 16,9 | 49,5 | 0,0 | 31,7 | EXI |
+| UPC | 75 | 0,0 | 44,0 | 0,0 | 9,3 | 48,0 | 0,0 | 70,7 | EXI |
+| Vox | 256 | 0,4 | 23,0 | 0,8 | 9,4 | 26,2 | 17,2 | 34,8 | EXI |
 
 ## CC–1ºC
 
@@ -40,7 +40,7 @@ Generales 29N 2026 / Cortes Generales. **Primera codificación, pendiente de val
 |---|---|---|
 | I_UNI | 27,0 | 47 / 174 |
 | I_EXI | 0,0 | 0 / 174 |
-| I_DES | 16,7 | 29 / 174 |
+| I_DES | 11,5 | 20 / 174 |
 | I_NDI | 32,2 | 56 / 174 |
 | **IGDS** | 0,0 | 0 / 174 |
 | IR | 1,1 | 2 / 174 |
@@ -52,12 +52,12 @@ N = 174 medidas (4 salen de la prosa). Dimensión limitante: **EXI**. Confianza:
 
 | area | n | i_uni | i_exi | i_des | i_ndi | igds | ir | iv |
 |---|---|---|---|---|---|---|---|---|
-| VIV Vivienda | 14 | 57,1 | 0,0 | 35,7 | 78,6 | 0,0 | 7,1 | 21,4 |
+| VIV Vivienda | 14 | 57,1 | 0,0 | 0,0 | 78,6 | 0,0 | 7,1 | 21,4 |
 | SAN Sanidad | 5 | 100,0 | 0,0 | 100,0 | 100,0 | 0,0 | 0,0 | 60,0 |
 | SME Salud mental | 1 | 100,0 | 0,0 | 100,0 | 100,0 | 0,0 | 0,0 | 0,0 |
-| EDU Educación | 8 | 87,5 | 0,0 | 62,5 | 87,5 | 0,0 | 0,0 | 25,0 |
+| EDU Educación | 8 | 87,5 | 0,0 | 50,0 | 87,5 | 0,0 | 0,0 | 25,0 |
 | EMP Empleo | 11 | 72,7 | 0,0 | 0,0 | 90,9 | 0,0 | 0,0 | 36,4 |
-| CUI Cuidados y dependencia | 3 | 100,0 | 0,0 | 100,0 | 100,0 | 0,0 | 0,0 | 0,0 |
+| CUI Cuidados y dependencia | 3 | 100,0 | 0,0 | 0,0 | 100,0 | 0,0 | 0,0 | 0,0 |
 | MAM Medio ambiente | 26 | 11,5 | 0,0 | 11,5 | 11,5 | 0,0 | 0,0 | 15,4 |
 | EVE Espacios verdes | 1 | 100,0 | 0,0 | 100,0 | 100,0 | 0,0 | 0,0 | 0,0 |
 | MIG Migración segura | 12 | 50,0 | 0,0 | 16,7 | 50,0 | 0,0 | 8,3 | 41,7 |
@@ -91,10 +91,14 @@ N = 174 medidas (4 salen de la prosa). Dimensión limitante: **EXI**. Confianza:
 - cc-p07: Clasificar cada compromiso según requiera aprobación, financiación o ejecución y actualizar los calendarios de las propuestas de ejercicios anteriores. → repite cc-100
 - cc-p07: Rendir cuentas ante la ciudadanía tomando como referencia el cumplimiento de la agenda. → repite cc-100
 
-**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 5.
+**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 12.
 
-- 4 · DES: servicio dentro de un sistema público o prestación en servicio
-- 1 · DES: regulación obligatoria de las condiciones del mercado
+- 3 · DES: servicio dentro de un sistema público o prestación en servicio
+- 4 · DES (16-11): servicio con tasas, copago o precio
+- 1 · DES: servicio dentro de un sistema público o prestación en servicio · DES (16-11): servicio con tasas, copago o precio
+- 2 · DES (16-11): vivienda pública, protegida o asequible con renta o precio
+- 1 · DES: regulación obligatoria de las condiciones del mercado · DES (16-11): regular precios, condiciones o conductas no es provisión pública sin copago
+- 1 · DES (16-11): regular precios, condiciones o conductas no es provisión pública sin copago
 
 **Casos dudosos:** 36.
 
@@ -151,9 +155,9 @@ N = 174 medidas (4 salen de la prosa). Dimensión limitante: **EXI**. Confianza:
 |---|---|---|
 | I_UNI | 20,3 | 125 / 617 |
 | I_EXI | 4,9 | 30 / 617 |
-| I_DES | 12,3 | 76 / 617 |
+| I_DES | 9,6 | 59 / 617 |
 | I_NDI | 26,3 | 162 / 617 |
-| **IGDS** | 2,4 | 15 / 617 |
+| **IGDS** | 1,5 | 9 / 617 |
 | IR | 3,9 | 24 / 617 |
 | IV | 28,8 | 178 / 617 |
 
@@ -163,16 +167,16 @@ N = 617 medidas (0 salen de la prosa). Dimensión limitante: **EXI**. Confianza:
 
 | area | n | i_uni | i_exi | i_des | i_ndi | igds | ir | iv |
 |---|---|---|---|---|---|---|---|---|
-| VIV Vivienda | 37 | 29,7 | 10,8 | 13,5 | 62,2 | 8,1 | 5,4 | 10,8 |
-| SAN Sanidad | 31 | 83,9 | 3,2 | 71,0 | 90,3 | 3,2 | 0,0 | 51,6 |
+| VIV Vivienda | 37 | 29,7 | 10,8 | 0,0 | 62,2 | 0,0 | 5,4 | 10,8 |
+| SAN Sanidad | 31 | 83,9 | 3,2 | 67,7 | 90,3 | 3,2 | 0,0 | 51,6 |
 | SME Salud mental | 8 | 100,0 | 0,0 | 75,0 | 100,0 | 0,0 | 0,0 | 50,0 |
 | EDU Educación | 32 | 46,9 | 25,0 | 34,4 | 59,4 | 18,8 | 0,0 | 28,1 |
 | EMP Empleo | 24 | 79,2 | 8,3 | 4,2 | 83,3 | 0,0 | 0,0 | 20,8 |
-| CUI Cuidados y dependencia | 19 | 73,7 | 15,8 | 57,9 | 100,0 | 5,3 | 0,0 | 52,6 |
+| CUI Cuidados y dependencia | 19 | 73,7 | 15,8 | 26,3 | 100,0 | 5,3 | 0,0 | 52,6 |
 | MAM Medio ambiente | 28 | 3,6 | 0,0 | 3,6 | 3,6 | 0,0 | 0,0 | 32,1 |
 | MIG Migración segura | 46 | 13,0 | 2,2 | 6,5 | 19,6 | 2,2 | 39,1 | 19,6 |
-| IGU Igualdad y no discriminación | 16 | 75,0 | 6,2 | 31,2 | 75,0 | 6,2 | 12,5 | 43,8 |
-| OTR Otras áreas | 376 | 3,5 | 2,7 | 2,9 | 6,1 | 0,5 | 0,5 | 27,9 |
+| IGU Igualdad y no discriminación | 16 | 75,0 | 6,2 | 25,0 | 75,0 | 0,0 | 12,5 | 43,8 |
+| OTR Otras áreas | 376 | 3,5 | 2,7 | 1,9 | 6,1 | 0,0 | 0,5 | 27,9 |
 
 ### 5. Silencios, control de calidad y casos dudosos
 
@@ -241,13 +245,19 @@ N = 617 medidas (0 salen de la prosa). Dimensión limitante: **EXI**. Confianza:
 - pp-p52: Que las personas autónomas no trabajen ante todo para pagar la cuota → repite pp-170
 - pp-p52: Que las empresas puedan crecer sin penalización → repite pp-187
 
-**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 37.
+**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 46.
 
-- 25 · DES: servicio dentro de un sistema público o prestación en servicio
+- 23 · DES: servicio dentro de un sistema público o prestación en servicio
+- 1 · DES: servicio dentro de un sistema público o prestación en servicio · DES (16-11): regular precios, condiciones o conductas no es provisión pública sin copago
 - 1 · Área EMP: condiciones laborales del personal de un cuerpo público
+- 6 · DES (16-11): servicio con tasas, copago o precio
+- 1 · DES: servicio dentro de un sistema público o prestación en servicio · DES (16-11): servicio con tasas, copago o precio
+- 2 · DES (16-11): vivienda pública, protegida o asequible con renta o precio
 - 1 · DEC: plan o programa identificado
-- 7 · DES: regulación obligatoria de las condiciones del mercado
+- 1 · DES (16-11): regular precios, condiciones o conductas no es provisión pública sin copago
+- 6 · DES: regulación obligatoria de las condiciones del mercado · DES (16-11): regular precios, condiciones o conductas no es provisión pública sin copago
 - 2 · Área EMP: condiciones laborales del personal sanitario y docente
+- 1 · DES: regulación obligatoria de las condiciones del mercado
 - 1 · UNI: prestación contributiva
 
 **Casos dudosos:** 131.
@@ -400,9 +410,9 @@ N = 617 medidas (0 salen de la prosa). Dimensión limitante: **EXI**. Confianza:
 |---|---|---|
 | I_UNI | 43,2 | 294 / 681 |
 | I_EXI | 10,4 | 71 / 681 |
-| I_DES | 30,8 | 210 / 681 |
+| I_DES | 16,9 | 115 / 681 |
 | I_NDI | 49,5 | 337 / 681 |
-| **IGDS** | 7,0 | 48 / 681 |
+| **IGDS** | 1,8 | 12 / 681 |
 | IR | 0,0 | 0 / 681 |
 | IV | 31,7 | 216 / 681 |
 
@@ -412,16 +422,16 @@ N = 681 medidas (15 salen de la prosa). Dimensión limitante: **EXI**. Confianza
 
 | area | n | i_uni | i_exi | i_des | i_ndi | igds | ir | iv |
 |---|---|---|---|---|---|---|---|---|
-| VIV Vivienda | 60 | 56,7 | 13,3 | 28,3 | 68,3 | 8,3 | 0,0 | 16,7 |
-| SAN Sanidad | 40 | 90,0 | 12,5 | 77,5 | 95,0 | 12,5 | 0,0 | 25,0 |
+| VIV Vivienda | 60 | 56,7 | 13,3 | 1,7 | 68,3 | 0,0 | 0,0 | 16,7 |
+| SAN Sanidad | 40 | 90,0 | 12,5 | 62,5 | 95,0 | 7,5 | 0,0 | 25,0 |
 | SME Salud mental | 5 | 100,0 | 20,0 | 100,0 | 100,0 | 20,0 | 0,0 | 20,0 |
-| EDU Educación | 36 | 77,8 | 13,9 | 69,4 | 88,9 | 11,1 | 0,0 | 30,6 |
-| EMP Empleo | 63 | 85,7 | 23,8 | 44,4 | 96,8 | 17,5 | 0,0 | 27,0 |
-| CUI Cuidados y dependencia | 30 | 83,3 | 20,0 | 73,3 | 93,3 | 13,3 | 0,0 | 16,7 |
-| MAM Medio ambiente | 54 | 18,5 | 3,7 | 16,7 | 20,4 | 1,9 | 0,0 | 38,9 |
+| EDU Educación | 36 | 77,8 | 13,9 | 41,7 | 88,9 | 5,6 | 0,0 | 30,6 |
+| EMP Empleo | 63 | 85,7 | 23,8 | 14,3 | 96,8 | 0,0 | 0,0 | 27,0 |
+| CUI Cuidados y dependencia | 30 | 83,3 | 20,0 | 36,7 | 93,3 | 10,0 | 0,0 | 16,7 |
+| MAM Medio ambiente | 54 | 18,5 | 3,7 | 11,1 | 20,4 | 0,0 | 0,0 | 38,9 |
 | MIG Migración segura | 13 | 76,9 | 0,0 | 30,8 | 84,6 | 0,0 | 0,0 | 61,5 |
-| IGU Igualdad y no discriminación | 70 | 82,9 | 14,3 | 44,3 | 85,7 | 12,9 | 0,0 | 44,3 |
-| OTR Otras áreas | 310 | 11,0 | 6,1 | 12,3 | 16,1 | 2,6 | 0,0 | 32,9 |
+| IGU Igualdad y no discriminación | 70 | 82,9 | 14,3 | 21,4 | 85,7 | 2,9 | 0,0 | 44,3 |
+| OTR Otras áreas | 310 | 11,0 | 6,1 | 7,7 | 16,1 | 0,3 | 0,0 | 32,9 |
 
 ### 5. Silencios, control de calidad y casos dudosos
 
@@ -595,9 +605,12 @@ N = 681 medidas (15 salen de la prosa). Dimensión limitante: **EXI**. Confianza
 - psoe-p107: Impulsar desde la Unión Europea políticas sociales que faciliten el acceso a la vivienda → repite psoe-477
 - psoe-p107: Mantener la defensa del multilateralismo y del derecho internacional en la acción exterior → repite psoe-456
 
-**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 4.
+**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 99.
 
+- 9 · DES (16-11): vivienda pública, protegida o asequible con renta o precio
+- 61 · DES (16-11): regular precios, condiciones o conductas no es provisión pública sin copago
 - 2 · Justicia gratuita y plazos judiciales: organización de la justicia
+- 25 · DES (16-11): servicio con tasas, copago o precio
 - 2 · Repetición circular entre lotes del PSOE
 
 **Casos dudosos:** 188.
@@ -807,7 +820,7 @@ N = 681 medidas (15 salen de la prosa). Dimensión limitante: **EXI**. Confianza
 |---|---|---|
 | I_UNI | 44,0 | 33 / 75 |
 | I_EXI | 0,0 | 0 / 75 |
-| I_DES | 21,3 | 16 / 75 |
+| I_DES | 9,3 | 7 / 75 |
 | I_NDI | 48,0 | 36 / 75 |
 | **IGDS** | 0,0 | 0 / 75 |
 | IR | 0,0 | 0 / 75 |
@@ -819,16 +832,16 @@ N = 75 medidas (0 salen de la prosa). Dimensión limitante: **EXI**. Confianza: 
 
 | area | n | i_uni | i_exi | i_des | i_ndi | igds | ir | iv |
 |---|---|---|---|---|---|---|---|---|
-| VIV Vivienda | 6 | 83,3 | 0,0 | 50,0 | 100,0 | 0,0 | 0,0 | 50,0 |
+| VIV Vivienda | 6 | 83,3 | 0,0 | 0,0 | 100,0 | 0,0 | 0,0 | 50,0 |
 | SAN Sanidad | 3 | 100,0 | 0,0 | 66,7 | 100,0 | 0,0 | 0,0 | 100,0 |
 | SME Salud mental | 1 | 100,0 | 0,0 | 100,0 | 100,0 | 0,0 | 0,0 | 100,0 |
-| EDU Educación | 2 | 100,0 | 0,0 | 100,0 | 100,0 | 0,0 | 0,0 | 100,0 |
-| EMP Empleo | 7 | 100,0 | 0,0 | 42,9 | 100,0 | 0,0 | 0,0 | 85,7 |
-| CUI Cuidados y dependencia | 2 | 100,0 | 0,0 | 50,0 | 100,0 | 0,0 | 0,0 | 100,0 |
+| EDU Educación | 2 | 100,0 | 0,0 | 50,0 | 100,0 | 0,0 | 0,0 | 100,0 |
+| EMP Empleo | 7 | 100,0 | 0,0 | 0,0 | 100,0 | 0,0 | 0,0 | 85,7 |
+| CUI Cuidados y dependencia | 2 | 100,0 | 0,0 | 0,0 | 100,0 | 0,0 | 0,0 | 100,0 |
 | MAM Medio ambiente | 4 | 25,0 | 0,0 | 0,0 | 25,0 | 0,0 | 0,0 | 75,0 |
 | MIG Migración segura | 5 | 100,0 | 0,0 | 40,0 | 100,0 | 0,0 | 0,0 | 100,0 |
 | IGU Igualdad y no discriminación | 6 | 100,0 | 0,0 | 0,0 | 100,0 | 0,0 | 0,0 | 100,0 |
-| OTR Otras áreas | 39 | 2,6 | 0,0 | 5,1 | 7,7 | 0,0 | 0,0 | 56,4 |
+| OTR Otras áreas | 39 | 2,6 | 0,0 | 2,6 | 7,7 | 0,0 | 0,0 | 56,4 |
 
 ### 5. Silencios, control de calidad y casos dudosos
 
@@ -845,8 +858,11 @@ N = 75 medidas (0 salen de la prosa). Dimensión limitante: **EXI**. Confianza: 
 - upc-001: Reclamar el reconocimiento efectivo de la condición de región ultraperiférica → repite upc-004
 - upc-016: Derecho de la juventud a quedarse en las islas con vivienda asequible, empleo digno, educación pública y salud mental → repite upc-005
 
-**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 0.
+**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 9.
 
+- 1 · DES (16-11): vivienda pública, protegida o asequible con renta o precio
+- 5 · DES (16-11): regular precios, condiciones o conductas no es provisión pública sin copago
+- 3 · DES (16-11): servicio con tasas, copago o precio
 
 **Casos dudosos:** 8.
 
@@ -875,7 +891,7 @@ N = 75 medidas (0 salen de la prosa). Dimensión limitante: **EXI**. Confianza: 
 |---|---|---|
 | I_UNI | 23,0 | 59 / 256 |
 | I_EXI | 0,8 | 2 / 256 |
-| I_DES | 12,5 | 32 / 256 |
+| I_DES | 9,4 | 24 / 256 |
 | I_NDI | 26,2 | 67 / 256 |
 | **IGDS** | 0,4 | 1 / 256 |
 | IR | 17,2 | 44 / 256 |
@@ -887,12 +903,12 @@ N = 256 medidas (0 salen de la prosa). Dimensión limitante: **EXI**. Confianza:
 
 | area | n | i_uni | i_exi | i_des | i_ndi | igds | ir | iv |
 |---|---|---|---|---|---|---|---|---|
-| VIV Vivienda | 27 | 29,6 | 0,0 | 11,1 | 33,3 | 0,0 | 29,6 | 25,9 |
+| VIV Vivienda | 27 | 29,6 | 0,0 | 0,0 | 33,3 | 0,0 | 29,6 | 25,9 |
 | SAN Sanidad | 20 | 70,0 | 0,0 | 60,0 | 65,0 | 0,0 | 15,0 | 55,0 |
 | SME Salud mental | 1 | 100,0 | 0,0 | 100,0 | 100,0 | 0,0 | 0,0 | 0,0 |
 | EDU Educación | 23 | 30,4 | 4,3 | 21,7 | 34,8 | 4,3 | 21,7 | 34,8 |
 | EMP Empleo | 13 | 76,9 | 0,0 | 0,0 | 92,3 | 0,0 | 7,7 | 46,2 |
-| CUI Cuidados y dependencia | 13 | 84,6 | 7,7 | 69,2 | 92,3 | 0,0 | 7,7 | 23,1 |
+| CUI Cuidados y dependencia | 13 | 84,6 | 7,7 | 30,8 | 92,3 | 0,0 | 7,7 | 23,1 |
 | MAM Medio ambiente | 15 | 6,7 | 0,0 | 0,0 | 13,3 | 0,0 | 26,7 | 26,7 |
 | MIG Migración segura | 23 | 4,3 | 0,0 | 0,0 | 4,3 | 0,0 | 69,6 | 21,7 |
 | IGU Igualdad y no discriminación | 5 | 60,0 | 0,0 | 20,0 | 60,0 | 0,0 | 40,0 | 80,0 |
@@ -918,14 +934,19 @@ N = 256 medidas (0 salen de la prosa). Dimensión limitante: **EXI**. Confianza:
 - vox-001: Militarizar la frontera de Ceuta y Melilla para repeler entradas → repite vox-088
 - vox-079: Fuerzas Armadas y Fuerzas y Cuerpos de Seguridad del Estado dimensionados y con los recursos necesarios → repite vox-083
 
-**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 25.
+**Ajustes de coherencia aplicados** (datos/igds/ajustes.json): 28.
 
 - 1 · Área EMP: condiciones laborales del personal de un cuerpo público
 - 2 · DEC: plan o programa identificado
-- 4 · NDI: la nacionalidad delimita quién recibe una prestación concreta
-- 15 · DES: servicio dentro de un sistema público o prestación en servicio
+- 1 · NDI: la nacionalidad delimita quién recibe una prestación concreta · DES (16-11): vivienda pública, protegida o asequible con renta o precio
+- 3 · NDI: la nacionalidad delimita quién recibe una prestación concreta
+- 1 · DES (16-11): regular precios, condiciones o conductas no es provisión pública sin copago
+- 12 · DES: servicio dentro de un sistema público o prestación en servicio
 - 2 · Área EMP: condiciones laborales del personal sanitario y docente
-- 1 · DES: regulación obligatoria de las condiciones del mercado
+- 2 · DES (16-11): servicio con tasas, copago o precio
+- 2 · DES: servicio dentro de un sistema público o prestación en servicio · DES (16-11): servicio con tasas, copago o precio
+- 1 · DES: regulación obligatoria de las condiciones del mercado · DES (16-11): regular precios, condiciones o conductas no es provisión pública sin copago
+- 1 · DES: servicio dentro de un sistema público o prestación en servicio · DES (16-11): vivienda pública, protegida o asequible con renta o precio
 
 **Casos dudosos:** 90.
 

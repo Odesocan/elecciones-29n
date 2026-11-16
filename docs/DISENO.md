@@ -166,7 +166,7 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
 
 La capa crítica: el IGDS de ODESOCAN ([CRITERIOS-IGDS.md](CRITERIOS-IGDS.md)). Se publica desde el 16-11-2026, a petición del equipo, antes de cerrar la validación humana. Se enciende y se apaga con `igds.activo` en `config/campana.json`; en el servidor de desarrollo se ve siempre. Mientras sea provisional lleva el sello de `igds.sello`.
 
-- **Las cuatro preguntas**, en lenguaje llano y numeradas: ¿llega a toda la población? (UNI), ¿se puede reclamar? (EXI), ¿lo garantiza lo público? (DES), ¿no excluye a nadie? (NDI). Cada una tiene una nota emergente «Cuándo es sí» con la regla del libro de códigos, con ejemplos genéricos, no medidas de ningún partido. La regla del índice va en una línea: cuatro síes, garantía completa.
+- **Las cuatro preguntas**, en lenguaje llano y numeradas: ¿llega a toda la población? (UNI), ¿se puede reclamar? (EXI), ¿es público y sin copago? (DES), ¿no excluye a nadie? (NDI). Cada una tiene una nota emergente «Cuándo es sí» con la regla del libro de códigos, con ejemplos genéricos, no medidas de ningún partido. La regla del índice va en una línea: cuatro síes, garantía completa.
 - **De cada 100 medidas:** una rejilla de 10 × 10 casillas por programa, en orden alfabético. Cada casilla es 1 de cada 100 medidas, así que la escala es relativa y común. Las casillas pueden partirse, para que 0,4 se vea como 0,4 de casilla y no desaparezca al redondear.
 - **Categorías exclusivas, en este orden:**
   - garantía completa, en el color del partido;
@@ -176,12 +176,7 @@ La capa crítica: el IGDS de ODESOCAN ([CRITERIOS-IGDS.md](CRITERIOS-IGDS.md)). 
   - resto del programa, casilla vacía.
 
   Más intenso significa más cerca de garantizar el derecho. Las **declarativas** llevan un punto navy encima de su casilla, porque pueden estar en cualquier categoría.
-- **La leyenda es el mando.** Seis botones (`aria-pressed`), cada uno con su muestra, su nombre y una línea de explicación. Al elegir uno:
-  - esa categoría se resalta en los cinco programas, y el resto se atenúa al 30 % sin desaparecer;
-  - las cifras cuentan hasta su valor, con el mismo contador que las barras del paso 2;
-  - debajo aparece la explicación y una nota «Cómo se cuenta».
-
-  Por defecto está elegida la garantía completa, es decir, el IGDS.
+- **La leyenda es el mando.** Seis botones (`aria-pressed`), cada uno con su muestra, su nombre y una línea de explicación. Al elegir uno, esa categoría se resalta en los cinco programas (el resto se atenúa al 30 %, sin desaparecer) y las cifras cuentan hasta su valor, con el mismo contador que las barras del paso 2. **Al volver a pulsarlo se deselecciona.** Sin categoría elegida se ve el reparto completo y las cifras son el IGDS. Debajo de cada cifra, en mono, la categoría a la que corresponde. La caja de explicación y su nota «Cómo se cuenta», que iban bajo la leyenda, se quitaron a petición del equipo el 16-11-2026. Para lectores de pantalla, una región `aria-live` anuncia la categoría y las cinco cifras.
 - **Notas en cada panel:**
   - calculadas con los datos: «Dónde están» (áreas de las garantías o de las regresivas) y «Qué les falta» (qué pregunta falla en las que se acercan);
   - editoriales, desde `config/igds.json → web.notas_partido`: «¿Por qué 0?» en CC–1ºC (pedir al Estado no es comprometer una ley propia) y en UPC (manifiesto de 6 páginas).
@@ -189,7 +184,7 @@ La capa crítica: el IGDS de ODESOCAN ([CRITERIOS-IGDS.md](CRITERIOS-IGDS.md)). 
   Las notas emergentes se despliegan debajo de su botón, sin tapar nada, y se cierran con Escape.
 - **Leer las medidas.** En garantía completa, se acercan y regresivas, cada panel ofrece «Leer las N». Abre debajo la lista con la síntesis de ODESOCAN, el fragmento literal entre comillas, el área, el enlace a la página del PDF y, en las que se acercan, «Le falta: …». Los textos (`igds-medidas.json`) se publican junto al CSV y solo se piden al abrir la primera lista. En la versión autocontenida no hay carpeta de datos y el botón no aparece.
 - **Cierre:** «En los cinco programas, la respuesta que más falta es la segunda… Es una buena pregunta para hacer a cada candidatura.» Solo aparece si la exigibilidad es la dimensión limitante en todos los programas. Se calcula, no se da por supuesto.
-- **Tabla de datos** desplegable con todas las categorías y formaciones, más las notas de método: codificación con IA pendiente de validación humana, se cuentan medidas y no euros, y el índice mide instrumentos y no orientación. Enlaces al libro de códigos y al CSV de medidas.
+- **Tabla de datos** desplegable con todas las categorías y formaciones. Las notas de método y los enlaces al libro de códigos y al CSV se quitaron a petición del equipo (16-11-2026); el sello de provisional se mantiene.
 - **Textos:** `config/igds.json → web`, editables sin tocar el código. **Cifras:** `datos/igds/igds-web.json`, que genera `maestro.py igds calcular`. La web no recalcula nada.
 
 ### La prueba de las cuentas · descartada el 16-11-2026
@@ -298,7 +293,9 @@ Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV p
 | 16-11 | Barras del paso 2: logo al comienzo de cada barra en lugar del nombre tras el eje, porcentaje más grande en la punta y contador al cambiar de tema |
 | 16-11 | Se descarta **la prueba de las cuentas**: es difícil de interpretar, una de sus lecturas premia la austeridad al margen de la garantía de derechos y la alerta de riesgo, común a todos los programas, podía animar a la abstención |
 | 16-11 | Capa crítica: el **IGDS** en rejillas de «de cada 100 medidas», con las declarativas (punto) y las regresivas (aspa) en el mismo gráfico y una leyenda explicativa que hace de mando. Se descartaron el radar (el área engaña: UPC tenía el más lleno con IGDS 0), las barras (tres intensidades del mismo color no se distinguen en amarillo y verde) y el treemap (cuenta medidas en absoluto y borra a quien tiene 0). Oculto hasta la validación humana |
-| 16-11 | Se publica el IGDS (`igds.activo: true`) antes de cerrar la validación, con el sello «Provisional · pendiente de validación humana» y la nota de método sobre la codificación con IA |
+| 16-11 | Se publica el IGDS (`igds.activo: true`) antes de cerrar la validación, con el sello «Provisional · pendiente de validación humana» |
+| 16-11 | IGDS: sin la sanidad pública como ejemplo de garantía (hoy no funciona como un derecho social); «entornos convivenciales» en lugar de «familias»; sin la caja de explicación bajo la leyenda ni el bloque de método; la leyenda se deselecciona al volver a pulsarla |
+| 16-11 | **Cambio de criterio en DES:** solo cuenta el acceso público sin ningún tipo de copago (servicio público gratuito o prestación monetaria pública). Un límite al precio, la regulación y la vivienda con renta pasan a DES 0. IGDS: PP 2,4 → 1,5; PSOE 7,0 → 1,8 ([ANALISIS-IGDS.md](ANALISIS-IGDS.md), apartado 0) |
 
 ---
 

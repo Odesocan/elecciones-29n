@@ -1,15 +1,6 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import { easeCubicOut, interpolateNumber, json, select } from 'd3';
-import {
-  IGDS_AREAS,
-  IGDS_DATOS,
-  IGDS_SELLO,
-  IGDS_TEXTOS as T,
-  PARTIDOS,
-  REPOSITORIO,
-  urlDatos,
-  urlPrograma,
-} from '../config.js';
+import { IGDS_AREAS, IGDS_DATOS, IGDS_SELLO, IGDS_TEXTOS as T, PARTIDOS, urlDatos, urlPrograma } from '../config.js';
 import { irA, plural, sinMovimiento, varsPartido } from '../util.js';
 import LogoPartido from './LogoPartido.jsx';
 
@@ -20,7 +11,8 @@ import LogoPartido from './LogoPartido.jsx';
 //   otras sociales, regresivas (aspa) y resto (casilla vacía). El punto marca
 //   las declarativas, que pueden estar en cualquier categoría.
 // · La leyenda es el mando: al elegir una categoría se resalta en los cinco
-//   programas y las cifras cuentan hasta su valor.
+//   programas y las cifras cuentan hasta su valor. Al volver a pulsarla se
+//   quita el resaltado y las cifras vuelven al IGDS (garantía completa).
 // · Recuentos: datos/igds/igds-web.json. Textos: config/igds.json → web.
 //   Las medidas literales se piden aparte (igds-medidas.json) al abrir una lista.
 const D = IGDS_DATOS.partidos;
@@ -227,6 +219,9 @@ function Panel({ p, celdas, sel, hayTextos, leyendo, idLectura, onLeer }) {
         </span>
         <span className="np-sr">{`${p.sigla}, ${minus(nombre)}: ${dec1(v)} de cada 100 medidas, ${n} de ${d.n}.`}</span>
       </p>
+      <p className="np-gar-que" aria-hidden="true">
+        {nombre}
+      </p>
       <p className="np-gar-n" aria-hidden="true">
         {n} de {d.n} medidas
       </p>
@@ -392,7 +387,9 @@ function TablaDatos() {
 }
 
 export default function Garantias({ seccionRef, tituloRef }) {
-  const [sel, setSel] = useState('g');
+  // Categoría resaltada (null = ninguna: se ve el reparto completo y las cifras son el IGDS).
+  const [sel, setSel] = useState(null);
+  const vista = sel ?? 'g';
   const [lectura, setLectura] = useState(null);
   const panelesRef = useRef(null);
   const lecturaRef = useRef(null);
@@ -409,7 +406,8 @@ export default function Garantias({ seccionRef, tituloRef }) {
     const raiz = select(panelesRef.current);
     const quieto = sinMovimiento();
     raiz.selectAll('.np-gar-cas').each(function () {
-      const activa = sel === 'dec' ? this.dataset.dec === '1' : this.dataset.k.split(' ').includes(sel);
+      const activa =
+        sel === null || (sel === 'dec' ? this.dataset.dec === '1' : this.dataset.k.split(' ').includes(sel));
       // Lo no elegido se atenúa sin desaparecer: el reparto completo sigue a la vista.
       const op = activa ? 1 : 0.3;
       const c = select(this);
@@ -441,21 +439,24 @@ export default function Garantias({ seccionRef, tituloRef }) {
     if (lectura) irA(lecturaRef.current, { foco: tituloLecturaRef.current });
   }, [lectura]);
 
+  // Pulsar la categoría ya elegida la deselecciona.
   const elegir = (k) => {
-    setSel(k);
+    setSel((actual) => (actual === k ? null : k));
     setLectura(null);
   };
   const leer = (pid, boton) => {
     abridorRef.current = boton;
-    setLectura({ pid, k: sel });
+    setLectura({ pid, k: vista });
   };
   const cerrar = () => {
     setLectura(null);
     abridorRef.current?.focus();
   };
 
-  const cat = T.categorias[sel];
-  const resumen = LISTA.map((p) => `${p.sigla} ${dec1(valor(D[p.id], sel).v)}`).join('; ');
+  const resumen = LISTA.map((p) => `${p.sigla} ${dec1(valor(D[p.id], vista).v)}`).join('; ');
+  const anuncio = sel
+    ? `${T.categorias[sel].nombre}, de cada 100 medidas: ${resumen}.`
+    : `Sin categoría resaltada. Garantía completa, de cada 100 medidas: ${resumen}.`;
 
   return (
     <section className="np-seccion np-gar" aria-labelledby="np-t-gar" ref={seccionRef}>
@@ -488,7 +489,7 @@ export default function Garantias({ seccionRef, tituloRef }) {
 
       <div className="np-gar-mando">
         <p className="np-leyenda-tit" id={`${idLectura}-ley`}>
-          Cómo leerlo · elige qué ver
+          Cómo leerlo · toca una categoría para resaltarla
         </p>
         <div className="np-gar-leyenda" role="group" aria-labelledby={`${idLectura}-ley`}>
           {LEYENDA.map((k) => (
@@ -505,15 +506,9 @@ export default function Garantias({ seccionRef, tituloRef }) {
           Cada casilla es 1 de cada 100 medidas, en el color de su partido: cuanto más intenso, más cerca de garantizar
           el derecho.
         </p>
-        <div className="np-gar-explica">
-          <p aria-live="polite">
-            <strong>{cat.nombre}.</strong> {cat.explica}
-            <span className="np-sr"> De cada 100 medidas: {resumen}.</span>
-          </p>
-          <NotaEmergente key={sel} etiqueta="Cómo se cuenta">
-            <p>{cat.nota}</p>
-          </NotaEmergente>
-        </div>
+        <p className="np-sr" aria-live="polite">
+          {anuncio}
+        </p>
       </div>
 
       <ul className="np-gar-paneles" ref={panelesRef}>
@@ -522,7 +517,7 @@ export default function Garantias({ seccionRef, tituloRef }) {
             key={p.id}
             p={p}
             celdas={celdas[p.id]}
-            sel={sel}
+            sel={vista}
             hayTextos={hayTextos}
             leyendo={lectura?.pid === p.id}
             idLectura={idLectura}
@@ -544,25 +539,6 @@ export default function Garantias({ seccionRef, tituloRef }) {
       {cierre && <p className="np-gar-cierre">{T.cierre_exi}</p>}
 
       <TablaDatos />
-
-      <div className="np-gar-metodo">
-        {T.metodo.map((t) => (
-          <p key={t} className="np-nota">
-            {t}
-          </p>
-        ))}
-        {REPOSITORIO && (
-          <p className="np-gar-fuentes">
-            <a href={`${REPOSITORIO}/blob/main/docs/CRITERIOS-IGDS.md`} target="_blank" rel="noopener noreferrer">
-              Libro de códigos
-            </a>{' '}
-            ·{' '}
-            <a href={`${REPOSITORIO}/blob/main/datos/igds/igds-medidas.csv`} target="_blank" rel="noopener noreferrer">
-              Todas las medidas codificadas
-            </a>
-          </p>
-        )}
-      </div>
     </section>
   );
 }

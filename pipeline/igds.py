@@ -432,9 +432,18 @@ def _ajustes():
         return {}
     doc = json.loads(ruta.read_text(encoding='utf-8'))
     salida = {}
+    # Una medida puede estar en varios grupos (p. ej., un ajuste de coherencia
+    # y después un cambio de criterio): se aplican en el orden del archivo y,
+    # si dos tocan el mismo campo, manda el último.
     for grupo in doc['grupos']:
+        nuevo = {'regla': grupo['regla'], 'cambios': grupo['cambios'], 'nota': grupo.get('nota', '')}
         for i in grupo['ids']:
-            salida[i] = {'regla': grupo['regla'], 'cambios': grupo['cambios'], 'nota': grupo.get('nota', '')}
+            previo = salida.get(i)
+            salida[i] = nuevo if not previo else {
+                'regla': f'{previo["regla"]} · {nuevo["regla"]}',
+                'cambios': {**previo['cambios'], **nuevo['cambios']},
+                'nota': ' '.join(x for x in (previo['nota'], nuevo['nota']) if x),
+            }
     return salida
 
 
