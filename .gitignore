@@ -13,6 +13,9 @@ web/public/data/*.pdf
 datos/texto/
 datos/clasificacion/lotes/
 datos/igds/lotes/
+# Clave de la hoja A del IGDS: traduce los códigos ciegos a medidas. No se publica,
+# para que la codificación ciega siga siéndolo; la guarda el equipo de ODESOCAN.
+datos/igds/validacion/clave-A.json
 __pycache__/
 
 # divi/: solo se versiona lo que se publica (bloque limpio, JS, CSV y logos)

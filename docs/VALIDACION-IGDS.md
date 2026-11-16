@@ -39,7 +39,9 @@ Hay una medida de UPC que conviene revisar aunque no esté en la hoja B: la regu
 
 Si alguien ya había empezado, solo tiene que seguir por el final. En la hoja A, las filas de cada formación añadida (PSOE, UPC) van juntas al final y no mezcladas con las de los otros partidos. Conviene codificarlas sin mirar las anteriores.
 
-Se puede repartir entre varias personas, pero **la hoja A tiene que hacerla primero alguien que no haya visto la codificación**: ni `igds-medidas.csv`, ni la hoja B, ni los informes, ni `clave-A.json`, que es la que traduce los códigos A-001… a medidas. Si se ve antes, la persona se ancla en lo que decidió la IA y el acuerdo sale inflado.
+Se puede repartir entre varias personas, pero **la hoja A tiene que hacerla primero alguien que no haya visto la codificación**: ni `igds-medidas.csv`, ni `datos/igds/codificacion/`, ni la hoja B, ni los informes, ni `clave-A.json`, que es la que traduce los códigos A-001… a medidas. Si se ve antes, la persona se ancla en lo que decidió la IA y el acuerdo sale inflado.
+
+**La clave de la hoja A no se publica.** `datos/igds/validacion/clave-A.json` está fuera del repositorio público (en `.gitignore`) y la guarda el equipo de ODESOCAN. Hace falta para dos cosas: calcular la concordancia (`igds concordancia`) y ampliar la muestra con una formación nueva (`igds muestra`). Sin ella, `igds muestra` se para en lugar de rehacer la hoja A con otros códigos. Conviene guardar una copia en el almacenamiento interno del equipo. El resto de la codificación de la IA sí es pública, así que quien haga la hoja A tampoco debe consultar el repositorio ni la web de la herramienta en la parte del IGDS.
 
 Antes de empezar, lee [CRITERIOS-IGDS.md](CRITERIOS-IGDS.md): el libro (apartado 1), qué es un derecho social (2.2), los casos frontera (2.4) y los ejemplos resueltos (2.7).
 

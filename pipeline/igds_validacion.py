@@ -152,6 +152,13 @@ def muestra(pids, forzar=False):
         if nuevas:
             return _ampliar(nuevas, doc, filas, repetidas, unidades, cfg)
 
+    # Sin la clave (no se publica en el repositorio), rehacer la muestra cambiaría
+    # los códigos de una hoja A ya repartida: mejor parar y pedirla.
+    if not (CARPETA / CLAVE_A).exists() and (CARPETA / HOJAS['A']).exists() and not forzar:
+        print(f'   ✗ Falta datos/igds/validacion/{CLAVE_A}: no está en el repositorio público, para que la hoja A siga siendo ciega.')
+        print('     Pide la clave al equipo de ODESOCAN y cópiala en esa carpeta. No rehagas la muestra.')
+        return False
+
     ocupadas = _con_trabajo(CARPETA)
     if ocupadas and not forzar:
         print(f'   ✗ Las hojas {", ".join(ocupadas)} ya tienen trabajo del equipo: no se sobrescriben.')
@@ -241,7 +248,10 @@ def _lectura_kappa(k):
 def concordancia(pids, carpeta=None):
     carpeta = carpeta or CARPETA
     if not (carpeta / CLAVE_A).exists():
-        print('   No hay muestra. Ejecuta antes: python3 maestro.py igds muestra')
+        if (carpeta / HOJAS['A']).exists():
+            print(f'   ✗ Falta {CLAVE_A}: no está en el repositorio público. Pídela al equipo de ODESOCAN y cópiala en {carpeta}.')
+        else:
+            print('   No hay muestra. Ejecuta antes: python3 maestro.py igds muestra')
         return False
     filas, repetidas, _ = _medidas(pids)
     ia = {f['id_medida']: f for f in filas + repetidas}
