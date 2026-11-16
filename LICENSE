@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This MIT license covers the code of this repository: maestro.py, pipeline/,
-web/ (except web/public/logos/ and web/public/data/) and the generated
-divi/odesocan-programas.js and index.html. Data, classifications and
-documentation by ODESOCAN are licensed under CC BY 4.0 (see LICENSE-DATOS.md).
-The literal texts of the electoral programmes, the UPC programme PDF and the
-party logos are NOT covered by either license (see LICENSE-DATOS.md).
