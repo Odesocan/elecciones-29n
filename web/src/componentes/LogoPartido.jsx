@@ -9,9 +9,10 @@ export const ContextoLogos = createContext('./logos/');
 const fallidos = new Set();
 
 // Logo oficial del partido. Es decorativo (alt=""): la sigla siempre va
-// escrita al lado. Si el archivo no existe, cuadrado con su color.
+// escrita al lado. Si el archivo no existe, cuadrado con su color (y, con
+// «rotulo», la sigla dentro: donde el logo es la única marca visible).
 // No se dibujan imitaciones de logos: solo se usan los archivos oficiales.
-export default function LogoPartido({ partido, tam = 'm' }) {
+export default function LogoPartido({ partido, tam = 'm', rotulo = '', carga = 'lazy' }) {
   const base = useContext(ContextoLogos);
   const url = base + partido.logo;
   // Sin carpeta de logos (data-logos="ninguno") no se pide nada.
@@ -21,7 +22,7 @@ export default function LogoPartido({ partido, tam = 'm' }) {
   if (fallo)
     return (
       <span className={`${clase} is-sin-logo`} style={varsPartido(partido)} aria-hidden="true">
-        {MODO_BOCETO && tam !== 's' ? 'logo' : ''}
+        {rotulo || (MODO_BOCETO && tam !== 's' ? 'logo' : '')}
       </span>
     );
   return (
@@ -29,7 +30,7 @@ export default function LogoPartido({ partido, tam = 'm' }) {
       <img
         src={url}
         alt=""
-        loading="lazy"
+        loading={carga}
         decoding="async"
         onError={() => {
           fallidos.add(url);

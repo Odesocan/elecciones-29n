@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import { easeCubicOut, scaleLinear, select } from 'd3';
+import { easeCubicOut, interpolateNumber, scaleLinear, select } from 'd3';
 import { ARTICULOS_VISIBLES, ENLACES, FECHA_COMPROBACION, PARTIDOS, TEMAS, urlPrograma } from '../config.js';
 import { enlaceArticulo } from '../datos.js';
-import { compartir, irA, ordinal, pad, pct, pctVoz, plural, sinMovimiento, varsPartido } from '../util.js';
+import { compartir, irA, ordinal, pad, pct, pctNum, pctVoz, plural, sinMovimiento, varsPartido } from '../util.js';
 import LogoPartido from './LogoPartido.jsx';
 
 export default function VistaTema({
@@ -212,6 +212,10 @@ function FiltroPartidos({ partidos, onToggle, onTodos }) {
 // Peso = % de las medidas del programa que tratan el tema: compara
 // programas de distinta extensión. Escala común a todos los temas →
 // al cambiar de tema la animación muestra diferencias reales.
+// Cada barra arranca en el logo del partido (origen común, para que las
+// longitudes se puedan comparar) y lleva su porcentaje en la punta. El
+// porcentaje cuenta del valor anterior al nuevo mientras crece la barra.
+const DURACION = 600;
 function BarrasPartidos({ tema, idx, partidos, onIr }) {
   const ref = useRef(null);
   const porPartido = idx.indice.get(tema.id);
@@ -219,14 +223,33 @@ function BarrasPartidos({ tema, idx, partidos, onIr }) {
   useEffect(() => {
     const x = scaleLinear().domain([0, Math.max(0.01, idx.maxCuota)]).range([0, 100]);
     const quieto = sinMovimiento();
-    select(ref.current)
-      .selectAll('.np-barra')
-      .each(function () {
-        const ancho = `${x(+this.dataset.v)}%`;
-        const b = select(this);
-        if (quieto) b.style('width', ancho);
-        else b.transition().duration(600).ease(easeCubicOut).style('width', ancho);
-      });
+    const raiz = select(ref.current);
+    raiz.selectAll('.np-barra').each(function () {
+      const ancho = `${x(+this.dataset.v)}%`;
+      const b = select(this);
+      if (quieto) b.interrupt().style('width', ancho);
+      else b.transition().duration(DURACION).ease(easeCubicOut).style('width', ancho);
+    });
+    // Contador: D3 es dueño del texto de .np-barra-num (React no le pone hijos).
+    // Si se cambia de tema a media animación, sigue desde el valor que se ve.
+    raiz.selectAll('.np-barra-num').each(function () {
+      const hasta = +this.dataset.v;
+      const n = select(this);
+      if (quieto) {
+        n.interrupt();
+        this.__v = hasta;
+        this.textContent = pctNum(hasta);
+        return;
+      }
+      const i = interpolateNumber(this.__v ?? 0, hasta);
+      n.transition()
+        .duration(DURACION)
+        .ease(easeCubicOut)
+        .tween('text', () => (t) => {
+          this.__v = i(t);
+          this.textContent = t < 1 ? String(Math.round(this.__v * 100)) : pctNum(hasta);
+        });
+    });
   }, [tema, idx]);
 
   return (
@@ -252,19 +275,28 @@ function BarrasPartidos({ tema, idx, partidos, onIr }) {
                     : `${p.sigla}: ${pctVoz(v)} de su programa, ${n} de sus ${total} medidas. Ir a sus artículos${oculto ? ' (ahora filtrado)' : ''}.`
                 }
               >
-                <span className="np-barra-sigla">{p.sigla}</span>
-                <span className="np-barra-cuerpo">
-                  <span className={`np-barra-pista${pendiente ? ' is-pendiente' : ''}`}>
-                    <span className="np-barra" data-v={v} />
-                    {pendiente && <span className="np-barra-pend">Pendiente de publicar</span>}
+                <span className="np-barra-pista">
+                  <span className="np-barra-chip">
+                    <LogoPartido partido={p} tam="b" rotulo={p.sigla} carga="eager" />
                   </span>
-                  {!pendiente && (
-                    <span className="np-barra-base">
-                      {n} de {total} medidas
-                    </span>
-                  )}
+                  <span className={`np-barra-zona${pendiente ? ' is-pendiente' : ''}`}>
+                    {pendiente ? (
+                      <span className="np-barra-pend">Pendiente de publicar</span>
+                    ) : (
+                      <span className="np-barra" data-v={v}>
+                        <span className="np-barra-n" aria-hidden="true">
+                          <span className="np-barra-num" data-v={v} />
+                          <span className="np-barra-pc">{'\u202f%'}</span>
+                        </span>
+                      </span>
+                    )}
+                  </span>
                 </span>
-                <span className="np-barra-n">{pendiente ? '—' : pct(v)}</span>
+                {!pendiente && (
+                  <span className="np-barra-base" aria-hidden="true">
+                    {n} de {total} medidas
+                  </span>
+                )}
               </button>
             </li>
           );

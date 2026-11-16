@@ -129,7 +129,12 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
   - Dateline: «39 artículos · 3 de 3 programas publicados hablan de ello · 2 pendientes».
   - Botones «Otro tema» y «Compartir este tema».
 - **Paso 2 · filtro por partido:** chips multiselección. Con 2 o 3 partidos elegidos, en pantallas anchas se leen **en paralelo, en columnas**.
-- **Barras:** «Qué parte de cada programa trata de…», en % del programa con la base debajo («18 de 241 medidas»). Si un programa está pendiente, la barra aparece rayada con «Pendiente de publicar».
+- **Barras:** «Qué parte de cada programa trata de…», en % del programa.
+  - **Sin eje de nombres:** cada barra arranca en el **logo** del partido, en una pastilla blanca con el borde de su color. La pastilla tiene el mismo ancho en todas las filas: es el origen común que permite comparar longitudes. Si el logo no carga, en su lugar aparece la sigla.
+  - **Porcentaje en la punta** de la barra (etiquetado directo), en IBM Plex Mono 600 de 18 a 24 px, color tinta, con cifras de ancho fijo. La base («18 de 241 medidas») va debajo, alineada con el origen de la barra, a 13 px.
+  - **Contador:** al cambiar de tema, el porcentaje cuenta desde el valor anterior hasta el nuevo mientras la barra crece (600 ms, la misma curva). Con «reducir movimiento» se muestra el valor final directamente.
+  - **Lector de pantalla:** cada fila es un botón con la frase completa («PP: 7 % de su programa, 18 de sus 241 medidas…»); el contador y la base se ocultan para que no se lean dos veces.
+  - Si un programa está pendiente, la barra aparece rayada con «Pendiente de publicar».
 - **Bloque de cada partido:**
   - Cabecera fija al hacer scroll, con logo, sigla y nº de artículos, para saber siempre de quién es lo que se lee.
   - Nombre completo y enlace «Programa (PDF) ↗».
@@ -252,6 +257,7 @@ Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV p
 | 14-11 | UPC en el teal de su «P»; logos oficiales de los cinco; colores de PP y PSOE tomados de sus logos |
 | 14-11 | Se deja de cargar DM Serif Display, sin uso desde que se quitó la cita |
 | 16-11 | Se quita el modo boceto: sin franja de aviso |
+| 16-11 | Barras del paso 2: logo al comienzo de cada barra en lugar del nombre tras el eje, porcentaje más grande en la punta y contador al cambiar de tema |
 | 16-11 | Se descarta **la prueba de las cuentas**: es difícil de interpretar, una de sus lecturas premia la austeridad al margen de la garantía de derechos y la alerta de riesgo, común a todos los programas, podía animar a la abstención |
 
 ---
