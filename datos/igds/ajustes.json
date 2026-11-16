@@ -1,0 +1,234 @@
+{
+  "_leeme": [
+    "Ajustes de coherencia entre lotes del IGDS (prueba). Cada grupo aplica UNA regla a todas las medidas de todas las formaciones que la cumplen, cuando dos lotes la leyeron distinto.",
+    "No se modifican los archivos de codificación (datos/igds/codificacion/): pipeline/igds.py aplica estos cambios al calcular y deja la marca en el informe.",
+    "nota: frase que sustituye en la justificación a las frases de las dimensiones o marcas que cambian.",
+    "Revisión de la coordinación del 14-11-2026, pendiente de validación humana como el resto de la codificación."
+  ],
+  "grupos": [
+    {
+      "regla": "NDI: la nacionalidad delimita quién recibe una prestación concreta",
+      "motivo": "Criterios 2.4 NDI: es cláusula de exclusión cuando el acceso a una prestación o servicio concretos se condiciona a la nacionalidad, aunque no diga «solo» ni «prioridad». Dos lotes lo habían leído como mención genérica. La mención genérica a «los españoles» que no delimita a quién se da una prestación sigue siendo NDI 1 en todas las formaciones.",
+      "cambios": {
+        "ndi": 0,
+        "reg": 1
+      },
+      "nota": "NDI 0: la nacionalidad delimita quién recibe la prestación. REG 1: introduce una exclusión por origen.",
+      "ids": [
+        "vox-029-01",
+        "vox-029-02",
+        "vox-030-03",
+        "vox-094-05"
+      ]
+    },
+    {
+      "regla": "UNI: prestación contributiva",
+      "motivo": "Criterios 2.4 UNI: la cotización previa da UNI 0. Las demás prestaciones contributivas (permisos por nacimiento, incapacidad temporal, pensiones) ya estaban así codificadas.",
+      "cambios": {
+        "uni": 0
+      },
+      "nota": "UNI 0: prestación contributiva, exige afiliación y cotización previa.",
+      "ids": [
+        "pp-225-02"
+      ]
+    },
+    {
+      "regla": "DES: servicio dentro de un sistema público o prestación en servicio",
+      "motivo": "Libro, DES: «provisión pública directa o gratuita, prestación en servicio» vale 1. La aclaración «no se presume provisión pública» se aplicó de forma desigual: medidas sobre el Sistema Nacional de Salud, el sistema educativo, el sistema de dependencia o servicios en especie quedaron unas con DES 1 y otras con DES 0, a veces dentro de la misma unidad (pp-227). Se aplica DES 1 a todas las que actúan dentro de un sistema público de provisión o prestan un servicio en especie, en todas las formaciones.",
+      "cambios": {
+        "des": 1
+      },
+      "nota": "",
+      "ids": [
+        "pp-227-01",
+        "pp-227-02",
+        "pp-227-03",
+        "pp-227-05",
+        "pp-227-06",
+        "pp-227-07",
+        "pp-227-08",
+        "pp-220-02",
+        "pp-221-02",
+        "pp-221-03",
+        "pp-222-01",
+        "pp-223-02",
+        "pp-223-03",
+        "pp-112-01",
+        "pp-112-02",
+        "pp-113-01",
+        "pp-019-10",
+        "pp-027-05",
+        "pp-029-01",
+        "pp-209-02",
+        "pp-209-03",
+        "pp-213-01",
+        "pp-215-02",
+        "pp-216-01",
+        "pp-216-04",
+        "vox-062-01",
+        "vox-063-02",
+        "vox-063-05",
+        "vox-064-01",
+        "vox-064-02",
+        "vox-064-03",
+        "vox-065-04",
+        "vox-098-03",
+        "vox-095-03",
+        "vox-095-04",
+        "vox-069-05",
+        "vox-094-04",
+        "vox-099-04",
+        "vox-070-02",
+        "vox-108-01",
+        "cc-010-02",
+        "cc-011-02",
+        "cc-013-02",
+        "cc-046-01"
+      ]
+    },
+    {
+      "regla": "DES: regulación obligatoria de las condiciones del mercado",
+      "motivo": "Libro, DES: «regulación que limita el precio o las condiciones del mercado para todas las personas» vale 1. La aclaración añadida durante la codificación decía «regulación de precio» y estrechaba el libro; se corrige y se aplica a todas las formaciones.",
+      "cambios": {
+        "des": 1
+      },
+      "nota": "",
+      "ids": [
+        "pp-168-01",
+        "pp-168-03",
+        "pp-229-04",
+        "pp-229-05",
+        "pp-170-02",
+        "pp-214-03",
+        "pp-162-01",
+        "cc-024-02",
+        "vox-099-02"
+      ]
+    },
+    {
+      "regla": "Área EMP: condiciones laborales del personal de un cuerpo público",
+      "motivo": "Retribuciones, carrera y condiciones laborales del personal de un cuerpo público se leyeron de dos formas (empleo con UNI y NDI 1, u OTR sin derecho social). Se aplica la lectura mayoritaria a todas las formaciones: derecho a condiciones laborales dignas del colectivo, área EMP.",
+      "cambios": {
+        "area": "EMP",
+        "uni": 1,
+        "ndi": 1
+      },
+      "nota": "EXI 0: mejora sin norma que reconozca un derecho ni estándar mínimo. DES 0: no es provisión pública ni regulación para todas las personas.",
+      "ids": [
+        "pp-053-02",
+        "vox-004-01"
+      ]
+    },
+    {
+      "regla": "Área EMP: condiciones laborales del personal sanitario y docente",
+      "motivo": "Misma regla que el grupo anterior: el objeto dominante son las condiciones de trabajo del personal, no el servicio. Solo cambia el área.",
+      "cambios": {
+        "area": "EMP"
+      },
+      "nota": "",
+      "ids": [
+        "pp-220-03",
+        "pp-211-03",
+        "vox-063-01",
+        "vox-063-03"
+      ]
+    },
+    {
+      "regla": "DEC: plan o programa identificado",
+      "motivo": "Los lotes coincidieron en tratar un plan, programa, fondo o partida identificados como instrumento (DEC 0) y un verbo sin instrumento como declarativa (DEC 1). Tres medidas con plan identificado quedaron con DEC 1.",
+      "cambios": {
+        "dec": 0
+      },
+      "nota": "DEC 0: nombra un instrumento concreto (un plan).",
+      "ids": [
+        "vox-013-01",
+        "vox-023-01",
+        "pp-152-01"
+      ]
+    },
+    {
+      "regla": "Repetición entre apartados del programa",
+      "motivo": "R5: la prioridad nacional de Vox aparece en su apartado general (vox-018) y en los de vivienda (vox-027) y educación (vox-074). Se cuenta una vez, donde está más desarrollada.",
+      "cambios": {
+        "repite": "vox-027"
+      },
+      "nota": "",
+      "ids": [
+        "vox-018-06"
+      ]
+    },
+    {
+      "regla": "Repetición entre apartados del programa",
+      "motivo": "R5: plazas de 0 a 3 años y becas de comedor con prioridad nacional, más desarrolladas en el apartado de educación (vox-074).",
+      "cambios": {
+        "repite": "vox-074"
+      },
+      "nota": "",
+      "ids": [
+        "vox-018-02",
+        "vox-018-03"
+      ]
+    },
+    {
+      "regla": "Repetición entre lotes del PSOE",
+      "motivo": "R5: medidas del PSOE que se codificaron en dos lotes distintos. Se cuentan una vez, donde están más desarrolladas: el Plan de Educación Inclusiva en psoe-162, la recarga eléctrica e incentivos al vehículo en psoe-030 y las Zonas de Bajas Emisiones en psoe-286.",
+      "cambios": {
+        "repite": "psoe-162"
+      },
+      "nota": "",
+      "ids": [
+        "psoe-224-01"
+      ]
+    },
+    {
+      "regla": "Repetición entre lotes del PSOE",
+      "motivo": "R5: la recarga eléctrica y los incentivos al vehículo de cero emisiones están más desarrollados en psoe-030.",
+      "cambios": {
+        "repite": "psoe-030"
+      },
+      "nota": "",
+      "ids": [
+        "psoe-284-01"
+      ]
+    },
+    {
+      "regla": "Repetición entre lotes del PSOE",
+      "motivo": "R5: las Zonas de Bajas Emisiones están más desarrolladas en psoe-286.",
+      "cambios": {
+        "repite": "psoe-286"
+      },
+      "nota": "",
+      "ids": [
+        "psoe-029-01"
+      ]
+    },
+    {
+      "regla": "Repetición circular entre lotes del PSOE",
+      "motivo": "Dos lotes marcaron cada uno la medida del otro como repetición, y ninguna contaba. Se cuenta una: el sistema integrado de transporte público en psoe-280 (más desarrollado, añade frecuencias) y las secciones judiciales de violencia sobre la infancia en psoe-432.",
+      "cambios": {
+        "repite": ""
+      },
+      "nota": "",
+      "ids": [
+        "psoe-280-01",
+        "psoe-432-02"
+      ]
+    },
+    {
+      "regla": "Justicia gratuita y plazos judiciales: organización de la justicia",
+      "motivo": "Criterios 2.2: la justicia no es por sí misma un derecho social. La asistencia jurídica gratuita y los plazos judiciales solo cuentan como acceso cuando forman parte del sistema de protección de un colectivo de 2.2 (violencia de género, infancia, trata). Así se codificó vox-031-02 (asistencia jurídica a personas propietarias). Se aplica igual a la justicia gratuita para víctimas de abusos inmobiliarios y a los juicios por despido en tres meses.",
+      "cambios": {
+        "area": "OTR",
+        "uni": 0,
+        "exi": 0,
+        "des": 0,
+        "ndi": 0
+      },
+      "nota": "UNI, EXI, DES, NDI 0: asistencia jurídica o plazo judicial; es organización de la justicia, no acceso directo a un derecho social (2.2).",
+      "ids": [
+        "psoe-069-01",
+        "psoe-p100-01"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "_leeme": [
+    "IGDS · Índice de Garantía de Derechos Sociales (PRUEBA, sin visualización todavía). Lo lee pipeline/igds.py.",
+    "Libro de códigos y reglas operativas: docs/CRITERIOS-IGDS.md. Codificación: datos/igds/codificacion/. Resultados: datos/igds/ y datos/informes/igds.md.",
+    "Primera codificación pendiente de validación humana."
+  ],
+  "eleccion": "Generales 29N 2026 / Cortes Generales",
+  "dimensiones": [
+    { "id": "uni", "sigla": "UNI", "nombre": "Incondicionalidad/universalidad" },
+    { "id": "exi", "sigla": "EXI", "nombre": "Exigibilidad" },
+    { "id": "des", "sigla": "DES", "nombre": "Desmercantilización" },
+    { "id": "ndi", "sigla": "NDI", "nombre": "No discriminación" }
+  ],
+  "marcas": [
+    { "id": "reg", "sigla": "REG", "nombre": "Regresiva", "indice": "IR" },
+    { "id": "dec", "sigla": "DEC", "nombre": "Declarativa", "indice": "IV" }
+  ],
+  "areas": [
+    { "id": "VIV", "nombre": "Vivienda" },
+    { "id": "SAN", "nombre": "Sanidad" },
+    { "id": "SME", "nombre": "Salud mental" },
+    { "id": "EDU", "nombre": "Educación" },
+    { "id": "EMP", "nombre": "Empleo" },
+    { "id": "CUI", "nombre": "Cuidados y dependencia" },
+    { "id": "MAM", "nombre": "Medio ambiente" },
+    { "id": "EVE", "nombre": "Espacios verdes" },
+    { "id": "MIG", "nombre": "Migración segura" },
+    { "id": "IGU", "nombre": "Igualdad y no discriminación" },
+    { "id": "OTR", "nombre": "Otras áreas" }
+  ],
+  "fragmento_max_palabras": 25,
+  "palabras_por_lote": 4100,
+  "unidades_por_lote": 65,
+  "validacion": {
+    "_leeme": "Muestra para la validación humana (python3 maestro.py igds muestra). La semilla fija hace la muestra reproducible: no la cambies una vez repartidas las hojas.",
+    "semilla": 29112026,
+    "ciega_ambito_social": 20,
+    "ciega_resto": 10,
+    "unidades_atomizacion": 10
+  }
+}

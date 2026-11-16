@@ -1,0 +1,1994 @@
+{
+ "lote": "lote-15",
+ "unidades": {
+  "psoe-277": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desarrollar un Plan de Empleo Verde Rural con perspectiva de género, generando oportunidades laborales y fijando población en los municipios de menor tamaño.",
+     "medida_sintesis": "Desarrollar un Plan de Empleo Verde Rural con perspectiva de género para crear empleo y fijar población en los municipios pequeños.",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: se formula como plan, sin derecho, estándar ni obligación de provisión. DES 0: no nombra un servicio público ni una regulación de las condiciones de trabajo. DEC 0: nombra un instrumento (un plan).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-308": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Combatir la parcialidad involuntaria y la precariedad laboral, garantizando empleos estables, jornadas previsibles",
+     "medida_sintesis": "Combatir la parcialidad involuntaria y la precariedad laboral con empleos estables y jornadas previsibles.",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «garantizando» sin norma, estándar ni plazo. DES 0: no nombra la regulación del contrato ni un servicio público. DEC 1: sin instrumento concreto.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Repite de forma resumida la medida psoe-123 (reforma del contrato a tiempo parcial), que está más desarrollada, aunque añade la precariedad y la previsibilidad de la jornada. Propuesta: registrarla como repetición de psoe-123.",
+     "repite": "psoe-123"
+    },
+    {
+     "fragmento": "protección frente a la discriminación por embarazo, maternidad o ejercicio de derechos de conciliación.",
+     "medida_sintesis": "Proteger a las personas trabajadoras frente a la discriminación por embarazo, maternidad o ejercicio de los derechos de conciliación.",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: se formula como garantía sin norma, estándar ni plazo. DES 0: no nombra la regulación ni el servicio que da la protección. DEC 1: sin instrumento concreto.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas: empleo (EMP) e igualdad y no discriminación (IGU). Propuesta: IGU, porque el objeto es una discriminación por razón de sexo y maternidad.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-319": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una Ley de Usos del Tiempo de Trabajo, promoviendo horarios racionales, la reducción del tiempo de trabajo sin pérdida salarial, la desconexión digital",
+     "medida_sintesis": "Aprobar una Ley de Usos del Tiempo de Trabajo con horarios racionales, reducción de la jornada sin pérdida salarial, desconexión digital y conciliación sin penalizaciones profesionales.",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Ley que regula con fuerza obligatoria el tiempo de trabajo de todas las personas trabajadoras, con contenidos concretos: reducción de jornada sin pérdida salarial, desconexión digital y conciliación sin penalizaciones.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "El instrumento es una ley, pero sus contenidos se introducen con «promoviendo». Propuesta: EXI 1, porque la ley fija contenidos concretos (reducción de jornada sin pérdida salarial, desconexión digital); EXI 0 si se entiende que «promoviendo» los deja como objetivos sin obligación.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-365": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Blindar constitucionalmente el sistema público de pensiones y su revalorización conforme al IPC, garantizando el derecho de las personas mayores a una pensión digna",
+     "medida_sintesis": "Blindar en la Constitución el sistema público de pensiones y su revalorización conforme al IPC.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: la mayor parte de las pensiones son contributivas y exigen cotización previa.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "El texto es idéntico al de la medida psoe-100, del apartado de pensiones; además, la revalorización alcanza también a las pensiones no contributivas. Propuesta: registrarla como repetición de psoe-100 y mantener UNI 0, como la revalorización de las pensiones de pp-108.",
+     "repite": "psoe-100"
+    }
+   ]
+  },
+  "psoe-377": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Combatir la precariedad laboral juvenil y mejorar las condiciones de trabajo, aprobando el Estatuto del Becario.",
+     "medida_sintesis": "Aprobar el Estatuto del Becario para combatir la precariedad laboral juvenil y mejorar las condiciones de trabajo.",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: nombra la norma, pero no concreta qué derecho reconoce ni qué obligación crea. DES 1: regula las condiciones de las prácticas de todas las personas becarias.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-118"
+    }
+   ]
+  },
+  "psoe-409": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Alcanzar con los agentes sociales un pacto que garantice transparencia, supervisión humana y derecho a revisar las decisiones automatizadas.",
+     "medida_sintesis": "Acordar con los agentes sociales un pacto sobre la IA en el trabajo con transparencia, supervisión humana y derecho a revisar las decisiones automatizadas.",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un pacto con los agentes sociales, no una norma que reconozca el derecho. DES 1: regula las condiciones de trabajo de todas las personas trabajadoras. DEC 0: el pacto tiene contenido concreto.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de EXI: el pacto incluye un derecho a revisar las decisiones automatizadas, pero el texto no dice que se traslade a una norma. Propuesta: EXI 0; EXI 1 si el pacto se entiende como acuerdo con fuerza normativa.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Auditar los algoritmos que se usan en la selección, la evaluación, la promoción o el despido para evitar la discriminación",
+     "medida_sintesis": "Auditar los algoritmos de selección, evaluación, promoción y despido para evitar la discriminación en el empleo.",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: la auditoría es un control, sin estándar ni derecho reconocido. DES 0: no dice si la auditoría es obligatoria para las empresas ni quién la presta.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas (EMP e IGU) y es caso frontera de DES: no dice si la auditoría es obligatoria. Propuesta: EMP con DES 0; DES 1 si la auditoría se entiende como regulación obligatoria de las condiciones de trabajo.",
+     "repite": ""
+    },
+    {
+     "fragmento": "limitar la vigilancia digital a lo estrictamente necesario.",
+     "medida_sintesis": "Limitar la vigilancia digital de las personas trabajadoras a lo estrictamente necesario.",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: no nombra la norma que fija el límite ni un estándar mínimo. DES 1: limita las condiciones que la parte empleadora puede imponer a todas las personas trabajadoras. DEC 0: fija un criterio concreto de limitación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-014": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Poner en marcha una Estrategia específica de IA para la Ciencia, como prioridad estratégica de país",
+     "medida_sintesis": "Poner en marcha una Estrategia de IA para la Ciencia con inversión en computación, datos y talento y una comunidad nacional de IA para la ciencia.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política científica. DEC 0: nombra un instrumento (una estrategia).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-016": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliaremos el Bono IA, la Red NEURONA y los programas de apoyo dirigidos a pymes, autónomos, universidades y centros de investigación",
+     "medida_sintesis": "Ampliar el Bono IA, la Red NEURONA y los programas de apoyo a pymes, personas autónomas, universidades y centros de investigación para acelerar la adopción de la IA.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política económica e industrial. DEC 0: nombra instrumentos (Bono IA, Red NEURONA, programas de apoyo).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "pondremos en marcha un servicio público de acceso a herramientas avanzadas de IA, acompañado de formación y apoyo personalizado",
+     "medida_sintesis": "Crear un servicio público de acceso a herramientas avanzadas de IA, con formación y apoyo personalizado, para que las personas trabajadoras se adapten mediante el aprendizaje permanente.",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: crea un servicio, pero no reconoce un derecho ni fija una obligación de provisión. DES 1: es un servicio público.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de ámbito: el acceso a herramientas digitales no es por sí mismo un derecho social, pero el servicio incluye formación y su fin declarado es el aprendizaje permanente de las personas trabajadoras. Propuesta: EMP con UNI 1, DES 1 y NDI 1; OTR con 0 en las cuatro si se considera política digital.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-018": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos un marco de gobernanza de la IA basado en la transparencia, la supervisión pública y la protección efectiva de los derechos fundamentales.",
+     "medida_sintesis": "Aprobar un marco de gobernanza de la IA basado en la transparencia, la supervisión pública y la protección de los derechos fundamentales, con supervisión humana de las decisiones.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Regula la tecnología y protege derechos fundamentales de carácter civil. DEC 0: nombra un instrumento normativo.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-406"
+    },
+    {
+     "fragmento": "impulsaremos una IA responsable al servicio de la ciencia, garantizando su uso seguro, transparente y libre de sesgos.",
+     "medida_sintesis": "Impulsar una IA responsable al servicio de la ciencia, con un uso seguro, transparente y libre de sesgos.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política científica. DEC 1: «impulsaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-019": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crearemos una ventanilla digital única para que la ciudadanía y las empresas puedan realizar trámites, acceder a ayudas y relacionarse con las administraciones",
+     "medida_sintesis": "Crear una ventanilla digital única para que la ciudadanía y las empresas realicen trámites, accedan a ayudas y se relacionen con las administraciones.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización y simplificación administrativa. DEC 0: nombra un instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-020": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Pondremos en marcha un Plan de ayudas al despliegue de banda ancha a demanda para cerrar las últimas brechas de conectividad",
+     "medida_sintesis": "Poner en marcha un Plan de ayudas al despliegue de banda ancha, con fibra y bonos de conectividad, para cerrar las últimas brechas de cobertura.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de infraestructuras de telecomunicaciones. DEC 0: nombra un instrumento (un plan de ayudas).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "aprobaremos una Hoja de Ruta del 6G con proyectos piloto, actuaciones en materia de espectro y medidas para preparar su futuro despliegue.",
+     "medida_sintesis": "Aprobar una Hoja de Ruta del 6G con proyectos piloto y actuaciones sobre el espectro.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de infraestructuras de telecomunicaciones. DEC 0: nombra un instrumento (una hoja de ruta).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-021": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos una Estrategia de Ciberseguridad Poscuántica para proteger sistemas e infraestructuras críticas frente a los riesgos derivados de la inteligencia artificial",
+     "medida_sintesis": "Aprobar una Estrategia de Ciberseguridad Poscuántica para proteger sistemas e infraestructuras críticas.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de seguridad. DEC 0: nombra un instrumento (una estrategia).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "incorporaremos plenamente la normativa europea en materia de ciberseguridad",
+     "medida_sintesis": "Incorporar plenamente la normativa europea de ciberseguridad.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de seguridad. DEC 0: nombra un instrumento normativo.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-034": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos la identificación y supervisión de vendedores y plataformas digitales",
+     "medida_sintesis": "Reforzar la identificación y la supervisión de vendedores y plataformas digitales.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección de las personas consumidoras en el comercio digital. DEC 1: «reforzaremos» sin norma, estándar ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "mejoraremos la información sobre derechos de las personas consumidoras",
+     "medida_sintesis": "Mejorar la información sobre los derechos de las personas consumidoras.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección de las personas consumidoras en el comercio digital. DEC 1: sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "exigiremos mayores garantías de seguridad, trazabilidad y transparencia en los precios y las condiciones de contratación.",
+     "medida_sintesis": "Exigir mayores garantías de seguridad, trazabilidad y transparencia en los precios y las condiciones de contratación digital.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección de las personas consumidoras en el comercio digital. DEC 1: no concreta la norma ni el estándar.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "combatiremos los patrones oscuros y otras prácticas de manipulación digital que oculten costes, condicionen las decisiones de compra",
+     "medida_sintesis": "Combatir los patrones oscuros y otras prácticas de manipulación digital reforzando su detección, control y sanción, la formación digital y la protección de la privacidad.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección de las personas consumidoras en el comercio digital. DEC 0: nombra instrumentos de control y sanción.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-358": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar la protección de niñas y adolescentes en los entornos digitales, restringiendo los algoritmos adictivos y exigiendo transparencia sobre los contenidos manipulados",
+     "medida_sintesis": "Reforzar la protección de niñas y adolescentes en los entornos digitales restringiendo los algoritmos adictivos y exigiendo transparencia sobre los contenidos manipulados con filtros o IA.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: anuncia restricciones y exigencias a las plataformas sin nombrar la norma ni fijar un estándar concreto. DES 1: regula las condiciones de las plataformas digitales para toda la población menor.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Repite la restricción de los algoritmos adictivos de la Ley de protección de las personas menores en los entornos digitales (psoe-399), más desarrollada; la transparencia sobre contenidos manipulados coincide con el etiquetado de psoe-406. Admite además IGU por centrarse en las niñas. Propuesta: registrarla como repetición de psoe-399, área OTR.",
+     "repite": "psoe-399"
+    }
+   ]
+  },
+  "psoe-399": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar en el primer año de legislatura la Ley de protección de las personas menores de edad en los entornos digitales.",
+     "medida_sintesis": "Aprobar en el primer año de legislatura la Ley de protección de las personas menores en los entornos digitales, con edad mínima de 16 años para usar redes sociales y verificación obligatoria de la edad.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Ley con contenido concreto (edad mínima de 16 años, verificación obligatoria de la edad y plazo de aprobación) que regula con fuerza obligatoria las condiciones de las plataformas para toda la población menor.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "la restricción de los diseños y algoritmos adictivos",
+     "medida_sintesis": "Restringir por ley los diseños y algoritmos adictivos de las plataformas.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Obligación incluida en la ley que regula con fuerza obligatoria las condiciones de las plataformas para toda la población menor.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "la responsabilidad de los directivos por los delitos que toleran en sus plataformas.",
+     "medida_sintesis": "Establecer la responsabilidad de la dirección de las plataformas por los delitos que toleran en ellas.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de responsabilidad penal. DEC 0: se incluye en una ley.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-408"
+    }
+   ]
+  },
+  "psoe-400": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Obligar por ley a que el contenido de las cuentas de menores sea invisible por defecto para los adultos que no conocen",
+     "medida_sintesis": "Obligar por ley a que el contenido de las cuentas de menores sea invisible por defecto para las personas adultas desconocidas, y pedir a la Comisión Europea que lo exija a TikTok.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Obligación legal concreta que regula las condiciones de las plataformas para toda la población menor; la petición a la Comisión Europea es otro instrumento para el mismo objeto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-401": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Generalizar una herramienta pública y anónima de verificación de la edad, integrada en la cartera digital",
+     "medida_sintesis": "Generalizar una herramienta pública y anónima de verificación de la edad, integrada en la cartera digital, para que las plataformas comprueben la edad mínima sin conocer la identidad.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una herramienta de gestión, no una garantía ni un estándar. DES 1: es una herramienta pública.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de ámbito: es una herramienta técnica al servicio de la protección de la infancia en los entornos digitales y de la privacidad. Propuesta: UNI 1, DES 1 y NDI 1 como herramienta pública de un régimen de protección, como la tarjeta sanitaria de vox-060; 0 en las cuatro si se considera política digital.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-402": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Restringir el uso libre de los asistentes conversacionales de IA a menores de 16 años sin consentimiento parental",
+     "medida_sintesis": "Restringir el uso de los asistentes conversacionales de IA por menores de 16 años sin consentimiento parental.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Estándar concreto (edad de 16 años y consentimiento parental) que regula con fuerza obligatoria las condiciones de los servicios digitales para toda la población menor.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "No nombra la norma que establece la restricción. Propuesta: EXI 1, porque fija un estándar concreto y obligatorio (edad y consentimiento), como la edad mínima de pp-168; EXI 0 si se exige que se nombre la norma.",
+     "repite": ""
+    },
+    {
+     "fragmento": "obligar a las empresas a detectar conductas de riesgo (autolesiones, dependencia emocional o contenidos sexuales) y a activar alertas.",
+     "medida_sintesis": "Obligar a las empresas de asistentes conversacionales a detectar conductas de riesgo de menores y a activar alertas.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Obligación concreta para las empresas (detectar conductas de riesgo y activar alertas) que regula las condiciones del servicio para toda la población menor.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas: protección de la infancia (OTR) y salud mental (SME), por la detección de autolesiones. Propuesta: OTR, porque el objeto es la protección de menores frente a los chatbots.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-403": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar una edad mínima común de acceso a las redes sociales en toda la Unión Europea",
+     "medida_sintesis": "Impulsar en la Unión Europea una edad mínima común de acceso a las redes sociales.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: impulsa que otra institución adopte la norma; no crea una obligación propia. DES 1: se refiere a la regulación de las plataformas. DEC 0: nombra un estándar concreto (una edad mínima común).",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "ampliar la coalición internacional para proteger a la infancia frente a la inteligencia artificial.",
+     "medida_sintesis": "Ampliar la coalición internacional para proteger a la infancia frente a la IA.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es acción exterior. DEC 1: sin norma, prestación, estándar, plazo ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-404": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Convertir en ley la Carta de Derechos Digitales de 2021, incluido el derecho a ser atendido por una persona en cualquier servicio público",
+     "medida_sintesis": "Dar rango de ley a la Carta de Derechos Digitales, con el derecho a ser atendido por una persona en cualquier servicio público y a la revisión humana de las decisiones automatizadas.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Reconoce derechos digitales y de relación con la Administración. DEC 0: nombra una norma.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de ámbito: el derecho a ser atendido por una persona en cualquier servicio público alcanza también a la sanidad, la educación o los servicios sociales; la atención presencial se leyó como política administrativa en vox-037 y como acceso en pp-110. Propuesta: 0 en las cuatro; UNI 1, EXI 1, DES 1 y NDI 1 si se considera una garantía de acceso a esos servicios.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-405": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una nueva Ley Orgánica del derecho al honor, a la intimidad y a la propia imagen adaptada a la realidad digital",
+     "medida_sintesis": "Aprobar una nueva Ley Orgánica del derecho al honor, a la intimidad y a la propia imagen adaptada a la realidad digital, con más garantías para menores.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Regula derechos civiles de la personalidad. DEC 0: nombra una norma.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-406": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar la supervisión humana de las decisiones que afecten a la ciudadanía, el etiquetado obligatorio de los contenidos generados o manipulados con IA",
+     "medida_sintesis": "Aprobar la Ley para el buen uso y la gobernanza de la IA, con supervisión humana de las decisiones, etiquetado obligatorio, prohibición de los deepfakes sin consentimiento y sanciones.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Regula la tecnología y protege derechos civiles. DEC 0: nombra una norma con contenido concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-407": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Establecer auditorías independientes de los sistemas de IA que afecten a derechos, con herramientas públicas de verificación desarrolladas por la AESIA",
+     "medida_sintesis": "Aprobar una Ley de Transparencia Algorítmica con auditorías independientes de los sistemas de IA que afecten a derechos y herramientas públicas de verificación.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Regula la tecnología con carácter general, sin referirse al acceso a un derecho social concreto. DEC 0: nombra una norma.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "crear un Observatorio Público de Discriminación Algorítmica con universidades y agentes sociales.",
+     "medida_sintesis": "Crear un Observatorio Público de Discriminación Algorítmica con universidades y agentes sociales.",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un órgano de análisis y seguimiento, sin derecho reconocido ni obligación. DES 0: no presta un servicio ni regula condiciones. DEC 0: nombra un instrumento concreto.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: un observatorio estudia la discriminación, pero no regula ni provee el acceso. Propuesta: UNI 1 y NDI 1 por dirigirse a corregir una discriminación, como los protocolos de detección de pp-029; 0 en las cuatro si se asimila a una medida de transparencia, como pp-028.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-408": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Dar a la CNMC los poderes necesarios para hacer cumplir en España el Reglamento europeo de Servicios Digitales",
+     "medida_sintesis": "Dar a la CNMC los poderes necesarios para hacer cumplir el Reglamento europeo de Servicios Digitales.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización institucional y regulación de mercados digitales. DEC 0: nombra un instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "exigir responsabilidad penal a los directivos de las plataformas que no retiren contenidos ilegales o de odio",
+     "medida_sintesis": "Exigir responsabilidad penal a la dirección de las plataformas que no retiren contenidos ilegales o de odio.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de responsabilidad penal. DEC 0: nombra un instrumento normativo.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "tipificar como delito la manipulación algorítmica y la amplificación deliberada de contenidos ilegales.",
+     "medida_sintesis": "Tipificar como delito la manipulación algorítmica y la amplificación deliberada de contenidos ilegales.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es justicia penal. DEC 0: nombra un instrumento normativo.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-410": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Publicar periódicamente la Huella del Odio y la Polarización de cada plataforma",
+     "medida_sintesis": "Publicar periódicamente la Huella del Odio y la Polarización (HODIO) de cada plataforma.",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de transparencia. DEC 0: nombra un instrumento concreto (un índice periódico).",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "endurecer las sanciones para que nadie pueda ganar dinero con el odio.",
+     "medida_sintesis": "Endurecer las sanciones a las plataformas para que nadie pueda obtener beneficio económico del odio.",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: no concreta las sanciones ni la norma que las fija. DES 1: regula con fuerza obligatoria las condiciones de las plataformas. DEC 0: nombra un instrumento (el régimen sancionador).",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: la lucha contra el discurso de odio se codifica como no discriminación (como cc-086), pero la medida es sancionadora y podría leerse como regulación de plataformas sin acceso a un derecho social. Propuesta: UNI 1, DES 1 y NDI 1; 0 en las cuatro si se considera política de seguridad.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-411": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una Estrategia integral frente a la desinformación",
+     "medida_sintesis": "Aprobar una Estrategia integral frente a la desinformación basada en la transparencia, el pluralismo y la supervisión independiente.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de comunicación y calidad democrática. DEC 0: nombra un instrumento (una estrategia).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-420": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Completar el Plan de Exhumaciones",
+     "medida_sintesis": "Completar el Plan de Exhumaciones.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de memoria democrática. DEC 0: nombra un instrumento (un plan).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "finalizar el Censo de las Víctimas de la Guerra y la Dictadura",
+     "medida_sintesis": "Finalizar el Censo de las Víctimas de la Guerra y la Dictadura.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de memoria democrática. DEC 0: nombra un instrumento (un censo).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "ampliar las medidas de reconocimiento y reparación.",
+     "medida_sintesis": "Ampliar las medidas de reconocimiento y reparación de las víctimas de la Guerra y la Dictadura.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de memoria democrática. DEC 1: no concreta las medidas.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-421": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Culminar la resignificación del Valle de Cuelgamuros, mediante la puesta en marcha de su Centro de Interpretación.",
+     "medida_sintesis": "Culminar la resignificación del Valle de Cuelgamuros con la puesta en marcha de su Centro de Interpretación.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de memoria democrática. DEC 0: nombra un instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-422": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliar la red de Lugares de Memoria Democrática",
+     "medida_sintesis": "Ampliar la red de Lugares de Memoria Democrática.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de memoria democrática. DEC 0: actúa sobre un instrumento identificado (la red de Lugares de Memoria).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "retirar simbología franquista",
+     "medida_sintesis": "Retirar la simbología franquista.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de memoria democrática. DEC 0: actuación concreta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "avanzar en la eliminación de entidades que hagan apología de la dictadura.",
+     "medida_sintesis": "Avanzar en la eliminación de las entidades que hagan apología de la dictadura.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de memoria democrática. DEC 1: «avanzar» sin norma ni procedimiento concretos.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-423": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar la Memoria Democrática en la educación, la investigación y la divulgación, culminando el Centro de la Memoria Democrática",
+     "medida_sintesis": "Impulsar la Memoria Democrática en la educación, la investigación y la divulgación, con el Centro de la Memoria Democrática y más cátedras universitarias.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de memoria democrática. No regula el acceso a la educación. DEC 0: nombra instrumentos (Centro de la Memoria Democrática, red de cátedras).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-424": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promover el estudio y la conmemoración de las elecciones de 1977 y la Constitución de 1978 con motivo de su 50 aniversario.",
+     "medida_sintesis": "Promover el estudio y la conmemoración de las elecciones de 1977 y de la Constitución de 1978 en su 50 aniversario.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de memoria democrática. DEC 1: «promover» sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-186": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desplegar el Estatuto del Deportista, garantizando su salud física y mental, su protección social, la compatibilidad con los estudios en todas las etapas",
+     "medida_sintesis": "Desplegar el Estatuto del Deportista con garantías de salud física y mental, protección social, compatibilidad con los estudios y acompañamiento al final de la carrera deportiva.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: nombra la norma, pero no concreta la prestación, el estándar ni la obligación que garantiza. DES 1: la protección social y la salud se prestan desde sistemas públicos.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas (OTR, por la protección social de deportistas, y EMP, por tratarse de condiciones de una profesión) y es caso frontera de UNI: el Estatuto puede limitarse a deportistas de alto nivel, que pp-139 codificó con UNI 0 por merecimiento. Propuesta: OTR con UNI 1, porque el texto no fija ese requisito.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-187": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promoción de la Actividad Física, extendiendo la receta deportiva y la actividad física supervisada desde la atención primaria, fomentando el deporte extraescolar.",
+     "medida_sintesis": "Impulsar una Estrategia Integral contra el Sedentarismo que extienda la receta deportiva y la actividad física supervisada desde la atención primaria y fomente el deporte extraescolar.",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una estrategia, sin derecho, cartera garantizada ni estándar. DES 1: actúa desde la atención primaria del Sistema Nacional de Salud. DEC 0: nombra un instrumento (una estrategia).",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas: salud pública (SAN) y deporte (OTR). Propuesta: SAN, porque el instrumento principal es la prescripción de actividad física desde la atención primaria.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-188": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reformar la Ley de Mecenazgo e impulsar incentivos fiscales para fomentar la práctica deportiva, la inversión en infraestructuras y el patrocinio en el sector.",
+     "medida_sintesis": "Reformar la Ley de Mecenazgo e impulsar incentivos fiscales para la práctica deportiva, la inversión en infraestructuras y el patrocinio deportivo.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un incentivo fiscal al mecenazgo y al patrocinio deportivo. DEC 0: nombra una norma e incentivos fiscales.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-190": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desarrollar un Plan Estratégico del Deporte Español, articulando el deporte base, la tecnificación y el alto rendimiento",
+     "medida_sintesis": "Desarrollar un Plan Estratégico del Deporte Español que articule el deporte base, la tecnificación y el alto rendimiento y asegure la financiación del deporte olímpico y paralímpico.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. El deporte no figura entre los derechos sociales del apartado 2.2. DEC 0: nombra un instrumento (un plan).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-191": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar que el Mundial 2030 y los grandes eventos deportivos dejen un legado social: instalaciones abiertas a la ciudadanía",
+     "medida_sintesis": "Garantizar que el Mundial 2030 y los grandes eventos deportivos dejen un legado social: instalaciones abiertas, deporte base y empleo en el territorio.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. El deporte no figura entre los derechos sociales del apartado 2.2. DEC 1: «garantizar» sin norma, prestación, estándar, plazo ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-380": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promover el acceso a la cultura, el deporte y un ocio saludable.",
+     "medida_sintesis": "Promover el acceso de la juventud a la cultura, el deporte y un ocio saludable.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «promover» sin instrumento. DES 0: no nombra un servicio público ni una regulación. DEC 1: sin norma, prestación, estándar, plazo ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-449": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una Ley General de Cultura que garantice los derechos culturales, la libertad de creación y una financiación estable",
+     "medida_sintesis": "Aprobar una Ley General de Cultura que garantice los derechos culturales, la libertad de creación y una financiación estable.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "DES 0: no nombra un servicio público ni una regulación de precios o condiciones; la financiación estable no precisa si es provisión pública o ayuda al sector.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de DES: una ley de derechos culturales puede leerse como ordenación de un sistema público de cultura. Propuesta: DES 0, porque el texto no nombra la provisión; DES 1 si la ley se entiende como garantía de servicios culturales públicos.",
+     "repite": ""
+    },
+    {
+     "fragmento": "reformar la ley de mecenazgo para movilizar más inversión privada en cultura.",
+     "medida_sintesis": "Reformar la ley de mecenazgo para movilizar más inversión privada en cultura.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un incentivo fiscal a quien hace donaciones. DEC 0: nombra una norma.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-450": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Culminar el Estatuto del Artista",
+     "medida_sintesis": "Culminar el Estatuto del Artista.",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: nombra la norma, pero no concreta qué derecho reconoce ni qué obligación crea. DES 1: regula las condiciones de trabajo del colectivo artístico.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "crear la Oficina Española de Derechos de Autor, reforzando la lucha contra la piratería y garantizando que los creadores autoricen y cobren por el uso",
+     "medida_sintesis": "Crear la Oficina Española de Derechos de Autor para reforzar la lucha contra la piratería y garantizar que las personas creadoras autoricen y cobren el uso de sus obras por la IA.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección de la propiedad intelectual. DEC 0: nombra un instrumento (una oficina).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-451": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar una Estrategia Nacional de Competencia Lectora y reforzar las bibliotecas públicas y escolares y las librerías de proximidad",
+     "medida_sintesis": "Impulsar una Estrategia Nacional de Competencia Lectora y reforzar las bibliotecas públicas y escolares y las librerías de proximidad.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una estrategia y un refuerzo sin derecho, estándar ni obligación de provisión. DES 1: las bibliotecas públicas y escolares son provisión pública. DEC 0: nombra un instrumento (una estrategia).",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas, cultura (OTR) y educación (EDU), y mezcla provisión pública (bibliotecas públicas y escolares) con apoyo a negocios privados (librerías). Propuesta: OTR con DES 1 por las bibliotecas públicas, que son el instrumento dominante.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Abrir la Biblioteca Nacional a toda la ciudadanía, permitir el alta en línea en bibliotecas, archivos y centros de investigación del Estado",
+     "medida_sintesis": "Abrir la Biblioteca Nacional a toda la ciudadanía, permitir el alta en línea en bibliotecas y archivos del Estado y digitalizar los archivos históricos.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: amplía el acceso a un servicio cultural público por decisión de gestión, sin norma que lo reconozca como derecho ni estándar. DEC 0: actuaciones concretas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de EXI: abrir la Biblioteca Nacional a toda la ciudadanía fija un acceso universal concreto a un servicio público. Propuesta: EXI 0, porque no se formula como derecho ni con norma; EXI 1 si la apertura se entiende como prestación garantizada.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-452": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reformar la Ley del Cine y de la Cultura Audiovisual para reforzar la producción independiente, la distribución y la exhibición",
+     "medida_sintesis": "Reformar la Ley del Cine y de la Cultura Audiovisual para reforzar la producción independiente, la distribución y la exhibición, con mejores incentivos fiscales.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política industrial del sector audiovisual. DEC 0: nombra una norma.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-453": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear un abono de cine de 15 euros al mes para menores de 25 años, en colaboración con el sector",
+     "medida_sintesis": "Crear un abono de cine de 15 euros al mes para menores de 25 años, en colaboración con el sector.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un abono a precio rebajado, no reconoce un derecho. DES 0: es una ayuda a la demanda para consumir en salas privadas, en colaboración con el sector. DEC 0: instrumento concreto con cuantía.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de UNI y DES: el acceso exige pagar la cuota mensual y el precio de 15 euros puede leerse como tarifa regulada. Propuesta: UNI 1 (colectivo definido por la edad, sin prueba de renta) y DES 0 (ayuda a la demanda); UNI 0 si se aplica el criterio de capacidad de pago.",
+     "repite": ""
+    },
+    {
+     "fragmento": "reforzar el Bono Cultural Joven.",
+     "medida_sintesis": "Reforzar el Bono Cultural Joven.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: refuerza un bono sin reconocer un derecho ni fijar cuantía. DES 0: es un bono para consumir cultura en el mercado. DEC 0: actúa sobre un programa identificado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-454": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Culminar la reforma del INAEM, con planes específicos para el flamenco, la danza, el circo y la música, más residencias artísticas y circuitos de exhibición",
+     "medida_sintesis": "Culminar la reforma del INAEM con planes para el flamenco, la danza, el circo y la música, más residencias artísticas y circuitos de exhibición.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: reforma institucional y planes, sin derecho, estándar ni obligación de provisión. DES 1: institución pública de artes escénicas y música. DEC 0: nombra instrumentos (planes, residencias, circuitos).",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de ámbito: la reforma de una institución pública de artes escénicas y música puede leerse como acceso a la vida cultural o como apoyo al sector artístico. Propuesta: UNI 1, DES 1 y NDI 1, como los museos públicos de pp-135; 0 en las cuatro si se considera política sectorial.",
+     "repite": ""
+    },
+    {
+     "fragmento": "un plan de conservación del patrimonio musical",
+     "medida_sintesis": "Aprobar un plan de conservación del patrimonio musical.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Protege bienes culturales, pero no regula el acceso de la población a la vida cultural. DEC 0: nombra un instrumento (un plan).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "un programa de cofinanciación de escuelas municipales de música junto a ayuntamientos y comunidades autónomas.",
+     "medida_sintesis": "Crear un programa de cofinanciación de escuelas municipales de música con ayuntamientos y comunidades autónomas.",
+     "area": "EDU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un programa de cofinanciación, sin derecho, ratio ni obligación de provisión. DES 1: financia escuelas públicas municipales. DEC 0: nombra un instrumento (un programa).",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas: educación (EDU), por ser enseñanza musical, y cultura (OTR). Propuesta: EDU, porque el objeto son escuelas que prestan enseñanza.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-455": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Culminar los grandes proyectos culturales del Estado, como el Centro Nacional de Fotografía de Soria, el Museo Arqueológico de Sevilla",
+     "medida_sintesis": "Culminar los grandes proyectos culturales del Estado (Centro Nacional de Fotografía, Museo Arqueológico de Sevilla, Salón de Reinos, Tabacalera) con financiación plurianual y atención al patrimonio rural.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una dotación plurianual para equipamientos, sin derecho, estándar ni obligación de provisión. DES 1: equipamientos culturales de titularidad pública. DEC 0: nombra una dotación plurianual.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "abrir los edificios del patrimonio a la ciudadanía.",
+     "medida_sintesis": "Abrir los edificios del patrimonio a la ciudadanía.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: amplía el acceso a bienes culturales públicos sin norma que lo reconozca como derecho ni estándar. DES 1: bienes de titularidad pública. DEC 0: actuación concreta.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-484": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliar la red del Instituto Cervantes para situar el español como lengua de la ciencia, la innovación y la inteligencia artificial",
+     "medida_sintesis": "Ampliar la red del Instituto Cervantes para situar el español como lengua de la ciencia, la innovación y la IA, con modelos de lenguaje abiertos en español y en las lenguas cooficiales.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es promoción exterior de la lengua y la cultura. DEC 0: actúa sobre un instrumento identificado.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "colaborar con el Institut Ramon Llull, el Etxepare Euskal Institutua y las instituciones culturales gallegas",
+     "medida_sintesis": "Colaborar con el Institut Ramon Llull, el Etxepare Euskal Institutua y las instituciones culturales gallegas para dar a conocer la diversidad cultural y lingüística.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es promoción exterior de la lengua y la cultura. DEC 1: colaboración sin programa ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-485": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Seguir impulsando el reconocimiento del catalán, el euskera y el gallego como lenguas oficiales de la Unión Europea",
+     "medida_sintesis": "Impulsar el reconocimiento del catalán, el euskera y el gallego como lenguas oficiales de la Unión Europea.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política lingüística y exterior. DEC 1: «impulsando» sin instrumento propio.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "promover su enseñanza mediante cátedras, lectorados y acuerdos con universidades extranjeras.",
+     "medida_sintesis": "Promover la enseñanza del catalán, el euskera y el gallego en universidades extranjeras mediante cátedras, lectorados y acuerdos.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es promoción exterior de las lenguas, no acceso de la población a la educación. DEC 0: nombra instrumentos (cátedras, lectorados, acuerdos).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-486": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Apoyar la internacionalización de las industrias culturales y creativas (audiovisual, libro, música, artes escénicas, videojuego y diseño)",
+     "medida_sintesis": "Apoyar la internacionalización de las industrias culturales y creativas con ferias, coproducción, traducción, movilidad de profesionales y un visado cultural europeo.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es apoyo a un sector económico. DEC 0: nombra instrumentos (ferias, coproducción, traducción, visado cultural).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-003": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar la descarbonización y modernización de la industria mediante las energías renovables, el hidrógeno renovable, el biogás, los combustibles renovables, la electrificación",
+     "medida_sintesis": "Impulsar la descarbonización y modernización de la industria con renovables, hidrógeno, biogás, electrificación, eficiencia energética y economía circular.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política industrial y energética. DEC 1: «impulsar» con tecnologías, sin norma, plan, estándar ni dotación.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas: clima y energía (MAM) y política industrial (OTR). Propuesta: MAM, porque el objeto dominante es la descarbonización.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-029": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos las Zonas de Bajas Emisiones",
+     "medida_sintesis": "Impulsar las Zonas de Bajas Emisiones.",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: «impulsaremos» no crea una obligación nueva ni fija un estándar. DES 1: regulación obligatoria del tráfico para todas las personas. DEC 0: nombra un instrumento regulador concreto (las Zonas de Bajas Emisiones).",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de ámbito: las Zonas de Bajas Emisiones protegen la calidad del aire y su derogación se codificó como REG 1 en vox-044. Propuesta: codificarla como acceso a un medio ambiente sano (UNI 1, DES 1, NDI 1); 0 en las cuatro si se considera política de transporte.",
+     "repite": ""
+    },
+    {
+     "fragmento": "los desplazamientos a pie y en bicicleta, las calles accesibles, los caminos escolares seguros, los corredores verdes y las redes ciclistas.",
+     "medida_sintesis": "Impulsar los desplazamientos a pie y en bicicleta con calles accesibles, caminos escolares seguros, corredores verdes y redes ciclistas.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de movilidad; las calles accesibles y los corredores verdes son aquí instrumentos de la movilidad activa. DEC 1: «impulsaremos» sin norma, plan, estándar ni dotación.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Repite la medida psoe-283, más desarrollada. Incluye calles accesibles (IGU) y corredores verdes (EVE), que en otras medidas se codifican como acceso. Propuesta: registrarla como repetición de psoe-283 y decidir allí si la accesibilidad y los corredores verdes son medidas aparte.",
+     "repite": "psoe-283"
+    },
+    {
+     "fragmento": "promoveremos una nueva Agenda Urbana Española orientada a desarrollar áreas metropolitanas y barrios más conectados, habitables, seguros y sostenibles.",
+     "medida_sintesis": "Promover una nueva Agenda Urbana Española para áreas metropolitanas y barrios más conectados, habitables, seguros y sostenibles.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es planificación urbana general. DEC 0: nombra un instrumento (una agenda).",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-030": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Facilitaremos el acceso a vehículos de cero emisiones mediante incentivos ágiles, financiación accesible y apoyo a hogares, autónomos y empresas.",
+     "medida_sintesis": "Facilitar la compra de vehículos de cero emisiones con incentivos, financiación y apoyo a hogares, personas autónomas y empresas.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un incentivo a la compra de vehículos. DEC 0: nombra instrumentos (incentivos y financiación).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "extenderemos la infraestructura de recarga eléctrica en todo el territorio",
+     "medida_sintesis": "Extender la infraestructura de recarga eléctrica en todo el territorio.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura de movilidad eléctrica. DEC 0: actuación concreta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "impulsaremos la descarbonización del transporte de mercancías, los puertos y el transporte pesado mediante la electrificación, el hidrógeno renovable",
+     "medida_sintesis": "Impulsar la descarbonización del transporte de mercancías, los puertos y el transporte pesado con electrificación, hidrógeno renovable y combustibles sostenibles.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética del transporte. DEC 1: «impulsaremos» con tecnologías, sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-033": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aceleraremos la ampliación y digitalización de las redes de transporte y distribución eléctrica, incrementaremos su capacidad mediante nuevas inversiones y convocaremos nuevos concursos de acceso",
+     "medida_sintesis": "Ampliar y digitalizar las redes eléctricas con nuevas inversiones y convocar nuevos concursos de acceso a la red.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura energética. DEC 0: nombra instrumentos (inversiones y concursos de acceso).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-164": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "adaptación de los centros educativos al cambio climático, en coordinación con las administraciones competentes, mejorando el confort térmico, transformando los patios en refugios climáticos",
+     "medida_sintesis": "Fomentar la adaptación de los centros educativos al cambio climático con mejor confort térmico, patios convertidos en refugios climáticos y climatización eficiente con renovables.",
+     "area": "EDU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «fomentar» sin norma, estándar, plazo ni dotación. DES 1: actúa sobre los centros del sistema educativo. DEC 1: enumera actuaciones sin instrumento concreto.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas: educación (EDU), por las condiciones de los centros, y medio ambiente (MAM), por la adaptación climática. Propuesta: EDU, porque el objeto son los centros educativos y sus condiciones de uso.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-233": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "garantizando el acceso a servicios públicos de calidad con independencia del lugar de residencia",
+     "medida_sintesis": "Garantizar en la España rural el acceso a servicios públicos de calidad con independencia del lugar de residencia.",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «garantizando» sin norma, estándar, plazo ni dotación. DES 1: se refiere a servicios públicos. DEC 1: sin instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-275"
+    },
+    {
+     "fragmento": "impulsando oportunidades que permitan fijar y atraer población.",
+     "medida_sintesis": "Impulsar oportunidades que permitan fijar y atraer población en los territorios con despoblación.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política territorial y demográfica. DEC 1: «impulsando» sin instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-234": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar el despliegue de energías renovables, para alcanzar el 81% de generación eléctrica en 2030, priorizando su ubicación en las Zonas de Aceleración Renovable",
+     "medida_sintesis": "Impulsar las renovables hasta el 81 % de la generación eléctrica en 2030, priorizando las Zonas de Aceleración Renovable.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética. DEC 0: fija un objetivo cuantificado con plazo.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-235": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar la electrificación como elemento crucial para aprovechar el despliegue de renovables",
+     "medida_sintesis": "Impulsar la electrificación para aprovechar el despliegue de renovables.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética. DEC 1: «impulsar» sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "aprobar un plan nacional para promover el bombeo hidroeléctrico",
+     "medida_sintesis": "Aprobar un plan nacional para promover el bombeo hidroeléctrico.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética. DEC 0: nombra un instrumento (un plan).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aprobar una hoja de ruta para el abandono progresivo de los combustibles fósiles",
+     "medida_sintesis": "Aprobar una hoja de ruta para el abandono progresivo de los combustibles fósiles.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es planificación energética. DEC 0: nombra un instrumento (una hoja de ruta).",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-236": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Extender el autoconsumo y la eficiencia energética en viviendas, edificios públicos, pymes e industrias",
+     "medida_sintesis": "Extender el autoconsumo y la eficiencia energética en viviendas, edificios públicos, pymes e industrias.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética. No regula el precio ni el acceso de los hogares al suministro. DEC 1: «extender» sin instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-237": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Acelerar el despliegue del almacenamiento energético, la gestión de la demanda, el hidrógeno renovable y las interconexiones internacionales",
+     "medida_sintesis": "Acelerar el almacenamiento energético, la gestión de la demanda, el hidrógeno renovable y las interconexiones internacionales.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética. DEC 1: «acelerar» sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-238": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Acelerar el refuerzo y la extensión de la red troncal de gasoductos preparados para el transporte de hidrógeno verde",
+     "medida_sintesis": "Reforzar y extender la red troncal de gasoductos para hidrógeno verde y las interconexiones con Francia.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura energética. DEC 1: «acelerar» sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-239": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defender la reforma del mercado eléctrico europeo para garantizar que los beneficios de las energías renovables se trasladen de forma efectiva a consumidores",
+     "medida_sintesis": "Defender la reforma del mercado eléctrico europeo para que los beneficios de las renovables lleguen a las personas consumidoras, los hogares y las empresas.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es regulación del mercado eléctrico europeo, sin regular el precio ni el acceso de los hogares al suministro. DEC 1: «defender» sin instrumento propio.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-240": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Mantener el calendario de cierre de las centrales nucleares hasta 2035",
+     "medida_sintesis": "Mantener el calendario de cierre de las centrales nucleares hasta 2035.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética. DEC 0: fija un calendario.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "desarrollar proyectos de transición justa en las comarcas afectadas, preservando las capacidades tecnológicas y de conocimiento vinculadas al sector.",
+     "medida_sintesis": "Desarrollar proyectos de transición justa en las comarcas afectadas por el cierre nuclear.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política económica territorial. DEC 0: nombra un instrumento (proyectos de transición justa).",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-241": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reorientar la fiscalidad para la transición ecológica, eliminando barreras y reduciendo costes para las tecnologías limpias.",
+     "medida_sintesis": "Reorientar la fiscalidad hacia la transición ecológica, reduciendo costes para las tecnologías limpias.",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad general. DEC 1: no concreta los impuestos ni la norma.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas: fiscalidad (OTR) y clima y energía (MAM). Propuesta: OTR, porque el objeto es el sistema fiscal.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-242": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desplegar el Plan Social para el Clima para proteger a los hogares vulnerables, las microempresas y las personas usuarias del transporte frente a los costes",
+     "medida_sintesis": "Desplegar el Plan Social para el Clima para proteger a los hogares vulnerables, las microempresas y las personas usuarias del transporte frente a los costes de la transición.",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: se dirige a los hogares vulnerables. EXI 0: es un plan, sin derecho ni estándar. DES 0: no nombra la forma de provisión; no se presume provisión pública. DEC 0: nombra un instrumento (un plan).",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite tres áreas: vivienda y pobreza energética (VIV), clima (MAM) y protección social (OTR), y protege también a microempresas. Propuesta: VIV, porque el objeto dominante son los costes energéticos de los hogares vulnerables.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-245": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar una gestión sostenible de las materias primas minerales y aprobar una nueva Ley de Minas alineada con la transición ecológica.",
+     "medida_sintesis": "Aprobar una nueva Ley de Minas alineada con la transición ecológica para una gestión sostenible de las materias primas minerales.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política sectorial de recursos minerales. DEC 0: nombra una norma.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-246": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reducir el vertido de residuos por debajo del 30 % en 2030, impulsando la prevención, la reutilización y el reciclaje",
+     "medida_sintesis": "Reducir el vertido de residuos por debajo del 30 % en 2030 con prevención, reutilización, reciclaje, retorno de envases y trazabilidad.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión sectorial de residuos. DEC 0: fija un objetivo cuantificado con plazo.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: un objetivo cuantificado de reducción del vertido puede leerse como estándar de protección del medio ambiente sano. Propuesta: 0 en las cuatro, como la gestión de residuos de cc-043; UNI 1 y NDI 1 si se considera protección frente a la contaminación.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-247": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Fomentar el ecodiseño, la reparación y la reutilización en procesos productivos",
+     "medida_sintesis": "Fomentar el ecodiseño, la reparación y la reutilización en los procesos productivos para recuperar materias primas críticas.",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política industrial de economía circular. DEC 1: «fomentar» sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  }
+ }
+}

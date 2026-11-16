@@ -1,0 +1,58 @@
+{
+  "_leeme": [
+    "Prueba de las cuentas: impacto presupuestario que DECLARA cada medida. Lo leen el pipeline y la web.",
+    "lado: «resta» (resta dinero a las cuentas públicas: ingresa menos o gasta más), «suma» (ingresa más o gasta menos), «compromiso» (objetivo genérico) o «marca» (dato extra).",
+    "Reglas completas de clasificación: docs/CRITERIOS-IMPACTO-FISCAL.md. Clasificación: datos/fiscal/{partido}.json.",
+    "Si se cambia un id, hay que cambiarlo también en datos/fiscal/*.json; «clasificar validar --dimension fiscal» lo detecta.",
+    "riesgo_viabilidad: etiqueta roja junto al partido cuando las medidas que restan dinero son más de «umbral» veces las que lo suman (o restan y ninguna suma)."
+  ],
+  "categorias": [
+    {
+      "id": "menos_ingresos",
+      "lado": "resta",
+      "nombre": "Bajan impuestos o cotizaciones",
+      "corto": "Menos ingresos",
+      "alcance": "Rebajas de impuestos o cotizaciones, deducciones, exenciones, bonificaciones fiscales y supresión de tributos."
+    },
+    {
+      "id": "mas_gasto",
+      "lado": "resta",
+      "nombre": "Suben el gasto público",
+      "corto": "Más gasto",
+      "alcance": "Prestaciones o ayudas nuevas o más amplias, más personal, inversiones, planes y programas con dinero público, subvenciones, avales y transferencias."
+    },
+    {
+      "id": "mas_ingresos",
+      "lado": "suma",
+      "nombre": "Suben los ingresos",
+      "corto": "Más ingresos",
+      "alcance": "Impuestos o tasas nuevos o más altos, supresión de beneficios fiscales, lucha contra el fraude para recaudar y venta de activos públicos."
+    },
+    {
+      "id": "menos_gasto",
+      "lado": "suma",
+      "nombre": "Recortan gasto",
+      "corto": "Menos gasto",
+      "alcance": "Supresión o reducción de organismos, cargos, subvenciones, programas o prestaciones, y restricciones de acceso a prestaciones."
+    },
+    {
+      "id": "consolidacion",
+      "lado": "compromiso",
+      "nombre": "Prometen reducir déficit o deuda",
+      "corto": "Déficit y deuda",
+      "alcance": "Objetivos generales de reducir el déficit o la deuda o de cumplir las reglas fiscales, sin una medida concreta de ingreso o recorte."
+    },
+    {
+      "id": "importe",
+      "lado": "marca",
+      "nombre": "Ponen importe",
+      "corto": "Con importe",
+      "alcance": "La medida dice en euros cuánto dinero público supone: lo que gasta, moviliza o recauda."
+    }
+  ],
+  "riesgo_viabilidad": {
+    "umbral": 2,
+    "etiqueta": "Riesgo de viabilidad",
+    "regla": "Las medidas que restan dinero a las cuentas públicas son más del doble de las que lo suman."
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "lote": "lote-19",
+  "unidades": {
+    "psoe-p02": {
+      "sin_medidas": "Resto del índice del programa: títulos de apartados sueltos y truncados («Freno a la especulación y regulación del mercado para garantizar»), sin texto propio. No contiene compromisos (R2, R3).",
+      "medidas": []
+    },
+    "psoe-p04": {
+      "sin_medidas": "Resto del índice del programa: títulos de apartados sueltos con su número de página («Iguales también en la red: más derechos y más seguridad para las mujeres en el entorno digital. 84»), sin texto propio. No contiene compromisos (R2, R3).",
+      "medidas": []
+    },
+    "psoe-p06": {
+      "sin_medidas": "Presentación del programa: diagnóstico del contexto, declaración de convicciones («Creemos que la política tiene una misión esencial») y frase normativa sin compromiso de la formación («España necesita más derechos, más oportunidades y más protección para las clases medias y trabajadoras»). La frase «defendemos un orden democrático basado en derechos, reglas justas e igualdad de oportunidades» es una aspiración general sin objeto de política. No son medidas (R3).",
+      "medidas": []
+    },
+    "psoe-p07": {
+      "sin_medidas": "Balance de la gestión del Gobierno desde 2018 («Hemos alcanzado niveles récord de empleo», «Hemos ampliado las becas»), diagnóstico de los retos pendientes («Persisten desigualdades que limitan oportunidades») y lema del programa («garantizar que la mayoría social pueda vivir mejor»). Los logros pasados, los diagnósticos y los lemas no son medidas (R3).",
+      "medidas": []
+    },
+    "psoe-p08": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "apostamos por acelerar una transición ecológica justa, impulsar las energías renovables, avanzar hacia una mayor autonomía energética",
+          "medida_sintesis": "Impulsar las energías renovables para avanzar hacia una mayor autonomía energética",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética. DEC 1: sin norma, plazo ni dotación. «Acelerar una transición ecológica justa» solo engloba el bloque y no se cuenta aparte.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-234"
+        },
+        {
+          "fragmento": "defendemos una transformación digital al servicio de las personas, sometida a principios éticos, reglas transparentes y control democrático",
+          "medida_sintesis": "Someter la transformación digital a principios éticos, reglas transparentes y control democrático",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gobernanza de la tecnología. DEC 1: sin norma ni instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-018"
+        }
+      ]
+    },
+    "psoe-p09": {
+      "sin_medidas": "Cierre de la presentación: declaraciones de valores («Creemos que ninguna familia debe sentirse sola ante una crisis»), lemas («Elegimos seguir avanzando») y aspiración general sobre el país («construir una España que proteja, transforme y avance»), que solo engloba los objetivos de todo el programa. No son medidas (R3).",
+      "medidas": []
+    },
+    "psoe-p11": {
+      "sin_medidas": "Introducción del capítulo económico: diagnóstico de las transformaciones productivas, frase normativa sin compromiso de la formación («necesitamos gobiernos que apuesten» por la llamada prosperidad compartida) y balance de la gestión económica («Hemos demostrado que existe otro camino»). No son medidas (R3).",
+      "medidas": []
+    },
+    "psoe-p12": {
+      "sin_medidas": "Balance de la gestión: fondos Next Generation EU, PERTE, inversión en infraestructuras, I+D y conectividad («Hemos reformado la Ley de la Ciencia», «Hemos situado la ciencia y la innovación en el centro de la estrategia de país»). La frase final («Apostamos por un modelo de progreso que vaya más allá del crecimiento del PIB») es un lema sin objeto de política. No son medidas (R3).",
+      "medidas": []
+    },
+    "psoe-p13": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "abriremos una nueva etapa de inversión productiva, apoyada en instrumentos como el Fondo España Crece, que movilizará 120.000 millones de euros",
+          "medida_sintesis": "Abrir una nueva etapa de inversión productiva con el Fondo España Crece, que movilizará 120.000 millones de euros",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: identifica un fondo con dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-001"
+        },
+        {
+          "fragmento": "Desplegaremos una política industrial orientada a reducir nuestras dependencias estratégicas, apoyando las cadenas de valor ligadas a la electrificación, las renovables",
+          "medida_sintesis": "Desplegar una política industrial para reducir las dependencias estratégicas, con apoyo a las cadenas de valor de la electrificación, las renovables, el almacenamiento y la economía circular",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: sin norma, plazo ni dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-002"
+        },
+        {
+          "fragmento": "Seguiremos reforzando nuestras capacidades científicas y tecnológicas en IA, supercomputación, microelectrónica y en las demás tecnologías estratégicas",
+          "medida_sintesis": "Reforzar las capacidades científicas y tecnológicas en inteligencia artificial, supercomputación, microelectrónica y otras tecnologías estratégicas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política científica y tecnológica que no regula ni provee el acceso a un derecho social. DEC 1: «seguiremos reforzando» sin norma, plazo ni dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-015"
+        },
+        {
+          "fragmento": "aceleraremos la ampliación y digitalización de las redes eléctricas de transporte y distribución",
+          "medida_sintesis": "Acelerar la ampliación y digitalización de las redes eléctricas de transporte y distribución",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura energética. DEC 1: sin norma, plazo ni dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-033"
+        },
+        {
+          "fragmento": "desplegaremos almacenamiento a gran escala",
+          "medida_sintesis": "Desplegar almacenamiento energético a gran escala",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética. DEC 1: sin norma, plazo ni dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-237"
+        },
+        {
+          "fragmento": "reforzaremos las interconexiones con el resto de Europa",
+          "medida_sintesis": "Reforzar las interconexiones energéticas con el resto de Europa",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura energética. DEC 1: no concreta instrumento.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-237"
+        },
+        {
+          "fragmento": "culminaremos los corredores Mediterráneo y Atlántico, conectando puertos, plataformas logísticas y polos industriales con la red europea",
+          "medida_sintesis": "Culminar los corredores Mediterráneo y Atlántico y conectar puertos, plataformas logísticas y polos industriales con la red europea",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: actuación directa sobre obras identificadas.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-027"
+        },
+        {
+          "fragmento": "impulsaremos el transporte de mercancías por ferrocarril y la intermodalidad para descarbonizar la logística",
+          "medida_sintesis": "Impulsar el transporte de mercancías por ferrocarril y la intermodalidad para descarbonizar la logística",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «impulsaremos» sin norma, plazo ni dotación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Ningún compromiso numerado trata el transporte de mercancías por ferrocarril: psoe-030 y psoe-284 descarbonizan el transporte de mercancías con electrificación, recarga e hidrógeno, y psoe-027 se refiere a la intermodalidad del transporte público. Admite además dos áreas: OTR por el transporte y MAM por la descarbonización. Propuesta: medida nueva en OTR, declarativa; si el equipo toma como objeto la descarbonización del transporte de mercancías, repite psoe-030.",
+          "repite": ""
+        },
+        {
+          "fragmento": "daremos prioridad al mantenimiento y la fiabilidad de toda la red ferroviaria, con unos 19.000 millones de euros comprometidos hasta",
+          "medida_sintesis": "Dar prioridad al mantenimiento y la fiabilidad de la red ferroviaria, con unos 19.000 millones de euros comprometidos",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: identifica una dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-023"
+        },
+        {
+          "fragmento": "seguiremos fortaleciendo los derechos de los consumidores, adaptando su protección a los desafíos de la digitalización y la IA, combatiendo los abusos",
+          "medida_sintesis": "Fortalecer los derechos de las personas consumidoras y adaptar su protección a la digitalización y la inteligencia artificial",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; la protección de las personas consumidoras no figura entre los derechos del apartado 2.2. DEC 1: sin norma ni instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-034"
+        }
+      ]
+    },
+    "psoe-p14": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "impulsaremos una nueva etapa de inversión productiva, reindustrialización y modernización empresarial, apoyando los sectores estratégicos del futuro, reforzando nuestras cadenas de valor",
+          "medida_sintesis": "Impulsar una nueva etapa de inversión productiva, reindustrialización y modernización empresarial en los sectores estratégicos",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: en este pasaje no nombra norma, plazo ni dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-001"
+        },
+        {
+          "fragmento": "eliminando barreras que frenan el crecimiento de nuestras empresas",
+          "medida_sintesis": "Eliminar las barreras que frenan el crecimiento de las empresas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: sin norma ni instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-005"
+        }
+      ]
+    },
+    "psoe-p15": {
+      "sin_medidas": "Entradilla del apartado de ciencia e innovación: diagnóstico, frase normativa sin compromiso de la formación («ahora debe dar un salto de escala») y aspiración sobre el estado del sector («Queremos una ciencia excelente, abierta y conectada con la sociedad»), que solo engloba los objetivos del bloque desarrollados en las medidas numeradas (entre ellas psoe-008 a psoe-014). No son medidas (R3).",
+      "medidas": []
+    },
+    "psoe-p17": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Queremos impulsar el desarrollo y la adopción de tecnologías avanzadas",
+          "medida_sintesis": "Impulsar el desarrollo y la adopción de tecnologías avanzadas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política tecnológica que no regula ni provee el acceso a un derecho social. DEC 1: sin norma, plazo ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-016"
+        },
+        {
+          "fragmento": "fortalecer nuestras capacidades en ámbitos clave como la IA, la supercomputación, la microelectrónica o la ciberseguridad",
+          "medida_sintesis": "Fortalecer las capacidades en inteligencia artificial, supercomputación, microelectrónica y ciberseguridad",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política tecnológica que no regula ni provee el acceso a un derecho social. DEC 1: sin norma, plazo ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-015"
+        },
+        {
+          "fragmento": "garantizar que sus beneficios lleguen al conjunto de la ciudadanía, las empresas y las administraciones públicas",
+          "medida_sintesis": "Extender los beneficios de las tecnologías avanzadas al conjunto de la ciudadanía, las empresas y las administraciones públicas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social del apartado 2.2. DEC 1: «garantizar» sin norma, prestación ni instrumento.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-016"
+        }
+      ]
+    },
+    "psoe-p19": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "tenemos la obligación de garantizar la seguridad de la red ferroviaria y recuperar la confianza de quienes viajan y trabajan en ella",
+          "medida_sintesis": "Garantizar la seguridad de la red ferroviaria tras los accidentes ferroviarios de 2026",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: en este pasaje no nombra norma, plazo ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-026"
+        }
+      ]
+    },
+    "psoe-p21": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Queremos reforzar los derechos de las personas consumidoras frente a abusos, prácticas engañosas y barreras de acceso a bienes y servicios",
+          "medida_sintesis": "Reforzar los derechos de las personas consumidoras frente a abusos, prácticas engañosas y barreras de acceso a bienes y servicios",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; la protección de las personas consumidoras no figura entre los derechos del apartado 2.2. DEC 1: sin norma ni instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-034"
+        },
+        {
+          "fragmento": "impulsaremos mecanismos más eficaces para la defensa de sus derechos",
+          "medida_sintesis": "Impulsar mecanismos más eficaces para la defensa de los derechos de las personas consumidoras",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; la protección de las personas consumidoras no figura entre los derechos del apartado 2.2. DEC 1: no concreta el mecanismo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-035"
+        },
+        {
+          "fragmento": "una protección reforzada de quienes se encuentran en situaciones de mayor vulnerabilidad",
+          "medida_sintesis": "Reforzar la protección de las personas consumidoras en situación de mayor vulnerabilidad",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; la protección de las personas consumidoras no figura entre los derechos del apartado 2.2. DEC 1: sin norma ni instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-036"
+        }
+      ]
+    },
+    "psoe-p24": {
+      "sin_medidas": "Introducción del capítulo de vivienda: diagnóstico del problema de acceso y balance de la gestión desde 2018 (reforma de la Ley de Arrendamientos Urbanos, Ley por el Derecho a la Vivienda de 2023, creación del Ministerio de Vivienda y Agenda Urbana, «hemos activado la construcción de casi 1 millón de viviendas»). Los logros pasados y las valoraciones no son compromisos (R3).",
+      "medidas": []
+    }
+  }
+}

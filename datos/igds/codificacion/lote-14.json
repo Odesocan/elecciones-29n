@@ -1,0 +1,1914 @@
+{
+  "lote": "lote-14",
+  "unidades": {
+    "psoe-177": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "creando complementos específicos para estudiantes que sean la primera generación en acceder a la universidad y para quienes afronten mayores dificultades económicas",
+          "medida_sintesis": "Crear complementos específicos de beca para el estudiantado que es primera generación en la universidad y para quien afronta mayores dificultades económicas.",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: una parte del acceso depende de afrontar mayores dificultades económicas, una prueba de necesidad, dentro del modelo de becas. EXI 0: crea un complemento sin reconocerlo como derecho ni fijar su cuantía. DES 0: el complemento es una ayuda monetaria, no una provisión pública. DEC 0: nombra un instrumento concreto (complementos específicos).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Une dos colectivos con reglas distintas: la primera generación universitaria, sin prueba de renta, y el estudiantado con mayores dificultades económicas, con prueba de necesidad. Propuesta: una sola medida con UNI 0, porque el complemento se inscribe en el nuevo modelo de becas (psoe-176) y compensa barreras económicas; si se separa, el complemento para la primera generación tendría UNI 1.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-178": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aseguraremos becas Erasmus al alcance de hasta 1.000 y 1.500€ mensuales, en función de los ingresos.",
+          "medida_sintesis": "Asegurar becas Erasmus de hasta 1.000 y 1.500 euros mensuales, con cuantía en función de los ingresos.",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la cuantía se fija en función de los ingresos. EXI 0: fija la cuantía de la beca de un programa de movilidad sin reconocerla como derecho. DES 0: la beca es una ayuda monetaria, no una provisión pública. DEC 0: cuantía concreta.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La cuantía es progresiva según los ingresos, pero el texto no dice que haya un umbral que excluya. Propuesta: UNI 0, como las becas vinculadas a la renta de pp-218-01 y vox-068-01; si el equipo la lee como beca para todo el estudiantado de movilidad con cuantía progresiva, UNI 1.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Las nuevas Becas Luisa de Medrano serán consolidadas para permitir cursar parte de sus estudios en otra comunidad autónoma.",
+          "medida_sintesis": "Consolidar las Becas Luisa de Medrano para cursar parte de los estudios universitarios en otra comunidad autónoma.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: consolida un programa de becas sin reconocer un derecho ni fijar cuantía. DES 0: la beca es una ayuda monetaria, no una provisión pública. DEC 0: programa identificado.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-179": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la gratuidad de la matrícula del primer curso de grado en las universidades públicas de todo el país.",
+          "medida_sintesis": "Impulsar la gratuidad de la matrícula del primer curso de grado en las universidades públicas.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: «impulsar» la gratuidad no la garantiza ni la fija por norma. DEC 0: nombra una prestación concreta (gratuidad de la matrícula del primer curso).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Nombra una gratuidad concreta, pero con el verbo «impulsar» y sin norma que la garantice. Propuesta: EXI 0 y DEC 0, porque 2.4 da EXI 1 solo a la gratuidad garantizada («será gratuita») y los precios de matrícula dependen además de las comunidades autónomas.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-180": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ampliar las plazas públicas de alojamiento universitario, expandiendo el compromiso ya aprobado en 2026 de crear 2.000 nuevas plazas",
+          "medida_sintesis": "Ampliar las plazas públicas de alojamiento universitario a precios asequibles, más allá de las 2.000 ya comprometidas, con acuerdos entre administraciones y universidades públicas.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: amplía plazas sin reconocer un derecho ni fijar ratio u obligación de provisión. DEC 0: cuantifica el compromiso de partida (2.000 plazas).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: educación (servicio complementario de la universidad, como el comedor escolar) y vivienda (alojamiento). Propuesta: EDU, porque se dirige al estudiantado y depende del sistema universitario.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-181": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ley de Equidad en el Acceso a la Universidad Pública que garantice una financiación suficiente, estable y de calidad para las universidades públicas",
+          "medida_sintesis": "Aprobar una Ley de Equidad en el Acceso a la Universidad Pública que garantice la financiación suficiente y estable de las universidades públicas con compromisos plurianuales vinculantes.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: la ley obliga a financiar las universidades, pero no reconoce un derecho de acceso ni fija un estándar de servicio; es una dotación. DEC 0: norma y compromisos plurianuales identificados.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "asegurando además una oferta mínima de plazas públicas en titulaciones estratégicas y de alta demanda.",
+          "medida_sintesis": "Asegurar por ley una oferta mínima de plazas públicas universitarias en titulaciones estratégicas y de alta demanda.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: la ley fija una obligación de oferta mínima de plazas públicas, sin condiciones de renta ni de origen.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La oferta mínima no se cuantifica y el acceso a la universidad pública depende de la nota de admisión, que el texto no menciona. Propuesta: EXI 1, por ser una obligación de provisión fijada por ley, y UNI 1, porque el texto no añade condiciones de renta ni de mérito.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-182": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Consolidar el crecimiento y la modernización de la UNED, ampliando su oferta a titulaciones presenciales en ámbitos estratégicos y de alta demanda.",
+          "medida_sintesis": "Ampliar la oferta de la UNED a titulaciones presenciales en ámbitos estratégicos y de alta demanda.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: amplía la oferta sin reconocer un derecho ni fijar estándar u obligación de provisión. DEC 0: nombra una ampliación concreta de la oferta pública (titulaciones presenciales).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-183": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Transformar la Universidad Internacional Menéndez Pelayo (UIMP) en una universidad pública singular integrada en el sistema universitario español",
+          "medida_sintesis": "Transformar la UIMP en una universidad pública integrada en el sistema universitario.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: cambia la naturaleza de una institución pública sin reconocer un derecho ni fijar un estándar. DEC 0: transformación institucional concreta.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Puede leerse como organización institucional (0 en las cuatro dimensiones, como pp-217-01) o como ampliación de la provisión universitaria pública. Propuesta: lo segundo, como pp-110-02 (modernización del IMSERSO), porque integra la UIMP como universidad pública en el sistema universitario.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-184": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "garantizando que todas las universidades y titulaciones, públicas y privadas, cumplan requisitos exigentes de docencia, investigación y profesorado",
+          "medida_sintesis": "Reforzar la regulación de la calidad universitaria para que todas las universidades, públicas y privadas, cumplan requisitos de docencia, investigación, profesorado y presencialidad.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: regula con fuerza obligatoria las condiciones de calidad de todas las universidades, también las privadas, sin condiciones de acceso.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Los requisitos no se cuantifican y el objeto es la calidad de la oferta más que el acceso. Propuesta: EXI 1 y DES 1, porque crea obligaciones de calidad para todas las universidades, como el protocolo obligatorio de pp-214-01; si el equipo exige un estándar cuantificado, EXI 0.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-185": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la renovación y estabilización de las plantillas universitarias mediante el Programa María Goyri",
+          "medida_sintesis": "Renovar y estabilizar las plantillas universitarias con el Programa María Goyri, con nuevo profesorado, relevo generacional y menos precariedad.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un programa, sin norma que reconozca un derecho ni estándar mínimo. DES 0: no es provisión pública ni regulación de las condiciones para todas las personas trabajadoras. DEC 0: nombra un instrumento concreto (Programa María Goyri).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: condiciones laborales del personal universitario (EMP) y refuerzo de la docencia universitaria (EDU). Propuesta: EMP, como el ajuste de coherencia sobre el personal sanitario y docente, porque el objeto es la estabilización de plantillas y la reducción de la precariedad.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-224": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegar el Plan Estratégico de Educación Inclusiva 2026-2031, en colaboración con las comunidades autónomas, reforzando los recursos y apoyos educativos",
+          "medida_sintesis": "Desplegar el Plan Estratégico de Educación Inclusiva 2026-2031 con las comunidades autónomas, con más recursos y apoyos y criterios comunes de calidad y seguimiento.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan; los criterios comunes no se concretan como estándar exigible. DEC 0: plan identificado.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "psoe-162 despliega el mismo plan (recursos para el alumnado con TEA y NEE y centros de educación especial). Propuesta: contar el plan aquí, donde se concretan su periodo, la colaboración territorial y los criterios comunes, y marcar psoe-162 con «repite» = psoe-224, o al revés si el equipo considera más desarrollada psoe-162; en ningún caso contar las dos.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-344": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar la coeducación y la educación afectivo-sexual obligatorias en todas las etapas educativas",
+          "medida_sintesis": "Garantizar la coeducación y la educación afectivo-sexual obligatorias en todas las etapas educativas para prevenir la violencia de género.",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: obligación de impartir a todo el alumnado, dentro del sistema educativo, contenidos de prevención de la violencia de género.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas (IGU y EDU) y es un contenido curricular, que en otras formaciones se codificó sin derecho social (pp-133-01, vox-069-06). Propuesta: IGU con g = 1, porque a diferencia de esos casos el fin declarado es la protección frente a la violencia de género y la medida obliga a impartirla en todas las etapas.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-378": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la educación pública y la igualdad de oportunidades, aumentando la financiación educativa",
+          "medida_sintesis": "Reforzar la educación pública aumentando la financiación educativa.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un aumento de financiación, sin derecho ni estándar. DEC 0: nombra un instrumento (financiación educativa).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "ampliando becas y ayudas.",
+          "medida_sintesis": "Ampliar las becas y ayudas al estudio.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: ampliación sin derecho ni cuantía. DES 0: la beca es una ayuda monetaria, no una provisión pública. Repite psoe-158, que desarrolla la ampliación del sistema de becas y la actualización de sus umbrales de renta.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-158"
+        }
+      ]
+    },
+    "psoe-417": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aprobar un Plan Estatal contra el acoso escolar y en el deporte, con formación, protocolos de actuación y medidas de protección.",
+          "medida_sintesis": "Aprobar un Plan Estatal contra el acoso escolar y en el deporte, con formación, protocolos y medidas de protección.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan, como vox-069-05. DEC 0: plan identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-487": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Fortalecer los intercambios educativos y culturales con América Latina, África y Asia mediante becas, programas de lectorados",
+          "medida_sintesis": "Fortalecer los intercambios educativos y culturales con América Latina, África y Asia con becas, lectorados y presencia cultural en la acción exterior europea.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: es promoción y cooperación cultural exterior, que no regula ni provee el acceso a un derecho social, como pp-137-01. DEC 0: nombra instrumentos (becas y programas de lectorados).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-200": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crear una Unidad de Apoyo a la Infancia Migrante, con equipos multidisciplinares especializados en protección infantil, atención psicosocial, mediación intercultural y asesoramiento jurídico",
+          "medida_sintesis": "Crear una Unidad estatal de Apoyo a la Infancia Migrante con equipos multidisciplinares para apoyar de inmediato a los territorios en situaciones de emergencia.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: crea un recurso de apoyo a otras administraciones sin reconocer un derecho ni fijar una obligación de atención. DEC 0: instrumento concreto (unidad con equipos especializados).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-388": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegar el Plan de Integración y Ciudadanía 2026-2030, con una dotación inicial de 500 millones de euros",
+          "medida_sintesis": "Desplegar el Plan de Integración y Ciudadanía 2026-2030, con 500 millones de euros, para la integración, la convivencia y la participación de la población migrante.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan con dotación, sin derecho ni estándar. DES 0: no nombra un servicio público ni una regulación, como cc-086-01. DEC 0: plan y dotación identificados.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-389": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ampliar las vías legales y seguras de protección internacional",
+          "medida_sintesis": "Ampliar las vías legales y seguras de protección internacional, con reasentamiento y visados humanitarios.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: amplía vías de acceso sin reconocer un derecho nuevo ni fijar cupos, plazos u obligaciones. DEC 0: nombra instrumentos (reasentamiento y visados humanitarios). DES 1: procedimientos públicos de protección internacional, como pp-038-01.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "reforzar el sistema público de acogida y asilo",
+          "medida_sintesis": "Reforzar el sistema público de acogida y asilo con financiación estable y atención especializada en salud mental, educación, traducción e integración social.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: refuerzo con financiación, sin derecho ni estándar exigible. DEC 0: nombra financiación estable y servicios concretos.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-390": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover la integración participación social, cívica y política de las personas inmigrantes, apoyando el asociacionismo",
+          "medida_sintesis": "Promover la participación social, cívica y política de la población inmigrante apoyando el asociacionismo y los espacios de participación ciudadana.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: promueve la participación cívica y política, que no regula ni provee el acceso a un derecho social del apartado 2.2. DEC 1: «promover» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Mezcla integración, que en cc-086-01 se trató como acceso (UNI 1, NDI 1), con participación cívica y política, que no figura en 2.2. Propuesta: 0 en las cuatro dimensiones, porque los instrumentos son el asociacionismo y los espacios de participación ciudadana.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-391": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar un sistema de acogida digno, robusto y una protección internacional efectiva",
+          "medida_sintesis": "Garantizar un sistema de acogida digno y una protección internacional efectiva.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «garantizar» sin norma, estándar ni plazo. DEC 1: sin instrumento concreto. Repite psoe-389, que concreta el refuerzo del sistema público de acogida y asilo.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-389"
+        },
+        {
+          "fragmento": "reforzando la protección especialmente de los niños, niñas y adolescentes que lleguen solos, situando siempre el interés superior del menor",
+          "medida_sintesis": "Reforzar la protección de la infancia y la adolescencia migrante que llega sin referentes familiares, con el interés superior de la persona menor como criterio.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: refuerzo sin norma, estándar ni plazo. DEC 1: sin instrumento concreto. DES 1: actúa dentro del sistema público de acogida y protección que nombra la misma frase.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-479": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Defender una política migratoria europea ordenada, basada en la solidaridad, la responsabilidad, las necesidades del mercado de trabajo europeo",
+          "medida_sintesis": "Defender una política migratoria europea ordenada que combine la lucha contra las mafias con la gestión del asilo, las fronteras y las vías legales de migración.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: posición sobre la política migratoria europea en su conjunto, que no regula ni provee el acceso a un derecho social, como pp-038-02. DEC 1: «defender» sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-488": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Defender y proteger los derechos de la ciudadanía española en el exterior, garantizando el derecho a votar y ser elegida",
+          "medida_sintesis": "Proteger los derechos de la ciudadanía española en el exterior, en especial el derecho de sufragio activo y pasivo.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: trata derechos de participación política, que no son derechos sociales del apartado 2.2. DEC 1: «defender» y «garantizar» sin norma ni instrumento.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-490": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Fortalecer el Consejo General de la Ciudadanía Española en el Exterior.",
+          "medida_sintesis": "Fortalecer el Consejo General de la Ciudadanía Española en el Exterior.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de organización institucional que no regula ni provee el acceso a un derecho social. DEC 1: «fortalecer» sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-491": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reformar y reforzar la red consular, con más recursos humanos y financieros y un punto único de información y atención",
+          "medida_sintesis": "Reformar y reforzar la red consular con más recursos y un punto único de información y atención.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de organización de la Administración exterior que no regula ni provee el acceso a un derecho social. DEC 0: nombra recursos y un punto único de atención.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "impulsar un nuevo Plan Integral de Retorno, coordinado con las comunidades autónomas, para acompañar los proyectos de vida y laborales",
+          "medida_sintesis": "Impulsar un Plan Integral de Retorno, coordinado con las comunidades autónomas, para acompañar a quien decida volver a España.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan. DES 0: no indica cómo se provee el acompañamiento ni nombra un servicio público, como vox-023-01. DEC 0: plan identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-087": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Blindar por ley el SMI por encima del 60% del salario medio y actualizarlo periódicamente",
+          "medida_sintesis": "Fijar por ley el salario mínimo por encima del 60 % del salario medio, con actualización periódica y sin que la absorción de complementos neutralice las subidas.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: estándar salarial mínimo fijado por ley para todas las personas trabajadoras, que regula con fuerza obligatoria las condiciones del mercado de trabajo.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-089": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crear pasarelas que automaticen y simplifiquen la concesión del IMV, utilizando datos de renta y patrimonio más recientes.",
+          "medida_sintesis": "Automatizar y simplificar la concesión del ingreso mínimo vital con los datos de renta y patrimonio más recientes.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: el ingreso mínimo vital exige umbral de renta y patrimonio. EXI 0: herramienta de gestión que no reconoce un derecho nuevo. DEC 0: instrumento concreto (pasarelas de datos).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Se adecuarán las cuantías y umbrales al coste de la crianza para hogares perceptores con niñas y niños.",
+          "medida_sintesis": "Adecuar las cuantías y umbrales del ingreso mínimo vital al coste de la crianza en los hogares perceptores con menores a cargo.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: el ingreso mínimo vital exige umbral de renta. EXI 1: modifica por norma la cuantía de una prestación garantizada con un criterio definido (el coste de la crianza).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-090": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover que las empresas compartan sus beneficios y ganancias de productividad con sus plantillas",
+          "medida_sintesis": "Promover que las empresas compartan beneficios y ganancias de productividad con sus plantillas, con ayudas condicionadas y un sello para las pymes.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: se formula como promoción e incentivo, sin derecho reconocido. DES 0: incentivo a las empresas sin regulación obligatoria de las condiciones salariales, como cc-036-01. DEC 0: nombra ayudas condicionadas y un sello.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-091": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar que los beneficios del crecimiento económico lleguen a las personas trabajadoras, reforzando el diálogo social, la negociación colectiva y los acuerdos interconfederales (AENC).",
+          "medida_sintesis": "Impulsar un Pacto de Estado para mejorar los salarios reforzando el diálogo social, la negociación colectiva y los acuerdos interconfederales.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: pacto y refuerzo del diálogo social sin norma, estándar salarial ni plazo. DES 0: no regula con fuerza obligatoria las condiciones salariales. DEC 1: sin instrumento concreto, como el Pacto de Toledo de pp-108-01.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-092": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Creación de un Observatorio de Salarios y Productividad y elevación a rango legal del Observatorio de Márgenes Empresariales.",
+          "medida_sintesis": "Crear un Observatorio de Salarios y Productividad y dar rango legal al Observatorio de Márgenes Empresariales.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: herramientas de información y transparencia que no regulan ni proveen el acceso a un derecho social, como pp-174-02. DEC 0: nombra dos observatorios.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-093": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Integrar el bono social eléctrico, el térmico, las bonificaciones de transporte y las tarifas sociales de telecomunicaciones y agua",
+          "medida_sintesis": "Integrar los bonos sociales eléctrico y térmico, las bonificaciones de transporte y las tarifas sociales de telecomunicaciones y agua en un único derecho reconocido de oficio.",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 1,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: el bono social se dirige a hogares que cumplen umbrales de renta, que se comprueban con los datos fiscales y de Seguridad Social. DES 0: es una bonificación a la demanda, no un precio regulado para todas las personas, como pp-229-03. EXI 1: se configura como un derecho reconocido de oficio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El texto no nombra umbrales de renta y el bono social eléctrico es un descuento sobre una tarifa regulada. Propuesta: UNI 0, porque los bonos y tarifas sociales que integra se conceden por vulnerabilidad con datos fiscales, y DES 0, como la Tarifa Social Única de pp-229-03; área VIV por los suministros del hogar.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-098": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Seguir desplegando las medidas de refuerzo del sistema público de pensiones y de garantía de poder adquisitivo de las pensiones actuales y futuras",
+          "medida_sintesis": "Seguir aplicando las medidas de refuerzo del sistema público de pensiones y de garantía de su poder adquisitivo.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la mayor parte de las pensiones son contributivas y exigen cotización previa. Repite psoe-100, que blinda la revalorización conforme al IPC.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Comparte objeto con psoe-100 (garantía del poder adquisitivo de las pensiones) con otro instrumento: seguir aplicando las reformas vigentes frente a la reforma constitucional. Propuesta: «repite» = psoe-100, donde la garantía está más desarrollada; si el equipo los considera compromisos distintos, contarla con UNI 0, EXI 1, DES 1 y NDI 1.",
+          "repite": "psoe-100"
+        },
+        {
+          "fragmento": "culminando el proceso de convergencia de las cuantías de las pensiones mínimas con estándares de ingresos del conjunto de la sociedad.",
+          "medida_sintesis": "Culminar la convergencia de las pensiones mínimas con los estándares de ingresos del conjunto de la sociedad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: los complementos a mínimos y las pensiones no contributivas exigen umbral de renta, y las contributivas, cotización previa. EXI 1: fija un estándar de cuantía.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Acordar en el Pacto de Toledo y en el diálogo social nuevas fuentes de financiación",
+          "medida_sintesis": "Acordar en el Pacto de Toledo y el diálogo social nuevas fuentes de financiación de la Seguridad Social ligadas a la automatización.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de financiación de la Seguridad Social que no regula ni provee el acceso a un derecho social. DEC 1: no concreta las fuentes de financiación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Acelerar el despliegue de la cuota de solidaridad para completar su aplicación durante la próxima legislatura",
+          "medida_sintesis": "Acelerar el despliegue de la cuota de solidaridad para completarla en la próxima legislatura.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de ingresos de la Seguridad Social que no regula ni provee el acceso a un derecho social. DEC 0: instrumento concreto con plazo (cuota de solidaridad).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-099": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Culminar la separación de fuentes de financiación, asumiendo el Estado la financiación de prestaciones y complementos de naturaleza no contributiva",
+          "medida_sintesis": "Culminar la separación de fuentes, con cargo del Estado a las prestaciones y complementos no contributivos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: reordena la financiación de la Seguridad Social sin cambiar las condiciones de acceso a las prestaciones. DEC 0: instrumento concreto (separación de fuentes).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "revisando los mecanismos de financiación vinculados al desempleo para adecuarlos a la nueva realidad del mercado laboral.",
+          "medida_sintesis": "Revisar los mecanismos de financiación de la protección por desempleo para adecuarlos al mercado laboral actual.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de financiación que no regula ni provee el acceso a un derecho social. DEC 1: «revisar» sin contenido concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-100": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Blindar constitucionalmente el sistema público de pensiones y su revalorización conforme al IPC",
+          "medida_sintesis": "Blindar en la Constitución el sistema público de pensiones y su revalorización conforme al IPC.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la mayor parte de las pensiones son contributivas y exigen cotización previa, como pp-108-02.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-101": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar el complemento por hijos para compensar los perjuicios sufridos en la carrera profesional tras su nacimiento o adopción",
+          "medida_sintesis": "Reforzar el complemento de pensiones por descendencia para compensar los perjuicios en la carrera profesional tras el nacimiento o la adopción.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: complemento de pensiones contributivas, que exigen cotización previa. EXI 0: «reforzar» sin cuantía ni regla concreta. DEC 0: nombra la prestación que se refuerza.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "reconociendo además un año adicional de cotización por cada hijo o hija",
+          "medida_sintesis": "Reconocer un año adicional cotizado por cada descendiente.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: cotización reconocida a cargo del sistema público para todo el colectivo con descendencia, sin prueba de renta, como pp-114-03.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La cotización adicional solo tiene efecto en una pensión contributiva, lo que podría leerse como UNI 0, y la medida admite también las áreas CUI e IGU. Propuesta: UNI 1 y OTR, como la cotización a cargo del Estado de pp-114-03 y vox-094-05, porque el reconocimiento no exige renta ni cotización previa propia.",
+          "repite": ""
+        },
+        {
+          "fragmento": "promoviendo la actualización de la normativa europea para avanzar en la igualdad efectiva en la protección social previa a la jubilación.",
+          "medida_sintesis": "Promover la actualización de la normativa europea para la igualdad efectiva de género en la protección social previa a la jubilación.",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: pide a la Unión Europea que actúe, sin norma propia. DES 0: no nombra una prestación ni un servicio público. DEC 1: «promover» sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-102": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crear una situación especial de incapacidad temporal para personas trabajadoras con procesos oncológicos, con una prestación del 75 % de la base reguladora",
+          "medida_sintesis": "Crear una incapacidad temporal especial para procesos oncológicos con una prestación del 75 % de la base reguladora desde el primer día, compatible con las actividades no afectadas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: prestación contributiva que exige afiliación y cotización previa, como pp-175-01.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "facilitar, siempre bajo criterio médico, su reincorporación progresiva a tiempo parcial con cobertura de la jornada no trabajada.",
+          "medida_sintesis": "Permitir la reincorporación progresiva a tiempo parcial tras un proceso oncológico, con cobertura de la jornada no trabajada.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la cobertura se apoya en la incapacidad temporal, prestación contributiva que exige cotización previa. EXI 1: fija una cobertura concreta de la jornada no trabajada.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-103": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Evaluar la mejora de los coeficientes reductores de edad por penosidad",
+          "medida_sintesis": "Evaluar la mejora de los coeficientes reductores de la edad de jubilación por penosidad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: la jubilación es una prestación contributiva que exige cotización previa. EXI 0: «evaluar» equivale a estudiar, sin norma ni plazo. DEC 1: solo se compromete a evaluar.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "la reducción de las penalizaciones de las pensiones por jubilación anticipada involuntaria, especialmente para trabajadores con largas carreras de cotización.",
+          "medida_sintesis": "Evaluar la reducción de las penalizaciones por jubilación anticipada involuntaria, sobre todo con largas carreras de cotización.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: la jubilación anticipada es una prestación contributiva que exige cotización previa. EXI 0: «evaluar» equivale a estudiar, sin norma ni plazo. DEC 1: solo se compromete a evaluar.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-104": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "los coeficientes reductores de la edad de jubilación por penosidad se apliquen de forma singularizada a través de una cuenta individual de penosidad",
+          "medida_sintesis": "Aplicar los coeficientes reductores de la edad de jubilación por penosidad de forma individual mediante una cuenta individual de penosidad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la jubilación es una prestación contributiva que exige cotización previa. EXI 0: «impulsar los cambios necesarios» no fija la norma. DEC 0: nombra un instrumento concreto (cuenta individual de penosidad).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-106": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Elevar del 20% al 30 % la pensión de orfandad, sin el límite del 100 % en supuestos de vulnerabilidad",
+          "medida_sintesis": "Elevar la pensión de orfandad del 20 % al 30 %, sin el límite del 100 % en supuestos de vulnerabilidad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: pensión contributiva que depende de la cotización de la persona causante.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "integrar la pensión en favor de familiares en el marco del IMV",
+          "medida_sintesis": "Integrar la pensión en favor de familiares en el ingreso mínimo vital.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: el ingreso mínimo vital exige umbral de renta. EXI 0: reordena el encaje de una prestación sin fijar su contenido ni su cuantía. DEC 0: instrumento concreto (integración en el IMV).",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "No dice si la integración amplía la protección o somete la pensión a la prueba de renta del ingreso mínimo vital; en el segundo caso podría ser regresiva. Propuesta: REG 0, porque el texto no dice que recorte ni excluya, y UNI 0 por el umbral de renta del ingreso mínimo vital.",
+          "repite": ""
+        },
+        {
+          "fragmento": "adaptar la incapacidad permanente al entorno laboral actual.",
+          "medida_sintesis": "Adaptar la regulación de la incapacidad permanente al entorno laboral actual.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: la incapacidad permanente es mayoritariamente contributiva y exige cotización previa. EXI 0: no concreta el contenido de la adaptación. DEC 1: sin norma, estándar ni cuantía.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-107": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reformar su naturaleza jurídica para que pasen a ser entidades gestoras del sistema, reforzando el control público",
+          "medida_sintesis": "Convertir las mutuas colaboradoras en entidades gestoras públicas de la Seguridad Social, con más control público y transparencia.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: las prestaciones que gestionan las mutuas (incapacidad temporal y contingencias profesionales) son contributivas. EXI 0: reforma la gestión sin reconocer un derecho ni fijar un estándar. DEC 0: reforma jurídica concreta.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Frontera entre organización institucional (0 en las cuatro dimensiones, como pp-018-02) y provisión pública de prestaciones (como pp-175-02). Propuesta: DES 1, porque traslada a gestión pública directa prestaciones que hoy gestionan entidades colaboradoras privadas.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-108": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Completar la reducción de la jornada a 37,5 horas",
+          "medida_sintesis": "Completar la reducción legal de la jornada a 37,5 horas semanales sin pérdida de salario, con calendario y periodos transitorios para las pymes.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: jornada máxima fijada por norma para todas las personas trabajadoras, sin pérdida salarial.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "incentivar los avances en la negociación colectiva hacia las 35 horas",
+          "medida_sintesis": "Incentivar que la negociación colectiva avance hacia la jornada de 35 horas.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un incentivo, sin norma ni estándar. DES 0: incentivo sin regulación obligatoria de la jornada. DEC 0: nombra un incentivo, como vox-099-03.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-109": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Implantar un registro horario digital fiable, que recoja las jornadas laborales reales, haciendo efectivo el derecho al descanso y la desconexión digital",
+          "medida_sintesis": "Implantar un registro horario digital fiable de la jornada real y reforzar la Inspección de Trabajo para erradicar las horas extra ilegales y no remuneradas.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: obligación de registrar la jornada real para todas las personas trabajadoras, con control de la Inspección de Trabajo, que hace efectivo el derecho al descanso.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El registro horario es una herramienta de control (vox-060 trató una herramienta de gestión como EXI 0), pero aquí es una obligación para toda la parte empleadora. Propuesta: EXI 1, porque crea una obligación con fuerza obligatoria que garantiza el derecho al descanso; el refuerzo de la Inspección es un instrumento del mismo objeto y no cuenta aparte.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-110": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reformar el despido improcedente para garantizar una reparación efectiva, proporcionada y disuasoria, teniendo en cuenta las circunstancias y los daños causados",
+          "medida_sintesis": "Reformar la indemnización por despido improcedente para que la reparación sea efectiva, proporcionada y disuasoria, conforme al artículo 24.b de la Carta Social Europea.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: reforma legal que reconoce a todas las personas trabajadoras una reparación adecuada ante el despido improcedente, con el estándar del artículo 24.b de la Carta Social Europea.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "No fija la cuantía de la reparación y remite el estándar a la Carta Social Europea y al Comité Europeo de Derechos Sociales. Propuesta: EXI 1, porque es una norma que reconoce el derecho a una reparación adecuada con un estándar identificado.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-111": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Recuperar los salarios de tramitación en los supuestos legalmente establecidos",
+          "medida_sintesis": "Recuperar los salarios de tramitación en los supuestos que establezca la ley.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: derecho económico concreto, fijado por ley y a cargo de la parte empleadora, para toda persona despedida de forma improcedente en esos supuestos.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "reforzar la protección frente a despidos discriminatorios o que vulneren derechos fundamentales.",
+          "medida_sintesis": "Reforzar la protección frente a los despidos discriminatorios o que vulneren derechos fundamentales.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: refuerzo sin norma ni estándar concretos. DES 0: no concreta qué condiciones regula, como pp-221-05. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-112": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Hacer más accesible y rápida la justicia laboral, mejorando la información y el acompañamiento jurídico a las personas trabajadoras",
+          "medida_sintesis": "Hacer más accesible y rápida la justicia laboral con más información y acompañamiento jurídico, reclamaciones más ágiles y una jurisdicción social reforzada.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: mejoras sin plazo máximo, estándar ni derecho nuevo. DEC 1: «mejorar», «agilizar» y «reforzar» sin cuantía ni norma. DES 1: actúa sobre servicios públicos (jurisdicción social y acompañamiento jurídico).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La justicia no es por sí misma un derecho social (2.2), pero aquí protege el acceso a los derechos laborales. Propuesta: tratarla como acceso, como los medios judiciales de violencia de género de pp-028-05 (UNI 1, EXI 0, DES 1, NDI 1 y DEC 1).",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-113": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reconoceremos su derecho a la protección por desempleo, tanto en las prácticas curriculares como en las extracurriculares.",
+          "medida_sintesis": "Reconocer el derecho a la protección por desempleo de las personas en prácticas curriculares y extracurriculares.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la protección por desempleo es contributiva y exige cotización previa, como pp-172-02.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-114": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar una protección efectiva de la salud mental en el trabajo, evaluando obligatoriamente el estrés crónico",
+          "medida_sintesis": "Obligar a evaluar los riesgos psicosociales en el trabajo y a aplicar medidas correctoras con plazos definidos para proteger la salud mental.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: obligación de evaluar los riesgos psicosociales y de corregirlos con plazos definidos, para todas las personas trabajadoras.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: condiciones de trabajo (EMP) y salud mental (SME). Propuesta: EMP, porque el instrumento es una obligación de prevención de riesgos laborales para la parte empleadora.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-115": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Actualizar la Ley de Prevención de Riesgos Laborales de 1995 para adaptarla a las nuevas formas de empleo",
+          "medida_sintesis": "Actualizar la Ley de Prevención de Riesgos Laborales para adaptarla a las nuevas formas de empleo.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: no concreta el contenido de la reforma ni nuevas obligaciones. DEC 0: norma identificada. DES 1: regula con fuerza obligatoria las condiciones de trabajo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "poner en marcha un Plan de choque contra los accidentes laborales priorizando los sectores con más accidentes graves y mortales",
+          "medida_sintesis": "Poner en marcha un Plan de choque contra los accidentes laborales centrado en los sectores con más siniestralidad grave y mortal.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan. DES 0: no nombra un servicio público ni una regulación obligatoria. DEC 0: plan identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "reforzar la Inspección de Trabajo para detectar incumplimientos y garantizar lugares de trabajo seguros",
+          "medida_sintesis": "Reforzar la Inspección de Trabajo para detectar incumplimientos y garantizar lugares de trabajo seguros.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: refuerzo de medios sin cuantía, estándar ni plazo. DEC 1: sin instrumento concreto, como pp-028-02. DES 1: servicio público de inspección.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "proteger a quienes trabajan frente al calor extremo y otros fenómenos climáticos, con protocolos obligatorios y garantistas",
+          "medida_sintesis": "Proteger a las personas trabajadoras frente al calor extremo y otros fenómenos climáticos con protocolos obligatorios.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: protocolos obligatorios de protección para todas las personas trabajadoras expuestas, que regulan las condiciones de trabajo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "reforzar la protección a los colectivos especialmente vulnerables, con medidas de prevención adaptadas a sus riesgos laborales.",
+          "medida_sintesis": "Reforzar la prevención de riesgos laborales de los colectivos especialmente vulnerables con medidas adaptadas.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: no concreta norma ni estándar. DES 0: no concreta qué condiciones regula, como pp-221-05. DEC 1: sin instrumento concreto. UNI 1: la vulnerabilidad se refiere al riesgo laboral, no a la renta, y la protección se suma a la general.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-116": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desarrollar reglamentariamente la pasarela al RETA prevista en la Ley 2/2026, garantizando el reconocimiento de los recursos acumulados en las mutualidades alternativas",
+          "medida_sintesis": "Desarrollar por reglamento la pasarela al régimen especial del trabajo autónomo prevista en la Ley 2 de 2026, reconociendo lo acumulado en las mutualidades alternativas para acceder a pensiones suficientes.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: da acceso a pensiones contributivas, que dependen de la cotización y de lo aportado.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "poner fin progresivamente a la alternatividad de las mutualidades, reservándolas a la previsión social complementaria.",
+          "medida_sintesis": "Poner fin progresivamente a las mutualidades como alternativa al régimen público del trabajo autónomo y reservarlas a la previsión complementaria.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: integra al colectivo en un sistema contributivo que exige cotización. EXI 1: obligación de pertenencia al sistema público. DES 1: sustituye la previsión privada alternativa por el sistema público.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-117": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Actualizar el Estatuto del Trabajo Autónomo para adaptarlo a los cambios tecnológicos y las nuevas profesiones",
+          "medida_sintesis": "Actualizar el Estatuto del Trabajo Autónomo a los cambios tecnológicos y las nuevas profesiones.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: no concreta el contenido de la reforma. DEC 0: norma identificada. DES 1: regula con fuerza obligatoria las condiciones del trabajo autónomo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "seguir mejorando la protección social de las personas autónomas, atendiendo también a la conciliación de los cuidados, avanzando en la cotización por ingresos reales",
+          "medida_sintesis": "Mejorar la protección social de las personas autónomas, también para la conciliación, avanzando en la cotización por ingresos reales.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la protección social de las personas autónomas es contributiva y exige cotización previa. EXI 0: «seguir mejorando» sin cuantía ni derecho concreto. DEC 0: nombra un instrumento (cotización por ingresos reales).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "simplificar el acceso a la prestación por cese de actividad",
+          "medida_sintesis": "Simplificar el acceso a la prestación por cese de actividad de las personas autónomas.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: prestación contributiva que exige cotización previa. EXI 0: simplificación sin norma ni plazo. DEC 1: sin instrumento concreto, como vox-095-07.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "adaptar la prevención de riesgos laborales al trabajo autónomo y a sus necesidades",
+          "medida_sintesis": "Adaptar la prevención de riesgos laborales al trabajo autónomo.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: no concreta norma ni estándar. DES 0: no concreta qué condiciones regula. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "garantizar la transición justa al RETA para profesionales de mutualidades alternativas.",
+          "medida_sintesis": "Garantizar la transición al régimen especial del trabajo autónomo de quienes ejercen con mutualidades alternativas.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: acceso a un sistema contributivo. EXI 0: «garantizar» sin instrumento. DEC 1: sin instrumento concreto. Repite psoe-116, que desarrolla la pasarela al RETA.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-116"
+        }
+      ]
+    },
+    "psoe-118": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Poner en marcha un Plan para consolidar la inserción laboral juvenil",
+          "medida_sintesis": "Poner en marcha un Plan para consolidar la inserción laboral de la juventud.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan. DES 0: no dice cómo se provee el acceso al empleo. DEC 0: plan identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "crear un Plan de apoyo al emprendimiento juvenil, mediante un programa de asesoramiento gratuito, acompañamiento administrativo, formación en gestión",
+          "medida_sintesis": "Crear un Plan de apoyo al emprendimiento juvenil con asesoramiento gratuito, acompañamiento administrativo, formación en gestión y financiación para proyectos viables.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan. DEC 0: plan y programa identificados. DES 1: presta servicios gratuitos en especie (asesoramiento, acompañamiento y formación).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Combina servicios gratuitos para toda la juventud emprendedora con financiación solo para proyectos viables, un criterio cercano al mérito. Propuesta: UNI 1 y DES 1, porque la viabilidad solo condiciona la financiación y los servicios principales son gratuitos y en especie; si el equipo pesa más la financiación, UNI 0 y DES 0, como las ayudas de cc-032-01.",
+          "repite": ""
+        },
+        {
+          "fragmento": "aprobar un Estatuto del Becario (Estatuto de las Prácticas no Laborales en las Empresas) que proteja los derechos de los becarios",
+          "medida_sintesis": "Aprobar un Estatuto de las Prácticas no Laborales que proteja los derechos de las personas en prácticas y garantice que sean remuneradas.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: norma que obliga a remunerar las prácticas y regula sus condiciones para todas las personas en prácticas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "establecer un Plan de retorno del talento joven",
+          "medida_sintesis": "Establecer un Plan de retorno del talento joven.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: se dirige al «talento», un criterio de mérito, como vox-005-02. EXI 0: es un plan. DES 0: no dice cómo se provee el apoyo al retorno. DEC 0: plan identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "poner en marcha el Plan Nacional de Relevo Generacional, que pondrá en contacto negocios cuyos titulares estén próximos a jubilarse con posibles sucesores.",
+          "medida_sintesis": "Poner en marcha el Plan Nacional de Relevo Generacional para conectar negocios próximos a la jubilación de su titularidad con posibles relevos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica de continuidad empresarial que no regula ni provee el acceso a un derecho social, como pp-203-04. DEC 0: plan identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-119": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Incentivar la contratación de personas mayores de 45 años con el Plan Nuevo Rumbo, a través de incentivos laborales para las empresas",
+          "medida_sintesis": "Incentivar la contratación de personas mayores de 45 años con el Plan Nuevo Rumbo mediante incentivos a las empresas.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: incentivo sin derecho reconocido. DES 0: incentivo a la oferta privada, como pp-161-01. DEC 0: plan e incentivos identificados.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "formar en sectores estratégicos a desempleados de larga duración",
+          "medida_sintesis": "Formar en sectores estratégicos a las personas en desempleo de larga duración.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: formación dentro de un plan, sin derecho ni estándar. DES 0: no indica cómo se provee la formación. DEC 0: se inscribe en un plan identificado (Plan Nuevo Rumbo).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Este Plan contaría con un itinerario específico de Mujer 45+, que acompañe a las mujeres en su entrada al mundo laboral",
+          "medida_sintesis": "Incluir en el Plan Nuevo Rumbo un itinerario Mujer 45+ que acompañe a las mujeres en su inserción laboral para reducir el desempleo femenino de larga duración.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: itinerario de acompañamiento sin derecho ni estándar. DES 0: no indica cómo se provee el acompañamiento. DEC 0: instrumento identificado (itinerario específico). NDI 1: acción positiva para las mujeres.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-120": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la democracia en la empresa y la participación de las personas trabajadoras en la gestión, desarrollando el artículo 129.2 de la Constitución Española",
+          "medida_sintesis": "Desarrollar el artículo 129.2 de la Constitución para promover la participación de las personas trabajadoras en la gestión de las empresas y los modelos cooperativos.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: el desarrollo legal se orienta a promover fórmulas de participación, sin derecho ni obligación concretos. DES 0: no regula con fuerza obligatoria las condiciones de trabajo. DEC 0: nombra el desarrollo de un precepto constitucional.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La participación en la gestión es un derecho de la Carta Social Europea, pero la medida también es política económica (cooperativas y relevo empresarial). Propuesta: EMP con UNI 1 y NDI 1, por el derecho de participación de las personas trabajadoras; si se lee como política económica, OTR con 0 en las cuatro dimensiones.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-121": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aprobar una Ley de Negociación Colectiva que refuerce el papel de los sindicatos y las organizaciones empresariales, modernice los mecanismos de negociación",
+          "medida_sintesis": "Aprobar una Ley de Negociación Colectiva que refuerce a sindicatos y organizaciones empresariales y modernice la negociación y los convenios.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: la ley no concreta derechos, estándares ni obligaciones. DEC 0: norma identificada. DES 1: regula con fuerza obligatoria la negociación de las condiciones de trabajo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-122": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mejorar las PAE para que sean más eficaces con el objetivo de alcanzar el pleno empleo.",
+          "medida_sintesis": "Mejorar la eficacia de las políticas activas de empleo y evaluar periódicamente sus resultados.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: mejora sin derecho, estándar ni plazo. DES 0: no dice cómo se provee el acceso al empleo. DEC 1: «mejorar» y «evaluar» sin norma, prestación ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-123": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reformar la regulación del contrato a tiempo parcial para exigir que se justifique de forma precisa la causa",
+          "medida_sintesis": "Reformar el contrato a tiempo parcial: exigir una causa justificada y considerar a jornada completa el que supere el 80 % de la jornada ordinaria.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: norma con reglas concretas (causa justificada y umbral del 80 %) que regula las condiciones de contratación para todas las personas trabajadoras.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-124": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar el cumplimiento efectivo de la cuota de reserva del 2% de empleo para personas con discapacidad en las empresas y sector público",
+          "medida_sintesis": "Garantizar el cumplimiento de la cuota de reserva del 2 % de empleo para personas con discapacidad, con más inspección y control.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: hace cumplir una ratio obligatoria y cuantificada de empleo para todo el colectivo, en empresas y sector público, y corrige una discriminación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Refuerza el cumplimiento de una cuota ya vigente, sin norma nueva. Propuesta: EXI 1, porque la medida se apoya en una ratio obligatoria cuantificada (2 %) y en su control; si el equipo exige un instrumento nuevo, EXI 0.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-192": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Prestación estatal por crianza para todos los hogares con menores de edad, con un diseño fiscal redistributivo",
+          "medida_sintesis": "Crear una prestación estatal por crianza para todos los hogares con menores de edad, progresiva y con protección adicional para los hogares de renta baja.",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: nuevo derecho a una prestación pública de garantía de ingresos para todos los hogares con menores; la protección adicional por renta baja es una acción positiva que se suma al acceso universal.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El «diseño fiscal redistributivo» podría reducir la prestación con la renta, y la crianza admite dos áreas (CUI u OTR). Propuesta: UNI 1, porque el titular la reconoce a todos los hogares con menores, y CUI, porque 2.3 excluye la crianza de OTR y las ayudas familiares de crianza se codificaron en CUI (pp-158-02).",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-193": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Asignar al nacer a cada niño o niña una cuenta pública de 1.000 euros invertida en fondos públicos",
+          "medida_sintesis": "Asignar a cada nacimiento una cuenta pública de 1.000 euros, con aportaciones anuales para los hogares de menor renta, disponible a los 18 años para estudios o proyectos propios.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 1,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "DES 0: es una transferencia finalista para financiar estudios o proyectos, ligada a comprar bienes o servicios. EXI 1: asignación concreta a cada nacimiento. UNI 1: las aportaciones para los hogares de menor renta se suman a la asignación universal.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Es una dotación de capital, no un servicio ni una prestación de garantía de ingresos, y admite dos áreas (OTR y EDU). Propuesta: OTR con DES 0, por ser una transferencia finalista para adquirir estudios o proyectos en el mercado; si el equipo la asimila a una prestación pública de garantía de ingresos, DES 1.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-195": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegar un programa de apoyo al acogimiento familiar frente al residencial para niñas, niños y adolescentes tutelados",
+          "medida_sintesis": "Desplegar un programa de apoyo al acogimiento familiar frente al residencial para la infancia y la adolescencia tutelada, en coordinación con las comunidades autónomas.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un programa, sin derecho ni estándar. DEC 0: programa identificado. DES 1: actúa dentro del sistema público de protección de la infancia.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-196": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar el acceso a productos de primera necesidad y cuidados en los 1000 primeros días de crianza, desplegando un marco estatal de ayudas públicas",
+          "medida_sintesis": "Garantizar el acceso a productos básicos y cuidados en los primeros 1.000 días de crianza con un marco estatal de ayudas, acompañamiento a las familias y atención temprana.",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: marco de ayudas sin derecho, cuantía ni estándar. DES 0: el instrumento principal son ayudas para adquirir productos. DEC 0: nombra un marco estatal de ayudas públicas.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Combina ayudas monetarias (DES 0) con acompañamiento y atención temprana, que son servicios en especie (DES 1). Propuesta: una sola medida con DES 0, porque el instrumento que despliega es el marco de ayudas y el acompañamiento se presenta como prioridad dentro de él.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-201": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Establecer un itinerario de acompañamiento a jóvenes extutelados común en todas las CC.AA., para acompañarlos en su transición a la vida autónoma.",
+          "medida_sintesis": "Establecer un itinerario común de acompañamiento a la juventud extutelada en su transición a la vida autónoma.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: itinerario común sin derecho reconocido ni estándar exigible. DEC 0: instrumento identificado (itinerario común). DES 1: servicio de acompañamiento en especie del sistema público de protección.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-202": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aprobar la primera Ley de Servicios Sociales para blindar el cuarto pilar del Estado de bienestar, pactando con las CC.AA. una cartera común de servicios",
+          "medida_sintesis": "Aprobar una Ley estatal de Servicios Sociales con una cartera común de servicios y estándares de calidad y acceso pactados con las comunidades autónomas.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: ley con cartera común de servicios y estándares de acceso, con provisión pública y sin cláusulas de exclusión.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Los servicios sociales no tienen área propia (CUI u OTR) y la cartera se pacta con las comunidades autónomas. Propuesta: OTR, como el resto de la protección social que el libro no recoge (2.3), y EXI 1, porque la ley fija cartera y estándares de acceso.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-203": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar la equidad territorial en el acceso a los servicios sociales, implantando una evaluación de impacto territorial en las políticas estatales",
+          "medida_sintesis": "Garantizar la equidad territorial en el acceso a los servicios sociales con una evaluación de impacto territorial de las políticas estatales y prioridad a la accesibilidad rural.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: la evaluación de impacto es una herramienta de gestión, sin derecho ni estándar. DEC 0: instrumento identificado (evaluación de impacto territorial).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La evaluación de impacto territorial se aplica a todas las políticas estatales y la prioridad rural incluye transporte y conectividad. Propuesta: una medida de acceso a los servicios sociales (UNI 1, DES 1, NDI 1), porque ese es el objeto declarado; si se lee como evaluación general de políticas, 0 en las cuatro dimensiones, como pp-107-02.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-204": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegar el Sistema de Información Estatal de Servicios Sociales, garantizando datos comparables, transparencia y cooperación entre las AA.PP.",
+          "medida_sintesis": "Desplegar el Sistema de Información Estatal de Servicios Sociales con datos comparables y cooperación entre administraciones.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: herramienta de información y transparencia que no regula ni provee el acceso a un derecho social, como pp-028-04. DEC 0: sistema identificado.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-227": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar el cumplimiento de la cuota de reserva de empleo de personas con discapacidad en las empresas.",
+          "medida_sintesis": "Impulsar el cumplimiento de la cuota de reserva de empleo de personas con discapacidad.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «impulsar» sin instrumento de control. DEC 1: sin instrumento concreto. Repite psoe-124, que concreta la cuota del 2 % y el refuerzo de la inspección.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-124"
+        }
+      ]
+    },
+    "psoe-244": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Formar y recualificar a las personas trabajadoras para los empleos verdes del futuro, reforzando la FP Dual y los programas de capacitación permanente.",
+          "medida_sintesis": "Formar y recualificar a las personas trabajadoras para los empleos verdes reforzando la FP dual y la capacitación permanente.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: refuerzo de programas sin derecho ni estándar. DES 0: no indica provisión pública; la FP dual se presta en empresas, como pp-216-02. DEC 0: nombra instrumentos (FP dual y programas de capacitación).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    }
+  }
+}

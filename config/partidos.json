@@ -1,0 +1,93 @@
+{
+  "_leeme": [
+    "Candidaturas que compara la herramienta. Lo leen el pipeline (Python) y la web (React).",
+    "Orden ALFABÉTICO por sigla: es el orden neutro en que aparecen en toda la herramienta.",
+    "color: color corporativo, tomado de los logos oficiales (14-11-2026). CC–1ºC mantiene el amarillo #FFC800, común a sus dos logos; UPC usa el teal de la «P» (#3D9E9A) para no confundirse con CC.",
+    "logo: archivo del logo oficial en web/public/logos/ (PNG, fondo transparente). CC–1ºC: CC y Primero Canarias juntos.",
+    "programa: null mientras no se haya publicado. Al publicarse: url oficial, nombre de archivo local,",
+    "  memoria_economica: si el documento cuantifica el coste total de sus propuestas (se comprueba leyéndolo).",
+    "  huella sha256 (la rellena y comprueba «python3 maestro.py descargar») y nº de páginas.",
+    "Cómo se numeran las medidas de cada PDF (para segmentarlo) está en pipeline/perfiles.py.",
+    "pdf_propio: true cuando el partido facilitó el documento directamente y no hay versión pública en línea (UPC). El PDF se versiona en datos/fuentes/ y se publica junto a los datos (data/), y la web enlaza esa copia."
+  ],
+  "partidos": [
+    {
+      "id": "cc",
+      "sigla": "CC–1ºC",
+      "nombre": "Coalición Canaria – Primero Canarias",
+      "color": "#FFC800",
+      "logo": "logo-cc.png",
+      "programa": {
+        "titulo": "Programa electoral 29N",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+        "archivo": "programa-cc-29n.pdf",
+        "sha256": "3c40c0a6e38d8dd80ae1061d94b614f4e3f1b6492ec8c801834fb497f337044e",
+        "paginas": 23,
+        "memoria_economica": false
+      }
+    },
+    {
+      "id": "pp",
+      "sigla": "PP",
+      "nombre": "Partido Popular",
+      "color": "#1E4B8F",
+      "logo": "logo-pp.png",
+      "programa": {
+        "titulo": "La reconstrucción nacional",
+        "url": "https://www.pp.es/wp-content/uploads/2026/11/LA-RECONSTRUCCION-NACIONAL.pdf",
+        "archivo": "programa-pp-29n.pdf",
+        "sha256": "cea8f2a052278e51ad682d19444eb0e9089997adbde8df76babf7f236bb5ffbe",
+        "paginas": 82,
+        "memoria_economica": false
+      }
+    },
+    {
+      "id": "psoe",
+      "sigla": "PSOE",
+      "nombre": "Partido Socialista Obrero Español",
+      "color": "#DA0200",
+      "logo": "logo-psoe.png",
+      "programa": {
+        "titulo": "La fuerza de seguir avanzando",
+        "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+        "archivo": "programa-psoe-29n.pdf",
+        "sha256": "e9c8341339538b550641b6ddb1c3fdfeef7fda6a8a1a4be9e8d6a44cbc229bf5",
+        "paginas": 114,
+        "memoria_economica": false
+      }
+    },
+    {
+      "id": "upc",
+      "sigla": "UPC",
+      "nombre": "Unidad del Pueblo Canario",
+      "color": "#3D9E9A",
+      "logo": "logo-upc.png",
+      "programa": {
+        "titulo": "Una sola papeleta. Todo un pueblo",
+        "tipo": "manifiesto",
+        "url": "",
+        "pdf_propio": true,
+        "origen": "Manifiesto electoral facilitado directamente por UPC, que lo comunica como su único documento programático para el 29N (16-11-2026). No hay versión pública en línea.",
+        "archivo": "programa-upc-29n.pdf",
+        "sha256": "502ce157ba499fb959e5ed735f593f903c2e5f17c79ee28bf2daad8ca18c941b",
+        "paginas": 6,
+        "memoria_economica": false
+      }
+    },
+    {
+      "id": "vox",
+      "sigla": "Vox",
+      "nombre": "Vox",
+      "color": "#5AC035",
+      "logo": "logo-vox.png",
+      "programa": {
+        "titulo": "Es sentido común",
+        "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+        "archivo": "programa-vox-29n.pdf",
+        "sha256": "065abf6720be2f7b19b8e911920c2ee2ce5c2059d0ae8bf09770bc790ed11b65",
+        "paginas": 66,
+        "memoria_economica": false
+      }
+    }
+  ]
+}

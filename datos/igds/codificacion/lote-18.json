@@ -1,0 +1,1510 @@
+{
+ "lote": "lote-18",
+ "unidades": {
+  "psoe-198": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar la participación real y efectiva de la infancia y la adolescencia en las decisiones públicas, mediante el impulso de los órganos de participación",
+     "medida_sintesis": "Garantizar la participación de la infancia y la adolescencia en las decisiones públicas mediante el impulso de los órganos de participación locales, autonómicos y estatales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación institucional. DEC 1: «impulso» de órganos existentes sin norma, plan ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-229": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos el nuevo sistema de financiación autonómica propuesto por el Gobierno de España y aprobado en el Consejo de Política Fiscal y Financiera",
+     "medida_sintesis": "Impulsar el nuevo sistema de financiación autonómica, con 21.000 millones de euros adicionales para los servicios públicos que prestan las comunidades autónomas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es financiación general de las comunidades autónomas, sin destino a un servicio concreto con garantía de acceso. DEC 0: dotación cuantificada.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "La financiación autonómica nombra la sanidad, la educación y los servicios sociales como destino; pp-219-03 codificó con dimensiones la financiación dirigida a la sanidad, y cc-006-01 y pp-100-01 dejaron a 0 la financiación general. Propuesta: OTR con 0 en las cuatro, como cc-006-01 y pp-100-01, porque no se destina a un servicio concreto.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-230": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Actualizaremos y potenciaremos los mecanismos de cohesión y convergencia territorial como el Fondo de Compensación Interterritorial y los incentivos regionales",
+     "medida_sintesis": "Actualizar y potenciar el Fondo de Compensación Interterritorial y los incentivos regionales para los retos de cada territorio",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es cohesión territorial y política económica. DEC 0: nombra instrumentos concretos (Fondo de Compensación Interterritorial e incentivos regionales).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-231": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Avanzaremos en la asunción parcial por el Estado de 83.000 millones de euros de deuda autonómica",
+     "medida_sintesis": "Asumir por el Estado 83.000 millones de euros de deuda autonómica",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política financiera de las administraciones. DEC 0: dotación cuantificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-232": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizaremos una financiación local suficiente y justa, adaptada a las distintas realidades territoriales",
+     "medida_sintesis": "Garantizar una financiación local suficiente y justa, adaptada a cada realidad territorial y con apoyo especial a los municipios con más dificultades financieras",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es financiación de las entidades locales. DEC 1: «garantizaremos» sin norma, criterio de reparto ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-252": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear la Agencia Estatal de Protección Civil y Emergencias para mejorar la coordinación y la capacidad de respuesta ante riesgos y catástrofes",
+     "medida_sintesis": "Crear la Agencia Estatal de Protección Civil y Emergencias",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección civil. DEC 0: crea un organismo.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-254": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear un Cuerpo Facultativo de Técnicos de Protección Civil",
+     "medida_sintesis": "Crear un cuerpo facultativo de personal técnico de protección civil",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización de la protección civil. DEC 0: crea un cuerpo de personal.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "profesionalizar los servicios de gestión de emergencias mediante equipos permanentes, formación continua, empleo estable y condiciones laborales dignas",
+     "medida_sintesis": "Profesionalizar los servicios de gestión de emergencias con equipos permanentes, formación continua, empleo estable y condiciones laborales dignas",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Varios instrumentos para el mismo objeto: las condiciones de trabajo del personal de emergencias. EXI 0: mejora sin norma que reconozca un derecho ni estándar mínimo. DES 0: no es provisión pública ni regulación para todas las personas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "El objeto admite dos áreas: la organización de los servicios de emergencia (OTR) o las condiciones laborales de su personal (EMP). Propuesta: EMP, porque todos los instrumentos se refieren al personal (equipos permanentes, empleo estable, condiciones laborales dignas).",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-258": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar la interoperabilidad de los sistemas de emergencias y alerta temprana, incorporando tecnologías avanzadas e inteligencia artificial",
+     "medida_sintesis": "Impulsar la interoperabilidad de los sistemas de emergencias y alerta temprana con tecnologías avanzadas e inteligencia artificial",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección civil. DEC 1: «impulsar» sin norma, plan ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-301": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar una unidad europea permanente de prevención y respuesta ante catástrofes climáticas",
+     "medida_sintesis": "Impulsar una unidad europea permanente de prevención y respuesta ante catástrofes climáticas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección civil y cooperación europea. DEC 1: «impulsar» ante la Unión Europea, sin norma, plan ni dotación propios.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-371": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear un escaño ciudadano en el Congreso y en el Senado, sin voto, para que la sociedad civil pueda preguntar al Gobierno",
+     "medida_sintesis": "Crear un escaño ciudadano sin voto en el Congreso y en el Senado para que la sociedad civil pregunte al Gobierno y presente iniciativas y enmiendas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación política. DEC 0: reforma institucional concreta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "reducir las firmas necesarias para la iniciativa legislativa popular",
+     "medida_sintesis": "Reducir las firmas necesarias para la iniciativa legislativa popular",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación política. DEC 0: reforma normativa concreta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-372": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "rebajando la edad de voto a los 16 años",
+     "medida_sintesis": "Rebajar la edad de voto a los 16 años",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un derecho político. DEC 0: reforma electoral concreta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "fortaleciendo los consejos de juventud",
+     "medida_sintesis": "Fortalecer los consejos de juventud",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación institucional. DEC 1: sin instrumento; la medida se desarrolla en psoe-376.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-376"
+    },
+    {
+     "fragmento": "ampliando los mecanismos de participación ciudadana en las decisiones públicas",
+     "medida_sintesis": "Ampliar los mecanismos de participación ciudadana en las decisiones públicas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación política. DEC 1: sin norma ni instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-373": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Suprimir los aforamientos de los cargos públicos para los delitos ajenos al ejercicio de su cargo",
+     "medida_sintesis": "Suprimir los aforamientos de los cargos públicos para los delitos ajenos al ejercicio del cargo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización institucional. DEC 0: reforma normativa concreta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-374": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "fortaleciendo los consejos de juventud",
+     "medida_sintesis": "Fortalecer los consejos de juventud",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación institucional. DEC 1: sin instrumento; la medida se desarrolla en psoe-376.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-376"
+    },
+    {
+     "fragmento": "apoyando el asociacionismo juvenil",
+     "medida_sintesis": "Apoyar el asociacionismo juvenil",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación social. DEC 1: «apoyar» sin norma, programa ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "rebajando la edad de voto a los 16 años",
+     "medida_sintesis": "Rebajar la edad de voto a los 16 años",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un derecho político. DEC 0: reforma electoral concreta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-372"
+    }
+   ]
+  },
+  "psoe-375": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear la figura del Defensor de las Generaciones Futuras, vinculada al Consejo de la Juventud de España",
+     "medida_sintesis": "Crear una figura de defensa de las generaciones futuras, vinculada al Consejo de la Juventud de España, para que las decisiones públicas incorporen la justicia intergeneracional",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización institucional. DEC 0: crea una institución.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-376": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Regular por ley el Consejo de la Juventud de España y establecer un marco jurídico para los consejos de juventud autonómicos y locales",
+     "medida_sintesis": "Regular por ley el Consejo de la Juventud de España y establecer un marco jurídico para los consejos de juventud autonómicos y locales, con independencia y financiación estable",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación institucional. DEC 0: ley y marco jurídico con contenido concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "vinculando a este sistema de participación la figura del Defensor de las Generaciones Futuras",
+     "medida_sintesis": "Vincular la figura de defensa de las generaciones futuras al sistema de consejos de juventud",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización institucional. DEC 0: concreta la adscripción de una institución.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-375"
+    }
+   ]
+  },
+  "psoe-382": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reformar el Senado para convertirlo en una auténtica Cámara de representación territorial, haciendo coincidir sus circunscripciones con el ámbito autonómico",
+     "medida_sintesis": "Reformar el Senado como cámara de representación territorial con circunscripciones autonómicas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización institucional. DEC 0: reforma institucional concreta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-383": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "La convocaremos con una periodicidad fija y un reglamento que garantice el seguimiento de sus acuerdos",
+     "medida_sintesis": "Institucionalizar la Conferencia de Presidentes con periodicidad fija y un reglamento de seguimiento de sus acuerdos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización territorial del Estado. DEC 0: periodicidad y reglamento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "reforzaremos las conferencias sectoriales como espacio ordinario de cogobernanza",
+     "medida_sintesis": "Reforzar las conferencias sectoriales como espacio ordinario de cogobernanza",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización territorial del Estado. DEC 1: «reforzaremos» sin norma ni instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-384": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una ley de cooperación interadministrativa",
+     "medida_sintesis": "Aprobar una ley de cooperación interadministrativa que ordene la colaboración entre administraciones, incluida la respuesta coordinada ante emergencias",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización territorial del Estado. DEC 0: norma identificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-385": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Consolidaremos el uso de las lenguas cooficiales en las Cortes Generales",
+     "medida_sintesis": "Consolidar el uso de las lenguas cooficiales en las Cortes Generales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política lingüística. DEC 1: «consolidaremos» sin norma ni instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "lo extenderemos a la atención de la Administración General del Estado en los territorios donde son oficiales",
+     "medida_sintesis": "Extender el uso de las lenguas cooficiales a la atención de la Administración General del Estado en los territorios donde son oficiales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política lingüística, como pp-097-02. DEC 0: extiende un uso concreto a un ámbito definido.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-386": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Actualizaremos la Ley Reguladora de las Bases del Régimen Local para clarificar las competencias municipales",
+     "medida_sintesis": "Actualizar la Ley Reguladora de las Bases del Régimen Local para clarificar las competencias municipales y el papel de diputaciones, cabildos, consejos insulares y áreas metropolitanas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización territorial. DEC 0: reforma de una ley identificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-425": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incrementar y redistribuir los efectivos de Policía Nacional y Guardia Civil según la población, la dispersión territorial y las jubilaciones",
+     "medida_sintesis": "Incrementar y redistribuir los efectivos de Policía Nacional y Guardia Civil con criterios de población y dispersión, reforzando la seguridad rural y las patrullas de proximidad",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad ciudadana. DEC 0: compromete más efectivos con criterios de reparto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-426": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "creando un servicio estatal de atención a las víctimas de ciberestafas",
+     "medida_sintesis": "Crear un servicio estatal de atención a las víctimas de ciberestafas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad ciudadana y protección de las personas consumidoras. DEC 0: crea un servicio.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "ampliando la responsabilidad de bancos y operadoras en su prevención y reembolso",
+     "medida_sintesis": "Ampliar la responsabilidad de bancos y operadoras en la prevención y el reembolso de las ciberestafas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección de las personas consumidoras frente al fraude. DEC 0: obligación concreta a las entidades.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "transformando el CNPIC en un Centro Nacional para la Protección y Resiliencia de las Entidades Críticas",
+     "medida_sintesis": "Transformar el CNPIC en un Centro Nacional para la Protección y Resiliencia de las Entidades Críticas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad nacional. DEC 0: reforma de un organismo identificado.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-427": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "con el primer Plan Nacional Integral contra el Narcotráfico, el refuerzo del Plan Especial del Campo de Gibraltar",
+     "medida_sintesis": "Aprobar el primer Plan Nacional Integral contra el Narcotráfico y reforzar el Plan Especial del Campo de Gibraltar",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad ciudadana. DEC 0: planes identificados.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Intensificar la lucha contra el narcotráfico, la delincuencia organizada, la trata y el terrorismo",
+     "medida_sintesis": "Intensificar la lucha contra la delincuencia organizada y la trata",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Se formula como persecución del delito, sin medidas de protección de las víctimas. DEC 1: sin instrumento propio.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "El enunciado general nombra la delincuencia organizada y la trata sin instrumento propio; el narcotráfico y el terrorismo se desarrollan en los planes y en la prevención de la radicalización. Propuesta: una sola medida declarativa de seguridad en OTR; si se separa la trata, también con 0 en las cuatro, porque no protege a las víctimas, a diferencia de pp-029-01.",
+     "repite": ""
+    },
+    {
+     "fragmento": "más prevención de la radicalización violenta, especialmente en el entorno digital",
+     "medida_sintesis": "Aumentar la prevención de la radicalización violenta, en especial en el entorno digital",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad y prevención del terrorismo. DEC 1: sin plan, norma ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-429": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliar los derechos profesionales de Policía Nacional y Guardia Civil, mejorando la representación asociativa, las condiciones laborales y la carrera profesional",
+     "medida_sintesis": "Ampliar los derechos profesionales de Policía Nacional y Guardia Civil: representación asociativa, condiciones laborales y carrera profesional",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "Varios instrumentos para el mismo objeto: las condiciones de trabajo de un cuerpo público. EXI 0: mejora sin norma que reconozca un derecho ni estándar mínimo. DES 0: no es provisión pública ni regulación para todas las personas. DEC 1: no concreta norma, estándar ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "posibilitando el estudio del reconocimiento de la penosidad de cara a su jubilación",
+     "medida_sintesis": "Estudiar el reconocimiento de la penosidad de Policía Nacional y Guardia Civil a efectos de jubilación",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: se limita a estudiar. DES 0: no es provisión pública ni regulación para todas las personas. DEC 1: estudio sin norma ni plazo.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "La penosidad a efectos de jubilación afecta a una pensión contributiva (OTR y UNI 0 por cotización previa, como pp-112-05), pero pp-032-01 y vox-084-02 codificaron la profesión de riesgo de estos cuerpos en EMP con UNI 1. Propuesta: EMP con UNI 1, como condición laboral del cuerpo, por coherencia con esas medidas.",
+     "repite": ""
+    },
+    {
+     "fragmento": "suprimir la aplicación del Código Penal Militar a la Guardia Civil en funciones policiales",
+     "medida_sintesis": "Suprimir la aplicación del Código Penal Militar a la Guardia Civil en funciones policiales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es el régimen penal de un cuerpo de seguridad. DEC 0: reforma normativa concreta.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Se presenta como ampliación de los derechos profesionales de la Guardia Civil, lo que admite EMP. Propuesta: OTR, porque el objeto es el régimen penal aplicable y no las condiciones de trabajo.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-430": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar un Estatuto Básico de los bomberos (SPEIS) con un marco común de derechos, medios, formación y salud laboral, incluida la segunda actividad",
+     "medida_sintesis": "Aprobar un Estatuto Básico del personal de los servicios de prevención, extinción de incendios y salvamento (SPEIS) con derechos comunes, salud laboral y segunda actividad",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 1: estatuto con rango de norma que reconoce derechos concretos, como la segunda actividad. DES 0: regula las condiciones de un colectivo de personal público; no es provisión pública ni regulación para todas las personas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Las medidas de condiciones laborales de cuerpos públicos se codificaron con EXI 0 (pp-053-02, vox-084-02) porque no concretaban la norma, pero aquí hay un estatuto que reconoce derechos concretos, como la segunda actividad. Propuesta: EXI 1, porque es una norma con contenido concreto.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-431": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una nueva Ley de Seguridad Ciudadana que sustituya a la Ley Orgánica 4/2015, garantizando los derechos de reunión y manifestación, un régimen sancionador preciso",
+     "medida_sintesis": "Aprobar una nueva Ley de Seguridad Ciudadana que sustituya a la Ley Orgánica 4/2015, con garantía de los derechos de reunión y manifestación y un régimen sancionador preciso",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Son derechos civiles y políticos y seguridad ciudadana. DEC 0: norma identificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "identificaciones sin discriminación",
+     "medida_sintesis": "Garantizar por ley identificaciones policiales sin discriminación",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 1: obligación fijada en una ley. DES 0: limita una práctica policial; no provee un servicio público ni regula el precio o las condiciones del mercado.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Es una medida de seguridad ciudadana que corrige una discriminación en las identificaciones policiales, lo que admite OTR con 0 en las cuatro o IGU. Propuesta: IGU, porque la no discriminación es un derecho del apartado 2.2 y la medida la garantiza por ley.",
+     "repite": ""
+    },
+    {
+     "fragmento": "cámaras corporales en toda la Policía Nacional y Guardia Civil con garantías de protección de datos",
+     "medida_sintesis": "Implantar cámaras corporales en toda la Policía Nacional y la Guardia Civil con garantías de protección de datos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad ciudadana. DEC 0: medida concreta y con alcance definido.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-432": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Extender a todo el territorio el modelo Barnahus",
+     "medida_sintesis": "Extender a todo el territorio el modelo Barnahus de atención a la infancia víctima de violencia, para que no tenga que relatar lo vivido más de una vez",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: extiende un modelo de servicio sin norma que reconozca el derecho ni obligación exigible. DES 1: servicio público de atención en especie.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "La finalidad de que la infancia víctima relate lo vivido una sola vez puede leerse como estándar y la extensión a todo el territorio como obligación de provisión; psoe-194 también nombra la extensión del modelo Barnahus, aquí más desarrollada. Propuesta: EXI 0, porque no se fija en una norma, y contar el modelo Barnahus en esta unidad.",
+     "repite": ""
+    },
+    {
+     "fragmento": "ampliar las secciones de violencia sobre la infancia",
+     "medida_sintesis": "Ampliar las secciones judiciales de violencia sobre la infancia",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: amplía órganos judiciales especializados sin reconocer un derecho ni fijar un estándar exigible. DES 1: actúa en un servicio público.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-194"
+    }
+   ]
+  },
+  "psoe-433": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una nueva ley de justicia gratuita que amplíe su cobertura a colectivos como las víctimas de abusos inmobiliarios",
+     "medida_sintesis": "Aprobar una nueva ley de justicia gratuita que amplíe su cobertura a nuevos colectivos, como las víctimas de abusos inmobiliarios",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. El acceso a la justicia no figura entre los derechos sociales del apartado 2.2. DEC 0: norma identificada.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "La justicia gratuita es una prestación pública y su ampliación a víctimas de abusos inmobiliarios toca de forma indirecta la vivienda; psoe-069 desarrolla ese servicio para la vivienda. Propuesta: OTR con 0 en las cuatro, porque no regula ni provee directamente el acceso a un derecho del apartado 2.2, y aplicar la misma regla a psoe-069.",
+     "repite": ""
+    },
+    {
+     "fragmento": "mejore las condiciones del turno de oficio",
+     "medida_sintesis": "Mejorar en la nueva ley de justicia gratuita las condiciones del turno de oficio",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: la ley no concreta las condiciones ni reconoce un derecho exigible. DES 0: no es provisión pública ni regulación para todas las personas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Las condiciones del turno de oficio pueden leerse como condiciones de trabajo de la abogacía de oficio (EMP) o como organización del servicio de justicia gratuita (OTR). Propuesta: EMP, por analogía con las condiciones laborales del personal que presta un servicio público.",
+     "repite": ""
+    },
+    {
+     "fragmento": "reforzar las Oficinas de Atención a las Víctimas",
+     "medida_sintesis": "Reforzar las Oficinas de Atención a las Víctimas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es atención a las víctimas de delitos en el ámbito de la justicia. DEC 1: «reforzar» sin cuantía, norma ni estándar.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "la formación especializada en violencia de género para evitar la revictimización",
+     "medida_sintesis": "Reforzar la formación especializada en violencia de género para evitar la revictimización",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: refuerzo de la formación sin cuantía, estándar ni plazo; es declarativa. DES 1: actúa en los servicios públicos de justicia y atención a las víctimas.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-434": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliar las plantillas judiciales y fiscales",
+     "medida_sintesis": "Ampliar las plantillas judiciales y fiscales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización de la Administración de Justicia. DEC 0: compromete más plantilla.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "acabar con el abuso de la temporalidad mediante un proceso de regularización de jueces y fiscales sustitutos, respetando los principios de mérito y capacidad",
+     "medida_sintesis": "Acabar con el abuso de la temporalidad del personal judicial y fiscal sustituto mediante un proceso de regularización que respete el mérito y la capacidad",
+     "area": "EMP",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: la regularización se condiciona a un proceso selectivo de mérito y capacidad. EXI 0: es un proceso de regularización, sin norma que reconozca un derecho ni estándar mínimo. DES 0: no es provisión pública ni regulación para todas las personas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "El mérito y la capacidad son el principio constitucional de acceso al empleo público, no una condición añadida al derecho a un empleo estable. Propuesta: UNI 0, porque el texto condiciona la regularización a un proceso selectivo; si se lee como principio general, UNI 1, como en las demás medidas de condiciones laborales de cuerpos públicos.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-435": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reformar el acceso a las carreras judicial y fiscal con pruebas anonimizadas y casos prácticos",
+     "medida_sintesis": "Reformar el acceso a las carreras judicial y fiscal con pruebas anonimizadas y casos prácticos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización de la carrera judicial. DEC 0: reforma concreta de las pruebas.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "un sistema público y opcional de preparación y el blindaje de las Becas Seré",
+     "medida_sintesis": "Crear un sistema público y opcional de preparación de las oposiciones judiciales y fiscales y blindar las Becas Seré",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización del acceso a la carrera judicial. DEC 0: nombra un sistema y unas becas concretos.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "La preparación pública y las becas facilitan el acceso a un empleo público con independencia de los recursos, lo que admite EMP (formación para el empleo, con DES 1 por el sistema público) o EDU (becas). Propuesta: OTR con 0 en las cuatro, como pp-053-01 y vox-084-01, porque el objeto es el acceso a la carrera judicial y fiscal.",
+     "repite": ""
+    },
+    {
+     "fragmento": "reforzar la transparencia con un registro público de preparadores, autorización de compatibilidad para quienes preparen oposiciones y la prohibición de la financiación privada",
+     "medida_sintesis": "Reforzar la transparencia con un registro público de personas preparadoras, autorización de compatibilidad y prohibición de la financiación privada de las asociaciones judiciales y fiscales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es transparencia institucional. DEC 0: registro, autorización y prohibición concretos.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-436": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar la autonomía del Ministerio Fiscal, con un mandato de cinco años para la Fiscalía General del Estado desvinculado de la legislatura",
+     "medida_sintesis": "Reforzar la autonomía del Ministerio Fiscal con un mandato de cinco años para la Fiscalía General del Estado y la prohibición de instrucciones del Gobierno en casos concretos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización institucional. DEC 0: reforma institucional concreta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "aprobar una nueva Ley de Enjuiciamiento Criminal que sustituya a la de 1882 y atribuya la investigación a la Fiscalía bajo supervisión judicial",
+     "medida_sintesis": "Aprobar una nueva Ley de Enjuiciamiento Criminal que atribuya la investigación a la Fiscalía bajo supervisión judicial",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es justicia penal. DEC 0: norma identificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-437": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Modernizar la Administración de Justicia con la digitalización y la inteligencia artificial para agilizar los procedimientos y las reclamaciones frecuentes",
+     "medida_sintesis": "Modernizar la Administración de Justicia con la digitalización y la inteligencia artificial para agilizar procedimientos y reclamaciones frecuentes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización de la Administración de Justicia. DEC 1: no concreta norma, plan ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "extender el lenguaje claro en las resoluciones",
+     "medida_sintesis": "Extender el lenguaje claro en las resoluciones judiciales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización de la Administración de Justicia. DEC 0: estándar de redacción concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "actualizar el Derecho de familia y sucesiones, incluida la regulación del legado digital",
+     "medida_sintesis": "Actualizar el Derecho de familia y sucesiones, incluida la regulación del legado digital",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es derecho civil. DEC 0: reforma normativa identificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-439": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar que toda persona pueda ser atendida por un empleado público, en persona o por teléfono, sin cita previa obligatoria",
+     "medida_sintesis": "Garantizar la atención de toda persona por personal empleado público, en persona o por teléfono, sin cita previa obligatoria en las oficinas de la Administración del Estado",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es atención administrativa, como pp-009-01 y vox-039-01. DEC 0: fija un estándar de atención.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "crear oficinas itinerantes en las comarcas rurales que no tengan oficina permanente",
+     "medida_sintesis": "Crear oficinas itinerantes de la Administración del Estado en las comarcas rurales sin oficina permanente",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización administrativa. DEC 0: crea un servicio concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-440": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar que ninguna Administración vuelva a pedir a la ciudadanía un documento que ya tiene",
+     "medida_sintesis": "Garantizar que ninguna Administración vuelva a pedir a la ciudadanía un documento que ya tiene, conectando sus sistemas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es simplificación administrativa. DEC 0: fija una regla concreta de tramitación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-441": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Acompañar todas las notificaciones electrónicas de un aviso por SMS o correo electrónico, para que nadie pierda una prestación o un plazo",
+     "medida_sintesis": "Acompañar todas las notificaciones electrónicas de un aviso por SMS o correo electrónico para que nadie pierda una prestación o un plazo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una regla general de procedimiento administrativo. DEC 0: obligación concreta de aviso.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "La finalidad nombra la pérdida de prestaciones, lo que acerca la medida al acceso a la garantía de ingresos, como pp-010-02 (reconocimiento de oficio). Propuesta: 0 en las cuatro, porque es una regla para todas las notificaciones y no regula el acceso a una prestación concreta.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-442": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Utilizar la inteligencia artificial para agilizar la gestión y liberar a los empleados públicos de tareas repetitivas",
+     "medida_sintesis": "Utilizar la inteligencia artificial en la gestión administrativa con supervisión humana y protección de derechos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización administrativa. DEC 1: no concreta norma, plan ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-443": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una nueva Ley de Función Pública que reduzca la temporalidad",
+     "medida_sintesis": "Aprobar una nueva Ley de Función Pública que reduzca la temporalidad del personal empleado público",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: la ley no fija un límite de temporalidad ni reconoce un derecho exigible. DES 0: no es provisión pública ni regulación para todas las personas.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "garantice convocatorias regulares, aproveche el relevo generacional para incorporar los perfiles que necesitan los servicios públicos",
+     "medida_sintesis": "Garantizar convocatorias regulares y aprovechar el relevo generacional para incorporar los perfiles que necesitan los servicios públicos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización del empleo público. DEC 0: se incluye en una ley identificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "consolide una dirección pública profesional basada en el mérito",
+     "medida_sintesis": "Consolidar una dirección pública profesional basada en el mérito",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización administrativa, como pp-053-01. DEC 0: se incluye en una ley identificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-444": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear la figura del Defensor de las Generaciones Futuras, vinculada al Consejo de la Juventud de España",
+     "medida_sintesis": "Crear una figura de defensa de las generaciones futuras, vinculada al Consejo de la Juventud de España, para que las decisiones públicas incorporen la justicia intergeneracional",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización institucional. DEC 0: crea una institución.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-375"
+    }
+   ]
+  },
+  "psoe-445": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una Ley Orgánica de Integridad Pública y una Estrategia Nacional Anticorrupción con mapas de riesgos en todas las administraciones",
+     "medida_sintesis": "Aprobar una Ley Orgánica de Integridad Pública y una Estrategia Nacional Anticorrupción con mapas de riesgos en todas las administraciones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es integridad institucional. DEC 0: ley y estrategia identificadas.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "crear una Agencia Independiente de Integridad Pública que coordine los organismos de supervisión y refuerce la protección de quienes denuncian",
+     "medida_sintesis": "Crear una Agencia Independiente de Integridad Pública que coordine la supervisión y refuerce la protección de quienes denuncian",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es integridad institucional. DEC 0: crea un organismo.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-446": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una ley de grupos de interés, con registro obligatorio, publicidad de sus reuniones y huella normativa",
+     "medida_sintesis": "Aprobar una ley de grupos de interés con registro obligatorio, publicidad de sus reuniones y huella normativa",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es transparencia institucional. DEC 0: norma identificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "ampliar la transparencia del patrimonio, las actividades y las incompatibilidades de los cargos públicos",
+     "medida_sintesis": "Ampliar la transparencia del patrimonio, las actividades y las incompatibilidades de los cargos públicos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es transparencia institucional. DEC 0: concreta los ámbitos de publicidad.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-447": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incorporar por ley el programa Cumpliendo, para que las diferentes administraciones rindan cuentas del cumplimiento de sus compromisos",
+     "medida_sintesis": "Incorporar por ley el programa Cumpliendo de rendición de cuentas de las administraciones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es transparencia institucional. DEC 0: norma y programa identificados.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-448": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar el control de la contratación, las subvenciones y la financiación política con análisis de datos y trazabilidad del gasto",
+     "medida_sintesis": "Reforzar el control de la contratación, las subvenciones y la financiación política con análisis de datos y trazabilidad del gasto",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es control del gasto público. DEC 0: nombra los instrumentos de control.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "ampliar el acceso a la información pública sobre agendas, gastos institucionales y evaluación independiente de las políticas",
+     "medida_sintesis": "Ampliar el acceso a la información pública sobre agendas, gastos institucionales y evaluación independiente de las políticas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es transparencia institucional. DEC 0: concreta los ámbitos de información.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-474": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "promoviendo su integración efectiva en la Unión Aduanera con un régimen fiscal favorable",
+     "medida_sintesis": "Promover la integración efectiva de Ceuta y Melilla en la Unión Aduanera con un régimen fiscal favorable",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política fiscal y comercial. DEC 1: «promover» ante la Unión Europea sin instrumento propio.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "el reconocimiento de su estatus de regiones ultraperiféricas",
+     "medida_sintesis": "Promover el reconocimiento de Ceuta y Melilla como regiones ultraperiféricas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización territorial y política europea. DEC 1: «promover» ante la Unión Europea sin instrumento propio.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reforzaremos su participación en los órganos consultivos de la Unión Europea, incluido el Comité Europeo de las Regiones",
+     "medida_sintesis": "Reforzar la participación de Ceuta y Melilla en los órganos consultivos de la Unión Europea, incluido el Comité Europeo de las Regiones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación institucional, como pp-014-04. DEC 1: sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-489": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reformar la legislación electoral para simplificar y facilitar el voto exterior, reduciendo plazos, eliminando obstáculos burocráticos",
+     "medida_sintesis": "Reformar la legislación electoral para simplificar y facilitar el voto de la ciudadanía española en el exterior",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un derecho político. DEC 0: reforma normativa con contenido concreto (plazos y trámites).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-492": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar una comisión en el ámbito parlamentario para estudiar la creación de una Circunscripción Exterior",
+     "medida_sintesis": "Impulsar una comisión parlamentaria que estudie una circunscripción exterior",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización electoral. DEC 1: propone estudiar, sin norma ni compromiso de creación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  }
+ }
+}

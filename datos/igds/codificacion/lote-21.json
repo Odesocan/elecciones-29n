@@ -1,0 +1,530 @@
+{
+  "lote": "lote-21",
+  "unidades": {
+    "psoe-p54": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "y que cuente con una financiación suficiente y estable",
+          "medida_sintesis": "Defender una universidad pública accesible y de calidad con financiación suficiente y estable",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «defendemos» sin norma, cuantía, estándar ni plazo; es declarativa. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Posición en presente («Nosotros defendemos una universidad pública fuerte, accesible y de calidad») que puede leerse como declaración de valores (R3). Propuesta: registrarla como medida declarativa que repite psoe-181 (Ley de Equidad en el Acceso a la Universidad Pública con financiación suficiente y estable), igual que se hizo con «Defendemos» en cc-p03; no cuenta en N.",
+          "repite": "psoe-181"
+        },
+        {
+          "fragmento": "Una universidad en la que el acceso dependa del talento y el esfuerzo, y no de la renta familiar ni del código postal del estudiante",
+          "medida_sintesis": "Que el acceso a la universidad pública dependa del talento y el esfuerzo y no de la renta familiar ni del lugar de residencia",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: condiciona el acceso al mérito («el talento y el esfuerzo»), criterio que el apartado 2.4 sitúa en UNI 0. EXI 0: sin norma, prestación ni estándar; es declarativa. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de UNI: la frase descarta la renta como barrera, pero fija el mérito («el talento y el esfuerzo») como criterio de acceso, que es el ejemplo literal de UNI 0 del apartado 2.4 (como en pp-218-04). Propuesta: UNI 0 y registrarla como repetición de psoe-176 (nuevo modelo de becas para la igualdad de oportunidades); no cuenta en N.",
+          "repite": "psoe-176"
+        }
+      ]
+    },
+    "psoe-p55": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "seguiremos fortaleciendo el deporte base, escolar y federado",
+          "medida_sintesis": "Seguir fortaleciendo el deporte base, escolar y federado",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el deporte no figura entre los derechos sociales del apartado 2.2. DEC 1: «seguiremos fortaleciendo» sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-190"
+        },
+        {
+          "fragmento": "promoviendo la actividad física para mejorar la salud y combatir el sedentarismo",
+          "medida_sintesis": "Promover la actividad física para mejorar la salud y combatir el sedentarismo",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «promoviendo» sin norma, prestación ni estándar; es declarativa. DES 0: no nombra un servicio público ni dice cómo se provee. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: SAN (promoción de la salud y prevención del sedentarismo) y OTR (deporte, que no es derecho social del apartado 2.2, como en pp-139-01). Propuesta: SAN, porque el objeto declarado es la salud; repite psoe-187, que la lleva a la atención primaria con la receta deportiva.",
+          "repite": "psoe-187"
+        }
+      ]
+    },
+    "psoe-p56": {
+      "sin_medidas": "Títulos de apartado y lema («Queremos un Estado de bienestar que acompañe a cada persona en todas las etapas»): aspiración que solo engloba los objetivos del capítulo, sin objeto de política propio (R3).",
+      "medidas": []
+    },
+    "psoe-p59": {
+      "sin_medidas": "Balance de lo ya hecho en discapacidad (reforma del artículo 49, Ley ELA, Ley 4/2026): logros pasados, no compromisos (R3). La aplicación de la Ley 4/2026 está en psoe-205.",
+      "medidas": []
+    },
+    "psoe-p60": {
+      "sin_medidas": "Título del apartado y enunciado de prioridad que engloba los objetivos de todo el capítulo («Nuestra prioridad es reforzar el Estado del bienestar»), sin objeto de política propio (R3). Los compromisos de financiación territorial están en psoe-229 a psoe-233.",
+      "medidas": []
+    },
+    "psoe-p63": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Y seguiremos haciéndolo con los más de 9.000 millones de euros movilizados para el Plan Social para el Clima.",
+          "medida_sintesis": "Seguir trasladando a los hogares los beneficios de la transición ecológica con los más de 9.000 millones de euros del Plan Social para el Clima",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: el Plan Social para el Clima se dirige a los hogares vulnerables, según la medida que lo desarrolla (psoe-242). EXI 0: es un plan con dotación, sin derecho reconocido ni obligación de provisión. DES 0: es una dotación y no nombra un servicio público ni una regulación del precio. DEC 0: plan identificado con dotación concreta.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La prosa habla de «los hogares» sin condiciones; la condición de vulnerabilidad sale de psoe-242, que desarrolla el mismo plan. Admite además dos áreas: VIV (costes energéticos del hogar, junto al bono social eléctrico y el autoconsumo) y MAM (transición ecológica). Propuesta: VIV y UNI 0, coherente con psoe-242; no cuenta en N.",
+          "repite": "psoe-242"
+        }
+      ]
+    },
+    "psoe-p64": {
+      "sin_medidas": "Balance de lo hecho («hemos duplicado», «Hemos demostrado»), aspiraciones sin objeto de política («Queremos una España más verde», «queremos una España en la que el futuro no dependa del código postal») y enunciados que engloban el bloque («Nuestra ambición para 2030», «proponemos medidas articuladas en cinco grandes prioridades»): no son medidas (R3). El objetivo eléctrico de 2030 se desarrolla en psoe-234.",
+      "medidas": []
+    },
+    "psoe-p65": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Continuaremos promoviendo la transición energética, para que el sol, el viento y la industria españolas reviertan en beneficios y oportunidades en todos los territorios",
+          "medida_sintesis": "Seguir promoviendo la transición energética para que sus beneficios lleguen a todos los territorios",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; es política energética. DEC 1: «continuaremos promoviendo» sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-234"
+        }
+      ]
+    },
+    "psoe-p66": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Seguiremos impulsando la economía circular en todas las fases del proceso productivo, buscando reforzar la competitividad de la industria española",
+          "medida_sintesis": "Seguir impulsando la economía circular en todas las fases del proceso productivo",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; es política de residuos y de producción. DEC 1: «seguiremos impulsando» sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-247"
+        }
+      ]
+    },
+    "psoe-p67": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Nuestra propuesta de Pacto de Estado frente a la Emergencia Climática sirve como hoja de ruta para hacernos más resilientes, salvar vidas y reducir daños.",
+          "medida_sintesis": "Impulsar el Pacto de Estado frente a la Emergencia Climática como hoja de ruta para la adaptación y la reducción de daños",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; es un acuerdo político sobre adaptación y gestión de riesgos climáticos. DEC 1: pacto sin contenido, norma ni dotación, como en pp-219-01.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Se formula en presente («Nuestra propuesta de Pacto de Estado ... sirve como hoja de ruta») y ninguna de las 500 medidas numeradas lo recoge, así que cuenta como medida nueva. Puede leerse como referencia a una propuesta ya presentada y no como compromiso (R2 o R3), y admite OTR (protección civil, como vox-090-01). Propuesta: mantenerla como medida MAM declarativa, porque es una propuesta de la formación con objeto de política.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-p68": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "para garantizar que el agua llegue a todos nuestros hogares, campos e industrias, con independencia de su renta, ubicación o tamaño",
+          "medida_sintesis": "Garantizar que el agua llegue a todos los hogares con independencia de su renta o ubicación",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «garantizar» sin norma, estándar, plazo ni prestación; es declarativa. DEC 1: sin instrumento concreto. DES 1: gestión pública de los recursos hídricos para el abastecimiento de los hogares, como en cc-066-01.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-261"
+        },
+        {
+          "fragmento": "Incorporando las últimas recomendaciones científicas, mejoraremos la gestión de nuestros recursos hídricos para garantizar que el agua llegue a todos nuestros hogares, campos e industrias",
+          "medida_sintesis": "Mejorar con criterios científicos la gestión de los recursos hídricos para garantizar el agua a los usos agrarios e industriales",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; es gestión del agua para usos productivos, como en cc-066-02. DEC 1: «mejoraremos la gestión» sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-262"
+        }
+      ]
+    },
+    "psoe-p69": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mantendremos la apuesta por un sector agroalimentario competitivo, resiliente y compatible con la conservación de la biodiversidad",
+          "medida_sintesis": "Mantener el apoyo a un sector agroalimentario competitivo, resiliente y compatible con la biodiversidad",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «mantendremos la apuesta» sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-268"
+        }
+      ]
+    },
+    "psoe-p70": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Trabajaremos para volver a dinamizar estos territorios, garantizando que poder vivir en cualquier ciudad o pueblo vuelva a ser una opción libre, viable y digna.",
+          "medida_sintesis": "Dinamizar los territorios rurales para que vivir en cualquier ciudad o pueblo sea una opción viable y digna",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; es política de reto demográfico. DEC 1: «trabajaremos para» sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-233"
+        }
+      ]
+    },
+    "psoe-p71": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Seguiremos apostando por la transformación del modelo de transportes en España, para hacerlo más justo, eficiente y sostenible.",
+          "medida_sintesis": "Seguir transformando el modelo de transportes para hacerlo más justo, eficiente y sostenible",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «seguiremos apostando» sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-280"
+        }
+      ]
+    },
+    "psoe-p72": {
+      "sin_medidas": "Entradilla del apartado con valoraciones y frases normativas sin compromiso de la formación («Proteger la biodiversidad de nuestros entornos naturales ayuda», «Invertir en reforzar la adaptación ... es también invertir en seguridad»): no son medidas (R3). Los compromisos están en psoe-287 a psoe-293.",
+      "medidas": []
+    },
+    "psoe-p73": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "España seguirá defendiendo el mantenimiento y la profundización de los espacios de diálogo y los compromisos adoptados en la UE y en el mundo.",
+          "medida_sintesis": "Seguir defendiendo los espacios multilaterales de diálogo y los compromisos climáticos adoptados en la Unión Europea y en el mundo",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; es una posición de política exterior climática. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: MAM (compromisos climáticos, en el apartado «Liderazgo climático») y OTR (política exterior). Propuesta: MAM, porque el objeto son los compromisos climáticos; «España seguirá defendiendo» se lee como fórmula programática (R2) y repite psoe-299 (Pacto Verde Europeo).",
+          "repite": "psoe-299"
+        },
+        {
+          "fragmento": "impulsaremos medidas que aseguren un papel central a la participación ciudadana, la ciencia, la coordinación institucional",
+          "medida_sintesis": "Dar un papel central a la participación ciudadana, la ciencia y la coordinación institucional en la política climática",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; es gobernanza de la política climática. DEC 1: «impulsaremos medidas» sin concretarlas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-304"
+        },
+        {
+          "fragmento": "Además, impulsaremos medidas que aseguren un papel central a la participación ciudadana, la ciencia, la coordinación institucional y la lucha contra la desinformación.",
+          "medida_sintesis": "Impulsar la lucha contra la desinformación climática",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: «impulsaremos medidas» sin concretarlas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-305"
+        }
+      ]
+    },
+    "psoe-p76": {
+      "sin_medidas": "Valoración y balance de lo hecho en igualdad desde 2018 («hemos impulsado», «hemos reducido», «Hemos ampliado») y lema («reafirmamos nuestra ambición de seguir avanzando»): logros pasados y aspiración sin objeto de política (R3).",
+      "medidas": []
+    },
+    "psoe-p77": {
+      "sin_medidas": "Balance de lo hecho («Hemos reformado», «hemos ampliado», «lo renovamos en 2025») y diagnóstico de los retos. «El cuidado debe reconocerse como un derecho» es una frase normativa sin compromiso de la formación (R3); el compromiso está en psoe-p80. La frase final («Nuestro reto es que mujeres») continúa en psoe-p78, donde se codifica.",
+      "medidas": []
+    },
+    "psoe-p78": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "y niñas víctimas de cualquier forma de violencia de género cuenten con la protección, justicia y acompañamiento necesarios para recuperar su proyecto de vida.",
+          "medida_sintesis": "Que las mujeres y niñas víctimas de cualquier forma de violencia de género cuenten con la protección, la justicia y el acompañamiento necesarios",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: objetivo sin norma, prestación, estándar ni plazo; es declarativa. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La frase empieza en psoe-p77 («Nuestro reto es que mujeres») y se lee como intención de la formación, equivalente a «queremos que» (R2). DES 1 porque la protección y la justicia son funciones públicas y el acompañamiento es un servicio en especie, como en vox-087-01. Propuesta: medida declarativa que repite psoe-333 (nueva Estrategia Estatal contra las Violencias Machistas); no cuenta en N.",
+          "repite": "psoe-333"
+        },
+        {
+          "fragmento": "Por ello, nos comprometemos a continuar avanzando hacia la igualdad salarial",
+          "medida_sintesis": "Seguir avanzando hacia la igualdad salarial entre mujeres y hombres",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «continuar avanzando» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación de las condiciones salariales. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: IGU (corrige la brecha salarial de género) y EMP (salarios). Propuesta: IGU, porque el objeto es la desigualdad entre mujeres y hombres; repite psoe-306.",
+          "repite": "psoe-306"
+        },
+        {
+          "fragmento": "nos comprometemos a continuar avanzando hacia la igualdad salarial, el empleo de calidad",
+          "medida_sintesis": "Seguir avanzando hacia el empleo de calidad de las mujeres",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «continuar avanzando» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación de las condiciones laborales. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-308"
+        }
+      ]
+    },
+    "psoe-p79": {
+      "sin_medidas": "Título del apartado y diagnóstico con frase normativa sin compromiso de la formación («Superar esta desigualdad exige servicios públicos de cuidados suficientes y accesibles»): no es medida (R3). La frase continúa en psoe-p80, donde está el compromiso.",
+      "medidas": []
+    },
+    "psoe-p80": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "nos comprometemos a reconocer los cuidados como un derecho social y una responsabilidad colectiva, desarrollando un sistema público de cuidados suficiente, accesible",
+          "medida_sintesis": "Reconocer los cuidados como derecho social y responsabilidad colectiva y desarrollar un sistema público de cuidados suficiente, accesible, coordinado y con cobertura en todo el territorio",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: anuncia el reconocimiento del derecho sin nombrar la norma ni fijar cartera, estándar o plazo. DEC 0: nombra un instrumento de provisión, el sistema público de cuidados.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de EXI y DEC: reconocer los cuidados como derecho social apunta a una norma que reconoce un derecho (EXI 1), pero el texto no la nombra ni le da contenido concreto; el sistema público de cuidados es un instrumento de provisión, pero sin cartera ni estándares. Ninguna de las 500 medidas numeradas lo recoge (psoe-322 trata del trabajo de cuidados), así que cuenta como medida nueva. Propuesta: EXI 0 y DEC 0.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-p81": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "nos comprometemos a defender una sanidad pública que investigue con perspectiva de género",
+          "medida_sintesis": "Defender una sanidad pública que investigue con perspectiva de género",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «defender» sin norma, prestación, estándar ni plazo; es declarativa. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-331"
+        },
+        {
+          "fragmento": "una sanidad pública que investigue con perspectiva de género y garantice el acceso efectivo a todos los derechos sexuales y reproductivos",
+          "medida_sintesis": "Garantizar desde la sanidad pública el acceso efectivo a todos los derechos sexuales y reproductivos",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «garantice» sin norma, prestación, estándar ni plazo; es declarativa. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-328"
+        }
+      ]
+    },
+    "psoe-p82": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "garantizar una protección efectiva y evitar la revictimización a través de recursos especializados, respuestas coordinadas y una evaluación permanente de la actuación institucional",
+          "medida_sintesis": "Garantizar a las víctimas de violencia machista una protección efectiva y evitar su revictimización con recursos especializados, respuestas coordinadas y evaluación de la actuación institucional",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin norma, prestación, estándar ni plazo. DEC 1: los recursos y las respuestas no se concretan.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-333"
+        }
+      ]
+    },
+    "psoe-p83": {
+      "sin_medidas": "Título del apartado y diagnóstico de la violencia digital contra las mujeres: no es medida (R3). La frase continúa en psoe-p84, donde está el compromiso.",
+      "medidas": []
+    },
+    "psoe-p84": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Nos comprometemos a garantizar un entorno digital seguro, democrático y libre de violencia, que proteja los derechos de las mujeres y su participación en igualdad.",
+          "medida_sintesis": "Garantizar un entorno digital seguro y libre de violencia que proteja los derechos de las mujeres y su participación en igualdad",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «garantizar» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación de las plataformas. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-348"
+        }
+      ]
+    },
+    "psoe-p85": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "nos comprometemos a reforzar los mecanismos de prevención, protección y respuesta, para que ninguna mujer tenga que elegir entre su seguridad y su participación",
+          "medida_sintesis": "Reforzar los mecanismos de prevención, protección y respuesta frente a la violencia política contra las mujeres",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: refuerzo sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni dice cómo se provee la protección. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-363"
+        }
+      ]
+    },
+    "psoe-p88": {
+      "sin_medidas": "Entradilla del capítulo con diagnóstico, valoración política y balance de lo hecho desde 2018 («Hemos conseguido», «Hemos ampliado», «Hemos reforzado»): logros pasados, no compromisos (R3).",
+      "medidas": []
+    }
+  }
+}

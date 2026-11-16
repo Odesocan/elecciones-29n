@@ -1,0 +1,2229 @@
+{
+ "lote": "lote-06",
+ "unidades": {
+  "pp-203": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Los jóvenes que se incorporen cobrarán por anticipado hasta el 70% de la ayuda de la PAC a la incorporación y tendrán ventajas fiscales especiales",
+     "medida_sintesis": "Anticipo de hasta el 70 % de la ayuda de la PAC a la incorporación y ventajas fiscales para las personas jóvenes que se incorporan a la actividad agraria",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una ayuda sectorial agraria con ventajas fiscales; ambos instrumentos sirven al mismo objeto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Agilizaremos la contratación de mano de obra en origen.",
+     "medida_sintesis": "Agilizar la contratación de mano de obra en origen para las explotaciones agrarias",
+     "area": "MIG",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Agiliza un procedimiento de contratación a favor de la parte empleadora. DEC 1: no concreta norma, plazo ni procedimiento.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite las áreas MIG y EMP, y es frontera con la migración segura por ser una vía legal de migración laboral. Propuesta: MIG con 0 en las cuatro, porque se formula como facilidad para la parte empleadora y no como acceso de las personas migrantes a un derecho.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Implantaremos un sistema de sustitución por bajas y descansos",
+     "medida_sintesis": "Implantar un sistema de sustitución en las explotaciones agrarias para cubrir bajas y descansos",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: crea un sistema, pero no reconoce un derecho ni fija una obligación de provisión. DES 0: no dice si la sustitución es un servicio público ni si es gratuita.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera entre política sectorial agraria y condiciones de trabajo (descansos y bajas) de las personas trabajadoras autónomas del campo; admite también CUI por la conciliación. Propuesta: EMP, codificada como acceso al descanso con UNI 1 y NDI 1, y EXI y DES 0.",
+     "repite": ""
+    },
+    {
+     "fragmento": "apoyaremos a quien se jubile para que traspase su explotación",
+     "medida_sintesis": "Apoyar a las personas titulares que se jubilan para que traspasen su explotación agraria",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es apoyo al relevo de explotaciones. DEC 1: no concreta el instrumento de apoyo.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-208": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defenderemos la reforma de la política pesquera común y fondos europeos suficientes, un régimen competitivo para los buques españoles, renovación de flota y fiscalidad adaptada.",
+     "medida_sintesis": "Defender en la Unión Europea la reforma de la política pesquera común, fondos suficientes, renovación de flota y fiscalidad adaptada para el sector pesquero",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa o apoyo, sin norma, prestación, plazo ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reduciremos los plazos para la acuicultura",
+     "medida_sintesis": "Reducir los plazos administrativos de la acuicultura",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es simplificación administrativa sectorial.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aprobaremos una nueva Ley de Costas, con reglas claras, que dé seguridad a quien tiene un negocio y soluciones legales a los núcleos históricos.",
+     "medida_sintesis": "Nueva Ley de Costas y marco estatal de ordenación del litoral que den seguridad jurídica a negocios, instalaciones próximas a la costa y núcleos históricos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Integra como un solo objeto el marco estatal del litoral, la continuidad de las instalaciones costeras y la nueva ley.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite las áreas OTR y MAM, porque la ordenación del litoral afecta a la protección del dominio público marítimo-terrestre. Propuesta: OTR con 0 en las cuatro, porque el objeto declarado es la seguridad jurídica de actividades y núcleos, sin regular el acceso a un medio ambiente sano.",
+     "repite": ""
+    },
+    {
+     "fragmento": "permitiremos recuperar el patrimonio marítimo en desuso para usos compatibles con su protección",
+     "medida_sintesis": "Permitir la recuperación del patrimonio marítimo en desuso para usos compatibles con su protección",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-236": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defenderemos que la PAC y la cohesión sigan siendo políticas propias, con fondos propios y sin recortes para España",
+     "medida_sintesis": "Defender en la negociación del presupuesto europeo que la PAC y la política de cohesión mantengan fondos propios sin recortes para España",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa o apoyo, sin norma, prestación, plazo ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "que el nuevo fondo de competitividad llegue a la industria y a la ciencia españolas",
+     "medida_sintesis": "Defender que el nuevo fondo europeo de competitividad llegue a la industria y a la ciencia de España",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa o apoyo, sin norma, prestación, plazo ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "que la defensa europea se financie con compras conjuntas",
+     "medida_sintesis": "Defender que la defensa europea se financie con compras conjuntas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa o apoyo, sin norma, prestación, plazo ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-245": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Identificaremos de qué países y proveedores dependemos en tecnologías, materias primas, medicamentos, energía y componentes esenciales. Diversificaremos suministros",
+     "medida_sintesis": "Identificar las dependencias exteriores en suministros esenciales y diversificar proveedores",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta norma, plan ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "potenciaremos nuestra capacidad industrial",
+     "medida_sintesis": "Potenciar la capacidad industrial de España",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "defenderemos en Europa una política comercial que abra nuevos mercados y proteja a las empresas españolas frente a la competencia desleal",
+     "medida_sintesis": "Defender en Europa una política comercial de apertura de mercados y de protección frente a la competencia desleal",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa o apoyo, sin norma, prestación, plazo ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-052": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos una ley de programación y financiación de la defensa, con objetivos de personal y material a medio y largo plazo.",
+     "medida_sintesis": "Ley de programación y financiación plurianual de la defensa con objetivos de personal y material",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "todo compromiso será respaldado por las Cortes",
+     "medida_sintesis": "Respaldo de las Cortes a todo compromiso internacional en materia de defensa",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-053": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Revisaremos la normativa en materia de personal para construir una carrera militar para oficiales, suboficiales y tropa y marinería basada en el mérito",
+     "medida_sintesis": "Revisar la normativa de personal militar para una carrera basada en el mérito y la capacidad, con más formación y especialización",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "los reconoceremos como profesión de riesgo, mejoraremos sus retribuciones",
+     "medida_sintesis": "Mejorar las condiciones de trabajo del personal militar: actualización de su normativa de derechos y deberes, reconocimiento como profesión de riesgo, mejores retribuciones y conciliación",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Varios instrumentos para el mismo objeto: las condiciones de trabajo del personal de las Fuerzas Armadas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera entre política de personal del Estado y condiciones de trabajo, y admite las áreas OTR y EMP. Propuesta: OTR con 0 en las cuatro, porque fija condiciones de un colectivo de personal público y no regula el acceso de la población a un trabajo digno; si se codifica como condición laboral, UNI 1, EXI 1, DES 0 y NDI 1.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aumentaremos los efectivos",
+     "medida_sintesis": "Aumentar los efectivos de las Fuerzas Armadas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "modernizaremos su doctrina, su material y sus medios tecnológicos",
+     "medida_sintesis": "Modernizar la doctrina, el material y los medios tecnológicos de las Fuerzas Armadas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta dotación ni programa.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-054": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos cuando sea necesario los contingentes españoles de la OTAN",
+     "medida_sintesis": "Reforzar los contingentes españoles en la OTAN y contribuir al pilar europeo de la Alianza",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: compromiso condicionado, sin dotación ni plazo.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "contribuiremos a proteger las rutas marítimas de las que depende nuestra economía",
+     "medida_sintesis": "Contribuir a la protección de las rutas marítimas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reforzaremos el despliegue militar en Ceuta, Melilla, Canarias y el resto de los territorios españoles en el norte de África",
+     "medida_sintesis": "Reforzar el despliegue militar en Ceuta, Melilla, Canarias y los demás territorios españoles del norte de África",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-055": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos la industria española de defensa para dotar a nuestras Fuerzas Armadas de las capacidades que necesitan para cumplir sus misiones",
+     "medida_sintesis": "Impulsar la industria española de defensa mediante inversión en equipamiento y modernización con prioridades tecnológicas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. El instrumento es la inversión en equipamiento, con prioridades definidas.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Simplificaremos la contratación de defensa para que el material llegue a tiempo.",
+     "medida_sintesis": "Simplificar la contratación pública de defensa",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta la norma ni los plazos.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-234": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Buscaremos consensos en la política exterior española y la orientaremos a proteger a los españoles, defender a nuestras empresas y abrir mercados.",
+     "medida_sintesis": "Buscar consensos en política exterior y orientarla a la protección de la ciudadanía española, las empresas y la apertura de mercados",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "No firmaremos ningún acuerdo que afecte a la soberanía o a las fronteras sin la autorización de las Cortes.",
+     "medida_sintesis": "Control parlamentario de la política exterior: informar antes al Parlamento de los cambios de posición y someter a las Cortes los acuerdos sobre soberanía o fronteras",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Al inicio de la legislatura presentaremos en las Cortes una Estrategia de Acción Exterior.",
+     "medida_sintesis": "Presentar en las Cortes una Estrategia de Acción Exterior al inicio de la legislatura",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-235": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "trabajaremos para que la Unión reúna la fuerza política, económica y militar que necesita para defender sus valores y garantizar la seguridad y la prosperidad",
+     "medida_sintesis": "Reforzar la capacidad política, económica y militar de la Unión Europea, con mercado único, interconexiones energéticas, compras conjuntas de defensa y tecnología propia",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Defenderemos la libertad, el Estado de derecho y la integridad territorial de cada país europeo",
+     "medida_sintesis": "Defender la libertad, el Estado de derecho y la integridad territorial de los países europeos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "apoyaremos la ampliación sólo cuando los candidatos cumplan los requisitos y su entrada haga más fuerte a la Unión",
+     "medida_sintesis": "Apoyar la ampliación de la Unión Europea solo cuando los países candidatos cumplan los requisitos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-237": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "y defenderemos su españolidad siempre",
+     "medida_sintesis": "Defender la soberanía española sobre Ceuta, Melilla, Canarias y los demás territorios del norte de África",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Volveremos a una política de equilibrio con Marruecos y Argelia, con una agenda que abarque lo político, lo económico, lo energético, lo migratorio",
+     "medida_sintesis": "Política de equilibrio con Marruecos y Argelia con una agenda política, económica, energética, migratoria y de seguridad",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-239": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Apoyaremos los esfuerzos de Naciones Unidas en el Sáhara Occidental para alcanzar una solución política justa, duradera y mutuamente aceptable para las partes.",
+     "medida_sintesis": "Apoyar los esfuerzos de Naciones Unidas para una solución política al conflicto del Sáhara Occidental, con transparencia ante las Cortes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-240": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Mantendremos el apoyo político, económico, militar y humanitario a Ucrania",
+     "medida_sintesis": "Mantener el apoyo político, económico, militar y humanitario a Ucrania",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta dotación ni programa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "las sanciones contra Rusia mientras dure su agresión",
+     "medida_sintesis": "Mantener las sanciones contra Rusia mientras dure la agresión",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Respaldaremos el derecho de Ucrania a decidir su futuro y a avanzar hacia la Unión Europea conforme a los procedimientos establecidos.",
+     "medida_sintesis": "Respaldar el avance de Ucrania hacia la Unión Europea conforme a los procedimientos establecidos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-241": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Retomaremos un diálogo responsable con el Reino Unido para revisar las consecuencias del acuerdo entre la Unión Europea y el Reino Unido",
+     "medida_sintesis": "Retomar el diálogo con el Reino Unido para revisar las consecuencias del acuerdo sobre Gibraltar entre la Unión Europea y el Reino Unido",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Seguiremos reivindicando nuestra soberanía, nuestros intereses y la prosperidad en el Campo de Gibraltar.",
+     "medida_sintesis": "Reivindicar la soberanía española sobre Gibraltar y la prosperidad del Campo de Gibraltar",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-242": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Alinearemos intereses y trabajaremos por una relación equilibrada y fuerte entre Estados Unidos y España en el marco de la Unión Europea",
+     "medida_sintesis": "Trabajar por una relación equilibrada con Estados Unidos en el marco de la Unión Europea que evite una guerra comercial",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-243": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Haremos de Iberoamérica un socio prioritario de España y de la Unión Europea, con una política de Estado y no de partido",
+     "medida_sintesis": "Hacer de Iberoamérica un socio prioritario de España y de la Unión Europea",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Defenderemos los intereses de los españoles y las empresas españolas en la región",
+     "medida_sintesis": "Defender los intereses de la ciudadanía y las empresas españolas en Iberoamérica",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "cooperaremos en cuestiones de seguridad, especialmente en la lucha contra el narcotráfico",
+     "medida_sintesis": "Cooperar con Iberoamérica en seguridad y lucha contra el narcotráfico",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Ampliaremos la cooperación educativa, cultural y científica",
+     "medida_sintesis": "Ampliar la cooperación educativa, cultural y científica con Iberoamérica",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es cooperación exterior, no acceso de la población a la educación o la cultura. DEC 1: no concreta programa ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "intensificaremos la relación con las comunidades hispanas de Estados Unidos y daremos a conocer allí el legado de España",
+     "medida_sintesis": "Intensificar la relación con las comunidades hispanas de Estados Unidos y difundir allí el legado de España",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-244": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "apoyaremos su transición a la democracia",
+     "medida_sintesis": "Apoyar la transición a la democracia en Cuba, Nicaragua y Venezuela",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Exigiremos la liberación de todos los presos políticos",
+     "medida_sintesis": "Exigir la liberación de todas las personas presas por motivos políticos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "apoyaremos a los disidentes. Respaldaremos a la líder de la oposición, María Corina Machado.",
+     "medida_sintesis": "Apoyar a las personas disidentes y respaldar a la líder de la oposición venezolana",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-246": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos soluciones diplomáticas para la resolución de conflictos, con socios clave, como Israel y los países árabes de la región.",
+     "medida_sintesis": "Impulsar soluciones diplomáticas a los conflictos de Oriente Medio con Israel y los países árabes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. La protección de la población civil de Gaza se enuncia como valoración, sin compromiso propio. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-247": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Auditaremos y redirigiremos estos gastos para que cada euro contribuya al bienestar y desarrollo donde verdaderamente sea necesario.",
+     "medida_sintesis": "Auditar y redirigir el gasto de cooperación al desarrollo para concentrarlo geográfica y temáticamente",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "La cooperación al desarrollo debe ser un instrumento de estabilización de los países que contribuya a disminuir la inmigración irregular.",
+     "medida_sintesis": "Orientar la cooperación al desarrollo a estabilizar los países de origen y reducir la inmigración irregular",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: no restringe el asilo ni otras vías de entrada. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite las áreas OTR y MIG, porque orienta la cooperación al desarrollo a reducir la inmigración irregular. Propuesta: OTR con 0 en las cuatro y REG 0, porque no restringe el acceso al asilo ni a otras vías de entrada en España.",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-248": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Haremos una diplomacia profesionalizada y moderna, cultural y económica, capaz de proyectar una imagen ambiciosa de España",
+     "medida_sintesis": "Diplomacia profesionalizada, cultural y económica al servicio de la influencia de España y de sus empresas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-249": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliaremos plantilla y mejoraremos los medios, incluyendo la digitalización del registro civil consular y el aumento de los procedimientos telemáticos.",
+     "medida_sintesis": "Ampliar la plantilla y los medios de la red consular, con digitalización del registro civil consular y más procedimientos telemáticos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Revisaremos todos los contratos de externalización de servicios existentes.",
+     "medida_sintesis": "Revisar los contratos de externalización de servicios consulares",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Fortaleceremos la Unidad de Emergencia Consular del Ministerio de Asuntos Exteriores, mediante la creación de una centralita operativa las 24 horas con número único",
+     "medida_sintesis": "Crear una centralita de emergencia consular operativa las 24 horas con número único",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-002": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforma del sistema de tributación sobre la renta (IRPF). Simplificación y bajada del IRPF.",
+     "medida_sintesis": "Reforma, simplificación y bajada general del IRPF",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad general.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reducción del tipo aplicable del IRPF para cada contribuyente o familia en función del número de hijos.",
+     "medida_sintesis": "Reducción del tipo del IRPF según el número de descendientes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: el beneficio depende de tener renta sujeta al impuesto. EXI 0: es una rebaja fiscal, que no reconoce el derecho ni obliga a proveerlo. DES 0: es una rebaja fiscal.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera entre fiscalidad general y protección de la familia, y admite las áreas OTR y CUI por su relación con la crianza. Propuesta: OTR, codificada como acceso a la protección familiar por vía fiscal (NDI 1), con UNI, EXI y DES 0.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Rebaja del tipo reducido y del tipo general del IVA atendiendo prioritariamente a productos esenciales y de primera necesidad.",
+     "medida_sintesis": "Rebaja de los tipos general y reducido del IVA con prioridad para los productos esenciales y de primera necesidad",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: el beneficio depende de comprar en el mercado. EXI 0: es una rebaja fiscal. DES 0: es una rebaja fiscal, no una regulación de precios.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera entre fiscalidad general y acceso a la alimentación, porque prioriza los productos esenciales y de primera necesidad. Propuesta: OTR, codificada como acceso a la alimentación por vía fiscal (NDI 1, resto 0); si se considera fiscalidad general, 0 en las cuatro.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reducir el tipo del Impuesto de Sociedades",
+     "medida_sintesis": "Reducir el tipo del Impuesto de Sociedades",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad general.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Cuota de cero euros si los ingresos no llegan al Salario Mínimo Interprofesional y, superado dicho umbral, una cuota progresiva desde los 50 euros",
+     "medida_sintesis": "Cuota de autónomos de cero euros con ingresos inferiores al SMI y cuota progresiva desde 50 euros por encima de ese umbral",
+     "area": "EMP",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: la cuota cero depende de no superar un umbral de ingresos. EXI 0: es una exención de cotización, que no reconoce un derecho ni obliga a proveerlo. DES 0: es una bonificación de la cuota, no provisión pública.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera entre exención de cotización (DES 0) y cotización a cargo del Estado (DES 1), porque el texto no dice si se mantiene la protección ni quién la financia. Propuesta: tratarla como exención, con UNI, EXI y DES 0 y NDI 1.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Revisión y reducción sistemática de todos los impuestos y tasas que lastran la prosperidad de los trabajadores, familias y empresas españolas.",
+     "medida_sintesis": "Revisión y reducción general de impuestos y tasas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad general. DEC 1: no identifica qué impuestos ni con qué instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-003": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Compatibilizar la rebaja de impuestos con la financiación de los servicios públicos esenciales, mediante el control del déficit, la eliminación del gasto superfluo e ideológico",
+     "medida_sintesis": "Reducir la deuda pública mediante control del déficit y eliminación del gasto que el programa califica de superfluo e ideológico",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: reducir el gasto general no es regresivo por sí mismo y no identifica ninguna garantía recortada. DEC 1: no concreta partidas ni instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-004": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Actualizar el complemento de insularidad para el personal en activo del sector público estatal en los territorios insulares",
+     "medida_sintesis": "Actualizar el complemento de insularidad del personal del sector público estatal en los territorios insulares según el coste de vida",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera entre política de personal del Estado y condiciones de trabajo, y admite las áreas OTR y EMP. Propuesta: OTR con 0 en las cuatro, porque fija condiciones de un colectivo de personal público y no regula el acceso de la población a un trabajo digno; si se codifica como condición laboral, UNI 1, EXI 1, DES 0 y NDI 1.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Rebaja general del Impuesto General Indirecto Canario",
+     "medida_sintesis": "Rebaja general del IGIC",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad general.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "supresión del Arbitrio sobre Importaciones y Entregas de Mercancías en las Islas Canarias",
+     "medida_sintesis": "Supresión del AIEM en Canarias",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad general.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Mejora de las ayudas al transporte a la Península.",
+     "medida_sintesis": "Mejorar las ayudas al transporte entre los territorios insulares y la Península",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de transporte.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-005": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar la inversión en I+D+i, los incentivos fiscales a la innovación empresarial, la colaboración entre centros de investigación y empresas",
+     "medida_sintesis": "Reforzar la inversión, los incentivos fiscales y la transferencia de conocimiento en I+D+i",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Plan para recuperar el talento que se ha tenido que marchar ante la falta de oportunidades.",
+     "medida_sintesis": "Plan de retorno de las personas con talento que emigraron por falta de oportunidades",
+     "area": "EMP",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: se dirige al «talento», un criterio de mérito. EXI 0: es un plan, sin derecho ni obligación. DES 0: no dice cómo se provee el acceso.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera entre política de empleo y de I+D, y admite las áreas EMP, MIG y OTR. Propuesta: EMP como acceso al empleo de la población emigrada, con UNI 0 por exigir «talento» y NDI 1.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-006": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Tipos mínimos y bonificaciones y deducciones reforzadas para los residentes españoles de estas zonas y para todos aquellos españoles que decidan trasladar su residencia",
+     "medida_sintesis": "Tipos mínimos, bonificaciones y deducciones fiscales para la población española residente en zonas en riesgo de despoblación o que se traslade a ellas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad territorial. REG 0: nombra a la población española como destinataria sin cláusula de exclusión expresa.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera de NDI y REG: «residentes españoles» puede leerse como mención genérica o como condición de nacionalidad para un beneficio fiscal. Propuesta: REG 0 por la regla de 2.4 (sin «solo» ni contraste con personas extranjeras), con 0 en las cuatro por ser fiscalidad territorial.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-008": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Bajada masiva de los impuestos de la energía eléctrica a familias, empresas e industrias españolas. Fin de la doble imposición.",
+     "medida_sintesis": "Bajada de los impuestos de la electricidad para hogares, empresas e industria y fin de la doble imposición",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: el beneficio depende del consumo pagado en el mercado. EXI 0: es una rebaja fiscal. DES 0: es una rebaja fiscal, no una tarifa regulada.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera entre fiscalidad energética general y acceso a los suministros básicos del hogar; admite las áreas MAM y VIV. Propuesta: MAM, codificada como acceso al suministro por vía fiscal (NDI 1, resto 0), igual que las rebajas fiscales ligadas a un derecho.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aprovechamiento de nuestros recursos energéticos, la mejora de las redes y la reducción de cargas fiscales y regulatorias. Plan Nacional de Soberanía Energética.",
+     "medida_sintesis": "Plan Nacional de Soberanía Energética basado en los recursos propios, la mejora de redes y la reducción de cargas",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética de oferta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Fin del tope regulatorio a la inversión en redes eléctricas. Eliminar el tope a la inversión en redes para que España tenga la red eléctrica",
+     "medida_sintesis": "Eliminar el tope a la inversión en redes eléctricas y resolver las autorizaciones de red en plazos máximos con silencio positivo",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética de infraestructuras.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Suspender la aplicación en España de acuerdos internacionales que impiden nuestro desarrollo productivo",
+     "medida_sintesis": "Suspender la aplicación de acuerdos internacionales que limitan el desarrollo productivo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no identifica qué acuerdos.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Revertir las normativas que atacan frontalmente a la industria nacional (prohibición de motores de combustión, impuestos a las emisiones de CO2)",
+     "medida_sintesis": "Revertir la prohibición de los motores de combustión y los impuestos a las emisiones de CO2 derivados del Pacto Verde Europeo",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: elimina normas climáticas vigentes ligadas al derecho a un medio ambiente sano.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera de REG: el libro no dice expresamente si las normas ambientales y climáticas son garantías del derecho a un medio ambiente sano. Propuesta: REG 1, porque suprime un estándar ambiental vigente para todas las personas, igual que derogar una regulación de precios suprime una garantía de vivienda.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Fin a las restricciones para poder explorar, investigar y explotar nuestros recursos naturales y yacimientos minerales.",
+     "medida_sintesis": "Suprimir las restricciones a la exploración y explotación de recursos naturales y yacimientos minerales",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: suprime límites ambientales a la explotación de recursos naturales.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "Ambigüedad: no identifica qué restricciones elimina, aunque los límites a la exploración y explotación de recursos naturales son sobre todo normas ambientales. Propuesta: REG 1, igual que el resto de supresiones de estándares ambientales; REG 0 si la validación exige que la norma suprimida esté identificada.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Protección de España frente a la dependencia excesiva de materias primas, componentes y tecnologías críticas.",
+     "medida_sintesis": "Reducir la dependencia exterior de materias primas, componentes y tecnologías críticas por razones de seguridad económica",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Se garantizará la supervivencia de las centrales nucleares actuales, derogando el calendario de cierre.",
+     "medida_sintesis": "Mantener las centrales nucleares actuales derogando el calendario de cierre",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: la continuidad nuclear no suprime una garantía de derechos sociales del apartado 2.2.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Se promoverán estudios urgentes para instalar centrales nucleares en los emplazamientos disponibles adyacentes a las actuales.",
+     "medida_sintesis": "Promover estudios para nuevas centrales nucleares junto a las actuales y ejecutar los proyectos viables",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: se formula como promoción de estudios.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aprobación de un Plan Nacional de Reindustrialización enfocado a contrarrestar las deslocalizaciones, la competencia desleal, la pérdida de empleo industrial",
+     "medida_sintesis": "Plan Nacional de Reindustrialización y atracción de inversiones estratégicas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política industrial; el empleo es un fin declarado, no un acceso regulado.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Trabajo estable y salarios dignos para los españoles.",
+     "medida_sintesis": "Trabajo estable y salarios dignos para la población española, poniendo fin al desempleo y la precariedad",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: no fija norma, estándar ni obligación. DES 0: no dice cómo se provee el acceso al empleo ni regula los salarios. DEC 1: enuncia un objetivo sin instrumento. NDI 1: la mención a la población española es genérica y no contiene cláusula de exclusión.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Derogar la legislación laboral de Sánchez que ha agravado la precariedad, desincentivado la contratación y empeorado una situación ya de por sí insostenible",
+     "medida_sintesis": "Derogar la legislación laboral aprobada por el actual Gobierno",
+     "area": "EMP",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: deroga normas vigentes que regulan las condiciones del mercado de trabajo.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera de REG: el texto no identifica qué normas deroga, aunque la legislación laboral vigente limita la contratación temporal y regula condiciones de trabajo. Propuesta: REG 1, por analogía con derogar una ley que regula el precio del alquiler.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Fomentar la industria turística mediante empleos de calidad y garantizando la convivencia y la preservación de la identidad de nuestros barrios.",
+     "medida_sintesis": "Fomentar la industria turística, incluido el turismo rural, con medidas fiscales y de promoción",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política sectorial. DEC 1: «fomentar» y medidas fiscales y de promoción sin concretar.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "apoyo a la conservación y difusión de nuestro patrimonio natural, cultural y artístico",
+     "medida_sintesis": "Apoyar la conservación y difusión del patrimonio natural, cultural y artístico",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: «apoyo» sin instrumento.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera entre política de patrimonio y acceso a la vida cultural; admite también MAM por el patrimonio natural. Propuesta: OTR con 0 en las cuatro, porque apoya la conservación del patrimonio como recurso turístico sin regular ni proveer el acceso de la población a la cultura.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-024": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Plan de inversiones para recuperar y revitalizar barrios, municipios y provincias abandonadas durante décadas por los poderes públicos.",
+     "medida_sintesis": "Plan de inversiones para revitalizar barrios, municipios y provincias desatendidos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un plan de inversión territorial; el titular habla de atención a la población desfavorecida, pero el texto no concreta prestación ni servicio.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera entre inversión territorial y atención social: el titular apunta a la atención de la población española más desfavorecida, es decir, a la protección social, que el texto no desarrolla. Propuesta: una sola medida en OTR con 0 en las cuatro; si el titular se codifica aparte, UNI 0 por dirigirse a la población más desfavorecida, EXI 0, DES 0, NDI 1 y DEC 1.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-042": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ley de Unidad de Mercado. Lo que es legal en una región de España, lo es en toda España.",
+     "medida_sintesis": "Ley de Unidad de Mercado que elimine requisitos y trámites autonómicos adicionales para operar en todo el territorio",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política económica.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-048": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Oposición a todas las medidas que perjudiquen objetivamente al sector primario",
+     "medida_sintesis": "Oponerse en la Unión Europea a las medidas que perjudiquen al sector primario, incluidas las del Pacto Verde",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: es una posición en la Unión Europea que no suprime ninguna garantía concreta. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Rechazo explícito al acuerdo UE-Mercosur y de todo acuerdo comercial que obligue a nuestros productores a competir en desigualdad de condiciones.",
+     "medida_sintesis": "Rechazar el acuerdo UE-Mercosur y los acuerdos comerciales que impongan competencia desigual al sector agrario",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición, sin instrumento propio.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Inclusión de cláusulas espejo. Recuperación del principio de preferencia comunitaria.",
+     "medida_sintesis": "Cláusulas espejo en los acuerdos comerciales y recuperación de la preferencia comunitaria",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aumento de los controles en frontera y lucha contra el fraude en el etiquetado.",
+     "medida_sintesis": "Más controles fronterizos de productos agroalimentarios y lucha contra el fraude en el etiquetado",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-049": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Será derogada cualquier normativa que perjudique, imponga cargas o sobrecostes que perjudiquen estos oficios",
+     "medida_sintesis": "Derogar cualquier normativa que imponga cargas o sobrecostes a la agricultura, la ganadería y la pesca",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: no identifica ninguna garantía de derechos sociales que se suprima. DEC 1: no identifica las normas que deroga.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "Ambigüedad: la derogación genérica de normas que «imponen cargas» al sector primario puede alcanzar normas ambientales o laborales, pero el texto no las identifica. Propuesta: REG 0 y DEC 1, porque se codifica lo que el texto dice; REG 1 solo si la validación entiende que incluye estándares ambientales o laborales.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-050": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Creación de un fondo de compensación destinado a mitigar el impacto negativo de las imposiciones normativas de Bruselas, desastres naturales o circunstancias adversas sobrevenidas",
+     "medida_sintesis": "Fondo de compensación para los sectores productivos frente a normas europeas, desastres naturales y circunstancias adversas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-051": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Fin de cualquier transferencia de fondos públicos destinados a financiar proyectos en cualquier país extracomunitario que haga competencia desleal",
+     "medida_sintesis": "Suprimir la financiación pública de proyectos en países extracomunitarios que compitan con la producción agroalimentaria nacional",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: afecta a la cooperación exterior, no a garantías de derechos sociales del apartado 2.2.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-052": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Rechazo frontal a la propuesta de reducción del presupuesto de la PAC",
+     "medida_sintesis": "Rechazar la reducción del presupuesto de la PAC y garantizar su autonomía presupuestaria",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición en la negociación europea, sin instrumento propio.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Vinculación del reparto de fondos de la PAC a una nueva variable que prime la despoblación.",
+     "medida_sintesis": "Repartir los fondos de la PAC con una variable que prime la despoblación",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "el fin de las exigencias burocráticas y medioambientales derivadas del fanatismo climático",
+     "medida_sintesis": "Suprimir las exigencias burocráticas y ambientales de la PAC",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: elimina condiciones ambientales vigentes de la PAC.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera de REG: el libro no dice expresamente si las normas ambientales y climáticas son garantías del derecho a un medio ambiente sano. Propuesta: REG 1, porque suprime un estándar ambiental vigente para todas las personas, igual que derogar una regulación de precios suprime una garantía de vivienda.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-053": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promover la revisión de la Política Pesquera Común y de las cuotas y restricciones que perjudican injustificadamente a nuestros pescadores",
+     "medida_sintesis": "Promover la revisión de la política pesquera común y de las cuotas y restricciones al sector pesquero",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: promueve una revisión en la Unión Europea, no suprime una garantía. DEC 1: «promover» sin instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-056": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aplicación, con carácter general, del principio de declaración responsable y el silencio administrativo positivo en todos aquellos procedimientos administrativos vinculados al medio rural",
+     "medida_sintesis": "Declaración responsable y silencio administrativo positivo en los procedimientos vinculados al medio rural",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es simplificación administrativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Revisión y refuerzo del Sistema Español de Seguros Agrarios ante las necesidades del campo español.",
+     "medida_sintesis": "Revisar y reforzar el sistema de seguros agrarios",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta en qué consiste el refuerzo.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-057": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aumentar la inversión destinada a situaciones sobrevenidas, como inundaciones o granizadas, así como plagas que afecten a la sanidad animal y vegetal.",
+     "medida_sintesis": "Más inversión para atender inundaciones, granizadas y plagas que afecten a la sanidad animal y vegetal",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es apoyo sectorial agrario ante emergencias.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-058": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulso de la Formación Profesional en el sector primario a través de programas públicos y concertados.",
+     "medida_sintesis": "Impulsar la Formación Profesional del sector primario mediante programas públicos y concertados para favorecer el relevo generacional",
+     "area": "EDU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: se formula como impulso mediante programas, sin reconocer un derecho ni fijar una obligación de provisión.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de DES: combina programas públicos y concertados y no dice si la formación concertada es gratuita. Propuesta: DES 1 por nombrar programas públicos; DES 0 si la validación exige gratuidad expresa para la parte concertada.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-112": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aumento de la inversión en infraestructuras que incluya, al menos, red de carreteras, red ferroviaria, infraestructuras hidráulicas y de contención de inundaciones, telecomunicaciones, nodos logísticos,",
+     "medida_sintesis": "Más inversión en carreteras, ferrocarril, infraestructuras hidráulicas, telecomunicaciones, logística y puertos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de infraestructuras.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-113": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Prioridad a la seguridad ferroviaria, al mantenimiento de una red abandonada e infradotada",
+     "medida_sintesis": "Priorizar la seguridad y el mantenimiento de la red ferroviaria, con auditoría de su estado",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de transporte.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "a los servicios de Cercanías y Media Distancia",
+     "medida_sintesis": "Priorizar los servicios de Cercanías y Media Distancia",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de transporte. DEC 1: «prioridad» sin instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Modernización y electrificación de las líneas convencionales para conectar también las ciudades pequeñas y la España rural.",
+     "medida_sintesis": "Modernizar y electrificar las líneas ferroviarias convencionales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de transporte.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-001": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Expulsión de todos los invasores con carácter inmediato.",
+     "medida_sintesis": "Expulsión inmediata de todas las personas que el programa denomina «invasores» en Ceuta",
+     "area": "MIG",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: expulsión inmediata y colectiva, sin procedimiento individual.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Ambigüedad: el texto no nombra a las personas migrantes, pero en el contexto de la unidad («invasión sufrida en Ceuta») se refiere a personas que entraron en la ciudad. Propuesta: MIG con REG 1, porque restringe el acceso a la protección internacional mediante expulsiones inmediatas.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Defender la españolidad de Ceuta y Melilla, y a los trabajadores, familias y empresas de estas dos ciudades españolas.",
+     "medida_sintesis": "Defender la soberanía española sobre Ceuta y Melilla y a su población y empresas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa o apoyo, sin norma, prestación, plazo ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Militarización de la frontera para repeler cualquier intento futuro de invasión o ataque híbrido.",
+     "medida_sintesis": "Militarizar la frontera de Ceuta y Melilla para repeler entradas",
+     "area": "MIG",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: no restringe expresamente el asilo ni otras vías de entrada.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera de REG: la protección militar de las fronteras frente a la inmigración irregular puede limitar el acceso a la protección internacional, pero el texto no restringe expresamente el asilo ni otras vías de entrada. Propuesta: MIG con REG 0 y 0 en las cuatro, porque no regula ni provee el acceso a un derecho.",
+     "repite": "vox-088"
+    },
+    {
+     "fragmento": "Realizar un plan de inversiones que garantice el futuro y la prosperidad de ambas ciudades y su protección.",
+     "medida_sintesis": "Plan de inversiones para Ceuta y Melilla",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Garantizar la libertad y seguridad de las familias españolas residentes en territorio nacional atacado y establecer medidas para evitar futuras invasiones",
+     "medida_sintesis": "Garantizar la seguridad de la población residente en Ceuta y adoptar medidas para evitar nuevas entradas masivas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad ciudadana. DEC 1: no concreta las medidas.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "reparar las consecuencias sociales, económicas y psicológicas de la producida en Ceuta.",
+     "medida_sintesis": "Reparar las consecuencias sociales, económicas y psicológicas de la crisis de Ceuta",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta prestación, servicio ni dotación.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera: la reparación de consecuencias sociales y psicológicas podría leerse como atención en salud mental (SME), pero no nombra servicio ni prestación. Propuesta: OTR con 0 en las cuatro y DEC 1; si se codifica como acceso, SME con UNI 1, NDI 1, EXI 0 y DES 0.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Promover ante la Justicia el procesamiento a Pedro Sánchez y su gobierno por traición y delitos contra la seguridad del Estado",
+     "medida_sintesis": "Promover acciones judiciales contra el presidente del Gobierno y su gabinete por su actuación en la crisis de Ceuta",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: «promover» sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Impulsar sanciones, suspender acuerdos internacionales y revisar las relaciones diplomáticas hasta que Marruecos respete las fronteras y la soberanía de España.",
+     "medida_sintesis": "Sanciones, suspensión de acuerdos y revisión de relaciones diplomáticas con Marruecos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-079": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "con unas Fuerzas Armadas profesionales y unas Fuerzas y Cuerpos de Seguridad del Estado bien dimensionadas con todos los recursos necesarios",
+     "medida_sintesis": "Fuerzas Armadas y Fuerzas y Cuerpos de Seguridad del Estado dimensionados y con los recursos necesarios",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Repite la dotación de medios de la medida 83.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "vox-083"
+    }
+   ]
+  },
+  "vox-083": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Dotar de suficientes medios humanos y recursos materiales, técnicos, tecnológicos, jurídicos, organizativos y presupuestarios, así como de las infraestructuras, instalaciones y demás capacidades",
+     "medida_sintesis": "Dotar de medios humanos, materiales y presupuestarios a las Fuerzas Armadas, el CNI, las Fuerzas y Cuerpos de Seguridad, Vigilancia Aduanera e Instituciones Penitenciarias",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-088": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Establecer un nuevo modelo de protección permanente de las fronteras terrestres, marítimas y aéreas, con participación de las Fuerzas Armadas",
+     "medida_sintesis": "Nuevo modelo de protección permanente de las fronteras con participación de las Fuerzas Armadas contra la inmigración irregular y las redes de tráfico de personas",
+     "area": "MIG",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: no restringe expresamente el asilo ni otras vías de entrada.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera de REG: la protección militar de las fronteras frente a la inmigración irregular puede limitar el acceso a la protección internacional, pero el texto no restringe expresamente el asilo ni otras vías de entrada. Propuesta: MIG con REG 0 y 0 en las cuatro, porque no regula ni provee el acceso a un derecho.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Lucha incesante contra el terrorismo islámico.",
+     "medida_sintesis": "Lucha contra el terrorismo yihadista",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-009": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos la recuperación para uso civil de terrenos e instalaciones militares en Canarias, entre ellos el campo de tiro de Pájara, en Fuerteventura.",
+     "medida_sintesis": "Recuperar para uso civil terrenos e instalaciones militares de Canarias, negociando con el Estado su cesión y su recuperación ambiental",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: se formula como impulso y negociación con el Estado, sin norma ni dotación.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite las áreas OTR y MAM, porque incluye la recuperación ambiental de los terrenos. Propuesta: OTR con 0 en las cuatro, porque el objeto dominante es el cambio de uso del suelo militar y no regula el acceso a un medio ambiente sano.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-092": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defenderemos la continuidad y el fortalecimiento de INTERREG, los programas de cooperación territorial que conectan Canarias con Madeira, las Azores y África occidental.",
+     "medida_sintesis": "Defender la continuidad y el refuerzo de los programas INTERREG de cooperación territorial",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa o apoyo, sin norma, prestación, plazo ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-094": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promoveremos el reconocimiento estratégico europeo de la Macaronesia, con Canarias, Madeira y las Azores",
+     "medida_sintesis": "Promover el reconocimiento estratégico europeo de la Macaronesia",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: «promover» sin instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reforzaremos el papel de Canarias en la cooperación económica, científica, educativa y tecnológica con África occidental y en la diplomacia científica.",
+     "medida_sintesis": "Reforzar el papel de Canarias en la cooperación con África occidental y en la diplomacia científica",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es cooperación exterior. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Impulsaremos nuevos cables submarinos y conexiones alternativas que refuercen la seguridad",
+     "medida_sintesis": "Impulsar nuevos cables submarinos y conexiones alternativas de telecomunicaciones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de infraestructuras. DEC 1: «impulsar» sin dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-095": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos la participación de las instituciones canarias en los asuntos exteriores con impacto directo sobre el archipiélago.",
+     "medida_sintesis": "Reclamar la participación de las instituciones canarias en la política exterior que afecte al archipiélago, en especial con Marruecos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: reclama que otro actúe, sin instrumento propio.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Defenderemos ante el Estado y la UE una solución al conflicto del Sáhara Occidental conforme a las resoluciones de Naciones Unidas.",
+     "medida_sintesis": "Defender una solución al conflicto del Sáhara Occidental conforme a las resoluciones de Naciones Unidas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "defenderemos el derecho del pueblo saharaui a decidir su futuro y la protección de sus derechos humanos y de sus recursos naturales.",
+     "medida_sintesis": "Defender la autodeterminación del pueblo saharaui y la protección de sus derechos humanos y recursos naturales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política exterior, no acceso de la población residente a un derecho social. DEC 1: es una posición de política exterior sin instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  }
+ }
+}

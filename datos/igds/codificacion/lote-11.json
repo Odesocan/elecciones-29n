@@ -1,0 +1,1706 @@
+{
+ "lote": "lote-11",
+ "unidades": {
+  "psoe-105": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "una prestación de la Seguridad Social que cubra cuatro semanas del permiso parental para el cuidado de hijos menores de ocho años",
+     "medida_sintesis": "Crear una prestación de la Seguridad Social que retribuya al 100 % de la base reguladora cuatro semanas del permiso parental para el cuidado de menores de ocho años",
+     "area": "CUI",
+     "uni": 0,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: prestación contributiva calculada sobre la base reguladora, exige afiliación y cotización previa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "reforzar los permisos de nacimiento y cuidado reconociendo una semana adicional para el segundo progenitor cuando ambos hayan disfrutado sus permisos de forma no solapada",
+     "medida_sintesis": "Reconocer una semana adicional de permiso por nacimiento y cuidado a la segunda persona progenitora cuando ambas disfruten sus permisos sin solaparlos",
+     "area": "CUI",
+     "uni": 0,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: la prestación por nacimiento y cuidado es contributiva y exige cotización previa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-189": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar la igualdad efectiva en el deporte",
+     "medida_sintesis": "Impulsar la igualdad efectiva entre mujeres y hombres en el deporte: continuidad deportiva de niñas y adolescentes, presencia de mujeres en la dirección, visibilidad e igualdad de condiciones",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «impulsar» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "la profesionalización del fútbol femenino",
+     "medida_sintesis": "Impulsar la profesionalización del fútbol femenino",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «impulsar» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite IGU (igualdad en el deporte) y EMP (condiciones laborales de las futbolistas). Propuesta: IGU, porque se formula como parte de la igualdad efectiva en el deporte.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-199": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar la protección legal y económica de todas las familias mediante la Ley de Familias",
+     "medida_sintesis": "Garantizar mediante la Ley de Familias la protección legal y económica de todas las familias",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "DES 0: no precisa qué prestaciones o servicios públicos proveen la protección económica.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Ley nombrada sin contenido concreto del derecho. Propuesta: EXI 1 por analogía con la ley de trata de pp-029; EXI 0 si se exige que la ley concrete la prestación o la obligación.",
+     "repite": ""
+    },
+    {
+     "fragmento": "desarrollando la nueva normativa de reconocimiento y protección a las familias monoparentales",
+     "medida_sintesis": "Desarrollar una normativa de reconocimiento y protección de las familias monoparentales",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: reconocimiento normativo sin prestación ni derecho concreto asociado, como pp-165. DES 0: no nombra un servicio público ni una prestación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "otras medidas de apoyo a familias vulnerables.",
+     "medida_sintesis": "Aplicar otras medidas de apoyo a las familias vulnerables",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI 0: se dirige a familias vulnerables. EXI 0: sin instrumento; es declarativa. DES 0: no precisa cómo se provee el apoyo.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-306": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar la transparencia retributiva y la igualdad salarial, revisando categorías profesionales y complementos que infravaloran los trabajos feminizados",
+     "medida_sintesis": "Reforzar la transparencia retributiva y la igualdad salarial entre mujeres y hombres revisando categorías y complementos, con más negociación colectiva, Inspección de Trabajo y cumplimiento de los planes de igualdad",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: refuerza la aplicación de normas vigentes sin fijar un estándar ni reconocer un derecho nuevo.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite IGU (discriminación salarial por sexo) y EMP (salarios y condiciones laborales). Propuesta: IGU, porque el objeto dominante es la brecha salarial de género.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-307": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar el acceso de las mujeres a puestos de responsabilidad y liderazgo, eliminando barreras profesionales",
+     "medida_sintesis": "Impulsar el acceso de las mujeres a puestos de responsabilidad y su presencia en sectores estratégicos, eliminando barreras profesionales",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «impulsar» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-309": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incorporar la perspectiva de género en la prevención de riesgos laborales, reconociendo y previniendo los riesgos y enfermedades que afectan específicamente a las mujeres.",
+     "medida_sintesis": "Incorporar la perspectiva de género en la prevención de riesgos laborales, reconociendo los riesgos y enfermedades que afectan específicamente a las mujeres",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: no concreta la norma ni el estándar con que se reconocen esos riesgos y enfermedades.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite EMP (salud laboral) e IGU. Propuesta: EMP, porque el objeto es la prevención de riesgos laborales; EXI 1 si el reconocimiento se hace en el cuadro de enfermedades profesionales.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-310": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "mediante una Estrategia Nacional de Género que elimine las brechas existentes, promueva la participación de las mujeres en todos los ámbitos científicos",
+     "medida_sintesis": "Aprobar una Estrategia Nacional de Género en ciencia e innovación que elimine brechas, promueva la participación de las mujeres y proteja la investigación en igualdad",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una estrategia, sin derecho reconocido ni obligación. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-311": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar el liderazgo de las mujeres en la tecnología",
+     "medida_sintesis": "Impulsar el liderazgo de las mujeres en la tecnología",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «impulsar» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "promover una orientación académica y profesional libre de estereotipos de género, fomentando la presencia de niñas y jóvenes en disciplinas STEAM",
+     "medida_sintesis": "Promover una orientación académica y profesional libre de estereotipos de género, con más niñas y jóvenes en disciplinas STEAM y más hombres en educación y cuidados",
+     "area": "EDU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «promover» sin norma, estándar ni plazo; es declarativa.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite EDU (orientación del sistema educativo) e IGU (estereotipos de género). Propuesta: EDU y DES 1, porque la orientación académica es un servicio del sistema educativo; IGU y DES 0 si prima el objetivo de igualdad.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-312": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reducir la brecha digital de género, garantizando conectividad, formación y acompañamiento para mujeres mayores, rurales o en situación de vulnerabilidad.",
+     "medida_sintesis": "Reducir la brecha digital de género con conectividad, formación y acompañamiento para mujeres mayores, rurales o en situación de vulnerabilidad",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: «garantizar» unos servicios sin norma, estándar ni plazo que los reconozca como derecho.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Uno de los tres colectivos destinatarios se define por la situación de vulnerabilidad. Propuesta: UNI 1, porque las mujeres mayores y rurales acceden sin prueba de necesidad; UNI 0 si se lee la vulnerabilidad como condición para todo el colectivo.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-313": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar la igualdad en la universidad y la investigación, impulsando los estudios feministas, la perspectiva de género en la ciencia",
+     "medida_sintesis": "Reforzar la igualdad en la universidad y la investigación con estudios feministas, perspectiva de género en la ciencia y más presencia y visibilidad de las investigadoras",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «reforzar» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-314": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar una Estrategia Estatal contra la feminización de la pobreza, reforzando la protección social, el acceso al empleo digno",
+     "medida_sintesis": "Impulsar una Estrategia Estatal contra la feminización de la pobreza con protección social, empleo digno y acceso prioritario a la vivienda de las mujeres en situación de vulnerabilidad",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: se dirige a mujeres en situación de vulnerabilidad. EXI 0: es una estrategia, sin derecho reconocido ni obligación. DES 0: no precisa qué prestaciones o servicios públicos refuerza.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-315": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Mejorar la medición y la protección frente a la pobreza de las mujeres, incorporando indicadores multidimensionales",
+     "medida_sintesis": "Mejorar la medición de la pobreza de las mujeres con indicadores multidimensionales",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida estadística.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "abordando específicamente el sinhogarismo femenino",
+     "medida_sintesis": "Abordar específicamente el sinhogarismo femenino",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite VIV (sinhogarismo) e IGU (pobreza de las mujeres). Propuesta: VIV, porque el objeto es el acceso al alojamiento.",
+     "repite": ""
+    },
+    {
+     "fragmento": "reforzando el complemento para reducir la brecha de género en las pensiones.",
+     "medida_sintesis": "Reforzar el complemento para reducir la brecha de género en las pensiones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI 0: complemento de pensiones contributivas, exige cotización previa. EXI 0: no fija cuantía ni condiciones; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-101"
+    }
+   ]
+  },
+  "psoe-316": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promover el emprendimiento femenino, facilitando financiación, formación, acompañamiento y redes de apoyo para proyectos liderados por mujeres",
+     "medida_sintesis": "Promover el emprendimiento femenino con financiación, formación, acompañamiento y redes de apoyo, en especial en el medio rural y la economía digital",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: «promover» con apoyos, sin derecho reconocido ni obligación. DES 0: apoyos a la actividad empresarial, no un servicio público ni una regulación.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite IGU (brecha de género en el emprendimiento) y EMP (trabajo por cuenta propia). Propuesta: IGU, como el programa de mujer rural de pp-204.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-317": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar la autonomía económica de las mujeres rurales, impulsando su participación en sectores estratégicos, promoviendo la titularidad compartida de las explotaciones agrarias",
+     "medida_sintesis": "Reforzar la autonomía económica de las mujeres rurales con participación en sectores estratégicos, titularidad compartida de las explotaciones, cooperativismo, acceso a servicios y retorno al medio rural",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «impulsar» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-318": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Facilitar la reincorporación al empleo tras periodos dedicados a los cuidados, mediante itinerarios de recualificación, reconocimiento de cualificaciones, formación digital, acreditación de competencias",
+     "medida_sintesis": "Facilitar la reincorporación al empleo tras periodos de cuidados con itinerarios de recualificación, acreditación de competencias, formación digital y acompañamiento",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: «facilitar» mediante servicios, sin derecho reconocido ni estándar.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-320": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear un Indicador Nacional de Brechas de Tiempo",
+     "medida_sintesis": "Crear un Indicador Nacional de Brechas de Tiempo sobre el reparto de los cuidados y del tiempo entre mujeres y hombres",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida estadística.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-321": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promover la corresponsabilidad de los hombres en los cuidados y las tareas domésticas, impulsando cambios educativos, culturales y laborales",
+     "medida_sintesis": "Promover la corresponsabilidad de los hombres en los cuidados y las tareas domésticas mediante cambios educativos, culturales y laborales",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «promover» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-323": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar los servicios de apoyo ante necesidades familiares sobrevenidas, asegurando recursos de cuidados para situaciones de urgencia y horarios no convencionales.",
+     "medida_sintesis": "Reforzar los servicios de apoyo ante necesidades familiares sobrevenidas con recursos de cuidados para urgencias y horarios no convencionales",
+     "area": "CUI",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: refuerza servicios sin reconocer un derecho ni fijar estándar, ratio o plazo.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-324": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar la conciliación durante todo el año, ampliando los recursos educativos, de ocio y de cuidados en periodos no lectivos",
+     "medida_sintesis": "Ampliar los recursos educativos, de ocio y de cuidados en periodos no lectivos, con atención especial al medio rural, las familias monoparentales y las personas dependientes",
+     "area": "CUI",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: amplía recursos sin reconocer un derecho ni fijar estándar, ratio o plazo.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-325": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "mediante la retribución de los permisos parentales y por cuidados, su extensión a familias monoparentales y personas autónomas",
+     "medida_sintesis": "Retribuir los permisos parentales y por cuidados y extenderlos a las familias monoparentales y a las personas autónomas",
+     "area": "CUI",
+     "uni": 0,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: la retribución de los permisos es una prestación de la Seguridad Social ligada a la afiliación y la cotización. EXI 0: no fija cuantía ni duración de la retribución.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-326"
+    },
+    {
+     "fragmento": "la mejora de las medidas de adaptación y reducción de jornada para el cuidado de menores hasta los 16 años.",
+     "medida_sintesis": "Mejorar la adaptación y la reducción de jornada para el cuidado de menores y ampliarlas hasta los 16 años",
+     "area": "CUI",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Derecho laboral de conciliación con contenido concreto (hasta los 16 años) que obliga a todas las empresas, sin prueba de renta ni cotización previa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-326"
+    }
+   ]
+  },
+  "psoe-326": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "mediante la retribución de los permisos parentales y por cuidados, adaptándolos además a familias monoparentales y personas autónomas",
+     "medida_sintesis": "Retribuir los permisos parentales y por cuidados y extenderlos a las familias monoparentales y a las personas autónomas",
+     "area": "CUI",
+     "uni": 0,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: la retribución de los permisos es una prestación de la Seguridad Social ligada a la afiliación y la cotización. EXI 0: no fija cuantía ni duración de la retribución.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Se solapa con la prestación del permiso parental de psoe-105, más concreta, pero añade los permisos por cuidados y su extensión a familias monoparentales y personas autónomas. Propuesta: medida propia con UNI 0 por prestación contributiva; repite psoe-105 si se considera el mismo objeto.",
+     "repite": ""
+    },
+    {
+     "fragmento": "mejorando las medidas de adaptación y reducción de jornada para el cuidado de menores y ampliándolas hasta los 16 años",
+     "medida_sintesis": "Mejorar la adaptación y la reducción de jornada para el cuidado de menores y ampliarlas hasta los 16 años",
+     "area": "CUI",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Derecho laboral de conciliación con contenido concreto (hasta los 16 años) que obliga a todas las empresas, sin prueba de renta ni cotización previa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-327": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos la reforma del artículo 43 de la Constitución, iniciada en 2026, para reforzar la garantía del derecho al aborto en condiciones de igualdad",
+     "medida_sintesis": "Reformar el artículo 43 de la Constitución para garantizar el derecho al aborto en condiciones de igualdad en todo el territorio",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Reconocimiento constitucional del derecho a una prestación sanitaria, en condiciones de igualdad en todo el territorio y sin prueba de renta.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "La reforma constitucional se formula con «impulsaremos», el texto no nombra el sistema público que presta el servicio y la medida admite SAN e IGU. Propuesta: EXI 1 porque el instrumento reconoce el derecho, DES 1 por ser una prestación sanitaria ligada al artículo 43 y área SAN; EXI 0 si prima el verbo.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-329": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Fortalecer la protección frente a la explotación reproductiva, reforzando la prohibición de la gestación por sustitución",
+     "medida_sintesis": "Reforzar la prohibición de la gestación por sustitución y la persecución de su intermediación y promoción",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida prohibitiva y de persecución. DEC 1: refuerza una prohibición vigente sin concretar la norma.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (prohibición y persecución) e IGU (protección de las mujeres frente a la explotación reproductiva). Propuesta: OTR con 0 en las cuatro dimensiones, con la misma regla que las medidas penales de pp-030.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-333": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una nueva Estrategia Estatal para combatir las Violencias Machistas, profundizando en la prevención, protección y respuesta",
+     "medida_sintesis": "Aprobar una nueva Estrategia Estatal contra las Violencias Machistas centrada en la prevención, la protección y la respuesta ante las nuevas formas de violencia",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una estrategia, sin derecho reconocido ni obligación de provisión.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-334": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desarrollar un Plan Estatal de Formación en Violencia de Género, con formación obligatoria, continua y evaluable para operadores jurídicos",
+     "medida_sintesis": "Aprobar un Plan Estatal de Formación obligatoria en violencia de género para profesionales del ámbito jurídico y judicial y de las Fuerzas y Cuerpos de Seguridad",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un plan de formación del personal, sin derecho reconocido para las víctimas ni estándar de atención.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-335": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una Ley Orgánica contra la Violencia Vicaria como manifestación de la violencia de género, para garantizar la protección, prevención y atención a las víctimas.",
+     "medida_sintesis": "Aprobar una Ley Orgánica contra la Violencia Vicaria que garantice la protección, la prevención y la atención a las víctimas",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Ley que garantiza la protección y la atención a todas las víctimas de violencia vicaria, sin prueba de renta.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Ley de protección de un colectivo con contenido poco concreto. Propuesta: EXI 1 y DES 1 por analogía con la ley de trata de pp-029; EXI 0 si se exige que la ley concrete el derecho.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-336": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear unidades especializadas de atención y acompañamiento a familiares y víctimas ante los feminicidios.",
+     "medida_sintesis": "Crear unidades especializadas de atención y acompañamiento a las víctimas y familiares de feminicidios",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: crea un servicio sin reconocer un derecho ni fijar un estándar de atención.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-337": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar la valoración forense del riesgo en todos los juzgados de violencia sobre la mujer, mediante equipos multidisciplinares especializados.",
+     "medida_sintesis": "Garantizar la valoración forense del riesgo en todos los juzgados de violencia sobre la mujer con equipos multidisciplinares especializados",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: dotación de equipos sin norma que reconozca el derecho ni fije la obligación.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "La cobertura de todos los juzgados puede leerse como estándar mínimo o como dotación de medios. Propuesta: EXI 0, como la valoración del riesgo y los medios judiciales de pp-028; EXI 1 si la cobertura universal se considera obligación de provisión.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-338": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliar la protección a los huérfanos y huérfanas de la violencia de género, extendiendo las ayudas hasta los 26 años",
+     "medida_sintesis": "Extender hasta los 26 años las ayudas a la infancia y juventud huérfana por violencia de género y reforzar su seguimiento y evaluación",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Amplía con una edad concreta una prestación pública para todo el colectivo huérfano por violencia de género, sin prueba de renta.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "«Ayudas» no precisa si son prestaciones de garantía de ingresos o ayudas ligadas a un gasto, y la medida admite IGU y OTR (prestaciones). Propuesta: EXI 1 y DES 1 por ampliar con una edad concreta una prestación pública de orfandad, y área IGU.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-339": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar la prevención, detección y actuación frente al acoso sexual y por razón de sexo en el trabajo, garantizando protocolos efectivos, comités especializados",
+     "medida_sintesis": "Reforzar la prevención y la actuación frente al acoso sexual y por razón de sexo en el trabajo con protocolos, comités especializados, protección frente a represalias y atención a las víctimas",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: refuerza obligaciones vigentes sin fijar una norma ni un estándar nuevos.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite IGU (acoso sexual y discriminación por sexo) y EMP (condiciones de trabajo). Propuesta: IGU, porque el objeto es la protección frente al acoso sexual.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-340": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear una red pública de salud mental especializada en trauma complejo y violencia machista",
+     "medida_sintesis": "Crear una red pública de salud mental especializada en trauma complejo y violencia machista para mujeres, infancia y adolescencia víctimas de violencia de género",
+     "area": "SME",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: crea una red de servicios sin reconocer un derecho ni fijar plazo o estándar de atención.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite SME (red de salud mental) e IGU (víctimas de violencia de género). Propuesta: SME, porque el objeto es un servicio de salud mental.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-341": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar la atención especializada a las víctimas con discapacidad y a las mujeres mayores de 65 años, garantizando el ejercicio efectivo de sus derechos",
+     "medida_sintesis": "Reforzar la atención especializada a las víctimas de violencia de género con discapacidad y a las mayores de 65 años",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: refuerzo sin instrumento, estándar ni plazo; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "el reconocimiento de las familias monomarentales formadas por víctimas de violencia de género y sus hijos e hijas.",
+     "medida_sintesis": "Reconocer como familias monomarentales las formadas por víctimas de violencia de género y su descendencia",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: reconocimiento sin prestación ni derecho concreto asociado. DES 0: no nombra un servicio público ni una prestación.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (reconocimiento de la familia monoparental) e IGU (víctimas de violencia de género). Propuesta: OTR, con la misma regla que pp-165 y psoe-199.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-342": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una Ley Orgánica contra la Trata de Seres Humanos",
+     "medida_sintesis": "Aprobar una Ley Orgánica contra la Trata de Seres Humanos",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Ley contra la trata codificada como la de pp-029: protección legal de todas las víctimas.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "Ley nombrada sin contenido: a diferencia de pp-029, no dice que proteja a las víctimas. Propuesta: 1 en las cuatro dimensiones por analogía con pp-029; 0 en las cuatro y área OTR si se lee solo como norma penal.",
+     "repite": ""
+    },
+    {
+     "fragmento": "una Ley Orgánica Abolicionista del Sistema Prostitucional, prohibiendo el proxenetismo en todas sus formas y reconociendo a las personas prostituidas como víctimas con plenos derechos",
+     "medida_sintesis": "Aprobar una Ley Orgánica Abolicionista que prohíba el proxenetismo y reconozca a las personas prostituidas como víctimas con plenos derechos",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Ley que reconoce derechos de víctima a todas las personas prostituidas, sin prueba de renta.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "La ley reconoce la condición de víctima sin nombrar los servicios que la protegen. Propuesta: EXI 1 por reconocer derechos mediante ley y DES 1 por analogía con la protección de víctimas de pp-029; DES 0 si se aplica que no se presume provisión pública.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-343": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar un Programa Estatal de Liberación, Protección y Reparación para mujeres víctimas de servidumbre por deudas en el sistema prostitucional",
+     "medida_sintesis": "Crear un Programa Estatal de Liberación, Protección y Reparación para mujeres víctimas de servidumbre por deudas en la prostitución, con alojamiento, apoyo económico, asistencia y alternativas laborales",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un programa, sin derecho reconocido ni obligación de provisión.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-345": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desarrollar un protocolo integral de prevención, detección y actuación frente a la violencia de género y la violencia vicaria en el ámbito educativo",
+     "medida_sintesis": "Aprobar un protocolo integral frente a la violencia de género y vicaria en el ámbito educativo, con formación del profesorado y coordinación con los servicios especializados",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: protocolo de actuación sin obligación expresa ni derecho reconocido.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite IGU y EDU, y el protocolo puede leerse como plan (EXI 0) o como obligación de actuar (EXI 1, como pp-214). Propuesta: IGU y EXI 0, porque el texto no dice que el protocolo obligue.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-346": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incorporar la agravante de género en los delitos económicos",
+     "medida_sintesis": "Incorporar la agravante de género en los delitos económicos contra la pareja o expareja",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida penal.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (justicia penal) e IGU (violencia económica de género). Propuesta: OTR con 0 en las cuatro dimensiones, porque agrava la pena y no regula el acceso a la protección de las víctimas, con la misma regla que pp-030.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-347": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear un registro público de deudores por impago de pensiones de alimentos, alquileres o cuotas hipotecarias vinculadas a la vivienda familiar.",
+     "medida_sintesis": "Crear un registro público de personas deudoras por impago de pensiones de alimentos o de pagos de la vivienda familiar",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un instrumento para el cumplimiento de obligaciones privadas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (justicia y familia), IGU (violencia económica) y VIV (vivienda familiar). Propuesta: OTR con 0 en las cuatro, porque el registro presiona el pago pero no garantiza ingresos ni vivienda.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-348": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos la prevención, persecución y reparación frente a los deepfakes sexuales, la difusión no consentida de imágenes íntimas, la pornovenganza",
+     "medida_sintesis": "Reforzar la prevención, la persecución y la reparación frente a la violencia sexual digital: deepfakes, difusión no consentida de imágenes íntimas y explotación en plataformas",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: refuerzo sin instrumento, estándar ni plazo; es declarativa.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Enunciado de cabecera que desarrollan las medidas 349 a 355. Propuesta: repite psoe-350, la más desarrollada en prevención, protección y atención; medida propia si se considera que la reparación no se repite.",
+     "repite": "psoe-350"
+    },
+    {
+     "fragmento": "pondremos coto a la geolocalización abusiva, el uso de software espía, la suplantación de identidad, la difusión de datos personales",
+     "medida_sintesis": "Poner coto a la geolocalización abusiva, el software espía, la suplantación de identidad, la difusión de datos personales y el hostigamiento organizado en redes",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-350"
+    }
+   ]
+  },
+  "psoe-349": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Tipificar como delito específico la creación y difusión de deepfakes sexuales",
+     "medida_sintesis": "Tipificar como delito específico la creación y difusión de deepfakes sexuales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida penal.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (justicia penal) e IGU (violencia sexual digital). Propuesta: OTR con 0 en las cuatro dimensiones, porque crea un delito y no regula el acceso a la protección de las víctimas, con la misma regla que pp-030.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-350": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incorporar las violencias digitales a la Ley Integral contra la Violencia de Género, ampliando su alcance más allá de la pareja o expareja",
+     "medida_sintesis": "Incorporar las violencias digitales a la Ley Integral contra la Violencia de Género, ampliar su alcance más allá de la pareja o expareja y actualizar los protocolos de atención",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Amplía por ley el colectivo protegido y los protocolos de atención de la Ley Integral, sin prueba de renta.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-351": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Transponer plenamente la Directiva Europea contra la violencia hacia las mujeres, reforzando la persecución del ciberacoso, el ciberacecho",
+     "medida_sintesis": "Transponer plenamente la Directiva Europea contra la violencia hacia las mujeres, reforzando la persecución del ciberacoso, el ciberacecho, la difusión de imágenes íntimas y el odio en línea",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. El contenido que concreta es la persecución penal.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "La Directiva incluye también protección y apoyo a las víctimas, pero el texto solo concreta la persecución penal; admite OTR e IGU. Propuesta: OTR con 0 en las cuatro, como las medidas penales de pp-030; IGU con UNI, EXI y NDI 1 si se considera la transposición completa.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-352": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Establecer medidas cautelares y penas digitales, incluyendo la prohibición de acceso a redes sociales y servicios de mensajería utilizados para delinquir",
+     "medida_sintesis": "Establecer medidas cautelares y penas digitales, como la prohibición de acceso a las redes usadas para delinquir y las órdenes de alejamiento digital",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida penal.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (justicia penal) e IGU, porque las órdenes de alejamiento digital protegen a las víctimas. Propuesta: OTR con 0 en las cuatro dimensiones, porque son penas y medidas cautelares, con la misma regla que pp-030.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-353": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Extender el modelo abolicionista a la explotación sexual en entornos digitales y combatir el proxenetismo digital",
+     "medida_sintesis": "Extender el modelo abolicionista a la explotación sexual digital y combatir el proxenetismo digital, sancionando a las plataformas que se lucran con ella",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida penal y sancionadora.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (justicia penal) e IGU (explotación sexual). Propuesta: OTR con 0 en las cuatro dimensiones, porque persigue y sanciona y no regula el acceso a la protección de las víctimas, con la misma regla que pp-030.",
+     "repite": ""
+    },
+    {
+     "fragmento": "reforzando la protección de las víctimas.",
+     "medida_sintesis": "Reforzar la protección de las víctimas de explotación sexual digital",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: refuerzo sin instrumento, estándar ni plazo; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-354": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar que la inteligencia artificial y los algoritmos respeten la igualdad entre mujeres y hombres, previniendo sesgos discriminatorios",
+     "medida_sintesis": "Garantizar que la inteligencia artificial y los algoritmos respeten la igualdad entre mujeres y hombres y prevenir sus sesgos en el empleo, el crédito y los servicios públicos",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «garantizar» sin norma, estándar ni plazo; es declarativa. DES 0: no concreta una regulación obligatoria de los algoritmos.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-355": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Exigir una mayor responsabilidad a las plataformas digitales, garantizando la retirada inmediata de contenidos íntimos difundidos sin consentimiento",
+     "medida_sintesis": "Obligar a las plataformas digitales a retirar de inmediato los contenidos íntimos difundidos sin consentimiento y sancionar la difusión o monetización de la violencia digital machista",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Obligación para las plataformas con un estándar concreto (retirada inmediata) y sanciones, que protege a todas las víctimas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "No nombra la norma, y «exigir» significa aquí imponer obligaciones a las plataformas, no reclamar a otra administración. Propuesta: EXI 1 y DES 1, como la regulación de plataformas de pp-168; EXI 0 si se exige una norma explícita.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-356": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Combatir la difusión de estereotipos de género y la hipersexualización en los entornos digitales, protegiendo especialmente a niñas y adolescentes",
+     "medida_sintesis": "Combatir los estereotipos de género y la hipersexualización en los entornos digitales, con protección especial de niñas y adolescentes",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-357": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar una publicidad digital responsable, evitando la financiación de contenidos que promuevan el odio o la discriminación contra las mujeres.",
+     "medida_sintesis": "Garantizar una publicidad digital que no financie contenidos de odio o discriminación contra las mujeres",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «garantizar» sin norma, estándar ni plazo; es declarativa. DES 0: no concreta una regulación obligatoria de la publicidad.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-359": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Apoyar los litigios estratégicos contra las violencias digitales, fortaleciendo la protección jurídica de las víctimas.",
+     "medida_sintesis": "Apoyar los litigios estratégicos contra las violencias digitales para fortalecer la protección jurídica de las víctimas",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «apoyar» sin norma, estándar ni plazo; es declarativa. DES 0: el apoyo a litigios no es un servicio público de asistencia a las víctimas.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-360": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incorporar la violencia digital a las estadísticas oficiales",
+     "medida_sintesis": "Incorporar la violencia digital a las estadísticas oficiales",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida estadística.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-361": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear un Cuerpo Superior de Especialistas en Políticas de Igualdad en la Administración General del Estado",
+     "medida_sintesis": "Crear un Cuerpo Superior de Especialistas en Políticas de Igualdad en la Administración General del Estado",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de organización de la Administración.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-362": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear un Observatorio sobre Violencia Política contra las Mujeres y Desinformación de Género",
+     "medida_sintesis": "Crear un Observatorio sobre Violencia Política contra las Mujeres y Desinformación de Género para investigarla y prevenirla",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un órgano de estudio.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-363": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "garantizando asesoramiento jurídico, apoyo psicológico, acompañamiento especializado y mecanismos eficaces frente al acoso y la violencia digital",
+     "medida_sintesis": "Proteger frente al odio digital a las mujeres con presencia pública con asesoramiento jurídico, apoyo psicológico, acompañamiento especializado y mecanismos frente al acoso",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: servicios sin norma que los reconozca como derecho ni estándar.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "se facilita la identificación de los autores de conductas delictivas en redes y plataformas digitales.",
+     "medida_sintesis": "Facilitar la identificación de quienes cometen delitos en redes y plataformas digitales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de investigación penal. DEC 1: no concreta el instrumento.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (justicia penal) e IGU (violencia digital contra las mujeres). Propuesta: OTR con 0 en las cuatro dimensiones, porque facilita la investigación penal y no regula el acceso a la protección de las víctimas, con la misma regla que pp-030.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-364": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar el seguimiento y cumplimiento de la Ley de Paridad, mediante la elaboración de informes públicos periódicos",
+     "medida_sintesis": "Reforzar el seguimiento de la Ley de Paridad con informes públicos periódicos sobre la representación equilibrada en los ámbitos político, económico e institucional",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de seguimiento de la representación política, económica e institucional.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-368": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "garantizando la máxima protección jurídica del matrimonio igualitario",
+     "medida_sintesis": "Blindar la protección jurídica del matrimonio igualitario",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «blindar» sin nombrar la norma que da la protección; es declarativa. DES 0: no provee un servicio ni regula condiciones del mercado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "el derecho a la interrupción voluntaria del embarazo",
+     "medida_sintesis": "Blindar la protección jurídica del derecho a la interrupción voluntaria del embarazo",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «blindar» sin nombrar la norma que da la protección; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-327"
+    },
+    {
+     "fragmento": "y la eutanasia.",
+     "medida_sintesis": "Blindar la protección jurídica de la eutanasia",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «blindar» sin nombrar la norma que da la protección; es declarativa.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Se acerca a psoe-147, que garantiza el ejercicio efectivo de la eutanasia. Propuesta: medida propia, porque blindar su protección jurídica es una acción distinta de garantizar su ejercicio; repite psoe-147 si se consideran la misma.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-392": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desarrollar plenamente la Ley Zerolo, poniendo en funcionamiento la Autoridad Independiente para la Igualdad de Trato y la No Discriminación.",
+     "medida_sintesis": "Desarrollar plenamente la Ley Zerolo y poner en funcionamiento la Autoridad Independiente para la Igualdad de Trato y la No Discriminación",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Ley de igualdad de trato con fuerza obligatoria para todas las personas y un órgano que la hace exigible.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Desarrolla una ley vigente con una autoridad de control. Propuesta: EXI 1 por poner en marcha el órgano que hace exigible el derecho y DES 1 por regular con fuerza obligatoria el acceso a bienes, servicios y empleo; EXI 0 si se lee como aplicación de una norma existente.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-393": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar la aprobación de la Estrategia Estatal para la Igualdad de Trato y la No Discriminación",
+     "medida_sintesis": "Aprobar la Estrategia Estatal para la Igualdad de Trato y la No Discriminación",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una estrategia, sin derecho reconocido ni obligación. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "reforzar la lucha contra los discursos de odio y la discriminación en el entorno digital, combatiendo los bulos y la desinformación.",
+     "medida_sintesis": "Reforzar la lucha contra los discursos de odio y la discriminación en el entorno digital, combatiendo los bulos y la desinformación",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «reforzar» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-394": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promoveremos un Pacto de Estado contra los Discursos y Delitos de Odio con la participación de las fuerzas políticas y las organizaciones sociales",
+     "medida_sintesis": "Promover un Pacto de Estado contra los discursos y delitos de odio para la prevención, la sensibilización y la protección de las víctimas",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: pacto político sin norma ni estándar; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-395": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Estableceremos una dotación presupuestaria adecuada y suficiente para la Autoridad Independiente para la Igualdad de Trato y la No Discriminación (AINODI)",
+     "medida_sintesis": "Dotar de un presupuesto suficiente a la Autoridad Independiente para la Igualdad de Trato y la No Discriminación",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una dotación presupuestaria, no reconoce un derecho ni fija una obligación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-396": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "aprobando el segundo plan operativo de la Estrategia Nacional para la Igualdad, Inclusión y Participación del Pueblo Gitano 2021-2030",
+     "medida_sintesis": "Impulsar las políticas contra el antigitanismo aprobando el segundo plan operativo de la Estrategia Nacional del Pueblo Gitano 2021-2030",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: estrategia y plan operativo sin derecho reconocido ni obligación. DES 0: no nombra un servicio público ni una regulación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-398"
+    },
+    {
+     "fragmento": "promoviendo su participación en la vida pública y en los espacios de representación.",
+     "medida_sintesis": "Promover la participación del pueblo gitano en la vida pública y en los espacios de representación",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación política e institucional. DEC 1: «promover» sin instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-397": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "una Comisión Estatal de Trabajo para desarrollar la igualdad de trato, la participación institucional, la inclusión social y el reconocimiento cultural",
+     "medida_sintesis": "Crear con las organizaciones del pueblo gitano una Comisión Estatal de Trabajo sobre igualdad de trato, participación, inclusión social y reconocimiento cultural",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un órgano de trabajo y participación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "incluyendo un Plan Estatal para la modernización y continuidad del comercio ambulante.",
+     "medida_sintesis": "Aprobar un Plan Estatal para la modernización y continuidad del comercio ambulante",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política sectorial del comercio.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (política sectorial) y EMP (trabajo por cuenta propia de la población gitana). Propuesta: OTR con 0 en las cuatro, porque el objeto es la actividad comercial.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-398": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desarrollar la Estrategia Nacional del Pueblo Gitano 2021-2030 con su segundo plan operativo y más financiación, reforzando la lucha contra el antigitanismo",
+     "medida_sintesis": "Desarrollar la Estrategia Nacional del Pueblo Gitano 2021-2030 con su segundo plan operativo y más financiación, y reforzar la lucha contra el antigitanismo, el Instituto de Cultura Gitana y el Consejo Estatal del Pueblo Gitano",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: estrategia y plan operativo sin derecho reconocido ni obligación. DES 0: no nombra un servicio público ni una regulación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-412": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar que la Ley 4/2023 sea el suelo común de derechos de las personas LGTBI en toda España",
+     "medida_sintesis": "Garantizar que la Ley 4/2023 sea el suelo común de derechos de las personas LGTBI en toda España frente a retrocesos autonómicos",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: defiende una ley vigente sin nombrar el instrumento que la garantiza; es declarativa.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Ley de derechos vigente presentada como suelo común. Propuesta: EXI 0 y DEC 1, como mantener el modelo vigente de pp-224; EXI 1 si el suelo común se considera un estándar mínimo exigible.",
+     "repite": ""
+    },
+    {
+     "fragmento": "una nueva Ley de Familias que reconozca su diversidad.",
+     "medida_sintesis": "Aprobar una nueva Ley de Familias que reconozca la diversidad familiar",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "DES 0: no precisa qué prestaciones o servicios públicos proveen la protección.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-199"
+    }
+   ]
+  },
+  "psoe-413": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar un Pacto de Estado contra los discursos y delitos de odio, con la participación de las fuerzas políticas y las organizaciones sociales",
+     "medida_sintesis": "Promover un Pacto de Estado contra los discursos y delitos de odio para la prevención, la sensibilización y la protección de las víctimas",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: pacto político sin norma ni estándar; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-394"
+    }
+   ]
+  },
+  "psoe-414": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Culminar la reforma del Código Penal para penalizar las llamadas «terapias de conversión»",
+     "medida_sintesis": "Reformar el Código Penal para penalizar las terapias de conversión",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida penal.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (justicia penal) e IGU (protección de las personas LGTBI). Propuesta: OTR con 0 en las cuatro dimensiones, porque crea un delito y no regula el acceso a la protección de las víctimas, con la misma regla que pp-030.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-415": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar la inclusión social y laboral de las personas trans",
+     "medida_sintesis": "Impulsar la inclusión social y laboral de las personas trans",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «impulsar» sin norma, estándar ni plazo; es declarativa. DES 0: no nombra un servicio público ni una regulación obligatoria.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "garantizando el acceso y la continuidad de los tratamientos hormonales.",
+     "medida_sintesis": "Garantizar el acceso y la continuidad de los tratamientos hormonales de las personas trans",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: «garantizar» sin norma que lo incluya en la cartera de servicios ni plazo.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  }
+ }
+}

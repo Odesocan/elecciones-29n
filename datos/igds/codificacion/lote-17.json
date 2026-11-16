@@ -1,0 +1,1802 @@
+{
+  "lote": "lote-17",
+  "unidades": {
+    "psoe-036": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar una protección reforzada de las personas consumidoras vulnerables, adaptando la información, los contratos y los canales de atención a sus necesidades",
+          "medida_sintesis": "Reforzar la protección de las personas consumidoras vulnerables con información, contratos y canales de atención adaptados y alternativas no exclusivamente digitales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; la protección de las personas consumidoras no figura en el apartado 2.2. DEC 1: «garantizar» sin norma, estándar ni plazo.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La mención al «acceso efectivo a bienes y servicios esenciales» puede incluir los suministros básicos del hogar. Propuesta: mantener OTR con 0 en las cuatro; si se lee como acceso a suministros, VIV con UNI 0 (solo personas vulnerables), EXI 0, DES 0 y NDI 1.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-088": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crearemos un mecanismo para activar una deducción en el IRPF en contextos de subidas de precios.",
+          "medida_sintesis": "Crear un mecanismo de deducción en el IRPF que se active ante subidas de precios, con diseño progresivo para rentas medias y bajas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: instrumento fiscal identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-094": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Fortalecer la capacidad de la CNMC para investigar mercados concentrados y adoptar medidas correctoras, endureciendo las sanciones por abuso de posición dominante",
+          "medida_sintesis": "Reforzar la capacidad de la CNMC para investigar mercados concentrados y endurecer las sanciones por abuso de posición dominante en bienes y servicios esenciales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política de competencia que no regula ni provee el acceso a un derecho social. DEC 0: endurece el régimen sancionador.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "llevar a cabo un seguimiento permanente sobre la formación de precios en alimentos, carburantes y energía, con tal de garantizar que cualquier rebaja del IVA",
+          "medida_sintesis": "Hacer un seguimiento permanente de la formación de precios de alimentos, carburantes y energía para que las rebajas del IVA de los alimentos básicos lleguen al precio final",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: supervisión de precios que no regula el precio ni el acceso a un derecho social. DEC 1: seguimiento sin norma, estándar ni plazo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-095": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la detección, control y sanción de prácticas que oculten costes, condicionen las decisiones de compra o utilicen de forma abusiva sistemas de inteligencia artificial",
+          "medida_sintesis": "Reforzar la detección, el control y la sanción de las prácticas digitales que ocultan costes o manipulan las decisiones de compra",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: protección de las personas consumidoras que no regula ni provee el acceso a un derecho social. DEC 1: «reforzar» sin norma, estándar ni plazo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-034"
+        }
+      ]
+    },
+    "psoe-096": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar el Consejo de Consumidores y Usuarios (CCU) e impulsar el movimiento asociativo mediante financiación estable",
+          "medida_sintesis": "Reforzar el Consejo de Consumidores y Usuarios y dar financiación estable al movimiento asociativo de las personas consumidoras",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: participación de las personas consumidoras que no regula ni provee el acceso a un derecho social. DEC 0: financiación estable identificada.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-097": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Los ciudadanos podrán presentar reclamaciones en el ámbito bancario, de seguros y de inversión financiera ante un único organismo, que las atenderá de manera gratuita",
+          "medida_sintesis": "Crear una Autoridad de Defensa del Cliente Financiero que resuelva de forma gratuita y en 90 días como máximo las reclamaciones bancarias, de seguros y de inversión, con resoluciones obligatorias por debajo de 20.000 euros",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: protección de la clientela financiera, que no regula ni provee el acceso a un derecho social del apartado 2.2. DEC 0: crea un organismo con plazo máximo y resoluciones obligatorias.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-125": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Presentar a la Comisión Europea, en la primavera de 2027, un nuevo Plan Fiscal y Estructural de Medio Plazo para toda la legislatura",
+          "medida_sintesis": "Presentar a la Comisión Europea en 2027 un Plan Fiscal y Estructural de Medio Plazo con una senda de gasto neto acorde con las reglas fiscales europeas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política presupuestaria general que no regula ni provee el acceso a un derecho social. DEC 0: plan identificado con fecha.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-126": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mantendremos una senda decreciente de las ratios de deuda y déficit sobre PIB.",
+          "medida_sintesis": "Mantener una senda decreciente de las ratios de deuda y déficit públicos sobre el PIB",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política presupuestaria general que no regula ni provee el acceso a un derecho social. REG 0: reducir déficit y deuda no restringe por sí mismo una garantía. DEC 1: objetivo sin cifra, norma ni plazo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-127": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "contribuirá a financiar la prestación por crianza y la lucha contra la pobreza infantil",
+          "medida_sintesis": "Destinar la recaudación de la tributación de los grandes patrimonios y de las rentas del capital a financiar la prestación por crianza y la lucha contra la pobreza infantil",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: asigna una fuente de financiación, sin reconocer el derecho ni fijar una obligación de provisión. UNI 1: la prestación por crianza se dirige a todos los hogares con menores. DES 1: prestación monetaria pública de garantía de ingresos.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-192"
+        }
+      ]
+    },
+    "psoe-128": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "mantendremos el esfuerzo de inversión pública con prioridad en la conservación y la seguridad de las infraestructuras",
+          "medida_sintesis": "Mantener el esfuerzo de inversión pública tras los fondos europeos, con prioridad en la conservación y la seguridad de las infraestructuras y 19.000 millones de euros para el ferrocarril hasta 2030",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: inversión en infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: dotación identificada.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-129": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Adaptaremos la Ley de Estabilidad Presupuestaria al nuevo marco europeo, con objetivos ajustados a la situación de cada administración pública",
+          "medida_sintesis": "Adaptar la Ley de Estabilidad Presupuestaria al nuevo marco fiscal europeo con objetivos ajustados a cada administración pública",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: organización presupuestaria del Estado que no regula ni provee el acceso a un derecho social. DEC 0: reforma legal identificada.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "desplegaremos la nueva financiación autonómica dentro de la senda de gasto del conjunto de las administraciones",
+          "medida_sintesis": "Desplegar el nuevo sistema de financiación autonómica dentro de la senda de gasto del conjunto de las administraciones",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: financiación territorial que no regula ni provee el acceso a un derecho social. DEC 0: sistema de financiación identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-229"
+        }
+      ]
+    },
+    "psoe-130": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Incrementar la tributación de las rentas de capital más elevadas.",
+          "medida_sintesis": "Elevar la tributación de las rentas del capital por encima de 50.000 euros, hasta un tipo máximo del 35 % a partir de 300.000 euros",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: fija tramos y tipos.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-131": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aumentar los impuestos a los tecnooligarcas, complementando la actual tasa Google",
+          "medida_sintesis": "Complementar el impuesto sobre determinados servicios digitales con nuevos gravámenes a las grandes tecnológicas y al sector de la inteligencia artificial",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: identifica el tributo que se complementa y a quién grava.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-132": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crear una tasa específica a viajes de lujo con fuerte huella de carbono",
+          "medida_sintesis": "Crear una tasa sobre los viajes de lujo con fuerte huella de carbono: grandes embarcaciones de recreo, vuelos privados y billetes en clase business con salida desde España",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: tributo que no fija límites de emisión ni regula o provee el acceso a un derecho social. DEC 0: tributo con hecho imponible definido.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite el área MAM por su fin climático, y la supresión de impuestos al CO2 se codificó como REG en vox-008-05. Propuesta: mantener OTR con 0 en las cuatro porque es un tributo que no regula el acceso a un medio ambiente sano; si se lee como norma climática, MAM con UNI 1 y NDI 1.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-133": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aumentar la tributación de las empresas cotizadas cuya ratio entre la retribución total de su ejecutivo principal y la mediana de su plantilla",
+          "medida_sintesis": "Aprobar una Ley de Salarios Justos que eleve el impuesto de sociedades de las empresas cotizadas en las que la retribución de su principal cargo ejecutivo supere en más de 100 veces la mediana de su plantilla",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal que desincentiva la desigualdad salarial sin regular los salarios ni el acceso a un derecho social. DEC 0: norma fiscal con umbrales definidos.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El título («Ley de Salarios Justos») apunta al área EMP, pero el instrumento es solo tributario. Propuesta: mantener OTR con 0 en las cuatro, porque no fija salarios ni condiciones de trabajo.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-134": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Convertiremos el mínimo exento por descendiente en el IRPF en un crédito fiscal reembolsable",
+          "medida_sintesis": "Convertir el mínimo por descendiente del IRPF en un crédito fiscal reembolsable que llegue también a los hogares sin obligación de declarar o sin cuota",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 1: llega a todos los hogares con descendientes, también a los que no tributan. EXI 0: es un crédito fiscal, que según 2.4 no da exigibilidad aunque se apruebe por ley. DES 0: es un beneficio fiscal, no una prestación pública directa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Crédito reembolsable que funciona como una transferencia y que puede ser el mismo instrumento que la prestación por crianza de psoe-192 («diseño fiscal redistributivo»). Propuesta: mantenerla como medida propia con DES 0, como pp-158-02; si se confirma que es la prestación por crianza, repite = psoe-192.",
+          "repite": ""
+        },
+        {
+          "fragmento": "seguiremos exonerando de tributación a las rentas más bajas, asegurando que las subidas del SMI no impliquen incrementos de impuestos",
+          "medida_sintesis": "Mantener exentas del IRPF las rentas más bajas para que las subidas del SMI no impliquen más impuestos",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: exención fiscal identificada.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-135": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la tasa Tobin aumentando el tipo impositivo del 0,2% al 0,4%.",
+          "medida_sintesis": "Elevar del 0,2 % al 0,4 % el tipo del impuesto sobre las transacciones financieras",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: fija el tipo impositivo.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-215": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar una nueva industria de los cuidados mediante un PERTE financiado con el Fondo España Crece",
+          "medida_sintesis": "Impulsar una industria de los cuidados con tecnología, robótica y domótica mediante un PERTE financiado con el Fondo España Crece",
+          "area": "CUI",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política industrial del sector de los cuidados que no regula ni provee el acceso a los cuidados. DEC 0: PERTE con financiación identificada.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite tres áreas: CUI por el sector, EMP por la mejora de las condiciones de trabajo y OTR por ser política industrial. Propuesta: CUI con 0 en las cuatro, como el apoyo a la construcción industrializada de vivienda protegida (cc-028-03), que se codificó en VIV.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-243": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar las capacidades industriales nacionales en las cadenas de valor verdes en sectores estratégicos",
+          "medida_sintesis": "Reforzar la capacidad industrial nacional en las cadenas de valor verdes (bienes de equipo renovables, almacenamiento energético y acero verde) con I+D y compra pública innovadora",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política industrial que no regula ni provee el acceso a un derecho social. DEC 1: «se promoverá» sin dotación, norma ni programa concretos.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-267": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Defender una PAC fuerte, suficiente y orientada a quienes viven del campo, priorizando las explotaciones profesionales, familiares y de pequeña y mediana dimensión",
+          "medida_sintesis": "Defender una PAC suficiente y orientada a las explotaciones profesionales, familiares y de pequeña y mediana dimensión",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política agraria que no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa, sin norma, dotación ni plazo.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "defenderemos en la UE una competencia justa, reforzando controles a las importaciones y exigiendo reciprocidad en los estándares ambientales, sanitarios y laborales",
+          "medida_sintesis": "Defender en la Unión Europea controles reforzados a las importaciones agrarias y reciprocidad en los estándares ambientales, sanitarios y laborales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política comercial agraria que no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa en la Unión Europea, sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-268": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "El paquete comenzará por la aprobación de una Ley de Agricultura Familiar y Profesional",
+          "medida_sintesis": "Aprobar una Ley de Agricultura Familiar y Profesional dentro de un paquete para la viabilidad económica del sector agrario",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política agraria que no regula ni provee el acceso a un derecho social. DEC 0: ley identificada.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "modernizar el sector mediante la renovación de maquinaria y el impulso de la agricultura de precisión",
+          "medida_sintesis": "Modernizar el sector agrario con la renovación de maquinaria y la agricultura de precisión",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política agraria que no regula ni provee el acceso a un derecho social. DEC 1: objetivo sin dotación, norma ni programa concretos.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "reducir vulnerabilidades reforzando los seguros agrarios",
+          "medida_sintesis": "Reforzar los seguros agrarios para reducir la vulnerabilidad del sector",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política agraria que no regula ni provee el acceso a un derecho social. DEC 1: «reforzar» sin dotación ni norma, como cc-040-02.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "incentivar la integración cooperativa",
+          "medida_sintesis": "Incentivar la integración cooperativa en el sector agrario",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política agraria que no regula ni provee el acceso a un derecho social. DEC 1: no concreta el incentivo.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "promover el relevo generacional, impulsando el apoyo a jóvenes, mujeres e innovación agroalimentaria",
+          "medida_sintesis": "Promover el relevo generacional en el campo con apoyo a las personas jóvenes, a las mujeres y a la innovación agroalimentaria",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política agraria que no regula ni provee el acceso a un derecho social. DEC 1: «promover» sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "evitar la concentración de los terrenos fértiles en manos de fondos de inversión",
+          "medida_sintesis": "Evitar la concentración de las tierras fértiles en manos de fondos de inversión",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: regulación de la propiedad agraria que no regula ni provee el acceso a un derecho social. DEC 1: objetivo sin norma ni instrumento concretos.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-269": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover una política nacional de bancos de tierras, facilitando el acceso de jóvenes y nuevos agricultores a explotaciones viables y sostenibles",
+          "medida_sintesis": "Promover una política nacional de bancos de tierras que facilite a las personas jóvenes y a quienes se incorporan a la agricultura el acceso a explotaciones viables",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política agraria de acceso a la tierra que no regula ni provee el acceso a un derecho social. DEC 0: nombra un instrumento concreto (bancos de tierras).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-270": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Facilitar la gestión administrativa de las explotaciones agrarias, reduciendo cargas burocráticas y desarrollando nuevas herramientas digitales de asesoramiento",
+          "medida_sintesis": "Simplificar la gestión administrativa de las explotaciones agrarias con menos cargas burocráticas y herramientas digitales de asesoramiento, sin rebajar las garantías ambientales, sanitarias y laborales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: simplificación administrativa de un sector económico que no regula ni provee el acceso a un derecho social. REG 0: mantiene expresamente las garantías ambientales, sanitarias y laborales. DEC 0: nombra herramientas concretas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-272": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar un Plan de Transición Justa para una pesca y una acuicultura sostenibles, resilientes y competitivas.",
+          "medida_sintesis": "Impulsar un Plan de Transición Justa para la pesca y la acuicultura",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política pesquera que no regula ni provee el acceso a un derecho social. DEC 0: plan identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-273": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la financiación de la Política Pesquera Común",
+          "medida_sintesis": "Reforzar la financiación de la Política Pesquera Común",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política pesquera que no regula ni provee el acceso a un derecho social. DEC 0: dotación identificada, como pp-197-01.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "garantizando un reparto justo y transparente de las cuotas pesqueras",
+          "medida_sintesis": "Reforzar las cuotas pesqueras y garantizar que se repartan de forma justa y transparente",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política pesquera que no regula ni provee el acceso a un derecho social. DEC 1: «garantizando» sin norma ni criterio concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "intensificando la lucha contra la pesca ilegal y la explotación insostenible de los recursos marinos",
+          "medida_sintesis": "Intensificar la lucha contra la pesca ilegal y la explotación insostenible de los recursos marinos",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: control de una actividad económica que no regula ni provee el acceso de la población a un medio ambiente sano. DEC 1: «intensificar» sin norma, dotación ni plazo.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Protección de la biodiversidad marina que puede leerse como garantía de un medio ambiente sano, como vox-054-01 (UNI 1, NDI 1). Propuesta: 0 en las cuatro, porque actúa sobre el control de la actividad pesquera y no sobre el acceso de la población.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-274": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Fomentaremos los canales cortos de comercialización, la venta de proximidad",
+          "medida_sintesis": "Fomentar los canales cortos de comercialización y la venta de proximidad de los productos agroalimentarios",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política agroalimentaria que no regula ni provee el acceso a un derecho social. DEC 1: «fomentaremos» sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "la proyección de nuestra gastronomía como motor de desarrollo económico y turístico",
+          "medida_sintesis": "Proyectar la gastronomía española como motor de desarrollo económico y turístico",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: promoción económica que no regula ni provee el acceso a un derecho social. DEC 1: «fomentaremos» sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "desarrollaremos una Estrategia Nacional de Alimentación Ecológica",
+          "medida_sintesis": "Desarrollar una Estrategia Nacional de Alimentación Ecológica",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política del sector agroalimentario ecológico que no regula ni provee el acceso a la alimentación. DEC 0: estrategia identificada.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-279": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la innovación, el emprendimiento y las oportunidades para la juventud rural, consolidando los Centros de Innovación Territorial y ampliando programas como Campus Rural",
+          "medida_sintesis": "Reforzar la innovación, el emprendimiento y las oportunidades de la juventud rural consolidando los Centros de Innovación Territorial y ampliando programas como Campus Rural",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política de desarrollo rural que no regula ni provee el acceso a un derecho social. DEC 0: programas identificados.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Acercar la Administración General del Estado a la ciudadanía, descentralizando servicios y facilitando trámites y sedes administrativas fuera de las grandes ciudades.",
+          "medida_sintesis": "Descentralizar servicios, trámites y sedes de la Administración General del Estado fuera de las grandes ciudades",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: organización de la Administración que no regula ni provee el acceso a un derecho social. DEC 1: sin norma, plan ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-280": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Consolidar un sistema integrado de transporte público con financiación estable, tarifas sencillas y asequibles, más frecuencias y mejores conexiones",
+          "medida_sintesis": "Consolidar un sistema integrado de transporte público con financiación estable, tarifas sencillas y asequibles y más frecuencias",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: financiación estable identificada.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-028"
+        }
+      ]
+    },
+    "psoe-281": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar los programas de apoyo a la movilidad de los jóvenes, manteniendo el acceso al transporte durante los periodos vacacionales y de ocio.",
+          "medida_sintesis": "Mantener los programas de apoyo a la movilidad de las personas jóvenes en transporte durante los periodos vacacionales y de ocio",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: programas existentes identificados.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-282": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la red ferroviaria de Cercanías, Media Distancia y corredores estratégicos, mejorando la conectividad territorial y la integración con la red europea.",
+          "medida_sintesis": "Reforzar la red ferroviaria de Cercanías, Media Distancia y corredores estratégicos",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: infraestructura de transporte que no regula ni provee el acceso a un derecho social. DEC 1: sin dotación, plan ni plazo.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-027"
+        }
+      ]
+    },
+    "psoe-294": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar un modelo de turismo sostenible y resiliente, promoviendo la eficiencia hídrica y energética y la adaptación de los destinos",
+          "medida_sintesis": "Impulsar un turismo sostenible con eficiencia hídrica y energética y adaptación de los destinos al cambio climático",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política turística que no regula ni provee el acceso a un derecho social. DEC 1: «impulsar» y «promoviendo» sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite OTR (política turística) y MAM (agua, energía y adaptación climática). Propuesta: OTR, porque el objeto dominante es el modelo turístico; en los dos casos, 0 en las cuatro.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-387": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desarrollaremos plenamente el Régimen Económico y Fiscal de Canarias y su condición de región ultraperiférica",
+          "medida_sintesis": "Desarrollar plenamente el Régimen Económico y Fiscal de Canarias y su condición de región ultraperiférica",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: régimen económico y fiscal territorial que no regula ni provee el acceso a un derecho social. DEC 0: remite a un instrumento normativo identificado (el REF).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "aprobaremos un plan integral para Ceuta y Melilla que refuerce su conectividad, sus servicios públicos y su desarrollo económico",
+          "medida_sintesis": "Aprobar un plan integral para Ceuta y Melilla que refuerce su conectividad, sus servicios públicos y su desarrollo económico",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: plan territorial que no concreta ningún servicio ni regula el acceso a un derecho social, como pp-013-04. DEC 0: plan identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-457": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la creación de un impuesto mínimo global sobre las grandes fortunas",
+          "medida_sintesis": "Impulsar en la cooperación tributaria internacional un impuesto mínimo global sobre las grandes fortunas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: fiscalidad internacional que no regula ni provee el acceso a un derecho social. DEC 0: nombra el tributo que se impulsa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-458": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Apoyar de forma activa los trabajos de la OCDE y las Naciones Unidas para reforzar la tributación mínima efectiva de los grandes grupos multinacionales",
+          "medida_sintesis": "Apoyar los trabajos de la OCDE y de Naciones Unidas para reforzar la tributación mínima efectiva de los grandes grupos multinacionales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: fiscalidad internacional que no regula ni provee el acceso a un derecho social. DEC 1: apoyo a los trabajos de otros organismos, sin instrumento propio.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "promoveremos el debate internacional sobre la creación de un gravamen específico sobre los tokens utilizados por los modelos de inteligencia artificial",
+          "medida_sintesis": "Promover el debate internacional sobre un gravamen a los tokens que usan los modelos de inteligencia artificial",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: fiscalidad internacional que no regula ni provee el acceso a un derecho social. DEC 1: propone abrir un debate, sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-462": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Defender un comercio internacional abierto, justo y basado en reglas, con una Organización Mundial del Comercio fortalecida y renovada",
+          "medida_sintesis": "Defender un comercio internacional basado en reglas, con una OMC reforzada y garantías para los derechos laborales y el medio ambiente",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política comercial exterior que no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa, sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-469": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Diversificar las relaciones comerciales y reforzar los acuerdos de la UE, profundizando las relaciones con Asia desde la reciprocidad",
+          "medida_sintesis": "Diversificar las relaciones comerciales y reforzar los acuerdos comerciales de la Unión Europea, también con Asia, con compromisos sociales, laborales y ambientales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política comercial exterior que no regula ni provee el acceso a un derecho social. DEC 1: sin acuerdo, norma ni instrumento concretos.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-476": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Defender un presupuesto europeo ambicioso que proteja y refuerce nuestro modelo social, preservando la cohesión, la PAC y la política pesquera",
+          "medida_sintesis": "Defender un presupuesto europeo ambicioso con nuevos recursos propios que preserve la cohesión, la PAC y la pesca y aumente la inversión en vivienda, educación, sanidad y otros ámbitos",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: posición sobre el presupuesto de la Unión Europea que no regula ni provee el acceso a un derecho social. DEC 1: se formula como defensa, sin dotación concreta.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-478": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la autonomía económica, industrial y tecnológica europea, reduciendo dependencias estratégicas y garantizando el acceso a materias primas críticas",
+          "medida_sintesis": "Reforzar la autonomía económica, industrial y tecnológica europea, con menos dependencias estratégicas y acceso asegurado a materias primas críticas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política europea que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-483": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la creación de un Mecanismo Soberano Europeo, que centralice una parte de la emisión de deuda pública de los Estados miembro",
+          "medida_sintesis": "Impulsar un Mecanismo Soberano Europeo que centralice parte de la emisión de deuda pública de los Estados miembro para crear un activo seguro europeo",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política financiera europea que no regula ni provee el acceso a un derecho social. DEC 0: nombra un mecanismo concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-456": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "promover la reforma de Naciones Unidas y de su Consejo de Seguridad, limitando el veto, reforzando la representación del Sur Global",
+          "medida_sintesis": "Promover la reforma de Naciones Unidas y de su Consejo de Seguridad para limitar el veto y reforzar la representación del Sur Global",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "fortaleciendo la Corte Penal Internacional",
+          "medida_sintesis": "Fortalecer la Corte Penal Internacional",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "apoyando la presencia de organismos de la ONU en España",
+          "medida_sintesis": "Apoyar la presencia de organismos de Naciones Unidas en España",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "facilitando la participación de las organizaciones juveniles en los foros multilaterales",
+          "medida_sintesis": "Facilitar la participación de las organizaciones juveniles en los foros multilaterales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-459": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Consolidar la cooperación como política de Estado y cerrar la brecha con el 0,7 % de la RNB en Ayuda Oficial al Desarrollo",
+          "medida_sintesis": "Alcanzar el 0,7 % de la renta nacional bruta en Ayuda Oficial al Desarrollo y consolidar la cooperación como política de Estado",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: cooperación internacional que no regula ni provee el acceso de la población a un derecho social. DEC 0: dotación con objetivo cuantificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-460": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Liderar la construcción de la agenda global de desarrollo sostenible que tome el relevo de la Agenda 2030",
+          "medida_sintesis": "Liderar la construcción de la agenda global de desarrollo sostenible posterior a la Agenda 2030",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: cooperación internacional que no regula ni provee el acceso de la población a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-461": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar las alianzas de la AECID con la sociedad civil, el sector privado, las comunidades autónomas y las entidades locales y las universidades",
+          "medida_sintesis": "Reforzar las alianzas de la AECID con otros actores y las capacidades del personal cooperante",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: cooperación internacional que no regula ni provee el acceso de la población a un derecho social. DEC 1: «reforzar» sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-463": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover la modernización del Banco Mundial y del Fondo Monetario Internacional para que sean más eficaces y representativos",
+          "medida_sintesis": "Promover la modernización del Banco Mundial y del Fondo Monetario Internacional",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "impulsaremos mecanismos de alivio de la deuda para los países golpeados por catástrofes",
+          "medida_sintesis": "Impulsar mecanismos de alivio de la deuda para los países afectados por catástrofes",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: cooperación internacional que no regula ni provee el acceso de la población a un derecho social. DEC 1: no concreta el mecanismo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-464": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar una diplomacia activa al servicio de la paz, fortaleciendo el papel de España en la mediación, el diálogo y la resolución pacífica de conflictos",
+          "medida_sintesis": "Impulsar una diplomacia de paz que refuerce el papel de España en la mediación y la resolución pacífica de conflictos",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-465": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover la participación de España como Estado observador en el Tratado sobre la Prohibición de las Armas Nucleares",
+          "medida_sintesis": "Participar como Estado observador en el Tratado sobre la Prohibición de las Armas Nucleares",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior y de desarme que no regula ni provee el acceso a un derecho social. DEC 0: acto concreto (estatuto de observador en un tratado).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-467": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Consolidar una política exterior feminista, desplegando plenamente la Estrategia de Cooperación Feminista, promoviendo la igualdad y los derechos de las mujeres",
+          "medida_sintesis": "Consolidar una política exterior feminista desplegando la Estrategia de Cooperación Feminista para promover la igualdad y los derechos de las mujeres",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior y de cooperación que no regula ni provee el acceso de la población a un derecho social. DEC 0: estrategia identificada.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Su objeto es la igualdad de género, pero en la acción exterior. Propuesta: OTR con 0 en las cuatro, como el resto de la política exterior y de cooperación (cc-085-01, pp-247-01); alternativa: IGU con los mismos códigos.",
+          "repite": ""
+        },
+        {
+          "fragmento": "impulsando la elección de la primera mujer secretaria general de Naciones Unidas",
+          "medida_sintesis": "Impulsar la elección de la primera mujer al frente de la Secretaría General de Naciones Unidas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-468": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover la solución de los dos Estados en Israel y Palestina, como única forma posible para alcanzar una paz justa y duradera",
+          "medida_sintesis": "Promover la solución de los dos Estados en Israel y Palestina e impulsar sanciones de la Unión Europea a quienes la obstaculicen",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 0: nombra un instrumento concreto (sanciones de la Unión Europea), como pp-240-02.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "refuerce el apoyo a la Autoridad Palestina y a la reconstrucción de Gaza",
+          "medida_sintesis": "Impulsar que la Unión Europea refuerce el apoyo a la Autoridad Palestina y a la reconstrucción de Gaza",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: apoyo sin dotación ni programa concretos.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-470": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la relación estratégica de España y la Unión Europea con América Latina y el Caribe",
+          "medida_sintesis": "Reforzar la relación estratégica de España y de la Unión Europea con América Latina y el Caribe mediante diálogo político, cooperación y comercio birregional",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-471": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover una relación estratégica de cooperación con África, apoyando su industrialización, integración regional y creación de empleo",
+          "medida_sintesis": "Promover una relación estratégica de cooperación con África en industrialización, integración regional, empleo, educación, salud, igualdad de género y transición ecológica",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: cooperación internacional que no regula ni provee el acceso de la población a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-472": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Hacer de la Unión Europea no solo un mercado único, sino una auténtica unión política y fiscal",
+          "medida_sintesis": "Avanzar hacia una unión política y fiscal europea",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política europea que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-473": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar una Unión Europea más democrática, soberana y capaz de actuar, superando los bloqueos de la unanimidad y reforzando el Parlamento Europeo.",
+          "medida_sintesis": "Impulsar una Unión Europea más democrática superando la regla de unanimidad y reforzando el Parlamento Europeo",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política europea que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-475": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegar plenamente el Acuerdo sobre Gibraltar para que la eliminación de la Verja se traduzca en empleo, movilidad y prosperidad compartida",
+          "medida_sintesis": "Desplegar el Acuerdo sobre Gibraltar para que la eliminación de la Verja genere empleo, movilidad y prosperidad en el Campo de Gibraltar",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 0: acuerdo internacional identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-480": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar una acción exterior europea comprometida con la paz, el derecho internacional y la democracia, respaldando la soberanía de Ucrania",
+          "medida_sintesis": "Respaldar la soberanía de Ucrania desde la acción exterior europea",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "los derechos del pueblo palestino",
+          "medida_sintesis": "Respaldar los derechos del pueblo palestino desde la acción exterior europea",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-468"
+        },
+        {
+          "fragmento": "la defensa del Estado de derecho frente a las injerencias externas",
+          "medida_sintesis": "Defender el Estado de derecho frente a las injerencias externas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política exterior que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-481": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la ampliación de la Unión Europea con la entrada de los Balcanes Occidentales.",
+          "medida_sintesis": "Impulsar la ampliación de la Unión Europea a los Balcanes Occidentales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política europea que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-482": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la Unión Europea de la defensa, reforzando la autonomía estratégica y militar de Europa, mejorando la coordinación y eficiencia del gasto en defensa",
+          "medida_sintesis": "Impulsar la Unión Europea de la defensa, con más autonomía estratégica y militar, mejor coordinación del gasto y protección frente a amenazas híbridas y convencionales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política de defensa que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-493": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar una política de Defensa al servicio de la seguridad global, vinculada a la diplomacia, la cooperación internacional y el derecho internacional",
+          "medida_sintesis": "Reforzar una política de defensa al servicio de la seguridad global, con participación en misiones internacionales y capacidades coordinadas con países aliados",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política de defensa que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-494": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la autonomía estratégica europea reforzando las capacidades comunes de seguridad y defensa de la UE",
+          "medida_sintesis": "Reforzar las capacidades comunes de seguridad y defensa de la Unión Europea",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política de defensa que no regula ni provee el acceso a un derecho social. DEC 1: es una posición sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-482"
+        },
+        {
+          "fragmento": "hacer más eficiente la inversión en defensa mediante una mayor participación española en proyectos europeos, la cooperación industrial y la adquisición conjunta de capacidades",
+          "medida_sintesis": "Hacer más eficiente la inversión en defensa con más participación en proyectos europeos, cooperación industrial y adquisición conjunta",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política de defensa que no regula ni provee el acceso a un derecho social. DEC 1: sin dotación ni programa concretos, como pp-236-03.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-495": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar las capacidades de vigilancia marítima y protección de los espacios de soberanía, mejorando los medios y recursos destinados a la defensa",
+          "medida_sintesis": "Reforzar la vigilancia marítima y la protección de los espacios de soberanía con más medios y recursos",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política de defensa que no regula ni provee el acceso a un derecho social. DEC 0: dotación de medios, como pp-073-02 y vox-083-01.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-496": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Modernizar tecnológicamente las Fuerzas Armadas en los ámbitos terrestre, naval, aéreo, espacial y de ciberdefensa, y en la seguridad de las comunicaciones",
+          "medida_sintesis": "Modernizar tecnológicamente las Fuerzas Armadas y fomentar la investigación y la transferencia tecnológica en defensa",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política de defensa que no regula ni provee el acceso a un derecho social. DEC 1: no concreta dotación ni programa, como pp-053-04.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-497": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar nuestras agencias de inteligencia civil y militar y dotarlas de más medios humanos y tecnológicos",
+          "medida_sintesis": "Reforzar las agencias de inteligencia civil y militar con más medios humanos y tecnológicos",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política de defensa que no regula ni provee el acceso a un derecho social. DEC 0: dotación de medios, como vox-083-01.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-498": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Potenciar la Unidad Militar de Emergencias (UME), reforzando sus capacidades operativas, tecnológicas y de despliegue",
+          "medida_sintesis": "Reforzar las capacidades de la Unidad Militar de Emergencias y su coordinación con las comunidades autónomas y la protección civil",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: seguridad y emergencias, que no regulan ni proveen el acceso a un derecho social. DEC 1: «potenciar» sin dotación ni programa concretos.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-500": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mejorar la atención psicológica y social de las Fuerzas Armadas y del personal que participa o ha participado en misiones en el exterior",
+          "medida_sintesis": "Mejorar la atención psicológica y social, con especial atención a la salud mental, del personal de las Fuerzas Armadas y de quienes participan en misiones en el exterior, y de sus familias",
+          "area": "SME",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 1: todo el colectivo definido por la situación protegida. EXI 0: «mejorar» sin estándar, plazo ni obligación de provisión. DES 1: atención en especie prestada por la Administración. DEC 1: sin norma, programa ni dotación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera en DES y en el área. pp-032-04 (salud mental de los agentes) se codificó con DES 0, pero la regla 2.4 da DES 1 a la prestación de un servicio en especie; también admite EMP como condición laboral del personal de un cuerpo público. Propuesta: SME con DES 1 y aplicar la misma lectura a pp-032-04.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-013": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzaremos los mecanismos de asesoramiento científico a todas las administraciones públicas",
+          "medida_sintesis": "Reforzar los mecanismos de asesoramiento científico a las administraciones públicas para basar las políticas en la evidencia",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: organización de las instituciones que no regula ni provee el acceso a un derecho social. DEC 1: «reforzaremos» sin norma, órgano ni dotación concretos.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-194": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crear juzgados especializados en violencia contra la infancia en el despliegue integral de la LOPIVI",
+          "medida_sintesis": "Crear juzgados especializados en violencia contra la infancia",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: organización judicial que no regula ni provee el acceso a un derecho social, como pp-034-04. DEC 0: crea órganos judiciales concretos.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-432"
+        },
+        {
+          "fragmento": "instando a las CC.AA. a la implantación efectiva de la figura del Coordinador de Bienestar",
+          "medida_sintesis": "Instar a las comunidades autónomas a implantar de forma efectiva la figura de coordinación de bienestar y protección de la infancia",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 1: protege a toda la infancia, sin prueba de renta. EXI 0: insta a otra administración a actuar, sin norma propia ni obligación de provisión. DES 1: figura dentro de los servicios públicos de protección de la infancia.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite OTR (protección de la infancia) y EDU, porque la LOPIVI implanta esta figura en los centros educativos. Propuesta: OTR, que es el área de la infancia en 2.3.",
+          "repite": ""
+        },
+        {
+          "fragmento": "la extensión del modelo Barnahus",
+          "medida_sintesis": "Instar a las comunidades autónomas a extender el modelo Barnahus de atención integral a la infancia víctima de violencia",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: insta a otra administración a actuar, sin norma propia ni obligación de provisión. DES 1: servicio público de atención en especie.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-432"
+        }
+      ]
+    }
+  }
+}

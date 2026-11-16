@@ -1,0 +1,269 @@
+{
+ "informe": {
+  "cc": {
+   "medidas": 100,
+   "filas": 100,
+   "por_anunciar": [],
+   "faltan_en_clasificacion": [],
+   "temas_raros": [],
+   "no_literal": [],
+   "sin_tema": [],
+   "notas": [
+    "cc-011"
+   ],
+   "sin_fiscal": []
+  },
+  "pp": {
+   "medidas": 249,
+   "filas": 241,
+   "por_anunciar": [
+    "pp-083",
+    "pp-109",
+    "pp-132",
+    "pp-164",
+    "pp-167",
+    "pp-173",
+    "pp-200",
+    "pp-210"
+   ],
+   "faltan_en_clasificacion": [],
+   "temas_raros": [],
+   "no_literal": [],
+   "sin_tema": [],
+   "notas": [],
+   "sin_fiscal": []
+  },
+  "psoe": {
+   "medidas": 500,
+   "filas": 500,
+   "por_anunciar": [],
+   "faltan_en_clasificacion": [],
+   "temas_raros": [],
+   "no_literal": [],
+   "sin_tema": [],
+   "notas": [
+    "psoe-054",
+    "psoe-176",
+    "psoe-395"
+   ],
+   "sin_fiscal": []
+  },
+  "upc": {
+   "medidas": 16,
+   "filas": 16,
+   "por_anunciar": [],
+   "faltan_en_clasificacion": [],
+   "temas_raros": [],
+   "no_literal": [],
+   "sin_tema": [],
+   "notas": [],
+   "sin_fiscal": []
+  },
+  "vox": {
+   "medidas": 115,
+   "filas": 115,
+   "por_anunciar": [],
+   "faltan_en_clasificacion": [],
+   "temas_raros": [],
+   "no_literal": [],
+   "sin_tema": [],
+   "notas": [],
+   "sin_fiscal": []
+  }
+ },
+ "por_tema": {
+  "igualdad": {
+   "cc": 3,
+   "pp": 11,
+   "psoe": 88,
+   "upc": 2,
+   "vox": 5
+  },
+  "vivienda": {
+   "cc": 8,
+   "pp": 18,
+   "psoe": 63,
+   "upc": 3,
+   "vox": 12
+  },
+  "sanidad": {
+   "cc": 4,
+   "pp": 12,
+   "psoe": 40,
+   "upc": 1,
+   "vox": 9
+  },
+  "dependencia": {
+   "cc": 3,
+   "pp": 6,
+   "psoe": 34,
+   "upc": 0,
+   "vox": 3
+  },
+  "educacion": {
+   "cc": 8,
+   "pp": 15,
+   "psoe": 43,
+   "upc": 1,
+   "vox": 12
+  },
+  "infancia": {
+   "cc": 3,
+   "pp": 12,
+   "psoe": 31,
+   "upc": 1,
+   "vox": 4
+  },
+  "migraciones": {
+   "cc": 8,
+   "pp": 22,
+   "psoe": 12,
+   "upc": 1,
+   "vox": 25
+  },
+  "empleo": {
+   "cc": 9,
+   "pp": 31,
+   "psoe": 73,
+   "upc": 4,
+   "vox": 13
+  },
+  "digital": {
+   "cc": 2,
+   "pp": 9,
+   "psoe": 51,
+   "upc": 0,
+   "vox": 4
+  },
+  "idi": {
+   "cc": 5,
+   "pp": 4,
+   "psoe": 13,
+   "upc": 0,
+   "vox": 2
+  },
+  "memoria": {
+   "cc": 0,
+   "pp": 6,
+   "psoe": 6,
+   "upc": 0,
+   "vox": 3
+  },
+  "cultura": {
+   "cc": 3,
+   "pp": 9,
+   "psoe": 24,
+   "upc": 1,
+   "vox": 5
+  },
+  "medioambiente": {
+   "cc": 29,
+   "pp": 19,
+   "psoe": 71,
+   "upc": 1,
+   "vox": 11
+  },
+  "animales": {
+   "cc": 0,
+   "pp": 1,
+   "psoe": 5,
+   "upc": 0,
+   "vox": 1
+  },
+  "economia": {
+   "cc": 36,
+   "pp": 85,
+   "psoe": 105,
+   "upc": 6,
+   "vox": 37
+  },
+  "defensa": {
+   "cc": 8,
+   "pp": 24,
+   "psoe": 45,
+   "upc": 3,
+   "vox": 11
+  },
+  "estado": {
+   "cc": 22,
+   "pp": 59,
+   "psoe": 45,
+   "upc": 6,
+   "vox": 17
+  },
+  "justicia": {
+   "cc": 3,
+   "pp": 39,
+   "psoe": 37,
+   "upc": 1,
+   "vox": 23
+  }
+ },
+ "cuentas": {
+  "cc": {
+   "medidas": 100,
+   "menos_ingresos": 5,
+   "mas_gasto": 68,
+   "mas_ingresos": 0,
+   "menos_gasto": 0,
+   "consolidacion": 0,
+   "restan": 69,
+   "suman": 0,
+   "ratio": null,
+   "riesgo_viabilidad": true,
+   "con_importe": 0
+  },
+  "pp": {
+   "medidas": 241,
+   "menos_ingresos": 32,
+   "mas_gasto": 86,
+   "mas_ingresos": 2,
+   "menos_gasto": 5,
+   "consolidacion": 2,
+   "restan": 109,
+   "suman": 6,
+   "ratio": 18.2,
+   "riesgo_viabilidad": true,
+   "con_importe": 2
+  },
+  "psoe": {
+   "medidas": 500,
+   "menos_ingresos": 10,
+   "mas_gasto": 234,
+   "mas_ingresos": 15,
+   "menos_gasto": 1,
+   "consolidacion": 3,
+   "restan": 242,
+   "suman": 16,
+   "ratio": 15.1,
+   "riesgo_viabilidad": true,
+   "con_importe": 9
+  },
+  "upc": {
+   "medidas": 16,
+   "menos_ingresos": 1,
+   "mas_gasto": 7,
+   "mas_ingresos": 2,
+   "menos_gasto": 0,
+   "consolidacion": 0,
+   "restan": 8,
+   "suman": 2,
+   "ratio": 4.0,
+   "riesgo_viabilidad": true,
+   "con_importe": 0
+  },
+  "vox": {
+   "medidas": 115,
+   "menos_ingresos": 14,
+   "mas_gasto": 55,
+   "mas_ingresos": 2,
+   "menos_gasto": 13,
+   "consolidacion": 1,
+   "restan": 58,
+   "suman": 15,
+   "ratio": 3.9,
+   "riesgo_viabilidad": true,
+   "con_importe": 0
+  }
+ }
+}

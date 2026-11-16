@@ -1,0 +1,2257 @@
+{
+ "lote": "lote-04",
+ "unidades": {
+  "pp-135": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Actualizaremos las leyes que protegen el patrimonio material e inmaterial de España",
+     "medida_sintesis": "Actualizar las leyes de protección del patrimonio material e inmaterial y velar, con las comunidades autónomas, por los bienes expuestos al deterioro, el vandalismo y el tráfico ilícito",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Protege bienes culturales, pero no regula el acceso de la población a la vida cultural.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: la protección del patrimonio puede leerse como condición del derecho a participar en la vida cultural. Propuesta: mantener 0 en las cuatro porque no regula ni provee el acceso de la población.",
+     "repite": ""
+    },
+    {
+     "fragmento": "daremos un impulso nacional e internacional a nuestros Museos Nacionales y Estatales",
+     "medida_sintesis": "Dar un impulso nacional e internacional a los Museos Nacionales y Estatales",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: impulso sin norma, estándar ni dotación. DES 1: nombra museos de titularidad pública. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: el impulso a museos públicos puede leerse como refuerzo de un servicio cultural público o como proyección exterior. Propuesta: codificarlo como acceso a la vida cultural (UNI 1, DES 1, NDI 1) y declarativo.",
+     "repite": ""
+    },
+    {
+     "fragmento": "ampliaremos los incentivos para que ciudadanos, empresas y fundaciones puedan contribuir y ver reconocido su apoyo a la cultura",
+     "medida_sintesis": "Ampliar los incentivos fiscales al mecenazgo de la cultura, la ciencia y el deporte mediante una nueva Ley de Mecenazgo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un incentivo fiscal a quien hace donaciones.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-136": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizaremos su protección, apoyaremos a quienes las mantienen vivas y facilitaremos su transmisión a las nuevas generaciones",
+     "medida_sintesis": "Proteger el folclore, las fiestas y las tradiciones populares, apoyar a quienes las mantienen y facilitar su transmisión a las nuevas generaciones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Trata de tradiciones e identidad cultural, sin regular el acceso a un servicio. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Recuperaremos el respeto y la promoción de las expresiones que mejor combinan tradición y futuro, empezando por la restitución del Premio Nacional de Tauromaquia",
+     "medida_sintesis": "Promover y proyectar dentro y fuera de España las expresiones tradicionales, empezando por restituir el Premio Nacional de Tauromaquia",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-137": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos el liderazgo del Instituto Cervantes como el mayor organismo cultural del mundo en lengua española",
+     "medida_sintesis": "Reforzar el Instituto Cervantes, con nuevas Residencias de Artistas y proyección exterior de la creación española, para promover el español en el mundo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es promoción exterior de la lengua y la cultura.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-138": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos la promoción exterior de nuestra cultura, nuestro patrimonio, el turismo, las universidades, la gastronomía y el deporte",
+     "medida_sintesis": "Impulsar la promoción exterior de la cultura, el patrimonio, el turismo, las universidades, la gastronomía, el deporte y las industrias culturales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es promoción exterior. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "El español será el eje de nuestra diplomacia cultural: reforzaremos su enseñanza",
+     "medida_sintesis": "Reforzar la enseñanza del español en el exterior como eje de la diplomacia cultural",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política exterior y de lengua, no acceso de la población a la educación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Promoveremos también las lenguas cooficiales como parte del patrimonio cultural común de España",
+     "medida_sintesis": "Promover las lenguas cooficiales como parte del patrimonio cultural común",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política lingüística.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-139": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Nuestro deporte tendrá una financiación acorde con su importancia para nuestra sociedad",
+     "medida_sintesis": "Dotar al deporte de una financiación acorde con su importancia social",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. El deporte no figura entre los derechos sociales del apartado 2.2.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "fomentaremos el patrocinio y el mecenazgo privados",
+     "medida_sintesis": "Fomentar el patrocinio y el mecenazgo privados del deporte",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un incentivo a la financiación privada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "pp-135"
+    },
+    {
+     "fragmento": "corregiremos los vacíos legales que hayan impedido su cotización a la Seguridad Social",
+     "medida_sintesis": "Corregir los vacíos legales que impidieron cotizar a la Seguridad Social a deportistas de alto nivel que han representado a España",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: se limita a deportistas de alto nivel que han representado a España (requisito de merecimiento) y da acceso a una protección contributiva.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: el colectivo se define por mérito deportivo, el acceso es contributivo y el texto no dice quién paga la cotización. Propuesta: UNI 0 por merecimiento y cotización; EXI 1 por ser una corrección legal; DES 1 por tratarse del sistema público de Seguridad Social.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Defenderemos que España albergue la final del Mundial de fútbol de 2030 y condicionaremos a ello nuestra participación en la competición",
+     "medida_sintesis": "Defender que España albergue la final del Mundial de fútbol de 2030, condicionando a ello la participación en la competición",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: condicionar la participación no es norma, prestación ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-076": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Afirmación y difusión de la historia común española",
+     "medida_sintesis": "Afirmar y difundir la historia común española",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de memoria e identidad.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Conservación y rehabilitación del patrimonio nacional, con especial atención al medio rural, sus iglesias y monumentos",
+     "medida_sintesis": "Conservar y rehabilitar el patrimonio nacional, con atención al medio rural, sus iglesias y monumentos, y protegerlo frente al vandalismo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Protege bienes culturales, pero no regula el acceso de la población a la vida cultural.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: la protección del patrimonio puede leerse como condición del derecho a participar en la vida cultural. Propuesta: mantener 0 en las cuatro porque no regula ni provee el acceso de la población.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reducción de impuestos para el arte y los espectáculos en vivo",
+     "medida_sintesis": "Reducir los impuestos sobre el arte y los espectáculos en vivo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una rebaja fiscal sectorial que no regula el acceso de la población a la vida cultural.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: una rebaja fiscal sobre bienes culturales puede abaratar el acceso a la vida cultural. Propuesta: mantener 0 en las cuatro por ser fiscalidad sectorial sin destinatario definido; si se considera acceso, UNI 1, EXI 0, DES 0 y NDI 1.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Nueva Ley de Mecenazgo para elevar las deducciones del IRPF",
+     "medida_sintesis": "Aprobar una nueva Ley de Mecenazgo que eleve las deducciones del IRPF",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un incentivo fiscal a quien hace donaciones.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-077": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defensa de la Tauromaquia y promoción de la difusión del arte taurino y potenciación del conjunto de actividades alrededor de esta tradición",
+     "medida_sintesis": "Defender y promover la tauromaquia, su difusión y las actividades asociadas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-078": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Despolitizar el deporte y garantizar que las selecciones nacionales representen a España en las competiciones internacionales",
+     "medida_sintesis": "Despolitizar el deporte y garantizar que las selecciones nacionales representen a España en las competiciones internacionales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Compromiso con la defensa del deporte femenino, que debe regirse por criterios biológicos y deportivos objetivos para garantizar la igualdad real en la competición",
+     "medida_sintesis": "Regir el acceso a la competición femenina por criterios biológicos y deportivos",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: los criterios biológicos de acceso a la competición femenina introducen una exclusión por identidad de género. DEC 1: sin instrumento.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "La exclusión por identidad de género es implícita en «criterios biológicos», el deporte no es un derecho del apartado 2.2 y el objeto admite IGU u OTR. Propuesta: REG 1 en IGU, porque REG también cubre la exclusión por género.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Impulso de becas a deportistas, rebajas fiscales y apoyo a clubes y federaciones deportivas",
+     "medida_sintesis": "Impulsar becas a deportistas, rebajas fiscales y apoyo a clubes y federaciones deportivas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. El deporte no figura entre los derechos sociales del apartado 2.2.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-104": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Protección de nuestros usos y costumbres y de las tradiciones religiosas y populares de España, frente a cualquier intento de imposición ideológica",
+     "medida_sintesis": "Promover, conservar y transmitir el patrimonio material y espiritual y proteger los usos, costumbres y tradiciones religiosas y populares frente a imposiciones ideológicas o extranjeras",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Trata de identidad y tradiciones, sin regular el acceso a un servicio.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-043": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Corregiremos las reglas estatales para que el transporte entre islas de residuos destinados a la reutilización, el reciclaje o el aprovechamiento no quede en desventaja",
+     "medida_sintesis": "Corregir las reglas estatales y abrir compensaciones al transporte para que el traslado entre islas de residuos destinados a reutilización o reciclaje no quede en desventaja",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Regula la logística de los residuos, no el acceso de la población a un medio ambiente sano.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Donde exista capacidad técnica, se favorecerá su tratamiento en Canarias",
+     "medida_sintesis": "Favorecer el tratamiento de los residuos en Canarias donde exista capacidad técnica",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión sectorial de residuos. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-051": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promoveremos financiación estatal y europea para proyectos que permitan ensayar y demostrar soluciones en energía, agua, océanos, biodiversidad",
+     "medida_sintesis": "Promover financiación estatal y europea para proyectos de ensayo de soluciones en energía, agua, océanos, biodiversidad, economía circular y adaptación climática",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es apoyo a la investigación y a la innovación.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite MAM u OTR: financia investigación e innovación sobre soluciones ambientales. Propuesta: MAM por la materia de los proyectos.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-053": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Exigiremos una planificación estatal que sustituya progresivamente las instalaciones térmicas obsoletas por soluciones más eficientes, renovables y flexibles",
+     "medida_sintesis": "Exigir una planificación estatal que sustituya progresivamente las centrales térmicas obsoletas por soluciones renovables y reduzca la generación fósil sin perder seguridad de suministro",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es planificación del sistema energético.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-054": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos la eólica marina en Gran Canaria con planificación, subastas, conexión y retribución adaptadas a los sistemas insulares",
+     "medida_sintesis": "Impulsar la eólica marina en Gran Canaria con planificación, subastas, conexión y retribución adaptadas, condicionada a consenso y compatibilidad ambiental",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética sectorial.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-055": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos un programa estatal extraordinario para redes de transporte y distribución, subestaciones, digitalización y nueva capacidad de conexión",
+     "medida_sintesis": "Reclamar un programa estatal extraordinario para reforzar las redes eléctricas y su capacidad de conexión",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura energética.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-056": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos ayudas estatales y europeas para baterías y almacenamiento en baja y media tensión",
+     "medida_sintesis": "Impulsar ayudas estatales y europeas al almacenamiento de energía a distintas escalas, incluido el bombeo de agua de mar",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Son ayudas al sector energético.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-057": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reformaremos la retribución de los sistemas eléctricos no peninsulares para valorar el almacenamiento, la flexibilidad, la gestión de la demanda",
+     "medida_sintesis": "Reformar la retribución de los sistemas eléctricos no peninsulares para valorar el almacenamiento, la flexibilidad y la reducción de combustibles fósiles",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Regula la retribución del sector eléctrico.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-058": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defenderemos un marco estatal favorable al autoconsumo colectivo y a las comunidades energéticas, mejorando su acceso a la red",
+     "medida_sintesis": "Defender un marco estatal favorable al autoconsumo colectivo y a las comunidades energéticas",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es regulación del sector energético.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Priorizaremos estos recursos y los sistemas de respaldo limpio en hospitales, centros de salud, desaladoras, depuradoras y telecomunicaciones",
+     "medida_sintesis": "Priorizar el autoconsumo, el almacenamiento y el respaldo limpio en hospitales, centros de salud, desaladoras, depuradoras y telecomunicaciones para la continuidad de los servicios esenciales",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. El objeto es el suministro energético de las instalaciones, no el acceso a los servicios. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera con dos áreas: la medida sirve a la continuidad de servicios sanitarios y de agua. Propuesta: MAM con 0 en las cuatro; si se entiende como garantía de continuidad asistencial, SAN con UNI 1, EXI 0, DES 0 y NDI 1.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-059": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Mantendremos programas estatales estables para la recarga de vehículos eléctricos, sin vacíos entre convocatorias",
+     "medida_sintesis": "Mantener programas estatales estables para la recarga de vehículos eléctricos, simplificar su instalación y obligar a los aeropuertos a reservar potencia para recarga rápida",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura de movilidad eléctrica.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-060": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos ayudas reforzadas para los taxis eléctricos",
+     "medida_sintesis": "Reclamar ayudas reforzadas para los taxis eléctricos",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una ayuda a un sector económico.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Adaptaremos también los programas estatales para acelerar la electrificación de las flotas de alquiler",
+     "medida_sintesis": "Adaptar los programas estatales para acelerar la electrificación de las flotas de vehículos de alquiler",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una ayuda a un sector económico.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-061": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incorporaremos los puertos canarios a corredores marítimos verdes entre Europa, África y América",
+     "medida_sintesis": "Incorporar los puertos canarios a corredores marítimos verdes entre Europa, África y América",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética del transporte marítimo.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Impulsaremos financiación estatal y europea y un marco normativo que permita a los barcos conectarse a la electricidad en puerto",
+     "medida_sintesis": "Impulsar financiación y un marco normativo para la conexión eléctrica de los barcos en puerto y favorecer renovables, almacenamiento y redes inteligentes en los recintos portuarios",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética del sector portuario.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-062": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos apoyo estatal y europeo para infraestructuras de producción, almacenamiento y suministro de metanol renovable, hidrógeno y otros combustibles sostenibles para la navegación",
+     "medida_sintesis": "Reclamar apoyo estatal y europeo para infraestructuras de combustibles sostenibles para la navegación",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética sectorial. DEC 1: «apoyo» no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Impulsaremos incentivos estatales para producir en las islas combustibles sostenibles de aviación",
+     "medida_sintesis": "Impulsar incentivos estatales para producir en Canarias combustibles sostenibles de aviación",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un incentivo a un sector económico.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-063": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Exigiremos que España defienda ante la Unión Europea las adaptaciones necesarias de las políticas climáticas de aviación y navegación",
+     "medida_sintesis": "Exigir que España defienda ante la Unión Europea adaptaciones de las políticas climáticas de aviación y navegación para no perjudicar la conectividad de Canarias",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: pide adaptar la aplicación de normas climáticas sectoriales, no suprime una garantía de acceso. DEC 1: sin instrumento propio.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-064": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos un programa estatal plurianual que permita acelerar las obras prioritarias y corregir los déficits históricos",
+     "medida_sintesis": "Reclamar un programa estatal plurianual de saneamiento y depuración para eliminar vertidos sin tratamiento suficiente y adecuar emisarios y depuradoras",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un programa de financiación reclamado al Estado, sin norma, plazo ni estándar obligatorio. DES 1: obras públicas de saneamiento y depuración.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-065": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos que los convenios estatales de obras hidráulicas financien la regeneración del agua en las nuevas depuradoras",
+     "medida_sintesis": "Reclamar que los convenios estatales financien la regeneración del agua depurada e impulsar inversiones para usarla en la agricultura y en zonas verdes",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión de recursos hídricos para usos productivos.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-066": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defenderemos inversiones y normas estatales adaptadas a las islas para garantizar el abastecimiento a los hogares",
+     "medida_sintesis": "Defender inversiones y normas estatales adaptadas a las islas para garantizar el abastecimiento de agua a los hogares",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: se defienden inversiones y normas sin concretar derecho, plazo ni estándar. DES 1: inversión pública en el abastecimiento domiciliario, que es un servicio público.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite VIV (suministros del hogar) o MAM (agua) y el texto no dice expresamente que el servicio sea público. Propuesta: VIV con DES 1, por ser el abastecimiento domiciliario un servicio público.",
+     "repite": ""
+    },
+    {
+     "fragmento": "inversiones y normas estatales adaptadas a las islas para garantizar el abastecimiento a los hogares y al sector agrícola",
+     "medida_sintesis": "Garantizar con inversiones y normas estatales el abastecimiento de agua al sector agrícola",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es abastecimiento a un sector productivo.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reclamaremos compensaciones actualizadas por el sobrecoste del agua desalada, regenerada y reutilizada",
+     "medida_sintesis": "Reclamar compensaciones por el sobrecoste del agua desalada, regenerada y reutilizada y financiación para la eficiencia energética de las instalaciones hidráulicas",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Compensa costes de producción del agua sin regular su precio ni el acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-068": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos un fondo estatal para arbolado, corredores verdes, sombra, refugios climáticos, pavimentos permeables y sistemas de drenaje urbano sostenible",
+     "medida_sintesis": "Impulsar un fondo estatal para arbolado, corredores verdes, sombra, refugios climáticos y drenaje urbano sostenible frente al calor",
+     "area": "EVE",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un fondo, sin norma ni estándar obligatorio. DES 1: financiación pública de espacios urbanos de uso público.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite EVE (arbolado y zonas verdes) o MAM (adaptación al calor). Propuesta: EVE, por el peso del arbolado y los corredores verdes.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-069": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos financiación estatal para dotar a los centros educativos de sombra, patios verdes, aislamiento, ventilación y climatización eficiente",
+     "medida_sintesis": "Reclamar financiación estatal para adaptar al calor los centros educativos con sombra, patios verdes, aislamiento, ventilación y climatización",
+     "area": "EDU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es financiación reclamada, sin norma ni estándar obligatorio. DES 1: equipamientos educativos públicos.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite EDU o MAM (adaptación al calor). Propuesta: EDU, porque el objeto es el centro educativo público.",
+     "repite": ""
+    },
+    {
+     "fragmento": "La adaptación de hospitales y centros de salud deberá proteger la continuidad asistencial y mantener la eficiencia energética",
+     "medida_sintesis": "Adaptar al calor hospitales y centros de salud protegiendo la continuidad asistencial",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: no fija norma, plazo ni estándar. DES 1: equipamientos sanitarios públicos.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite SAN o MAM y el instrumento es la financiación estatal reclamada en la misma medida. Propuesta: SAN con DEC 0.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Priorizaremos también residencias y centros de día que atienden a personas mayores, personas en situación de dependencia y personas con discapacidad",
+     "medida_sintesis": "Priorizar en la adaptación al calor las residencias y los centros de día de personas mayores, en situación de dependencia o con discapacidad",
+     "area": "CUI",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una prioridad de financiación, sin norma ni estándar. DES 1: equipamientos públicos según el título de la medida.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite CUI o MAM y no aclara si incluye residencias privadas o concertadas. Propuesta: CUI con DES 1, por presentarse como equipamientos públicos.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-070": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos al Estado financiación para diagnósticos de vulnerabilidad al calor que permitan identificar los equipamientos públicos más expuestos",
+     "medida_sintesis": "Reclamar financiación estatal para diagnósticos de vulnerabilidad al calor de los equipamientos públicos",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un estudio para ordenar inversiones.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Las nuevas infraestructuras con financiación estatal significativa deberán diseñarse considerando escenarios climáticos futuros",
+     "medida_sintesis": "Exigir que las nuevas infraestructuras con financiación estatal se diseñen con escenarios climáticos futuros",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un criterio técnico para infraestructuras.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-071": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Exigiremos una contribución específica del Estado para cumplir en Canarias los objetivos europeos de restauración de la naturaleza",
+     "medida_sintesis": "Exigir una contribución específica del Estado para cumplir en Canarias los objetivos europeos de restauración de la naturaleza",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es financiación reclamada al Estado, sin norma ni plazo obligatorio. DES 1: restauración pública de espacios naturales.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-072": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos financiación estatal y europea para restaurar dunas, playas, humedales, barrancos y desembocaduras",
+     "medida_sintesis": "Reclamar financiación estatal y europea para restaurar dunas, playas, humedales, barrancos y desembocaduras con soluciones basadas en la naturaleza",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es financiación reclamada, sin norma ni plazo obligatorio. DES 1: restauración pública del litoral.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-048": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Mejoraremos la detección de riesgos y los sistemas de aviso para que la población reciba a tiempo mensajes claros, accesibles",
+     "medida_sintesis": "Mejorar la detección de riesgos y los sistemas de aviso a la población",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección civil. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Las confederaciones hidrográficas darán prioridad al mantenimiento, limpieza y ampliación de los cauces y barrancos",
+     "medida_sintesis": "Priorizar el mantenimiento y la ampliación de cauces y barrancos y ejecutar obras hidráulicas, incluidas presas y embalses, para proteger frente a las inundaciones",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Son infraestructuras de protección frente a riesgos.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reformaremos la Ley de Montes para mantener la prevención durante todo el año, con gestión activa del monte",
+     "medida_sintesis": "Reformar la Ley de Montes para mantener la prevención de incendios todo el año, con gestión activa y apoyo a la agricultura y la ganadería preventivas",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión forestal y prevención de incendios.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Impulsaremos programas de autoprotección ciudadana",
+     "medida_sintesis": "Impulsar programas de autoprotección de la ciudadanía frente a emergencias",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección civil.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "restauración inmediata de la superficie afectada",
+     "medida_sintesis": "Impulsar programas de restauración inmediata de la superficie afectada",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: son programas, sin norma ni plazo obligatorio. DES 1: restauración ambiental mediante programas públicos.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-126": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Dentro del Plan Nacional de Infraestructuras, movilizaremos hasta 40.000 millones de euros en inversiones hasta 2030",
+     "medida_sintesis": "Movilizar hasta 40.000 millones de euros en inversiones hidráulicas hasta 2030 dentro del Plan Nacional de Infraestructuras",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es inversión en infraestructuras hidráulicas sin destino en el acceso de los hogares.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Modernizaremos los regadíos y generaremos recursos nuevos con infraestructuras, desalación y reutilización",
+     "medida_sintesis": "Modernizar los regadíos y generar nuevos recursos hídricos con infraestructuras, desalación y reutilización",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política hidráulica para usos productivos.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "pp-199"
+    },
+    {
+     "fragmento": "Impulsaremos también soluciones de alta eficiencia a gran escala para el almacenamiento de energía",
+     "medida_sintesis": "Impulsar el almacenamiento de energía a gran escala, como las centrales hidroeléctricas reversibles",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "pp-231"
+    },
+    {
+     "fragmento": "Gestionar riesgos y prevenir inundaciones y sequías será prioritario",
+     "medida_sintesis": "Priorizar la gestión de riesgos de inundación y sequía y regir las infraestructuras hidráulicas existentes por criterios de seguridad, mantenimiento de presas y alerta temprana",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión de riesgos e infraestructuras. DEC 1: los criterios no se concretan.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-199": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "modernizaremos embalses y conducciones, renovaremos los regadíos para reducir su consumo de agua y energía, definiremos nuevos regadíos",
+     "medida_sintesis": "Modernizar embalses, conducciones y regadíos, definir nuevos regadíos, ampliar el uso de agua depurada y reforzar la desalación para el campo y la industria",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es abastecimiento de agua a sectores productivos.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-205": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "tendrán ingresos extra por beneficios ambientales (carbono, agua, biodiversidad) con un sistema sencillo, verificable y compatible con el mercado europeo de emisiones",
+     "medida_sintesis": "Remunerar a las personas agricultoras, ganaderas, pescadoras y titulares forestales por los beneficios ambientales que generan",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una renta a sectores productivos por servicios ambientales.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-206": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reformaremos la Ley de Montes para facilitar la prevención",
+     "medida_sintesis": "Reformar la Ley de Montes para facilitar la prevención",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión forestal.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "pp-048"
+    },
+    {
+     "fragmento": "elaboraremos modelos de ordenación predefinidos",
+     "medida_sintesis": "Elaborar modelos predefinidos de ordenación forestal para reducir trámites",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión forestal.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "potenciaremos la agricultura y ganadería preventivas, la biomasa, los tratamientos selvícolas, los aprovechamientos colectivos y la industria forestal",
+     "medida_sintesis": "Potenciar la agricultura y la ganadería preventivas, la biomasa, los tratamientos selvícolas, los aprovechamientos colectivos y la industria forestal",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política forestal y económica. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Adaptaremos la fiscalidad al ciclo del monte para que pague menos quien lo cuide",
+     "medida_sintesis": "Adaptar la fiscalidad al ciclo del monte para que pague menos quien lo cuide",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad sectorial.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-228": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "En los primeros cien días de Gobierno tramitaremos la extensión de su vida útil con el visto bueno del Consejo de Seguridad Nuclear",
+     "medida_sintesis": "Eliminar el calendario de cierre de las centrales nucleares y tramitar en cien días la extensión de su vida útil",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reformularemos con realismo el Plan Nacional Integrado de Energía y Clima",
+     "medida_sintesis": "Reformular el Plan Nacional Integrado de Energía y Clima",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es planificación energética sectorial. REG 0: no suprime una garantía nombrada.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "todas las tecnologías competirán en igualdad en subastas, ayudas y regulación",
+     "medida_sintesis": "Aplicar la neutralidad tecnológica en subastas, ayudas y regulación energética",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aprobaremos una estrategia nacional de energía nuclear y participaremos en las iniciativas europeas de reactores avanzados y de pequeños reactores modulares",
+     "medida_sintesis": "Aprobar una estrategia nacional de energía nuclear y participar en iniciativas europeas de reactores avanzados y modulares",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Facilitaremos contratos de electricidad a largo plazo, que dan precios estables a la industria y a los hogares",
+     "medida_sintesis": "Facilitar contratos de electricidad a largo plazo con precios estables",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Facilita un tipo de contrato de mercado sin regular el precio ni el acceso al suministro. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-229": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Eliminaremos de inmediato el impuesto del 7% a la producción eléctrica y reduciremos la carga fiscal del recibo",
+     "medida_sintesis": "Eliminar el impuesto del 7 % a la producción eléctrica y reducir la carga fiscal del recibo de la luz",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una rebaja fiscal, no reconoce el derecho ni obliga a proveerlo. DES 0: es una rebaja fiscal.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: es fiscalidad, pero afecta al precio de un suministro básico del hogar, y admite VIV u OTR. Propuesta: VIV con UNI 1, porque se aplica a todas las facturas sin prueba de renta.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aplicaremos un plan de choque para abaratar los servicios que ajustan la producción al consumo y mantienen estable el sistema eléctrico",
+     "medida_sintesis": "Aplicar un plan de choque para abaratar los servicios de ajuste del sistema eléctrico",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Actúa sobre los costes del sistema eléctrico, no sobre el acceso de los hogares.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Los hogares más vulnerables tendrán una Tarifa Social Única que sustituirá y mejorará los actuales bonos eléctrico y térmico",
+     "medida_sintesis": "Crear una Tarifa Social Única para los hogares más vulnerables que sustituya y mejore los bonos eléctrico y térmico",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: se limita a los hogares más vulnerables. DES 0: se describe como ayuda compatible con cualquier contrato de mercado, no como precio regulado.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de DES: «tarifa» sugiere precio regulado, pero el texto la describe como ayuda aplicable a cualquier contrato de luz y gas. Propuesta: DES 0 por ser una ayuda a la demanda.",
+     "repite": ""
+    },
+    {
+     "fragmento": "aprobaremos un Estatuto del Consumidor Energético que refuerce sus derechos de información, transparencia y reclamación",
+     "medida_sintesis": "Aprobar un Estatuto del Consumidor Energético y modelos comunes de contrato de electricidad, agua y gas que refuercen la información, la transparencia y la reclamación",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "DES 0: regula la información y los contratos, no el precio ni un servicio público.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: protección de las personas consumidoras de suministros básicos, que admite VIV o MAM. Propuesta: VIV con EXI 1 por ser una norma que reconoce derechos exigibles y DES 0 por no regular el precio.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Quien se quede sin luz por un fallo del sistema recibirá una compensación automática, sin tener que reclamarla",
+     "medida_sintesis": "Compensar de forma automática a quien se quede sin luz por un fallo del sistema",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "DES 0: es una compensación monetaria, sin servicio público ni regulación de precio.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: garantiza la continuidad de un suministro básico más que el acceso, y admite VIV o MAM. Propuesta: VIV con EXI 1 por ser automática y DES 0.",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-230": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Prepararemos la red antes de que haga falta, con una planificación que se adapte a las nuevas necesidades",
+     "medida_sintesis": "Planificar la red eléctrica con antelación, anticipar capacidad para zonas industriales, viviendas y centros de datos y priorizar las infraestructuras esenciales de transporte y distribución",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura energética.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "En 18 meses resolveremos, con un plan de choque, los problemas que frenan la conexión de estos proyectos",
+     "medida_sintesis": "Resolver en 18 meses con un plan de choque los bloqueos de conexión a la red y revisar la capacidad reservada a proyectos no viables",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura energética.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Mejoraremos las conexiones eléctricas con el resto de Europa",
+     "medida_sintesis": "Mejorar las interconexiones eléctricas con el resto de Europa",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura energética. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-231": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "En seis meses actualizaremos las reglas de funcionamiento del sistema eléctrico",
+     "medida_sintesis": "Actualizar en seis meses las reglas del sistema eléctrico y aprobar un plan nacional de seguridad con supervisión en tiempo real y alertas tempranas",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es regulación del sistema energético.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Ninguna central de gas o hidroeléctrica que permita disponer de electricidad cuando se necesita cerrará sin una alternativa",
+     "medida_sintesis": "Impedir el cierre de centrales de gas o hidroeléctricas gestionables sin una alternativa técnicamente acreditada",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es regulación del sistema energético.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Facilitaremos el almacenamiento de energía con baterías, centrales hidroeléctricas reversibles",
+     "medida_sintesis": "Facilitar el almacenamiento de energía con baterías, centrales hidroeléctricas reversibles y otras tecnologías",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Modernizaremos la gestión de la red para reducir los costes de mantener estable el sistema",
+     "medida_sintesis": "Modernizar la gestión de la red para reducir los costes de estabilidad del sistema",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "pp-229"
+    },
+    {
+     "fragmento": "Cada incidente grave tendrá un informe público que explique sus causas",
+     "medida_sintesis": "Publicar un informe sobre las causas de cada incidente grave del sistema eléctrico",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es transparencia del sistema energético.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-232": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "ha llegado el momento de revisar los ritmos de cada sector atendiendo a tres factores",
+     "medida_sintesis": "Revisar los ritmos de descarbonización de cada sector y frenar los calendarios que se consideran imposibles",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: revisa calendarios de política climática sectorial sin suprimir una garantía nombrada. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "No impondremos obligaciones innecesarias y retiraremos las que perjudiquen la competitividad, la industria o el empleo",
+     "medida_sintesis": "No imponer obligaciones de política climática innecesarias y retirar las que perjudiquen la competitividad, la industria o el empleo",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: no identifica qué obligaciones retira. DEC 1: no concreta la norma.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: retira obligaciones existentes, previsiblemente ambientales, sin nombrar la norma. Propuesta: REG 0 por no identificar una garantía; REG 1 si el equipo considera regresiva toda retirada de obligaciones ambientales.",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-233": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "No impondremos obligaciones adicionales, no aceleraremos los tiempos ni desaprovecharemos las inversiones, infraestructuras y capacidades que ya tiene España",
+     "medida_sintesis": "No imponer obligaciones adicionales ni acelerar los plazos en economía circular y aprovechar las capacidades existentes",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: no suprime obligaciones existentes. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-044": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Acabar con todas las imposiciones climáticas como el Pacto Verde que castigan nuestra industria",
+     "medida_sintesis": "Derogar las imposiciones climáticas, como el Pacto Verde y las zonas de bajas emisiones",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: suprime regulaciones ambientales vigentes, entre ellas las zonas de bajas emisiones, que protegen la calidad del aire.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: el libro no aclara si la regulación climática y de calidad del aire es una garantía del derecho a un medio ambiente sano. Propuesta: REG 1 porque nombra una garantía vigente (las zonas de bajas emisiones); las rebajas ambientales genéricas, REG 0.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-054": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impedir la destrucción de la riqueza agrícola y el patrimonio natural para la instalación descontrolada de macro plantas de energías renovables, solar y eólica",
+     "medida_sintesis": "Impedir que la instalación descontrolada de grandes plantas solares y eólicas destruya suelo agrícola y patrimonio natural",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: no concreta norma, estándar ni plazo. DES 0: no dice cómo se provee la protección ni nombra un servicio público. DEC 1: sin instrumento.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "El objeto mezcla la protección del suelo agrícola, que es sectorial, y la del patrimonio natural, que es medio ambiente sano. Propuesta: codificarla como protección ambiental (UNI 1, NDI 1) y declarativa.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-055": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Limpieza y aprovechamiento de los montes",
+     "medida_sintesis": "Limpiar y aprovechar los montes",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión forestal.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Revisión de las restricciones ambientales que obstaculizan las labores de prevención y aprovechamiento forestal",
+     "medida_sintesis": "Revisar las restricciones ambientales que dificultan la prevención y el aprovechamiento forestal",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: revisa restricciones sin identificar la norma ni suprimirla. DEC 1: no concreta la norma.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: rebaja de regulación ambiental sin identificar la norma ni la garantía afectada. Propuesta: REG 0, igual que el resto de rebajas ambientales genéricas; REG 1 solo cuando se suprime una garantía nombrada.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Prevención y lucha contra los incendios: protocolos comunes, coordinación de bomberos y protección civil de distintas administraciones",
+     "medida_sintesis": "Prevenir y combatir los incendios con protocolos comunes, coordinación de bomberos y protección civil y más medios humanos, materiales y tecnológicos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección civil.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Endurecimiento de las penas a los incendiarios",
+     "medida_sintesis": "Endurecer las penas por provocar incendios",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política penal.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-114": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Conclusión de las obras pendientes, conservación de cauces, adecuación de barrancos y desarrollo de las infraestructuras hidráulicas necesarias",
+     "medida_sintesis": "Concluir las obras pendientes, conservar cauces, adecuar barrancos y desarrollar infraestructuras hidráulicas contra las inundaciones",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Son infraestructuras de protección frente a riesgos; la mención a la población española es genérica.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-115": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Interconexión de todas las cuencas que permita una gestión más eficiente del agua",
+     "medida_sintesis": "Interconectar todas las cuencas para gestionar el agua y reactivar el sector primario, los regadíos y la producción de energía",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura hidráulica para usos productivos.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "conclusión de las obras pendientes y desarrollo de las infraestructuras hidráulicas necesarias para garantizar la seguridad de los españoles ante las inundaciones",
+     "medida_sintesis": "Concluir las obras pendientes y desarrollar infraestructuras hidráulicas contra las inundaciones",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Son infraestructuras de protección frente a riesgos.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "vox-114"
+    }
+   ]
+  },
+  "pp-207": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reduciremos las trabas a la caza sostenible y respaldaremos su contribución a la economía de los pueblos y al mantenimiento de la biodiversidad",
+     "medida_sintesis": "Reducir las trabas a la caza sostenible y respaldar su contribución a la economía rural y a la biodiversidad",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: rebaja la regulación de una actividad sin identificar una garantía de acceso. DEC 1: no concreta la norma.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: rebaja de regulación ambiental sin identificar la norma ni la garantía afectada. Propuesta: REG 0, igual que el resto de rebajas ambientales genéricas; REG 1 solo cuando se suprime una garantía nombrada.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-059": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defensa de la caza como actividad esencial para el control de las poblaciones",
+     "medida_sintesis": "Defender la caza por su papel en el control de poblaciones, la protección de explotaciones agrarias y su valor ambiental y económico",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta instrumento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-004": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defenderemos la integridad del Régimen Económico y Fiscal, nuestro fuero histórico",
+     "medida_sintesis": "Defender la integridad del Régimen Económico y Fiscal y rechazar reformas unilaterales del Estado sin participación de las instituciones canarias",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Su actualización deberá responder a las necesidades de la sociedad canaria y hacer que sus beneficios lleguen al conjunto de las islas",
+     "medida_sintesis": "Actualizar el Régimen Económico y Fiscal para que sus beneficios lleguen a todas las islas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reclamaremos más capacidad canaria para decidir sobre sus instrumentos",
+     "medida_sintesis": "Reclamar más capacidad de decisión canaria sobre los instrumentos del Régimen Económico y Fiscal",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-007": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos el cumplimiento de los convenios de carreteras, vivienda, agua, costas e infraestructuras educativas y turísticas",
+     "medida_sintesis": "Reclamar el cumplimiento de los convenios con el Estado en carreteras, vivienda, agua, costas e infraestructuras educativas y turísticas, con financiación y plazos verificables",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. El objeto es el cumplimiento de la financiación entre administraciones, no el acceso a un derecho concreto.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Enunciado compuesto que incluye convenios de vivienda e infraestructuras educativas. Propuesta: mantener una medida en OTR, porque su objeto es la ejecución de convenios entre administraciones; si se divide, codificar esos dos convenios como financiación (EXI 0, DES 1).",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-008": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desarrollaremos las previsiones del Estatuto para que el Gobierno de Canarias y los cabildos tengan un papel efectivo en la planificación",
+     "medida_sintesis": "Desarrollar el Estatuto para que el Gobierno de Canarias y los cabildos participen en la planificación y gestión de puertos y aeropuertos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización institucional.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Exigiremos la aplicación efectiva del régimen específico de los aeropuertos canarios y la actualización de las inversiones",
+     "medida_sintesis": "Exigir la aplicación del régimen específico de los aeropuertos canarios y más inversión en los aeropuertos no capitalinos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura de transporte.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Impulsaremos también la mejora del Registro Especial de Buques de Canarias y la negociación de su gestión por la comunidad autónoma",
+     "medida_sintesis": "Impulsar la mejora del Registro Especial de Buques de Canarias y negociar su gestión autonómica",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-030": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos al Estado que las compensaciones por los sobrecostes de la insularidad se actualicen y que se evalúe su efecto sobre los precios finales",
+     "medida_sintesis": "Reclamar la actualización de las compensaciones por sobrecostes de la insularidad y evaluar su efecto en los precios de los productos básicos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Compensa costes a la cadena de suministro sin regular el precio final.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: busca abaratar productos básicos y la alimentación es un derecho del apartado 2.2, pero el instrumento es una compensación a la oferta. Propuesta: mantener 0 en las cuatro; si se considera acceso, UNI 1, EXI 0, DES 0 y NDI 1.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-033": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Adaptaremos los programas estatales de digitalización, innovación y financiación al tamaño y a los costes logísticos de la microempresa canaria",
+     "medida_sintesis": "Adaptar los programas estatales de digitalización, innovación y financiación a la microempresa y al pequeño comercio canarios",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política económica.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-034": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos el cumplimiento del convenio de infraestructuras turísticas, así como programas estatales de renovación de destinos maduros",
+     "medida_sintesis": "Reclamar el convenio de infraestructuras turísticas y programas estatales de renovación de destinos maduros que consideren la población real",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política turística.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-035": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Evaluaremos y actualizaremos sus instrumentos para atraer inversión productiva e innovadora que genere empleo estable en Canarias",
+     "medida_sintesis": "Evaluar y actualizar los instrumentos del Régimen Económico y Fiscal para atraer inversión productiva que genere empleo estable",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un incentivo fiscal a la inversión.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Mantendremos el diferencial fiscal canario para la producción audiovisual",
+     "medida_sintesis": "Mantener el diferencial fiscal canario para la producción audiovisual",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad sectorial.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-037": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos un acuerdo con el Estado y la UE que elimine barreras y costes de intermediación abusivos en el comercio electrónico",
+     "medida_sintesis": "Impulsar un acuerdo con el Estado y la Unión Europea que elimine barreras y costes abusivos en el comercio electrónico con Canarias",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política comercial.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Exigiremos que las operaciones respeten nuestra fiscalidad y que se corrijan los cobros indebidos de IVA cuando corresponda aplicar el IGIC",
+     "medida_sintesis": "Exigir que el comercio electrónico respete la fiscalidad canaria y que se corrijan los cobros indebidos de IVA",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad general. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-038": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "mantener la deducción del 60 % en el IRPF aplicable en La Palma y extenderla a La Gomera y El Hierro",
+     "medida_sintesis": "Mantener la deducción del 60 % en el IRPF en La Palma y extenderla a La Gomera y El Hierro",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad general.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reclamaremos también la bonificación del 50 % de las cuotas empresariales de la Seguridad Social en las tres islas",
+     "medida_sintesis": "Reclamar la bonificación del 50 % de las cuotas empresariales a la Seguridad Social en La Palma, La Gomera y El Hierro",
+     "area": "EMP",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un incentivo a la contratación para las empresas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite EMP u OTR y es un incentivo a la oferta de empleo, no un acceso de las personas trabajadoras. Propuesta: EMP con 0 en las cuatro.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-039": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Exigiremos que España defienda íntegramente el programa europeo de apoyo al sector primario de las regiones ultraperiféricas, el POSEI",
+     "medida_sintesis": "Defender el POSEI y su dotación, reclamar cada año el 100 % de la aportación estatal y mecanismos estatales si se reducen sus recursos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es apoyo al sector primario.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-040": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Actualizaremos las medidas estatales frente a los sobrecostes de energía, alimentación animal, fertilizantes y transporte",
+     "medida_sintesis": "Actualizar las medidas estatales frente a los sobrecostes de energía, alimentación animal, fertilizantes y transporte del sector primario",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es apoyo al sector primario.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reclamaremos apoyo a la producción local y a los seguros de la agricultura, la ganadería y la pesca",
+     "medida_sintesis": "Reclamar apoyo a la producción local y a los seguros agrarios y pesqueros",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es apoyo al sector primario. DEC 1: «apoyo» no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Exigiremos financiación estatal para prevenir y combatir las plagas y atender los daños que causan al sector agrario",
+     "medida_sintesis": "Exigir financiación estatal para prevenir y combatir plagas y atender los daños al sector agrario",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es apoyo al sector primario.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-041": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos financiación estatal y europea para incorporar jóvenes a la agricultura, la ganadería y la pesca",
+     "medida_sintesis": "Reclamar financiación estatal y europea para incorporar población joven a la agricultura, la ganadería y la pesca",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política sectorial de relevo generacional.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "El apoyo a la producción local deberá contribuir a mantener el suelo agrícola en uso y a reforzar nuestra soberanía alimentaria",
+     "medida_sintesis": "Orientar el apoyo a la producción local a mantener el suelo agrícola en uso y reforzar la soberanía alimentaria",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política agraria. DEC 1: no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  }
+ }
+}

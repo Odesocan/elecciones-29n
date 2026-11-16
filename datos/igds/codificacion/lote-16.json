@@ -1,0 +1,1834 @@
+{
+ "lote": "lote-16",
+ "unidades": {
+  "psoe-248": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promover una contratación pública más sostenible, priorizando empresas circulares e incorporando criterios de huella de carbono en las compras públicas.",
+     "medida_sintesis": "Promover una contratación pública sostenible que priorice empresas circulares e incorpore criterios de huella de carbono",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un criterio ambiental de la contratación pública. DEC 0: nombra un instrumento concreto (criterios de huella de carbono en las compras públicas).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-249": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar el compostaje y la valorización de residuos orgánicos mediante biogás, especialmente en entornos rurales y actividades agrarias y ganaderas.",
+     "medida_sintesis": "Impulsar el compostaje y la valorización de residuos orgánicos mediante biogás, en especial en el medio rural y agrario",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión sectorial de residuos. DEC 1: «impulsar» sin norma, plan, dotación ni otro instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-250": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reconocer el derecho a la reparación y crear un Fondo de Reparación financiado por los productores, para prolongar la vida útil de los productos",
+     "medida_sintesis": "Reconocer el derecho a la reparación de los productos y crear un Fondo de Reparación financiado por las empresas productoras",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un derecho de las personas consumidoras orientado a reducir residuos, fuera del apartado 2.2. DEC 0: nombra instrumentos concretos (reconocimiento del derecho y fondo).",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-251": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear un Centro Estatal de Predicción y Seguimiento de Fenómenos Extremos, integrando la información meteorológica, hidrológica y de prevención y extinción de incendios forestales.",
+     "medida_sintesis": "Crear un Centro Estatal de Predicción y Seguimiento de Fenómenos Extremos que integre la información meteorológica, hidrológica y de incendios forestales",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un órgano de información para la gestión de riesgos. DEC 0: crea un organismo identificado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-253": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobar una Ley de Adaptación al Cambio Climático y reforzar la ejecución del Plan Nacional de Adaptación con más recursos y mecanismos de seguimiento.",
+     "medida_sintesis": "Aprobar una Ley de Adaptación al Cambio Climático y reforzar con más recursos y seguimiento la ejecución del Plan Nacional de Adaptación",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Protección de toda la población frente a los impactos del clima, sin requisitos de acceso. EXI 0: la ley se anuncia sin contenido que reconozca un derecho ni fije estándares, plazos u obligaciones, y el refuerzo del plan es una dotación. DES 1: acción pública directa mediante una ley y un plan públicos. DEC 0: nombra una ley y un plan.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera de ámbito: la adaptación al cambio climático se lee como protección del derecho a un medio ambiente sano, pero la planificación climática y la gestión de riesgos se codificaron fuera del ámbito en otras formaciones (pp-228-02, pp-126-04). Propuesta: mantener UNI, DES y NDI 1 con EXI 0; si se considera política climática general, 0 en las cuatro dimensiones.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-255": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliar la red de refugios climáticos para reforzar la protección de la población frente a los impactos del cambio climático.",
+     "medida_sintesis": "Ampliar la red de refugios climáticos para proteger a la población frente a los impactos del cambio climático",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Espacios de protección abiertos a toda la población. EXI 0: amplía una red sin norma, estándar mínimo ni obligación de provisión. DES 1: provisión pública directa de espacios de uso público, como en cc-068-01. DEC 0: compromete la ampliación de una red identificada.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas: clima (MAM) o espacios verdes urbanos (EVE), donde se codificó cc-068-01, que incluía refugios climáticos junto a arbolado y corredores verdes. Propuesta: MAM, porque el texto no se refiere a zonas verdes.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-256": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "adaptación climática de viviendas y equipamientos públicos, fomentando la rehabilitación energética y el confort térmico en hogares, centros educativos, sanitarios y espacios de trabajo vulnerables.",
+     "medida_sintesis": "Impulsar la adaptación climática y la rehabilitación energética de viviendas y equipamientos públicos: hogares, centros educativos, sanitarios y espacios de trabajo",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: «impulsar» y «fomentar» sin norma, estándar ni obligación de provisión. DES 1: actúa sobre viviendas y equipamientos públicos. DEC 1: no concreta plan, programa ni dotación.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "Texto ambiguo: «públicos» puede calificar solo a los equipamientos, «vulnerables» puede referirse a la renta de los hogares o a la exposición climática de los edificios, y la medida abarca vivienda, educación, sanidad y trabajo. Propuesta: una medida en MAM con UNI 1 y DES 1; si se lee «hogares vulnerables» por renta, UNI 0, y si las viviendas son privadas, DES 0.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-257": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incrementar los medios aéreos y terrestres estatales para la lucha contra los incendios forestales,",
+     "medida_sintesis": "Incrementar los medios aéreos y terrestres estatales de lucha contra los incendios forestales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección civil, como en pp-050-02. DEC 0: compromete más medios materiales.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "continuando con la mejora de las condiciones laborales de sus efectivos.",
+     "medida_sintesis": "Seguir mejorando las condiciones laborales del personal estatal de extinción de incendios forestales",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "Condiciones laborales dignas del personal de un servicio público. EXI 0: mejora sin norma que reconozca un derecho ni estándar mínimo. DES 0: no es provisión pública ni regulación para todas las personas. DEC 1: no concreta norma, retribución ni plazo.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: condiciones laborales del personal de un servicio público, que la coordinación lleva a EMP con UNI y NDI 1 (ajuste aplicado a pp-053-02 y vox-004-01). Propuesta: mantener EMP con g 0.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-259": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear un Fondo Nacional de Resiliencia Climática para proteger a las personas, territorios y comunidades más vulnerables, especialmente en zonas rurales y litorales.",
+     "medida_sintesis": "Crear un Fondo Nacional de Resiliencia Climática para proteger a las personas, territorios y comunidades más vulnerables",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: se dirige a las personas y comunidades «más vulnerables». EXI 0: es un fondo, no reconoce un derecho ni fija una obligación. DES 0: no concreta qué provisión, servicio o regulación financia. DEC 0: nombra un fondo.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "«Vulnerables» puede referirse a la exposición climática de territorios y comunidades y no a la renta, y el fondo no dice qué financia. Propuesta: mantener UNI 0 por la regla literal de 2.4; si se lee como exposición territorial, UNI 1, y si financia actuaciones públicas, DES 1.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-260": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar una planificación territorial y urbana compatible con la disponibilidad de recursos hídricos,",
+     "medida_sintesis": "Impulsar una planificación territorial y urbana compatible con la disponibilidad de recursos hídricos",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es ordenación del territorio y gestión de recursos hídricos. DEC 1: «impulsar» sin norma, plan identificado ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "que garantice el acceso universal al agua potable, consolidando su calidad, accesibilidad y asequibilidad mediante un mínimo vital para los hogares vulnerables.",
+     "medida_sintesis": "Garantizar el acceso universal al agua potable con un mínimo vital para los hogares vulnerables",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Ninguna dimensión vale 0: acceso universal al agua potable con un mínimo vital garantizado, acción positiva compatible con la titularidad universal. Repite psoe-261, más desarrollada.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-261"
+    }
+   ]
+  },
+  "psoe-261": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "acceso universal al agua potable, consolidando su calidad, accesibilidad y asequibilidad mediante un mínimo vital para los hogares vulnerables con su blindaje en la Constitución.",
+     "medida_sintesis": "Garantizar el acceso universal al agua potable de calidad y asequible, con un mínimo vital para los hogares vulnerables y su blindaje en la Constitución",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Ninguna dimensión vale 0: reconoce en la Constitución el acceso universal al agua potable y garantiza un mínimo vital, acción positiva para los hogares vulnerables compatible con la titularidad universal.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: une un derecho universal con un mínimo vital limitado a hogares vulnerables, y admite dos áreas (suministros del hogar en VIV o agua en MAM). Propuesta: g 1 en VIV, por la compatibilidad de las acciones positivas; si el mínimo vital se separa como medida propia, esa parte llevaría UNI 0.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-262": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Adaptar la Estrategia Nacional de Resiliencia Hídrica, que refuerce la prevención frente a inundaciones y sequías, actualizando la cartografía de zonas inundables,",
+     "medida_sintesis": "Adaptar la Estrategia Nacional de Resiliencia Hídrica para prevenir inundaciones y sequías con cartografía actualizada, alerta temprana y planificación hidrológica",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión de riesgos hídricos, como en pp-126-04. DEC 0: nombra una estrategia y actuaciones concretas.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Esta estrategia deberá, además, promover la reducción del consumo de agua, incrementar la desalación y la reutilización con energías renovables",
+     "medida_sintesis": "Incluir en la estrategia la reducción del consumo de agua, más desalación y reutilización con renovables, criterios de resiliencia hídrica en la contratación pública y la digitalización del ciclo del agua",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión de la oferta y la demanda de recursos hídricos. DEC 0: se integra en una estrategia identificada.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-263": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear bancos públicos de agua en las confederaciones hidrográficas para mejorar la gestión, disponibilidad y reasignación de recursos hídricos,",
+     "medida_sintesis": "Crear bancos públicos de agua en las confederaciones hidrográficas para gestionar y reasignar recursos hídricos y evitar la sobreexplotación y la contaminación",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión y reasignación de los usos del agua entre personas usuarias y sectores. DEC 0: crea un instrumento identificado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-264": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Modernizar los regadíos, mejorando la eficiencia hídrica y energética sin aumentar el consumo total de agua",
+     "medida_sintesis": "Modernizar los regadíos con programas de financiación de tecnologías de precisión, renovables y sistemas digitales, sin aumentar el consumo total de agua",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política agraria e hídrica para un sector productivo, como en pp-199-01. DEC 0: financia programas identificados.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-265": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar soluciones basadas en la naturaleza para la gestión del agua, aumentando la resiliencia frente a fenómenos extremos.",
+     "medida_sintesis": "Impulsar soluciones basadas en la naturaleza para la gestión del agua y la resiliencia frente a fenómenos extremos",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión del agua y de riesgos. DEC 1: «impulsar» sin norma, plan ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-266": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar que los centros de datos operen con energías renovables, reutilización del calor y un uso responsable del agua, minimizando su impacto ambiental.",
+     "medida_sintesis": "Garantizar que los centros de datos operen con energías renovables, reutilicen el calor y usen el agua de forma responsable",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política energética y ambiental de un sector económico. DEC 1: «garantizar» sin norma, estándar ni plazo.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-271": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Recompensar las prácticas de agroganadería sostenible y en particular en la ganadería extensiva y la agricultura regenerativa",
+     "medida_sintesis": "Recompensar la agroganadería sostenible, la ganadería extensiva y la agricultura regenerativa con certificación, asesoramiento y compensación",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una compensación a sectores productivos por servicios ambientales, como en pp-205-01. DEC 0: nombra instrumentos (certificación, asesoramiento y compensación).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-275": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar el acceso a servicios básicos y soluciones de movilidad en todo el territorio, avanzando hacia el “País de los 30 minutos”",
+     "medida_sintesis": "Garantizar el acceso a servicios básicos y a soluciones de movilidad en todo el territorio, avanzando hacia el «País de los 30 minutos»",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "Acceso de toda la población con independencia del lugar de residencia. EXI 0: «avanzar hacia» un objetivo no fija un estándar exigible ni una obligación de provisión. DES 1: provisión de servicios básicos, como en pp-105-01. DEC 1: «garantizar» sin norma, plan ni dotación.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "Ambigüedades: «servicios básicos» no precisa si son públicos ni qué derechos cubre (por eso va a OTR), y el «País de los 30 minutos» podría leerse como un estándar de acceso. Propuesta: mantener; si el tiempo máximo de 30 minutos se acepta como estándar, DEC 0, y EXI 1 solo si se formula como obligación.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-276": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incorporar la perspectiva rural en las leyes, presupuestos y políticas públicas, mediante la aplicación efectiva del mecanismo de garantía rural.",
+     "medida_sintesis": "Incorporar la perspectiva rural en leyes, presupuestos y políticas públicas mediante el mecanismo de garantía rural",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un criterio de elaboración de normas y políticas. DEC 0: nombra un instrumento (mecanismo de garantía rural).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-283": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "favorecer los desplazamientos a pie y en bicicleta, mediante calles más accesibles, caminos escolares seguros, corredores verdes, redes ciclistas y aparcamientos para bicicletas.",
+     "medida_sintesis": "Transformar pueblos y ciudades para favorecer los desplazamientos a pie y en bicicleta con calles accesibles, caminos escolares seguros, corredores verdes, redes ciclistas y aparcamientos",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. Es movilidad urbana. DEC 0: enumera actuaciones concretas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Repetición entre lotes: psoe-029 (lote-15) recoge las mismas actuaciones; esta es algo más desarrollada porque añade los aparcamientos para bicicletas. Propuesta: contarla aquí y marcar en psoe-029 la parte de desplazamientos a pie y en bicicleta con repite = psoe-283.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-284": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Acelerar la descarbonización del transporte de personas y mercancías, extendiendo la infraestructura de recarga eléctrica y facilitando el acceso a vehículos de cero emisiones",
+     "medida_sintesis": "Acelerar la descarbonización del transporte con más infraestructura de recarga eléctrica e incentivos y financiación para vehículos de cero emisiones",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es infraestructura e incentivos a la movilidad eléctrica, como en cc-059-01. DEC 0: nombra instrumentos (infraestructura de recarga, incentivos y financiación).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-285": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Adaptar las infraestructuras de transporte a los efectos del cambio climático, reforzando su resiliencia frente a fenómenos meteorológicos extremos",
+     "medida_sintesis": "Adaptar las infraestructuras de transporte a los efectos del cambio climático y a los fenómenos meteorológicos extremos",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es adaptación de infraestructuras, como en cc-070-02. DEC 1: no concreta plan, norma ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-286": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "las Zonas de Bajas Emisiones y la movilidad sostenible en las ciudades, promoviendo medidas eficaces para reducir las emisiones y mejorar la calidad del aire.",
+     "medida_sintesis": "Impulsar las Zonas de Bajas Emisiones y la movilidad sostenible en las ciudades para reducir emisiones y mejorar la calidad del aire",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Protege la calidad del aire de toda la población. EXI 0: «impulsar» y «promover», sin norma ni estándar exigible. DES 1: regulación pública obligatoria de la circulación que protege el aire sin pasar por el mercado. DEC 0: nombra un instrumento (Zonas de Bajas Emisiones).",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: la calidad del aire se trata como parte del derecho a un medio ambiente sano, por coherencia con vox-044-01, donde derogar las zonas de bajas emisiones es REG 1. Además, psoe-029 (lote-15) cita las zonas de bajas emisiones con menos desarrollo. Propuesta: mantener y marcar en psoe-029 esa parte con repite = psoe-286.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-287": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsar la restauración y recuperación de ecosistemas degradados, tanto marinos como terrestres, desarrollando el Plan Nacional de Restauración de la Naturaleza",
+     "medida_sintesis": "Restaurar los ecosistemas degradados, marinos y terrestres, desarrollando el Plan Nacional de Restauración de la Naturaleza con más ambición, transparencia y financiación",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Mejora del entorno natural común a toda la población. EXI 0: es un plan, sin norma que reconozca un derecho ni plazo obligatorio. DES 1: restauración pública mediante un plan nacional, como en cc-071-01 y pp-048-05, aunque prevea financiación público-privada. DEC 0: nombra un plan.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-288": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Proteger y recuperar la biodiversidad terrestre y marina, avanzando hacia la conservación efectiva de las especies amenazadas y de los espacios de alto valor ecológico,",
+     "medida_sintesis": "Proteger y recuperar la biodiversidad terrestre y marina, con al menos el 30 % de los ecosistemas protegidos y hasta el 10 % de las áreas marinas con protección estricta",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Conservación del entorno natural común a toda la población. EXI 0: el porcentaje de superficie protegida es un objetivo cuantitativo, no una norma que reconozca un derecho ni un estándar exigible, como el número de profesionales de pp-220-01. DES 1: protección pública de espacios naturales. DEC 0: fija objetivos cuantificados.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de EXI: proteger «al menos el 30 %» de los ecosistemas puede leerse como estándar mínimo. Propuesta: EXI 0, porque es un objetivo de política que no obliga a proveer un acceso, igual que pp-220-01.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-289": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "la protección de cetáceos y otras especies marinas vulnerables, incorporando las mejores evidencias científicas y medidas obligatorias de reducción de la velocidad del transporte marítimo.",
+     "medida_sintesis": "Reforzar la protección de cetáceos y otras especies marinas vulnerables con reducciones obligatorias de la velocidad del transporte marítimo",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Ninguna dimensión vale 0: regulación con fuerza obligatoria (reducción de la velocidad del transporte marítimo) que protege la biodiversidad marina, bien ambiental común a toda la población.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "Frontera de ámbito: la protección de especies se trata como parte del derecho a un medio ambiente sano, igual que la restauración de ecosistemas en cc-071-01, cc-072-01 y pp-048-05, y la reducción obligatoria de velocidad como norma con fuerza obligatoria. Propuesta: confirmar si la conservación de especies entra en el ámbito; si no, 0 en las cuatro dimensiones.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-290": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Culminar la restauración de los principales espacios naturales estratégicos, con actuaciones integrales en Doñana, el Mar Menor, la Albufera, el Delta del Ebro",
+     "medida_sintesis": "Culminar la restauración de Doñana, el Mar Menor, la Albufera, el Delta del Ebro y las Tablas de Daimiel con actuaciones integrales",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Mejora de espacios naturales comunes a toda la población. EXI 0: son actuaciones de restauración, sin norma que reconozca un derecho ni plazo obligatorio. DES 1: restauración pública de espacios naturales. DEC 0: actuaciones concretas en espacios identificados.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-291": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promover una gestión forestal sostenible y resiliente frente a los incendios, favoreciendo bosques más diversos, saludables y adaptados al cambio climático,",
+     "medida_sintesis": "Promover una gestión forestal sostenible y resiliente frente a los incendios, con gestión activa de la propiedad forestal, bioeconomía forestal e integración en la política agraria y rural",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es gestión forestal y política sectorial, como en pp-206-03. DEC 1: «promover», «facilitar» y «fortalecer» sin norma, plan ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-292": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Adaptar la gestión del litoral al cambio climático mediante una gobernanza coordinada entre administraciones, actualizando la normativa de costas",
+     "medida_sintesis": "Adaptar la gestión del litoral al cambio climático con gobernanza coordinada, actualización de la normativa de costas y soluciones basadas en la naturaleza",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es ordenación del litoral y gestión de riesgos costeros. DEC 0: nombra un instrumento (actualización de la normativa de costas).",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-293": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar una ocupación responsable y sostenible del dominio público marítimo-terrestre, reforzando la seguridad jurídica y la adaptación de los usos del litoral",
+     "medida_sintesis": "Garantizar una ocupación sostenible del dominio público marítimo-terrestre con seguridad jurídica y adaptación de los usos del litoral a los riesgos climáticos",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es ordenación del dominio público costero. DEC 1: «garantizar» sin norma, plazo ni otro instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-299": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defender y profundizar el Pacto Verde Europeo, garantizando que la simplificación administrativa no suponga una reducción de la ambición climática y ambiental",
+     "medida_sintesis": "Defender y profundizar el Pacto Verde Europeo sin rebajar la ambición climática y ambiental y con objetivos de inversión en el presupuesto de la Unión Europea",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una posición de política europea, como en cc-063-01. DEC 1: «defender» sin instrumento propio.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-300": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desarrollar la aplicación de la Ley de Restauración de la Naturaleza, del Marco Europeo de Resiliencia Climática",
+     "medida_sintesis": "Aplicar la Ley de Restauración de la Naturaleza y los marcos europeos de resiliencia climática y protección de las aguas, con recursos para los programas de adaptación, conservación y recuperación",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Protección del entorno natural común a toda la población. EXI 0: nombra las normas sin concretar derechos, estándares ni plazos, y asegura recursos, que es una dotación. DES 1: aplicación pública de la normativa de restauración y protección ambiental. DEC 0: nombra normas identificadas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Une tres marcos con distinto encaje: la restauración y la protección de las aguas se codifican como derecho a un medio ambiente sano y la resiliencia climática es frontera; además, aplicar la Ley de Restauración se solapa con el Plan Nacional de psoe-287. Propuesta: una medida en el ámbito; valorar repite = psoe-287 si se considera la misma acción.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-302": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promover alianzas internacionales para el abandono progresivo de los combustibles fósiles",
+     "medida_sintesis": "Promover alianzas internacionales para el abandono progresivo de los combustibles fósiles",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política climática exterior. DEC 1: «promover» sin instrumento propio.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "la aprobación del tratado global contra la contaminación por plásticos.",
+     "medida_sintesis": "Promover la aprobación del tratado global contra la contaminación por plásticos",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política ambiental exterior. DEC 0: nombra un instrumento concreto (el tratado global).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-303": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crear la Agencia de Evaluación Ambiental de Proyectos y Planes, reforzando el rigor técnico, la independencia y la calidad de las evaluaciones ambientales.",
+     "medida_sintesis": "Crear la Agencia de Evaluación Ambiental de Proyectos y Planes para reforzar el rigor, la independencia y la calidad de las evaluaciones ambientales",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización administrativa de la evaluación ambiental. DEC 0: crea un organismo identificado.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-304": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Se ampliará la representación social y científica en los órganos de gobernanza climática, incorporando de forma estable a la comunidad científica, la juventud,",
+     "medida_sintesis": "Ampliar la representación social y científica en los órganos de gobernanza climática, con presencia estable de la comunidad científica, la juventud, las mujeres y el medio rural",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación institucional, como en pp-221-01. DEC 0: cambio concreto en la composición de órganos.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-305": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Combatir la desinformación climática, apoyando el periodismo especializado, la divulgación científica y la protección de investigadores y comunicadores.",
+     "medida_sintesis": "Combatir la desinformación climática apoyando el periodismo especializado, la divulgación científica y la protección de quienes investigan y comunican",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de información y comunicación. DEC 1: «combatir» y «apoyar» sin norma, plan ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-367": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reconocer constitucionalmente el derecho a la seguridad climática",
+     "medida_sintesis": "Reconocer en la Constitución el derecho a la seguridad climática",
+     "area": "MAM",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Derecho reconocido a toda la población con rango constitucional. DES 0: no nombra provisión pública, servicio ni regulación concreta. DEC 0: reforma constitucional.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: el contenido de la «seguridad climática» no se define y el reconocimiento constitucional se lee como norma que reconoce el derecho (EXI 1). Propuesta: mantener; si se exige contenido concreto para la exigibilidad, EXI 0.",
+     "repite": ""
+    },
+    {
+     "fragmento": "el acceso al agua potable.",
+     "medida_sintesis": "Reconocer en la Constitución el acceso al agua potable",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Repite psoe-261, más desarrollada, que incluye el blindaje constitucional. DES 0: aquí no se nombra provisión ni regulación del precio. DEC 0: reforma constitucional.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "psoe-261"
+    }
+   ]
+  },
+  "psoe-466": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promover el establecimiento de un Fondo Global de Resiliencia y Justicia Climática, para proteger a aquellas personas y comunidades más vulnerables,",
+     "medida_sintesis": "Promover un Fondo Global de Resiliencia y Justicia Climática para proteger a las personas y comunidades más vulnerables y favorecer una transición ecológica justa",
+     "area": "MAM",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es cooperación climática internacional, no acceso de la población residente a un derecho social. DEC 0: nombra un instrumento concreto (fondo global).",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-295": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar tolerancia cero al maltrato, retirando financiación pública a prácticas que lo amparen",
+     "medida_sintesis": "Retirar la financiación pública a las prácticas que amparen el maltrato animal",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección animal. DEC 0: nombra un instrumento concreto (retirada de financiación pública).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "impulsando la presencia del bienestar animal y tenencia responsable en la formación docente, los proyectos educativos de los centros.",
+     "medida_sintesis": "Incorporar el bienestar animal y la tenencia responsable en la formación docente y en los proyectos educativos de los centros",
+     "area": "EDU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es contenido formativo, no acceso a la educación, como en pp-133-01. DEC 1: «impulsar» sin norma ni plan.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-296": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Avanzar en la transformación de nuestros zoológicos y parques marinos al siglo XXI, impulsando el bienestar de los animales",
+     "medida_sintesis": "Transformar zoológicos y parques marinos hacia el bienestar animal y funciones de recuperación, conservación, investigación y educación ambiental",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección animal. DEC 1: «avanzar» e «impulsar» sin norma, plan ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-297": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incorporaremos a los animales a la legislación de violencia vicaria con protocolos en violencia de género,",
+     "medida_sintesis": "Incorporar a los animales de compañía en la legislación de violencia vicaria, con protocolos en violencia de género",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Ninguna dimensión vale 0: reforma legal con contenido concreto que amplía la protección frente a la violencia de género a todas las víctimas, sin requisitos de renta, y actúa dentro del sistema público de protección mediante protocolos.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "Frontera de ámbito y de área: el titular sitúa la medida en la protección animal (OTR, 0 en las cuatro), pero el instrumento es la legislación de violencia vicaria con protocolos de violencia de género. Propuesta: IGU con g 1 si se considera que amplía la protección de las víctimas; OTR con 0 en las cuatro si prima la protección animal.",
+     "repite": ""
+    },
+    {
+     "fragmento": "impulsaremos una Estrategia Estatal de abandono cero con adopción responsable",
+     "medida_sintesis": "Impulsar una Estrategia Estatal de abandono cero de animales de compañía con adopción responsable",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección animal. DEC 0: nombra una estrategia identificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "facilitaremos la convivencia con animales de compañía y asistencia.",
+     "medida_sintesis": "Facilitar la convivencia con animales de compañía y de asistencia",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección animal. DEC 1: «facilitar» sin norma ni otro instrumento.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Los animales de asistencia se vinculan con la accesibilidad de las personas con discapacidad (IGU o CUI). Propuesta: mantener 0 en las cuatro, porque el texto no concreta ningún acceso; si se desarrolla como derecho de acceso con animales de asistencia, codificar en IGU.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-298": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incorporar evacuación y rescate animal en protección civil ante emergencias.",
+     "medida_sintesis": "Incorporar la evacuación y el rescate de animales en la protección civil ante emergencias",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección civil y protección animal. DEC 0: cambio concreto en el sistema de protección civil.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-001": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "A través del Fondo España Crece y de nuevos instrumentos de financiación público-privada, impulsaremos el crecimiento de las empresas, la reindustrialización",
+     "medida_sintesis": "Impulsar con el Fondo España Crece y nueva financiación público-privada el crecimiento empresarial, la reindustrialización y la inversión estratégica",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra un instrumento (Fondo España Crece).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-002": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos una nueva Ley de Industria y Autonomía Estratégica",
+     "medida_sintesis": "Aprobar una nueva Ley de Industria y Autonomía Estratégica",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra una ley.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "apoyaremos la industria limpia y las cadenas de valor estratégicas mediante la electrificación, las energías renovables, el hidrógeno renovable, el almacenamiento energético,",
+     "medida_sintesis": "Apoyar la industria limpia y las cadenas de valor estratégicas con electrificación, renovables, hidrógeno, almacenamiento, redes eléctricas y nuevos concursos de acceso",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra un instrumento (concursos de acceso a la red).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-004": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Poner en marcha la Cuenta de Ahorro e Inversión Financia Europa, con incentivos para canalizar el ahorro desde el ladrillo hasta inversión productiva",
+     "medida_sintesis": "Poner en marcha la Cuenta de Ahorro e Inversión Financia Europa, con incentivos para canalizar el ahorro hacia la inversión productiva",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: medida financiera y fiscal que no regula ni provee el acceso a un derecho social. DEC 0: nombra un instrumento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-005": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Avanzar en la creación del Régimen 20, la llamada “comunidad autónoma 20”, para homogeneizar requisitos básicos de funcionamiento, reducir la carga burocrática",
+     "medida_sintesis": "Crear el Régimen 20 para homogeneizar requisitos empresariales básicos y reducir la carga burocrática en todo el territorio",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra un instrumento (Régimen 20).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "impulsaremos un supervisor independiente de las cargas administrativas que evalúe el impacto regulatorio de nuevas normas,",
+     "medida_sintesis": "Crear un supervisor independiente de las cargas administrativas que evalúe el impacto regulatorio de las nuevas normas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización administrativa. DEC 0: crea un órgano identificado.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-006": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos los instrumentos de apoyo a la exportación, la diversificación de mercados y la implantación exterior de nuestras empresas, especialmente de las pymes,",
+     "medida_sintesis": "Reforzar los instrumentos de apoyo a la exportación, la diversificación de mercados y la implantación exterior de las empresas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «reforzar» sin identificar instrumento, norma ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-007": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Mantendremos la participación del Estado en sectores estratégicos, preservando capacidades industriales y tecnológicas esenciales,",
+     "medida_sintesis": "Reforzar el sector público empresarial manteniendo la participación del Estado en sectores estratégicos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: compromiso concreto de mantener participaciones públicas, como en pp-003-05.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-008": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Seguiremos aumentando cada año la inversión pública en I+D con una senda plurianual incorporada al plan fiscal estructural",
+     "medida_sintesis": "Aumentar cada año la inversión pública en I+D con una senda plurianual hasta el 1,25 % del PIB y elevar el objetivo al 1,5 % en 2035",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. Es política científica. DEC 0: fija una senda de gasto cuantificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Movilizaremos más inversión privada en investigación e innovación, mejorando los incentivos fiscales a la I+D+i empresarial,",
+     "medida_sintesis": "Movilizar inversión privada en investigación e innovación con mejores incentivos fiscales a la I+D+i empresarial y la atracción de centros de I+D internacionales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra un instrumento (incentivos fiscales).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-009": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desplegar la Estrategia Deep Tech España 2026-2030 para convertir conocimiento en industria",
+     "medida_sintesis": "Desplegar la Estrategia Deep Tech España 2026-2030 reforzando el CDTI y los instrumentos públicos de apoyo a startups tecnológicas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra una estrategia identificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-010": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos proyectos de referencia internacional como IFMIF-DONES, la sede española de IMEC, el sincrotrón ALBA, el Barcelona Supercomputing Center",
+     "medida_sintesis": "Reforzar las grandes infraestructuras de investigación, como IFMIF-DONES, IMEC, ALBA, el Barcelona Supercomputing Center y el Centro Ibérico de almacenamiento energético",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. Es política científica. DEC 1: «reforzar» sin norma, plan ni dotación, como en cc-049-01.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-011": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos el Estatuto del Personal Investigador,",
+     "medida_sintesis": "Aprobar el Estatuto del Personal Investigador y mejorar las carreras científicas, incluida la del personal técnico",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "Condiciones laborales dignas del personal investigador y técnico. EXI 0: anuncia un estatuto y mejoras de carrera sin concretar derechos, estándares ni plazos. DES 0: no es provisión pública ni regulación para todas las personas trabajadoras. DEC 0: nombra una norma.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: carrera y condiciones laborales del personal investigador, que la coordinación lleva a EMP (ajuste aplicado a pp-053-02 y vox-004-01), aunque pp-188-01 trató la incorporación del personal investigador como política científica en OTR. Propuesta: EMP con UNI y NDI 1.",
+     "repite": ""
+    },
+    {
+     "fragmento": "impulsaremos el programa ATRAE para captar liderazgo científico internacional,",
+     "medida_sintesis": "Impulsar el programa ATRAE para captar liderazgo científico internacional y favorecer la incorporación de personal doctor e investigador a las empresas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. Es política científica. DEC 0: nombra un programa identificado.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Además, garantizaremos una financiación basal estable, favoreciendo proyectos de largo plazo y disruptivos.",
+     "medida_sintesis": "Garantizar una financiación basal estable de la investigación que favorezca proyectos de largo plazo y disruptivos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. Es política científica. DEC 0: regla de financiación concreta, como en pp-188-02.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Y aprovechando el despliegue de la IA para simplificar procedimientos y reducir cargas administrativas.",
+     "medida_sintesis": "Usar la inteligencia artificial para simplificar procedimientos y reducir cargas administrativas en la investigación",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es simplificación administrativa. DEC 1: no concreta norma, plan ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-012": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Fortaleceremos las capacidades científicas e industriales en neurotecnologías",
+     "medida_sintesis": "Fortalecer las capacidades científicas e industriales en neurotecnologías",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «fortalecer» sin norma, plan ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "aprobaremos un marco pionero de protección de los neuroderechos.",
+     "medida_sintesis": "Aprobar un marco de protección de los neuroderechos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Protege derechos de la persona frente a las neurotecnologías, fuera del apartado 2.2. DEC 0: nombra un marco normativo.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "impulsaremos el sector espacial español mediante una estrategia de capacidades tecnológicas e industriales y la aprobación de la primera Ley de Actividades Espaciales.",
+     "medida_sintesis": "Impulsar el sector espacial con una estrategia de capacidades tecnológicas e industriales y la primera Ley de Actividades Espaciales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra una estrategia y una ley.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-015": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos las capacidades españolas y europeas en inteligencia artificial, supercomputación, microelectrónica y tecnologías avanzadas",
+     "medida_sintesis": "Reforzar las capacidades españolas y europeas en inteligencia artificial, supercomputación, microelectrónica y tecnologías avanzadas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «reforzar» sin norma, plan ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-017": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Combinaremos subvenciones, instrumentos financieros y políticas de talento para impulsar sectores estratégicos como la fotónica,",
+     "medida_sintesis": "Desarrollar un ecosistema de microelectrónica y semiconductores con subvenciones, instrumentos financieros y apoyo al escalado industrial",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra instrumentos (subvenciones e instrumentos financieros).",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aprobaremos además un Plan de Talento en Microelectrónica y Semiconductores orientado a la formación, atracción y retorno de profesionales altamente cualificados.",
+     "medida_sintesis": "Aprobar un Plan de Talento en Microelectrónica y Semiconductores para formar, atraer y favorecer el retorno de profesionales con alta cualificación",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. Es política industrial de capital humano. DEC 0: nombra un plan.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-022": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos un Pacto de Estado por la Seguridad Ferroviaria, la Atención a las Víctimas y la Justicia, con las asociaciones de víctimas,",
+     "medida_sintesis": "Impulsar un Pacto de Estado por la Seguridad Ferroviaria, la Atención a las Víctimas y la Justicia, a partir de una auditoría técnica en dos meses",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. Es seguridad ferroviaria. DEC 0: fija un instrumento y un plazo (auditoría de una comisión técnica en dos meses).",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-023": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Blindaremos durante los próximos 5 años la conservación y el mantenimiento de la red: unos 19.000 millones de euros en 2026-2030",
+     "medida_sintesis": "Garantizar unos 19.000 millones de euros en 2026-2030 para la conservación y el mantenimiento de la red ferroviaria",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es inversión en infraestructuras. DEC 0: dotación cuantificada.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Publicaremos cada año su grado de ejecución y los indicadores de estado de la red.",
+     "medida_sintesis": "Publicar cada año el grado de ejecución de la inversión y los indicadores de estado de la red ferroviaria",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es transparencia de la inversión en infraestructuras. DEC 0: obligación concreta y periódica de publicar.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-024": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Tramitaremos como proyecto de ley el Real Decreto-ley aprobado el 10 de noviembre de 2026, que refuerza las facultades de supervisión e inspección",
+     "medida_sintesis": "Tramitar como ley el Real Decreto-ley de seguridad operacional ferroviaria: supervisión e inspección, cultura justa, protección de quien comunica riesgos y cómputo de los tiempos de conducción",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es regulación de la seguridad ferroviaria; el cómputo de los tiempos de conducción se incluye como parte de esa seguridad. DEC 0: norma identificada con contenido concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "amplía la aplicación de los coeficientes reductores de la edad de jubilación en el sector.",
+     "medida_sintesis": "Ampliar la aplicación de los coeficientes reductores de la edad de jubilación en el sector ferroviario",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: la jubilación anticipada por coeficientes reductores es una prestación contributiva que exige cotización previa, como en pp-112-05.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas: pensiones (OTR, como pp-112-05) o condiciones de trabajo del sector (EMP). Propuesta: OTR, porque el objeto es el acceso a la pensión de jubilación.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Seguiremos incrementando los medios y las capacidades de la Agencia.",
+     "medida_sintesis": "Incrementar los medios y las capacidades de la Agencia Estatal de Seguridad Ferroviaria",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización administrativa de la seguridad ferroviaria. DEC 0: compromete más medios para un organismo identificado.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-025": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Consolidaremos una dirección de perfil técnico en Adif y Renfe,",
+     "medida_sintesis": "Consolidar una dirección de perfil técnico en Adif y Renfe",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es organización de entidades públicas de transporte. DEC 0: criterio concreto de gobierno de las entidades.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "reforzaremos las plantillas de circulación, mantenimiento y seguridad.",
+     "medida_sintesis": "Reforzar las plantillas de circulación, mantenimiento y seguridad de Adif y Renfe",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es dotación de personal de un servicio de transporte. DEC 0: compromete más plantilla, como en pp-014-02.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Garantizaremos una atención integral y ágil a las víctimas de accidentes y a sus familias, a través de la figura del Defensor de Víctimas",
+     "medida_sintesis": "Garantizar atención integral a las víctimas de accidentes colectivos y a sus familias mediante la figura del Defensor de Víctimas de Accidentes Colectivos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Crea una figura institucional de atención a las víctimas de accidentes, ámbito no incluido en el apartado 2.2. DEC 0: nombra un instrumento (Defensor de Víctimas).",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Frontera de ámbito: la atención integral a víctimas puede incluir apoyo psicológico y social, y pp-168-06 codificó el apoyo a víctimas de delitos digitales con UNI y NDI 1. Propuesta: mantener 0 en las cuatro, porque el instrumento es una figura institucional; si se considera atención social, UNI 1, DES 1 y NDI 1, con EXI 0.",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-026": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ejecutaremos íntegramente el plan de choque aprobado por el Gobierno para reforzar la seguridad de la red ferroviaria,",
+     "medida_sintesis": "Ejecutar íntegramente el plan de choque de seguridad de la red ferroviaria",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad de la infraestructura ferroviaria. DEC 0: nombra un plan identificado.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Pondremos en servicio el sistema ERTMS de nivel 2 en la línea Madrid-Sevilla y fijaremos un calendario público para el resto de la red;",
+     "medida_sintesis": "Poner en servicio el ERTMS de nivel 2 en la línea Madrid-Sevilla y fijar un calendario público para el resto de la red",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad de la infraestructura ferroviaria. DEC 0: actuación concreta con calendario.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "implantaremos la doble verificación de las órdenes de circulación en los centros de control.",
+     "medida_sintesis": "Implantar la doble verificación de las órdenes de circulación en los centros de control ferroviario",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es seguridad de la operación ferroviaria. DEC 0: procedimiento concreto.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-027": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos la modernización de las redes de Cercanías y Media Distancia,",
+     "medida_sintesis": "Modernizar las redes de Cercanías y Media Distancia",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «impulsar» sin plan, norma ni dotación, como en pp-121-01.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "culminaremos los corredores Mediterráneo y Atlántico",
+     "medida_sintesis": "Culminar los corredores ferroviarios Mediterráneo y Atlántico",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: actuación concreta sobre infraestructuras identificadas, como en pp-121-02.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "reforzaremos la integración con la red europea.",
+     "medida_sintesis": "Reforzar la integración de la red ferroviaria con la red europea",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «reforzar» sin instrumento concreto, como en pp-121-03.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Mejoraremos las frecuencias, conexiones, interoperabilidad e intermodalidad del transporte público",
+     "medida_sintesis": "Mejorar las frecuencias, conexiones, interoperabilidad e intermodalidad del transporte público",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «mejorar» sin norma, estándar ni dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-028": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desarrollaremos plenamente la Ley de Movilidad Sostenible,",
+     "medida_sintesis": "Desarrollar plenamente la Ley de Movilidad Sostenible",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: nombra una ley.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "consolidaremos un sistema integrado de transporte público con tarifas sencillas y asequibles y garantizaremos una financiación estable para mejorar su calidad y cobertura.",
+     "medida_sintesis": "Consolidar un sistema integrado de transporte público con tarifas sencillas y asequibles y financiación estable",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. Igual que cc-078-01. DEC 0: compromete financiación estable. Repite psoe-280, más desarrollada.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Repetición entre lotes con psoe-280 (lote-17), que añade más frecuencias y mejores conexiones. Propuesta: contarla en psoe-280; si allí se marcara como repetición de esta, quitar aquí repite para no perder la medida.",
+     "repite": "psoe-280"
+    },
+    {
+     "fragmento": "Reforzaremos además la movilidad en el medio rural, los territorios insulares, Ceuta y Melilla mediante soluciones adaptadas a las necesidades de cada territorio.",
+     "medida_sintesis": "Reforzar la movilidad en el medio rural, los territorios insulares, Ceuta y Melilla con soluciones adaptadas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «soluciones adaptadas» no concreta instrumento.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-031": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desplegaremos el programa DORA III en aeropuertos y los planes de inversión de las autoridades portuarias para modernizar las infraestructuras,",
+     "medida_sintesis": "Modernizar puertos y aeropuertos con el programa DORA III y los planes de inversión de las autoridades portuarias, incluida su adaptación al cambio climático",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es inversión en infraestructuras de transporte. DEC 0: nombra programas y planes identificados.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-032": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "compromiso de reparar los firmes de 5.000 km de la red estatal en los próximos cuatro años, con una inversión de 1.629 millones de euros.",
+     "medida_sintesis": "Conservar y modernizar la red estatal de carreteras, con la reparación de 5.000 km de firmes en cuatro años y 1.629 millones de euros",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es inversión en infraestructuras. DEC 0: compromiso cuantificado con plazo y dotación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "psoe-035": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar el Sistema Arbitral de Consumo y los mecanismos de resolución alternativa de litigios, garantizando procedimientos ágiles, gratuitos y accesibles,",
+     "medida_sintesis": "Reforzar el Sistema Arbitral de Consumo y la resolución alternativa de litigios con procedimientos ágiles, gratuitos y accesibles",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es protección de las personas consumidoras, fuera del apartado 2.2. DEC 1: «reforzar» sin norma, plazo ni dotación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  }
+ }
+}

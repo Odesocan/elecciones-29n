@@ -1,0 +1,18 @@
+{
+  "upc-001": ["estado", "defensa"],
+  "upc-002": ["estado", "economia"],
+  "upc-003": ["economia", "estado"],
+  "upc-004": ["estado", "defensa", "economia"],
+  "upc-005": ["vivienda"],
+  "upc-006": ["sanidad", "educacion", "empleo"],
+  "upc-007": ["medioambiente", "economia"],
+  "upc-008": ["economia", "empleo"],
+  "upc-009": ["economia", "vivienda"],
+  "upc-010": ["empleo", "igualdad"],
+  "upc-011": ["igualdad"],
+  "upc-012": ["migraciones", "infancia"],
+  "upc-013": ["cultura"],
+  "upc-014": ["estado", "justicia"],
+  "upc-015": ["defensa"],
+  "upc-016": ["estado", "vivienda", "empleo"]
+}

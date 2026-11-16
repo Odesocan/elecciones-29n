@@ -1,0 +1,398 @@
+{
+  "lote": "lote-09",
+  "unidades": {
+    "cc-p02": {
+      "sin_medidas": "Diagnóstico y frases normativas («Canarias necesita», «hace falta»), una aspiración general sin objeto de política («Queremos que esa capacidad de influir sirva para mejorar la vida en las ocho islas») y una petición de voto («pedimos más fuerza»): no son medidas (R3).",
+      "medidas": []
+    },
+    "cc-p03": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Cada investidura, cada ley y cada presupuesto se valorarán por lo que aporten a Canarias.",
+          "medida_sintesis": "Condicionar el apoyo en investiduras, leyes y presupuestos a lo que aporten a Canarias, decidiendo desde las islas y sin dar por hecho el respaldo a ningún Gobierno.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un criterio de voto parlamentario. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Compromiso sobre la conducta parlamentaria de la formación, no sobre una política pública; la última frase de cc-099 apunta en el mismo sentido, aunque aquí está más desarrollado. Propuesta: mantenerla como medida nueva OTR declarativa; retirarla de N si el equipo limita R2 a compromisos de política pública.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Nuestra representación en las Cortes Generales mantendrá el contacto con los pueblos y los barrios durante toda la legislatura.",
+          "medida_sintesis": "Mantener el contacto de la representación parlamentaria con pueblos y barrios durante la legislatura y rendir cuentas en cada isla de lo negociado.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un compromiso de rendición de cuentas. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-100"
+        },
+        {
+          "fragmento": "Defendemos a Canarias como nación archipelágica, con identidad propia y derecho a decidir su rumbo dentro del Estado español y del marco europeo.",
+          "medida_sintesis": "Defender el reconocimiento de Canarias como nación archipelágica con identidad propia y derecho a decidir su rumbo dentro del Estado y del marco europeo.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Trata de la organización territorial del Estado. DEC 1: sin norma ni instrumento.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Declaración de identidad política que puede leerse como lema sin objeto de política (R3). Propuesta: mantenerla como medida OTR declarativa, porque nombra un objeto (el reconocimiento nacional de Canarias) que no recoge ninguna medida numerada.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Aspiramos al máximo autogobierno en un Estado que reconozca y articule de común acuerdo su realidad plurinacional.",
+          "medida_sintesis": "Alcanzar el máximo autogobierno de Canarias en un Estado que reconozca y articule de común acuerdo su realidad plurinacional.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Trata de la organización territorial del Estado. DEC 1: sin norma ni instrumento.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Aspiración general («aspiramos») que puede leerse como lema sin objeto de política (R3). Propuesta: mantenerla como medida OTR declarativa, porque nombra un modelo de Estado plurinacional que va más allá del desarrollo estatutario de cc-001.",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-p04": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Las propuestas de las instituciones locales, junto con las de los colectivos sociales y económicos, formarán parte de nuestra",
+          "medida_sintesis": "Incorporar a la acción común las propuestas de ayuntamientos, cabildos y colectivos sociales y económicos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un compromiso de participación institucional. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-096"
+        },
+        {
+          "fragmento": "con igualdad de derechos entre mujeres y hombres",
+          "medida_sintesis": "Comprometerse con la igualdad de derechos entre mujeres y hombres.",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: compromiso sin norma, estándar ni instrumento. DES 0: no dice cómo se garantiza el acceso ni nombra un servicio público. DEC 1: declarativa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Forma parte de una declaración de valores del proyecto y puede leerse como aspiración sin objeto de política (R3). Propuesta: mantenerla como medida IGU declarativa, porque nombra un objeto de política que no recoge ninguna medida numerada (cc-017 trata solo de la violencia de género).",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-p05": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Defenderemos más capacidad para decidir desde Canarias, con los medios necesarios para ejercerla",
+          "medida_sintesis": "Ampliar la capacidad de decisión de Canarias con los medios necesarios para ejercerla.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Trata del autogobierno. DEC 1: sin norma ni instrumento.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-001"
+        },
+        {
+          "fragmento": "y nos opondremos a la recentralización.",
+          "medida_sintesis": "Oponerse a la recentralización de competencias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Trata del autogobierno. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-001"
+        },
+        {
+          "fragmento": "Defenderemos la continuidad de los avances alcanzados, la ejecución de lo acordado y la aprobación de lo que siga pendiente.",
+          "medida_sintesis": "Defender la continuidad, la ejecución y la aprobación de lo pendiente de los acuerdos de la Agenda Canaria y de la propuesta de Decreto Canarias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Trata del cumplimiento de acuerdos entre administraciones. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-099"
+        },
+        {
+          "fragmento": "Esa defensa será una responsabilidad común de esta alianza, con libertad para negociar y decidir ante cada Gobierno.",
+          "medida_sintesis": "Mantener la libertad de la alianza para negociar y decidir ante cada Gobierno.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un criterio de conducta parlamentaria. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-p03"
+        },
+        {
+          "fragmento": "Reclamamos una solidaridad efectiva entre territorios, especialmente en la acogida de menores no acompañados.",
+          "medida_sintesis": "Reclamar solidaridad efectiva entre territorios en la acogida de personas migrantes, en especial de menores migrantes sin referentes familiares.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: se reclama sin norma, plazo ni mecanismo concreto. DES 0: no nombra un servicio público ni una regulación; se refiere al reparto de la acogida entre territorios. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-083"
+        },
+        {
+          "fragmento": "Invitamos a participar a quienes quieran aportar desde su isla, su municipio o su organización, también a quienes han perdido la confianza en la política.",
+          "medida_sintesis": "Abrir el proyecto común y la Agenda Canaria a la participación de la sociedad canaria.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un compromiso de participación. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-100"
+        },
+        {
+          "fragmento": "Queremos ampliarla con la sociedad y convertir las preocupaciones compartidas en compromisos cuyo cumplimiento se pueda comprobar.",
+          "medida_sintesis": "Convertir las preocupaciones compartidas en compromisos de cumplimiento verificable.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un compromiso de rendición de cuentas. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-100"
+        }
+      ]
+    },
+    "cc-p06": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "defiende que los recursos del REF se mantengan separados de la financiación ordinaria de los servicios públicos.",
+          "medida_sintesis": "Mantener los recursos del REF separados de la financiación ordinaria de los servicios públicos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una regla de financiación autonómica. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-005"
+        }
+      ]
+    },
+    "cc-p07": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "que nuestras instituciones intervengan en los asuntos exteriores que afectan directamente a",
+          "medida_sintesis": "Lograr que las instituciones canarias intervengan en los asuntos exteriores que afectan directamente a Canarias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Trata de política exterior y organización del Estado. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-095"
+        },
+        {
+          "fragmento": "Queremos contar con la experiencia de los municipios y los cabildos, de quienes trabajan y producen, de los colectivos sociales y de la juventud.",
+          "medida_sintesis": "Abrir el programa a las aportaciones de municipios, cabildos, personas trabajadoras y productoras, colectivos sociales y juventud para completar las propuestas y ordenar las prioridades.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un compromiso de participación. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Repite cc-096 en lo que se refiere a municipios y cabildos, pero amplía la participación a colectivos sociales, personas trabajadoras y juventud. Propuesta: mantenerla como repetición de cc-096; registrarla como medida nueva OTR declarativa si el equipo considera que la apertura a la sociedad es otro objeto.",
+          "repite": "cc-096"
+        },
+        {
+          "fragmento": "El cumplimiento de la Agenda Canaria y la defensa de la propuesta de Decreto Canarias",
+          "medida_sintesis": "Tomar el cumplimiento de la Agenda Canaria y de la propuesta de Decreto Canarias como referencia de la acción en las Cortes Generales.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Trata del cumplimiento de acuerdos entre administraciones. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-099"
+        },
+        {
+          "fragmento": "Sobre esa base incorporaremos los nuevos acuerdos con el Estado y Europa, con financiación, plazos y seguimiento público.",
+          "medida_sintesis": "Incorporar los nuevos acuerdos con el Estado y la Unión Europea con financiación, plazos y seguimiento público.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Trata del seguimiento de acuerdos entre administraciones. DEC 1: nombra tipos de instrumento sin concretar ninguno.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-099"
+        },
+        {
+          "fragmento": "Para cada medida distinguiremos lo que requiere aprobación, lo que necesita financiación y lo que está pendiente de ejecución, y actualizaremos los calendarios",
+          "medida_sintesis": "Clasificar cada compromiso según requiera aprobación, financiación o ejecución y actualizar los calendarios de las propuestas de ejercicios anteriores.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un procedimiento de seguimiento y rendición de cuentas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-100"
+        },
+        {
+          "fragmento": "El cumplimiento de esta agenda orientará nuestras decisiones y será la referencia para rendir cuentas ante la ciudadanía.",
+          "medida_sintesis": "Rendir cuentas ante la ciudadanía tomando como referencia el cumplimiento de la agenda.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un compromiso de rendición de cuentas. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "cc-100"
+        }
+      ]
+    },
+    "cc-p08": {
+      "sin_medidas": "Entradilla de la causa: «Queremos que la realidad canaria se tenga en cuenta desde el inicio del diseño de las políticas del Estado y que las obligaciones con las islas se cumplan». Solo engloba los objetivos del bloque, que desarrollan las medidas numeradas (entre ellas cc-002 y cc-099); no es medida (R3).",
+      "medidas": []
+    },
+    "cc-p09": {
+      "sin_medidas": "Entradilla de la causa con frases normativas sin compromiso de la formación («no pueden determinar», «debe ir acompañada»): no son medidas (R3).",
+      "medidas": []
+    },
+    "cc-p10": {
+      "sin_medidas": "Entradilla de la causa con diagnóstico y frase normativa sin compromiso de la formación («Canarias necesita más vivienda asequible»): no son medidas (R3).",
+      "medidas": []
+    },
+    "cc-p12": {
+      "sin_medidas": "Entradilla de la causa: «Queremos empleo estable, mejores salarios y una economía con más oportunidades para autónomos, pequeñas empresas, cooperativas y productores». Solo engloba los objetivos del bloque, que desarrollan las medidas numeradas (entre ellas cc-031, cc-032, cc-033 y cc-036); no es medida (R3).",
+      "medidas": []
+    },
+    "cc-p14": {
+      "sin_medidas": "Entradilla de la causa con frases normativas sin compromiso de la formación («deben ser», «han de abordarse», «debe abrir»): no son medidas (R3).",
+      "medidas": []
+    },
+    "cc-p15": {
+      "sin_medidas": "Entradilla de la causa: diagnóstico («Canarias necesita»), frase normativa («debe reducir») y «tenemos que preparar las islas para los efectos del cambio climático». Solo engloba los objetivos del bloque, que desarrollan las medidas numeradas (entre ellas cc-053, cc-066 y cc-070); no es medida (R3).",
+      "medidas": []
+    },
+    "cc-p17": {
+      "sin_medidas": "Entradilla de la causa con frases normativas sin compromiso de la formación («no deben recortar», «tienen que responder»): no son medidas (R3).",
+      "medidas": []
+    },
+    "cc-p18": {
+      "sin_medidas": "Entradilla de la causa con diagnóstico y frases normativas sin compromiso de la formación («Canarias necesita», «requiere»): no son medidas (R3).",
+      "medidas": []
+    },
+    "cc-p19": {
+      "sin_medidas": "Entradilla de la causa con valoración y frase normativa sin compromiso de la formación («merece», «debe abrir»): no son medidas (R3).",
+      "medidas": []
+    },
+    "cc-p20": {
+      "sin_medidas": "Entradilla de la causa con frases normativas sin compromiso de la formación («debe escuchar», «necesitan continuidad»): no son medidas (R3). Los compromisos equivalentes están en cc-p03 y cc-100.",
+      "medidas": []
+    },
+    "cc-p22": {
+      "sin_medidas": "Lista de candidaturas al Congreso y al Senado, sin propuestas.",
+      "medidas": []
+    }
+  }
+}

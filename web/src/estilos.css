@@ -1,0 +1,1785 @@
+/* ════════════════════════════════════════════════════════════════
+   ODESOCAN · Lee los programas (29N)
+   Sistema editorial .np (IBM Plex Sans / Mono)
+   + gramática del cartel de calle: bandas teal / navy a sangre,
+   Anton en mayúsculas y la «caja» blanca tras la palabra clave.
+   Vive dentro de un Shadow DOM: nada de aquí sale al tema Divi.
+   Responsive por CONTENEDOR (@container): se adapta al ancho real
+   de la columna de Divi, no al de la ventana.
+   ════════════════════════════════════════════════════════════════ */
+
+:host {
+  all: initial;
+  display: block;
+}
+
+.np-prog {
+  /* Tinta y texto (publicaciones) */
+  --np-tinta: #1a1a24;
+  --np-cuerpo: #2b2b38;
+  --np-muted: #5f6b7a; /* variante AA (5,4:1) del #7a8898 de la guía */
+  /* Marca / cartel */
+  --np-teal: #00c8b4;
+  --np-teal-hover: #00b0a0;
+  --np-teal-claro: #e3f8f5;
+  --np-navy: #0d1b2a;
+  --np-navy-2: #1c3149;
+  --np-claro: #f8f9fb;
+  --np-sobre-navy: #a9b6c4; /* texto secundario sobre navy (8,4:1) */
+  --np-linea: rgba(13, 27, 42, 0.14);
+  /* Familias */
+  --np-sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --np-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --np-display: 'Anton', 'Arial Narrow', Impact, sans-serif;
+  /* La cabecera fija del tema = data-margen − 16 px */
+  --np-cabecera: calc(var(--np-margen-sup, 96px) - 16px);
+
+  container: np / inline-size;
+  font-family: var(--np-sans);
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  white-space: normal;
+  color: var(--np-tinta);
+  background: #fff;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Reset local (solo dentro de la herramienta) */
+.np-prog *,
+.np-prog *::before,
+.np-prog *::after {
+  box-sizing: border-box;
+}
+.np-prog :where(h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, blockquote) {
+  margin: 0;
+  padding: 0;
+}
+.np-prog :where(ul, ol) {
+  list-style: none;
+}
+.np-prog :where(button) {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  text-align: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+.np-prog :where(a) {
+  color: inherit;
+}
+.np-prog svg {
+  display: block;
+  overflow: visible;
+}
+.np-prog :focus-visible {
+  outline: 3px solid var(--np-navy);
+  outline-offset: 3px;
+}
+.np-sr {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ── Bandas a sangre ────────────────────────────────────────────── */
+.np-banda {
+  background: #fff;
+  color: var(--np-tinta);
+}
+.np-banda-teal {
+  background: var(--np-teal);
+  color: var(--np-navy);
+}
+.np-banda-navy {
+  background: var(--np-navy);
+  color: var(--np-claro);
+}
+.np-banda-navy :focus-visible {
+  outline-color: var(--np-teal);
+}
+.np-in {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4cqi, 2.5rem);
+}
+
+/* ── Piezas comunes ─────────────────────────────────────────────── */
+.np-seccion {
+  padding-block: clamp(2rem, 6cqi, 3.5rem);
+  scroll-margin-top: var(--np-margen-sup, 96px);
+}
+.np-kicker {
+  font: 600 0.75rem/1.4 var(--np-mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--np-muted);
+  margin-bottom: 0.5rem;
+}
+.np-banda-teal .np-kicker {
+  color: var(--np-navy);
+}
+.np-banda-navy .np-kicker {
+  color: var(--np-teal);
+}
+.np-kicker-sub {
+  letter-spacing: 0.04em;
+  text-transform: none;
+  font-weight: 400;
+}
+/* Titular «de cartel»: Anton en mayúsculas */
+.np-titulo-cartel {
+  font: 400 clamp(2.25rem, 7cqi, 4rem) / 1 var(--np-display);
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  color: var(--np-navy);
+}
+.np-titulo-cartel:focus {
+  outline: none;
+}
+.np-banda-navy .np-titulo-cartel {
+  color: #fff;
+}
+/* La caja blanca del cartel tras la palabra clave */
+.np-caja {
+  background: #fff;
+  color: var(--np-navy);
+  padding: 0.06em 0.18em 0.02em 0.12em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+/* En titulares la caja va en bloque para no tapar la línea de arriba */
+.np-titulo-cartel .np-caja {
+  display: inline-block;
+  margin-top: 0.08em;
+}
+.np-caja-teal,
+.np-banda-navy .np-caja {
+  background: var(--np-teal);
+  color: var(--np-navy);
+}
+.np-texto {
+  font: 300 1.0625rem/1.7 var(--np-sans);
+  color: var(--np-cuerpo);
+  margin-top: 0.85rem;
+  max-width: 34rem;
+}
+.np-banda-navy .np-texto {
+  color: #d5dde6;
+}
+.np-nota {
+  font: italic 400 0.875rem/1.55 var(--np-sans);
+  color: var(--np-muted);
+  margin-top: 1rem;
+}
+.np-banda-navy .np-nota {
+  color: var(--np-sobre-navy);
+}
+.np-dateline {
+  font: 400 0.75rem/1.5 var(--np-mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--np-muted);
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--np-linea);
+}
+.np-cab-sec {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Botones */
+.np-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.55rem 1rem;
+  font: 600 0.8125rem/1.2 var(--np-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--np-navy);
+  background: #fff;
+  border: 2px solid var(--np-navy);
+  border-radius: 2px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.np-btn svg {
+  width: 1.1em;
+  height: 1.1em;
+  flex-shrink: 0;
+}
+.np-btn:hover {
+  background: var(--np-navy);
+  color: #fff;
+}
+.np-boton {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  font: 600 0.8125rem/1.2 var(--np-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--np-navy);
+  background: var(--np-teal);
+  padding: 14px 26px;
+  border-radius: 2px;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.np-boton:hover {
+  background: var(--np-teal-hover);
+  transform: translateY(-1px);
+}
+.np-boton svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.np-boton-navy {
+  background: var(--np-navy);
+  color: #fff;
+}
+.np-boton-navy:hover {
+  background: var(--np-navy);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 #fff;
+}
+.np-enlace-txt {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font: 600 0.8125rem/1.3 var(--np-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--np-navy);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--np-teal);
+  text-underline-offset: 4px;
+}
+.np-enlace-txt:hover {
+  text-decoration-color: var(--np-navy);
+}
+.np-pendiente {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font: 400 0.75rem/1.3 var(--np-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--np-muted);
+}
+.np-aviso-copia {
+  font: 600 0.75rem var(--np-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.np-aviso-copia:empty {
+  display: none;
+}
+
+/* ── Aviso de boceto ────────────────────────────────────────────── */
+.np-aviso {
+  padding: 0.6rem 1rem;
+  font: 400 0.75rem/1.45 var(--np-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--np-navy);
+  background: repeating-linear-gradient(-45deg, #fff 0 10px, #fff6d6 10px 20px);
+  border-bottom: 2px dashed var(--np-navy);
+}
+
+/* ── Cabecera de campaña (compacta) ─────────────────────────────── */
+.np-hero {
+  padding-top: clamp(1.25rem, 4cqi, 2.5rem);
+}
+.np-hero-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem 1.5rem;
+  margin-bottom: clamp(0.9rem, 2.5cqi, 1.5rem);
+}
+.np-hero-kicker {
+  font: 700 clamp(0.875rem, 2.2cqi, 1.35rem) / 1.15 var(--np-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+}
+/* Cuenta atrás en una sola fila: QUEDAN [días][horas][min][seg]
+   (clases «np-reloj»: «np-cuenta» es de las tarjetas de las cuentas) */
+.np-reloj {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.3rem;
+}
+.np-reloj-tit {
+  font: 600 0.75rem/1 var(--np-mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-right: 0.3rem;
+}
+.np-reloj-parte {
+  display: grid;
+  justify-items: center;
+  min-width: 2.9rem;
+  padding: 0.3rem 0.35rem 0.25rem;
+  background: var(--np-navy);
+  color: #fff;
+}
+.np-reloj-parte b {
+  font: 400 1.5rem/1 var(--np-display);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+.np-reloj-parte small {
+  margin-top: 0.15rem;
+  font: 600 0.5625rem/1 var(--np-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--np-teal);
+}
+.np-reloj-hoy {
+  font: 600 0.75rem/1.3 var(--np-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--np-claro);
+  background: var(--np-navy);
+  padding: 0.6rem 0.8rem;
+}
+/* Mismo encaje que el cartel en cualquier ancho: «LEE,» a la izquierda */
+.np-hero-lema {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: clamp(0.9rem, 5cqi, 4.5rem);
+  font-family: var(--np-display);
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--np-navy);
+}
+.np-hero-lee {
+  font-size: 24cqi;
+  line-height: 0.8;
+  letter-spacing: 0.01em;
+}
+.np-hero-resto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 9.6cqi;
+  line-height: 0.98;
+  letter-spacing: 0.01em;
+}
+.np-hero-resto .np-caja {
+  align-self: stretch;
+  margin: 0.06em 0 0 -0.12em;
+}
+.np-hero-sumario {
+  margin-top: clamp(1rem, 3cqi, 1.75rem);
+  max-width: 40rem;
+  font: 600 clamp(1.0625rem, 2.3cqi, 1.375rem) / 1.35 var(--np-sans);
+  border-left: 4px solid var(--np-navy);
+  padding-left: 0.9rem;
+}
+@container np (min-width: 760px) {
+  .np-hero-lee {
+    font-size: clamp(7rem, 15cqi, 11rem);
+  }
+  .np-hero-resto {
+    font-size: clamp(3.25rem, 6.4cqi, 5.4rem);
+  }
+}
+
+/* ── Paso 1 · Temas (sobre teal) ────────────────────────────────── */
+.np-temas-sec {
+  padding-block: clamp(1.75rem, 5cqi, 3rem) clamp(2rem, 6cqi, 3.5rem);
+}
+.np-hero + .np-temas-sec {
+  margin-top: clamp(1.5rem, 4cqi, 2.5rem);
+  border-top: 3px solid var(--np-navy);
+}
+.np-cab-lateral {
+  display: grid;
+  gap: 0.6rem;
+}
+.np-progreso {
+  min-width: min(100%, 16rem);
+  font: 400 0.8125rem/1.4 var(--np-mono);
+}
+.np-progreso-barra {
+  display: block;
+  height: 6px;
+  margin-top: 0.45rem;
+  background: rgba(13, 27, 42, 0.18);
+  overflow: hidden;
+}
+.np-progreso-barra > span {
+  display: block;
+  height: 100%;
+  background: var(--np-navy);
+  transition: width 0.5s ease;
+}
+.np-mini-leyenda {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.6rem;
+  font: 400 0.6875rem/1.3 var(--np-mono);
+  letter-spacing: 0.04em;
+}
+.np-muestra {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: 600;
+}
+.np-muestra::before {
+  content: '';
+  width: 0.7rem;
+  height: 0.7rem;
+  background: var(--p);
+  box-shadow: 0 0 0 1px var(--np-navy);
+}
+/* Mini-gráfica D3: 5 barritas por tema */
+.np-mini {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.np-mini-b {
+  display: block;
+  width: 7px;
+  height: 0;
+  background: var(--p, var(--np-navy));
+}
+.np-mini-b.is-cero {
+  background: rgba(13, 27, 42, 0.22);
+}
+.np-temas {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+.np-temas > li {
+  display: flex;
+}
+.np-tema {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 100%;
+  min-height: 7.5rem;
+  padding: 0.7rem 0.8rem 0.75rem;
+  color: var(--np-navy);
+  background: #fff;
+  border-radius: 2px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.np-tema:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--np-navy);
+}
+.np-tema[aria-pressed='true'] {
+  background: var(--np-navy);
+  color: #fff;
+  transform: none;
+  box-shadow: none;
+}
+.np-tema-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.np-tema-num {
+  font: 400 1.75rem/0.9 var(--np-display);
+  color: var(--np-navy);
+}
+.np-tema[aria-pressed='true'] .np-tema-num {
+  color: var(--np-teal);
+}
+.np-tema-estado {
+  font: 600 0.6875rem/1.2 var(--np-mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.35rem;
+  background: var(--np-teal-claro);
+  color: var(--np-navy);
+}
+.np-tema[aria-pressed='true'] .np-tema-estado {
+  background: var(--np-teal);
+}
+.np-tema-nombre {
+  font: 700 1rem/1.2 var(--np-sans);
+  overflow-wrap: break-word;
+}
+.np-tema-pie {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.35rem 0.6rem;
+}
+.np-tema-total {
+  font: 400 0.75rem/1.2 var(--np-mono);
+  color: var(--np-muted);
+}
+.np-tema[aria-pressed='true'] .np-tema-total {
+  color: var(--np-sobre-navy);
+}
+.np-tema[aria-pressed='true'] .np-mini-b.is-cero {
+  background: rgba(255, 255, 255, 0.3);
+}
+/* 18 temas: 2 columnas en móvil (9 filas), 3 a partir de 560 px (6 filas)
+   y 6 a partir de 1000 px (3 filas), para que ninguna fila quede incompleta. */
+@container np (min-width: 560px) {
+  .np-temas {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+}
+@container np (min-width: 900px) {
+  .np-tema-num {
+    font-size: 2rem;
+  }
+}
+@container np (min-width: 1000px) {
+  .np-temas {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .np-tema-nombre {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Móvil: la lista va plegada tras un botón desplegable y, abierta, los temas
+   salen en filas compactas (número · nombre · barritas y total). Desde 560 px
+   el botón no se ve y la rejilla está siempre abierta. */
+.np-temas-toggle {
+  display: none;
+}
+@container np (max-width: 559.98px) {
+  .np-temas-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    min-height: 56px;
+    margin-bottom: 0.6rem;
+    padding: 0.6rem 0.8rem;
+    text-align: left;
+    color: var(--np-navy);
+    background: #fff;
+    border: 2px solid var(--np-navy);
+    border-radius: 2px;
+  }
+  .np-temas-toggle-txt {
+    display: grid;
+    gap: 0.15rem;
+    flex: 1;
+    min-width: 0;
+  }
+  .np-temas-toggle-etq {
+    font: 400 0.6875rem/1.2 var(--np-mono);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--np-muted);
+  }
+  .np-temas-toggle-nombre {
+    font: 700 1rem/1.25 var(--np-sans);
+  }
+  .np-temas-toggle-accion {
+    font: 600 0.6875rem/1.2 var(--np-mono);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .np-temas-toggle svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+  .np-temas-toggle[aria-expanded='true'] svg {
+    transform: rotate(180deg);
+  }
+  .np-temas-sec:not(.is-abierto) .np-temas,
+  .np-temas-sec:not(.is-abierto) .np-mini-leyenda {
+    display: none; /* la leyenda de las barritas solo sirve con la lista abierta */
+  }
+  .np-temas {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+  .np-tema {
+    display: grid;
+    grid-template-columns: 2.1rem minmax(0, 1fr) auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    column-gap: 0.65rem;
+    row-gap: 0.1rem;
+    min-height: 52px;
+    padding: 0.5rem 0.7rem;
+    text-align: left;
+  }
+  .np-tema-top {
+    display: contents;
+  }
+  .np-tema-num {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    font-size: 1.35rem;
+  }
+  .np-tema-nombre {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 0.9375rem;
+  }
+  .np-tema-estado {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: start;
+  }
+  .np-tema-pie {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.2rem;
+    margin-top: 0;
+  }
+  .np-tema .np-mini {
+    height: 18px;
+  }
+  .np-tema .np-mini-b {
+    width: 5px;
+  }
+}
+
+/* ── Estados de carga ───────────────────────────────────────────── */
+.np-estado {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  font: 400 0.875rem var(--np-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--np-muted);
+}
+.np-estado-error {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--np-tinta);
+}
+
+/* ── Vista de un tema (banda blanca) ────────────────────────────── */
+.np-vista-titulo {
+  font: 400 clamp(2.75rem, 11cqi, 6rem) / 0.92 var(--np-display);
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  color: var(--np-navy);
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+.np-vista-titulo:focus {
+  outline: none;
+}
+.np-vista-alcance {
+  margin-top: 0.85rem;
+  max-width: 44rem;
+  font: 300 1.0625rem/1.65 var(--np-sans);
+  color: var(--np-cuerpo);
+  border-left: 4px solid var(--np-teal);
+  padding-left: 0.9rem;
+}
+.np-vista-cab .np-dateline {
+  margin-top: 1.25rem;
+}
+.np-vista-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+/* Filtro de partidos */
+.np-filtro {
+  margin-top: 2rem;
+}
+.np-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.np-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 44px;
+  padding: 0.45rem 1.05rem;
+  font: 700 0.9375rem/1 var(--np-sans);
+  color: var(--np-navy);
+  background: #fff;
+  border: 2px solid var(--np-navy);
+  border-radius: 999px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.np-chip svg {
+  display: none;
+  width: 1.05em;
+  height: 1.05em;
+}
+.np-chip:hover {
+  background: var(--np-teal-claro);
+}
+.np-chip[aria-pressed='true'] {
+  background: var(--np-navy);
+  color: #fff;
+}
+.np-chip[aria-pressed='true'] svg {
+  display: block;
+  color: var(--np-teal);
+}
+/* Chips de partido: punto de color; pulsado → fondo del partido */
+.np-chip-punto {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: var(--p);
+  box-shadow: 0 0 0 1px rgba(13, 27, 42, 0.4);
+}
+.np-chip-partido[aria-pressed='true'] {
+  background: var(--p-fondo);
+  border-color: var(--p-fondo);
+  color: var(--p-txt);
+}
+.np-chip-partido[aria-pressed='true'] svg {
+  color: currentColor;
+}
+.np-chip-partido[aria-pressed='true'] .np-chip-punto {
+  display: none;
+}
+
+/* Barras D3 (fondo claro, cada barra en el color de su partido) */
+.np-barras {
+  margin-top: 1.5rem;
+  padding: 1rem clamp(0.75rem, 3cqi, 1.5rem) 1.1rem;
+  background: #f3f5f7;
+  border-radius: 2px;
+}
+.np-barra-fila {
+  display: grid;
+  grid-template-columns: 4.4rem minmax(0, 1fr) 3rem;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  min-height: 44px;
+  padding-inline: 0.25rem;
+  border-radius: 2px;
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+.np-barra-fila:hover {
+  background: #fff;
+}
+.np-barra-sigla {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font: 700 0.875rem/1.1 var(--np-sans);
+  color: var(--np-tinta);
+}
+.np-barra-pista {
+  position: relative;
+  height: 18px;
+  background: rgba(13, 27, 42, 0.07);
+}
+.np-barra {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 0;
+  background: var(--p, var(--np-navy));
+  box-shadow: inset 0 0 0 1px rgba(13, 27, 42, 0.18);
+}
+.np-barra-n {
+  text-align: right;
+  font: 600 0.9375rem var(--np-mono);
+  color: var(--np-navy);
+  white-space: nowrap;
+}
+.np-barra-cuerpo {
+  display: grid;
+  gap: 0.2rem;
+  padding-block: 0.35rem;
+}
+.np-barra-base {
+  font: 400 0.6875rem/1.2 var(--np-mono);
+  color: var(--np-muted);
+  text-align: left;
+}
+.np-barra-fila.is-oculto {
+  opacity: 0.4;
+}
+.np-barras .np-nota {
+  margin-top: 0.5rem;
+}
+
+/* Grupos por partido */
+.np-comparando {
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem 0.75rem;
+  font: 600 0.75rem var(--np-mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--np-navy);
+  background: var(--np-teal-claro);
+}
+.np-grupos {
+  margin-top: 0.5rem;
+}
+.np-grupo {
+  padding-block: 1.5rem 0.75rem;
+  scroll-margin-top: var(--np-cabecera);
+}
+/* Cabecera del partido: se queda fija mientras lees sus artículos */
+.np-grupo-cab {
+  position: sticky;
+  top: var(--np-cabecera);
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.75rem;
+  padding: 0.45rem 0;
+  background: #fff;
+  border-bottom: 4px solid var(--p, var(--np-navy));
+}
+.np-grupo-sigla {
+  font: 400 clamp(1.75rem, 5cqi, 2.5rem) / 1 var(--np-display);
+  text-transform: uppercase;
+  color: var(--np-navy);
+}
+.np-grupo-sigla:focus {
+  outline: none;
+}
+.np-grupo-n {
+  font: 600 0.75rem var(--np-mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--p-txt, var(--np-navy));
+  background: var(--p-fondo, var(--np-teal));
+  padding: 0.3rem 0.5rem;
+}
+/* Llegada desde el mapa: destello en el color del partido */
+.np-grupo.is-destacado .np-grupo-cab {
+  animation: np-destello 1.8s ease-out;
+}
+@keyframes np-destello {
+  0%, 35% { background: color-mix(in srgb, var(--p) 28%, #fff); }
+  100% { background: #fff; }
+}
+/* Logo oficial del partido (o cuadrado de color si aún no hay archivo) */
+.np-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 2.5rem;
+  min-width: 2.5rem;
+}
+.np-logo img {
+  display: block;
+  height: 100%;
+  width: auto;
+  max-width: 7rem;
+  object-fit: contain;
+}
+.np-logo.is-sin-logo {
+  width: 2.5rem;
+  border-radius: 2px;
+  background: var(--p);
+  color: var(--p-txt);
+  font: 600 0.5625rem/1 var(--np-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.np-logo-s {
+  height: 1.75rem;
+  min-width: 1.75rem;
+}
+.np-logo-s.is-sin-logo {
+  width: 1.75rem;
+}
+.np-grupo-sub {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 1rem;
+  margin: 0.15rem 0 0.75rem;
+}
+.np-grupo-nombre {
+  font: 400 0.9375rem/1.3 var(--np-sans);
+  color: var(--np-muted);
+}
+/* «8 % de su programa (18 de sus 241 medidas). Es su 6.º tema de 15.» */
+.np-grupo-peso {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0 0 1rem;
+  padding: 0.55rem 0.75rem;
+  background: color-mix(in srgb, var(--p, var(--np-teal)) 10%, #fff);
+  border-left: 4px solid var(--p, var(--np-teal));
+  font: 400 0.875rem/1.4 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+.np-grupo-peso strong {
+  flex-shrink: 0;
+  font: 400 1.75rem/1 var(--np-display);
+  color: var(--np-navy);
+}
+@container np (max-width: 559px) {
+  .np-grupo-cab .np-logo {
+    height: 2rem;
+    min-width: 2rem;
+  }
+  .np-grupo-cab .np-logo.is-sin-logo {
+    width: 2rem;
+  }
+}
+.np-articulos {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
+}
+.np-articulos > li {
+  display: flex;
+}
+.np-btn-mas {
+  margin-top: 1rem;
+}
+@container np (min-width: 900px) {
+  .np-comparando {
+    display: inline-flex;
+  }
+  .np-grupos.is-comparar {
+    display: grid;
+    grid-template-columns: repeat(var(--n, 2), minmax(0, 1fr));
+    gap: 0 1.75rem;
+    align-items: start;
+  }
+  .np-grupos.is-comparar .np-articulos {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Ficha de artículo */
+.np-art {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 1rem 1.1rem 0.35rem;
+  background: #fff;
+  border: 1px solid var(--np-linea);
+  border-left: 4px solid var(--p, var(--np-teal));
+}
+.np-art-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  font: 400 0.75rem/1.3 var(--np-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--np-muted);
+}
+.np-art-titulo {
+  font: 700 1.0625rem/1.3 var(--np-sans);
+  color: var(--np-tinta);
+}
+.np-art-texto {
+  font: 300 1.0625rem/1.7 var(--np-sans);
+  color: var(--np-cuerpo);
+  white-space: pre-line; /* cada viñeta «•» en su línea */
+}
+.np-art-texto.is-recortado {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.np-art-tambien {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  font: 400 0.75rem var(--np-mono);
+  color: var(--np-muted);
+}
+.np-tag {
+  min-height: 32px;
+  padding: 0.2rem 0.6rem;
+  font: 600 0.75rem var(--np-mono);
+  color: var(--np-navy);
+  background: var(--np-teal-claro);
+  border-radius: 999px;
+}
+.np-tag:hover {
+  background: var(--np-teal);
+}
+.np-art-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.25rem;
+  margin-top: auto;
+}
+.np-vacio {
+  padding: 1rem 1.1rem;
+  border: 2px dashed var(--np-muted);
+  font: 300 1rem/1.6 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+
+/* Seguir leyendo: bloques teal de cartel */
+.np-pasos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin-top: 2.25rem;
+}
+.np-paso-btn {
+  display: grid;
+  gap: 0.25rem;
+  min-height: 44px;
+  padding: 1rem 1.1rem;
+  color: var(--np-navy);
+  background: var(--np-teal);
+  border-radius: 2px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.np-paso-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--np-navy);
+}
+.np-paso-sig {
+  text-align: right;
+}
+.np-paso-dir {
+  font: 600 0.75rem var(--np-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.np-paso-nombre {
+  font: 400 clamp(1.5rem, 4.5cqi, 2.25rem) / 1.02 var(--np-display);
+  text-transform: uppercase;
+}
+.np-volver-mapa {
+  margin-top: 0.75rem;
+  text-align: center;
+}
+@container np (min-width: 560px) {
+  .np-pasos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ── Mapa de los programas (fondo claro, D3) ────────────────────── */
+.np-banda-mapa {
+  background: #fff;
+  border-top: 3px solid var(--np-navy);
+}
+.np-mapa {
+  display: grid;
+  gap: 1.75rem;
+}
+.np-mapa .np-texto strong {
+  font-weight: 600;
+  color: var(--np-tinta);
+}
+.np-leyenda {
+  margin-top: 1.25rem;
+}
+.np-leyenda-tit {
+  font: 600 0.75rem var(--np-mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--np-muted);
+  margin-bottom: 0.4rem;
+}
+.np-leyenda-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.1rem;
+  font: 400 0.8125rem var(--np-mono);
+  color: var(--np-cuerpo);
+}
+.np-leyenda-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.np-leyenda-item svg {
+  width: 2rem;
+  height: 2rem;
+}
+.np-punto {
+  fill: var(--p, var(--np-teal));
+  fill-opacity: 1;
+  stroke: rgba(13, 27, 42, 0.35);
+  stroke-width: 0.75;
+  transition: fill-opacity 0.15s ease, stroke-width 0.15s ease;
+}
+.np-punto-neutro {
+  fill: #c9d1d9;
+}
+.np-punto-cero {
+  fill: none;
+  stroke: var(--np-muted);
+  stroke-width: 1.5;
+  stroke-dasharray: 3 2.5;
+}
+.np-mapa-tabla {
+  /* Móvil: columnas de partido fijas para que el nombre del tema
+     se quede con todo el espacio sobrante y no se parta a mitad. */
+  --cols: minmax(0, 1fr) repeat(5, 2rem) 1.9rem;
+  min-width: 0;
+}
+.np-mapa-cab,
+.np-mapa-fila {
+  display: grid;
+  grid-template-columns: var(--cols);
+  align-items: stretch;
+  column-gap: 0.2rem;
+}
+.np-mapa-cab {
+  padding: 0 0.5rem 0;
+  border-bottom: 2px solid var(--np-navy);
+  font: 600 0.6875rem/1.15 var(--np-mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--np-navy);
+}
+.np-mapa-cab > span {
+  align-self: center;
+}
+.np-mapa-cab-tema {
+  text-align: left;
+}
+/* Sigla del partido: botón para resaltar su columna */
+.np-mapa-sigla {
+  min-height: 2.75rem;
+  padding: 0.2rem 0.05rem 0.35rem;
+  text-align: center;
+  color: var(--np-navy);
+  border-bottom: 4px solid var(--p);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.np-mapa-sigla:hover {
+  background: var(--np-teal-claro);
+}
+.np-mapa-sigla[aria-pressed='true'] {
+  background: var(--p-fondo);
+  color: var(--p-txt);
+}
+.np-mapa-fila {
+  min-height: 46px;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid var(--np-linea);
+  transition: background 0.15s ease;
+}
+.np-mapa-fila:hover {
+  background: var(--np-teal-claro);
+}
+.np-mapa-fila.is-actual {
+  background: var(--np-teal-claro);
+  box-shadow: inset 4px 0 0 var(--np-teal);
+}
+.np-mapa-tema {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 46px;
+  padding-right: 0.25rem;
+  font: 600 0.875rem/1.25 var(--np-sans);
+  color: var(--np-tinta);
+  text-align: left;
+}
+.np-mapa-tema:hover span:last-child {
+  text-decoration: underline;
+  text-decoration-color: var(--np-teal);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.np-mapa-num {
+  display: none;
+  font: 400 0.6875rem var(--np-mono);
+  color: var(--np-muted);
+  flex-shrink: 0;
+}
+.np-mapa-tema:focus-visible,
+.np-mapa-celda:focus-visible {
+  outline-offset: -2px;
+}
+/* Burbuja = botón: lleva al partido dentro del tema */
+.np-mapa-celda {
+  position: relative;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+}
+.np-mapa-celda svg {
+  width: 1.85rem;
+  height: 1.85rem;
+}
+.np-mapa-celda:hover {
+  box-shadow: inset 0 0 0 2px var(--np-navy);
+}
+.np-mapa-n {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font: 600 0.8125rem var(--np-mono);
+  color: var(--np-navy);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+/* Al pasar por una fila o resaltar un partido: aparecen las cifras */
+.np-mapa-fila:hover .np-mapa-n,
+.np-mapa-celda:focus-visible .np-mapa-n,
+.np-mapa-celda.is-resaltada .np-mapa-n {
+  opacity: 1;
+}
+.np-mapa-fila:hover .np-punto,
+.np-mapa-celda:focus-visible .np-punto,
+.np-mapa-celda.is-resaltada .np-punto {
+  fill-opacity: 0.28;
+  stroke: var(--p);
+  stroke-width: 1.5;
+}
+.np-mapa-fila:hover .np-punto-cero,
+.np-mapa-celda:focus-visible .np-punto-cero,
+.np-mapa-celda.is-resaltada .np-punto-cero {
+  opacity: 0;
+}
+.np-mapa-total {
+  align-self: center;
+  text-align: right;
+  font: 600 0.8125rem var(--np-mono);
+  color: var(--np-navy);
+  white-space: nowrap;
+}
+.np-mapa-n small,
+.np-mapa-total small {
+  font-size: 0.6875em;
+  font-weight: 400;
+}
+.np-mapa-resumen {
+  min-height: 3.25rem;
+  margin-bottom: 0.75rem;
+  padding: 0.55rem 0.75rem;
+  border-left: 4px solid var(--np-linea-fuerte, #c9d1d9);
+  background: #f3f5f7;
+  font: 400 0.875rem/1.45 var(--np-sans);
+  color: var(--np-muted);
+}
+.np-mapa-resumen.is-activo {
+  border-left-color: var(--p);
+  background: color-mix(in srgb, var(--p) 10%, #fff);
+  color: var(--np-tinta);
+  font-weight: 600;
+}
+@container np (min-width: 560px) {
+  .np-mapa-tabla {
+    --cols: minmax(0, 1fr) repeat(5, minmax(2.75rem, 4.5rem)) 2.75rem;
+  }
+  .np-mapa-tema {
+    font-size: 0.9375rem;
+  }
+  .np-mapa-num {
+    display: inline;
+  }
+  .np-mapa-celda svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+@container np (min-width: 900px) {
+  .np-mapa {
+    grid-template-columns: minmax(16rem, 1fr) minmax(0, 2fr);
+    gap: 3rem;
+    align-items: start;
+  }
+  .np-mapa-intro {
+    position: sticky;
+    top: var(--np-margen-sup, 96px);
+  }
+  .np-mapa-tabla {
+    --cols: minmax(12rem, 2.4fr) repeat(5, minmax(3rem, 1fr)) 3rem;
+  }
+  .np-mapa-cab {
+    font-size: 0.75rem;
+  }
+}
+
+/* ── La prueba de las cuentas (capa crítica) ────────────────────── */
+/* Dos lados con dos colores, iguales para todos los partidos:
+   suma dinero = teal oscuro (#009e8f barras · #00756a texto, AA)  ·  resta dinero = navy.
+   El color del partido solo marca de quién es la tarjeta. */
+.np-banda-cuentas {
+  background: #f3f5f7;
+  border-top: 3px solid var(--np-navy);
+}
+.np-cuentas {
+  display: grid;
+  gap: 1.75rem;
+  --np-suma: #009e8f;
+  --np-suma-txt: #00756a;
+}
+.np-cuentas-intro {
+  display: grid;
+  gap: 1rem;
+  max-width: 60rem;
+}
+.np-cuentas-intro .np-texto strong {
+  font-weight: 600;
+  color: var(--np-tinta);
+}
+.np-cuentas-lista {
+  display: grid;
+  gap: 1rem;
+  align-items: start;
+}
+@container np (min-width: 620px) {
+  .np-cuentas-lista {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@container np (min-width: 1000px) {
+  .np-cuentas-lista {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.np-cuenta {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1rem clamp(0.9rem, 2.5cqi, 1.25rem) 1.1rem;
+  background: #fff;
+  border-top: 5px solid var(--p);
+  box-shadow: 0 1px 0 var(--np-linea);
+}
+.np-cuenta.is-pendiente {
+  background: transparent;
+  box-shadow: inset 0 0 0 1px var(--np-linea);
+}
+.np-cuenta-cab {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.6rem;
+}
+/* Etiqueta roja «Riesgo de viabilidad» (blanco sobre #b3261e: 6,5:1, AA) */
+.np-riesgo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.45rem;
+  background: #b3261e;
+  color: #fff;
+  font: 600 0.6875rem/1.2 var(--np-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.np-riesgo-leyenda {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.6rem;
+  font: 400 0.875rem/1.45 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+.np-cuenta-sigla {
+  font: 400 1.75rem/1 var(--np-display);
+  text-transform: uppercase;
+  color: var(--np-navy);
+}
+.np-cuenta-n {
+  margin-left: auto;
+  font: 400 0.75rem var(--np-mono);
+  color: var(--np-muted);
+}
+.np-cuenta-pend {
+  font: 400 0.9375rem/1.5 var(--np-sans);
+  color: var(--np-muted);
+}
+.np-cuenta-ratio {
+  display: grid;
+  gap: 0.15rem;
+}
+.np-ratio-num {
+  font: 400 clamp(2.75rem, 8cqi, 3.75rem) / 1 var(--np-display);
+  color: var(--np-navy);
+  letter-spacing: 0.01em;
+}
+.np-ratio-num.is-sin {
+  font-size: clamp(1.75rem, 5cqi, 2.25rem);
+  text-transform: uppercase;
+}
+.np-ratio-txt {
+  font: 400 0.875rem/1.35 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+/* Barras D3 en dos bloques: «restan» y «suman», cada barra con su etiqueta */
+.np-flujos {
+  display: grid;
+  gap: 0.85rem;
+  padding: 0.75rem 0;
+  border-block: 1px solid var(--np-linea);
+}
+.np-flujo {
+  display: grid;
+  gap: 0.3rem;
+}
+.np-flujo-cab {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding-bottom: 0.2rem;
+  font: 600 0.6875rem/1.3 var(--np-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.np-flujo-cab strong {
+  flex-shrink: 0;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+.np-flujo.is-resta .np-flujo-cab {
+  color: var(--np-navy);
+  border-bottom: 2px solid var(--np-navy);
+}
+.np-flujo.is-suma .np-flujo-cab {
+  color: var(--np-suma-txt);
+  border-bottom: 2px solid var(--np-suma);
+}
+/* Etiqueta encima y barra a todo el ancho: legible en tarjetas estrechas */
+.np-flujo-fila {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 2.4rem;
+  grid-template-areas: 'nom nom' 'pista n';
+  align-items: center;
+  column-gap: 0.5rem;
+  row-gap: 0.1rem;
+}
+.np-flujo-nom {
+  grid-area: nom;
+  font: 400 0.8125rem/1.25 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+.np-flujo-fila .np-flujo-pista {
+  grid-area: pista;
+}
+.np-flujo-fila .np-bal-n {
+  grid-area: n;
+}
+.np-flujo-pista {
+  display: block;
+  height: 1.1rem;
+  background: rgba(13, 27, 42, 0.06);
+}
+.np-bal-barra {
+  display: block;
+  height: 100%;
+  width: 0;
+}
+.np-flujo.is-resta .np-bal-barra {
+  background: var(--np-navy);
+}
+.np-flujo.is-suma .np-bal-barra {
+  background: var(--np-suma);
+}
+.np-bal-n {
+  text-align: right;
+  font: 600 0.875rem var(--np-mono);
+  color: var(--np-navy);
+}
+.np-flujo.is-suma .np-bal-n {
+  color: var(--np-suma-txt);
+}
+.np-cuenta-checks {
+  display: grid;
+  gap: 0.35rem;
+}
+.np-cuenta-checks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  font: 400 0.875rem/1.35 var(--np-sans);
+  color: var(--np-cuerpo);
+}
+.np-cuenta-checks strong {
+  flex-shrink: 0;
+  font: 600 0.875rem var(--np-mono);
+  color: var(--np-navy);
+}
+.np-cuenta-checks strong.is-no {
+  padding: 0.1rem 0.4rem;
+  background: var(--np-navy);
+  color: #fff;
+}
+.np-cuenta-ver {
+  justify-self: start;
+}
+.np-cuenta-lista {
+  display: grid;
+  gap: 0.5rem;
+}
+.np-fgrupo {
+  border-left: 4px solid var(--np-navy);
+  background: #f7f8fa;
+}
+.np-fgrupo.is-suma {
+  border-left-color: var(--np-suma);
+}
+.np-fgrupo.is-compromiso {
+  border-left-color: var(--np-muted);
+}
+.np-fgrupo summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  font: 600 0.875rem/1.3 var(--np-sans);
+  color: var(--np-tinta);
+  cursor: pointer;
+}
+.np-fgrupo summary span {
+  font: 400 0.8125rem var(--np-mono);
+  color: var(--np-muted);
+}
+.np-fgrupo ul {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0.25rem 0.75rem 0.85rem;
+}
+.np-fgrupo li + li {
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--np-linea);
+}
+.np-fmedida {
+  font: 400 0.9375rem/1.45 var(--np-sans);
+  color: var(--np-tinta);
+  margin-top: 0.15rem;
+}
+.np-fmedida-acc {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 1rem;
+  margin-top: 0.35rem;
+}
+.np-fimporte {
+  color: var(--np-navy);
+  font-weight: 600;
+}
+.np-cuentas-limite {
+  max-width: 60rem;
+}
+.np-cuentas-limite strong {
+  font-weight: 600;
+  color: var(--np-tinta);
+}
+/* Etiquetas fiscales en cada ficha de medida */
+.np-art-fiscal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  font: 400 0.75rem var(--np-mono);
+  color: var(--np-muted);
+}
+.np-art-fiscal-tit {
+  margin-right: 0.15rem;
+}
+.np-ftag {
+  padding: 0.15rem 0.45rem;
+  font: 600 0.6875rem var(--np-mono);
+  letter-spacing: 0.04em;
+  border: 1.5px solid var(--np-navy);
+  color: var(--np-navy);
+  border-radius: 2px;
+}
+.np-ftag.is-suma {
+  border-color: #009e8f;
+  color: #00756a;
+}
+.np-ftag.is-compromiso,
+.np-ftag.is-marca {
+  border-style: dashed;
+  border-color: var(--np-muted);
+  color: var(--np-muted);
+}
+
+/* Franja final de campaña */
+.np-final {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem 2rem;
+  padding-block: clamp(1.75rem, 5cqi, 3rem);
+}
+.np-final-lema {
+  margin-top: 0.6rem;
+  font: 400 clamp(2.5rem, 9cqi, 5.5rem) / 1.02 var(--np-display);
+  text-transform: uppercase;
+  color: var(--np-navy);
+}
+.np-final-accion {
+  display: grid;
+  justify-items: start;
+  gap: 0.75rem;
+}
+.np-final-firma {
+  font: 700 1.125rem/1 var(--np-sans);
+}
+
+
+/* ── Programas aún no publicados ────────────────────────────────── */
+.np-muestra.is-pendiente {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+.np-muestra.is-pendiente::before {
+  opacity: 0.4;
+}
+.np-mini-leyenda-pend {
+  font-style: italic;
+}
+.np-mapa-pend {
+  display: block;
+  margin-top: 0.1rem;
+  font: 400 0.5625rem/1 var(--np-mono);
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--np-muted);
+}
+/* Móvil: columnas de 2rem, «pendiente» no cabe y se pisa con la vecina.
+   Ya lo dicen la raya de cada celda, la leyenda y la etiqueta accesible. */
+@container np (max-width: 559px) {
+  .np-mapa-pend {
+    display: none;
+  }
+}
+.np-mapa-sigla[aria-pressed='true'] .np-mapa-pend {
+  color: inherit;
+}
+.np-punto-pend {
+  stroke: var(--np-muted);
+  stroke-width: 2;
+  stroke-linecap: round;
+  opacity: 0.6;
+}
+.np-barra-pista.is-pendiente {
+  background: repeating-linear-gradient(-45deg, rgba(13, 27, 42, 0.05) 0 6px, rgba(13, 27, 42, 0.11) 6px 12px);
+}
+.np-barra-pend {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+  font: 400 0.6875rem/1 var(--np-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--np-muted);
+  white-space: nowrap;
+  overflow: hidden;
+}
+.np-vacio-pendiente {
+  background: repeating-linear-gradient(-45deg, #fff 0 10px, #f3f5f7 10px 20px);
+}
+.np-vacio-pendiente strong {
+  font-weight: 600;
+  color: var(--np-tinta);
+}
+.np-art-nota {
+  font: 400 0.75rem/1.4 var(--np-mono);
+  color: var(--np-tinta);
+  background: #fff6d6;
+  padding: 0.35rem 0.5rem;
+}
+
+/* ── Movimiento reducido ────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .np-prog *,
+  .np-prog *::before,
+  .np-prog *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* ── Modo de alto contraste de Windows ──────────────────────────── */
+@media (forced-colors: active) {
+  .np-riesgo {
+    border: 2px solid CanvasText;
+  }
+  .np-bal-barra {
+    forced-color-adjust: none;
+    background: CanvasText !important;
+  }
+  .np-tema[aria-pressed='true'],
+  .np-chip[aria-pressed='true'],
+  .np-mapa-sigla[aria-pressed='true'] {
+    outline: 3px solid Highlight;
+  }
+  .np-punto,
+  .np-mini-b,
+  .np-barra {
+    fill: CanvasText;
+    background: CanvasText;
+  }
+}

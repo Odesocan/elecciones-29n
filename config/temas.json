@@ -1,0 +1,29 @@
+{
+  "_leeme": [
+    "Las 18 temáticas. El «id» es la clave que usan la clasificación (datos/clasificacion/*.json) y el CSV.",
+    "«alcance» se muestra al público en cada tema: es la regla de clasificación (transparencia).",
+    "Si se cambia un id, hay que cambiarlo también en la clasificación; «python3 maestro.py clasificar validar» lo detecta.",
+    "15-11-2026: «administraciones» se dividió en «estado» (Estructura del Estado) y «justicia» (Justicia y seguridad); se reclasificaron las medidas de los cuatro programas cargados.",
+    "16-11-2026: se crearon «infancia» (Infancia y entornos convivenciales) e «idi» (I+D+i) y «medioambiente» pasó a llamarse «Medio ambiente, aguas y energía»; se revisaron las medidas candidatas de los cuatro programas."
+  ],
+  "temas": [
+    { "id": "igualdad", "nombre": "Igualdad", "alcance": "Igualdad de género, violencias machistas, diversidad LGTBI y no discriminación." },
+    { "id": "vivienda", "nombre": "Vivienda", "alcance": "Acceso, alquiler, vivienda pública, desahucios y vivienda vacacional." },
+    { "id": "sanidad", "nombre": "Sanidad", "alcance": "Sistema público de salud, atención primaria, listas de espera y salud mental." },
+    { "id": "dependencia", "nombre": "Dependencia y discapacidad", "alcance": "Ley de dependencia, cuidados, accesibilidad y derechos de las personas con discapacidad." },
+    { "id": "educacion", "nombre": "Educación", "alcance": "Escuela pública, etapa 0-3, Formación Profesional, universidad y becas." },
+    { "id": "infancia", "nombre": "Infancia y entornos convivenciales (familias)", "alcance": "Protección de la infancia y la adolescencia, familias y crianza, natalidad, pobreza infantil y formas de convivencia." },
+    { "id": "migraciones", "nombre": "Migraciones", "alcance": "Acogida, asilo, infancia migrante no acompañada, inclusión y fronteras." },
+    { "id": "empleo", "nombre": "Empleo", "alcance": "Salarios, contratación, desempleo, condiciones laborales y protección social." },
+    { "id": "digital", "nombre": "Derechos digitales y tecnología", "alcance": "Brecha digital, protección de datos, inteligencia artificial y conectividad." },
+    { "id": "idi", "nombre": "I+D+i (innovación)", "alcance": "Investigación científica, innovación, transferencia de conocimiento y carrera investigadora." },
+    { "id": "memoria", "nombre": "Memoria democrática", "alcance": "Víctimas, exhumaciones, archivos, símbolos y reparación." },
+    { "id": "cultura", "nombre": "Cultura y deporte", "alcance": "Creación y patrimonio cultural, acceso a la cultura y deporte base." },
+    { "id": "medioambiente", "nombre": "Medio ambiente, aguas y energía", "alcance": "Cambio climático, agua, energía, territorio, biodiversidad y residuos." },
+    { "id": "animales", "nombre": "Bienestar animal", "alcance": "Protección animal, abandono, maltrato y fauna." },
+    { "id": "economia", "nombre": "Economía", "alcance": "Fiscalidad, REF canario, presupuestos, turismo y modelo productivo." },
+    { "id": "defensa", "nombre": "Defensa y política internacional", "alcance": "Fuerzas Armadas, alianzas internacionales, Unión Europea y cooperación." },
+    { "id": "estado", "nombre": "Estructura del Estado", "alcance": "Instituciones, Parlamento y normas electorales, función pública, transparencia, financiación autonómica y organización territorial." },
+    { "id": "justicia", "nombre": "Justicia y seguridad", "alcance": "Lucha contra la corrupción, tribunales, policía, seguridad ciudadana, emergencias y protección civil." }
+  ]
+}

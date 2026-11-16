@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lee los programas · Boceto</title>
+    <style>
+      /* Simulación muy simple de la portada (cabecera fija tipo Divi)
+         para comprobar el encaje del módulo. No forma parte del bloque. */
+      body { margin: 0; font-family: 'Open Sans', Arial, sans-serif; background: #fff; color: #666; }
+      .sim-cabecera { position: sticky; top: 0; z-index: 10; height: 72px; display: flex; align-items: center;
+        justify-content: space-between; padding: 0 24px; background: #fff; box-shadow: 0 1px 0 rgba(0,0,0,.1); }
+      .sim-logo { font: 700 20px/1 Arial, sans-serif; color: #0d1b2a; letter-spacing: .02em; }
+      .sim-etiqueta { font: 12px/1.3 monospace; color: #888; text-transform: uppercase; letter-spacing: .1em; }
+      .sim-fila { max-width: 1280px; margin: 0 auto; padding: 0; }
+      .sim-otro { max-width: 1080px; margin: 0 auto; padding: 48px 24px; font-size: 14px; line-height: 1.7; }
+      .sim-otro h2 { color: #333; font-weight: 500; }
+    </style>
+  </head>
+  <body>
+    <header class="sim-cabecera">
+      <span class="sim-logo">ODESOCAN</span>
+      <span class="sim-etiqueta">Simulación de portada · boceto local</span>
+    </header>
+
+    <main>
+      <div class="sim-fila">
+        <!-- ▼ Esto es lo que irá dentro del módulo «Código» de Divi ▼ -->
+        <div id="lee-los-programas" data-np-programas data-src="./data/programas.csv" data-margen="88">
+          <p>Para comparar los programas electorales necesitas activar JavaScript.</p>
+        </div>
+        <!-- ▲ ─────────────────────────────────────────────────────── ▲ -->
+      </div>
+
+      <section class="sim-otro">
+        <h2>Resto de la portada</h2>
+        <p>Aquí continuarían los demás módulos de la página de inicio (últimas publicaciones, informes, boletín…).</p>
+      </section>
+    </main>
+
+    <script type="module" src="/src/embed.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,2513 @@
+{
+  "lote": "lote-03",
+  "unidades": {
+    "pp-043": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Quien quiera renovar su residencia temporal en el régimen general deberá firmar un compromiso de integración.",
+          "medida_sintesis": "Exigir un compromiso de integración acreditado (idioma, Constitución y valores europeos) para renovar la residencia temporal.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: añade un requisito nuevo para renovar la residencia.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Las administraciones facilitarán ese proceso de integración con formación, orientación y herramientas para hacerlo posible.",
+          "medida_sintesis": "Facilitar desde las administraciones formación y orientación para la integración de la población extranjera residente.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: no reconoce un derecho ni fija estándar, plazo u obligación de provisión.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Ninguna costumbre ni creencia justificará la subordinación de la mujer ni la discriminación de nadie.",
+          "medida_sintesis": "Exigir la igualdad entre mujeres y hombres sin que ninguna costumbre o creencia justifique la subordinación de la mujer.",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: principio sin instrumento. DES 0: no indica cómo se provee la protección.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Puede leerse como principio general sin objeto de política (R3) o como medida declarativa de igualdad. Propuesta: medida declarativa de IGU con DEC 1.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Prohibiremos el uso del burka y el niqab en los espacios públicos.",
+          "medida_sintesis": "Prohibir el uso del burka y el niqab en los espacios públicos.",
+          "area": "IGU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "Se presenta como medida de igualdad, pero restringe una práctica de mujeres de determinadas confesiones y no regula el acceso a un derecho social. Propuesta: IGU con 0 en las cuatro y REG 0; decidir en la validación si constituye exclusión por origen o sexo (REG 1).",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-044": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "La expulsión será la regla para los extranjeros condenados por delitos sexuales, delitos de sangre y multirreincidencia.",
+          "medida_sintesis": "Hacer de la expulsión la regla para personas extranjeras condenadas por delitos graves o multirreincidencia, aunque tengan causas pendientes.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: amplía la expulsión de personas extranjeras.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de REG: amplía la expulsión, la prohibición de entrada o la pérdida de residencia de personas extranjeras por motivos penales o de seguridad, supuesto que no figura entre los ejemplos de 2.4. Propuesta: REG 1 por restringir la residencia, con 0 en las cuatro dimensiones.",
+          "repite": ""
+        },
+        {
+          "fragmento": "La prohibición de entrada será permanente para quien suponga un riesgo para la seguridad",
+          "medida_sintesis": "Establecer la prohibición de entrada permanente para personas que supongan un riesgo para la seguridad.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: endurece la prohibición de entrada.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de REG: amplía la expulsión, la prohibición de entrada o la pérdida de residencia de personas extranjeras por motivos penales o de seguridad, supuesto que no figura entre los ejemplos de 2.4. Propuesta: REG 1 por restringir la residencia, con 0 en las cuatro dimensiones.",
+          "repite": ""
+        },
+        {
+          "fragmento": "retiraremos el permiso de residencia a quien tenga vínculos con el crimen organizado o con la radicalización violenta.",
+          "medida_sintesis": "Retirar el permiso de residencia a personas con vínculos con el crimen organizado o la radicalización violenta.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: añade una causa de pérdida de la residencia.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de REG: amplía la expulsión, la prohibición de entrada o la pérdida de residencia de personas extranjeras por motivos penales o de seguridad, supuesto que no figura entre los ejemplos de 2.4. Propuesta: REG 1 por restringir la residencia, con 0 en las cuatro dimensiones.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-045": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aplicaremos plenamente el nuevo Reglamento Europeo de Retornos y reforzaremos los medios para ejecutar las órdenes dictadas, incluidas las de otros países europeos.",
+          "medida_sintesis": "Aplicar el Reglamento Europeo de Retornos y reforzar los medios para ejecutar las órdenes de retorno dictadas.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de REG: ejecuta órdenes de retorno ya dictadas sin crear un supuesto nuevo, aunque el Reglamento citado endurece el régimen de retorno. Propuesta: REG 0; REG 1 si la validación considera que aplicar el Reglamento recorta garantías.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Ampliaremos el tiempo máximo de permanencia en los centros de internamiento, dentro de los límites europeos, para que las expulsiones se ejecuten.",
+          "medida_sintesis": "Ampliar el tiempo máximo de internamiento de personas extranjeras en los centros de internamiento.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: reduce la garantía del límite temporal de internamiento.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Utilizaremos todos los destinos que el Reglamento permite, incluidos terceros países seguros y primeros países de asilo",
+          "medida_sintesis": "Retornar a terceros países seguros y primeros países de asilo, con acuerdos para crear centros de retorno en terceros países.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: restringe la protección internacional al permitir el retorno a terceros países.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Si un país no coopera en las readmisiones, condicionaremos a ello los visados, la cooperación al desarrollo",
+          "medida_sintesis": "Condicionar visados, cooperación al desarrollo y política comercial a la cooperación de terceros países en las readmisiones.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: MIG por su fin migratorio y OTR por tratarse de política exterior. Propuesta: MIG con 0 en las cuatro y REG 0.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Impulsaremos programas de retorno voluntario con incentivos, en colaboración con la Organización Internacional para las Migraciones.",
+          "medida_sintesis": "Impulsar programas de retorno voluntario con incentivos, en colaboración con la Organización Internacional para las Migraciones.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: se formula como programa sin derecho reconocido. DES 0: no nombra un servicio público ni una regulación de precio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de ámbito: el retorno voluntario asistido puede leerse como parte de la migración segura o como instrumento de control migratorio. Propuesta: acceso voluntario abierto a toda la población migrante, sin REG, con el mismo criterio que otros planes de retorno sin selección.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-046": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Resolveremos en un máximo de 72 horas los procedimientos de determinación de la edad, reforzando los medios de la Fiscalía.",
+          "medida_sintesis": "Resolver en un máximo de 72 horas los procedimientos de determinación de la edad de menores migrantes.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "El plazo máximo puede leerse como garantía de acceso rápido a la protección de menores o como trámite de control orientado al retorno, que es el fin declarado de la unidad. Propuesta: 0 en las cuatro; si se entiende como garantía, UNI 1, EXI 1, DES 1 y NDI 1.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Introduciremos en el Código Penal el delito de fraude de identidad, edad o nacionalidad para acceder a la protección de menores.",
+          "medida_sintesis": "Tipificar como delito el fraude de identidad, edad o nacionalidad para acceder a la protección de menores.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: sanciona el fraude sin restringir el acceso legítimo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "la legislación de protección de menores para priorizar la reunificación familiar y el retorno seguro a sus países de origen",
+          "medida_sintesis": "Priorizar el retorno de menores migrantes a sus países de origen, con reforma legal, supresión del informe individualizado previo, exigencia a los países de origen y sustitución del reparto territorial.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: suprime la garantía del informe individualizado previo al retorno de menores.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "para permitir la expulsión de quienes se hagan pasar por menores.",
+          "medida_sintesis": "Permitir la expulsión de personas que se hagan pasar por menores.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: añade un supuesto de expulsión.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de REG: amplía la expulsión, la prohibición de entrada o la pérdida de residencia de personas extranjeras por motivos penales o de seguridad, supuesto que no figura entre los ejemplos de 2.4. Propuesta: REG 1 por restringir la residencia, con 0 en las cuatro dimensiones.",
+          "repite": ""
+        },
+        {
+          "fragmento": "El Estado asumirá la atención inicial, la identificación y la determinación de edad",
+          "medida_sintesis": "Atribuir al Estado la atención inicial, la identificación y la determinación de edad de menores migrantes.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: obligación de provisión pública de la atención inicial a todo el colectivo.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "Reasigna al Estado la atención inicial, que hoy prestan las comunidades autónomas, y la une a funciones de control (identificación y edad). Puede leerse como organización de competencias sin garantía nueva. Propuesta: g = 1 por obligación de provisión pública; EXI 0 si se considera solo un cambio competencial.",
+          "repite": ""
+        },
+        {
+          "fragmento": "revisaremos el régimen de tutela para evitar su atribución automática a las Comunidades Autónomas.",
+          "medida_sintesis": "Revisar el régimen de tutela de menores migrantes para evitar su atribución automática a las comunidades autónomas.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "Puede leerse como cambio competencial o como recorte de la tutela automática, que es una garantía de los menores. Propuesta: REG 0 y DEC 1 por no concretar el nuevo régimen; REG 1 si la validación entiende que suprime la tutela automática.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-140": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Modificaremos el modelo de concesión para que la nacionalidad deje de funcionar como una consecuencia casi automática del paso del tiempo.",
+          "medida_sintesis": "Modificar el modelo de concesión de la nacionalidad para exigir vínculo efectivo e integración acreditada.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: restringe el acceso a la nacionalidad.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "pp-141"
+        }
+      ]
+    },
+    "pp-141": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aprobaremos una nueva Ley de Nacionalidad que refuerce las condiciones de acceso",
+          "medida_sintesis": "Aprobar una nueva Ley de Nacionalidad que endurezca las condiciones de acceso (residencia, idioma, conducta, antecedentes y obligaciones tributarias).",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: restringe el acceso a la nacionalidad.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Mantendremos un tratamiento preferente para los países de la Hispanidad",
+          "medida_sintesis": "Mantener el tratamiento preferente en el acceso a la nacionalidad para personas de países iberoamericanos.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: mantiene un régimen vigente de acceso a la nacionalidad que no provee un derecho social y diferencia por origen.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "Mantiene una preferencia por origen ya vigente: no introduce una exclusión nueva ni provee un derecho social de 2.2. Propuesta: 0 en las cuatro y REG 0; valorar si la preferencia por origen debe tratarse como exclusión.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-142": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Endureceremos las consecuencias legales para quienes hayan adquirido la nacionalidad española mediante fraude, falsedad u ocultación.",
+          "medida_sintesis": "Endurecer las consecuencias legales de la adquisición fraudulenta de la nacionalidad española.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: actúa sobre el fraude sin restringir el acceso legítimo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "regularemos la pérdida de la nacionalidad de quienes no sean españoles de origen cuando exista condena firme por determinados delitos graves",
+          "medida_sintesis": "Regular la pérdida de la nacionalidad de personas que no sean españolas de origen con condena firme por delitos graves.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: restringe la nacionalidad y distingue por origen.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-143": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizaremos que la nacionalidad se reconozca únicamente a quienes acrediten de forma efectiva su condición de descendientes de exiliados españoles.",
+          "medida_sintesis": "Reconocer la nacionalidad por descendencia de personas exiliadas solo a quien acredite de forma efectiva esa condición.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: endurece una vía de acceso a la nacionalidad.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Puede leerse como control del fraude (REG 0) o como endurecimiento de una vía de acceso a la nacionalidad (REG 1). Propuesta: REG 1 por el término «únicamente» y la exigencia de acreditación reforzada.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-238": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Exigiremos a Bruselas para Ceuta y Melilla el mismo trato que la Unión dio en 2025 a sus regiones fronterizas con Rusia.",
+          "medida_sintesis": "Exigir a la Unión Europea para Ceuta y Melilla el mismo trato que dio a sus regiones fronterizas con Rusia.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-009": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "España no puede acoger a más inmigrantes.",
+          "medida_sintesis": "Cerrar la acogida de nuevas personas inmigrantes.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: excluye por origen la llegada de nuevas personas inmigrantes. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El titular «Ni uno más» y la frase normativa pueden leerse como diagnóstico o lema (R3) o como compromiso de cerrar la inmigración. Propuesta: medida restrictiva y declarativa.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Prohibición de las regularizaciones masivas. Quien entra de forma ilegal jamás podrá regularizar su situación.",
+          "medida_sintesis": "Prohibir las regularizaciones extraordinarias e impedir que regularice su situación cualquier persona que haya entrado de forma irregular.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: restringe la regularización.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-010": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Endurecimiento de los requisitos de adquisición de la nacionalidad española",
+          "medida_sintesis": "Endurecer los requisitos de adquisición de la nacionalidad española.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: restringe el acceso a la nacionalidad.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Revisión de las concesiones fraudulentas de la nacionalidad.",
+          "medida_sintesis": "Revisar las concesiones fraudulentas de la nacionalidad.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: actúa sobre el fraude sin restringir el acceso legítimo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Aumento de los supuestos de pérdida de nacionalidad española para los españoles no de origen en casos de delitos graves o reiterados.",
+          "medida_sintesis": "Ampliar los supuestos de pérdida de la nacionalidad de personas que no son españolas de origen por delitos graves o reiterados.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: restringe la nacionalidad y distingue por origen.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-011": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Supresión de la institución del arraigo como forma de atajar la inmigración ilegal",
+          "medida_sintesis": "Suprimir el arraigo como vía de regularización.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: suprime el arraigo.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "revocación de las pasarelas rápidas para adquirir la nacionalidad española.",
+          "medida_sintesis": "Revocar las vías rápidas de acceso a la nacionalidad española.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: restringe el acceso a la nacionalidad.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-012": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Repatriación de quienes permanezcan en situación ilegal en nuestra nación",
+          "medida_sintesis": "Repatriar a las personas que permanezcan en situación administrativa irregular.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: generaliza la expulsión por situación administrativa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de REG: la expulsión de la población en situación irregular ya está prevista en la ley, pero la medida la generaliza como regla, a diferencia de ejecutar órdenes ya dictadas. Propuesta: REG 1 por introducir una exclusión por situación administrativa.",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-013": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Plan para facilitar el retorno a sus países de los extranjeros que no contribuyan o vivan de subsidios públicos que no alcanzan a los españoles.",
+          "medida_sintesis": "Plan de retorno para personas extranjeras que no coticen o perciban subsidios públicos.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: selecciona por origen y por percibir prestaciones. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-014": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Deportación de quienes cometan delitos graves o hagan del delito leve su forma de vida",
+          "medida_sintesis": "Expulsar a personas extranjeras que cometan delitos graves o reiterados delitos leves.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: amplía la expulsión de personas extranjeras.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de REG: amplía la expulsión, la prohibición de entrada o la pérdida de residencia de personas extranjeras por motivos penales o de seguridad, supuesto que no figura entre los ejemplos de 2.4. Propuesta: REG 1 por restringir la residencia, con 0 en las cuatro dimensiones.",
+          "repite": ""
+        },
+        {
+          "fragmento": "de quienes traten de imponer costumbres, hábitos o culturas ajenas a nuestro modo de vida",
+          "medida_sintesis": "Expulsar a personas extranjeras que traten de imponer costumbres o culturas consideradas ajenas o contrarias a la dignidad de las mujeres.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: introduce una causa de expulsión ligada al origen cultural.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-015": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Devolución de menores extranjeros no acompañados a sus padres o a las instituciones de tutela de sus países de origen",
+          "medida_sintesis": "Devolver a menores migrantes no acompañados a sus familias o a las instituciones de tutela de sus países de origen.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: prioriza la devolución sobre la protección de menores migrantes.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de REG: invoca el interés superior del menor, pero generaliza la devolución de menores no acompañados, supuesto que no figura entre los ejemplos de 2.4. Propuesta: REG 1.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Persecución de ONG’s o redes criminales que participen o colaboren en la sustracción o secuestro de menores.",
+          "medida_sintesis": "Perseguir a entidades o redes que participen en la sustracción o el secuestro de menores.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite OTR (justicia penal) y MIG, y la mención de las ONG puede afectar a la acogida de menores migrantes. Propuesta: OTR con 0 en las cuatro y REG 0.",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-016": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Eliminación de todas las subvenciones, ayudas, convenios y conciertos con ONG u otras entidades que participen directa o indirectamente en la promoción",
+          "medida_sintesis": "Eliminar subvenciones, convenios y conciertos con entidades que participen en la promoción, facilitación o sostenimiento de la inmigración irregular.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: retira financiación a entidades que atienden a población en situación irregular.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "«Sostenimiento de la inmigración ilegal» puede abarcar la atención social y humanitaria a población en situación irregular o solo la colaboración con redes de tráfico. Propuesta: REG 1 por el alcance amplio del texto; REG 0 si se entiende limitado a la cooperación con redes de tráfico.",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-017": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Retirar ayudas y fondos de cooperación y promover sanciones a aquellos Estados que fomenten la inmigración ilegal",
+          "medida_sintesis": "Retirar la cooperación al desarrollo y promover sanciones a los Estados que no colaboren en el control migratorio.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: MIG por su fin migratorio y OTR por tratarse de política exterior. Propuesta: MIG con 0 en las cuatro y REG 0.",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-018": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Acceso preferente de los españoles a vivienda pública",
+          "medida_sintesis": "Dar acceso preferente a la vivienda pública a la población de nacionalidad española.",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: introduce una prioridad por nacionalidad.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "vox-027"
+        },
+        {
+          "fragmento": "Acceso preferente de los españoles a vivienda pública, plazas de guardería",
+          "medida_sintesis": "Dar acceso preferente a las plazas de 0 a 3 años a la población de nacionalidad española.",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: introduce una prioridad por nacionalidad.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "bonos de comedor o transporte",
+          "medida_sintesis": "Dar acceso preferente a los bonos de comedor escolar a la población de nacionalidad española.",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: introduce una prioridad por nacionalidad.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "plazas de guardería, bonos de comedor o transporte",
+          "medida_sintesis": "Dar acceso preferente a los bonos de transporte a la población de nacionalidad española.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: introduce una exclusión por nacionalidad, aunque el transporte no sea por sí mismo un derecho social.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "ayudas, prestaciones y servicios sociales.",
+          "medida_sintesis": "Dar acceso preferente a ayudas, prestaciones y servicios sociales a la población de nacionalidad española.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: introduce una prioridad por nacionalidad.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Modificación o derogación de cuantas normativas pudieran dificultar la consecución plena y efectiva del principio de prioridad nacional.",
+          "medida_sintesis": "Modificar o derogar las normas que impidan aplicar la prioridad nacional.",
+          "area": "IGU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: elimina garantías de no discriminación por nacionalidad.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite IGU (normas de no discriminación) y OTR, y es el instrumento de las prioridades anteriores de la misma unidad. Propuesta: medida aparte en IGU por actuar sobre otro objeto, la normativa de no discriminación.",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-019": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Suprimir toda ayuda y beneficio social a los inmigrantes ilegales",
+          "medida_sintesis": "Suprimir toda ayuda y beneficio social a la población inmigrante en situación irregular.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: suprime prestaciones por situación administrativa.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-021": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Gravamen sobre las remesas al extranjero",
+          "medida_sintesis": "Gravar las remesas enviadas al extranjero.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. REG 0: es un tributo, no una exclusión en el acceso.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de REG: el gravamen recae de hecho sobre población de origen extranjero, aunque no regula el acceso a un derecho. Propuesta: REG 0 por tratarse de fiscalidad general (2.4 REG).",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-023": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Plan de retorno a nuestra Nación para los españoles que tuvieron que abandonar España en los últimos años por falta de oportunidades y deseen volver.",
+          "medida_sintesis": "Plan de retorno para la población de nacionalidad española que emigró por falta de oportunidades y desee volver.",
+          "area": "MIG",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: se formula como plan. DES 0: no indica cómo se provee el apoyo al retorno.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de ámbito y área: el retorno de población emigrada puede leerse como migración segura (MIG) o como política de empleo (EMP). Propuesta: MIG, codificado como acceso con DEC 1, con el mismo criterio que los programas de retorno voluntario sin selección.",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-015": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Defenderemos programas estatales específicos mientras Canarias mantenga indicadores de pobreza superiores a la media.",
+          "medida_sintesis": "Defender programas estatales específicos contra la pobreza infantil en Canarias y priorizar a la infancia y a las familias con más dificultades en la asignación de recursos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: se dirige a las familias con mayores dificultades. EXI 0: programas sin derecho ni estándar. DES 0: no indica cómo se provee.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "abrir el debate y buscar consenso en el marco estatal para establecer una política común para reforzar la protección y el bienestar de la infancia",
+          "medida_sintesis": "Abrir un debate estatal para una política común de protección de la infancia (crianza, vivienda, violencia digital, salud mental, educación inclusiva y menores migrantes).",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: solo propone abrir un debate. DES 0: no indica cómo se provee.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Enumera siete objetos (crianza, vivienda, violencia digital, salud mental, educación, menores migrantes y cooperación), pero el compromiso es solo abrir un debate. Propuesta: una medida declarativa; atomizar solo si la validación considera cada objeto un compromiso.",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-016": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reclamaremos al Estado un sistema de cooperación que permita a Canarias tramitar las solicitudes y el reconocimiento del ingreso mínimo vital",
+          "medida_sintesis": "Reclamar al Estado que Canarias, con cabildos y ayuntamientos, tramite y reconozca el ingreso mínimo vital.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: el ingreso mínimo vital exige umbral de renta. EXI 0: reclama al Estado y organiza la gestión sin reconocer un derecho nuevo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Mejoraremos su coordinación con las prestaciones autonómicas.",
+          "medida_sintesis": "Coordinar el ingreso mínimo vital con las prestaciones autonómicas para evitar falta de cobertura y pérdidas bruscas al aceptar un empleo.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: prestaciones con umbral de renta. EXI 0: sin norma ni estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-019": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reclamaremos al Estado que los complementos de renta que establezca Canarias sean compatibles con las pensiones no contributivas, estén exentos de tributación",
+          "medida_sintesis": "Reclamar al Estado que los complementos canarios sean compatibles con las pensiones no contributivas, estén exentos y no reduzcan la prestación.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: las pensiones no contributivas exigen umbral de renta. EXI 0: reclama al Estado una norma sin fuerza obligatoria propia.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-031": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Defenderemos la financiación del Plan Integral de Empleo de Canarias y de los programas específicos previstos en el REF",
+          "medida_sintesis": "Defender la financiación estatal del Plan Integral de Empleo de Canarias y de los programas del REF, con prioridad para quien tiene más dificultades de acceso al empleo.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: financiación de un plan, sin derecho ni estándar. DES 0: no nombra un servicio público ni una regulación de precio.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "vincularemos la formación a oportunidades reales de trabajo estable y mejores salarios.",
+          "medida_sintesis": "Vincular la formación para el empleo a oportunidades de trabajo estable y mejor pagado.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento. DES 0: no indica cómo se provee la formación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-032": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzaremos las ayudas estatales a quienes empiezan una actividad por cuenta propia",
+          "medida_sintesis": "Reforzar las ayudas estatales al inicio de una actividad por cuenta propia, ajustadas a las condiciones de las islas.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: ayudas sin derecho garantizado. DES 0: ayudas a la actividad, no un servicio público.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "a los autónomos con menores rendimientos.",
+          "medida_sintesis": "Reforzar las ayudas estatales a las personas autónomas con menores rendimientos.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: depende de tener menores rendimientos. EXI 0: ayudas sin derecho garantizado. DES 0: ayudas, no un servicio público.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-036": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reclamaremos al Estado incentivos fiscales y bonificaciones en las cotizaciones ligados a mejoras salariales pactadas y a la productividad de las empresas canarias.",
+          "medida_sintesis": "Reclamar incentivos fiscales y bonificaciones de cotizaciones ligados a mejoras salariales pactadas en las empresas canarias.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: incentivo fiscal reclamado al Estado. DES 0: incentivo a la oferta privada.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Defenderemos también las medidas dirigidas a las retribuciones públicas más bajas.",
+          "medida_sintesis": "Defender medidas para las retribuciones públicas más bajas.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: se limita a las retribuciones más bajas. EXI 0: sin instrumento. DES 0: no nombra un servicio público ni una regulación de precio.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-045": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reclamaremos la aportación estatal al plan cuatrienal de empleo para menores de 35 años previsto en la propuesta de Decreto Canarias.",
+          "medida_sintesis": "Reclamar la aportación estatal al plan cuatrienal de empleo para menores de 35 años, acordado con instituciones canarias y agentes sociales.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: dotación de un plan, sin derecho ni estándar. DES 0: no nombra un servicio público ni una regulación de precio.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-098": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Estableceremos criterios de prioridad en el acceso a determinadas ayudas, prestaciones y recursos públicos",
+          "medida_sintesis": "Dar prioridad en el acceso a ayudas, prestaciones y recursos públicos a quien acredite arraigo, empadronamiento y cotización en España.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: introduce una prioridad por arraigo y residencia previa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La prioridad se basa en arraigo, empadronamiento, cotización y permanencia, no solo en la nacionalidad, y se limita a lo que permitan las normas constitucionales y europeas. Propuesta: REG 1 y NDI 0 por equivaler a una cláusula de residencia previa (2.4 NDI).",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-108": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reconstruiremos el Pacto de Toledo sobre un principio claro",
+          "medida_sintesis": "Reconstruir el Pacto de Toledo como compromiso de Estado sobre las pensiones.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Aseguraremos que mantengan su poder adquisitivo y suban cada año con el IPC.",
+          "medida_sintesis": "Revalorizar cada año las pensiones con el IPC para mantener su poder adquisitivo, también el de las futuras pensiones.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la mayor parte de las pensiones son contributivas y exigen cotización previa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La revalorización alcanza a todas las pensiones públicas, contributivas y no contributivas. Propuesta: UNI 0 por la cotización previa de la mayoría; UNI 1 si se considera colectivo protegido el conjunto de personas pensionistas.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Incentivaremos la jubilación activa mediante deducciones en el IRPF.",
+          "medida_sintesis": "Incentivar la jubilación activa con deducciones en el IRPF.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-152": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsaremos un plan de formación y empleo para atender las necesidades del sector y evitar que la falta de trabajadores frene la construcción de viviendas.",
+          "medida_sintesis": "Impulsar un plan de formación, empleo y recualificación hacia los oficios de la construcción.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: se formula como plan. DES 0: no nombra un servicio público ni una regulación de precio.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Las necesidades de mano de obra del sector se podrán tener en cuenta al fijar los cupos de inmigración laboral, facilitando la contratación en origen.",
+          "medida_sintesis": "Tener en cuenta las necesidades de la construcción al fijar los cupos de inmigración laboral y facilitar la contratación en origen.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: el acceso depende de una oferta de empleo. EXI 0: «se podrán tener en cuenta» no crea obligación. DES 0: no nombra un servicio público ni una regulación de precio.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "Admite MIG o EMP, y la vía legal de migración laboral puede leerse como acceso a la migración segura o como política sectorial. Propuesta: MIG, codificada como acceso con UNI 0 por depender de una oferta de empleo.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-161": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Estableceremos incentivos para las empresas por los trabajadores con hijos pequeños, tanto por los que contraten como por los que ya tengan en plantilla.",
+          "medida_sintesis": "Incentivar a las empresas por la contratación y el mantenimiento de personas trabajadoras con descendencia de corta edad.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: incentivo sin derecho reconocido. DES 0: incentivo a la oferta privada.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Mejoraremos las ayudas a la contratación de las personas que sustituyan a madres o padres durante sus permisos.",
+          "medida_sintesis": "Mejorar las ayudas a la contratación de personas que sustituyan a personas trabajadoras durante sus permisos de nacimiento y cuidado.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: ayuda sin derecho reconocido. DES 0: incentivo a la oferta privada.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite EMP y CUI (permisos y conciliación). Propuesta: EMP por ser una ayuda o bonificación ligada al empleo.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Los autónomos que vuelvan a su actividad tras el permiso tendrán bonificada al 100% su cuota durante dos años.",
+          "medida_sintesis": "Bonificar al 100% durante dos años la cuota de las personas autónomas que se reincorporen tras el permiso, incluidos los periodos de lactancia.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: bonificación de cuota, que no reconoce un derecho aunque se apruebe por ley. DES 0: es una bonificación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite EMP y CUI (permisos y conciliación). Propuesta: EMP por ser una ayuda o bonificación ligada al empleo.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-166": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reduciremos drásticamente la pobreza infantil reforzando las ayudas a las familias vulnerables, el apoyo educativo y la protección de los menores en riesgo.",
+          "medida_sintesis": "Reducir la pobreza infantil con más ayudas a familias vulnerables, apoyo educativo y protección de la infancia en riesgo.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: las ayudas se dirigen a familias vulnerables. EXI 0: no fija derecho, cuantía ni plazo. DES 0: no precisa si son prestaciones públicas de garantía de ingresos ni nombra un servicio público.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Acompañaremos a los hogares en dificultades para evitar que la falta de recursos provoque la separación de los niños de sus familias.",
+          "medida_sintesis": "Acompañar a los hogares en dificultades para evitar que la falta de recursos separe a la infancia de su familia.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: se dirige a hogares en dificultades. EXI 0: sin instrumento. DES 0: no indica cómo se provee el acompañamiento.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-169": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "y protección, para que nadie quede desamparado durante la transición.",
+          "medida_sintesis": "Proteger a las personas trabajadoras durante la transición a la inteligencia artificial, junto con los agentes sociales.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento. DES 0: no indica cómo se provee la protección.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "La frase anuncia tres ejes (flexibilidad, formación y protección): la formación se desarrolla en el cheque y la flexibilidad no tiene objeto concreto; la protección puede leerse como aspiración sin objeto (R3). Propuesta: medida declarativa solo para la protección.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Cada trabajador tendrá un cheque de formación, que conservará, aunque cambie de empresa, para formarse donde elija.",
+          "medida_sintesis": "Dar a cada persona trabajadora un cheque de formación portable entre empresas, con más recursos para personas mayores y sectores expuestos a la inteligencia artificial.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 1,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "DES 0: es un cheque para adquirir formación en el mercado.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-170": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "nuevos autónomos no pagarán cuota a la Seguridad Social durante su primer año, ni durante el segundo si sus ingresos no llegan al salario mínimo.",
+          "medida_sintesis": "Eximir de cuota a la Seguridad Social a las nuevas personas autónomas el primer año, y el segundo si sus ingresos no alcanzan el salario mínimo.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: exención de cuota, que no reconoce un derecho aunque se apruebe por ley. DES 0: es una exención.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Y la vivienda habitual del autónomo quedará protegida por defecto, para que arriesgar en un negocio no signifique arriesgar la casa.",
+          "medida_sintesis": "Proteger por defecto la vivienda habitual de las personas autónomas frente a las deudas del negocio.",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 1,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "DES 0: no nombra un servicio público ni una regulación de precio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite VIV y EMP, y EXI depende de que la protección se concrete como inembargabilidad legal. Propuesta: VIV con EXI 1 por fijar una protección legal por defecto.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-172": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "El autónomo con una enfermedad grave tendrá bonificada su cuota desde el primer día de baja.",
+          "medida_sintesis": "Bonificar la cuota de las personas autónomas con enfermedad grave desde el primer día de baja.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: bonificación de cuota, que no reconoce un derecho aunque se apruebe por ley. DES 0: es una bonificación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Ampliaremos los supuestos que dan derecho a la prestación por cese de actividad y eliminaremos la burocracia que hoy la deniega.",
+          "medida_sintesis": "Ampliar los supuestos de la prestación por cese de actividad de las personas autónomas y simplificar su acceso.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: prestación contributiva que exige cotización previa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "ampliaremos los umbrales de protección de la Ley de Segunda Oportunidad.",
+          "medida_sintesis": "Ampliar los umbrales de protección de la Ley de Segunda Oportunidad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-174": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Las empresas que mantengan sus plantillas más estables que la media de su sector cotizarán menos por desempleo.",
+          "medida_sintesis": "Reducir la cotización por desempleo de las empresas con plantillas más estables que la media de su sector.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: incentivo sin derecho reconocido. DES 0: incentivo a la oferta privada.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "publicaremos cada mes, junto al paro registrado, cuántos fijos discontinuos no están trabajando",
+          "medida_sintesis": "Publicar cada mes el número de personas fijas discontinuas sin actividad junto al paro registrado.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-175": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Protegeremos mejor a quien padezca enfermedades severas y de larga duración con hasta el 100% de la base reguladora.",
+          "medida_sintesis": "Elevar hasta el 100% de la base reguladora la prestación por incapacidad temporal en enfermedades severas y de larga duración.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: prestación contributiva que exige cotización previa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite OTR (protección social) y EMP, y «hasta el 100%» no fija una cuantía garantizada. Propuesta: OTR con EXI 1 por fijar el nivel de la prestación en la norma.",
+          "repite": ""
+        },
+        {
+          "fragmento": "reforzaremos los medios de la Seguridad Social y el papel de las mutuas para agilizar la gestión de la incapacidad temporal.",
+          "medida_sintesis": "Reforzar los medios de la Seguridad Social y el papel de las mutuas, y mejorar los sistemas de información, para agilizar la gestión de la incapacidad temporal.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la incapacidad temporal es contributiva. EXI 0: herramienta de gestión, no garantía.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "Combina medios públicos y gestión por mutuas, y puede leerse como mejora del acceso o como control de las bajas. Propuesta: DES 1 por nombrar la Seguridad Social; DES 0 si pesa la gestión indirecta de las mutuas.",
+          "repite": ""
+        },
+        {
+          "fragmento": "estableceremos un sistema que premie a las empresas que mejor gestionen la incapacidad temporal.",
+          "medida_sintesis": "Premiar a las empresas que mejor gestionen la incapacidad temporal.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: incentivo a la gestión empresarial de las bajas que no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Perseguiremos el fraude de quienes se aprovechan del sistema para no trabajar y cobrar prestaciones indebidas a costa del esfuerzo de los demás.",
+          "medida_sintesis": "Perseguir el fraude en la incapacidad temporal y en el cobro de prestaciones indebidas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto. REG 0: actúa sobre el fraude sin restringir el acceso legítimo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-007": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar la sostenibilidad del sistema de pensiones",
+          "medida_sintesis": "Garantizar la sostenibilidad de las pensiones mediante el crecimiento económico, el empleo y los salarios.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El texto enumera objetivos económicos generales que pueden leerse como lema (R3). Propuesta: medida declarativa sobre las pensiones, por tener objeto de política en el titular, con 0 en las cuatro.",
+          "repite": ""
+        },
+        {
+          "fragmento": "es necesario impulsar medidas de apoyo a las familias, fomento de la natalidad y ayuda a la crianza",
+          "medida_sintesis": "Impulsar medidas de apoyo a las familias, a la natalidad y a la crianza.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento. DES 0: no indica cómo se provee.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "vox-094"
+        }
+      ]
+    },
+    "vox-022": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "El Ingreso Mínimo Vital atenderá únicamente las necesidades de los españoles con menos recursos",
+          "medida_sintesis": "Limitar el ingreso mínimo vital a la población de nacionalidad española con menos recursos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: restringe por nacionalidad una prestación existente.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Se promoverá el retorno de aquellos inmigrantes que estén cobrando el IMV o sus complementos autonómicos.",
+          "medida_sintesis": "Promover el retorno de la población inmigrante que perciba el ingreso mínimo vital o sus complementos autonómicos.",
+          "area": "MIG",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 1,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: selecciona por origen y por percibir una prestación. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Posible repetición de vox-013 (plan de retorno de personas extranjeras que viven de subsidios). Propuesta: mantenerla como medida propia por referirse en concreto al ingreso mínimo vital.",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-094": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Todos los beneficios que ahora existen para las familias numerosas se aumentarán y se extenderán a todas las familias",
+          "medida_sintesis": "Aumentar los beneficios de las familias numerosas y extenderlos de forma progresiva a todas las familias desde el primer descendiente.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: son ayudas y bonificaciones sin derecho garantizado ni plazo. DES 0: son ayudas y bonificaciones, no un servicio público ni una regulación de precio.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Bonificaciones fiscales a empresas que fomenten la conciliación y hagan descuentos a las familias.",
+          "medida_sintesis": "Bonificar fiscalmente a las empresas que fomenten la conciliación y hagan descuentos a las familias.",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: bonificación fiscal. DES 0: incentivo fiscal a la oferta privada.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Bonificación del 100% de la ayuda en el hogar.",
+          "medida_sintesis": "Bonificar al 100% la ayuda en el hogar de las familias.",
+          "area": "CUI",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: solo beneficia a quien puede pagar la ayuda en el hogar. EXI 0: bonificación. DES 0: es una bonificación.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "«Ayuda en el hogar» puede referirse a las cotizaciones del empleo de hogar contratado por las familias o al copago del servicio público de ayuda a domicilio. Propuesta: bonificación al empleo de hogar (UNI 0 y DES 0); si fuera el servicio público, UNI 1 y DES 1.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Impulso de los servicios de apoyo a las familias en los centros educativos.",
+          "medida_sintesis": "Impulsar servicios de apoyo a las familias en los centros educativos.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento. DES 0: no indica si los servicios son públicos ni regula su precio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite EDU y CUI (conciliación). Propuesta: EDU por prestarse en los centros educativos.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Cotización a la Seguridad Social financiada por el Estado para los españoles dedicados al cuidado de sus hijos.",
+          "medida_sintesis": "Financiar desde el Estado la cotización a la Seguridad Social de la población de nacionalidad española dedicada al cuidado de su descendencia.",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: cotización pública a cargo del Estado para quien cuida, sin prueba de renta.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "Nombra como destinataria a la población de nacionalidad española sin cláusula expresa de exclusión: según 2.4 NDI es una mención genérica, pero al definir quién recibe la prestación, dentro de un plan para «familias españolas», puede leerse como condición de nacionalidad. Propuesta: NDI 1 por la regla literal; NDI 0 y REG 1 si la validación lo considera condición de acceso.",
+          "repite": ""
+        },
+        {
+          "fragmento": "para facilitar el acceso a la vivienda",
+          "medida_sintesis": "Facilitar el acceso a la vivienda de las familias.",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento. DES 0: no indica cómo se provee el acceso.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "la compra de vehículos por necesidades familiares",
+          "medida_sintesis": "Apoyar la compra de vehículos por necesidades familiares.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "la reducción de la carga fiscal de los productos de primera necesidad infantil",
+          "medida_sintesis": "Reducir la carga fiscal de los productos de primera necesidad infantil.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: exige poder comprar los productos. EXI 0: rebaja fiscal. DES 0: rebaja fiscal.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "deducciones por material escolar o clases extraescolares.",
+          "medida_sintesis": "Deducir fiscalmente el gasto en material escolar y clases extraescolares.",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: solo para quien puede pagar el gasto. EXI 0: deducción fiscal. DES 0: deducción fiscal.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "la gratuidad real de la educación infantil de 0 a 3 años.",
+          "medida_sintesis": "Hacer gratuita la educación infantil de 0 a 3 años.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: gratuidad de la etapa de 0 a 3 años para todo el alumnado.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La gratuidad se enuncia como contenido de un plan para «familias españolas», sin norma, plazo ni precisión sobre plazas públicas o privadas. Propuesta: g = 1 por gratuidad garantizada, como en pp-163; EXI 0 si se considera solo contenido de un plan.",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-074": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Defenderemos que la conectividad, los servicios y las inversiones del Estado atiendan de forma específica la doble insularidad y las necesidades de los municipios rurales.",
+          "medida_sintesis": "Defender que la conectividad, los servicios y las inversiones del Estado atiendan la doble insularidad y los municipios rurales.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Exigiremos el Plan Específico de Telecomunicaciones de Canarias previsto en el Estatuto",
+          "medida_sintesis": "Exigir el Plan Específico de Telecomunicaciones de Canarias previsto en el Estatuto.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-123": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsaremos las inversiones en infraestructuras conectadas, sostenibles y seguras, que favorezcan el desarrollo y despliegue del 5G en las vías de alta capacidad",
+          "medida_sintesis": "Impulsar inversiones para desplegar el 5G en las vías de alta capacidad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "la implantación de puntos de recarga a fin de favorecer la descarbonización de los tráficos rodados.",
+          "medida_sintesis": "Implantar puntos de recarga para descarbonizar el tráfico rodado.",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: infraestructura de transporte que no regula ni provee el acceso a un derecho social (2.2).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite MAM por su fin climático y OTR por ser infraestructura de transporte. Propuesta: MAM con 0 en las cuatro.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-168": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "NINGÚN MENOR DE 14 AÑOS PODRÁ TENER UNA CUENTA EN REDES SOCIALES, Y HASTA LOS 16 NECESITARÁ AUTORIZACIÓN DE SUS PADRES",
+          "medida_sintesis": "Prohibir las cuentas en redes sociales antes de los 14 años y exigir autorización familiar hasta los 16, con verificación de edad obligatoria, veto a contenidos para adultos y apuestas y sanciones a las plataformas.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 1,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "DES 0: regula condiciones de las plataformas sin servicio público ni regulación de precio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera de DES: regula las condiciones de las plataformas para toda la población menor, pero la aclaración de 2.4 limita DES 1 a un servicio público o una regulación de precio. Propuesta: DES 0; DES 1 si se aplica la regla general de regulación de condiciones para todas las personas.",
+          "repite": ""
+        },
+        {
+          "fragmento": "completaremos el Código Penal para que lo que es delito en la calle sea delito en el mundo digital.",
+          "medida_sintesis": "Adaptar el Código Penal para que los delitos sean también punibles en el entorno digital.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "garantizaremos el descanso digital en periodo nocturno, los límites al scroll infinito y la posibilidad de fijar tiempos máximos de uso",
+          "medida_sintesis": "Imponer a las plataformas descanso digital nocturno, límites al scroll infinito, tiempos máximos de uso y etiquetado obligatorio de contenidos.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 1,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "DES 0: regula condiciones de las plataformas sin servicio público ni regulación de precio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite OTR (protección de la infancia) y SME (adicciones), y es caso frontera de DES por regular condiciones sin precio. Propuesta: OTR con DES 0; DES 1 si se aplica la regla general de regulación de condiciones.",
+          "repite": ""
+        },
+        {
+          "fragmento": "La formación y la prevención de la adicción a las pantallas serán esenciales.",
+          "medida_sintesis": "Reforzar la formación y la prevención de la adicción a las pantallas.",
+          "area": "SME",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento. DES 0: no indica cómo se provee la prevención.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Se establecerán canales efectivos de denuncia",
+          "medida_sintesis": "Establecer canales efectivos de denuncia de delitos en el entorno digital.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "se aprobarán medidas de apoyo a víctimas.",
+          "medida_sintesis": "Aprobar medidas de apoyo a las víctimas de delitos en el entorno digital.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento concreto. DES 0: no indica cómo se provee el apoyo.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-190": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Apoyaremos a las empresas que lleven la IA del laboratorio a la fábrica.",
+          "medida_sintesis": "Apoyar a las empresas y pymes en la adopción de inteligencia artificial con aplicaciones, asesoramiento, formación y ciberseguridad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Habrá entornos de prueba seguros, sin cargas nacionales añadidas al marco europeo, y respuesta a los trámites en treinta días.",
+          "medida_sintesis": "Crear entornos de prueba de inteligencia artificial sin cargas nacionales añadidas y con respuesta a los trámites en treinta días.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "La Agencia Española de Supervisión de Inteligencia Artificial (AESIA) acompañará a las empresas en el cumplimiento de las nuevas reglas",
+          "medida_sintesis": "Orientar la Agencia Española de Supervisión de Inteligencia Artificial al acompañamiento de las empresas en el cumplimiento.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-037": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la investigación, el desarrollo y la aplicación de la inteligencia artificial como motor de desarrollo de la economía nacional",
+          "medida_sintesis": "Impulsar la investigación, el desarrollo y la implantación de la inteligencia artificial en las empresas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "promover la formación de trabajadores y jóvenes para aprovechar las nuevas oportunidades presentes y futuras.",
+          "medida_sintesis": "Promover la formación de personas trabajadoras y jóvenes en inteligencia artificial.",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «promover» sin instrumento. DES 0: no indica cómo se provee la formación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Implantarla en las administraciones para reducir la burocracia y mejorar los servicios públicos, garantizando siempre la atención presencial.",
+          "medida_sintesis": "Implantar la inteligencia artificial en las administraciones manteniendo siempre la atención presencial.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-038": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Creación de un expediente digital único y centralizado que unifique la gestión de trámites para ciudadanos y empresas",
+          "medida_sintesis": "Crear un expediente digital único con obligación de las administraciones de compartir datos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-091": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mejorar las capacidades nacionales de prevención y respuesta frente a ciberataques, espionaje, sabotajes y amenazas contra los servicios esenciales",
+          "medida_sintesis": "Mejorar las capacidades de prevención y respuesta frente a ciberataques y amenazas a infraestructuras críticas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-097": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Preservar la inocencia de los menores y protegerlos frente a los riesgos presentes en los entornos digitales",
+          "medida_sintesis": "Proteger a la infancia frente a los riesgos de los entornos digitales, como la adicción al juego o la pornografía.",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento. DES 0: no indica cómo se provee la protección.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-128": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Llevaremos a cabo una reforma legal que rehabilite y proteja los símbolos del Estado, incluidos los de las Comunidades Autónomas.",
+          "medida_sintesis": "Reformar la ley para proteger los símbolos del Estado y de las comunidades autónomas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-129": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Derogaremos la mal llamada «ley de memoria democrática», corredactada por Bildu",
+          "medida_sintesis": "Derogar la Ley de Memoria Democrática.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "La sustituiremos por una norma de concordia que proteja la investigación histórica, la reconciliación y el legado constitucional de la Transición",
+          "medida_sintesis": "Aprobar una ley de concordia que proteja la investigación histórica y mantenga la búsqueda e identificación de personas desaparecidas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-130": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "la verdad sobre los crímenes sin resolver que el Estado se compromete a esclarecer y a publicar cada año.",
+          "medida_sintesis": "Esclarecer los crímenes de ETA sin resolver y publicar cada año sus resultados.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-131": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Haremos efectiva la prohibición de los homenajes a terroristas y haremos responsable a la autoridad que los permita o financie.",
+          "medida_sintesis": "Hacer efectiva la prohibición de homenajes a terroristas y responsabilizar a la autoridad que los permita o financie.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "no habrá tercer grado ni libertad condicional para los condenados por terrorismo sin arrepentimiento veraz",
+          "medida_sintesis": "Condicionar el tercer grado y la libertad condicional por terrorismo al arrepentimiento y a la colaboración con la Justicia.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Daremos a la Audiencia Nacional, a la Policía Nacional y a la Guardia Civil los medios para revisar todos los casos, uno por uno.",
+          "medida_sintesis": "Dotar de medios a la Audiencia Nacional y a las fuerzas de seguridad para revisar los casos de terrorismo sin resolver.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-046": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Superación de las divisivas leyes ideológicas que enfrentan a los españoles , tales como la de Memoria Democrática",
+          "medida_sintesis": "Superar las leyes que la formación califica de ideológicas, como la Ley de Memoria Democrática.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Solo nombra la Ley de Memoria Democrática; si «leyes ideológicas» abarcase normas de igualdad o de violencia de género, sería REG 1. Propuesta: codificar solo lo explícito, OTR con REG 0.",
+          "repite": ""
+        }
+      ]
+    },
+    "vox-109": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aprobación de una ley que impida de forma efectiva el enaltecimiento del terrorismo, homenajes a terroristas, actos de humillación de las víctimas",
+          "medida_sintesis": "Aprobar una ley contra el enaltecimiento del terrorismo, los homenajes a terroristas y la humillación de las víctimas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Promover la investigación de todos los crímenes de ETA aún no resueltos",
+          "medida_sintesis": "Promover la investigación de los crímenes de ETA sin resolver.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Garantizar la efectiva imprescriptibilidad de todos los delitos de terrorismo.",
+          "medida_sintesis": "Declarar imprescriptibles los delitos de terrorismo, incluida su consideración como crímenes de lesa humanidad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Fin de los privilegios penitenciarios de los condenados por terrorismo.",
+          "medida_sintesis": "Suprimir los beneficios penitenciarios de las personas condenadas por terrorismo.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-088": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mantendremos ayudas estatales específicas para los desplazamientos de artistas y compañías canarias a circuitos estatales e internacionales.",
+          "medida_sintesis": "Mantener ayudas estatales para los desplazamientos de artistas y compañías de Canarias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La participación en la vida cultural es un derecho social de 2.2, pero la medida apoya al sector cultural y no regula el acceso de la ciudadanía a la cultura. Propuesta: 0 en las cuatro.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Reforzaremos la presencia de nuestra creación en los programas estatales y su proyección hacia Europa, América y África.",
+          "medida_sintesis": "Reforzar la presencia de la creación canaria en los programas estatales y en el exterior.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Reclamaremos que se eliminen los obstáculos administrativos y fiscales que dificultan la circulación y exposición de las obras de artistas canarios.",
+          "medida_sintesis": "Reclamar la eliminación de obstáculos administrativos y fiscales a la circulación de obras de artistas de Canarias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-089": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reclamaremos financiación estatal suficiente para los desplazamientos de deportistas y clubes canarios a las competiciones oficiales.",
+          "medida_sintesis": "Reclamar financiación estatal para los desplazamientos de deportistas y clubes de Canarias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-097": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Los requisitos lingüísticos respetarán las libertades y los derechos fundamentales de todos.",
+          "medida_sintesis": "Ajustar los requisitos lingüísticos al respeto de las libertades y los derechos fundamentales.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "que las Administraciones de los territorios con cooficialidad se dirijan a los ciudadanos en la lengua oficial o en la cooficial, a elección del ciudadano.",
+          "medida_sintesis": "Garantizar que las administraciones con lengua cooficial se dirijan a la ciudadanía en la lengua que elija.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-134": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "No se excluirá arbitrariamente a creadores, artistas o proyectos de ayudas, premios, instituciones o espacios públicos por sus ideas.",
+          "medida_sintesis": "Impedir la exclusión por motivos ideológicos de proyectos culturales en ayudas, premios y espacios públicos, y acabar con la censura.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La participación en la vida cultural es un derecho social de 2.2, pero la medida regula el apoyo público al sector cultural y no el acceso de la ciudadanía a la cultura; además, la ideología no figura entre los motivos de NDI. Propuesta: 0 en las cuatro.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Aseguraremos la pluralidad real en jurados, consejos e instituciones culturales públicas",
+          "medida_sintesis": "Asegurar la pluralidad en jurados, consejos e instituciones culturales públicas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    }
+  }
+}

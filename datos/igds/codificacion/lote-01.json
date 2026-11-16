@@ -1,0 +1,2307 @@
+{
+ "lote": "lote-01",
+ "unidades": {
+  "cc-017": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas",
+     "medida_sintesis": "Reclamar financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas, con acceso a los servicios desde cualquier municipio",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: reclama financiación al Estado, sin norma que reconozca el derecho ni obligación de provisión. DES 1: financiación pública de los servicios.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-028": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizaremos la fiabilidad de los dispositivos que vigilan las órdenes de alejamiento. El sistema pasará a depender del Ministerio del Interior",
+     "medida_sintesis": "Adscribir al Ministerio del Interior el sistema de dispositivos de control de las órdenes de alejamiento, con supervisión continua y conservación de sus datos como prueba",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: reorganiza la gestión de un servicio público, sin reconocer un derecho ni fijar un estándar exigible.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Dotaremos de más medios a las unidades especializadas de Policía Nacional y Guardia Civil y reforzaremos la valoración del riesgo",
+     "medida_sintesis": "Reforzar los medios policiales especializados, la valoración del riesgo y los planes individuales de seguridad, con protección también para la descendencia de las víctimas de violencia de género",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: refuerzo de medios sin cuantía, estándar ni obligación; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Integraremos los servicios asistenciales autonómicos y municipales en VioGen",
+     "medida_sintesis": "Integrar los servicios asistenciales autonómicos y municipales en el sistema VioGen para coordinar la protección policial, judicial y asistencial",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: medida de coordinación, sin derecho reconocido ni obligación de provisión.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Cada año rendiremos cuentas del cumplimiento del Pacto de Estado contra la Violencia de Género",
+     "medida_sintesis": "Rendir cuentas cada año del cumplimiento del Pacto de Estado contra la Violencia de Género",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de transparencia.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Dotaremos de más medios y mayor especialización a las secciones de violencia sobre la mujer de los tribunales",
+     "medida_sintesis": "Dotar de más medios y especialización a las secciones judiciales de violencia sobre la mujer",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: refuerzo de medios sin cuantía ni estándar; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-029": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos una ley integral contra la trata de seres humanos para proteger a las víctimas y perseguir a las redes",
+     "medida_sintesis": "Aprobar una ley integral contra la trata de seres humanos que proteja a las víctimas y persiga a las redes de explotación",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "DES 0: no precisa cómo se provee la protección ni nombra un servicio público.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Ley de protección de un colectivo sin contenido concreto. Propuesta: EXI 1 por analogía con la ley de cuidados paliativos de pp-226; EXI 0 si se exige que la ley concrete el derecho.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Fijaremos criterios comunes en toda España para detectar, prevenir y actuar ante la mutilación genital femenina y los matrimonios forzados",
+     "medida_sintesis": "Fijar criterios comunes en todo el territorio y un protocolo en puertos, aeropuertos y fronteras para detectar y prevenir la mutilación genital femenina y los matrimonios forzados",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: criterios y protocolo de actuación, sin derecho reconocido ni obligación de provisión. DES 0: no nombra un servicio público que provea la protección.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-111": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Combatiremos cualquier discriminación por razón de origen, sexo, edad, discapacidad, orientación sexual, religión o cualquier otra circunstancia personal",
+     "medida_sintesis": "Combatir la discriminación por origen, sexo, edad, discapacidad, orientación sexual, religión u otra circunstancia, en particular la LGTBIfobia",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Eliminaremos las barreras que impidan estudiar, trabajar, participar en la vida pública o desarrollar un proyecto de vida",
+     "medida_sintesis": "Eliminar las barreras que impiden estudiar, trabajar o participar en la vida pública en igualdad de oportunidades",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-115": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Eliminaremos los obstáculos que todavía frenan la trayectoria profesional y personal de las mujeres",
+     "medida_sintesis": "Eliminar los obstáculos a la trayectoria profesional y personal de las mujeres",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Revisaremos las normas que hayan generado inseguridad jurídica en nombre de la igualdad, como la Ley Trans, y eliminaremos la libre autodeterminación registral del sexo",
+     "medida_sintesis": "Revisar la Ley Trans y suprimir la libre autodeterminación registral del sexo",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Suprime una garantía de una norma de igualdad LGTBI.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Garantizaremos que el sexo biológico sea el criterio para las categorías deportivas femeninas",
+     "medida_sintesis": "Establecer el sexo biológico como criterio de acceso a las categorías deportivas femeninas",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Introduce una exclusión por identidad de género.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "El deporte no figura como derecho social en 2.2, pero la medida introduce una exclusión por género, que 2.4 marca como REG; admite IGU y OTR. Propuesta: REG 1 y área IGU.",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-160": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "seguiremos avanzando en la ampliación de los permisos por nacimiento de cada progenitor",
+     "medida_sintesis": "Ampliar los permisos por nacimiento de cada progenitor en el marco del diálogo social",
+     "area": "CUI",
+     "uni": 0,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI 0: la prestación por nacimiento exige cotización previa. EXI 0: no fija duración ni plazo; es declarativa. DES 1: prestación pública de la Seguridad Social.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "UNI en permisos por nacimiento: el permiso es un derecho laboral de todo el colectivo trabajador, pero la prestación es contributiva. Propuesta: UNI 0 por la regla de cotización previa de 2.4.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Pasadas las semanas obligatorias tras el parto, cada progenitor tendrá más libertad para decidir cómo y cuándo disfrutar del resto del permiso",
+     "medida_sintesis": "Permitir a cada progenitor decidir cómo y cuándo disfrutar del permiso tras las semanas obligatorias, con reglas de preaviso",
+     "area": "CUI",
+     "uni": 0,
+     "exi": 1,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: la prestación por nacimiento exige cotización previa. EXI 1: fija una facultad concreta de la persona titular.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Misma frontera de UNI que la ampliación de permisos de esta unidad. Propuesta: UNI 0 por cotización previa y EXI 1 porque la norma reconoce una facultad concreta.",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-162": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Extenderemos el uso de los bancos de horas para que los trabajadores con hijos o con personas dependientes a su cargo puedan adaptar",
+     "medida_sintesis": "Extender los bancos de horas, los horarios flexibles y el teletrabajo para que las personas trabajadoras con responsabilidades familiares adapten su jornada",
+     "area": "CUI",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: extiende un mecanismo sin reconocerlo como derecho exigible. DES 0: no nombra un servicio público ni regula condiciones para todas las personas.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-165": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Acordaremos con las Comunidades Autónomas un reconocimiento común válido en toda España",
+     "medida_sintesis": "Acordar con las comunidades autónomas un reconocimiento común de familia monoparental válido en todo el territorio",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: reconocimiento administrativo sin prestación ni derecho concreto asociado. DES 0: no nombra un servicio público ni una prestación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Simplificaremos el acceso a los derechos y ayudas existentes",
+     "medida_sintesis": "Simplificar el acceso de las familias monoparentales a los derechos y ayudas existentes",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no precisa cómo se provee el acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "adaptaremos las medidas de conciliación a las necesidades de quienes no pueden turnarse con otro progenitor para cuidar de sus hijos",
+     "medida_sintesis": "Adaptar las medidas de conciliación a las familias monoparentales",
+     "area": "CUI",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-204": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Un programa nacional de mujer rural y del mar reunirá todas las políticas y apoyos",
+     "medida_sintesis": "Crear un programa nacional de mujer rural y del mar que reúna políticas de vivienda, financiación, fiscalidad, titularidad, formación y liderazgo",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un programa, sin derecho reconocido ni obligación. DES 0: reúne apoyos financieros y fiscales sin nombrar un servicio público.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite IGU (acción positiva para mujeres) y OTR (política sectorial agraria y pesquera). Propuesta: IGU.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-047": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Derogar las leyes que han criminalizado a los hombres y desprotegido a las mujeres",
+     "medida_sintesis": "Derogar las leyes de género vigentes en materia de violencia contra las mujeres",
+     "area": "IGU",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Deroga normas de protección frente a la violencia de género.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "impulsar la aprobación de leyes y normas que protejan de verdad a las mujeres víctimas de violencia",
+     "medida_sintesis": "Impulsar nuevas leyes de protección de las mujeres víctimas de violencia, en especial de maltrato",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: impulsar leyes sin contenido concreto; es declarativa. DES 0: no nombra un servicio público.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-087": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzar la prevención, la protección policial y judicial y la asistencia integral a las víctimas, evitando que ninguna mujer quede desamparada",
+     "medida_sintesis": "Reforzar la prevención, la protección policial y judicial y la asistencia integral a las mujeres víctimas de violencia",
+     "area": "IGU",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: refuerzo sin cuantía, estándar ni plazo; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-099": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Combatir la brecha maternal facilitando la formación, permanencia, promoción y reincorporación al trabajo de las madres",
+     "medida_sintesis": "Facilitar la formación, permanencia, promoción y reincorporación laboral de las madres que interrumpieron su carrera por maternidad o cuidados",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite EMP (reincorporación laboral) e IGU (brecha de género). Propuesta: EMP, por el objeto laboral dominante.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reforzar los derechos de conciliación de la vida personal, familiar y profesional de todos los trabajadores",
+     "medida_sintesis": "Reforzar los derechos de conciliación de las personas trabajadoras y el reparto equilibrado de las responsabilidades familiares",
+     "area": "CUI",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: refuerza derechos sin concretarlos; es declarativa. DES 0: no nombra un servicio público ni una regulación concreta.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Incentivos para las empresas que favorezcan la conciliación familiar y laboral",
+     "medida_sintesis": "Incentivar a las empresas que favorezcan la conciliación",
+     "area": "CUI",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un incentivo, no reconoce un derecho. DES 0: incentivo a empresas sin regulación de condiciones.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aumento del presupuesto en conciliación familiar con ampliación de los servicios complementarios de aula en los centros educativos",
+     "medida_sintesis": "Aumentar el presupuesto de conciliación y ampliar los servicios complementarios de aula en los centros educativos",
+     "area": "CUI",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una dotación presupuestaria. DES 0: no precisa si el servicio es público ni si es gratuito.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite CUI (conciliación) y EDU (servicios en centros educativos); el aumento de presupuesto sugiere provisión pública, pero no dice si el servicio es público ni gratuito. Propuesta: CUI y DES 0 por la aclaración de DES en 2.4.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-022": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos un fondo estatal de ocho años para cofinanciar vivienda pública y asequible",
+     "medida_sintesis": "Crear un fondo estatal de ocho años para cofinanciar la construcción, compra y rehabilitación de vivienda pública y asequible, con asignación para Canarias",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un fondo, no reconoce el derecho ni fija una obligación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Promoveremos un inventario de los suelos y edificios del Estado y de sus entidades en Canarias que puedan destinarse a vivienda asequible",
+     "medida_sintesis": "Inventariar el suelo y los edificios estatales en Canarias aptos para vivienda asequible y reclamar su cesión a las administraciones canarias",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: promover y reclamar, sin norma ni obligación. DES 0: vivienda asequible sin precio regulado ni carácter público explícito.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-023": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos un plan estatal de reposición y regeneración de barrios que incluya demolición y reposición cuando la rehabilitación sea insuficiente",
+     "medida_sintesis": "Impulsar un plan estatal de regeneración de barrios con demolición y reposición de viviendas cuando la rehabilitación no baste",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un plan, sin derecho reconocido ni obligación. DES 1: reposición de vivienda mediante un plan público.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reforzaremos las ayudas para conservación, ascensores, eliminación de barreras, aislamiento, fachadas, cubiertas, eficiencia energética, autoconsumo y adaptación climática",
+     "medida_sintesis": "Reforzar las ayudas a la rehabilitación, accesibilidad y eficiencia energética de las viviendas, con prioridad para personas mayores y con movilidad reducida",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: la ayuda se liga a una obra que la persona beneficiaria tiene que costear (capacidad de pago). EXI 0: es una subvención. DES 0: ayuda ligada a contratar obras en el mercado.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "UNI en ayudas a la rehabilitación: la regla no dice si una subvención parcial equivale a exigir capacidad de pago. Propuesta: UNI 0, igual que la rebaja fiscal a la rehabilitación de pp-148.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-024": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Mejoraremos los incentivos fiscales estatales para pequeños propietarios que incorporen voluntariamente viviendas a programas de alquiler asequible",
+     "medida_sintesis": "Mejorar los incentivos fiscales y vincular la financiación de la rehabilitación para que pequeños propietarios incorporen viviendas vacías a programas de alquiler asequible con garantías públicas",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: incentivo fiscal voluntario, sin derecho reconocido. DES 0: incentivo a la oferta privada sin precio regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Defenderemos una regulación estatal estable que proteja a inquilinos y propietarios y facilite el alquiler de larga duración",
+     "medida_sintesis": "Defender una regulación estatal estable del alquiler que proteja a las partes y facilite el alquiler de larga duración",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: defender una regulación sin contenido; es declarativa. DES 0: no limita el precio ni las condiciones del alquiler.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-025": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defenderemos una línea estatal reforzada de vivienda joven, alquiler asequible y cooperativas",
+     "medida_sintesis": "Defender una línea estatal reforzada de vivienda joven, alquiler asequible y cooperativas, con fórmulas residenciales para estudiantes y personas jóvenes trabajadoras",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: línea de financiación reclamada, sin derecho reconocido. DES 0: no nombra vivienda pública ni precio regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-026": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos en las Cortes Generales las reformas necesarias para limitar la compra de vivienda en Canarias por extranjeros",
+     "medida_sintesis": "Limitar la compra de vivienda en Canarias por personas extranjeras y reclamar ante la Unión Europea un régimen específico que lo permita",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Introduce una exclusión por origen.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "El fin declarado es facilitar el acceso a la vivienda de quien reside en las islas. Propuesta: REG 1 por exclusión por origen, como en el ejemplo resuelto de cc-026.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Promoveremos las reformas estatales y europeas necesarias para hacer viable una Ley Canaria de Residencia",
+     "medida_sintesis": "Promover las reformas necesarias para una Ley Canaria de Residencia que ordene el crecimiento poblacional",
+     "area": "MIG",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Limita la residencia en función de la procedencia.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "El texto no detalla los requisitos de la ley; ordenar el crecimiento poblacional supone limitar la residencia según la procedencia, pero no lo explicita. Propuesta: REG 1 si se confirma la restricción por origen; si no, REG 0, 0 en las cuatro y área OTR.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-027": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defenderemos la cobertura jurídica estatal y europea necesaria para que Canarias y sus municipios puedan modular y limitar los usos turísticos",
+     "medida_sintesis": "Dar cobertura jurídica a Canarias y sus municipios para limitar el uso turístico de viviendas donde haya presión acreditada sobre la vivienda residencial",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: reclama cobertura normativa, sin reconocer un derecho ni fijar una obligación. DES 1: limita condiciones del mercado de vivienda.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Regula condiciones del mercado (usos turísticos), no el precio; 2.4 admite la regulación de condiciones, pero la aclaración de DES solo cita la de precio. Propuesta: DES 1 por regulación de condiciones del mercado para todas las personas.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-028": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos reformas de los procedimientos estatales y de los informes sectoriales para acortar los plazos",
+     "medida_sintesis": "Reformar los procedimientos e informes sectoriales estatales para acortar los plazos de la vivienda protegida y asequible",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Agiliza trámites de la oferta, sin plazo concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reclamaremos incentivos fiscales estatales a la primera vivienda para jóvenes y familias con ingresos medios y bajos",
+     "medida_sintesis": "Reclamar incentivos fiscales estatales a la primera vivienda para personas jóvenes y familias de ingresos medios y bajos",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige umbral de renta y poder comprar. EXI 0: incentivo fiscal reclamado. DES 0: es un beneficio fiscal.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "apoyo a la construcción industrializada para reducir los costes y los plazos de construcción de vivienda protegida",
+     "medida_sintesis": "Reclamar apoyo a la construcción industrializada para abaratar y acelerar la vivienda protegida",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Apoya un método constructivo de la oferta, sin instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-029": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos ayudas estatales para protección solar, aislamiento, ventilación, toldos, cerramientos y climatización eficiente en las viviendas de los hogares con menos recursos",
+     "medida_sintesis": "Reclamar ayudas estatales para adaptar al calor las viviendas de los hogares con menos recursos",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: limitada a hogares con menos recursos. EXI 0: ayuda reclamada al Estado. DES 0: ayuda ligada a contratar obras en el mercado.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-144": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Movilizaremos suelo público y privado en colaboración con las Comunidades Autónomas y las entidades locales",
+     "medida_sintesis": "Movilizar suelo público y privado para vivienda y publicar todas las parcelas públicas destinadas a vivienda",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aprobaremos una nueva Ley del Suelo para agilizar el planeamiento urbanístico y reforzar su seguridad jurídica",
+     "medida_sintesis": "Aprobar una nueva Ley del Suelo que agilice el planeamiento urbanístico",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Se abrirá la posibilidad de construir vivienda social en suelo dotacional",
+     "medida_sintesis": "Permitir la construcción de vivienda social en suelo dotacional",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: habilita una posibilidad, sin obligación de provisión. DES 1: vivienda social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "se permitirá el cambio de uso en suelo de oficinas y locales para transformarlo en vivienda asequible",
+     "medida_sintesis": "Permitir el cambio de uso de oficinas y locales a vivienda asequible",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: habilita un cambio de uso, sin derecho ni obligación. DES 0: vivienda asequible sin precio regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Facilitaremos la segregación de viviendas grandes, siguiendo la experiencia de otros países europeos",
+     "medida_sintesis": "Facilitar la segregación de viviendas grandes",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Las licencias de obra nueva y de rehabilitación se resolverán en tres meses, con silencio positivo",
+     "medida_sintesis": "Resolver las licencias de obra nueva y de rehabilitación en tres meses con silencio positivo",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. El plazo se refiere a la tramitación de obras, no al acceso a la vivienda.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Incentivaremos la financiación de las entidades que cumplan con los objetivos nacionales de creación de suelo y movilización de suelo público",
+     "medida_sintesis": "Incentivar la financiación de las entidades que cumplan objetivos de creación y movilización de suelo",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "pp-151"
+    },
+    {
+     "fragmento": "Cada año publicaremos cuántas viviendas se han iniciado y cuántas se han terminado",
+     "medida_sintesis": "Publicar cada año las viviendas iniciadas y terminadas en suelo público y privado",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de transparencia.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-145": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Eliminaremos las zonas tensionadas y el índice de precios",
+     "medida_sintesis": "Derogar la Ley de Vivienda, con sus zonas tensionadas y su índice de precios del alquiler",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Suprime una regulación del precio del alquiler.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-146": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Crearemos, con las Comunidades Autónomas y los ayuntamientos, una figura urbanística que unifique los trámites de planeamiento, gestión y ejecución",
+     "medida_sintesis": "Crear una figura urbanística que unifique y acorte la tramitación de los grandes desarrollos de vivienda, con plazos máximos de resolución",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-147": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Suprimiremos las barreras normativas y financieras que hoy frenan su desarrollo",
+     "medida_sintesis": "Suprimir las barreras normativas y financieras a la vivienda industrializada",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-148": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "La rehabilitación de vivienda habitual tendrá un IVA superreducido del 4%, contará con ayudas, financiación pública y avales preferentes",
+     "medida_sintesis": "Aplicar IVA del 4 %, ayudas, financiación pública y avales a la rehabilitación de vivienda habitual, con más edificabilidad cuando sea necesaria",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige costear la obra (capacidad de pago). EXI 0: rebaja fiscal, ayudas y avales no reconocen el derecho. DES 0: beneficios fiscales y ayudas a la demanda.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Varios instrumentos para un mismo objeto (rehabilitación de vivienda habitual) contados como una medida. Propuesta: mantener una medida y UNI 0, como en cc-023.",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-149": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos con las Comunidades Autónomas los cambios necesarios en sus leyes de suelo para facilitar los ajustes de edificabilidad y altura",
+     "medida_sintesis": "Flexibilizar con las comunidades autónomas la edificabilidad, la altura y las remontas para renovar barrios y crear vivienda, con prioridad para la vivienda social",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado. La prioridad para la vivienda social no define el acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-150": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Pondremos en marcha instrumentos de financiación para las fases necesarias en la construcción de la vivienda",
+     "medida_sintesis": "Crear instrumentos de financiación, con el ICO, el BEI y fondos europeos, para desarrollar suelo y construir vivienda asequible",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es financiación, no reconoce un derecho. DES 0: crédito a la oferta sin precio regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-151": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Vincularemos las mejoras de financiación y la flexibilización del uso de los superávits y los remanentes de tesorería al cumplimiento de objetivos de suelo",
+     "medida_sintesis": "Vincular la financiación local y el uso de superávits al cumplimiento de objetivos de vivienda pública y a precio asequible",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: incentivo financiero a las entidades locales, sin derecho ni obligación de provisión. DES 1: vivienda pública.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-153": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reduciremos el IVA de la compra de primera vivienda del 10% al 4% para menores de 40 años",
+     "medida_sintesis": "Reducir al 4 % el IVA de la compra de primera vivienda para menores de 40 años, con pago fraccionado",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige poder comprar. EXI 0: rebaja fiscal. DES 0: rebaja fiscal.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Acordaremos con las Comunidades Autónomas un Impuesto de Transmisiones Patrimoniales reducido para la primera vivienda de los jóvenes",
+     "medida_sintesis": "Acordar un ITP reducido y fraccionable para la primera vivienda usada de las personas jóvenes",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige poder comprar. EXI 0: rebaja fiscal. DES 0: rebaja fiscal.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Ampliaremos a cuatro años el plazo para reinvertir el importe de la venta de la vivienda habitual y mantener la exención en el IRPF",
+     "medida_sintesis": "Ampliar a cuatro años el plazo de reinversión exenta en el IRPF por venta de vivienda habitual",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige tener vivienda en propiedad y volver a comprar. EXI 0: exención fiscal. DES 0: beneficio fiscal.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-154": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliaremos el aval público, que cubre hasta el 20% del valor de la vivienda, a los compradores menores de 40 años",
+     "medida_sintesis": "Ampliar el aval público de hasta el 20 % del valor de la vivienda a personas compradoras menores de 40 años, ampliable hasta los 50",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: solo para quien pueda pagar la hipoteca. EXI 0: es un aval. DES 0: es un aval.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-155": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Los jóvenes menores de 40 años podrán aportar hasta 2.000 euros al año a una cuenta de ahorro para la compra de su primera vivienda",
+     "medida_sintesis": "Crear una cuenta de ahorro para la compra de primera vivienda de menores de 40 años, con deducción del 20 % y rendimientos exentos",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige capacidad de ahorro y de compra. EXI 0: beneficio fiscal. DES 0: deducción y exención fiscal.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "podrán acceder a un aval por un importe equivalente al ahorro acumulado, hasta un máximo de 40.000 euros",
+     "medida_sintesis": "Dar un aval equivalente al ahorro acumulado, hasta 40.000 euros, para financiar la compra a tipo bonificado",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige ahorro previo y capacidad de compra. EXI 0: es un aval. DES 0: es un aval.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-156": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Los inquilinos tendrán una deducción en el IRPF por el alquiler de su vivienda habitual, graduada según sus ingresos",
+     "medida_sintesis": "Crear una deducción en el IRPF por el alquiler de la vivienda habitual, graduada según ingresos",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige pagar el alquiler y tributar en el IRPF (capacidad de pago). EXI 0: deducción fiscal. DES 0: deducción fiscal.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "El propietario particular que, al vencer el contrato de una vivienda habitual, lo renueve a su inquilino por tres años más",
+     "medida_sintesis": "Dar una deducción o crédito fiscal a la persona propietaria que renueve tres años el contrato a la persona inquilina que cumple, con subida inferior al IPC",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: depende del mérito («el inquilino que cumple») y de la decisión de la persona propietaria. EXI 0: incentivo fiscal voluntario. DES 0: incentivo a la oferta privada sin regulación general del precio.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-157": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos una ley para que el propietario pueda recuperar su vivienda en 48 horas desde el primer día",
+     "medida_sintesis": "Aprobar una ley de desalojo de viviendas ocupadas en 48 horas y permitir que las comunidades de propietarios pidan el desalojo",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Protege la posesión de la propiedad.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Desalojo acelerado: puede recortar garantías procesales de personas ocupantes en situación de vulnerabilidad, pero el texto no lo dice. Propuesta: REG 0 y 0 en las cuatro, igual en pp-157 y vox-031.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Quien tenga su vivienda ocupada no estará obligado a pagar el agua, la luz, el gas ni los impuestos de esa vivienda",
+     "medida_sintesis": "Eximir a la persona propietaria de una vivienda ocupada del pago de suministros e impuestos mientras dure la ocupación",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Se declarará nulo el empadronamiento del ocupa",
+     "medida_sintesis": "Declarar nulo el empadronamiento de las personas que ocupan una vivienda sin título",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. El padrón da acceso a sanidad, educación y servicios sociales.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "El texto no dice que la nulidad del padrón impida el acceso a servicios, aunque el padrón es la vía de acceso a sanidad, educación y servicios sociales. Propuesta: REG 1, con la misma regla que el control del padrón de vox-032.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Endureceremos las penas para las mafias que promuevan la ocupación ilegal de viviendas",
+     "medida_sintesis": "Endurecer las penas a las redes que promueven la ocupación ilegal de viviendas",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política penal.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-026": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada para satisfacer sus necesidades y las de su familia",
+     "medida_sintesis": "Afirmar el derecho de toda la ciudadanía española a una vivienda digna y adecuada",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: enunciado sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una regulación. NDI 1: «todos los españoles» es una mención genérica.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "El punto de partida de todo programa de vivienda es el control férreo de las fronteras",
+     "medida_sintesis": "Hacer del control de fronteras el punto de partida de la política de vivienda",
+     "area": "MIG",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es control fronterizo sin regla de acceso.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Liga la política de vivienda al control de fronteras sin concretar una restricción de derechos. Propuesta: REG 0; REG 1 solo si se interpreta como restricción de la migración segura.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-027": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Prioridad nacional para acceder a una vivienda protegida, social o a una ayuda al alquiler",
+     "medida_sintesis": "Aplicar la prioridad nacional en el acceso a vivienda protegida, social y ayudas al alquiler, y modificar o derogar las normas que lo impidan",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Introduce una exclusión por nacionalidad.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-028": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incrementar de manera sustancial y sostenida en el tiempo la construcción de vivienda nueva: ampliación de suelo disponible, agilización de procedimientos",
+     "medida_sintesis": "Reformar la Ley del Suelo para aumentar la construcción de vivienda con más suelo, procedimientos ágiles y menos trabas regulatorias",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-029": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aumentar con urgencia la construcción de vivienda protegida para las familias españolas mediante su promoción y colaboración público-privada",
+     "medida_sintesis": "Aumentar la construcción de vivienda protegida para las familias de nacionalidad española mediante colaboración público-privada, cesiones de suelo, subvenciones y avales",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: impulso a la construcción sin derecho reconocido ni obligación de provisión. DES 1: vivienda protegida. NDI 1: la mención a «familias españolas» no incluye una cláusula expresa de exclusión.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "El gentilicio delimita a las personas destinatarias de una prestación concreta, sin «solo» ni «prioridad»; la letra de 2.4 lo trata como mención genérica. Propuesta: tratar como cláusula de exclusión (NDI 0 y REG 1) el gentilicio que delimita a quien recibe una prestación concreta, y como genérico el que nombra a la ciudadanía en general. La misma vivienda protegida está sujeta a la prioridad nacional de vox-027.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Ningún español vulnerable quedará sin hogar",
+     "medida_sintesis": "Garantizar que ninguna persona de nacionalidad española en situación de vulnerabilidad quede sin hogar",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI 0: limitada a personas vulnerables. EXI 0: sin instrumento; es declarativa. DES 0: no dice cómo se provee el hogar.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "El gentilicio delimita a las personas destinatarias de una prestación concreta, sin «solo» ni «prioridad»; la letra de 2.4 lo trata como mención genérica. Propuesta: tratar como cláusula de exclusión (NDI 0 y REG 1) el gentilicio que delimita a quien recibe una prestación concreta, y como genérico el que nombra a la ciudadanía en general.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-030": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Derogación de la Ley de Vivienda",
+     "medida_sintesis": "Derogar la Ley de Vivienda",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Suprime la regulación del precio del alquiler.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Incentivos fiscales al alquiler de larga duración",
+     "medida_sintesis": "Dar incentivos fiscales al alquiler de larga duración",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: incentivo fiscal. DES 0: incentivo a la oferta privada sin precio regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "deducciones para inquilinos españoles",
+     "medida_sintesis": "Crear deducciones fiscales para personas inquilinas de nacionalidad española",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige pagar el alquiler y tributar (capacidad de pago). EXI 0: deducción fiscal. DES 0: deducción fiscal.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "El gentilicio delimita a las personas destinatarias de una prestación concreta, sin «solo» ni «prioridad»; la letra de 2.4 lo trata como mención genérica. Propuesta: tratar como cláusula de exclusión (NDI 0 y REG 1) el gentilicio que delimita a quien recibe una prestación concreta, y como genérico el que nombra a la ciudadanía en general.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Regulación de la proliferación masiva de VUT y refuerzo del servicio de inspección de pisos turísticos ilegales",
+     "medida_sintesis": "Regular la expansión de las viviendas de uso turístico y reforzar la inspección de los pisos turísticos ilegales",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: regulación sin contenido concreto; es declarativa. DES 1: limita condiciones del mercado de vivienda.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Regula condiciones del mercado (uso turístico), no el precio, como cc-027. Propuesta: DES 1 por regulación de condiciones del mercado para todas las personas.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-031": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Desalojo de la vivienda okupada en menos de 24 horas y recuperación inmediata de la posesión por su legítimo titular, el propietario",
+     "medida_sintesis": "Desalojar las viviendas ocupadas en menos de 24 horas y devolver de inmediato la posesión a la persona propietaria",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Protege la posesión de la propiedad.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Desalojo acelerado: puede recortar garantías procesales de personas ocupantes en situación de vulnerabilidad, pero el texto no lo dice. Propuesta: REG 0 y 0 en las cuatro, igual en pp-157 y vox-031.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Asistencia jurídica gratuita para los afectados",
+     "medida_sintesis": "Dar asistencia jurídica gratuita a las personas propietarias afectadas por la ocupación",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. La asistencia jurídica no figura como derecho social en 2.2.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "exención de impuestos y de las cargas fiscales y de suministros del inmueble mientras dure la okupación",
+     "medida_sintesis": "Eximir a la persona propietaria de impuestos, cargas y suministros del inmueble mientras dure la ocupación",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Endurecimiento del Código penal",
+     "medida_sintesis": "Endurecer el Código Penal frente a la ocupación",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política penal.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Tipificación de la inquiocupación como delito de estafa",
+     "medida_sintesis": "Tipificar como delito de estafa la permanencia en la vivienda de la persona inquilina que deja de pagar el alquiler",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política penal.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Penalizar el impago del alquiler puede recortar garantías de las personas inquilinas en el procedimiento civil, pero el texto no lo concreta. Propuesta: REG 0 y 0 en las cuatro.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-032": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Exigir la verificación previa de la residencia legal como requisito obligatorio para la formalización de contratos de alquiler",
+     "medida_sintesis": "Exigir la residencia legal como requisito para firmar contratos de alquiler",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Introduce una exclusión por situación administrativa.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "control del fraude en el empadronamiento por parte de okupas e inmigrantes ilegales, impidiendo que disfruten de los derechos que ello concede",
+     "medida_sintesis": "Controlar el empadronamiento de personas ocupantes y en situación administrativa irregular para impedir su acceso a los derechos ligados al padrón",
+     "area": "MIG",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Excluye por situación administrativa del acceso a los derechos ligados al padrón.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "fin de los pisos patera, domicilios ficticios y alojamientos ilegales",
+     "medida_sintesis": "Acabar con los pisos patera, los domicilios ficticios y los alojamientos ilegales",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de control sin regla de acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-033": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reducción drástica de los impuestos que gravan todo el proceso edificatorio",
+     "medida_sintesis": "Reducir los impuestos sobre el proceso edificatorio",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad de la oferta.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "mejora de los instrumentos de financiación para promotores y constructores",
+     "medida_sintesis": "Mejorar la financiación de empresas promotoras y constructoras",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-034": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Tipo 0% de IVA para la compra de tu primera vivienda habitual -de nueva construcción-",
+     "medida_sintesis": "Aplicar un IVA del 0 % a la compra de la primera vivienda habitual de nueva construcción",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige poder comprar. EXI 0: rebaja fiscal. DES 0: rebaja fiscal. NDI 1: la mención del titular a la familia española es genérica.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "bonificación 100% del ITP para la compra de tu primera vivienda habitual -de segunda mano-",
+     "medida_sintesis": "Bonificar al 100 % el ITP de la compra de la primera vivienda habitual de segunda mano",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige poder comprar. EXI 0: rebaja fiscal. DES 0: rebaja fiscal.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Recuperación de la deducción por inversión en vivienda habitual",
+     "medida_sintesis": "Recuperar la deducción por inversión en vivienda habitual",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige poder comprar. EXI 0: deducción fiscal. DES 0: deducción fiscal.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-035": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Fiscalidad media para operaciones de personas físicas o jurídicas destinadas a incrementar la oferta en alquiler residencial de larga duración",
+     "medida_sintesis": "Aplicar una fiscalidad intermedia a las operaciones que amplíen la oferta de alquiler residencial de larga duración",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: incentivo fiscal. DES 0: incentivo a la oferta privada sin precio regulado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Fiscalidad agravada y disuasoria para compradores no comunitarios",
+     "medida_sintesis": "Agravar la fiscalidad de la compra de vivienda por personas compradoras no comunitarias",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. Introduce un trato fiscal desigual por origen.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Recargo fiscal por origen, no prohibición de compra. Propuesta: REG 1 con la misma regla que la limitación de compra por personas extranjeras de cc-026.",
+     "repite": ""
+    },
+    {
+     "fragmento": "operaciones especulativas de fondos o sociedades",
+     "medida_sintesis": "Agravar la fiscalidad de las operaciones especulativas de fondos y sociedades",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad sin regla de acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "La recaudación resultante se destinará a bonificaciones para la compra de vivienda",
+     "medida_sintesis": "Destinar la recaudación a bonificaciones para la compra de vivienda",
+     "area": "VIV",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI 0: exige poder comprar. EXI 0: bonificación fiscal. DES 0: bonificación fiscal.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "vox-034"
+    },
+    {
+     "fragmento": "y a la construcción de vivienda protegida",
+     "medida_sintesis": "Destinar la recaudación a construir vivienda protegida",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una dotación, sin derecho ni obligación de provisión. DES 1: vivienda protegida.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": "vox-029"
+    }
+   ]
+  },
+  "cc-010": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defenderemos una financiación sanitaria que reconozca el coste de atender a la población de ocho islas y permita planificar las plantillas y los centros",
+     "medida_sintesis": "Reclamar una financiación sanitaria que cubra el coste de atender a ocho islas y una compensación estatal por los sobrecostes de la insularidad",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: financiación reclamada, sin derecho reconocido ni estándar. DES 1: financiación pública del servicio sanitario.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reclamaremos que la formación sanitaria especializada responda a las necesidades estructurales de Canarias",
+     "medida_sintesis": "Reclamar que la formación sanitaria especializada responda a las necesidades de especialistas de Canarias",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: reclamación sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una financiación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-011": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promoveremos el apoyo estatal a la movilidad de especialistas y otros profesionales cuando resulte más eficiente desplazar el servicio que al paciente",
+     "medida_sintesis": "Promover el apoyo estatal al desplazamiento de especialistas entre islas cuando sea más eficiente que desplazar a quien recibe la atención",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: promover sin instrumento concreto; es declarativa. DES 1: apoyo estatal al servicio sanitario.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Estudiaremos una cobertura reforzada de los desplazamientos interinsulares por",
+     "medida_sintesis": "Estudiar una cobertura reforzada de los desplazamientos interinsulares por motivos sanitarios",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: estudiar; es declarativa. DES 0: no dice cómo se provee la cobertura.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "El texto de la unidad está cortado y no se sabe a quién cubre ni con qué instrumento. Propuesta: completar el texto desde el PDF y recodificar UNI y DES.",
+     "repite": ""
+    }
+   ]
+  },
+  "cc-012": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reclamaremos que los Presupuestos Generales del Estado refuercen las partidas destinadas a la atención en salud mental en Canarias",
+     "medida_sintesis": "Reclamar que los Presupuestos Generales del Estado refuercen las partidas de atención a la salud mental en Canarias, con evaluación de la atención",
+     "area": "SME",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: partida presupuestaria reclamada, sin fuerza obligatoria.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-093": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "garantizaremos que la historia clínica y la historia social puedan consultarse desde cualquier servicio asistencial",
+     "medida_sintesis": "Garantizar una tarjeta y una historia clínica y social únicas, consultables desde cualquier servicio asistencial del territorio",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: herramienta de gestión, no garantía de acceso. NDI 1: la mención a «un español» es genérica.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-159": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "El concebido no nacido computará para determinar las ayudas y beneficios que correspondan a la familia",
+     "medida_sintesis": "Computar al concebido no nacido para determinar las ayudas y beneficios familiares",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 1,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "DES 0: no precisa qué ayudas son ni cómo se proveen. EXI 1: fija una regla concreta de cómputo.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite OTR (familia) y CUI (crianza). Propuesta: OTR, porque el objeto es el cómputo para el conjunto de ayudas familiares, y EXI 1 por la regla concreta.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Ofreceremos orientación e información a quien lo necesite",
+     "medida_sintesis": "Ofrecer orientación e información a quien desee tener descendencia",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni dice cómo se provee el acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "favoreceremos la prevención y el diagnóstico precoz de los problemas de fertilidad entre los jóvenes",
+     "medida_sintesis": "Favorecer la prevención y el diagnóstico precoz de los problemas de fertilidad en la población joven",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni dice cómo se provee el acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "facilitaremos la congelación de óvulos para mujeres jóvenes, mejorando las oportunidades de acceso a la reproducción asistida en el Sistema Nacional de Salud",
+     "medida_sintesis": "Facilitar la congelación de óvulos y el acceso a la reproducción asistida en el Sistema Nacional de Salud, revisando los límites de edad",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: mejora oportunidades y revisa límites sin fijar una prestación garantizada.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Adaptaremos los apoyos y el acompañamiento comunitario a las necesidades concretas de cada familia",
+     "medida_sintesis": "Adaptar los apoyos y el acompañamiento comunitario a cada familia, con atención especial a las numerosas, monoparentales o vulnerables",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni dice cómo se provee el acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-219": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos un gran Pacto de Estado por la Sanidad Pública con las Comunidades Autónomas",
+     "medida_sintesis": "Impulsar un Pacto de Estado por la Sanidad Pública y ejercer la coordinación estatal para la cohesión y la igualdad de acceso",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: pacto político sin norma ni estándar; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "un plan urgente de reducción de listas de espera para asegurar una atención ágil y de calidad",
+     "medida_sintesis": "Aprobar con las comunidades autónomas un plan urgente de reducción de las listas de espera",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un plan, sin plazo máximo garantizado.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "El nuevo sistema de financiación autonómica tendrá en la sanidad uno de sus pilares y garantizará recursos suficientes",
+     "medida_sintesis": "Hacer de la sanidad un pilar del nuevo sistema de financiación autonómica, con recursos suficientes para la sanidad pública",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es financiación, no reconoce un derecho ni fija un estándar.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-220": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Incorporaremos, en coordinación con las Comunidades Autónomas, más profesionales al Sistema Nacional de Salud",
+     "medida_sintesis": "Incorporar más profesionales al Sistema Nacional de Salud, con al menos 4.500 profesionales de medicina más en Atención Primaria",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: aumento de plantilla, no ratio ni derecho exigible.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aumentaremos la oferta de formación sanitaria especializada para cubrir las necesidades asistenciales de los españoles",
+     "medida_sintesis": "Aumentar la oferta de formación sanitaria especializada",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin cifra ni instrumento; es declarativa. DES 0: no nombra un servicio público ni una financiación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "mejoraremos las condiciones de trabajo, la conciliación y la retribución de los médicos y demás profesionales",
+     "medida_sintesis": "Mejorar las condiciones laborales del personal sanitario: retribución, conciliación, clasificación profesional, negociación propia de la profesión médica y reducción de guardias",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: no fija un estándar ni un derecho exigible. DES 0: no regula condiciones con carácter general.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Condiciones laborales del empleo sanitario: admite SAN y EMP, y DES no tiene regla para el empleo público. Propuesta: SAN, como profesionales sanitarios en 2.3, y DES 0.",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-221": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizaremos la participación de las organizaciones de pacientes en la elaboración y evaluación de las políticas sanitarias",
+     "medida_sintesis": "Garantizar la participación de las organizaciones de pacientes en las políticas sanitarias",
+     "area": "SAN",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación institucional.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aseguraremos la igualdad en el acceso a la prevención, al diagnóstico, a la atención y a los tratamientos innovadores en toda España",
+     "medida_sintesis": "Asegurar la igualdad territorial de acceso a la prevención, el diagnóstico, la atención y los tratamientos innovadores",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni dice cómo se provee el acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Coordinaremos los servicios sanitarios y sociales para dar continuidad a los cuidados",
+     "medida_sintesis": "Coordinar los servicios sanitarios y sociales para dar continuidad a los cuidados",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni dice cómo se provee el acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "respetaremos el derecho de cada paciente a decidir sobre su salud con información clara y suficiente",
+     "medida_sintesis": "Respetar el derecho de cada paciente a decidir sobre su salud con información suficiente",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni dice cómo se provee el acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aumentaremos la protección laboral de las personas con enfermedades graves, especialmente de los pacientes oncológicos, durante y después del tratamiento",
+     "medida_sintesis": "Aumentar la protección laboral de las personas con enfermedades graves, combatir su discriminación y facilitar la adaptación del puesto y la reincorporación",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin norma concreta; es declarativa. DES 0: no regula condiciones concretas.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-222": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "acordaremos con las Comunidades Autónomas una estrategia que garantice servicios preventivos comunes en toda España",
+     "medida_sintesis": "Acordar con las comunidades autónomas una estrategia de servicios preventivos comunes: vacunación, cribados, diagnóstico precoz y hábitos saludables",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una estrategia. DES 0: no nombra la sanidad pública como proveedora.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Servicios acordados entre el Estado y las comunidades autónomas, sin decir que sean públicos. Propuesta: DES 1 cuando la provisión la acuerdan o prestan las administraciones sanitarias, aunque no digan «pública».",
+     "repite": ""
+    },
+    {
+     "fragmento": "Fortaleceremos la Agencia Estatal de Salud Pública para anticipar amenazas sanitarias y responder con rapidez",
+     "medida_sintesis": "Fortalecer la Agencia Estatal de Salud Pública",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: fortalecer sin instrumento; es declarativa.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-223": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos un Plan Nacional de Salud Mental 2027-2037, con financiación garantizada",
+     "medida_sintesis": "Aprobar un Plan Nacional de Salud Mental 2027-2037 con financiación, más profesionales y acceso a atención psicológica y psiquiátrica desde Atención Primaria",
+     "area": "SME",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un plan con financiación, sin ratio ni derecho exigible.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Impulsaremos una estrategia integral frente a las adicciones, con especial atención a los jóvenes",
+     "medida_sintesis": "Impulsar una estrategia integral frente a las adicciones, con atención especial a la población joven",
+     "area": "SME",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una estrategia. DES 0: no nombra un servicio público.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "aseguraremos la coordinación entre sanidad, educación y servicios sociales",
+     "medida_sintesis": "Asegurar la coordinación entre sanidad, educación y servicios sociales en salud mental",
+     "area": "SME",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni dice cómo se provee el acceso.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-224": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Defenderemos el modelo farmacéutico español y nuestra red de farmacias comunitarias",
+     "medida_sintesis": "Mantener el modelo farmacéutico y la red de farmacias comunitarias",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: defiende el modelo vigente; es declarativa. DES 0: no nombra un servicio público ni una regulación de precio.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Impulsaremos un modelo de Investigación, Desarrollo, Innovación y Acceso (I+D+i+A)",
+     "medida_sintesis": "Impulsar un modelo de investigación, desarrollo, innovación y acceso a nuevos tratamientos",
+     "area": "SAN",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política de investigación.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Agilizaremos la evaluación de los nuevos medicamentos y acortaremos los plazos para decidir su financiación y precio",
+     "medida_sintesis": "Agilizar la evaluación de nuevos medicamentos y acortar los plazos de decisión sobre su financiación y precio",
+     "area": "SAN",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: acorta plazos sin fijar un plazo máximo; es declarativa. DES 1: financiación pública y precio regulado del medicamento.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Crearemos un Fondo Estatal de Innovación en Enfermedades Raras y Terapias Avanzadas",
+     "medida_sintesis": "Crear un Fondo Estatal de Innovación en Enfermedades Raras y Terapias Avanzadas",
+     "area": "SAN",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un fondo de innovación.",
+     "confianza": "baja",
+     "revisar": 1,
+     "motivo_revision": "No dice si el fondo financia investigación o el acceso de pacientes a terapias. Propuesta: 0 en las cuatro si es investigación; si financia tratamientos, UNI 1, DES 1 y NDI 1.",
+     "repite": ""
+    }
+   ]
+  }
+ }
+}

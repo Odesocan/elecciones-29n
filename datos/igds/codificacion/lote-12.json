@@ -1,0 +1,1593 @@
+{
+  "lote": "lote-12",
+  "unidades": {
+    "psoe-418": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzaremos la acción internacional de España en defensa de los derechos LGTBI",
+          "medida_sintesis": "Reforzar la acción internacional de España en defensa de los derechos LGTBI",
+          "area": "IGU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: es política exterior; no regula ni provee el acceso de la población a un derecho social. DEC 1: «reforzaremos» sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La defensa internacional de los derechos LGTBI admite lectura como corrección de una discriminación y también área OTR por ser política exterior. Propuesta: IGU con las cuatro dimensiones a 0, porque no regula el acceso a un derecho en España (2.2).",
+          "repite": ""
+        },
+        {
+          "fragmento": "impulsando la adopción internacional para familias LGTBI",
+          "medida_sintesis": "Impulsar la adopción internacional por parte de familias LGTBI",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «impulsar» sin norma ni obligación; es declarativa. DES 0: no nombra un servicio público ni una regulación. NDI 1: corrige una discriminación en el acceso a la adopción.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-419": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar una campaña estatal de sensibilización contra el estigma y la discriminación asociados al VIH",
+          "medida_sintesis": "Campaña estatal de sensibilización contra el estigma y la discriminación asociados al VIH, con difusión del principio I=I",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es una campaña, sin derecho reconocido ni obligación. DES 0: no provee un servicio ni regula condiciones de acceso. DEC 0: instrumento identificado (campaña estatal).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-428": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ampliar la protección de las víctimas de violencia de género y de delitos de odio, mejorando VioGén",
+          "medida_sintesis": "Ampliar la protección de las víctimas de violencia de género, con mejoras en VioGén y refuerzo de las unidades especializadas",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: refuerzo de medios sin cuantía, estándar ni obligación; es declarativa.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "reforzando las unidades especializadas y la Oficina Nacional de Lucha contra los Delitos de Odio",
+          "medida_sintesis": "Ampliar la protección de las víctimas de delitos de odio con el refuerzo de la Oficina Nacional de Lucha contra los Delitos de Odio",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: refuerzo de un servicio sin cuantía, estándar ni obligación; es declarativa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La protección de las víctimas de delitos de odio puede leerse como igualdad y no discriminación o como seguridad ciudadana (2.2). Propuesta: IGU con la misma regla que la protección de las víctimas de violencia de género, como servicio público de protección.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-499": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover la igualdad efectiva entre mujeres y hombres en las Fuerzas Armadas, reforzando las políticas de conciliación, corresponsabilidad y desarrollo profesional.",
+          "medida_sintesis": "Promover la igualdad efectiva entre mujeres y hombres en las Fuerzas Armadas con políticas de conciliación, corresponsabilidad y desarrollo profesional",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «promover» y «reforzar» sin norma, estándar ni obligación; es declarativa. DES 0: no nombra un servicio público ni una regulación obligatoria de la conciliación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite IGU (igualdad de género) y EMP (condiciones laborales del personal de un cuerpo público, ajuste de 2.8). Propuesta: IGU, porque el objeto dominante es la igualdad entre mujeres y hombres.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-037": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reformar la Constitución Española para que la vivienda se considere un derecho fundamental, permitiendo así que la ciudadanía pueda exigir su cumplimiento",
+          "medida_sintesis": "Reformar la Constitución para reconocer la vivienda como derecho fundamental exigible ante los poderes públicos",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 1,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 1: norma constitucional que reconoce el derecho y lo hace exigible. DES 0: no nombra provisión pública, servicio ni regulación del mercado.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Reconoce un derecho exigible sin nombrar cómo se provee. Propuesta: DES 0 por la regla de 2.4 («no se presume provisión pública»), como vox-026-01; DES 1 si se entiende que un derecho fundamental exigible obliga a proveer. psoe-366 (lote-13) repite esta medida.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-038": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Movilizar anualmente un 1% del PIB para garantizar el acceso a la vivienda",
+          "medida_sintesis": "Movilizar cada año el 1 % del PIB para el acceso a la vivienda a precio asequible, con todas las administraciones y el ICO mediante el Fondo España Crece",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es una dotación, no reconoce un derecho ni fija una obligación. DES 0: vivienda a precio asequible sin carácter público ni precio regulado explícitos.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-039": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aumentar el parque de viviendas públicas y protegidas para alcanzar la media de los países de nuestro entorno.",
+          "medida_sintesis": "Aumentar el parque de vivienda pública y protegida hasta la media de los países del entorno",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: objetivo de oferta, sin derecho reconocido ni obligación de provisión. DES 1: vivienda pública y protegida.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-040": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Destinar el 1% de la licitación anual de obra pública a constituir un fondo de adquisición de vivienda protegida y asequible.",
+          "medida_sintesis": "Destinar el 1 % de la licitación anual de obra pública a un fondo de adquisición de vivienda protegida y asequible",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un fondo, no reconoce el derecho ni fija una obligación. DES 1: vivienda protegida.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-041": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegar el Plan Estatal de Vivienda 2026-2030 para continuar transfiriendo recursos presupuestarios récord a las Comunidades Autónomas para la construcción de viviendas públicas o protegidas",
+          "medida_sintesis": "Desplegar el Plan Estatal de Vivienda 2026-2030 con transferencias a las comunidades autónomas para construir vivienda pública o protegida permanente, al menos la cuarta parte de la vivienda nueva",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan con transferencias, sin derecho reconocido ni obligación de provisión. DES 1: vivienda pública o protegida con carácter permanente.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-042": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Constituir un parque público estatal de 100.000 viviendas mediante la construcción y adquisición para incrementar la oferta de vivienda",
+          "medida_sintesis": "Constituir un parque público estatal de 100.000 viviendas para venta o alquiler estable a precio asequible, con reinversión de sus ingresos en nueva vivienda asequible",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: objetivo de provisión sin derecho reconocido ni obligación exigible. DES 1: parque público de vivienda. La reinversión de los ingresos es un instrumento del mismo objeto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Garantizar las máximas exigencias de transparencia, calidad de construcción, sostenibilidad ambiental y normativa de salud laboral en la gestión.",
+          "medida_sintesis": "Aplicar exigencias de transparencia, calidad constructiva, sostenibilidad ambiental y salud laboral en la gestión del parque estatal",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: fija criterios de gestión del parque; no regula ni provee el acceso a un derecho social. DEC 1: «garantizar» sin norma ni estándar concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-043": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Movilizar suelo público, incluidos suelos dotacionales, para desarrollar en promoción directa, en concesión de obra pública o en colaboración público-privada.",
+          "medida_sintesis": "Movilizar suelo público, incluido el dotacional, para su desarrollo por promoción directa, concesión de obra pública o colaboración público-privada",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta de suelo sin destino explícito a vivienda de acceso regulado.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El texto no dice a qué vivienda se destina el suelo; la promoción directa sugiere vivienda pública. Propuesta: mantener 0 como pp-144-01; UNI 1, DES 1 y NDI 1 si se lee como suelo para vivienda pública.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-044": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Constituir el banco estatal de suelo público disponible para su desarrollo ofertado a proveedores sociales, cooperativas en gestión de uso o similares.",
+          "medida_sintesis": "Crear un banco estatal de suelo público ofertado a proveedores sociales de vivienda y cooperativas en gestión de uso",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: instrumento de oferta, sin derecho reconocido ni obligación de provisión. DES 0: cesión de suelo a entidades proveedoras sin precio o renta regulados en el texto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-045": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aprobar la Ley de proveedores sociales de vivienda, en línea con los sistemas vigentes en los países de nuestro entorno",
+          "medida_sintesis": "Aprobar una Ley de proveedores sociales de vivienda que cree una red social de provisión de vivienda asequible",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: la ley regula a las entidades proveedoras, no reconoce un derecho de acceso ni fija una obligación de provisión. DES 0: vivienda a precio asequible sin carácter público ni precio regulado explícitos.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La red social de provisión de vivienda asequible no dice si las rentas estarán reguladas. Propuesta: EXI 0 y DES 0, como la vivienda asequible del resto de formaciones; DES 1 si la ley fija rentas reguladas para las personas usuarias.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-046": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "quedando exentas en el IRPF las ganancias patrimoniales derivadas de la transmisión de viviendas a estos proveedores",
+          "medida_sintesis": "Eximir en el IRPF las ganancias patrimoniales por la venta de viviendas a proveedores sociales para incorporar vivienda asequible",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: exención fiscal, no reconoce el derecho ni obliga a proveerlo. DES 0: incentivo fiscal a la oferta sin precio regulado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-047": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Habilitar la certificación de proveedor social de vivienda frente a todas las administraciones públicas.",
+          "medida_sintesis": "Habilitar una certificación de proveedor social de vivienda válida ante todas las administraciones",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un trámite de acreditación de entidades.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-048": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Potenciar la construcción industrializada, con el desarrollo del PERTE de construcción industrializada",
+          "medida_sintesis": "Potenciar la construcción industrializada con el PERTE y financiación del ICO a empresas, fabricación de módulos y promociones industrializadas",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Apoya un método constructivo de la oferta, sin destino a vivienda de acceso regulado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-050": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aprobar una Ley de Sostenibilidad y Movilización del Suelo, para agilizar y simplificar los procesos de desarrollo urbanístico",
+          "medida_sintesis": "Aprobar una Ley de Sostenibilidad y Movilización del Suelo que agilice y simplifique el desarrollo urbanístico",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-051": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Apoyar la digitalización y simplificación de procesos de desarrollo urbanístico para mejorar la coordinación sectorial e interadministrativa.",
+          "medida_sintesis": "Apoyar la digitalización y simplificación de los procesos de desarrollo urbanístico",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: «apoyar» sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-052": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Financiar, a través del ICO, la adquisición de suelo y urbanización de promociones residenciales para la construcción de viviendas asequibles y protegidas.",
+          "medida_sintesis": "Financiar con el ICO la adquisición y urbanización de suelo para construir vivienda asequible y protegida",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es financiación, no reconoce un derecho ni fija una obligación. DES 1: incluye vivienda protegida con precio regulado.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-053": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Movilizar suelo para construir vivienda fijando un impuesto sobre los solares residenciales ociosos.",
+          "medida_sintesis": "Crear un impuesto sobre los solares residenciales ociosos para movilizar suelo para vivienda",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es fiscalidad de la oferta de suelo, sin regla de acceso ni destino a vivienda de acceso regulado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-054": {
+      "sin_medidas": "Enunciado introductorio que solo agrupa las medidas psoe-055 a psoe-057, que lo desarrollan; no es una medida aparte (R3 y R4).",
+      "medidas": []
+    },
+    "psoe-055": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Disponer más de 25.000 millones de euros, a través del ICO, para avales, préstamos y financiación para vivienda asequible.",
+          "medida_sintesis": "Disponer más de 25.000 millones de euros del ICO en avales, préstamos y financiación para vivienda asequible",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: avales y préstamos no reconocen el derecho ni obligan a proveerlo. DES 0: avales y crédito sin precio regulado.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "No dice si los avales y préstamos se dirigen a la promoción o a personas compradoras. Propuesta: UNI 1 como financiación de la oferta (pp-150-01); UNI 0 si son avales a la compra (pp-154-01).",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-056": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Destinar más de 4.700 millones de euros del Plan Social del Clima para financiar la construcción o rehabilitación de viviendas sostenibles a precio asequible.",
+          "medida_sintesis": "Destinar más de 4.700 millones del Plan Social del Clima a construir o rehabilitar vivienda sostenible a precio asequible",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es una dotación, no reconoce el derecho ni fija una obligación. DES 0: vivienda a precio asequible sin carácter público ni precio regulado explícitos.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-057": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Destinar 400 millones de euros anuales en el Fondo de Vivienda de Impacto Social para financiar proyectos de vivienda con impacto social a precio asequible.",
+          "medida_sintesis": "Destinar 400 millones anuales del Fondo de Vivienda de Impacto Social a proyectos de vivienda a precio asequible",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un fondo, no reconoce el derecho ni fija una obligación. DES 0: vivienda a precio asequible sin carácter público ni precio regulado explícitos.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-058": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Empoderar a los vecinos y vecinas para participar en las decisiones de la ciudad y gobernanza de los barrios",
+          "medida_sintesis": "Ampliar la participación vecinal en las decisiones urbanas y de barrio, incluida la decisión de las comunidades sobre los incrementos de edificabilidad mediante la reforma de la Ley de Propiedad Horizontal",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es participación vecinal en el urbanismo.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-059": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ampliar la financiación de programas de rehabilitación integral de viviendas y barrios, para alcanzar, al menos, otras 550.000 viviendas",
+          "medida_sintesis": "Ampliar la financiación de los programas de rehabilitación integral de viviendas y barrios hasta otras 550.000 viviendas, con atención a los barrios vulnerables",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la ayuda se liga a una obra que la persona o comunidad beneficiaria tiene que costear (capacidad de pago). EXI 0: es financiación de programas de ayudas, sin derecho reconocido. DES 0: ayuda ligada a contratar obras en el mercado.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La rehabilitación integral de barrios puede leerse como ayuda a la obra privada (cc-023-02, pp-148-01) o como intervención pública en el barrio (cc-023-01). Propuesta: UNI 0 y DES 0 como cc-023-02, porque el texto financia programas de ayudas sin provisión pública directa.",
+          "repite": ""
+        },
+        {
+          "fragmento": "continuar financiando actuaciones para garantizar la accesibilidad de edificios.",
+          "medida_sintesis": "Seguir financiando actuaciones de accesibilidad en los edificios",
+          "area": "IGU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la ayuda se liga a obras que la comunidad beneficiaria tiene que costear (capacidad de pago). EXI 0: es financiación, sin derecho reconocido ni estándar. DES 0: ayuda ligada a contratar obras en el mercado.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite IGU (accesibilidad universal), VIV y CUI, y comparte la duda de UNI de la ayuda a la rehabilitación. Propuesta: IGU, con UNI 0 y DES 0 como cc-023-02.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-060": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Construir una red de alojamientos dotacionales, especialmente dirigidos a personas trabajadoras desplazadas y a la comunidad universitaria.",
+          "medida_sintesis": "Construir una red de alojamientos dotacionales, sobre todo para personas trabajadoras desplazadas y comunidad universitaria",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: compromiso de construcción sin derecho reconocido ni obligación de provisión. DES 1: alojamiento dotacional de titularidad pública.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-061": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ampliar la duración de los contratos de arrendamiento, reforzando la estabilidad residencial de las personas inquilinas.",
+          "medida_sintesis": "Ampliar la duración de los contratos de arrendamiento para reforzar la estabilidad de las personas inquilinas",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Regulación obligatoria de las condiciones del contrato de alquiler para todas las personas inquilinas: amplía un estándar mínimo de duración.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "No fija la nueva duración mínima. Propuesta: EXI 1, porque amplía un estándar mínimo del contrato que obliga a todas las partes; EXI 0 si se exige la cifra para considerarlo estándar.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-062": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Congelar temporalmente las rentas que superen los índices de referencia, evitando incrementos abusivos en los mercados tensionados.",
+          "medida_sintesis": "Congelar temporalmente las rentas de alquiler que superen los índices de referencia en los mercados tensionados",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Límite obligatorio del precio del alquiler para todas las personas inquilinas de los mercados tensionados.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-063": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Identificar y publicar desde el Ministerio de Vivienda un mapa de zonas tensionadas de vivienda",
+          "medida_sintesis": "Elaborar y publicar desde el Ministerio de Vivienda el mapa de zonas tensionadas que no elaboran las comunidades autónomas",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una herramienta de información; el texto no dice que active la limitación de rentas.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El mapa es la base para aplicar la regulación del alquiler de la Ley de Vivienda donde las comunidades autónomas no lo hacen. Propuesta: mantener 0 por analogía con la publicación de información (vox-062-03, pp-144-08); UNI 1, DES 1 y NDI 1 si el mapa activa la limitación del precio.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-064": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crear la garantía pública de acceso al alquiler para jóvenes, en forma de seguros de impago.",
+          "medida_sintesis": "Crear una garantía pública de acceso al alquiler para personas jóvenes mediante seguros de impago",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un seguro o aval, no reconoce el derecho ni obliga a proveerlo. DES 0: garantía a la demanda en el mercado de alquiler, sin precio regulado.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La garantía no exige renta, pero sí contratar y pagar un alquiler de mercado. Propuesta: UNI 1 por ser un colectivo definido por la situación (personas jóvenes en emancipación, 2.4); UNI 0 si se asimila a los avales a la compra (pp-154-01).",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-065": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Actualizar las deducciones fiscales para las personas inquilinas, mejorando el acceso y mantenimiento de la vivienda en alquiler.",
+          "medida_sintesis": "Actualizar las deducciones fiscales por alquiler de las personas inquilinas",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: exige pagar el alquiler y tributar en el IRPF (capacidad de pago). EXI 0: deducción fiscal. DES 0: deducción fiscal.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-066": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Consolidar las bonificaciones fiscales para las personas propietarias que reduzcan los precios del alquiler, incentivando la oferta de vivienda asequible.",
+          "medida_sintesis": "Consolidar las bonificaciones fiscales a las personas propietarias que reduzcan el precio del alquiler",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: incentivo fiscal voluntario, sin derecho reconocido. DES 0: incentivo a la oferta privada sin regulación general del precio.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-067": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegar el Programa TUCASA y ampliar su dotación en caso de que se agoten los 10.000 millones de euros de la línea de préstamos",
+          "medida_sintesis": "Desplegar el Programa TUCASA de préstamos sin intereses de hasta 50.000 euros para comprar la primera vivienda y ampliar su dotación si se agotan los 10.000 millones",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: exige poder comprar una vivienda. EXI 0: es una línea de préstamos, no reconoce el derecho. DES 0: ayuda ligada a la compra en el mercado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-068": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar un modelo público de intermediación entre propietarios e inquilinos inspirado en experiencias de éxito como la del País Vasco",
+          "medida_sintesis": "Impulsar un modelo público de intermediación en el alquiler con garantías de cobro y apoyo a la gestión para llevar vivienda vacía al alquiler a precio asequible",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: «impulsar» un programa, sin derecho reconocido ni obligación. DES 0: garantías públicas a la oferta privada sin precio regulado explícito.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La intermediación pública con garantías a la propiedad puede leerse como servicio público o como incentivo a la oferta privada. Propuesta: DES 0 como cc-024-01 (alquiler asequible con garantías públicas); DES 1 si el programa fija rentas reguladas.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-069": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ofrecer un servicio de justicia gratuita para víctimas de abusos inmobiliarios, priorizando aquellas familias que residen en zonas declaradas tensionadas",
+          "medida_sintesis": "Ofrecer justicia gratuita a las víctimas de abusos inmobiliarios, con prioridad para quien reside en zonas tensionadas y protección de las personas inquilinas de vivienda asequible comprada por fondos",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Servicio gratuito garantizado para todo el colectivo de víctimas de abusos inmobiliarios, que protege la permanencia en la vivienda; la prioridad territorial no excluye.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La asistencia jurídica gratuita se codificó con 0 cuando protegía la propiedad frente a la ocupación (vox-031-02); aquí protege a personas inquilinas en su vivienda. Propuesta: tratarla como garantía del derecho a la vivienda (g = 1); cuatro dimensiones a 0 si se aplica a todas la regla de vox-031-02. psoe-433 (lote-18) puede repetirla.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-070": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Se gravará con un impuesto progresivo la posesión de todas aquellas viviendas de grandes propietarios y fondos buitre",
+          "medida_sintesis": "Crear un impuesto progresivo sobre las viviendas de grandes tenedores y fondos que no se destinen al alquiler residencial asequible (turísticas, vacías o con precio abusivo)",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: instrumento fiscal, no reconoce el derecho ni obliga a proveerlo. DES 0: incentivo fiscal a la oferta de alquiler, sin regulación del precio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El impuesto se liga a destinar la vivienda al alquiler asequible: puede leerse como incentivo a la oferta de alquiler (vox-030-02, UNI 1 y NDI 1) o como fiscalidad sin regla de acceso (vox-035-03, cuatro dimensiones a 0). Propuesta: UNI 1 y NDI 1, porque el texto vincula el gravamen al uso residencial asequible.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-071": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mantener y garantizar la limitación de la compra de viviendas por fondos especulativos.",
+          "medida_sintesis": "Mantener la limitación de la compra de viviendas por fondos especulativos",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Regulación obligatoria de las condiciones del mercado de vivienda que protege el acceso de toda la población, sin exclusiones de personas.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La restricción de la compra por fondos fija una limitación obligatoria del mercado, pero no reconoce un derecho de las personas. Propuesta: EXI 1 y DES 1, como las regulaciones obligatorias del mercado (pp-168-01, pp-229-04); EXI 0 si se exige que la norma reconozca un derecho de acceso.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-072": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Priorizar el uso residencial y asequible de las viviendas existentes a través de un impuesto progresivo a las viviendas de grandes tenedores",
+          "medida_sintesis": "Impuesto progresivo a las viviendas de grandes tenedores que no se destinen al alquiler asequible o al uso residencial",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: instrumento fiscal, no reconoce el derecho ni obliga a proveerlo. DES 0: incentivo fiscal a la oferta de alquiler, sin regulación del precio.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-070"
+        }
+      ]
+    },
+    "psoe-073": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aprobaremos un marco estatal que habilite a los ayuntamientos para aplicar recargos sobre las estancias turísticas, respetando los tributos autonómicos ya existentes.",
+          "medida_sintesis": "Aprobar un marco estatal que permita a los ayuntamientos aplicar recargos sobre las estancias turísticas para financiar servicios y políticas locales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: es fiscalidad local; no regula ni provee el acceso a un derecho social. DEC 0: instrumento concreto (marco estatal habilitante).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite VIV (viviendas de uso turístico, recursos para políticas de vivienda) y OTR (fiscalidad). Propuesta: OTR, porque el objeto dominante es un tributo municipal y la vivienda es solo uno de los destinos posibles de los ingresos.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-074": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desarrollar un Programa de gestión y rehabilitación de viviendas vacías de personas particulares cuyo uso se ceda para alquiler a precio asequible",
+          "medida_sintesis": "Programa de gestión y rehabilitación de viviendas vacías particulares cedidas para alquiler a precio asequible, con garantía de cobro y mantenimiento para la propiedad",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un programa, sin derecho reconocido ni obligación de provisión. DES 0: incentivo a la oferta privada sin precio regulado explícito.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La gestión pública de vivienda privada cedida puede leerse como provisión pública o como incentivo a la oferta privada. Propuesta: DES 0 como cc-024-01 y psoe-068; DES 1 si el programa fija rentas reguladas.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-075": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Poner en marcha un plan de recuperación de viviendas no residenciales, favoreciendo su incorporación al mercado residencial.",
+          "medida_sintesis": "Plan de recuperación de viviendas no residenciales para incorporarlas al mercado residencial",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Medida de oferta sin destino a vivienda de acceso regulado. DEC 0: nombra un plan.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-076": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la línea de financiación para desarrollar los planes de actuación en las ZMRT, orientada a revertir las situaciones de tensión residencial",
+          "medida_sintesis": "Reforzar la línea de financiación de los planes de actuación en las zonas de mercado residencial tensionado",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es financiación, sin derecho reconocido ni obligación. DES 0: no dice qué provisión o regulación financian los planes.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-077": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Perseguir el fraude en los alojamientos de corta duración",
+          "medida_sintesis": "Perseguir el fraude en los alojamientos de corta duración con más inspecciones públicas financiadas en las zonas tensionadas",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: financia inspecciones, sin derecho reconocido ni estándar nuevo. DES 1: hace cumplir la regulación obligatoria del uso turístico de la vivienda.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "garantizar el cumplimiento de la normativa de precios del alquiler a través de una línea de financiación específica destinada a aumentar las inspecciones públicas",
+          "medida_sintesis": "Hacer cumplir la normativa de precios del alquiler con una línea de financiación para más inspecciones públicas en las zonas tensionadas",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: financia inspecciones, sin derecho reconocido ni estándar nuevo. DES 1: aplica la regulación del precio del alquiler para todas las personas inquilinas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-078": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar la prioridad del uso residencial, limitando en las zonas tensionadas la compra especulativa y la implantación de nuevos usos no residenciales.",
+          "medida_sintesis": "Limitar en las zonas tensionadas la compra especulativa de vivienda y los nuevos usos no residenciales para priorizar el uso residencial",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Regulación obligatoria de las condiciones del mercado de vivienda en las zonas tensionadas para toda la población.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Limitación obligatoria del mercado que no define «compra especulativa» y se solapa en parte con psoe-071. Propuesta: EXI 1 y DES 1 con la misma regla que psoe-071; EXI 0 si se considera que el texto no concreta el contenido de la limitación.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-079": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crear un registro de precios de los contratos de alquiler, que permita mejorar la transparencia y el conocimiento del mercado residencial.",
+          "medida_sintesis": "Crear un registro de precios de los contratos de alquiler",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de transparencia.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-080": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crear un registro de fondos de inversión y SOCIMI, reforzando la trazabilidad y el control de los grandes actores del mercado inmobiliario.",
+          "medida_sintesis": "Crear un registro de fondos de inversión y SOCIMI",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de transparencia y control de operadores.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-081": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar una agenda permanente de investigación y evaluación de las políticas de vivienda, orientada a mejorar su eficacia y rendición de cuentas.",
+          "medida_sintesis": "Impulsar una agenda permanente de investigación y evaluación de las políticas de vivienda",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es evaluación de políticas. DEC 1: «impulsar» sin dotación ni norma.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-082": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desarrollar una plataforma estatal de datos integrados en materia de vivienda, que facilite la toma de decisiones basada en evidencia.",
+          "medida_sintesis": "Desarrollar una plataforma estatal de datos integrados de vivienda",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una herramienta de información.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-083": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Facilitar la información sobre las reservas de patrimonio municipal de suelo existentes para hacer una radiografía real del suelo",
+          "medida_sintesis": "Facilitar información sobre las reservas de patrimonio municipal de suelo",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una medida de información.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-084": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar un marco estable de protección frente a los desahucios de personas en situación de vulnerabilidad sin alternativa habitacional",
+          "medida_sintesis": "Dar estabilidad a la protección frente a los desahucios de personas vulnerables sin alternativa habitacional y crear un mecanismo de garantía frente al desalojo para las emergencias habitacionales",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: se limita a personas en situación de vulnerabilidad. EXI 1: norma estable que impide el desahucio sin alternativa habitacional. DES 1: regula con fuerza obligatoria las condiciones del desahucio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "«Garantizar un marco estable» puede leerse como norma con contenido concreto o como compromiso sin instrumento; el mecanismo frente al desalojo se une como instrumento del mismo objeto. Propuesta: EXI 1 por la norma de protección; EXI 0 y DEC 1 si se considera que no concreta el instrumento.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-085": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Asegurar que el coste de la prohibición de los desahucios a personas vulnerables no recaiga sobre el pequeño propietario o propietaria",
+          "medida_sintesis": "Compensar desde las administraciones a la pequeña propiedad por el coste de la prohibición de desahucios a personas vulnerables",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: compensa a la persona propietaria; no regula ni provee el acceso a un derecho social.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La compensación sostiene la protección frente al desahucio de psoe-084, pero su objeto es el coste para la propiedad. Propuesta: cuatro dimensiones a 0, como las medidas que compensan a la propiedad (pp-157-02); UNI 0, DES 1 y NDI 1 si se lee como financiación pública de la protección.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-086": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar las soluciones estables frente al sinhogarismo",
+          "medida_sintesis": "Reforzar las soluciones estables frente al sinhogarismo",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «reforzar» sin norma, dotación ni obligación; es declarativa. DES 1: soluciones de alojamiento en servicio.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-213"
+        },
+        {
+          "fragmento": "la lucha contra la infravivienda",
+          "medida_sintesis": "Reforzar la lucha contra la infravivienda",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "los mecanismos de denuncia y sanción de la discriminación en el acceso a la vivienda",
+          "medida_sintesis": "Reforzar los mecanismos de denuncia y sanción de la discriminación en el acceso a la vivienda",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «reforzar» sin concretar norma ni estándar; es declarativa. DES 1: régimen sancionador que regula con fuerza obligatoria las condiciones de acceso al mercado de vivienda. NDI 1: corrige una discriminación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite IGU (antidiscriminación) y VIV (acceso a la vivienda); DES 1 porque nombra un régimen sancionador, a diferencia de pp-111-01. Propuesta: IGU, porque el objeto dominante es la discriminación, y DES 1.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-213": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Avanzar en la prevención y erradicación del sinhogarismo, reforzando los recursos de emergencia en colaboración con las administraciones competentes",
+          "medida_sintesis": "Prevenir y erradicar el sinhogarismo con más recursos de emergencia y soluciones estables de alojamiento y acompañamiento social según el modelo Housing First",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «avanzar» e «impulsar» sin norma, dotación ni obligación de provisión; es declarativa. DES 1: alojamiento y acompañamiento social en servicio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Las personas sin hogar se leen como colectivo definido por la situación protegida (UNI 1), no como condición de vulnerabilidad; Housing First nombra un modelo, no un programa con dotación. Propuesta: UNI 1 y DEC 1; UNI 0 si se asimila a la condición de «vulnerable».",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-216": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ceder suelo público destinado a la construcción de viviendas colaborativas y asequibles para personas mayores",
+          "medida_sintesis": "Programa de cesión de suelo público para cooperativas de vivienda colaborativa y asequible de personas mayores, con espacios y servicios compartidos",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un programa de cesión de suelo, sin derecho reconocido ni obligación de provisión. DES 0: vivienda cooperativa asequible sin precio regulado explícito.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite VIV y CUI (personas mayores, autonomía y soledad no deseada). Propuesta: VIV, porque el instrumento es la cesión de suelo para vivienda.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-278": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Facilitar el acceso a una vivienda asequible en el medio rural, promoviendo el alquiler para nuevos residentes",
+          "medida_sintesis": "Facilitar el acceso a vivienda asequible en el medio rural con alquiler para nueva población residente, rehabilitación de viviendas vacías y ampliación del parque público",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «facilitar» y «promover» sin norma ni dotación; es declarativa. DES 1: incluye la ampliación del parque público.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-381": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar el acceso a una vivienda asequible y facilitar la emancipación juvenil.",
+          "medida_sintesis": "Garantizar el acceso de la juventud a una vivienda asequible y facilitar su emancipación",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «garantizar» sin instrumento; es declarativa. DES 0: vivienda a precio asequible sin carácter público ni precio regulado explícitos.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Enunciado general del apartado de juventud que resume el capítulo de vivienda. Propuesta: tratarlo como repetición de psoe-038 (acceso a la vivienda) y no contarlo; si se cuenta, es una medida declarativa.",
+          "repite": "psoe-038"
+        }
+      ]
+    },
+    "psoe-438": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "seguiremos combatiendo las mafias de la ocupación y dando recursos a los juzgados de guardia para tramitar de forma ágil y efectiva estos delitos.",
+          "medida_sintesis": "Seguir combatiendo la ocupación ilegal de viviendas con juicios rápidos y más recursos para los juzgados de guardia",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es política penal. DEC 1: recursos sin cuantía ni norma.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-477": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "apoyando el incremento de la vivienda pública y asequible",
+          "medida_sintesis": "Promover en la Unión Europea el compromiso con el acceso a la vivienda y el aumento de la vivienda pública y asequible",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «promover» y «apoyar» ante la Unión Europea, sin norma ni obligación; es declarativa. DES 1: vivienda pública.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "el empleo de calidad y los derechos laborales",
+          "medida_sintesis": "Promover una Unión Europea comprometida con el empleo de calidad y los derechos laborales",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «promover» ante la Unión Europea, sin norma ni obligación; es declarativa. DES 0: no nombra una regulación ni un servicio público.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "respuestas comunes al encarecimiento de la energía",
+          "medida_sintesis": "Apoyar respuestas comunes europeas al encarecimiento de la energía",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «apoyar» sin instrumento; es declarativa. DES 0: no nombra una regulación del precio ni un servicio público.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite VIV (suministros del hogar) y MAM (energía), y puede leerse como política económica sin acceso a un derecho social. Propuesta: VIV, como la rebaja del recibo de la luz (pp-229-01).",
+          "repite": ""
+        },
+        {
+          "fragmento": "encarecimiento de la energía y los alimentos",
+          "medida_sintesis": "Apoyar respuestas comunes europeas al encarecimiento de los alimentos",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «apoyar» sin instrumento; es declarativa. DES 0: no nombra una regulación del precio ni un servicio público.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La alimentación es un derecho social (2.2) sin área propia en el libro; energía y alimentos son dos objetos (R4). Propuesta: medida aparte en OTR; unirla a la de energía si se lee el encarecimiento como un solo objeto.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-136": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Acabar con las listas de espera, consolidando una financiación pública de la sanidad en torno al 7% del PIB",
+          "medida_sintesis": "Acabar con las listas de espera con una financiación pública de la sanidad en torno al 7 % del PIB",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es financiación, sin plazo máximo de espera ni derecho exigible.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "reforzando el carácter público del Sistema Nacional de Salud",
+          "medida_sintesis": "Reforzar el carácter público del Sistema Nacional de Salud",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento; es declarativa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-138"
+        },
+        {
+          "fragmento": "aumentando progresivamente la inversión en prevención hasta converger con la media europea.",
+          "medida_sintesis": "Aumentar la inversión en prevención sanitaria hasta la media europea",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es inversión, sin derecho reconocido, plazo ni estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-137": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Incorporaremos progresivamente a la sanidad pública los tratamientos básicos para toda la población adulta, empezando por empastes, endodoncias, reconstrucciones y tratamientos periodontales.",
+          "medida_sintesis": "Incorporar a la sanidad pública los tratamientos bucodentales básicos para toda la población adulta (Plan Sonríe), empezando por empastes, endodoncias, reconstrucciones y tratamientos periodontales",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ampliación de la cartera de la sanidad pública a toda la población adulta, sin prueba de renta.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "crearemos una ayuda directa de hasta 200 euros anuales por persona, que empezará por los hogares de rentas medias y bajas",
+          "medida_sintesis": "Ayuda directa de hasta 200 euros anuales por persona para salud bucodental, empezando por los hogares de rentas medias y bajas",
+          "area": "SAN",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: empieza por un umbral de renta (hogares de rentas medias y bajas). EXI 0: es una ayuda, no reconoce el derecho ni obliga a proveerlo. DES 0: ayuda monetaria ligada a pagar el tratamiento en el mercado. Medida aparte de la incorporación a la cartera: otro instrumento con otra regla de acceso, como en pp-114.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-138": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Limitar la privatización de la sanidad estableciendo la gestión directa como modalidad preferente en la prestación sanitaria",
+          "medida_sintesis": "Limitar la privatización de la sanidad con la gestión directa como modalidad preferente de prestación",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: fija la modalidad de gestión, no reconoce un derecho de acceso ni un estándar exigible.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Aprobar una Ley de Buen Gobierno y Buena Gestión del SNS, basada en la transparencia, la rendición de cuentas, la participación",
+          "medida_sintesis": "Aprobar una Ley de Buen Gobierno y Buena Gestión del SNS basada en la transparencia, la rendición de cuentas, la participación y la evaluación",
+          "area": "SAN",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es una norma de gobernanza y transparencia del sistema.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El texto puede ser el instrumento del titular (gestión directa preferente) o una ley de gobernanza aparte. Propuesta: medida aparte con las cuatro dimensiones a 0, porque el texto la describe por la transparencia y la evaluación; si se lee como instrumento del titular, se une a la medida 1.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-139": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar la atención pediátrica y la asistencia sanitaria de proximidad en todo el territorio",
+          "medida_sintesis": "Garantizar la atención pediátrica y sanitaria de proximidad en todo el territorio, con financiación compartida con las comunidades autónomas para las zonas rurales y de difícil acceso",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es financiación, sin plazo, ratio ni estándar de cobertura.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-140": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mejorar la adherencia terapéutica",
+          "medida_sintesis": "Mejorar la adherencia terapéutica",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin instrumento; es declarativa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "No nombra el servicio, aunque la adherencia al tratamiento se da dentro de la atención sanitaria. Propuesta: DES 1 por el ajuste de 2.8 (actúa dentro del Sistema Nacional de Salud), como vox-064-02; DES 0 si prevalece «no se presume provisión pública».",
+          "repite": ""
+        },
+        {
+          "fragmento": "garantizar el acceso universal a cuidados paliativos integrales y de calidad.",
+          "medida_sintesis": "Garantizar el acceso universal a cuidados paliativos integrales y de calidad",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «garantizar» sin ley, cartera ni estándar; es declarativa.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-141": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "desarrollando el Plan de Acción de Atención Primaria y Comunitaria más allá de 2027 para potenciar los equipos multidisciplinares",
+          "medida_sintesis": "Reforzar la atención primaria con el Plan de Acción de Atención Primaria y Comunitaria más allá de 2027, equipos multidisciplinares y más capacidad diagnóstica",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan, sin ratio, plazo ni estándar.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    }
+  }
+}

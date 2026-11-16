@@ -1,0 +1,25 @@
+# Dependencias y compilación de la web
+node_modules/
+web/dist/
+.vite/
+
+# PDF oficiales: se descargan con «python3 maestro.py descargar» (huellas en config/partidos.json)
+datos/fuentes/*.pdf
+# …salvo el de UPC: lo facilitó el partido y no hay URL de la que volver a bajarlo
+!datos/fuentes/programa-upc-29n.pdf
+# Copia que vuelca el pipeline para el servidor de desarrollo (el original está en datos/fuentes/)
+web/public/data/*.pdf
+# Cachés y lotes intermedios: se regeneran con el maestro
+datos/texto/
+datos/clasificacion/lotes/
+datos/igds/lotes/
+__pycache__/
+
+# divi/: solo se versiona lo que se publica (bloque limpio, JS, CSV y logos)
+divi/bloque-divi-autocontenido.html
+divi/prueba/
+divi/index.html
+
+# Sistema y herramientas locales
+.DS_Store
+.claude/

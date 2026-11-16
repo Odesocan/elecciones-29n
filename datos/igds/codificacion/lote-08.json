@@ -1,0 +1,2355 @@
+{
+ "lote": "lote-08",
+ "unidades": {
+  "pp-057": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliaremos las incompatibilidades e inelegibilidades aplicables a los condenados por terrorismo, así como a los condenados por corrupción grave, delitos contra la vida",
+     "medida_sintesis": "Ampliar las incompatibilidades y causas de inelegibilidad de personas condenadas por delitos graves o declaradas en rebeldía",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-058": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos la Junta Electoral Central con medios propios y estables, y capacidad efectiva para hacer cumplir sus acuerdos durante la campaña.",
+     "medida_sintesis": "Reforzar la Junta Electoral Central con medios propios y capacidad para hacer cumplir sus acuerdos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-059": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "No habrá cesiones en materia de igualdad básica, Hacienda general, Seguridad Social, Defensa y Fuerzas Armadas, política exterior y política migratoria y fronteras",
+     "medida_sintesis": "No ceder competencias básicas del Estado a cambio de apoyos de investidura y evaluar cada transferencia por su efecto en la igualdad",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 0: compromiso concreto acompañado de la evaluación de las transferencias.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-060": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Derogaremos la Ley de Amnistía",
+     "medida_sintesis": "Derogar la Ley de Amnistía",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aprobaremos una nueva Ley del Indulto con criterios objetivos y transparentes.",
+     "medida_sintesis": "Aprobar una nueva Ley del Indulto que impida su uso como contraprestación política y excluya determinados delitos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-061": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Evitaremos que el suplicatorio pueda convertirse en un instrumento de impunidad ante la Justicia.",
+     "medida_sintesis": "Reformar el suplicatorio para que no sirva de instrumento de impunidad",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Corregiremos la extensión excesiva de los aforamientos para devolverlos a una concepción limitada y justificada",
+     "medida_sintesis": "Reducir la extensión de los aforamientos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-062": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Impulsaremos la obligación de publicar íntegramente los acuerdos de investidura, de legislatura y de apoyo parlamentario",
+     "medida_sintesis": "Establecer la obligación de publicar íntegramente los acuerdos de investidura, legislatura y apoyo parlamentario",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-063": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Regularemos un procedimiento formal de transición entre Gobiernos.",
+     "medida_sintesis": "Regular un procedimiento formal de traspaso entre Gobiernos con informe, plazos y responsables",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-064": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Estableceremos cauces obligatorios y regulares de interlocución e información sobre los principales asuntos de Estado",
+     "medida_sintesis": "Crear un estatuto institucional de la jefatura de la oposición con cauces obligatorios de interlocución con la Presidencia del Gobierno",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-065": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Promoveremos las reformas necesarias para que una segunda prórroga consecutiva provoque la disolución de las Cortes y la convocatoria de elecciones.",
+     "medida_sintesis": "Presentar cada año los Presupuestos y reformar la ley para que una segunda prórroga consecutiva obligue a convocar elecciones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-066": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "El Senado examinará cada año la ejecución de los Presupuestos Generales del Estado",
+     "medida_sintesis": "Atribuir al Senado el control anual de la ejecución presupuestaria, de los fondos europeos y de las transferencias autonómicas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-067": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ningún candidato podrá haber ocupado cargos políticos durante los cinco años anteriores y estableceremos un régimen estricto de incompatibilidades.",
+     "medida_sintesis": "Exigir a las candidaturas al Tribunal Constitucional cinco años sin cargo político y un régimen estricto de incompatibilidades",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Ningún magistrado participará en la decisión sobre la constitucionalidad de una norma en cuya elaboración o impulso haya participado desde el Gobierno",
+     "medida_sintesis": "Impedir que integrantes del Tribunal Constitucional decidan sobre normas en cuya elaboración participaron desde el Gobierno",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-068": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Los recursos de inconstitucionalidad contra leyes que afecten a derechos fundamentales se resolverán en noventa días.",
+     "medida_sintesis": "Fijar un plazo de noventa días para resolver los recursos de inconstitucionalidad sobre derechos fundamentales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Ampliaremos el recurso previo de inconstitucionalidad a las leyes orgánicas sobre los poderes del Estado y las instituciones de relevancia constitucional.",
+     "medida_sintesis": "Ampliar el recurso previo de inconstitucionalidad a las leyes orgánicas sobre los poderes del Estado",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Se publicarán los asuntos pendientes, las normas de reparto y el sentido del voto de cada magistrado una vez resuelto el asunto.",
+     "medida_sintesis": "Publicar los asuntos pendientes, las normas de reparto y el voto de cada integrante del Tribunal Constitucional",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "El Tribunal aprobará en seis meses un código ético que proteja el secreto de sus deliberaciones y fije consecuencias para las filtraciones.",
+     "medida_sintesis": "Aprobar en seis meses un código ético del Tribunal Constitucional sobre el secreto de las deliberaciones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Ampliaremos en la ley las causas de abstención y recusación de los magistrados.",
+     "medida_sintesis": "Ampliar por ley las causas de abstención y recusación en el Tribunal Constitucional",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Posible solapamiento con la causa de abstención de pp-067. Propuesta: mantenerla como medida propia porque amplía también la recusación y no se limita a ese supuesto.",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-069": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reformaremos la legislación procesal y la Ley Orgánica del Tribunal Constitucional para delimitar con claridad qué recursos de amparo admite",
+     "medida_sintesis": "Reformar la ley procesal y la del Tribunal Constitucional para delimitar el recurso de amparo frente al Tribunal Supremo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-070": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos un nuevo Estatuto del Ministerio Fiscal.",
+     "medida_sintesis": "Aprobar un nuevo Estatuto del Ministerio Fiscal con mandato único de cinco años para la Fiscalía General e informe vinculante para su nombramiento",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-071": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos el Consejo Fiscal para revisar las órdenes controvertidas y proteger la autonomía profesional.",
+     "medida_sintesis": "Reforzar el Consejo Fiscal para revisar las órdenes controvertidas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Regularemos el reparto de asuntos y la resolución de discrepancias.",
+     "medida_sintesis": "Regular el reparto de asuntos y la resolución de discrepancias en la Fiscalía",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Los nombramientos y ascensos responderán a criterios objetivos y necesitarán el respaldo del Consejo Fiscal.",
+     "medida_sintesis": "Someter los nombramientos y ascensos fiscales a criterios objetivos y al respaldo del Consejo Fiscal",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "La Fiscalía gestionará su presupuesto y su organización interna con autonomía.",
+     "medida_sintesis": "Dar autonomía presupuestaria y organizativa a la Fiscalía",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Sus comunicaciones con el Gobierno serán escritas y públicas, salvo las materias legalmente reservadas.",
+     "medida_sintesis": "Hacer escritas y públicas las comunicaciones entre la Fiscalía y el Gobierno",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-072": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Los jueces y magistrados de todas las categorías elegirán a los doce vocales judiciales del Consejo General del Poder Judicial.",
+     "medida_sintesis": "Reformar la elección del Consejo General del Poder Judicial, con vocalías judiciales elegidas por la carrera judicial y renovación sin bloqueos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Extenderemos a todos los vocales la incompatibilidad por haber ocupado cargos políticos en los cinco años anteriores a su elección.",
+     "medida_sintesis": "Extender a todas las vocalías del Consejo General del Poder Judicial la incompatibilidad por cargo político en los cinco años previos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Las plazas del Tribunal Supremo se cubrirán por concurso reglado de méritos, con decisiones motivadas y públicas",
+     "medida_sintesis": "Cubrir las plazas del Tribunal Supremo por concurso reglado de méritos sin computar servicios especiales por cargo político",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "jueces y fiscales que hayan ocupado cargos políticos no podrán volver a juzgar ni a ejercer la acusación hasta cinco años después",
+     "medida_sintesis": "Impedir durante cinco años que el personal judicial y fiscal que ocupó cargos políticos vuelva a juzgar o a acusar",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-073": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos en la Ley Orgánica del Poder Judicial su amparo frente a las presiones políticas",
+     "medida_sintesis": "Reforzar en la Ley Orgánica del Poder Judicial el amparo de la judicatura frente a presiones políticas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "mejoraremos los medios materiales y tecnológicos de juzgados y tribunales.",
+     "medida_sintesis": "Mejorar los medios materiales y tecnológicos de juzgados y tribunales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Fortaleceremos la protección penal frente a amenazas, coacciones e injurias graves y estableceremos sanciones administrativas para intimidaciones que no constituyan delito.",
+     "medida_sintesis": "Reforzar la protección penal y administrativa de la judicatura frente a amenazas e intimidaciones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Los Reglamentos de las Cámaras impedirán citarlos para responder por sus actuaciones judiciales.",
+     "medida_sintesis": "Impedir en los Reglamentos de las Cámaras la citación del personal judicial por sus actuaciones judiciales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-074": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reformaremos su Reglamento para que el ejercicio de acciones judiciales en nombre de un miembro del Gobierno requiera una justificación expresa del interés general",
+     "medida_sintesis": "Reformar el Reglamento de la Abogacía del Estado para limitar su uso en pleitos particulares de altos cargos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-075": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Su dirección será científica y profesional, reduciremos los puestos de confianza y su presidente tendrá un mandato propio, que no dependerá de quien gobierne.",
+     "medida_sintesis": "Refundar la gobernanza del CIS con dirección profesional, menos puestos de confianza y mandato propio de la presidencia",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Auditaremos su actividad desde 2018",
+     "medida_sintesis": "Auditar la actividad del CIS desde 2018",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "recuperaremos las series históricas y daremos mayor transparencia a sus métodos, muestras y datos.",
+     "medida_sintesis": "Recuperar las series históricas del CIS y dar transparencia a sus métodos, muestras y datos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "El CIS concentrará su trabajo en conocer los grandes cambios de la sociedad española",
+     "medida_sintesis": "Orientar el trabajo del CIS al estudio de los grandes cambios sociales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin norma, dotación ni otro instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "El Congreso de los Diputados podrá requerirle cualquier informe o investigación que se esté realizando o se haya realizado en cualquier momento.",
+     "medida_sintesis": "Permitir al Congreso requerir al CIS cualquier informe o investigación",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-076": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "INICIAREMOS EN LOS PRIMEROS CIEN DÍAS LA REFORMA DE RTVE Y EFE PARA RECUPERAR SU INDEPENDENCIA",
+     "medida_sintesis": "Iniciar en los primeros cien días la reforma de RTVE y EFE para asegurar su independencia y dirección profesional",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 0: reforma con plazo.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-077": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforzaremos la protección de los periodistas, de sus fuentes y del secreto profesional.",
+     "medida_sintesis": "Reforzar la protección de periodistas, de sus fuentes y del secreto profesional",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin norma, dotación ni otro instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-078": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Fijaremos por ley el mandato del presidente del INE y limitaremos su cese anticipado a causas tasadas.",
+     "medida_sintesis": "Fijar por ley el mandato de la presidencia del INE, con cese tasado e independencia de métodos y calendarios",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-079": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Modificaremos los requisitos para nombrar a su presidente",
+     "medida_sintesis": "Endurecer los requisitos para presidir el Consejo de Estado, con cinco años sin cargo político y comparecencia previa en el Congreso",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "el Consejo de Estado dictaminará antes de su aprobación todos los anteproyectos de ley orgánica y publicará sus dictámenes.",
+     "medida_sintesis": "Exigir dictamen previo del Consejo de Estado sobre todos los anteproyectos de ley orgánica y publicar sus dictámenes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-080": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Tendrá acceso en tiempo real a los datos de contratación, subvenciones, financiación política y grandes transferencias de fondos públicos.",
+     "medida_sintesis": "Reforzar la independencia y la capacidad del Tribunal de Cuentas con acceso en tiempo real a datos de contratación y subvenciones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Dotaremos de mayor transparencia y publicidad a sus decisiones.",
+     "medida_sintesis": "Dar mayor transparencia y publicidad a las decisiones del Tribunal de Cuentas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-081": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos un marco común de gobernanza para los reguladores y las autoridades independientes",
+     "medida_sintesis": "Aprobar un marco común de gobernanza de reguladores y autoridades independientes con dirección profesional sin cargos políticos recientes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-082": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Restableceremos las penas por malversación.",
+     "medida_sintesis": "Restablecer las penas por malversación",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reforzaremos la Oficina de Recuperación y Gestión de Activos para localizar y administrar los bienes procedentes de los delitos",
+     "medida_sintesis": "Reforzar la Oficina de Recuperación y Gestión de Activos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Incorporaremos sin demora a la legislación española el marco penal europeo contra la corrupción",
+     "medida_sintesis": "Trasponer el marco penal europeo contra la corrupción",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-084": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Implantaremos un sistema único e interoperable de trazabilidad digital de los contratos, las subvenciones y las grandes transferencias de fondos públicos",
+     "medida_sintesis": "Implantar un sistema único de trazabilidad digital de contratos, subvenciones y transferencias públicas con la titularidad real de las adjudicatarias",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reforzaremos los controles de conflictos de interés, la protección efectiva de los informantes y el cruce de información entre órganos de control",
+     "medida_sintesis": "Reforzar los controles de conflictos de interés, la protección de informantes y el cruce de información entre órganos de control",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-085": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Transformaremos el Consejo de Transparencia y Buen Gobierno en una Autoridad Independiente de Transparencia y Buen Gobierno",
+     "medida_sintesis": "Convertir el Consejo de Transparencia en una Autoridad Independiente con potestad sancionadora",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Exigiremos que toda denegación de información esté motivada de forma expresa.",
+     "medida_sintesis": "Exigir motivación expresa de toda denegación de acceso a la información pública",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-086": {
+   "sin_medidas": "Lema y aspiración sin objeto de política concreto (R3): engloba los objetivos sobre las Cortes que desarrollan las medidas 87 a 89.",
+   "medidas": []
+  },
+  "pp-087": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reformaremos los Reglamentos del Congreso y del Senado para limitar las prórrogas sucesivas de los plazos",
+     "medida_sintesis": "Reformar los Reglamentos de las Cámaras para limitar las prórrogas de plazos y fijar plazos máximos para las proposiciones del Senado",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "No se admitirán enmiendas ajenas al contenido de las leyes.",
+     "medida_sintesis": "Prohibir las enmiendas ajenas al contenido de las leyes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Cada ley explicará el coste que impone a ciudadanos y empresas.",
+     "medida_sintesis": "Incluir en cada ley el coste que impone a la ciudadanía y a las empresas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Las que no cumplan su objetivo se corregirán o se derogarán.",
+     "medida_sintesis": "Corregir o derogar las leyes que no cumplan su objetivo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Las decisiones de las Mesas serán públicas.",
+     "medida_sintesis": "Hacer públicas y motivadas las decisiones de las Mesas, con refuerzo de los servicios jurídicos y plazo para las reconsideraciones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-088": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reservaremos el decreto-ley a situaciones verdaderamente extraordinarias y urgentes.",
+     "medida_sintesis": "Restringir el decreto-ley a situaciones extraordinarias e impedir aprobar de nuevo uno rechazado en el mismo periodo de sesiones",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Limitaremos también el recurso a la urgencia, la lectura única y los procedimientos excepcionales que reducen el debate parlamentario.",
+     "medida_sintesis": "Limitar la tramitación urgente, la lectura única y los procedimientos parlamentarios excepcionales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-089": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aseguraremos que el presidente y los miembros del Gobierno atiendan sin subterfugios las comparecencias acordadas por el Congreso y el Senado",
+     "medida_sintesis": "Obligar al Gobierno a comparecer cuando lo acuerden las Cámaras, con justificación de ausencias y consecuencias reglamentarias",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "El debate sobre el Estado de la Nación se celebrará en cada año completo de legislatura.",
+     "medida_sintesis": "Celebrar el debate sobre el Estado de la Nación cada año de legislatura",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-090": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Regularemos la actividad de los lobbies ante el Gobierno y las Cortes.",
+     "medida_sintesis": "Regular los grupos de interés con un Registro Nacional público y obligatorio",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-091": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Sustituiremos la Ley de Secretos Oficiales de 1968 por una nueva regulación con criterios claros para clasificar información, plazos máximos de desclasificación",
+     "medida_sintesis": "Sustituir la Ley de Secretos Oficiales por una regulación con plazos máximos de desclasificación y control judicial",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-092": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Cambiar de Comunidad Autónoma no significará perder prestaciones, empezar de cero un trámite o recibir peor atención.",
+     "medida_sintesis": "Garantizar que cambiar de comunidad autónoma no suponga perder prestaciones, con refuerzo de la Alta Inspección del Estado",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: el instrumento es la supervisión de la Alta Inspección, no una norma que reconozca la continuidad de las prestaciones. DES 0: no nombra un servicio público concreto ni una regulación de precio.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: medida de organización del Estado que se refiere a la continuidad de prestaciones sin concretar cuáles, por lo que admite varias áreas. Propuesta: codificar el acceso en OTR con UNI y NDI 1; valorar 0 en las cuatro si se considera solo control administrativo.",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-100": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Convocaremos la Conferencia de Presidentes al inicio de la legislatura para sentar las bases de un nuevo modelo de financiación autonómica",
+     "medida_sintesis": "Acordar de forma multilateral un nuevo modelo de financiación autonómica, con la Conferencia de Presidentes y su aprobación en las Cortes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Se aprobará un fondo de nivelación transitorio, financiado con recursos del Estado",
+     "medida_sintesis": "Crear un fondo de nivelación transitorio para las comunidades autónomas hasta la entrada en vigor del nuevo sistema",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "garantizará recursos suficientes para prestar los servicios públicos en condiciones de igualdad, de forma muy particular en el ámbito de la sanidad.",
+     "medida_sintesis": "Ampliar los recursos autonómicos para prestar los servicios públicos, en especial la sanidad, en condiciones de igualdad",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es financiación, no reconoce un derecho ni fija una obligación de provisión.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: financiación autonómica general que nombra los servicios públicos y la sanidad. Propuesta: codificar el acceso como financiación de un servicio público, con el criterio de cc-014, en OTR; alternativa SAN, o 0 en las cuatro si se considera organización del Estado.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Las autonomías podrán definir sus propias políticas tributarias dentro de sus competencias y responderán de sus gastos.",
+     "medida_sintesis": "Reconocer autonomía tributaria a las comunidades autónomas con responsabilidad sobre su gasto",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-101": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ninguna de las Comunidades que actualmente integran el régimen común saldrá de él ni habrá nuevos regímenes singulares negociados bilateralmente",
+     "medida_sintesis": "No permitir salidas del régimen común de financiación ni nuevos regímenes singulares bilaterales",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 0: compromiso concreto de no hacer.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-102": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Trabajaremos de forma multilateral, en el Consejo de Política Fiscal y Financiera y con las mismas reglas para todas, en una reestructuración de la deuda",
+     "medida_sintesis": "Reestructurar de forma multilateral la deuda autonómica manteniendo la responsabilidad de cada comunidad",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Retiraremos de forma gradual los mecanismos extraordinarios de financiación a medida que las Comunidades recuperen su autonomía financiera",
+     "medida_sintesis": "Retirar gradualmente los mecanismos extraordinarios de financiación autonómica",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Los mecanismos excepcionales para situaciones de crisis tendrán reglas previas, transparentes y comunes para todos.",
+     "medida_sintesis": "Fijar reglas previas y comunes para los mecanismos de crisis, con tratamiento específico ante emergencias y catástrofes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-103": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Pondremos en marcha un nuevo sistema de financiación local, estable, equitativo y coordinado con el autonómico.",
+     "medida_sintesis": "Crear un nuevo sistema de financiación local que revise transferencias y tributos según la población estacional y la dispersión",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "La financiación local premiará a los ayuntamientos que faciliten suelo y vivienda asequible.",
+     "medida_sintesis": "Premiar en la financiación local a los ayuntamientos que faciliten suelo y vivienda asequible",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es un incentivo financiero, no reconoce un derecho ni fija una obligación. DES 0: incentivo a la oferta sin regulación de precio ni servicio público nombrado.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: incentivo a los ayuntamientos con efecto indirecto en el acceso a la vivienda. Propuesta: VIV con UNI y NDI 1; valorar OTR con 0 en las cuatro si se considera solo financiación local.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reformaremos la Ley de Residuos para que los ayuntamientos puedan decidir sobre la tasa.",
+     "medida_sintesis": "Reformar la Ley de Residuos para que los ayuntamientos decidan sobre la tasa de residuos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Admite dos áreas: fiscalidad local (OTR) y residuos (MAM). Propuesta: OTR por tratarse de una decisión tributaria, con REG 0 porque el texto no dice que se suprima ninguna obligación ambiental.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Trabajaremos con los ayuntamientos que se encuentran en una peor situación financiera, estableciendo un nuevo marco para su deuda",
+     "medida_sintesis": "Establecer un nuevo marco para la deuda de los ayuntamientos con peor situación financiera",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Revisaremos las competencias impropias que han ido asumiendo los ayuntamientos, regulándolas y dotándolas de financiación donde resulte necesario.",
+     "medida_sintesis": "Regular y financiar las competencias impropias asumidas por los ayuntamientos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-104": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Aprobaremos el Estatuto de los Pequeños Municipios para reducir su burocracia, agilizar la contratación y facilitar que compartan personal y servicios.",
+     "medida_sintesis": "Aprobar un Estatuto de los Pequeños Municipios para simplificar su gestión",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aumentaremos el apoyo de las diputaciones en la gestión y la prestación de servicios.",
+     "medida_sintesis": "Aumentar el apoyo de las diputaciones a la gestión municipal",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Ninguna obligación nueva del Estado llegará a un ayuntamiento sin financiación para cumplirla.",
+     "medida_sintesis": "Acompañar de financiación toda nueva obligación estatal para los ayuntamientos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-105": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Destinaremos ayudas directas para los municipios de menos de 250 habitantes, para sostener sus servicios básicos",
+     "medida_sintesis": "Dar ayudas directas a los municipios de menos de 250 habitantes para sostener servicios básicos como el agua y los residuos",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: es una ayuda o dotación, no reconoce un derecho ni fija una obligación de provisión.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: financiación municipal que nombra servicios básicos como el abastecimiento de agua. Propuesta: codificar el acceso como financiación de un servicio público en OTR; valorar 0 en las cuatro si se considera financiación local general.",
+     "repite": ""
+    }
+   ]
+  },
+  "pp-127": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Propondremos la reforma del Reglamento de la Cámara para que los debates parlamentarios se desarrollen en la lengua común de todos los españoles.",
+     "medida_sintesis": "Reformar el Reglamento del Congreso para que los debates sean en castellano, manteniendo las lenguas cooficiales en el Senado",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "el castellano será la lengua de trabajo en los órganos de máximo nivel de cooperación entre el Gobierno de España y las Comunidades Autónomas",
+     "medida_sintesis": "Usar el castellano como lengua de trabajo en los órganos de cooperación entre el Gobierno y las comunidades autónomas",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-025": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Poner en marcha todas las medidas necesarias para garantizar la calidad de los servicios públicos, la igualdad y los derechos de todos los españoles",
+     "medida_sintesis": "Garantizar la calidad y la igualdad territorial de los servicios públicos, en especial educación y sanidad",
+     "area": "OTR",
+     "uni": 1,
+     "exi": 0,
+     "des": 1,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "EXI 0: se formula sin norma, estándar ni plazo. DEC 1: «todas las medidas necesarias» sin instrumento concreto.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: garantía genérica de igualdad territorial de los servicios públicos que nombra educación y sanidad junto a seguridad y justicia, por lo que admite varias áreas; «todos los españoles» se trata como destinatario genérico. Propuesta: codificar el acceso en OTR, con el mismo criterio que las demás medidas de igualdad territorial de servicios públicos del lote.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-036": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Toda actuación administrativa deberá justificar su existencia, su utilidad y su proporcionalidad.",
+     "medida_sintesis": "Revisar de forma permanente toda actuación administrativa para suprimir o simplificar trámites",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-039": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Derecho a ser atendido presencialmente en cualquier oficina pública de forma inmediata sin necesidad de solicitar turno por internet.",
+     "medida_sintesis": "Reconocer el derecho a la atención presencial inmediata sin cita previa en cualquier oficina pública",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: la atención presencial sin cita afecta también a oficinas que gestionan prestaciones sociales, pero no nombra ningún derecho social. Propuesta: mantener 0 en las cuatro como organización administrativa; valorar codificar el acceso si se aplica a oficinas de prestaciones.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-040": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Cada ley nueva tendrá que identificar, en su propio texto, qué tres normas vigentes deroga.",
+     "medida_sintesis": "Obligar a que cada ley nueva derogue tres normas vigentes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-041": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Si la Administración no contesta en plazo, el ciudadano ha de poder seguir adelante con su proyecto.",
+     "medida_sintesis": "Establecer el silencio administrativo positivo como regla general",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "si una actividad no entraña riesgo, basta con declararla para empezar a ejercerla",
+     "medida_sintesis": "Generalizar la declaración responsable para iniciar actividades sin riesgo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "nacionalidad, residencia, permisos de trabajo a extranjeros y, en general, inmigración. Ahí el silencio jamás jugará a favor de quien pretenda burlar nuestras leyes.",
+     "medida_sintesis": "Excluir del silencio positivo los procedimientos de nacionalidad, residencia, permisos de trabajo de personas extranjeras e inmigración",
+     "area": "MIG",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: solo restringe el acceso, no lo provee. REG 1: excluye de la regla general los procedimientos de la población extranjera.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: la excepción no recorta una garantía vigente, porque el silencio ya suele ser negativo en esos procedimientos, pero introduce un trato diferenciado por origen frente a la nueva regla general. Propuesta: REG 1 por exclusión explícita de la población extranjera; valorar REG 0 si se entiende que solo mantiene la situación actual.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-043": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Para compensar la bajada masiva de impuestos, se recortarán todos los gastos superfluos de la Administración hasta el mínimo imprescindible.",
+     "medida_sintesis": "Recortar el gasto superfluo de la Administración mediante una auditoría sistemática con resultados públicos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reducir al mínimo estrictamente necesario el tamaño de la Administración Pública.",
+     "medida_sintesis": "Reducir el tamaño de la Administración Pública al mínimo necesario",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin norma, dotación ni otro instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reducir progresivamente hasta su eliminación total las subvenciones a partidos, sindicatos, patronales, ONGs, observatorios y otros organismos ideológicos.",
+     "medida_sintesis": "Eliminar progresivamente las subvenciones a partidos, sindicatos, patronales, ONG, observatorios y otras entidades",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera de REG: las subvenciones a sindicatos y ONG pueden financiar servicios y representación vinculados a derechos sociales, pero el texto no nombra ninguna prestación ni servicio. Propuesta: REG 0 por tratarse de reducción de gasto general.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-045": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Revisar y reducir las sanciones económicas desproporcionadas, garantizando que su cuantía responda a la gravedad de la infracción y no a criterios recaudatorios.",
+     "medida_sintesis": "Limitar la cuantía de las multas de tráfico y estacionamiento que no comprometen gravemente la seguridad vial",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-071": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Prohibición del burka y el niqab en todos los espacios públicos y lugares donde se presten servicios públicos, con particular atención a centros educativos",
+     "medida_sintesis": "Prohibir el burka y el niqab en espacios públicos y en lugares de prestación de servicios públicos, incluidos los centros educativos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: la prohibición alcanza a los lugares donde se prestan servicios públicos y a los centros educativos, por lo que puede condicionar el acceso a la educación y a otros servicios de las mujeres que visten estas prendas; admite también el área IGU. Propuesta: OTR con REG 0 porque el texto prohíbe una prenda y no excluye de forma explícita por origen o sexo; valorar REG 1 si se entiende como exclusión indirecta.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-080": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reducción de la edad de responsabilidad penal del menor y plantear la eliminación de inimputabilidad para ciertos delitos violentos",
+     "medida_sintesis": "Rebajar la edad de responsabilidad penal de menores y estudiar suprimir su inimputabilidad en delitos violentos graves",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: la rebaja de la edad penal afecta al régimen de protección de la infancia, pero el libro sitúa la justicia penal fuera de los derechos sociales. Propuesta: OTR con REG 0; valorar REG 1 si se considera un recorte de una garantía de protección de la infancia.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-081": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Ampliación de la prisión permanente revisable",
+     "medida_sintesis": "Ampliar la prisión permanente revisable",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-082": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Asegurar que los directores generales de la Guardia Civil y del Cuerpo Nacional de Policía sean personas con amplia experiencia",
+     "medida_sintesis": "Exigir que las direcciones generales de la Guardia Civil y de la Policía Nacional recaigan en perfiles con experiencia en seguridad y no en cargos de partido",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-084": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "programas de modernización y actualización formativa y tecnológica",
+     "medida_sintesis": "Aumentar la inversión y los programas de modernización y formación de la Guardia Civil y la Policía Nacional",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reconocimiento de la profesión y servicio en la Guardia Civil y el Cuerpo Nacional de Policía como profesión de riesgo.",
+     "medida_sintesis": "Equiparar los salarios de la Guardia Civil y la Policía Nacional y reconocer su profesión como de riesgo",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: mejora retributiva y reconocimiento sin norma que concrete un derecho exigible ni plazo. DES 0: no es provisión de un servicio público ni regulación de precio para todas las personas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: condiciones laborales de un cuerpo de seguridad del Estado; admite EMP y OTR. Propuesta: EMP por tratarse de salario y condiciones de trabajo de un colectivo, con UNI y NDI 1; valorar OTR con 0 en las cuatro si se considera organización de la seguridad.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-085": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "medios materiales y formación frente a los módulos conflictivos",
+     "medida_sintesis": "Dimensionar las plantillas de prisiones y dotar de medios materiales y formación frente a los módulos conflictivos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "equiparación salarial y sueldos dignos",
+     "medida_sintesis": "Equiparar los salarios del personal funcionario de prisiones y reconocer su profesión como de riesgo",
+     "area": "EMP",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 1,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "EXI 0: mejora retributiva y reconocimiento sin norma que concrete un derecho exigible ni plazo. DES 0: no es provisión de un servicio público ni regulación de precio para todas las personas.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: condiciones laborales de el personal funcionario de prisiones; admite EMP y OTR. Propuesta: EMP por tratarse de salario y condiciones de trabajo de un colectivo, con UNI y NDI 1; valorar OTR con 0 en las cuatro si se considera organización de la seguridad.",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-086": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Refuerzo urgente de los medios humanos y recursos materiales, técnicos y operativos dedicados a la lucha contra el narcotráfico y la criminalidad organizada",
+     "medida_sintesis": "Reforzar los medios humanos y materiales contra el narcotráfico y la criminalidad organizada",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Restablecimiento inmediato del Organismo de Coordinación del Narcotráfico (OCON) Sur.",
+     "medida_sintesis": "Restablecer el Organismo de Coordinación del Narcotráfico en el sur",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-090": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Mejorar la prevención, preparación, coordinación y respuesta ante incendios, inundaciones, catástrofes naturales y emergencias de especial gravedad",
+     "medida_sintesis": "Reforzar el Sistema Nacional de Protección Civil en prevención y respuesta ante incendios, inundaciones y catástrofes",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-100": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Modificar la Ley Orgánica del Poder Judicial para que los doce vocales de procedencia judicial del Consejo General del Poder Judicial sean elegidos",
+     "medida_sintesis": "Reformar la Ley Orgánica del Poder Judicial para que la carrera judicial elija a las doce vocalías judiciales del Consejo General del Poder Judicial",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Garantizar la idoneidad, imparcialidad, competencia profesional e independencia del Fiscal General del Estado.",
+     "medida_sintesis": "Garantizar la idoneidad e independencia de la Fiscalía General del Estado",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin norma, dotación ni otro instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-101": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Velar por el respeto del papel funcional del Tribunal Supremo y evitar que el Tribunal Constitucional actúe como un tribunal extraordinario por encima del mismo.",
+     "medida_sintesis": "Evitar que el Tribunal Constitucional actúe como instancia por encima del Tribunal Supremo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin norma, dotación ni otro instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-102": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforma integral del sistema judicial que deje atrás los desvaríos ideológicos de este Gobierno",
+     "medida_sintesis": "Reformar de forma integral el sistema judicial para una justicia rápida y eficiente",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Aumento de las inversiones en sedes judiciales y profesionales de la justicia.",
+     "medida_sintesis": "Aumentar la inversión en sedes judiciales y en profesionales de la justicia",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-103": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Recuperar el delito de sedición",
+     "medida_sintesis": "Recuperar el delito de sedición",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "agravar el tipo delictivo de la malversación de caudales públicos",
+     "medida_sintesis": "Agravar el delito de malversación",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "prohibir los indultos para delitos relacionados con la corrupción política, la forma política del Estado o la integridad territorial.",
+     "medida_sintesis": "Prohibir los indultos por corrupción política y por delitos contra la forma política del Estado o la integridad territorial",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Ilegalización de los partidos políticos, asociaciones u organizaciones de cualquier tipo que atenten contra la soberanía e independencia de España",
+     "medida_sintesis": "Ilegalizar partidos y organizaciones que atenten contra la soberanía, la unidad o la integridad territorial de España",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-105": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Las penas por las ofensas y ultrajes a España y sus símbolos o emblemas deben agravarse para que ninguna afrenta a ellos quede impune.",
+     "medida_sintesis": "Agravar las penas por ofensas y ultrajes a España y a sus símbolos",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-106": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Mayores medios y recursos a los juzgados y las unidades de la Guardia Civil y del Cuerpo Nacional de Policía especializadas",
+     "medida_sintesis": "Dotar de más medios a los juzgados y a las unidades policiales especializadas en corrupción",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-107": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Auditoría integral de todas las Administraciones con el fin destapar cualquier indicio de corrupción y llevarlo ante la Justicia.",
+     "medida_sintesis": "Auditar de forma integral todas las Administraciones para detectar indicios de corrupción",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Posible repetición de la auditoría integral de las Administraciones de vox-043, que allí se dirige al gasto superfluo. Propuesta: mantenerla como medida propia por su objeto distinto, la detección de la corrupción.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Reforzaremos la responsabilidad patrimonial personal de los cargos públicos condenados por delitos de corrupción",
+     "medida_sintesis": "Hacer responder con todo su patrimonio a los cargos públicos condenados por corrupción hasta reparar el perjuicio",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "alta",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-108": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Los bienes inmuebles del Estado han de estar al servicio de las necesidades de la vivienda",
+     "medida_sintesis": "Auditar el patrimonio inmobiliario del Estado para destinarlo a vivienda y servicios públicos, sin cederlo para alojar a personas migrantes en situación irregular",
+     "area": "VIV",
+     "uni": 1,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 1,
+     "dec": 0,
+     "justificacion": "EXI 0: auditoría y orientación del patrimonio sin norma ni obligación de provisión. DES 0: no dice cómo se provee la vivienda ni nombra vivienda pública con precio regulado. NDI 0: excluye la cesión de inmuebles para alojar a personas migrantes en situación irregular. REG 1: introduce una exclusión por situación administrativa.",
+     "confianza": "media",
+     "revisar": 1,
+     "motivo_revision": "Caso frontera: la unidad orienta el patrimonio del Estado a la vivienda y, a la vez, excluye su cesión para acoger a personas migrantes en situación irregular. Propuesta: una sola medida en VIV que codifica el acceso con NDI 0 y REG 1, según la regla de acceso con exclusión; alternativa: separar una medida MIG solo restrictiva.",
+     "repite": ""
+    },
+    {
+     "fragmento": "Plan Nacional de Rehabilitación del Patrimonio Inmobiliario para la revitalización y creación de empleo.",
+     "medida_sintesis": "Aprobar un Plan Nacional de Rehabilitación del Patrimonio Inmobiliario del Estado para la revitalización y el empleo",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-110": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Reforma integral de la Radio y la Televisión pública para que preste un verdadero servicio público informando con objetividad y pluralidad.",
+     "medida_sintesis": "Reformar de forma integral RTVE para un servicio público objetivo y plural",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 0,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    },
+    {
+     "fragmento": "Garantizar el derecho a comunicar o recibir libremente información veraz.",
+     "medida_sintesis": "Garantizar el derecho a comunicar y recibir información veraz",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin norma, dotación ni otro instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  },
+  "vox-111": {
+   "sin_medidas": "",
+   "medidas": [
+    {
+     "fragmento": "Garantizar la libertad de expresión de todos los españoles frente a la deriva censora del Gobierno de Sánchez",
+     "medida_sintesis": "Garantizar la libertad de expresión frente a la censura",
+     "area": "OTR",
+     "uni": 0,
+     "exi": 0,
+     "des": 0,
+     "ndi": 0,
+     "reg": 0,
+     "dec": 1,
+     "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: sin norma, dotación ni otro instrumento concreto.",
+     "confianza": "media",
+     "revisar": 0,
+     "motivo_revision": "",
+     "repite": ""
+    }
+   ]
+  }
+ }
+}

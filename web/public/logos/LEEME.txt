@@ -1,0 +1,4 @@
+Logos OFICIALES de cada candidatura (PNG, fondo transparente, 240 px de alto):
+  logo-cc.png (Coalición Canaria + Primero Canarias, juntos) · logo-pp.png · logo-psoe.png · logo-upc.png · logo-vox.png
+Si falta alguno, la herramienta muestra un cuadrado con el color del partido.
+No se dibujan imitaciones: solo archivos oficiales facilitados por el equipo.

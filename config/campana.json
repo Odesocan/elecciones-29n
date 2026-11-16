@@ -1,0 +1,36 @@
+{
+  "_leeme": [
+    "Ajustes editoriales y de publicación. Tras cambiar algo: «python3 maestro.py divi».",
+    "eleccion: fecha y horario de los colegios (hora canaria; el 29-N Canarias está en UTC+0, de ahí la «Z»).",
+    "boceto.activo: muestra «logo» en los huecos sin logo. boceto.aviso: franja superior; \"\" para quitarla.",
+    "  Cuando el equipo haya revisado la clasificación: activo=false y cambiar o vaciar el aviso.",
+    "fecha_comprobacion: última vez que se buscaron los programas pendientes (se muestra en PSOE/UPC).",
+    "publicacion.base_url: URL pública de la carpeta divi/ terminada en «/». Con ella se genera el bloque limpio. Desde el 16-11-2026 es GitHub Pages del repositorio público.",
+    "  · GitHub Pages (en uso): https://odesocan.github.io/elecciones-29n/divi/ · cada git push actualiza la web en 1-2 minutos, sin purgar cachés.",
+    "  · Alternativas: jsDelivr (https://cdn.jsdelivr.net/gh/Odesocan/elecciones-29n@main/divi/) o la Mediateca de WordPress.",
+    "publicacion.repositorio y publicacion.web: el repositorio público y la página publicada (index.html de la raíz, que genera «maestro.py divi»).",
+    "publicacion.margen_cabecera: alto en px de la cabecera fija del tema Divi + 16 (cabecera de 80 px → 96).",
+    "publicacion.hero: false si la portada ya lleva el cartel de campaña encima del módulo."
+  ],
+  "eleccion": {
+    "fecha": "2026-11-29",
+    "apertura_colegios": "2026-11-29T09:00:00Z",
+    "cierre_colegios": "2026-11-29T20:00:00Z"
+  },
+  "boceto": {
+    "activo": true,
+    "aviso": "Boceto · Textos literales de los programas publicados · Clasificación temática preliminar, pendiente de revisión"
+  },
+  "fecha_comprobacion": "16 de noviembre de 2026",
+  "articulos_visibles": 3,
+  "enlaces": {
+    "contacto": "https://odesocan.org/contacta/"
+  },
+  "publicacion": {
+    "base_url": "https://odesocan.github.io/elecciones-29n/divi/",
+    "repositorio": "https://github.com/Odesocan/elecciones-29n",
+    "web": "https://odesocan.github.io/elecciones-29n/",
+    "margen_cabecera": 96,
+    "hero": true
+  }
+}

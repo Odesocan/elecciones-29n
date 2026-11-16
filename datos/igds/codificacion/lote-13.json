@@ -1,0 +1,1690 @@
+{
+  "lote": "lote-13",
+  "unidades": {
+    "psoe-142": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar un nuevo contrato social con los profesionales sanitarios, dignificando y potenciando todas las profesiones, mejorando sus condiciones laborales",
+          "medida_sintesis": "Impulsar un nuevo contrato social con el personal sanitario para mejorar sus condiciones laborales, estabilidad, formación, conciliación, reconocimiento y participación en la gobernanza del sistema",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «impulsar» un contrato social sin norma, estándar ni derecho exigible; es declarativa. DES 0: no regula condiciones para todas las personas trabajadoras ni es provisión pública.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-143": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar el derecho a la atención psicológica gratuita en la sanidad pública, con una primera consulta en un plazo máximo de 30 días",
+          "medida_sintesis": "Derecho a la atención psicológica gratuita en la sanidad pública, con primera consulta en un plazo máximo de 30 días y más profesionales de psicología clínica en el Sistema Nacional de Salud",
+          "area": "SME",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: derecho a la atención psicológica gratuita en la sanidad pública para toda la población, con plazo máximo de 30 días.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "ampliaremos los programas de salud mental infantojuvenil y prevención del suicidio, con atención inmediata para los casos urgentes.",
+          "medida_sintesis": "Ampliar los programas de salud mental infantojuvenil y de prevención del suicidio, con atención inmediata en los casos urgentes",
+          "area": "SME",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: amplía programas sin reconocer un derecho ni fijar un plazo cuantificado.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La «atención inmediata para los casos urgentes» puede leerse como estándar de tiempo de atención. Propuesta: EXI 0, porque se formula como ampliación de programas sin plazo cuantificado.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-144": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Consolidar el Plan VEO",
+          "medida_sintesis": "Consolidar el Plan VEO de atención visual infantil",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan, sin derecho reconocido ni estándar.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El programa presenta el Plan VEO como parte de la cartera del Sistema Nacional de Salud (psoe-p46) y también como esquema de ayuda directa para gafas y lentillas (psoe-137). Propuesta: DES 1 como prestación del Sistema Nacional de Salud; DES 0 si se trata como ayuda para comprar en el mercado.",
+          "repite": ""
+        },
+        {
+          "fragmento": "ampliar progresivamente su cobertura en otros tramos de edad a colectivos vulnerables.",
+          "medida_sintesis": "Ampliar progresivamente el Plan VEO a colectivos vulnerables de otros tramos de edad",
+          "area": "SAN",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: se limita a colectivos vulnerables. EXI 0: ampliación progresiva de un plan, sin derecho reconocido ni estándar.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Misma duda sobre la naturaleza del Plan VEO que en la medida anterior. Propuesta: DES 1 como prestación del Sistema Nacional de Salud.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-145": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar el acceso equitativo a medicamentos y terapias innovadoras, potenciando los fármacos estratégicos, genéricos y biosimilares",
+          "medida_sintesis": "Garantizar el acceso equitativo a medicamentos y terapias innovadoras, con más fármacos genéricos y biosimilares y mejor evaluación de su valor clínico",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «garantizar» sin norma, plazo ni prestación concreta; es declarativa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-146": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la participación de las organizaciones de pacientes en el SNS mediante un marco jurídico estable y específico.",
+          "medida_sintesis": "Marco jurídico para la participación de las organizaciones de pacientes en el Sistema Nacional de Salud",
+          "area": "SAN",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; es participación institucional. DEC 0: nombra un instrumento (un marco jurídico).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-147": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar la muerte digna y el ejercicio efectivo del derecho a la eutanasia, de acuerdo con la legislación vigente.",
+          "medida_sintesis": "Garantizar la muerte digna y el ejercicio efectivo del derecho a la eutanasia conforme a la ley vigente",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: remite a la ley vigente que reconoce la prestación de ayuda para morir en la sanidad pública, sin requisitos de renta.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Garantiza un derecho ya reconocido por ley sin añadir un instrumento nuevo. Propuesta: EXI 1, porque la medida se apoya en la ley que reconoce una prestación concreta; EXI 0 y DEC 1 si se exige que la medida aporte un instrumento propio.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-148": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar una Ley de Salud Digital, consolidando la interoperabilidad del sistema sanitario, la receta electrónica común y el despliegue del Espacio Europeo de Datos Sanitarios",
+          "medida_sintesis": "Ley de Salud Digital con interoperabilidad del sistema sanitario, receta electrónica común y Espacio Europeo de Datos Sanitarios",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: la ley regula herramientas de gestión y no reconoce un derecho de acceso ni fija un estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "y garantizar la movilidad sanitaria entre CCAA.",
+          "medida_sintesis": "Garantizar la movilidad sanitaria entre comunidades autónomas",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «garantizar» sin norma, plazo ni estándar; es declarativa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-149": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "adaptando el marco regulatorio de la crioconservación de ovocitos para blindar la capacidad de decisión de las mujeres sobre la conservación",
+          "medida_sintesis": "Adaptar la regulación de la crioconservación de ovocitos para asegurar la decisión de las mujeres sobre la conservación, el uso y el destino de sus óvulos",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: norma con contenido concreto que reconoce a todas las mujeres la decisión sobre sus óvulos y regula las condiciones del servicio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Regula derechos de decisión sobre un servicio de salud reproductiva prestado en buena parte en el mercado. Propuesta: EXI 1 y DES 1 por regulación obligatoria de las condiciones del servicio; EXI 0 y DES 0 si se entiende que no regula el acceso al servicio.",
+          "repite": ""
+        },
+        {
+          "fragmento": "además de actualizar la normativa de reproducción humana asistida conforme a los avances científicos.",
+          "medida_sintesis": "Actualizar la normativa de reproducción humana asistida conforme a los avances científicos",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: anuncia una actualización normativa sin contenido que reconozca un derecho o una obligación. DES 0: no concreta provisión pública ni regulación del acceso o del precio.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-150": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar una estrategia integral de prevención y abordaje del cáncer, reforzando la prevención, los cribados, el diagnóstico precoz, el Registro Estatal de Cáncer",
+          "medida_sintesis": "Estrategia integral de prevención y abordaje del cáncer con cribados, diagnóstico precoz y Registro Estatal de Cáncer",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es una estrategia, sin derecho reconocido, plazo ni estándar.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "el Registro Estatal de Cáncer y el derecho al olvido oncológico.",
+          "medida_sintesis": "Reforzar el derecho al olvido oncológico",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: refuerza un derecho existente sin concretar norma ni contenido; es declarativa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El derecho al olvido oncológico regula contratos de seguro y crédito para que no se discrimine por haber padecido cáncer, objeto distinto de la atención sanitaria. Propuesta: medida aparte en IGU, con DES 1 por regular condiciones del mercado para todas las personas; alternativa SAN, dentro de la estrategia.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-151": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar actualización continua del programa de cribado neonatal del SNS, reforzando la equidad territorial.",
+          "medida_sintesis": "Actualizar de forma continua el programa de cribado neonatal del Sistema Nacional de Salud, con equidad territorial",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: actualiza un programa sin fijar nuevas prestaciones garantizadas, plazo ni estándar.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-152": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la atención a la cronicidad, el envejecimiento saludable y la autonomía personal, impulsando la atención domiciliaria, los cuidados de media y larga duración",
+          "medida_sintesis": "Reforzar la atención a la cronicidad, el envejecimiento saludable y la autonomía personal con atención domiciliaria, cuidados de media y larga duración y coordinación sociosanitaria",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «reforzar» e «impulsar» sin norma, estándar ni dotación; es declarativa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Une la atención sanitaria a la cronicidad y los cuidados de larga duración. Propuesta: SAN por la atención a la cronicidad; alternativa CUI.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-153": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar el diagnóstico temprano y el acceso equitativo al tratamiento de las enfermedades raras",
+          "medida_sintesis": "Impulsar el diagnóstico temprano y el acceso equitativo al tratamiento de las enfermedades raras, con cooperación europea e intercambio de datos sanitarios",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «impulsar» sin norma, plazo ni prestación concreta; es declarativa.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-154": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar las políticas de prevención frente al tabaquismo, el consumo de alcohol y otros factores de riesgo para la salud",
+          "medida_sintesis": "Reforzar la prevención del tabaquismo, el consumo de alcohol y otros factores de riesgo para la salud, en especial en la infancia y la adolescencia",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «reforzar» sin norma, estándar ni dotación; es declarativa. DES 0: no indica cómo se provee la prevención ni nombra un servicio público.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "con la regulación del uso de productos del tabaco (vapeadores, bolsas de nicotina..), estableciendo información sobre sus componentes, dosis máximas de nicotina",
+          "medida_sintesis": "Regular los productos del tabaco y la nicotina, como vapeadores y bolsas de nicotina, con información obligatoria sobre componentes, dosis máximas de nicotina y prohibición de sabores",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: regulación obligatoria del mercado de productos del tabaco, con estándares concretos, que protege la salud de toda la población.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Es una regulación de producto como garantía de salud pública, no el acceso a un servicio. Propuesta: g = 1 con la misma lectura de regulación obligatoria del mercado para todas las personas que se dio a la regulación de plataformas digitales; alternativa 0 en las cuatro si se exige acceso a una prestación.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-155": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "estableciendo ayudas para compensar el sobrecoste de los productos sin gluten",
+          "medida_sintesis": "Ayudas a las personas con celiaquía para compensar el sobrecoste de los productos sin gluten",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: son ayudas sin cuantía ni derecho reconocido. DES 0: ayuda monetaria ligada a comprar productos en el mercado.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "y actualizando los protocolos diagnósticos.",
+          "medida_sintesis": "Actualizar los protocolos de diagnóstico de la celiaquía",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: actualiza protocolos sin fijar una prestación garantizada, plazo ni estándar de acceso.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-156": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar una estrategia integral de salud sexual y reproductiva, reforzando la educación afectivo-sexual, la prevención de las ITS y del VIH",
+          "medida_sintesis": "Estrategia integral de salud sexual y reproductiva con educación afectivo-sexual, prevención de ITS y VIH, acceso a PrEP y PEP, salud menstrual y accesibilidad económica a productos esenciales",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es una estrategia, sin derecho reconocido, plazo ni estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-197": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Combatir la obesidad infantil mediante el Plan Estratégico Nacional reforzando la promoción de la actividad física y los hábitos de vida saludables",
+          "medida_sintesis": "Combatir la obesidad infantil mediante el Plan Estratégico Nacional, con promoción de la actividad física y los hábitos saludables en la infancia y la adolescencia",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan, sin derecho reconocido ni estándar. DES 0: promueve hábitos sin nombrar un servicio público que los provea.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-210": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Proteger el derecho a la salud de los pacientes con electrodependencia, creando un registro estatal, garantizando una respuesta adecuada a sus necesidades",
+          "medida_sintesis": "Registro estatal de pacientes con electrodependencia y respuesta adecuada a sus necesidades de salud",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: crea un registro sin fijar una prestación garantizada, plazo ni estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "compensando el sobrecoste energético derivado del uso de equipos médicos y soportes vitales.",
+          "medida_sintesis": "Compensar a pacientes con electrodependencia el sobrecoste energético del uso de equipos médicos y soportes vitales",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: compensación sin cuantía ni derecho reconocido. DES 0: ayuda monetaria por el gasto de suministro, sin tarifa regulada.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-328": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar el acceso efectivo a la salud sexual y reproductiva, reforzando la educación, la prevención y la atención específica a las mujeres con discapacidad.",
+          "medida_sintesis": "Garantizar el acceso efectivo a la salud sexual y reproductiva, con educación, prevención y atención específica a las mujeres con discapacidad",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «garantizar» y «reforzar» sin norma, plazo ni estándar; es declarativa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Coincide en parte con la estrategia de salud sexual y reproductiva de psoe-156. Propuesta: contarla aparte por la atención específica a las mujeres con discapacidad.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-330": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar las garantías y controles en los procesos de donación de óvulos, asegurando la protección de la salud",
+          "medida_sintesis": "Reforzar las garantías y los controles de los procesos de donación de óvulos para proteger la salud y los derechos de las mujeres donantes",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: refuerza controles sin concretar norma ni estándar; es declarativa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-331": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desarrollar una Estrategia de Salud de las Mujeres, incorporando la perspectiva de género en la investigación, el diagnóstico y los tratamientos",
+          "medida_sintesis": "Estrategia de Salud de las Mujeres con perspectiva de género en investigación, diagnóstico y tratamientos, y atención a menopausia, endometriosis, enfermedades cardiovasculares, dolor crónico y salud mental",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es una estrategia, sin derecho reconocido, plazo ni estándar.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-332": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar y desarrollar el trabajo del Observatorio de Salud de las Mujeres, para detectar, evaluar y corregir los sesgos de género",
+          "medida_sintesis": "Desarrollar el Observatorio de Salud de las Mujeres para detectar, evaluar y corregir los sesgos de género del sistema sanitario",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: órgano de seguimiento sin norma, estándar ni obligación de provisión.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Es un órgano de estudio y seguimiento, pero declara corregir sesgos de género en la atención sanitaria. Propuesta: codificarla como corrección de una discriminación en el sistema sanitario (UNI, DES y NDI 1); alternativa 0 en las cuatro como herramienta de información.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-366": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la garantía constitucional de los derechos sociales, avanzando en la protección efectiva como derechos fundamentales de la salud",
+          "medida_sintesis": "Avanzar en la protección constitucional de la salud como derecho fundamental",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: «avanzar» en la protección constitucional sin concretar la reforma ni su contenido. DES 0: no nombra un servicio público ni una regulación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El reconocimiento como derecho fundamental sería el instrumento más fuerte, pero «avanzando en» no concreta la reforma. Propuesta: EXI 0; EXI 1 si se lee como compromiso firme de reforma constitucional.",
+          "repite": ""
+        },
+        {
+          "fragmento": "avanzando en la protección efectiva como derechos fundamentales de la salud y la vivienda",
+          "medida_sintesis": "Avanzar en la protección constitucional de la vivienda como derecho fundamental",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: «avanzar» en la protección constitucional sin concretar la reforma ni su contenido. DES 0: no nombra vivienda pública ni regulación del precio.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-037"
+        }
+      ]
+    },
+    "psoe-379": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Fortalecer la sanidad pública",
+          "medida_sintesis": "Fortalecer la sanidad pública",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «fortalecer» sin norma, estándar ni dotación; es declarativa.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Enunciado genérico del apartado de juventud que resume el compromiso más desarrollado de psoe-136 con la financiación y el carácter público del Sistema Nacional de Salud. Propuesta: repite psoe-136.",
+          "repite": "psoe-136"
+        },
+        {
+          "fragmento": "la atención a la salud mental, mejorando el acceso de la juventud a la atención psicológica.",
+          "medida_sintesis": "Fortalecer la atención a la salud mental y mejorar el acceso de la juventud a la atención psicológica",
+          "area": "SME",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «mejorar» sin norma, plazo ni estándar; es declarativa.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-143"
+        }
+      ]
+    },
+    "psoe-416": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Incorporar medidas específicas de prevención, reducción de daños y atención al chemsex en la Estrategia Nacional sobre Adicciones y en las políticas de salud mental.",
+          "medida_sintesis": "Incorporar a la Estrategia Nacional sobre Adicciones y a las políticas de salud mental medidas de prevención, reducción de daños y atención al chemsex",
+          "area": "SME",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: se incorpora a una estrategia, sin derecho reconocido ni estándar.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-205": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Asegurar la plena aplicación de la reforma de los sistemas de discapacidad y dependencia (Ley 4/2026), con una programación económica plurianual",
+          "medida_sintesis": "Aplicar la reforma de los sistemas de discapacidad y dependencia con programación económica plurianual para reducir las listas de espera y seguimiento por territorios",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: aplica una ley ya aprobada con financiación plurianual, sin plazo máximo de resolución ni nuevo derecho.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-206": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Consolidar el Servicio de Ayuda a Domicilio como servicio público esencial del sistema de dependencia, garantizando junto a las AA.PP. una financiación suficiente y estable",
+          "medida_sintesis": "Consolidar el Servicio de Ayuda a Domicilio como servicio público esencial del sistema de dependencia, con financiación suficiente y estable y atención de calidad",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: financiación y calificación como servicio esencial sin estándar, ratio ni derecho exigible.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "y la mejora progresiva de las condiciones laborales de sus profesionales.",
+          "medida_sintesis": "Mejorar progresivamente las condiciones laborales del personal del Servicio de Ayuda a Domicilio",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: mejora sin norma ni estándar mínimo; es declarativa. DES 0: no regula condiciones para todas las personas trabajadoras ni es provisión pública.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-207": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mejorar la protección social de las personas que son cuidadoras principales, especialmente quienes asumen esta responsabilidad de manera continuada durante largos periodos de tiempo",
+          "medida_sintesis": "Mejorar la protección social de las personas cuidadoras principales, en especial de quienes cuidan de forma continuada durante largos periodos",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «mejorar» sin prestación, cuantía ni norma; es declarativa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "estudiar medidas que compensen el impacto que esta tarea tiene sobre su trayectoria laboral.",
+          "medida_sintesis": "Estudiar medidas que compensen el impacto del cuidado en la trayectoria laboral de las personas cuidadoras principales",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: se limita a estudiar; es declarativa. DES 0: no nombra provisión pública ni regulación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-208": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ampliar los servicios de asistencia personal, centros de día y programas de respiro familiar, favoreciendo la permanencia digna en el entorno elegido",
+          "medida_sintesis": "Ampliar los servicios de asistencia personal, los centros de día y los programas de respiro familiar",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: ampliación de servicios sin ratio, plazo ni derecho exigible.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-209": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover la atención pública integral y personalizada a las personas con ELA en situación de dependencia extrema (Grado III+)",
+          "medida_sintesis": "Atención pública integral a las personas con ELA en dependencia extrema, acordando con las comunidades autónomas la exención de copagos, la atención domiciliaria continuada y la compatibilidad de prestaciones",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: la exención de copagos se promueve y se acuerda con las comunidades autónomas, sin norma que la garantice.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La exención de copagos es una gratuidad concreta para un colectivo definido, pero se formula con «promover» y como acuerdo con las comunidades autónomas. Propuesta: EXI 0; EXI 1 si el acuerdo se lee como obligación de gratuidad.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-211": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizar la accesibilidad universal efectiva, reforzando la inspección y dotando de una financiación estable y suficiente al Programa Estatal de Promoción de la Accesibilidad Universal.",
+          "medida_sintesis": "Accesibilidad universal efectiva con más inspección y financiación estable del Programa Estatal de Promoción de la Accesibilidad Universal",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: refuerzo de la inspección y financiación de un programa, sin nuevo estándar ni plazo.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "DES depende de leer la inspección como aplicación de una regulación obligatoria de las condiciones de accesibilidad para todas las personas. Propuesta: DES 1; DES 0 si se atiende solo a la financiación del programa.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-212": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegar el Marco Estratégico Estatal de las Soledades 2026-2030, en alianza con el tercer sector, garantizando servicios de proximidad y apoyos personalizados.",
+          "medida_sintesis": "Desplegar el Marco Estratégico Estatal de las Soledades 2026-2030 con servicios de proximidad y apoyos personalizados, en alianza con el tercer sector",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un marco estratégico, sin derecho reconocido ni estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-214": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ayudas para instalar ascensores y eliminar barreras, para que ninguna persona mayor o con movilidad reducida se quede atrapada en su casa.",
+          "medida_sintesis": "Ayudas del Plan «A Tu Lado» para instalar ascensores y eliminar barreras en las viviendas de personas mayores o con movilidad reducida",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la ayuda se liga a una obra que hay que costear (capacidad de pago). EXI 0: es una subvención. DES 0: ayuda ligada a contratar obras en el mercado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "A partir de los 80 años, una visita periódica a domicilio de enfermería o trabajo social para detectar a tiempo la fragilidad y la soledad.",
+          "medida_sintesis": "Visita periódica a domicilio de enfermería o trabajo social a todas las personas desde los 80 años para detectar la fragilidad y la soledad",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: servicio a domicilio definido para toda la población desde los 80 años, prestado por enfermería o trabajo social.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Es una prestación concreta para un colectivo definido por la edad, pero dentro de un plan y sin frecuencia fijada. Propuesta: EXI 1 por tratarse de un servicio definido para todo el colectivo; EXI 0 si se aplica la regla de los planes.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-217": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar un Pacto de Estado por los derechos de las personas mayores, reforzando su participación efectiva en las políticas públicas",
+          "medida_sintesis": "Impulsar un Pacto de Estado por los derechos de las personas mayores y reforzar su participación en las políticas públicas",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: pacto político sin norma ni estándar; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "desplegando en su seno la Estrategia Estatal contra el Maltrato y la Soledad no Deseada, con mecanismos de detección temprana, coordinación sociosanitaria y apoyos comunitarios.",
+          "medida_sintesis": "Estrategia Estatal contra el Maltrato y la Soledad no Deseada de las personas mayores, con detección temprana, coordinación sociosanitaria y apoyos comunitarios",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es una estrategia, sin derecho reconocido ni estándar.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-218": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegar una Estrategia Nacional para la Nueva Longevidad orientada a promover un envejecimiento activo, saludable y autónomo, la atención a la cronicidad",
+          "medida_sintesis": "Estrategia Nacional para la Nueva Longevidad: envejecimiento activo, atención a la cronicidad, cuidados a domicilio, salud mental, aprendizaje permanente, competencias digitales y lucha contra el edadismo",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es una estrategia, sin derecho reconocido ni estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-219": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover la autonomía y la permanencia digna en el hogar de las personas mayores, favoreciendo la adaptación de sus viviendas,",
+          "medida_sintesis": "Favorecer la adaptación de las viviendas de las personas mayores para su permanencia en el hogar, con atención al medio rural",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «promover» y «favorecer» sin instrumento; es declarativa. DES 0: no nombra provisión pública ni regulación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-214"
+        }
+      ]
+    },
+    "psoe-220": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Garantizaremos el ejercicio efectivo de los derechos de las personas con discapacidad reconocidos en el artículo 49 de la CE, desplegando la reciente reforma",
+          "medida_sintesis": "Garantizar el ejercicio efectivo de los derechos de las personas con discapacidad del artículo 49 de la Constitución desplegando la reforma de la Ley General de Derechos de las Personas con Discapacidad",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: despliega una ley ya aprobada sin concretar qué derecho, prestación u obligación garantiza. DES 0: no nombra un servicio público ni una regulación concreta.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Remite a una ley vigente de derechos sin concretar su contenido. Propuesta: EXI 0; EXI 1 si se acepta la ley de derechos como instrumento suficiente, como se propone para la eutanasia en psoe-147, donde la ley vigente reconoce una prestación concreta.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-221": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegaremos un marco de apoyos a la vida independiente que facilite el acceso efectivo a asistencia personal, vivienda accesible y servicios comunitarios.",
+          "medida_sintesis": "Marco de apoyos a la vida independiente con acceso a asistencia personal, vivienda accesible y servicios comunitarios",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: marco genérico sin norma, prestación garantizada ni estándar; es declarativa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-222": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Pondremos en marcha el Programa Estatal de Promoción de la Accesibilidad Universal.",
+          "medida_sintesis": "Poner en marcha el Programa Estatal de Promoción de la Accesibilidad Universal",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un programa, sin derecho reconocido ni estándar. DES 0: no nombra provisión pública ni regulación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-211"
+        }
+      ]
+    },
+    "psoe-223": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desarrollaremos la figura de la persona facilitadora procesal, para cubrir las necesidades de apoyo de las personas con discapacidad",
+          "medida_sintesis": "Desarrollar la figura de la persona facilitadora procesal para apoyar a las personas con discapacidad en la comprensión y la comunicación en los actos procesales",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: desarrolla una figura de apoyo sin reconocer un derecho exigible ni fijar un estándar.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Es un apoyo a personas con discapacidad en el ámbito judicial, que por sí mismo no es un derecho social. Propuesta: codificarlo como servicio de apoyo a la discapacidad en CUI; alternativa IGU por accesibilidad.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-225": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Continuar fortaleciendo al Tercer Sector de la discapacidad, promoviendo la participación de las organizaciones y las familias en el diseño, ejecución y evaluación",
+          "medida_sintesis": "Fortalecer el tercer sector de la discapacidad y la participación de las organizaciones y las familias en las políticas públicas",
+          "area": "CUI",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; es apoyo a entidades y participación institucional. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-226": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Revisaremos los criterios establecidos en el Real Decreto 888/2022 para garantizar que se tengan adecuadamente en cuenta las secuelas, comorbilidades y limitaciones funcionales",
+          "medida_sintesis": "Revisar los criterios de valoración de la discapacidad (Real Decreto 888 de 2022) para tener en cuenta las secuelas y limitaciones de las personas mayores y de larga evolución con VIH",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: revisa criterios de valoración sin fijar una prestación garantizada ni un estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-228": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsaremos el buen uso de las zonas de estacionamiento reservadas a las personas con discapacidad",
+          "medida_sintesis": "Impulsar el buen uso de las plazas de estacionamiento reservadas a personas con discapacidad",
+          "area": "IGU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «impulsar» sin norma, sanción ni estándar; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-322": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Dignificar y reconocer el trabajo de cuidados, reforzando la financiación de los servicios",
+          "medida_sintesis": "Reforzar la financiación de los servicios de cuidados",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es financiación, sin derecho reconocido ni estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "la profesionalización del sector y la protección de los derechos de las trabajadoras del hogar y de los cuidados",
+          "medida_sintesis": "Profesionalizar el sector de los cuidados y proteger los derechos de las personas trabajadoras del hogar y de los cuidados",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin norma ni estándar concretos; es declarativa. DES 0: no concreta una regulación de las condiciones laborales.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "así como de las cuidadoras principales igualando su remuneración al SMI.",
+          "medida_sintesis": "Igualar al salario mínimo interprofesional la remuneración de las personas cuidadoras principales",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: fija una cuantía mínima garantizada (el SMI) para todo el colectivo de personas cuidadoras principales, sin prueba de renta.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "No queda claro si «su remuneración» se refiere solo a las cuidadoras principales (prestación por cuidados en el entorno familiar) o también al empleo del hogar y de cuidados. Propuesta: g = 1 en las dos lecturas, como prestación pública cuantificada o como salario mínimo obligatorio del sector.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-369": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Profundizar en el reconocimiento pleno de los derechos de las personas con discapacidad, consolidando la actualización constitucional iniciada con la reforma del artículo 49.",
+          "medida_sintesis": "Profundizar en el reconocimiento constitucional de los derechos de las personas con discapacidad tras la reforma del artículo 49",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: no añade norma ni contenido a la reforma ya aprobada; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-220"
+        }
+      ]
+    },
+    "psoe-370": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crearemos una nueva figura jurídica de unión de amistad que dotará de un amparo legal a aquellas situaciones en las que personas unidas",
+          "medida_sintesis": "Crear en el Código Civil la unión de amistad para dar amparo legal a quienes asumen un compromiso mutuo de cuidados, con beneficios para sus integrantes",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: crea una figura jurídica sin concretar los derechos o prestaciones que reconoce. DES 0: no nombra provisión pública ni regulación del acceso a un servicio.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Figura de derecho civil que protege relaciones de cuidado; admite CUI u OTR (familia). Propuesta: CUI por el compromiso mutuo de cuidados que define la figura.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-049": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la Formación Profesional vinculada a la construcción y el reciclaje formativo hacia este sector",
+          "medida_sintesis": "Impulsar la formación profesional y la recualificación hacia la construcción, en especial para los empleos con más carencia de personal",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «impulsar» sin plan, norma ni estándar; es declarativa. DES 0: no nombra un servicio público ni una regulación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-157": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Universalizar la educación de 0 a 3 años, promoviendo su inclusión plena en el sistema, aumentando progresivamente la oferta de escuelas infantiles públicas",
+          "medida_sintesis": "Universalizar la educación de 0 a 3 años con más escuelas infantiles públicas, menos alumnado por aula y mejores espacios",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: aumento progresivo de la oferta sin gratuidad, derecho a plaza ni ratio cuantificada.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "«Universalizar» puede leerse como reconocimiento del derecho a plaza para todo el alumnado de 0 a 3 años. Propuesta: EXI 0, porque se plantea como aumento progresivo de la oferta sin gratuidad ni derecho a plaza.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-158": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "incrementando la financiación y cobertura de las ayudas al estudio, con una actualización de los umbrales de renta y un refuerzo en transporte, residencia, discapacidad",
+          "medida_sintesis": "Ampliar y mejorar el sistema de becas con más financiación y cobertura, umbrales de renta actualizados y refuerzo en transporte, residencia, discapacidad y necesidades específicas",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: las becas dependen de umbrales de renta. EXI 0: mejora del sistema sin nuevo derecho ni estándar. DES 0: la beca es una ayuda monetaria.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "limitar la capacidad máxima por aula",
+          "medida_sintesis": "Limitar la capacidad máxima por aula, con doble cómputo del alumnado con necesidades educativas especiales",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: fija un límite máximo de alumnado por aula en el sistema educativo, con doble cómputo del alumnado con necesidades educativas especiales.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "La ratio máxima no se cuantifica. Propuesta: EXI 1, porque limitar la capacidad por aula y el doble cómputo son estándares obligatorios; EXI 0 si se exige una cifra.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-159": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aprobar el Estatuto del Docente para dignificar y reforzar la profesión docente, simplificando las cargas burocráticas, impulsando un plan nacional de bienestar docente",
+          "medida_sintesis": "Estatuto del Docente con menos cargas burocráticas, plan nacional de bienestar docente, carrera profesional, formación y equiparación progresiva entre cuerpos",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: el estatuto no concreta derechos exigibles ni estándares mínimos de las condiciones de trabajo. DES 0: no regula condiciones para todas las personas trabajadoras ni es provisión pública.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-160": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reducir la tasa de abandono escolar temprano por debajo del 10% antes de 2030, reforzando la prevención, el apoyo, las segundas oportunidades",
+          "medida_sintesis": "Reducir el abandono escolar temprano por debajo del 10 % antes de 2030 con prevención, apoyo, segundas oportunidades y unidades de acompañamiento y orientación familiar",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: objetivo de resultado, sin derecho reconocido, ratio ni obligación de provisión.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-161": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "alcanzando una ratio de un profesional de orientación por cada 250 estudiantes y fortaleciendo los equipos de apoyo especializados.",
+          "medida_sintesis": "Ratio de una persona orientadora por cada 250 estudiantes y refuerzo de los equipos de apoyo especializados",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: fija una ratio de orientación para todo el alumnado del sistema educativo.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-162": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegar el Plan Estratégico de Educación Inclusiva, dotando a los centros de los recursos necesarios para atender al alumnado con necesidades específicas",
+          "medida_sintesis": "Plan Estratégico de Educación Inclusiva con recursos para atender al alumnado con necesidades específicas, TEA y NEE, y refuerzo de los centros de educación especial",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es un plan con recursos, sin derecho reconocido, ratio ni estándar.",
+          "confianza": "alta",
+          "revisar": 1,
+          "motivo_revision": "psoe-224 vuelve a anunciar el despliegue del Plan Estratégico de Educación Inclusiva. Propuesta: contarla aquí y marcar psoe-224 con repite = psoe-162, o al revés si se considera más desarrollada aquella.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-163": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Proteger y fortalecer la escuela rural, garantizando el acceso a una educación pública de calidad y proximidad en todo el territorio.",
+          "medida_sintesis": "Proteger y fortalecer la escuela rural para garantizar el acceso a una educación pública de calidad y proximidad",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «garantizar» sin norma, ratio ni estándar; es declarativa.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-165": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Promover el conocimiento de la memoria democrática, los derechos humanos y los valores cívicos",
+          "medida_sintesis": "Promover en la educación el conocimiento de la memoria democrática, los derechos humanos y los valores cívicos, y la lucha contra la desinformación y los discursos de odio",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; orienta contenidos educativos. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-166": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar una estrategia integral para el uso educativo de la inteligencia artificial, mediante formación permanente del profesorado y una plataforma pública de recursos éticos.",
+          "medida_sintesis": "Estrategia para el uso educativo de la inteligencia artificial con formación del profesorado y una plataforma pública de recursos",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; trata de métodos y recursos didácticos.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-167": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar las enseñanzas artísticas, mejorando los recursos humanos y materiales, facilitando la compatibilidad con otros estudios",
+          "medida_sintesis": "Reforzar las enseñanzas artísticas con más recursos humanos y materiales, compatibilidad con otros estudios y programas de bienestar emocional",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «reforzar» y «mejorar» sin ratio, norma ni dotación; es declarativa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "ampliando becas",
+          "medida_sintesis": "Ampliar las becas de las enseñanzas artísticas",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: ampliación sin derecho reconocido ni estándar. DES 0: la beca es una ayuda monetaria.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-168": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsar la ampliación del servicio de comedor escolar",
+          "medida_sintesis": "Ampliar el servicio de comedor escolar con financiación específica para una alimentación saludable y de calidad nutricional",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: ampliación del servicio y financiación específica, sin derecho reconocido ni estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "garantizando su gratuidad a todo el alumnado en situación de pobreza y/o exclusión social",
+          "medida_sintesis": "Gratuidad del comedor escolar para todo el alumnado en situación de pobreza o exclusión social",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: la gratuidad se limita al alumnado en situación de pobreza o exclusión social.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-169": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Fortalecer la educación de personas adultas, mediante una oferta más flexible, el impulso a los Centros de Educación de Personas Adultas",
+          "medida_sintesis": "Fortalecer la educación de personas adultas con una oferta más flexible, impulso a sus centros y estabilización de sus plantillas docentes",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «fortalecer» sin norma, ratio ni dotación; es declarativa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-170": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Fomentar la ampliación de las plazas públicas de Formación Profesional Media y Superior, asegurando que nadie quede sin acceso a la formación deseada",
+          "medida_sintesis": "Ampliar las plazas públicas de FP de grado medio y superior para que nadie quede sin acceso a la formación deseada por falta de oferta",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: se fomenta la ampliación de plazas, sin norma que reconozca el derecho a plaza.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "«Asegurando que nadie quede sin acceso» se acerca a un derecho a plaza, pero el instrumento es fomentar la ampliación de la oferta. Propuesta: EXI 0.",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-171": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ampliar la FP Básica y reforzar el acompañamiento educativo para favorecer el éxito escolar, la continuidad en los estudios y reducir el abandono escolar temprano.",
+          "medida_sintesis": "Ampliar la FP Básica y reforzar el acompañamiento educativo para reducir el abandono escolar temprano",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: ampliación de la oferta sin derecho reconocido, ratio ni estándar.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-172": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ampliar el sistema de becas y las ayudas para movilidad, transporte y alojamiento del alumnado desplazado",
+          "medida_sintesis": "Ampliar las becas y las ayudas de movilidad, transporte y alojamiento del alumnado desplazado",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: ampliación sin derecho reconocido ni estándar. DES 0: becas y ayudas monetarias.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Repite la ampliación de becas con refuerzo en transporte y residencia de psoe-158, aunque aquí puede referirse al alumnado de FP por su lugar en el programa. Propuesta: repite psoe-158.",
+          "repite": "psoe-158"
+        },
+        {
+          "fragmento": "así como el apoyo para la adquisición de materiales, equipamientos y licencias formativas.",
+          "medida_sintesis": "Apoyo al alumnado para adquirir materiales, equipamientos y licencias formativas",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: apoyo sin cuantía, norma ni derecho reconocido; es declarativa. DES 0: ayuda ligada a comprar en el mercado.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-173": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Adaptar la FP a los sectores estratégicos del futuro, impulsando titulaciones en inteligencia artificial, ciberseguridad, transición energética",
+          "medida_sintesis": "Adaptar la FP a sectores estratégicos con titulaciones en inteligencia artificial, ciberseguridad, transición energética, biotecnología, microelectrónica e industria avanzada",
+          "area": "EDU",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; orienta la oferta formativa hacia sectores económicos. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-174": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzar la red de centros de excelencia y de referencia nacional, utilizándolos como espacios clave para la orientación, acreditación de competencias, recualificación profesional",
+          "medida_sintesis": "Reforzar la red de centros de excelencia y de referencia nacional de FP para orientación, acreditación de competencias, recualificación y aprendizaje permanente",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «reforzar» sin norma, ratio ni dotación; es declarativa.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-175": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Potenciar el sistema de microcredenciales, que ha tenido resultados exitosos en los últimos años, en una amplia multitud de dominios educativos",
+          "medida_sintesis": "Potenciar el sistema de microcredenciales en distintos ámbitos educativos para el progreso profesional y la adaptación de la formación",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «potenciar» sin norma ni estándar; es declarativa. DES 0: no dice si la oferta es pública o gratuita.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "psoe-176": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Crear un nuevo modelo de becas para garantizar la igualdad de oportunidades:",
+          "medida_sintesis": "Crear un nuevo modelo de becas para la igualdad de oportunidades",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: anuncia un modelo sin contenido concreto; es declarativa. DES 0: la beca es una ayuda monetaria.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Encabeza la lista de medidas sobre becas que desarrollan psoe-177 y psoe-178. Propuesta: no contarla, con repite psoe-177; alternativa: unidad sin medidas por R3.",
+          "repite": "psoe-177"
+        }
+      ]
+    }
+  }
+}

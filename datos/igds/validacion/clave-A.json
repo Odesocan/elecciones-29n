@@ -1,0 +1,623 @@
+{
+ "semilla": 29112026,
+ "poblacion": {
+  "cc": {
+   "ambito social": 51,
+   "resto": 116
+  },
+  "pp": {
+   "ambito social": 119,
+   "resto": 431
+  },
+  "vox": {
+   "ambito social": 48,
+   "resto": 145
+  },
+  "psoe": {
+   "ambito social": 288,
+   "resto": 341
+  }
+ },
+ "codigos": {
+  "A-001": {
+   "id_medida": "pp-128-01",
+   "pid": "pp",
+   "estrato": "resto"
+  },
+  "A-002": {
+   "id_medida": "vox-097-01",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-003": {
+   "id_medida": "cc-027-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-004": {
+   "id_medida": "cc-086-02",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-005": {
+   "id_medida": "cc-065-01",
+   "pid": "cc",
+   "estrato": "resto"
+  },
+  "A-006": {
+   "id_medida": "pp-043-02",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-007": {
+   "id_medida": "cc-043-01",
+   "pid": "cc",
+   "estrato": "resto"
+  },
+  "A-008": {
+   "id_medida": "cc-017-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-009": {
+   "id_medida": "vox-008-11",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-010": {
+   "id_medida": "cc-015-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-011": {
+   "id_medida": "cc-029-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-012": {
+   "id_medida": "pp-212-01",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-013": {
+   "id_medida": "vox-099-03",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-014": {
+   "id_medida": "pp-228-01",
+   "pid": "pp",
+   "estrato": "resto"
+  },
+  "A-015": {
+   "id_medida": "cc-020-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-016": {
+   "id_medida": "vox-008-01",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-017": {
+   "id_medida": "pp-039-02",
+   "pid": "pp",
+   "estrato": "resto"
+  },
+  "A-018": {
+   "id_medida": "pp-014-02",
+   "pid": "pp",
+   "estrato": "resto"
+  },
+  "A-019": {
+   "id_medida": "pp-168-04",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-020": {
+   "id_medida": "vox-084-02",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-021": {
+   "id_medida": "cc-028-02",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-022": {
+   "id_medida": "cc-024-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-023": {
+   "id_medida": "vox-096-01",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-024": {
+   "id_medida": "vox-093-02",
+   "pid": "vox",
+   "estrato": "resto"
+  },
+  "A-025": {
+   "id_medida": "pp-099-01",
+   "pid": "pp",
+   "estrato": "resto"
+  },
+  "A-026": {
+   "id_medida": "vox-109-01",
+   "pid": "vox",
+   "estrato": "resto"
+  },
+  "A-027": {
+   "id_medida": "pp-218-03",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-028": {
+   "id_medida": "cc-084-02",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-029": {
+   "id_medida": "pp-028-01",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-030": {
+   "id_medida": "cc-090-01",
+   "pid": "cc",
+   "estrato": "resto"
+  },
+  "A-031": {
+   "id_medida": "cc-010-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-032": {
+   "id_medida": "pp-224-03",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-033": {
+   "id_medida": "pp-075-02",
+   "pid": "pp",
+   "estrato": "resto"
+  },
+  "A-034": {
+   "id_medida": "vox-101-01",
+   "pid": "vox",
+   "estrato": "resto"
+  },
+  "A-035": {
+   "id_medida": "vox-103-02",
+   "pid": "vox",
+   "estrato": "resto"
+  },
+  "A-036": {
+   "id_medida": "vox-099-01",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-037": {
+   "id_medida": "cc-016-02",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-038": {
+   "id_medida": "pp-032-01",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-039": {
+   "id_medida": "cc-019-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-040": {
+   "id_medida": "vox-037-02",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-041": {
+   "id_medida": "pp-158-01",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-042": {
+   "id_medida": "vox-026-01",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-043": {
+   "id_medida": "cc-066-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-044": {
+   "id_medida": "vox-074-03",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-045": {
+   "id_medida": "vox-061-01",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-046": {
+   "id_medida": "vox-109-03",
+   "pid": "vox",
+   "estrato": "resto"
+  },
+  "A-047": {
+   "id_medida": "pp-013-06",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-048": {
+   "id_medida": "vox-034-03",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-049": {
+   "id_medida": "cc-055-01",
+   "pid": "cc",
+   "estrato": "resto"
+  },
+  "A-050": {
+   "id_medida": "vox-043-03",
+   "pid": "vox",
+   "estrato": "resto"
+  },
+  "A-051": {
+   "id_medida": "vox-025-01",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-052": {
+   "id_medida": "pp-032-02",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-053": {
+   "id_medida": "vox-094-01",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-054": {
+   "id_medida": "vox-041-02",
+   "pid": "vox",
+   "estrato": "resto"
+  },
+  "A-055": {
+   "id_medida": "cc-043-02",
+   "pid": "cc",
+   "estrato": "resto"
+  },
+  "A-056": {
+   "id_medida": "cc-006-01",
+   "pid": "cc",
+   "estrato": "resto"
+  },
+  "A-057": {
+   "id_medida": "pp-196-03",
+   "pid": "pp",
+   "estrato": "resto"
+  },
+  "A-058": {
+   "id_medida": "pp-158-03",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-059": {
+   "id_medida": "cc-094-02",
+   "pid": "cc",
+   "estrato": "resto"
+  },
+  "A-060": {
+   "id_medida": "pp-169-01",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-061": {
+   "id_medida": "pp-153-03",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-062": {
+   "id_medida": "pp-166-01",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-063": {
+   "id_medida": "pp-033-01",
+   "pid": "pp",
+   "estrato": "resto"
+  },
+  "A-064": {
+   "id_medida": "vox-095-01",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-065": {
+   "id_medida": "pp-235-03",
+   "pid": "pp",
+   "estrato": "resto"
+  },
+  "A-066": {
+   "id_medida": "pp-222-02",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-067": {
+   "id_medida": "vox-063-04",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-068": {
+   "id_medida": "vox-047-02",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-069": {
+   "id_medida": "cc-070-02",
+   "pid": "cc",
+   "estrato": "resto"
+  },
+  "A-070": {
+   "id_medida": "cc-046-02",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-071": {
+   "id_medida": "pp-002-03",
+   "pid": "pp",
+   "estrato": "resto"
+  },
+  "A-072": {
+   "id_medida": "pp-221-04",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-073": {
+   "id_medida": "vox-069-02",
+   "pid": "vox",
+   "estrato": "resto"
+  },
+  "A-074": {
+   "id_medida": "cc-016-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-075": {
+   "id_medida": "pp-155-01",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-076": {
+   "id_medida": "cc-032-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-077": {
+   "id_medida": "cc-087-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-078": {
+   "id_medida": "vox-089-03",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-079": {
+   "id_medida": "pp-045-05",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-080": {
+   "id_medida": "cc-069-02",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-081": {
+   "id_medida": "vox-089-01",
+   "pid": "vox",
+   "estrato": "resto"
+  },
+  "A-082": {
+   "id_medida": "pp-161-02",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-083": {
+   "id_medida": "cc-082-01",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-084": {
+   "id_medida": "cc-085-03",
+   "pid": "cc",
+   "estrato": "resto"
+  },
+  "A-085": {
+   "id_medida": "cc-001-03",
+   "pid": "cc",
+   "estrato": "resto"
+  },
+  "A-086": {
+   "id_medida": "cc-087-02",
+   "pid": "cc",
+   "estrato": "ambito social"
+  },
+  "A-087": {
+   "id_medida": "vox-111-01",
+   "pid": "vox",
+   "estrato": "resto"
+  },
+  "A-088": {
+   "id_medida": "pp-114-02",
+   "pid": "pp",
+   "estrato": "ambito social"
+  },
+  "A-089": {
+   "id_medida": "vox-058-01",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-090": {
+   "id_medida": "vox-094-06",
+   "pid": "vox",
+   "estrato": "ambito social"
+  },
+  "A-091": {
+   "id_medida": "psoe-409-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-092": {
+   "id_medida": "psoe-194-02",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-093": {
+   "id_medida": "psoe-188-01",
+   "pid": "psoe",
+   "estrato": "resto"
+  },
+  "A-094": {
+   "id_medida": "psoe-038-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-095": {
+   "id_medida": "psoe-290-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-096": {
+   "id_medida": "psoe-044-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-097": {
+   "id_medida": "psoe-418-02",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-098": {
+   "id_medida": "psoe-005-01",
+   "pid": "psoe",
+   "estrato": "resto"
+  },
+  "A-099": {
+   "id_medida": "psoe-089-02",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-100": {
+   "id_medida": "psoe-167-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-101": {
+   "id_medida": "psoe-p112-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-102": {
+   "id_medida": "psoe-273-03",
+   "pid": "psoe",
+   "estrato": "resto"
+  },
+  "A-103": {
+   "id_medida": "psoe-396-02",
+   "pid": "psoe",
+   "estrato": "resto"
+  },
+  "A-104": {
+   "id_medida": "psoe-155-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-105": {
+   "id_medida": "psoe-089-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-106": {
+   "id_medida": "psoe-200-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-107": {
+   "id_medida": "psoe-486-01",
+   "pid": "psoe",
+   "estrato": "resto"
+  },
+  "A-108": {
+   "id_medida": "psoe-096-01",
+   "pid": "psoe",
+   "estrato": "resto"
+  },
+  "A-109": {
+   "id_medida": "psoe-215-01",
+   "pid": "psoe",
+   "estrato": "resto"
+  },
+  "A-110": {
+   "id_medida": "psoe-196-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-111": {
+   "id_medida": "psoe-146-01",
+   "pid": "psoe",
+   "estrato": "resto"
+  },
+  "A-112": {
+   "id_medida": "psoe-433-02",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-113": {
+   "id_medida": "psoe-454-03",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-114": {
+   "id_medida": "psoe-237-01",
+   "pid": "psoe",
+   "estrato": "resto"
+  },
+  "A-115": {
+   "id_medida": "psoe-036-01",
+   "pid": "psoe",
+   "estrato": "resto"
+  },
+  "A-116": {
+   "id_medida": "psoe-119-02",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-117": {
+   "id_medida": "psoe-455-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-118": {
+   "id_medida": "psoe-391-02",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-119": {
+   "id_medida": "psoe-158-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  },
+  "A-120": {
+   "id_medida": "psoe-205-01",
+   "pid": "psoe",
+   "estrato": "ambito social"
+  }
+ }
+}

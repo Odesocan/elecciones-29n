@@ -1,0 +1,2413 @@
+{
+  "lote": "lote-05",
+  "unidades": {
+    "cc-042": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Exigiremos que España evalúe el impacto de los acuerdos comerciales internacionales sobre las producciones sensibles de Canarias y defienda salvaguardas cuando proceda.",
+          "medida_sintesis": "Reclamar al Estado la evaluación del impacto de los acuerdos comerciales sobre las producciones sensibles de Canarias y salvaguardas cuando proceda.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra instrumentos concretos (evaluación de impacto y salvaguardas).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Reclamaremos reglas adaptadas a la flota artesanal canaria, posibilidades de pesca suficientes, especialmente de atún rojo y patudo, y acceso efectivo a los fondos europeos.",
+          "medida_sintesis": "Reclamar reglas adaptadas, posibilidades de pesca suficientes y acceso a los fondos europeos para la flota artesanal canaria.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra instrumentos (reglas, posibilidades de pesca, fondos europeos) para un mismo objeto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-044": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Orientaremos los programas estatales de innovación e industria hacia la reparación, la reutilización, el reciclaje, el aprovechamiento de residuos y los nuevos materiales.",
+          "medida_sintesis": "Orientar los programas estatales de innovación e industria hacia la economía circular: reparación, reutilización, reciclaje y aprovechamiento de residuos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: actúa sobre un instrumento identificado (programas estatales).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: política industrial (OTR) y residuos y economía circular (MAM). Propuesta: OTR, porque el objeto son los programas de innovación e industria y el fin declarado es crear actividad productiva.",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-049": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reforzaremos la Plataforma Oceánica de Canarias, PLOCAN, como infraestructura científica y tecnológica española y europea.",
+          "medida_sintesis": "Reforzar la Plataforma Oceánica de Canarias (PLOCAN) como infraestructura científica y tecnológica.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «reforzaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-050": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsaremos programas estatales para las energías marinas, la biotecnología azul, la robótica submarina, la observación oceánica, la acuicultura sostenible",
+          "medida_sintesis": "Impulsar programas estatales para la economía azul: energías marinas, biotecnología azul, robótica submarina, observación oceánica y acuicultura sostenible.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra un instrumento (programas estatales), aunque sin fuerza obligatoria.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-075": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Protegeremos la bonificación del 75 % en el transporte aéreo y marítimo de residentes.",
+          "medida_sintesis": "Mantener la bonificación del 75 % en el transporte aéreo y marítimo de la población residente.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: instrumento concreto (bonificación del 75 %).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Reforzaremos la supervisión y la transparencia para detectar subidas artificiales de tarifas que absorban la ayuda y para combatir los precios abusivos.",
+          "medida_sintesis": "Reforzar la supervisión de las tarifas de transporte para detectar subidas que absorban la bonificación y combatir precios abusivos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «reforzaremos la supervisión» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-076": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reclamaremos al Estado la revisión de las obligaciones de servicio público, que permiten exigir un servicio mínimo en las rutas necesarias.",
+          "medida_sintesis": "Reclamar al Estado la revisión de las obligaciones de servicio público en las rutas necesarias, con frecuencias, capacidad y precios razonables.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: instrumento concreto (obligaciones de servicio público).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Defenderemos las conexiones directas entre La Palma, La Gomera y El Hierro previstas en la propuesta de Decreto Canarias",
+          "medida_sintesis": "Defender las conexiones directas entre La Palma, La Gomera y El Hierro previstas en la propuesta de Decreto Canarias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: remite a una norma identificada (propuesta de Decreto Canarias).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-077": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsaremos el desarrollo efectivo de la quinta libertad aérea prevista en el REF para facilitar nuevas conexiones directas entre Canarias y terceros países.",
+          "medida_sintesis": "Desarrollar la quinta libertad aérea prevista en el REF para abrir conexiones directas entre Canarias y terceros países.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: remite a un instrumento normativo identificado (quinta libertad del REF).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-078": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Exigiremos financiación estatal estable que permita mantener la gratuidad del transporte público terrestre para los usuarios beneficiarios y cubra el coste efectivo de la bonificación.",
+          "medida_sintesis": "Reclamar financiación estatal estable para mantener la gratuidad del transporte público terrestre para las personas usuarias beneficiarias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: dotación identificada (financiación estatal de la bonificación).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Reclamaremos además la aportación estatal al déficit del sistema prevista en la propuesta de Decreto Canarias.",
+          "medida_sintesis": "Reclamar la aportación estatal al déficit del sistema de transporte público prevista en la propuesta de Decreto Canarias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: dotación identificada (aportación estatal al déficit).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Para Lanzarote y Fuerteventura, defenderemos la financiación estatal del 50 % de los proyectos, infraestructuras y equipamientos de transporte público por carretera",
+          "medida_sintesis": "Defender la financiación estatal del 50 % de los proyectos e infraestructuras de transporte público por carretera en Lanzarote y Fuerteventura.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: dotación concreta (50 % de financiación estatal).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-079": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reclamaremos un convenio estatal de diez años con financiación suficiente para ejecutar el Tren de Gran Canaria",
+          "medida_sintesis": "Reclamar un convenio estatal de diez años con financiación suficiente para ejecutar el Tren de Gran Canaria.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: instrumento concreto (convenio de diez años con financiación).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "un tratamiento equivalente para los proyectos ferroviarios de Tenerife.",
+          "medida_sintesis": "Reclamar un tratamiento equivalente, con convenio y financiación estatal, para los proyectos ferroviarios de Tenerife.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: remite al mismo instrumento (convenio con financiación). Se separa de la anterior por tener otro objeto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-080": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Exigiremos la actualización de las compensaciones estatales para cubrir el 100 % del coste real y efectivo subvencionable, incluyendo el transporte",
+          "medida_sintesis": "Reclamar la actualización de las compensaciones estatales al transporte de mercancías hasta el 100 % del coste real, incluida la doble insularidad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: dotación concreta (100 % del coste subvencionable).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-097": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "que permitan al Gobierno de Canarias, a los cabildos y a los ayuntamientos emplear sus remanentes de tesorería en vivienda, sanidad, educación y bienestar social.",
+          "medida_sintesis": "Defender reformas estatales que permitan a las administraciones canarias emplear sus remanentes de tesorería en vivienda, sanidad, educación y bienestar social.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de organización del Estado y de las instituciones que no regula ni provee el acceso a un derecho social. DEC 0: identifica el instrumento (reforma de las reglas sobre remanentes).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Permite destinar remanentes a vivienda, sanidad, educación y bienestar social, pero no regula ni provee un acceso concreto. Propuesta: OTR con 0 en las cuatro dimensiones, como regla de gasto de las administraciones; si el equipo lo asimila a financiación de servicios públicos, UNI 1 y NDI 1, con DES 0 porque no nombra un servicio público concreto.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Reclamaremos la flexibilidad fiscal necesaria para las instituciones implicadas en la reconstrucción de La Palma",
+          "medida_sintesis": "Reclamar flexibilidad en las reglas fiscales para las instituciones que participan en la reconstrucción de La Palma.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de organización del Estado y de las instituciones que no regula ni provee el acceso a un derecho social. DEC 1: «flexibilidad fiscal necesaria» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "cc-098": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsaremos los cambios estatales necesarios para que el Instituto Canario de Estadística pueda acceder a la información tributaria que permita evaluar el REF",
+          "medida_sintesis": "Promover los cambios normativos estatales para que el Instituto Canario de Estadística acceda a la información tributaria con la que evaluar el REF.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de organización del Estado y de las instituciones que no regula ni provee el acceso a un derecho social. DEC 0: identifica el instrumento (cambio normativo para el acceso a datos tributarios).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-002": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Daremos prioridad a recuperar la calidad de los servicios públicos",
+          "medida_sintesis": "Dar prioridad presupuestaria a recuperar la calidad de los servicios públicos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: «daremos prioridad» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Servicios públicos en general, sin nombrar un derecho ni un servicio concreto. Propuesta: OTR con 0 en las cuatro dimensiones y DEC 1; si el equipo considera que los servicios públicos genéricos dan acceso a derechos sociales, UNI 1, DES 1 y NDI 1 con DEC 1, como el acompañamiento declarativo del ejemplo pp-226.",
+          "repite": ""
+        },
+        {
+          "fragmento": "garantizar la seguridad y el mantenimiento de las redes de transporte, agua, energía y comunicaciones. La conservación irá por delante de las obras nuevas",
+          "medida_sintesis": "Priorizar la seguridad y el mantenimiento de las redes de transporte, agua, energía y comunicaciones sobre las obras nuevas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 1: «garantizar» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "acometeremos las inversiones que generan empleo y riqueza conforme dispongamos de recursos para financiarlas.",
+          "medida_sintesis": "Acometer las inversiones productivas a medida que haya recursos para financiarlas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «acometeremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-004": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "reduciremos la deuda con objetivos para los próximos años conforme a las reglas europeas.",
+          "medida_sintesis": "Reducir la deuda pública con objetivos plurianuales conforme a las reglas fiscales europeas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: fija objetivos con referencia a las reglas europeas.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Ningún gasto nuevo se aprobará sin garantizar cómo se financiará, también en el futuro.",
+          "medida_sintesis": "Exigir que todo gasto nuevo se apruebe con su financiación garantizada.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: regla de gasto. No es REG: es una regla de gasto general que no nombra ninguna garantía.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "ampliaremos las competencias de la AIReF para evaluar el gasto y la sostenibilidad de la deuda y reforzar su papel de control",
+          "medida_sintesis": "Ampliar las competencias de la AIReF para evaluar el gasto y la sostenibilidad de la deuda en todas las administraciones.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de organización del Estado y de las instituciones que no regula ni provee el acceso a un derecho social. DEC 0: reforma institucional concreta.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-005": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Cada año, antes de aprobar el presupuesto, se evaluará con criterios independientes un conjunto de programas de gasto",
+          "medida_sintesis": "Evaluar cada año de forma independiente los programas de gasto, reasignar los recursos de los que no cumplan su objetivo y publicar las conclusiones con el presupuesto.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: procedimiento y calendario concretos. No es REG: la reasignación afecta al gasto en general sin nombrar ninguna garantía.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-012": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Las subvenciones sólo se prorrogarán tras una evaluación positiva de sus resultados.",
+          "medida_sintesis": "Condicionar la prórroga de las subvenciones a una evaluación positiva de resultados, con indicadores obligatorios en las de mayor importe.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: regla concreta (evaluación previa e indicadores obligatorios).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Sustituiremos las ayudas directas por procesos competitivos siempre que sea posible, para eliminar la discrecionalidad.",
+          "medida_sintesis": "Conceder las ayudas con baremos públicos y sustituir las ayudas directas por procesos competitivos siempre que sea posible.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: procedimiento concreto. No es REG: se refiere a las subvenciones en general, sin nombrar prestaciones sociales.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "También priorizaremos las reducciones, exenciones o créditos fiscales sobre la subvención",
+          "medida_sintesis": "Priorizar las reducciones, exenciones y créditos fiscales frente a las subvenciones.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 1: «priorizaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-047": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "A partir de la auditoría del Estado con la que arrancaremos la legislatura, corregiremos las deficiencias de todas las infraestructuras y servicios esenciales",
+          "medida_sintesis": "Corregir, a partir de la auditoría del Estado, las deficiencias de las infraestructuras y servicios esenciales, empezando por las más urgentes.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: parte de un instrumento identificado (auditoría del Estado).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Nos centraremos en el mantenimiento, la prevención de accidentes y la supervisión del transporte, con especial atención al ferrocarril.",
+          "medida_sintesis": "Centrar la acción en el mantenimiento, la prevención de accidentes y la supervisión del transporte, en especial del ferrocarril.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «nos centraremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Exigiremos a los operadores de servicios esenciales los medios de respaldo, las comunicaciones alternativas y los planes de continuidad necesarios",
+          "medida_sintesis": "Obligar a los operadores de servicios esenciales a disponer de medios de respaldo, comunicaciones alternativas y planes de continuidad ante emergencias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: obligación concreta a los operadores.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Priorizaremos la seguridad de las presas, los barrancos y las actuaciones en carreteras, ferrocarriles, puertos y aeropuertos.",
+          "medida_sintesis": "Priorizar la seguridad de presas, barrancos e infraestructuras de transporte.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 1: «priorizaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-094": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Fijaremos por ley, sector a sector y de acuerdo con las Comunidades Autónomas, los requisitos comunes para ejercer una actividad en España",
+          "medida_sintesis": "Fijar por ley requisitos comunes para ejercer una actividad económica en todo el territorio, con reconocimiento mutuo de licencias y un cauce de denuncia de trabas injustificadas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: norma con contenido concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-099": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Estableceremos incentivos económicos en las zonas en declive demográfico para abrir negocios, facilitar el relevo empresarial, atraer inversiones productivas que creen empleo estable",
+          "medida_sintesis": "Incentivos económicos en zonas en declive demográfico para abrir negocios, facilitar el relevo empresarial y atraer inversión productiva.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: instrumento identificado (incentivos económicos).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "comprar o rehabilitar viviendas destinadas a residencia habitual.",
+          "medida_sintesis": "Incentivos económicos para comprar o rehabilitar vivienda habitual en zonas en declive demográfico.",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: exige poder comprar o rehabilitar una vivienda. EXI 0: es un incentivo económico, no reconoce el derecho ni obliga a proveerlo. DES 0: ayuda ligada a comprar o rehabilitar en el mercado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Impulsaremos el teletrabajo",
+          "medida_sintesis": "Impulsar el teletrabajo en las zonas en declive demográfico.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. DEC 1: «impulsaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: empleo (EMP) y política territorial frente a la despoblación (OTR), y no regula derechos de las personas trabajadoras. Propuesta: EMP con 0 en las cuatro dimensiones.",
+          "repite": ""
+        },
+        {
+          "fragmento": "aseguraremos conectividad de calidad.",
+          "medida_sintesis": "Asegurar una conectividad digital de calidad en las zonas en declive demográfico.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 1: «aseguraremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "fortaleceremos los servicios públicos y los cuidados de proximidad a quienes viven lejos de las grandes ciudades mediante atención móvil, centros comarcales, transporte a demanda",
+          "medida_sintesis": "Reforzar los servicios públicos y los cuidados de proximidad para la población alejada de las grandes ciudades con atención móvil, centros comarcales y transporte a demanda.",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: refuerza servicios sin reconocer un derecho ni fijar estándar, ratio o plazo. DEC 0: nombra modalidades concretas de provisión.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Agrupa servicios públicos en general y cuidados de proximidad, y admite dos áreas (CUI y OTR). Propuesta: una sola medida en CUI, porque los instrumentos son comunes; DES 1 porque nombra servicios públicos y modalidades de provisión pública (atención móvil, centros comarcales).",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-106": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Compensaremos las desventajas de la insularidad y la ultraperiferia y tendremos en cuenta sus costes en las leyes, los planes y las inversiones del Estado.",
+          "medida_sintesis": "Compensar las desventajas de la insularidad y la ultraperiferia teniendo en cuenta sus costes en las leyes, planes e inversiones del Estado.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de organización del Estado y de las instituciones que no regula ni provee el acceso a un derecho social. DEC 1: «compensaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Aseguraremos conexiones marítimas y aéreas regulares y suficientes para Canarias, Baleares, Ceuta y Melilla, tanto para viajeros como para mercancías, con obligaciones de servicio público",
+          "medida_sintesis": "Asegurar conexiones marítimas y aéreas regulares para Canarias, Baleares, Ceuta y Melilla con obligaciones de servicio público y alternativas ante interrupciones.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: instrumento concreto (obligaciones de servicio público).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Adecuaremos los aeropuertos insulares a la demanda",
+          "medida_sintesis": "Adecuar la capacidad de los aeropuertos insulares a la demanda.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: actuación directa sobre infraestructuras identificadas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "impulsaremos mejoras en las infraestructuras de agua, energía y telecomunicaciones para garantizar los suministros.",
+          "medida_sintesis": "Mejorar las infraestructuras de agua, energía y telecomunicaciones de los territorios insulares para garantizar los suministros.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 1: «impulsaremos mejoras» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: infraestructuras (OTR) y agua y energía (MAM); además, «garantizar los suministros» podría leerse como acceso a suministros básicos del hogar (VIV). Propuesta: OTR con 0 en las cuatro dimensiones, porque actúa sobre la red y no sobre las condiciones de acceso de los hogares.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Estableceremos incentivos para atraer y retener empleados públicos en destinos insulares y ultraperiféricos de difícil cobertura, atendiendo al coste de la vida y la lejanía.",
+          "medida_sintesis": "Incentivos para atraer y retener personal público en destinos insulares y ultraperiféricos de difícil cobertura.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de organización del Estado y de las instituciones que no regula ni provee el acceso a un derecho social. DEC 0: instrumento identificado (incentivos).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: organización de la Administración (OTR) y condiciones laborales (EMP). Propuesta: OTR con 0 en las cuatro dimensiones, porque el fin es cubrir puestos públicos y no regula derechos laborales generales.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-107": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reduciremos el déficit estructural y la deuda.",
+          "medida_sintesis": "Reducir el déficit estructural y la deuda pública.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 1: «reduciremos» sin norma, prestación, estándar, plazo, ratio ni dotación. Repite pp-004, donde se fijan objetivos conforme a las reglas europeas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "pp-004"
+        },
+        {
+          "fragmento": "Las grandes decisiones sobre vivienda, empleo, pensiones, educación y fiscalidad tendrán en cuenta su impacto en las siguientes generaciones",
+          "medida_sintesis": "Tener en cuenta el impacto en las siguientes generaciones de las grandes decisiones sobre vivienda, empleo, pensiones, educación y fiscalidad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social. Es un criterio general de decisión. DEC 1: «tendrán en cuenta» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-116": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Daremos prioridad al mantenimiento de las infraestructuras que deben unir a personas y territorios con seguridad, calidad y puntualidad.",
+          "medida_sintesis": "Dar prioridad presupuestaria al mantenimiento de las infraestructuras de transporte.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: prioridad en un instrumento identificado (presupuestos).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Evaluaremos la eficiencia de las inversiones y su contribución a la vertebración territorial.",
+          "medida_sintesis": "Evaluar la eficiencia de las inversiones en infraestructuras y su contribución a la vertebración territorial.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: actuación concreta de evaluación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "corregiremos las ineficiencias generadas por el abandono continuado de los últimos años, auditaremos su funcionamiento y solventaremos las necesidades urgentes con la mayor celeridad.",
+          "medida_sintesis": "Auditar las infraestructuras, corregir sus deficiencias y atender primero las necesidades urgentes.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: instrumento identificado (auditoría). Repite pp-047, que plantea la misma auditoría y corrección para todas las infraestructuras y servicios esenciales.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "pp-047"
+        }
+      ]
+    },
+    "pp-117": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "movilizaremos, junto con el sector privado, más de 300.000 millones en los próximos 15 años",
+          "medida_sintesis": "Plan Nacional de Infraestructuras con más de 300.000 millones en 15 años, con participación privada, para carreteras, ferrocarril e infraestructuras hidráulicas y energéticas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: plan con dotación concreta.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-118": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Analizaremos las más de 1.000 limitaciones temporales de velocidad y cuantificaremos las inversiones necesarias para abordarlas",
+          "medida_sintesis": "Analizar las limitaciones temporales de velocidad de la red ferroviaria y cuantificar y priorizar las inversiones para eliminarlas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: actuación concreta y cuantificada.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Aprobaremos un plan de atención urgente a los pasajeros cuando un tren quede detenido durante el trayecto.",
+          "medida_sintesis": "Aprobar un plan de atención urgente a las personas viajeras cuando un tren quede detenido.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. Son derechos de las personas consumidoras del transporte. DEC 0: plan identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-119": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Renovaremos las vías y trenes más antiguos, e intensificaremos el mantenimiento preventivo para reducir progresivamente averías y retrasos",
+          "medida_sintesis": "Renovar las vías y trenes más antiguos de la alta velocidad e intensificar su mantenimiento preventivo, empezando por el corredor de Andalucía.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: actuación directa sobre activos identificados.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Proseguiremos las obras en ejecución.",
+          "medida_sintesis": "Continuar las obras ferroviarias en ejecución.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: actuación directa sobre obras identificadas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Las nuevas conexiones se realizarán progresivamente, cuando esté garantizada la seguridad del servicio existente, y se ejecutarán con calendarios realistas, financiación asegurada",
+          "medida_sintesis": "Condicionar las nuevas conexiones de alta velocidad a la seguridad del servicio existente, con calendario, financiación y costes de mantenimiento previstos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: fija condiciones concretas de programación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Haremos efectivas las indemnizaciones por retrasos.",
+          "medida_sintesis": "Hacer efectivas las indemnizaciones por retrasos en los trenes.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. Son derechos de las personas consumidoras del transporte. DEC 0: instrumento identificado (indemnizaciones).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-120": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Renovaremos las vías, los trenes y los equipos priorizando la seguridad",
+          "medida_sintesis": "Renovar vías, trenes y equipos de Cercanías y Rodalies, empezando por las líneas con más averías, retrasos y cancelaciones.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: actuación directa sobre activos identificados.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "reforzando las frecuencias de acuerdo con la demanda.",
+          "medida_sintesis": "Reforzar las frecuencias de Cercanías y Rodalies según la demanda.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «reforzando» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-121": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Modernizaremos las infraestructuras clave de la red convencional y mejoraremos sus servicios.",
+          "medida_sintesis": "Modernizar las infraestructuras clave de la red ferroviaria convencional y mejorar sus servicios.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «modernizaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Aceleraremos los tramos pendientes de los corredores Mediterráneo, Atlántico y Ruta de la Plata",
+          "medida_sintesis": "Acelerar los tramos pendientes de los corredores Mediterráneo, Atlántico y Ruta de la Plata.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 0: actuación directa sobre obras identificadas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "apoyaremos todas las actuaciones de la Red Transeuropea de Transporte en España",
+          "medida_sintesis": "Apoyar las actuaciones de la Red Transeuropea de Transporte en España.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: no regula ni provee el acceso a un derecho social; el transporte no es por sí mismo un derecho social del apartado 2.2. DEC 1: «apoyaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-122": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Desplegaremos un programa de conservación para los más de 26.500 kilómetros de carreteras estatales",
+          "medida_sintesis": "Programa de conservación de los más de 26.500 kilómetros de carreteras estatales, empezando por los tramos más deteriorados y con más accidentes.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: programa con alcance definido.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Habilitaremos carriles de adelantamiento seguro donde sean necesarios",
+          "medida_sintesis": "Habilitar carriles de adelantamiento seguro donde sean necesarios.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: actuación directa sobre la red viaria.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "ampliaremos las áreas de descanso y los aparcamientos seguros para transportistas.",
+          "medida_sintesis": "Ampliar las áreas de descanso y los aparcamientos seguros para el transporte profesional por carretera.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: actuación directa sobre la red viaria.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-124": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mejoraremos los accesos ferroviarios y viarios de la red de 46 puertos de interés general",
+          "medida_sintesis": "Mejorar los accesos ferroviarios y viarios de los 46 puertos de interés general.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: actuación directa sobre activos identificados.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Las infraestructuras portuarias se ampliarán con proyectos ajustados a la demanda",
+          "medida_sintesis": "Ampliar las infraestructuras portuarias con proyectos ajustados a la demanda.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: actuación directa sobre activos identificados.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "extendiendo el suministro eléctrico a los buques atracados.",
+          "medida_sintesis": "Extender el suministro eléctrico en puerto a los buques atracados.",
+          "area": "MAM",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: mejora ambiental de la infraestructura portuaria que no regula ni provee el acceso a un derecho social. DEC 0: actuación concreta.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: infraestructura portuaria (OTR) y energía y contaminación (MAM); el libro no fija cómo codificar las medidas ambientales que no regulan un acceso. Propuesta: MAM con 0 en las cuatro dimensiones.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-125": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Resolveremos los puntos de saturación y ejecutaremos las ampliaciones que justifiquen la demanda prevista y las necesidades de conectividad territorial.",
+          "medida_sintesis": "Resolver la saturación de los aeropuertos y ejecutar las ampliaciones que justifique la demanda prevista.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 0: actuación directa sobre activos identificados.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "MEJORES ACCESOS PARA LOS AEROPUERTOS",
+          "medida_sintesis": "Mejorar los accesos a los aeropuertos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de infraestructuras que no regula ni provee el acceso a un derecho social. DEC 1: enunciado del titular sin instrumento ni desarrollo.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "El titular anuncia mejores accesos que el texto no desarrolla. Propuesta: contarlo como medida aparte y declarativa, según R2 y R4.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-158": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Todos los mínimos familiares se actualizarán con la inflación.",
+          "medida_sintesis": "Actualizar con la inflación todos los mínimos familiares del IRPF.",
+          "area": "CUI",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: solo beneficia a quien tiene cuota en el IRPF. EXI 0: es un beneficio fiscal, que no reconoce el derecho. DES 0: es un beneficio fiscal.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: fiscalidad y familia (OTR) o crianza (CUI). Propuesta: CUI, porque el texto lo vincula al coste de criar.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Refundiremos las deducciones familiares del IRPF en una sola, reembolsable, con un único trámite y abono mensual.",
+          "medida_sintesis": "Refundir las deducciones familiares del IRPF en una sola deducción reembolsable, de abono mensual, que llegue a todas las familias, también sin cuota suficiente.",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: es una deducción fiscal, que según 2.4 no da exigibilidad aunque se apruebe por ley. DES 0: es una deducción fiscal.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Deducción reembolsable con abono mensual para todas las familias, también sin cuota: funciona como una prestación monetaria por crianza. Propuesta: mantener EXI 0 y DES 0 por ser deducción, como fija 2.4; si el equipo la asimila a prestación por crianza, EXI 1 y DES 1, y la medida sería garantía.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Permitiremos la declaración conjunta de las parejas de hecho y adaptaremos la aplicación de los mínimos familiares a su realidad.",
+          "medida_sintesis": "Permitir la declaración conjunta del IRPF a las parejas de hecho y adaptar a ellas los mínimos familiares.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: el beneficio depende de tener cuota en el IRPF. EXI 0: es un régimen fiscal, no reconoce un derecho. DES 0: es un beneficio fiscal.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Caso frontera: la tributación conjunta de las parejas de hecho puede leerse como fiscalidad general (0 en las cuatro) o como protección de la familia por la vía fiscal. Propuesta: protección de la familia, como los mínimos familiares, con NDI 1 porque equipara formas de familia sin exclusiones.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-171": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "SI ERES AUTÓNOMO Y FACTURAS MENOS DE 85.000 EUROS, NO TENDRÁS QUE COBRAR NI DECLARAR EL IVA",
+          "medida_sintesis": "Eximir de cobrar y declarar el IVA a las personas autónomas que facturen menos de 85.000 euros.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: umbral concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Habrá reglas claras para deducir gastos, también los de vivienda y vehículo.",
+          "medida_sintesis": "Fijar reglas claras para que las personas autónomas deduzcan gastos, incluidos los de vivienda y vehículo.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. La deducción de gastos de vivienda es fiscalidad de la actividad económica, no acceso a la vivienda. DEC 0: norma fiscal.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Los autónomos podrán pasar de cuatro declaraciones trimestrales a dos semestrales en todos los impuestos sujetos a esa obligación.",
+          "medida_sintesis": "Permitir a las personas autónomas declarar de forma semestral en lugar de trimestral, y una vez al año al iniciar la actividad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: regla concreta de plazos.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "bonificaremos el 100% de las cotizaciones empresariales por el primer trabajador durante un año y el 50% por el segundo.",
+          "medida_sintesis": "Bonificar durante un año el 100 % de las cotizaciones empresariales por la primera persona contratada por una persona autónoma y el 50 % por la segunda.",
+          "area": "EMP",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: incentivo a la contratación para la parte empleadora, que no regula ni provee el acceso a un derecho social. DEC 0: bonificación cuantificada.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Incentivo a la contratación: puede leerse como política de empleo que no regula el acceso a un derecho (0 en las cuatro) o como acceso al trabajo mediante incentivo a la oferta privada (UNI 0, EXI 0, DES 0, NDI 1). Propuesta: 0 en las cuatro, porque la beneficiaria es la parte empleadora.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-176": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Favoreceremos el crecimiento y la competitividad de cooperativas, sociedades laborales, mutualidades, empresas de inserción, centros especiales de empleo y demás entidades que la integran.",
+          "medida_sintesis": "Favorecer el crecimiento de la economía social, con reconocimiento de su papel y un marco normativo estable.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «favoreceremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: economía (OTR) y empleo (EMP), por las empresas de inserción y los centros especiales de empleo. Propuesta: OTR, porque el objeto es el sector empresarial de la economía social.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-177": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Elevaremos los mínimos personales y familiares del IRPF",
+          "medida_sintesis": "Elevar los mínimos personales y familiares del IRPF.",
+          "area": "CUI",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: solo beneficia a quien tiene cuota en el IRPF. EXI 0: es un beneficio fiscal. DES 0: es un beneficio fiscal. Repite pp-158, donde los mínimos familiares están más desarrollados.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "pp-158"
+        },
+        {
+          "fragmento": "bajaremos el IRPF de las rentas medias y bajas y de las familias.",
+          "medida_sintesis": "Bajar el IRPF de las rentas medias y bajas y de las familias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: identifica el impuesto y los tramos afectados.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Quien cobre el salario mínimo no pagará IRPF: por ley, el umbral subirá automáticamente cada vez que suba el SMI",
+          "medida_sintesis": "Eximir del IRPF a quien cobre el salario mínimo, con un umbral ligado por ley al SMI.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: norma con umbral automático.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-178": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Deflactaremos la tarifa y actualizaremos los principales parámetros del impuesto para impedir que la inflación vuelva a utilizarse como una subida encubierta de impuestos.",
+          "medida_sintesis": "Deflactar la tarifa del IRPF y actualizar sus principales parámetros con la inflación.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: norma fiscal concreta.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-179": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Reduciremos el IRPF de los trabajadores y autónomos de 18 a 35 años durante los cuatro primeros años en que paguen IRPF.",
+          "medida_sintesis": "Reducir el IRPF de las personas trabajadoras y autónomas de 18 a 35 años durante sus cuatro primeros años de declaración, del 100 % al 25 %.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: reducción cuantificada.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-180": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "aplicaremos un IVA del 0% a los alimentos básicos, incluidos la carne, el pescado y las conservas.",
+          "medida_sintesis": "Aplicar un IVA del 0 % a los alimentos básicos mientras dure la crisis de inflación.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: el beneficio exige comprar en el mercado, como en el IVA de la vivienda del ejemplo pp-153. EXI 0: es una rebaja fiscal. DES 0: es una rebaja fiscal.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-181": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ampliaremos la libertad de amortización: lo que una empresa invierta en maquinaria, equipos, digitalización",
+          "medida_sintesis": "Ampliar la libertad de amortización para que la inversión empresarial en equipos, digitalización o patentes se deduzca entera el mismo año.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: norma fiscal concreta.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "facilitaremos que las startups y las empresas innovadoras que todavía no tienen beneficios puedan recibir anticipadamente parte del incentivo fiscal a la inversión.",
+          "medida_sintesis": "Permitir que las empresas innovadoras sin beneficios cobren por anticipado parte del incentivo fiscal a la inversión.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: mecanismo fiscal identificado.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-182": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Aprobaremos un Estatuto del Contribuyente que cambie la relación con Hacienda.",
+          "medida_sintesis": "Aprobar un Estatuto del Contribuyente con derecho al error, sin aplicación retroactiva de cambios de criterio desfavorables y con refuerzo del Consejo para la Defensa del Contribuyente.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: norma identificada con contenido concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Simplificaremos el sistema tributario",
+          "medida_sintesis": "Simplificar el sistema tributario.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 1: «simplificaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-183": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "ELIMINAREMOS LOS IMPUESTOS QUE FRENAN LA INVERSIÓN",
+          "medida_sintesis": "Eliminar los impuestos que frenan la inversión.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 1: no identifica qué impuestos se eliminan.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Intensificaremos la lucha contra el fraude fiscal para que quienes incumplen sus obligaciones paguen lo que les corresponde.",
+          "medida_sintesis": "Intensificar la lucha contra el fraude fiscal.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 1: «intensificaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Los ingresos que recuperemos servirán para bajar los impuestos a quienes cumplen.",
+          "medida_sintesis": "Destinar lo recaudado contra el fraude a bajar impuestos a quienes cumplen.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 1: «servirán para bajar» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-184": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Hacienda dará un trato fiscal equivalente a las distintas formas de ahorro mientras el dinero siga invertido",
+          "medida_sintesis": "Dar un trato fiscal equivalente a las distintas formas de ahorro mientras el dinero siga invertido.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: norma fiscal concreta.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-185": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Las Comunidades Autónomas seguirán decidiendo con libertad sobre sus impuestos propios y cedidos, dentro de sus competencias, y podrán bajarlos cuanto quieran.",
+          "medida_sintesis": "Mantener la capacidad de las comunidades autónomas para decidir sobre sus impuestos, sin obligarlas a subirlos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 1: compromiso de no armonizar sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-186": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Revisaremos la normativa que frene la productividad y eliminaremos las trabas que impidan a las empresas crecer, innovar y competir.",
+          "medida_sintesis": "Revisar la normativa que frene la productividad y eliminar trabas al crecimiento empresarial.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «revisaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Implantaremos un test de productividad para evaluar, antes de aprobar cualquier nueva regulación económica, su impacto sobre el empleo, la productividad y la competitividad exterior.",
+          "medida_sintesis": "Implantar un test de productividad público para toda nueva regulación económica, con justificación expresa de los efectos negativos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: procedimiento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-187": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "los nuevos requisitos sólo se aplicarán cuando la empresa lleve cuatro años creciendo de forma consolidada.",
+          "medida_sintesis": "Revisar los umbrales nacionales de obligaciones empresariales y aplicar los nuevos requisitos solo tras cuatro años de crecimiento consolidado.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: regla con plazo concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Los umbrales nacionales incluyen obligaciones laborales y de igualdad, como los planes de igualdad o la representación de la plantilla, cuyo aplazamiento sería regresivo, pero el texto no las nombra. Propuesta: REG 0 y 0 en las cuatro dimensiones, porque no nombra ninguna garantía de derechos sociales.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Simplificaremos las obligaciones de las empresas de hasta 250 trabajadores.",
+          "medida_sintesis": "Simplificar las obligaciones de las empresas de hasta 250 personas trabajadoras.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «simplificaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Las obligaciones de las empresas medianas incluyen deberes laborales y de igualdad cuya reducción sería regresiva, pero el texto no las nombra. Propuesta: REG 0 y 0 en las cuatro dimensiones, porque no nombra ninguna garantía de derechos sociales.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Estableceremos un sistema de incentivos (fiscales, laborales, administrativos, de contratación) a aquellas empresas que incrementen su tamaño.",
+          "medida_sintesis": "Sistema de incentivos fiscales, laborales, administrativos y de contratación para las empresas que crezcan.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: instrumento identificado (sistema de incentivos).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-188": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Agilizaremos la incorporación de investigadores y el reconocimiento de sus trayectorias, con procesos abiertos y por mérito.",
+          "medida_sintesis": "Agilizar la incorporación y el reconocimiento de trayectorias del personal investigador con procesos abiertos y por mérito.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. Es política científica. DEC 1: «agilizaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "La financiación pública de la I+D tendrá continuidad de un año a otro, y una parte dependerá de los resultados",
+          "medida_sintesis": "Dar continuidad anual a la financiación pública de la I+D, con una parte ligada a resultados.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: regla de financiación concreta.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "los profesionales que vengan a trabajar en grandes proyectos tecnológicos tributarán al 20% durante seis años.",
+          "medida_sintesis": "Tipo fiscal del 20 % durante seis años para profesionales que se trasladen a trabajar en grandes proyectos tecnológicos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: tipo y plazo concretos.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-189": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Incrementaremos la deducción por investigación e innovación y la dotaremos de mayor seguridad jurídica.",
+          "medida_sintesis": "Aumentar la deducción fiscal por investigación e innovación y darle mayor seguridad jurídica.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: instrumento fiscal identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Simplificaremos las ayudas",
+          "medida_sintesis": "Simplificar las ayudas a la innovación.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «simplificaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "facilitaremos las licencias de patentes públicas",
+          "medida_sintesis": "Facilitar las licencias de patentes públicas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «facilitaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "mejoraremos la compra pública innovadora a startups y pymes tecnológicas",
+          "medida_sintesis": "Mejorar la compra pública innovadora a empresas emergentes y pymes tecnológicas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «mejoraremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-191": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "CREAREMOS ZONAS DE INNOVACIÓN ESTRATÉGICA PARA QUE LOS GRANDES PROYECTOS TECNOLÓGICOS ELIJAN ESPAÑA",
+          "medida_sintesis": "Crear zonas de innovación estratégica con suelo, conexión eléctrica y digital, tramitación acelerada y trato fiscal favorable durante siete años.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: instrumento con contenido concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Impulsaremos, también, el desarrollo y la aplicación industrial de tecnologías disruptivas como la cuántica, la fotónica y la sensórica",
+          "medida_sintesis": "Impulsar el desarrollo industrial de tecnologías disruptivas como la cuántica, la fotónica y la sensórica.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «impulsaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-192": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Declararemos estratégicos de interés nacional los proyectos que creen al menos cien empleos.",
+          "medida_sintesis": "Declarar estratégicos de interés nacional los proyectos industriales de al menos cien empleos, con dirección única, tramitación prioritaria y conexión eléctrica en seis meses.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: régimen concreto con plazo. No es REG: el trámite único de autorizaciones ambientales no suprime ninguna garantía.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Facilitaremos, en colaboración con las Comunidades Autónomas y las entidades locales, suelo industrial vinculado a universidades y centros tecnológicos",
+          "medida_sintesis": "Facilitar suelo industrial vinculado a universidades y centros tecnológicos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «facilitaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "así como financiación para modernizar procesos.",
+          "medida_sintesis": "Financiación para modernizar los procesos industriales.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: identifica una dotación, aunque sin cuantía.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Identificaremos las dependencias críticas y apoyaremos la extracción, transformación y reciclaje de materias primas.",
+          "medida_sintesis": "Identificar las dependencias críticas y apoyar la extracción, transformación y reciclaje de materias primas.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «apoyaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Fortaleceremos las cadenas de suministro esenciales con pruebas de resistencia periódicas y reservas estratégicas de materias primas y componentes",
+          "medida_sintesis": "Reforzar las cadenas de suministro esenciales con pruebas de resistencia periódicas y reservas estratégicas de materias primas y componentes.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: instrumentos concretos (pruebas periódicas y reservas).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-193": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Acordaremos con cada sector planes de continuidad y suministros alternativos. Crearemos reservas estratégicas donde esté justificado, también de medicamentos",
+          "medida_sintesis": "Asegurar el suministro de alimentos y medicamentos con un mapa de dependencias, planes de continuidad por sector, reservas estratégicas y criterios de seguridad en la compra pública.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: instrumentos concretos (planes de continuidad y reservas).",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: política sectorial de suministro (OTR) y farmacia (SAN). Propuesta: OTR con 0 en las cuatro dimensiones, porque asegura la disponibilidad en el mercado y no regula el acceso de las personas a los medicamentos.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Atraeremos a España la fabricación de medicamentos esenciales, en coordinación con Europa.",
+          "medida_sintesis": "Atraer a España la fabricación de medicamentos esenciales.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «atraeremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: política industrial (OTR) y farmacia (SAN). Propuesta: OTR con 0 en las cuatro dimensiones, porque actúa sobre la localización de la producción y no sobre el acceso a los medicamentos.",
+          "repite": ""
+        },
+        {
+          "fragmento": "conectaremos los sistemas de trazabilidad, coordinaremos los controles sanitarios y perseguiremos el fraude, para que el consumidor sepa qué come y de dónde viene.",
+          "medida_sintesis": "Conectar los sistemas de trazabilidad alimentaria, coordinar los controles sanitarios y perseguir el fraude alimentario.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: actuaciones concretas sobre sistemas existentes.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Seguridad alimentaria: admite SAN (salud pública) además de OTR (cadena alimentaria y consumo). Propuesta: OTR con 0 en las cuatro dimensiones, porque coordina controles existentes sin regular el acceso a un derecho; si el equipo incluye la seguridad alimentaria en salud pública, SAN con UNI 1, DES 1 y NDI 1.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-194": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Dinamizaremos el sector turístico y hostelero, uno de los grandes motores de nuestra economía",
+          "medida_sintesis": "Dinamizar el sector turístico y hostelero y facilitar su modernización tecnológica y su productividad.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «dinamizaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Aspiramos a convertir a España en referente mundial en formación vinculada al turismo",
+          "medida_sintesis": "Convertir a España en referente mundial en formación vinculada al turismo y en captación de talento.",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: aspiración sin norma ni obligación. DES 0: no dice cómo se provee la formación ni nombra un servicio público. DEC 1: sin instrumento.",
+          "confianza": "baja",
+          "revisar": 1,
+          "motivo_revision": "Aspiración sobre la formación vinculada al turismo que no dice cómo se provee ni a quién se dirige, y que alude a la captación de talento. Propuesta: EDU con UNI 1 y NDI 1 por no fijar condiciones, DES 0 por no nombrar un servicio público y DEC 1; alternativa, OTR con 0 en las cuatro si se considera política sectorial turística.",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-195": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "UN PACTO NACIONAL PARA EL CAMPO, EL MAR Y EL MONTE",
+          "medida_sintesis": "Pacto Nacional para el campo, el mar y el monte, con respaldo del Congreso, que declare estratégicas sus cadenas de valor y fije financiación y objetivos medibles.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: instrumento identificado con financiación y objetivos.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "El coste de ruralidad se contemplará en la financiación autonómica.",
+          "medida_sintesis": "Incluir el coste de la ruralidad en el sistema de financiación autonómica.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de organización del Estado y de las instituciones que no regula ni provee el acceso a un derecho social. DEC 0: criterio concreto en un instrumento identificado.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-196": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Bajaremos los impuestos a quienes viven, invierten y producen en el medio rural.",
+          "medida_sintesis": "Bajar los impuestos a quienes viven, invierten y producen en el medio rural.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 1: no identifica qué impuestos ni en qué cuantía.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Los jóvenes no pagarán impuestos por adquirir su vivienda habitual en municipios despoblados.",
+          "medida_sintesis": "Eximir de impuestos la compra de vivienda habitual por personas jóvenes en municipios despoblados.",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI 0: exige poder comprar una vivienda. EXI 0: es una exención fiscal. DES 0: es una exención fiscal.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Permitiremos repartir entre varios años, a efectos fiscales, los ingresos de una buena cosecha, una venta de madera o una campaña pesquera",
+          "medida_sintesis": "Permitir repartir fiscalmente entre varios años los ingresos agrarios, forestales y pesqueros y crear una reserva para los años malos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida fiscal general que no regula ni provee el acceso a un derecho social. DEC 0: regla fiscal concreta.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Haremos efectivo el Mecanismo Rural de Garantía para que ninguna norma se apruebe sin evaluar antes su impacto en el medio rural.",
+          "medida_sintesis": "Aplicar el Mecanismo Rural de Garantía para evaluar el impacto rural de toda norma antes de aprobarla.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: medida de organización del Estado y de las instituciones que no regula ni provee el acceso a un derecho social. DEC 0: procedimiento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-197": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "MANTENDREMOS LA FINANCIACIÓN DE LA PAC, LA PESCA Y EL PROGRAMA POSEI DE APOYO A LAS REGIONES ULTRAPERIFÉRICAS",
+          "medida_sintesis": "Mantener sin recortes la financiación de la PAC, la pesca y el programa POSEI en el marco financiero plurianual 2028-2034.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: dotación identificada.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Los nuevos planes nacionales se diseñarán con las Comunidades Autónomas y el sector para asegurar agilidad en los pagos",
+          "medida_sintesis": "Diseñar los nuevos planes nacionales agrarios y pesqueros con las comunidades autónomas y el sector para agilizar los pagos.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: instrumento identificado (planes nacionales).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-198": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Mejoraremos los seguros agrarios y crearemos un seguro de ingresos y rentas frente a alteraciones del mercado.",
+          "medida_sintesis": "Mejorar los seguros agrarios y crear un seguro de ingresos frente a alteraciones del mercado.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. Es aseguramiento sectorial, no garantía pública de ingresos. DEC 0: instrumento identificado (seguro de ingresos).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Garantizaremos la protección de los ganaderos frente al lobo asegurando, al mismo tiempo, su conservación y equilibrio con criterios técnicos.",
+          "medida_sintesis": "Proteger las explotaciones ganaderas frente al lobo manteniendo la conservación de la especie.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «garantizaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Admite dos áreas: ganadería (OTR) y biodiversidad (MAM). Propuesta: OTR, porque el objeto dominante es la protección de las explotaciones; REG 0 porque el texto mantiene la conservación de la especie.",
+          "repite": ""
+        },
+        {
+          "fragmento": "Reformaremos con el sector la Ley de la Cadena Alimentaria para mejorar la información sobre costes y márgenes.",
+          "medida_sintesis": "Reformar la Ley de la Cadena Alimentaria para mejorar la información sobre costes y márgenes.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: norma identificada.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Promoveremos el autoconsumo eléctrico y una tarifa energética adaptada a las campañas.",
+          "medida_sintesis": "Promover el autoconsumo eléctrico y una tarifa energética adaptada a las campañas agrarias.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra un instrumento (tarifa adaptada), aunque sin fuerza obligatoria.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "Favoreceremos la unión de cooperativas y organizaciones de productores para negociar con más fuerza sus compras y ventas.",
+          "medida_sintesis": "Favorecer la unión de cooperativas y organizaciones del sector agrario para reforzar su capacidad de negociación.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «favoreceremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-201": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Los alimentos importados cumplirán exigencias de seguridad alimentaria y producción equivalentes a las nuestras.",
+          "medida_sintesis": "Exigir a los alimentos importados requisitos de seguridad alimentaria y de producción equivalentes a los nacionales, con más controles en frontera.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: estándar identificado.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Seguridad alimentaria: admite SAN (salud pública) además de OTR (comercio agrario). Propuesta: OTR con 0 en las cuatro dimensiones, porque el objeto dominante es la reciprocidad comercial con la producción nacional; si el equipo incluye la seguridad alimentaria en salud pública, SAN con UNI 1, DES 1 y NDI 1.",
+          "repite": ""
+        },
+        {
+          "fragmento": "promoveremos cláusulas de salvaguardia inmediatas en todos los acuerdos comerciales cuando proceda.",
+          "medida_sintesis": "Promover cláusulas de salvaguardia inmediatas en los acuerdos comerciales.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 0: nombra un instrumento (cláusulas de salvaguardia).",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    },
+    "pp-202": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Impulsaremos el crecimiento de las empresas y su acceso a los mercados internacionales",
+          "medida_sintesis": "Impulsar el crecimiento y la internacionalización de las empresas agrarias y pesqueras.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «impulsaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        },
+        {
+          "fragmento": "así como la innovación, la investigación y la tecnología.",
+          "medida_sintesis": "Impulsar la innovación, la investigación y la tecnología en el sector agrario y pesquero.",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica y sectorial que no regula ni provee el acceso a un derecho social. DEC 1: «impulsaremos» sin norma, prestación, estándar, plazo, ratio ni dotación.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": ""
+        }
+      ]
+    }
+  }
+}

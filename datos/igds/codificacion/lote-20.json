@@ -1,0 +1,566 @@
+{
+  "lote": "lote-20",
+  "unidades": {
+    "psoe-p25": {
+      "sin_medidas": "Balance de la acción de gobierno en vivienda («hemos apostado», «hemos introducido», «hemos recuperado», «hemos puesto en marcha»), descripción de lo que ya hace CASA 47 y valoraciones. Un logro pasado no es un compromiso (R3). «Vivienda pública para siempre» resume un cambio ya aprobado y funciona como lema.",
+      "medidas": []
+    },
+    "psoe-p26": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Nuestro objetivo es que cualquier joven pueda emanciparse y desarrollar su proyecto de vida.",
+          "medida_sintesis": "Que la población joven pueda emanciparse y desarrollar su proyecto de vida",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: objetivo sin norma, prestación ni estándar. DES 0: no nombra provisión pública ni regulación del precio. DEC 1: sin instrumento concreto; el párrafo enumera medidas ya aprobadas.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-381"
+        },
+        {
+          "fragmento": "Queremos que nadie tenga que dejar su barrio o su ciudad en contra de su voluntad.",
+          "medida_sintesis": "Que ninguna persona tenga que abandonar su barrio o su ciudad en contra de su voluntad",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: aspiración sin norma, plazo ni estándar. DES 0: no nombra la regulación del alquiler ni provisión pública. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-061"
+        }
+      ]
+    },
+    "psoe-p27": {
+      "sin_medidas": "Frases que engloban el capítulo de vivienda: «la que debemos seguir empujando para consolidar la vivienda como quinto pilar del Estado del Bienestar» y «combinaremos medidas a corto, medio y largo plazo» anuncian el conjunto del programa, y la «dirección correcta» (construir, rehabilitar, movilizar la vivienda vacía, atajar la especulación, priorizar el uso residencial) resume las líneas que desarrollan los apartados siguientes y las medidas psoe-037 a psoe-086. El resto es un título de apartado y una frase normativa sin compromiso de la formación («pasa, necesariamente, por una apuesta ambiciosa de recursos públicos»). No son medidas (R3).",
+      "medidas": []
+    },
+    "psoe-p28": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "reforzará sus herramientas para garantizar la función social de la vivienda incorporando todo el patrimonio público estatal susceptible de ser vivienda",
+          "medida_sintesis": "Reforzar CASA 47 para que incorpore todo el patrimonio público estatal apto para vivienda y promueva nueva construcción de vivienda asequible",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "EXI 0: refuerza una entidad pública sin reconocer un derecho ni fijar una obligación de provisión. DEC 0: nombra la entidad y el patrimonio que incorpora. La entradilla presenta las medidas psoe-042 a psoe-044.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-042"
+        }
+      ]
+    },
+    "psoe-p29": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Consolidaremos la reactivación del sector de la construcción para impulsar la oferta de vivienda asequible.",
+          "medida_sintesis": "Consolidar la reactivación de la construcción para ampliar la oferta de vivienda asequible, con reglas que garanticen la función social de la vivienda",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: impulso a la oferta sin derecho reconocido ni obligación de provisión. DES 0: oferta asequible sin precio regulado ni provisión pública nombrada. DEC 1: sin instrumento concreto; las «reglas claras» no tienen contenido.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-055"
+        },
+        {
+          "fragmento": "reforzaremos la ola rehabilitadora histórica para mejorar el parque actual y su eficiencia",
+          "medida_sintesis": "Reforzar la rehabilitación de viviendas para mejorar el parque existente y su eficiencia",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: refuerzo sin norma, estándar ni plazo. DES 0: no nombra provisión pública ni regulación. DEC 1: sin dotación ni instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-059"
+        }
+      ]
+    },
+    "psoe-p30": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Ofreceremos las herramientas necesarias para que cualquier joven pueda emanciparse y desarrollar su proyecto de vida",
+          "medida_sintesis": "Ofrecer herramientas para que la población joven pueda emanciparse, alquilar a los veinte años y comprar a los treinta",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin norma, prestación ni estándar. DES 0: no nombra provisión pública ni regulación del precio. DEC 1: «herramientas» sin concretar; se concretan en psoe-064 y psoe-067.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-381"
+        },
+        {
+          "fragmento": "Y para que las personas que viven en alquiler tengan estabilidad",
+          "medida_sintesis": "Dar estabilidad a las personas inquilinas para que no tengan que abandonar su barrio cuando finaliza el contrato de alquiler",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin norma, plazo ni estándar en este enunciado. DES 0: no nombra la regulación del contrato ni provisión pública. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-061"
+        }
+      ]
+    },
+    "psoe-p31": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Regularemos e intervendremos el mercado para que la vivienda no sea utilizada como un activo para invertir y hacer negocio.",
+          "medida_sintesis": "Regular e intervenir el mercado de la vivienda para acabar con su uso como activo de inversión y con la acumulación especulativa",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: regulación anunciada sin contenido concreto. DEC 1: sin norma, límite ni estándar definidos. DES 1: regula las condiciones del mercado de la vivienda.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-071"
+        },
+        {
+          "fragmento": "priorizar su uso residencial y asequible frente a otros usos como el turístico.",
+          "medida_sintesis": "Fijar reglas que prioricen el uso residencial y asequible de la vivienda frente a otros usos como el turístico",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: «fijaremos las reglas» sin contenido concreto. DEC 1: sin norma, límite ni estándar definidos. DES 1: regula las condiciones del mercado de la vivienda.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-078"
+        }
+      ]
+    },
+    "psoe-p32": {
+      "sin_medidas": "Solo títulos de subapartado de la lista numerada («Según los usos de la vivienda», «Incentivar el uso residencial de la vivienda frente a otros usos», «Revertir las zonas declaradas tensionadas»), que agrupan las medidas psoe-072 a psoe-078. No son medidas (R3).",
+      "medidas": []
+    },
+    "psoe-p33": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Seguiremos protegiendo a las personas más vulnerables sin que ello suponga un coste para",
+          "medida_sintesis": "Seguir protegiendo a las personas más vulnerables sin que el coste recaiga en la pequeña propiedad",
+          "area": "VIV",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: se limita a las personas vulnerables. EXI 0: sin norma ni estándar en este enunciado. DES 0: no nombra provisión pública ni regulación. DEC 1: sin instrumento concreto. El apartado trata de la protección frente a los desahucios (psoe-084 y psoe-085).",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-085"
+        }
+      ]
+    },
+    "psoe-p35": {
+      "sin_medidas": "Título de capítulo y balance de la acción de gobierno («hemos hecho», «hemos actuado», «hemos movilizado», «hemos aumentado el salario mínimo», «hemos creado el Ingreso Mínimo Vital»), con valoraciones («la economía debe estar al servicio de la gente»). Las «tres prioridades» se refieren a lo ya hecho. Un logro pasado no es un compromiso (R3).",
+      "medidas": []
+    },
+    "psoe-p36": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Que quienes trabajan puedan vivir dignamente de su salario.",
+          "medida_sintesis": "Que las personas trabajadoras puedan vivir dignamente de su salario",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: aspiración sin norma ni estándar salarial. DES 0: no nombra la regulación del salario mínimo ni provisión pública. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-087"
+        },
+        {
+          "fragmento": "Que nuestros mayores mantengan su poder adquisitivo.",
+          "medida_sintesis": "Que las personas mayores mantengan su poder adquisitivo",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: se refiere al poder adquisitivo de las pensiones, en su mayoría contributivas. EXI 0: sin norma ni mecanismo de revalorización en este enunciado. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-098"
+        },
+        {
+          "fragmento": "Que los jóvenes puedan acceder a una vivienda.",
+          "medida_sintesis": "Que la población joven pueda acceder a una vivienda",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: aspiración sin norma, prestación ni estándar. DES 0: no nombra provisión pública ni regulación del precio. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-381"
+        },
+        {
+          "fragmento": "Y que los ultrarricos y las grandes empresas contribuyan con los impuestos",
+          "medida_sintesis": "Que las grandes fortunas y las grandes empresas contribuyan con los impuestos que les corresponden",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: fiscalidad general que no regula ni provee el acceso a un derecho social. DEC 1: sin figura tributaria ni tipo concretos; se concreta en psoe-130 a psoe-133.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-130"
+        }
+      ]
+    },
+    "psoe-p37": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Avanzar hacia el pleno empleo",
+          "medida_sintesis": "Avanzar hacia el pleno empleo",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: objetivo sin norma ni obligación. DES 0: no nombra provisión pública ni regulación. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-122"
+        },
+        {
+          "fragmento": "seguir elevando los salarios",
+          "medida_sintesis": "Seguir elevando los salarios, en especial los de quienes menos cobran",
+          "area": "EMP",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin norma ni estándar salarial en este enunciado. DES 0: no nombra la regulación del salario mínimo. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-087"
+        },
+        {
+          "fragmento": "aumentar la productividad",
+          "medida_sintesis": "Aumentar la productividad de la economía",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política económica que no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-016"
+        },
+        {
+          "fragmento": "garantizar pensiones dignas",
+          "medida_sintesis": "Garantizar pensiones dignas",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: las pensiones son en su mayoría contributivas y exigen cotización previa. EXI 0: «garantizar» sin norma ni estándar de cuantía en este enunciado. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-100"
+        },
+        {
+          "fragmento": "afrontar con decisión el problema de la vivienda",
+          "medida_sintesis": "Afrontar el problema del acceso a la vivienda",
+          "area": "VIV",
+          "uni": 1,
+          "exi": 0,
+          "des": 0,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin norma, prestación ni estándar. DES 0: no nombra provisión pública ni regulación del precio. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-038"
+        },
+        {
+          "fragmento": "que los ultrarricos y las grandes empresas paguen los impuestos que les toca",
+          "medida_sintesis": "Que las grandes fortunas y las grandes empresas paguen los impuestos que les corresponden",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: fiscalidad general que no regula ni provee el acceso a un derecho social. DEC 1: sin figura tributaria ni tipo concretos; se concreta en psoe-130 a psoe-133.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-130"
+        }
+      ]
+    },
+    "psoe-p39": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "En la próxima legislatura consolidaremos estas reformas, priorizando a los más vulnerables",
+          "medida_sintesis": "Consolidar las reformas del sistema de pensiones, con prioridad para las personas más vulnerables",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI 0: las pensiones son en su mayoría contributivas y la prioridad se define por la vulnerabilidad. EXI 0: consolida reformas existentes sin nueva norma ni estándar. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-098"
+        },
+        {
+          "fragmento": "adaptando la Seguridad Social a la digitalización, la inteligencia artificial, las nuevas formas de trabajo y el cambio climático",
+          "medida_sintesis": "Adaptar la Seguridad Social a la digitalización, la inteligencia artificial, las nuevas formas de trabajo y el cambio climático",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: adaptación organizativa y financiera del sistema que no regula ni provee el acceso a un derecho social; no concreta si amplía la cobertura. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "psoe-098 adapta las fuentes de financiación de la Seguridad Social a los cambios demográficos, tecnológicos y productivos, pero no menciona el cambio climático ni la protección de las nuevas formas de trabajo. Propuesta: repite psoe-098; contarla como medida nueva OTR declarativa si se lee como otro objeto.",
+          "repite": "psoe-098"
+        },
+        {
+          "fragmento": "Todo ello, manteniendo el diálogo social y el Pacto de Toledo como garantía de cohesión y justicia social.",
+          "medida_sintesis": "Mantener el diálogo social y el Pacto de Toledo como marco de las reformas de pensiones",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: método de acuerdo político y social que no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto.",
+          "confianza": "alta",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-098"
+        }
+      ]
+    },
+    "psoe-p41": {
+      "sin_medidas": "Título de apartado y entradilla. «Nuestra ambición es sencilla y firme: que la gente gane más, viva mejor, y que las personas tengan un trabajo digno» es un lema que el programa repite, y «Estas políticas tienen por objetivo ensanchar los derechos laborales de los españoles y reforzar el trabajo digno» solo engloba el bloque de medidas psoe-108 a psoe-124. No son medidas (R3).",
+      "medidas": []
+    },
+    "psoe-p45": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Hacen falta más recursos, y los garantizaremos",
+          "medida_sintesis": "Garantizar más recursos para la sanidad, la educación y la dependencia que gestionan las comunidades autónomas",
+          "area": "OTR",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: financiación sin derecho reconocido ni estándar. DEC 1: «garantizaremos» sin cuantía ni instrumento en este enunciado.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-229"
+        }
+      ]
+    },
+    "psoe-p46": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "con una sanidad pública que llegue a tiempo",
+          "medida_sintesis": "Una sanidad pública que atienda a tiempo",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin plazo máximo ni estándar. DEC 1: sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-136"
+        },
+        {
+          "fragmento": "una educación pública y gratuita de los 0 a los 18 años",
+          "medida_sintesis": "Una educación pública y gratuita de los 0 a los 18 años",
+          "area": "EDU",
+          "uni": 1,
+          "exi": 1,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 0,
+          "justificacion": "Ninguna dimensión vale 0: gratuidad de la educación pública para todo el alumnado de 0 a 18 años, sin prueba de renta.",
+          "confianza": "media",
+          "revisar": 1,
+          "motivo_revision": "Se enuncia como rasgo del Estado de bienestar al que se aspira («Aspiramos a consolidar…», «Un país donde…») y puede leerse como lema; además, psoe-157 universaliza la etapa de 0 a 3 años sin mencionar la gratuidad. Propuesta: repite psoe-157 con EXI 1 por la gratuidad; contarla como medida nueva EDU si el equipo considera que la gratuidad de 0 a 18 años no la recoge ninguna medida numerada.",
+          "repite": "psoe-157"
+        },
+        {
+          "fragmento": "un sistema comunitario de cuidados que no deje solas a las familias ni a las personas",
+          "medida_sintesis": "Un sistema comunitario de cuidados que acompañe a las familias y a las personas mayores",
+          "area": "CUI",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: sin derecho, cartera ni estándar. DEC 1: sin instrumento concreto. DES 1: servicio de cuidados en especie.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-208"
+        }
+      ]
+    },
+    "psoe-p47": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "impulsando políticas sociales de equidad y justicia fiscal que reduzcan la desigualdad, aseguren los ingresos necesarios y cumplan con las reglas fiscales",
+          "medida_sintesis": "Impulsar una política de justicia fiscal que reduzca la desigualdad, asegure los ingresos públicos necesarios y cumpla las reglas fiscales",
+          "area": "OTR",
+          "uni": 0,
+          "exi": 0,
+          "des": 0,
+          "ndi": 0,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "UNI, EXI, DES, NDI 0: política fiscal general que no regula ni provee el acceso a un derecho social. DEC 1: sin instrumento concreto; los compromisos se fijan en psoe-125 a psoe-129.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-125"
+        }
+      ]
+    },
+    "psoe-p48": {
+      "sin_medidas": "Título de apartado y entradilla con valoración («Una fiscalidad justa es la única forma de garantizar…») y una enumeración de las líneas del bloque («más impuestos a los ultrarricos», «una mejor colaboración entre países en la lucha contra la evasión fiscal», «un sistema fiscal más eficiente») que presenta las medidas psoe-130 a psoe-135 sin compromiso propio («Estas medidas permiten alcanzar dicho objetivo»). Engloba el bloque y no es medida (R3).",
+      "medidas": []
+    },
+    "psoe-p49": {
+      "sin_medidas": "",
+      "medidas": [
+        {
+          "fragmento": "Frente a cualquier intento de mercantilización, reivindicamos un modelo público, de máxima calidad y accesible sin distinción de código postal",
+          "medida_sintesis": "Defender un modelo sanitario público, de calidad y accesible en todo el territorio frente a la mercantilización",
+          "area": "SAN",
+          "uni": 1,
+          "exi": 0,
+          "des": 1,
+          "ndi": 1,
+          "reg": 0,
+          "dec": 1,
+          "justificacion": "EXI 0: defensa de un modelo sin norma, estándar ni plazo. DEC 1: «reivindicamos» sin instrumento concreto.",
+          "confianza": "media",
+          "revisar": 0,
+          "motivo_revision": "",
+          "repite": "psoe-138"
+        }
+      ]
+    },
+    "psoe-p51": {
+      "sin_medidas": "Títulos de apartado y valoración («La educación garantiza la igualdad de oportunidades…»), sin compromiso de la formación (R3).",
+      "medidas": []
+    },
+    "psoe-p53": {
+      "sin_medidas": "Balance y valoración de la Formación Profesional («ha sido una de las grandes prioridades», «La Ley de FP ha transformado el sistema»). Un logro pasado no es un compromiso (R3).",
+      "medidas": []
+    }
+  }
+}
