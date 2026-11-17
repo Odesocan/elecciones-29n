@@ -145,6 +145,7 @@ flowchart LR
 │   ├── bloque-divi.html         ← EL BLOQUE LIMPIO: lo que se pega en Divi
 │   ├── odesocan-programas.js    la herramienta en un solo archivo (≈ 285 KB)
 │   ├── data/programas.csv       los datos
+│   ├── data/programa-upc-29n.pdf   programa sin versión en línea (copia de datos/fuentes/)
 │   ├── data/igds-medidas.json   medidas del IGDS (se piden al abrir una lista)
 │   ├── logos/                   (si hay logos oficiales)
 │   ├── bloque-divi-autocontenido.html   alternativa sin alojar nada (no va a git)
@@ -245,6 +246,8 @@ El script devuelve un código distinto de 0 si algo falla, así que sirve tambi�
 
 `divi/bloque-divi.html` es el **bloque limpio**: un comentario, un contenedor y un script. Necesita que `odesocan-programas.js` y `data/programas.csv` estén publicados en alguna URL, junto con `data/programa-upc-29n.pdf` (el manifiesto de UPC no tiene versión en línea y la web enlaza esa copia). Esa URL va en `config/campana.json → publicacion.base_url`.
 
+`python3 maestro.py divi` copia ese PDF (y el de cualquier partido con `pdf_propio`) desde `datos/fuentes/`, donde está versionado, así que funciona en un clon recién hecho sin ejecutar antes `volcar`. Si el PDF falta en `datos/fuentes/`, la etapa se detiene con un error y deja `divi/` como estaba.
+
 **Publicación en uso · GitHub Pages** (desde el 16-11-2026)
 
 - **Repositorio público:** https://github.com/Odesocan/elecciones-29n
@@ -338,7 +341,7 @@ Las columnas que escribe el equipo se conservan siempre. Los criterios están en
    ```bash
    python3 maestro.py descargar --partido psoe
    ```
-   Si el partido facilita el documento y no hay versión en línea (como UPC), deja `"url": ""`, pon `"pdf_propio": true`, copia el PDF a `datos/fuentes/` y añádelo como excepción en `.gitignore`. `volcar` lo copia junto al CSV, `divi` lo publica en `data/` y la web enlaza esa copia. `descargar` solo comprueba que su huella no cambia.
+   Si el partido facilita el documento y no hay versión en línea (como UPC), deja `"url": ""`, pon `"pdf_propio": true`, copia el PDF a `datos/fuentes/` y añádelo como excepción en `.gitignore`. `volcar` lo copia junto al CSV para el servidor de desarrollo; `divi` lo publica en `divi/data/` tomándolo directamente de `datos/fuentes/`, y la web enlaza esa copia. `descargar` solo comprueba que su huella no cambia.
 3. Mira en el PDF cómo empieza cada medida y añade su `Perfil` en [pipeline/perfiles.py](pipeline/perfiles.py). Las instrucciones están al principio del archivo; copia el perfil más parecido. El del PSOE muestra las opciones para PDF difíciles: títulos de apartado sin mayúsculas, palabras partidas, viñetas de Word y números sueltos. El de UPC muestra un manifiesto con títulos sin punto en varias líneas (`titulo='lineas'` y `fin_titulo`).
    Indica también en `apartados` cómo marca el programa sus capítulos (índice con «Pág.», índice con puntos, índice con sangría o cabeceras en el texto; ver [pipeline/apartados.py](pipeline/apartados.py)). Si ninguna forma encaja, añade una nueva allí.
 4. Segmenta y repite ajustando el perfil hasta que no falten números ni haya cortes raros, y hasta que todas las medidas tengan apartado:
