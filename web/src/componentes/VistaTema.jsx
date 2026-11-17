@@ -388,7 +388,15 @@ function GrupoPartido({ partido, tema, articulos, peso, totalPartido, puesto, re
           </ul>
           {n > ARTICULOS_VISIBLES && (
             <button type="button" className="np-btn np-btn-mas" aria-expanded={todos} onClick={() => setTodos(!todos)}>
-              {todos ? 'Mostrar menos' : `Mostrar ${plural(n - ARTICULOS_VISIBLES, 'artículo más', 'artículos más')} de ${partido.sigla}`}
+              {todos ? (
+                'Mostrar menos'
+              ) : (
+                // Un solo elemento: el botón es flex y si no, la sigla iría en columna aparte
+                <span>
+                  Mostrar {plural(n - ARTICULOS_VISIBLES, 'artículo más', 'artículos más')} de{' '}
+                  <span className="np-sin-corte">{partido.sigla}</span>
+                </span>
+              )}
             </button>
           )}
         </>

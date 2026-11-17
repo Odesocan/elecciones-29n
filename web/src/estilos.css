@@ -1043,6 +1043,10 @@
 .np-btn-mas {
   margin-top: 1rem;
 }
+/* La sigla del partido no se parte entre líneas («CC– / 1ºC») */
+.np-sin-corte {
+  white-space: nowrap;
+}
 @container np (min-width: 900px) {
   .np-comparando {
     display: inline-flex;
@@ -1119,6 +1123,25 @@
   gap: 0 1.25rem;
   margin-top: auto;
 }
+/* Móvil vertical: botones a todo el ancho, todos iguales, en lugar de cada
+   uno a la medida de su texto; y fichas con algo menos de relleno lateral,
+   para que «Leer completo» y «Ver en el programa ↗» quepan en una fila
+   desde ≈ 390 px (en 360 siguen una debajo de otra). Va después de las
+   reglas base de .np-art y .np-art-acciones para poder ajustarlas. */
+@container np (max-width: 559.98px) {
+  .np-vista-acciones .np-btn,
+  .np-btn-mas {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .np-art {
+    padding-inline: 0.85rem;
+  }
+  .np-art-acciones {
+    column-gap: 0.875rem;
+  }
+}
 .np-vacio {
   padding: 1rem 1.1rem;
   border: 2px dashed var(--np-muted);
@@ -1175,8 +1198,13 @@
   border-top: 3px solid var(--np-navy);
 }
 .np-mapa {
+  --np-burbuja: 2rem; /* lado del SVG de cada burbuja: el mismo en el mapa y en su leyenda */
   display: grid;
   gap: 1.75rem;
+}
+.np-mapa .np-leyenda-item svg {
+  width: var(--np-burbuja);
+  height: var(--np-burbuja);
 }
 .np-mapa .np-texto strong {
   font-weight: 600;
@@ -1226,8 +1254,8 @@
   stroke-dasharray: 3 2.5;
 }
 .np-mapa-tabla {
-  /* Móvil: columnas de partido fijas para que el nombre del tema
-     se quede con todo el espacio sobrante y no se parta a mitad. */
+  /* Desde 560 px: nombre del tema a la izquierda, con todo el espacio
+     sobrante, y una columna por partido (ver la regla de 560 px). */
   --cols: minmax(0, 1fr) repeat(5, 2rem) 1.9rem;
   min-width: 0;
 }
@@ -1316,8 +1344,8 @@
   border-radius: 4px;
 }
 .np-mapa-celda svg {
-  width: 1.85rem;
-  height: 1.85rem;
+  width: var(--np-burbuja);
+  height: var(--np-burbuja);
 }
 .np-mapa-celda:hover {
   box-shadow: inset 0 0 0 2px var(--np-navy);
@@ -1378,6 +1406,34 @@
   color: var(--np-tinta);
   font-weight: 600;
 }
+/* Móvil vertical: el nombre del tema va en su propia línea, encima de las
+   burbujas. Así los cinco partidos se reparten todo el ancho (columnas de
+   ≈ 45-50 px en lugar de 32), las siglas caben en una línea, las burbujas
+   crecen y los nombres largos no se apilan en 3-4 líneas. Va después de
+   las reglas base del mapa para poder ajustarlas. */
+@container np (max-width: 559.98px) {
+  .np-mapa {
+    --np-burbuja: 2.4rem;
+  }
+  .np-mapa-tabla {
+    --cols: repeat(5, minmax(0, 1fr)) 2.75rem;
+  }
+  .np-mapa-cab-tema {
+    display: none;
+  }
+  .np-mapa-fila {
+    min-height: 0;
+    padding-top: 0.3rem;
+  }
+  .np-mapa-tema {
+    grid-column: 1 / -1;
+    min-height: 1.6rem;
+    padding: 0;
+  }
+  .np-mapa-celda {
+    min-height: 2.6rem;
+  }
+}
 @container np (min-width: 560px) {
   .np-mapa-tabla {
     --cols: minmax(0, 1fr) repeat(5, minmax(2.75rem, 4.5rem)) 2.75rem;
@@ -1387,10 +1443,6 @@
   }
   .np-mapa-num {
     display: inline;
-  }
-  .np-mapa-celda svg {
-    width: 2rem;
-    height: 2rem;
   }
 }
 @container np (min-width: 900px) {
@@ -1864,6 +1916,12 @@
   font: 400 clamp(2.5rem, 9cqi, 5.5rem) / 1.02 var(--np-display);
   text-transform: uppercase;
   color: var(--np-navy);
+}
+/* En bloque, como en los titulares de cartel: cuando «DECIDE.» baja de
+   línea (móvil), su caja no tapa la mitad de «LEE. COMPARA.» */
+.np-final-lema .np-caja {
+  display: inline-block;
+  margin-top: 0.08em;
 }
 .np-final-accion {
   display: grid;
