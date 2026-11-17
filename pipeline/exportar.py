@@ -14,6 +14,10 @@ Columnas de programas.csv (contrato con la web, ver web/src/datos.js):
   url      enlace propio (vacío: se construye con la URL del PDF y la página)
   nota     aviso visible en la ficha («Texto incompleto en el PDF original»)
 
+No se publican las unidades sin contenido propio (segmentar.SIN_CONTENIDO_PROPIO):
+los huecos «por anunciar» del PP y las medidas que solo introducen las siguientes
+(PSOE 54 y 176). Tampoco cuentan en el total de medidas del partido.
+
 La prueba de las cuentas (impacto fiscal) se descartó el 16-11-2026: la etiqueta
 fiscal ya no va a la web; solo queda, archivada, en la hoja de revisión interna.
 """
@@ -22,7 +26,7 @@ import json
 import shutil
 
 from . import apartados, clasificar, config, rutas
-from .segmentar import cargar as cargar_segmentos
+from .segmentar import INTRODUCTORIA, cargar as cargar_segmentos
 from .verificar import Verificador
 
 COLUMNAS_WEB = ['partido', 'tema', 'ref', 'pagina', 'titulo', 'texto', 'url', 'nota']
@@ -36,7 +40,7 @@ def _filas_partido(pid, temas_validos):
     seg = cargar_segmentos(pid)
     cla = clasificar.cargar(pid)
     fis = clasificar.cargar(pid, 'fiscal')
-    r = {'medidas': len(seg), 'filas': 0, 'por_anunciar': [], 'faltan_en_clasificacion': [],
+    r = {'medidas': len(seg), 'filas': 0, 'por_anunciar': [], 'introductorias': [], 'faltan_en_clasificacion': [],
          'temas_raros': [], 'no_literal': [], 'sin_tema': [], 'notas': [], 'sin_fiscal': []}
     if not seg:
         return [], r
@@ -45,6 +49,9 @@ def _filas_partido(pid, temas_validos):
     for s in seg:
         if s['aviso'] == 'por anunciar':
             r['por_anunciar'].append(s['id'])
+            continue
+        if s['aviso'] == INTRODUCTORIA:  # solo abre la lista de las siguientes: no se publica
+            r['introductorias'].append(s['id'])
             continue
         if s['id'] not in cla:
             r['faltan_en_clasificacion'].append(s['id'])
@@ -122,13 +129,15 @@ def volcar() -> bool:
         problemas = {k: r[k] for k in ('faltan_en_clasificacion', 'temas_raros', 'no_literal') if r[k]}
         ok &= not problemas
         print(f"   {'✓' if not problemas else '✗'} {pid}: {r['filas']} de {r['medidas']} medidas a la web · "
-              f"por anunciar {len(r['por_anunciar'])} · con nota {r['notas'] or '—'}"
+              f"por anunciar {len(r['por_anunciar'])} · introductorias {r['introductorias'] or '—'}"
+              f" · con nota {r['notas'] or '—'}"
               + (f' · sin tema {r["sin_tema"]}' if r['sin_tema'] else ''))
         for k, v in problemas.items():
             print(f'        ✗ {k.replace("_", " ")}: {v}')
     total = sum(r['filas'] for r in informe.values())
     literales = sum(r['filas'] + len(r['sin_tema']) for r in informe.values())
-    revisables = sum(r['medidas'] - len(r['por_anunciar']) - len(r['faltan_en_clasificacion']) for r in informe.values())
+    revisables = sum(r['medidas'] - len(r['por_anunciar']) - len(r['introductorias']) - len(r['faltan_en_clasificacion'])
+                     for r in informe.values())
     print(f'   {total} filas → {rutas.relativa(rutas.CSV_WEB)} · literales {literales}/{revisables}')
     print(f'   hoja de revisión → {rutas.relativa(rutas.REVISION)} · informe → datos/informes/verificacion.json')
     return ok

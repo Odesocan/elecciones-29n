@@ -5,7 +5,7 @@ from collections import Counter
 
 from . import clasificar, config, obsidian, rutas
 from .extraer import huella
-from .segmentar import cargar as cargar_segmentos
+from .segmentar import SIN_CONTENIDO_PROPIO, cargar as cargar_segmentos
 
 
 def informe():
@@ -29,7 +29,7 @@ def informe():
             estado_pdf = 'ok'
         if (rutas.FUENTES / (pdf.stem + '.nuevo.pdf')).exists():
             estado_pdf += ' +nuevo'
-        seg = [s for s in cargar_segmentos(pid) if s['aviso'] != 'por anunciar']
+        seg = [s for s in cargar_segmentos(pid) if s['aviso'] not in SIN_CONTENIDO_PROPIO]
         cla, fis = clasificar.cargar(pid), clasificar.cargar(pid, 'fiscal')
         hechas = sum(1 for s in seg if s['id'] in cla)
         fiscal = sum(1 for s in seg if s['id'] in fis)

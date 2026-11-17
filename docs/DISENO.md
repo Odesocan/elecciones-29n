@@ -300,6 +300,7 @@ Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV p
 | 16-11 | **Cambio de criterio en DES:** solo cuenta el acceso público sin ningún tipo de copago (servicio público gratuito o prestación monetaria pública). Un límite al precio, la regulación y la vivienda con renta pasan a DES 0. IGDS: PP 2,4 → 1,5; PSOE 7,0 → 1,8 ([ANALISIS-IGDS.md](ANALISIS-IGDS.md), apartado 0) |
 | 16-11 | Se **retira de la web** el apartado del IGDS («Prometer no es garantizar»): `igds.activo: false`. Se conservan el componente, los datos y el método |
 | 17-11 | Título del mapa: «En qué temas ⏎ ponen el [foco]» en dos líneas fijas, con «foco» en la caja teal, en lugar de «Lo que dicen. Y lo que no.». En escritorio la letra se ajusta a la columna (≈ 48-55 px en lugar de 64 px) para que quepan las dos líneas |
+| 17-11 | Las medidas que solo introducen las siguientes (PSOE 54 y 176, que acaban en «:») dejan de publicarse y de contar en el total del partido: el PSOE pasa de 500 a 498 medidas. Ningún tema cambia de puesto; vivienda pasa del 12,6 al 12,4 % y educación del 8,6 al 8,4 % |
 | 17-11 | Proporciones en móvil vertical: mapa con el nombre del tema encima de las burbujas (burbujas más grandes, siglas y nombres en una línea), botones a todo el ancho, enlaces de cada ficha en una fila y la caja de «DECIDE.» en bloque para que no tape «LEE. COMPARA.». En escritorio no cambia nada |
 
 ---

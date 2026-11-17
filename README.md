@@ -26,11 +26,11 @@ Se publica como un **bloque de código para Divi**: unas pocas líneas que se pe
 |---|---|---|
 | CC–1ºC · *Programa electoral 29N* | publicado | 100 |
 | PP · *La reconstrucción nacional* | publicado | 241 (+ 8 «por anunciar») |
-| PSOE · *La fuerza de seguir avanzando* | publicado | 500 |
+| PSOE · *La fuerza de seguir avanzando* | publicado | 498 (de 500 compromisos: la 54 y la 176 solo introducen las siguientes) |
 | UPC · *Una sola papeleta. Todo un pueblo* (manifiesto facilitado por el partido) | publicado | 16 ejes |
 | Vox · *Es sentido común* | publicado | 115 |
 
-> La clasificación temática la hizo un agente de IA con reglas escritas y sigue **pendiente de revisión humana**. Los textos son 972 de 972 literales; el detalle está en [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md). **La prueba de las cuentas (impacto fiscal) se descartó el 16-11-2026** y ya no se publica: los motivos están en [docs/CRITERIOS-IMPACTO-FISCAL.md](docs/CRITERIOS-IMPACTO-FISCAL.md).
+> La clasificación temática la hizo un agente de IA con reglas escritas y sigue **pendiente de revisión humana**. Los textos publicados son literales: 970 de 970 (de las 972 unidades volcadas, las dos medidas del PSOE que solo introducen las siguientes no se publican); el detalle está en [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md). **La prueba de las cuentas (impacto fiscal) se descartó el 16-11-2026** y ya no se publica: los motivos están en [docs/CRITERIOS-IMPACTO-FISCAL.md](docs/CRITERIOS-IMPACTO-FISCAL.md).
 
 ---
 

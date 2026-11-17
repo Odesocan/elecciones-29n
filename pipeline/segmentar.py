@@ -15,6 +15,7 @@ Formato de salida (una línea JSON por medida):
   apartado  [capítulo, apartado, …]: dónde está la medida en el programa
             (ver apartados.py); contexto para clasificar y revisar
   aviso     '' · 'por anunciar' · 'Texto incompleto en el PDF original'
+            · INTRODUCTORIA ('Introduce las medidas siguientes')
   piezas    (opcional) trozos que se verifican por separado si una medida
             se recompuso a partir de dos sitios del PDF
 """
@@ -29,6 +30,13 @@ from .texto import MAY, MIN, esqueleto, lineas
 
 # Medidas «por anunciar» (PP): «83Permanezca atento a la campaña…»
 POR_ANUNCIAR = re.compile(r'(?:^|\s)(\d{1,3})\s*Permanezca\b', re.I)
+
+# Medida que solo abre una lista y acaba en «:» (PSOE 54 y 176): por sí sola no
+# propone nada; lo que propone está en las medidas que siguen. Se conserva en los
+# segmentos (la numeración es la del programa), pero no se publica en la web ni
+# cuenta en el total de medidas del partido, igual que las «por anunciar».
+INTRODUCTORIA = 'Introduce las medidas siguientes'
+SIN_CONTENIDO_PROPIO = ('por anunciar', INTRODUCTORIA)
 
 
 def es_cabecera(l):
@@ -249,7 +257,7 @@ def segmentar(pid):
         if base['id'] in c.cortadas:
             aviso = 'Texto incompleto en el PDF original'
         if texto.endswith(':'):  # PSOE: «54. Destinar … a vivienda:» y las siguientes la desarrollan
-            aviso = 'Introduce las medidas siguientes'
+            aviso = INTRODUCTORIA
         salida.append({**base, 'titulo': titulo, 'texto': texto, 'aviso': aviso})
     reparar_continuaciones(salida)
     reordenadas = apartados.por_posicion(pid, salida, marcas) if marcas else []
