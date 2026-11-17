@@ -101,7 +101,10 @@ export default function MapaProgramas({ idx, temaActual, onElegir, onElegirParti
       <div className="np-mapa-intro">
         <p className="np-kicker">El mapa de los programas</p>
         <h3 id="np-t-mapa" className="np-titulo-cartel" tabIndex={-1} ref={tituloRef}>
-          En qué temas ponen el <span className="np-subrayado">foco</span>
+          <span className="np-linea">En qué temas</span>{' '}
+          <span className="np-linea">
+            ponen el <span className="np-caja np-caja-teal">foco</span>
+          </span>
         </h3>
         <p className="np-texto">
           Qué parte de su programa dedica cada partido a cada tema. Lo medimos en <strong>porcentaje</strong> para

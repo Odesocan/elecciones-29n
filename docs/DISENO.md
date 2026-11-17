@@ -54,7 +54,7 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 │  Barras «Qué parte de cada programa trata de vivienda»
 │  Bloques por partido → fichas de medida → ← Tema anterior · Siguiente tema →
 ├ BANDA DEL MAPA (blanca, filete navy) ─────────────────────────────────────
-│  «EN QUÉ TEMAS PONEN EL FOCO» (foco subrayado) · matriz 18 temas × 5 partidos + Media
+│  «EN QUÉ TEMAS ⏎ PONEN EL [FOCO]» · matriz 18 temas × 5 partidos + Media
 ├ BANDA DEL IGDS (blanca, filete navy; solo con igds.activo, apagado desde el 16-11) ──────────────
 │  «PROMETER NO ES [GARANTIZAR.]» · las cuatro preguntas · leyenda-mando
 │  5 rejillas de 100 casillas · notas emergentes · lista de medidas literales
@@ -104,8 +104,8 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
 
 ### Recursos gráficos recurrentes
 
-- **Caja** (`np-caja`): una palabra en caja blanca o teal dentro de un titular, como «ESPERAN.» en el cartel. Se repite en «DECIDE.».
-- **Subrayado** (`np-subrayado`): una palabra de un titular subrayada en teal, con el trazo en `em` para que crezca con el titular. Se usa en «FOCO», en el título del mapa.
+- **Caja** (`np-caja`): una palabra en caja blanca o teal dentro de un titular, como «ESPERAN.» en el cartel. Se repite en «FOCO» (título del mapa) y «DECIDE.».
+- **Líneas fijas** (`np-linea`): cuando un titular debe partirse por un sitio concreto, cada línea va en un `np-linea`, que no se parte. Se usa en el título del mapa («EN QUÉ TEMAS ⏎ PONEN EL [FOCO]»); en el diseño a dos columnas la letra se ajusta al ancho de su columna (`16.5cqi`, máx. 4rem) para que quepan las dos líneas.
 - **Filete izquierdo** de 4 px en el color de su contexto: sumario, avisos, el peso del tema en cada partido.
 - **Bandas** a todo el ancho para marcar los actos del relato: teal, blanca, mapa, teal.
 
@@ -298,7 +298,7 @@ Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV p
 | 16-11 | IGDS: sin la sanidad pública como ejemplo de garantía (hoy no funciona como un derecho social); «entornos convivenciales» en lugar de «familias»; sin la caja de explicación bajo la leyenda ni el bloque de método; la leyenda se deselecciona al volver a pulsarla |
 | 16-11 | **Cambio de criterio en DES:** solo cuenta el acceso público sin ningún tipo de copago (servicio público gratuito o prestación monetaria pública). Un límite al precio, la regulación y la vivienda con renta pasan a DES 0. IGDS: PP 2,4 → 1,5; PSOE 7,0 → 1,8 ([ANALISIS-IGDS.md](ANALISIS-IGDS.md), apartado 0) |
 | 16-11 | Se **retira de la web** el apartado del IGDS («Prometer no es garantizar»): `igds.activo: false`. Se conservan el componente, los datos y el método |
-| 17-11 | Título del mapa: «En qué temas ponen el foco», con «foco» subrayado en teal, en lugar de «Lo que dicen. Y lo que no.» |
+| 17-11 | Título del mapa: «En qué temas ⏎ ponen el [foco]» en dos líneas fijas, con «foco» en la caja teal, en lugar de «Lo que dicen. Y lo que no.». En escritorio la letra se ajusta a la columna (≈ 48-55 px en lugar de 64 px) para que quepan las dos líneas |
 
 ---
 
