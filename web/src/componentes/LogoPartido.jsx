@@ -8,8 +8,9 @@ export const ContextoLogos = createContext('./logos/');
 // Logos que ya fallaron: no se vuelven a pedir en cada bloque.
 const fallidos = new Set();
 
-// Logo oficial del partido. Es decorativo (alt=""): la sigla siempre va
-// escrita al lado. Si el archivo no existe, cuadrado con su color (y, con
+// Logo oficial del partido. Es decorativo (alt=""): la sigla siempre va al
+// lado, escrita o (en la cabecera de cada partido) solo para lectores de
+// pantalla. Si el archivo no existe, cuadrado con su color (y, con
 // «rotulo», la sigla dentro: donde el logo es la única marca visible).
 // No se dibujan imitaciones de logos: solo se usan los archivos oficiales.
 export default function LogoPartido({ partido, tam = 'm', rotulo = '', carga = 'lazy' }) {
