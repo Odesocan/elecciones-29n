@@ -3,13 +3,21 @@
 //
 //   divi/bloque-divi.html               ← EL BLOQUE LIMPIO: lo que se pega en el módulo «Código»
 //   divi/odesocan-programas.js          ┐
-//   divi/data/programas.csv             ├ lo que se publica (GitHub + jsDelivr o Mediateca)
+//   divi/data/programas.csv             │
+//   divi/data/<programa>.pdf            ├ lo que se publica (GitHub + jsDelivr o Mediateca)
 //   divi/logos/                         ┘ (solo si hay logos oficiales en web/public/logos/)
 //   divi/bloque-divi-autocontenido.html   alternativa sin alojar nada (≈700 KB · no va a git)
 //   divi/prueba/ · divi/index.html        páginas con CSS «hostil» de tema WordPress (no van a git)
 //
 // Las URL salen de config/campana.json → publicacion.base_url.
-import { copyFileSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
+//
+// divi/data/<programa>.pdf: programas sin versión en línea (programa.pdf_propio en
+// config/partidos.json; hoy, solo UPC). La web enlaza esa copia, así que se toma de
+// datos/fuentes/, donde el PDF está versionado, y NO de web/public/data/ (la copia que
+// deja «volcar» para el servidor de desarrollo, fuera de git). Así «maestro.py divi»
+// funciona en un clon recién hecho sin depender del orden de las etapas. Si falta
+// alguno, el script para con un error ANTES de borrar divi/, que queda como estaba.
+import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { csvParse } from 'd3';
 
@@ -29,6 +37,26 @@ if (BASE && !BASE.endsWith('/')) {
   process.exit(1);
 }
 
+// Programas sin versión en línea (ver cabecera): se comprueban antes de tocar divi/.
+const FUENTES = 'datos/fuentes';
+const pdfsPropios = leerJSON('config/partidos.json')
+  .partidos.filter((p) => p.programa?.pdf_propio)
+  .map((p) => ({ sigla: p.sigla, archivo: (p.programa.archivo || '').trim() }));
+const faltan = pdfsPropios.filter(({ archivo }) => !archivo || !existsSync(raiz(`${FUENTES}/${archivo}`)));
+if (faltan.length) {
+  for (const { sigla, archivo } of faltan) {
+    console.error(
+      archivo
+        ? `✗ Falta ${FUENTES}/${archivo}: el programa de ${sigla} (programa.pdf_propio en config/partidos.json).` +
+            `\n  No tiene versión en línea y la web enlaza la copia de divi/data/: sin él, «Programa (PDF)» daría 404.` +
+            `\n  Recupéralo con «git restore ${FUENTES}/${archivo}» (o cópialo ahí) y vuelve a ejecutar: python3 maestro.py divi`
+        : `✗ ${sigla} tiene programa.pdf_propio pero no programa.archivo (config/partidos.json).`,
+    );
+  }
+  console.error('  divi/ no se ha tocado.');
+  process.exit(1);
+}
+
 // ── 1 · Carpeta divi/ desde cero (todo lo que hay dentro es generado) ──
 const DIVI = raiz('divi');
 rmSync(DIVI, { recursive: true, force: true });
@@ -36,9 +64,7 @@ for (const d of ['', 'data', 'prueba']) mkdirSync(`${DIVI}/${d}`, { recursive: t
 
 copyFileSync(raiz('web/dist/odesocan-programas.js'), `${DIVI}/odesocan-programas.js`);
 copyFileSync(raiz('web/public/data/programas.csv'), `${DIVI}/data/programas.csv`);
-// Programas que el partido facilitó sin versión en línea (pdf_propio, UPC): se publican junto al CSV.
-const pdfsPropios = readdirSync(raiz('web/public/data')).filter((f) => f.endsWith('.pdf'));
-for (const f of pdfsPropios) copyFileSync(raiz(`web/public/data/${f}`), `${DIVI}/data/${f}`);
+for (const { archivo } of pdfsPropios) copyFileSync(raiz(`${FUENTES}/${archivo}`), `${DIVI}/data/${archivo}`);
 // Textos de las medidas del IGDS (los genera «maestro.py igds calcular»): la
 // herramienta los pide junto al CSV solo al abrir una lista.
 const IGDS_MEDIDAS = 'igds-medidas.json';
@@ -160,7 +186,9 @@ console.log(`\n   divi/ · v${version}`);
 console.log(`   ${kb('bloque-divi.html')}  bloque-divi.html                ← pegar en el módulo Código de Divi`);
 console.log(`   ${kb('odesocan-programas.js')}  odesocan-programas.js           ┐ publicar en`);
 console.log(`   ${kb('data/programas.csv')}  data/programas.csv              ┘ ${BASE || '(falta publicacion.base_url)'}`);
-for (const f of pdfsPropios) console.log(`   ${kb(`data/${f}`)}  data/${f.padEnd(28)}  (programa sin versión en línea: también se publica)`);
+for (const { archivo } of pdfsPropios) {
+  console.log(`   ${kb(`data/${archivo}`)}  data/${archivo.padEnd(28)}  (programa sin versión en línea, desde ${FUENTES}/: también se publica)`);
+}
 if (hayIgds) console.log(`   ${kb(`data/${IGDS_MEDIDAS}`)}  data/${IGDS_MEDIDAS.padEnd(28)}  (medidas del IGDS: se piden al abrir una lista)`);
 console.log(`   ${logos.length ? `${String(logos.length).padStart(4)} arch.` : '   sin  '}  logos/${logos.length ? '' : '  (sin logos oficiales: se ve el color del partido)'}`);
 console.log(`   ${kb('bloque-divi-autocontenido.html')}  bloque-divi-autocontenido.html  (alternativa sin alojar nada)`);
