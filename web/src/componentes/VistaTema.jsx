@@ -324,11 +324,14 @@ function GrupoPartido({ partido, tema, articulos, peso, totalPartido, puesto, re
       ref={registrar}
       aria-labelledby={idTitulo}
     >
-      {/* Barra fija al hacer scroll: siempre sabes de quién es lo que lees */}
+      {/* Barra fija al hacer scroll: siempre sabes de quién es lo que lees.
+          Solo el logo: la sigla al lado era redundante, y el nombre completo va
+          justo debajo. La sigla queda en el título para lectores de pantalla y,
+          si el logo no carga, escrita en su lugar. */}
       <header className="np-grupo-cab">
-        <LogoPartido partido={partido} />
-        <h4 id={idTitulo} className="np-grupo-sigla" tabIndex={-1}>
-          {partido.sigla}
+        <h4 id={idTitulo} className="np-grupo-titulo" tabIndex={-1}>
+          <LogoPartido partido={partido} rotulo={partido.sigla} />
+          <span className="np-sr">{partido.sigla}</span>
         </h4>
         <p className="np-grupo-n">{disponible ? plural(n, 'artículo', 'artículos') : 'Pendiente'}</p>
       </header>
