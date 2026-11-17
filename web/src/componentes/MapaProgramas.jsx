@@ -3,7 +3,7 @@ import { easeCubicOut, scaleSqrt, select, ticks } from 'd3';
 import { PARTIDOS, TEMAS } from '../config.js';
 import { pad, pct, pctNum, pctVoz, plural, sinMovimiento, varsPartido } from '../util.js';
 
-// «Lo que dicen. Y lo que no.» — matriz D3 tema × partido.
+// «En qué temas ponen el foco» — matriz D3 tema × partido.
 // · Área del círculo ∝ PESO del tema en el programa: % de sus medidas que lo
 //   tratan (escala sqrt), en el color del partido. Así se comparan programas
 //   de distinta extensión. Anillo discontinuo = ninguno localizado.
@@ -101,7 +101,10 @@ export default function MapaProgramas({ idx, temaActual, onElegir, onElegirParti
       <div className="np-mapa-intro">
         <p className="np-kicker">El mapa de los programas</p>
         <h3 id="np-t-mapa" className="np-titulo-cartel" tabIndex={-1} ref={tituloRef}>
-          Lo que dicen. <span className="np-caja np-caja-teal">Y lo que no.</span>
+          <span className="np-linea">En qué temas</span>{' '}
+          <span className="np-linea">
+            ponen el <span className="np-caja np-caja-teal">foco</span>
+          </span>
         </h3>
         <p className="np-texto">
           Qué parte de su programa dedica cada partido a cada tema. Lo medimos en <strong>porcentaje</strong> para

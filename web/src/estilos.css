@@ -172,6 +172,11 @@
   background: var(--np-teal);
   color: var(--np-navy);
 }
+/* Titular con los saltos de línea fijados: cada .np-linea es una línea que no se parte */
+.np-linea {
+  display: block;
+  white-space: nowrap;
+}
 .np-texto {
   font: 300 1.0625rem/1.7 var(--np-sans);
   color: var(--np-cuerpo);
@@ -1397,6 +1402,13 @@
   .np-mapa-intro {
     position: sticky;
     top: var(--np-margen-sup, 96px);
+    container-type: inline-size; /* el titular se mide contra esta columna (cqi) */
+  }
+  /* «En qué temas / ponen el [foco]» va en dos líneas fijas (.np-linea), y en
+     la columna estrecha no caben a 4rem: la letra se ajusta a su ancho. La
+     línea más larga, «PONEN EL FOCO» con la caja, mide ≈ 5,86 em → 16,5cqi. */
+  .np-mapa .np-titulo-cartel {
+    font-size: min(4rem, 16.5cqi);
   }
   .np-mapa-tabla {
     --cols: minmax(12rem, 2.4fr) repeat(5, minmax(3rem, 1fr)) 3rem;
