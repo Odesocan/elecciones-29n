@@ -136,7 +136,7 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
   - **Lector de pantalla:** cada fila es un botón con la frase completa («PP: 7 % de su programa, 18 de sus 241 medidas…»); el contador y la base se ocultan para que no se lean dos veces.
   - Si un programa está pendiente, la barra aparece rayada con «Pendiente de publicar».
 - **Bloque de cada partido:**
-  - Cabecera fija al hacer scroll, con logo, sigla y nº de artículos, para saber siempre de quién es lo que se lee.
+  - Cabecera fija al hacer scroll, con logo y nº de artículos, para saber siempre de quién es lo que se lee. La sigla no se escribe al lado del logo (era redundante: el nombre completo va justo debajo); queda en el título para lectores de pantalla y, si el logo no carga, aparece escrita en su lugar.
   - Nombre completo y enlace «Programa (PDF) ↗».
   - **Peso del tema:** «**8 %** de su programa (18 de sus 241 medidas). Es su 6.º tema de 18».
   - Se ven 3 fichas y el resto con «Mostrar N más».
@@ -266,6 +266,6 @@ Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV p
 
 - [ ] Confirmar el color de CC–1ºC.
 - [ ] Decidir si se recupera en algún sitio discreto la explicación del método, que hoy solo está en este repositorio.
-- [ ] Valorar si se oculta la sigla cuando el logo ya la contiene (PP, PSOE, Vox), por ejemplo «PSOE/♥ PSOE».
+- [x] Ocultar la sigla junto al logo en la cabecera de cada partido: quitada para todos el 17-11-2026. El logo y el nombre completo debajo ya identifican al partido.
 - [x] Contraste entre el teal de UPC y el teal de «suman»: las barras de las cuentas usan el navy y el teal de «suman», no el color del partido, así que no se confunden (comprobado al entrar UPC, 16-11).
 - [x] Quitar el modo boceto (franja de aviso y «logo» en los huecos sin logo): desactivado el 16-11-2026 (`boceto.activo: false`, `boceto.aviso: ""`).

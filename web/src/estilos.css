@@ -928,13 +928,21 @@
   background: #fff;
   border-bottom: 4px solid var(--p, var(--np-navy));
 }
-.np-grupo-sigla {
-  font: 400 clamp(1.75rem, 5cqi, 2.5rem) / 1 var(--np-display);
-  text-transform: uppercase;
-  color: var(--np-navy);
+/* Título = logo (la sigla, solo para lectores de pantalla) */
+.np-grupo-titulo {
+  display: flex;
+  align-items: center;
 }
-.np-grupo-sigla:focus {
+.np-grupo-titulo:focus {
   outline: none;
+}
+/* Si el logo no carga, la sigla escrita ocupa su sitio, al ancho que necesite */
+.np-grupo-cab .np-logo.is-sin-logo {
+  width: auto;
+  padding: 0 0.6rem;
+  font: 700 0.9375rem/1 var(--np-sans);
+  letter-spacing: 0;
+  text-transform: none;
 }
 .np-grupo-n {
   font: 600 0.75rem var(--np-mono);
@@ -1017,9 +1025,6 @@
   .np-grupo-cab .np-logo {
     height: 2rem;
     min-width: 2rem;
-  }
-  .np-grupo-cab .np-logo.is-sin-logo {
-    width: 2rem;
   }
 }
 .np-articulos {
