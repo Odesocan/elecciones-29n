@@ -29,7 +29,7 @@ from pypdf import PdfReader
 from . import config, obsidian, rutas
 from .extraer import paginas, ruta_pdf, vocabulario
 from .perfiles import perfil
-from .segmentar import cargar, es_cabecera, reparar_palabras, unir
+from .segmentar import SIN_CONTENIDO_PROPIO, cargar, es_cabecera, reparar_palabras, unir
 from .texto import esqueleto, lineas
 
 DIMS = ['uni', 'exi', 'des', 'ndi']
@@ -143,7 +143,9 @@ def fase0(pids):
             'paginas_sin_texto': vacias,
             'numeradas': sum(1 for s in seg if s['aviso'] != 'por anunciar'),
             'por_anunciar': [s['id'] for s in seg if s['aviso'] == 'por anunciar'],
-            'cortadas': [s['id'] for s in seg if s['aviso'] and s['aviso'] != 'por anunciar'],
+            # Solo las cortadas en el original: las «por anunciar» y las que solo introducen
+            # las siguientes (PSOE 54 y 176) también llevan aviso, pero no están cortadas.
+            'cortadas': [s['id'] for s in seg if s['aviso'] and s['aviso'] not in SIN_CONTENIDO_PROPIO],
             'bloques_prosa': [b['id'] for b in prosa],
             'palabras_prosa': sum(len(b['texto'].split()) for b in prosa),
             'cobertura': round(cubierto / total, 4) if total else 0,
