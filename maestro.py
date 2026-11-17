@@ -18,7 +18,8 @@ Uso:  python3 maestro.py [etapa] [opciones]
                  (criterios en docs/CRITERIOS-CLASIFICACION.md y docs/CRITERIOS-IMPACTO-FISCAL.md)
     volcar       verifica literalidad y escribe el CSV de la web y la hoja de revisión
     igds         fase0 | preparar | validar | contrastar | calcular   [--lote lote-01]
-                 muestra | concordancia   validación humana (--forzar rehace la muestra)
+                 muestra | concordancia   validación humana (--forzar rehace la muestra;
+                                          --rehacer-a, solo la hoja A con una clave nueva)
                  índice de garantía de derechos sociales, en prueba (docs/CRITERIOS-IGDS.md)
     obsidian     enlaza los md del proyecto en el vault de Obsidian (subcarpetas PE_29N)
     divi         compila la web y genera divi/ (bloque limpio + archivos a publicar)
@@ -115,7 +116,8 @@ def e_obsidian(args):
 def e_igds(args):
     accion = args.accion or 'validar'
     titulo(f'IGDS (prueba) · {accion}')
-    return igds.ejecutar(accion, pids(args), args.lote, forzar=args.forzar, explicitos=bool(args.partido))
+    return igds.ejecutar(accion, pids(args), args.lote, forzar=args.forzar, explicitos=bool(args.partido),
+                         rehacer_a=args.rehacer_a)
 
 
 def e_divi(args):
@@ -168,6 +170,8 @@ def main():
     ap.add_argument('--lote', metavar='lote-NN', help='(igds validar) comprueba solo ese lote')
     ap.add_argument('--forzar', action='store_true',
                     help='rehacer la extracción aunque haya caché · (igds muestra) rehacer las hojas aunque tengan trabajo')
+    ap.add_argument('--rehacer-a', action='store_true',
+                    help='(igds muestra) rehacer solo la hoja A con una clave nueva; B y C no cambian')
     ap.add_argument('--aceptar', action='store_true', help='adoptar la versión nueva de un PDF')
     ap.add_argument('--descargar', action='store_true', help='«todo» empieza comprobando los PDF en la web')
     args = ap.parse_args()

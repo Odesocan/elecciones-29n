@@ -222,7 +222,7 @@ python3 maestro.py [etapa] [opciones]
 | `igds validar` | Esquema, fragmento literal (≤ 25 palabras), DEC → EXI 0, REG → g 0, justificación de cada 0 (`--lote lote-01`) |
 | `igds contrastar` | Medidas con g = 1, regresivas, señales que no casan y posibles repeticiones (`datos/informes/igds-contraste.md`) |
 | `igds calcular` | Índices globales y por área con numerador y denominador, control de calidad, CSV e informe (`datos/informes/igds.md`) |
-| `igds muestra` | Hojas de validación humana en `datos/igds/validacion/` (muestra fija; una formación nueva se añade al final sin tocar las filas anteriores; no sobrescribe trabajo salvo con `--forzar`) |
+| `igds muestra` | Hojas de validación humana en `datos/igds/validacion/` (muestra fija; una formación nueva se añade al final sin tocar las filas anteriores; no sobrescribe trabajo salvo con `--forzar`; `--rehacer-a` rehace solo la hoja A con una clave nueva y secreta) |
 | `igds concordancia` | Acuerdo y kappa entre la codificación y la validación humana (`datos/informes/igds-validacion.md`) |
 | `obsidian` | Enlaza los md del proyecto en el vault de Obsidian (subcarpetas `PE_29N`) y avisa si alguno dejó de ser un enlace |
 | `divi` | Compila la web y regenera `divi/` |

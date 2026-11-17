@@ -32,7 +32,7 @@
   "palabras_por_lote": 4100,
   "unidades_por_lote": 65,
   "validacion": {
-    "_leeme": "Muestra para la validación humana (python3 maestro.py igds muestra). La semilla fija hace la muestra reproducible: no la cambies una vez repartidas las hojas.",
+    "_leeme": "Muestra para la validación humana (python3 maestro.py igds muestra). Esta semilla es pública y fija la hoja C: no la cambies una vez repartidas las hojas. La de la hoja A es secreta y solo está en datos/igds/validacion/clave-A.json, que no se publica (docs/VALIDACION-IGDS.md).",
     "semilla": 29112026,
     "ciega_ambito_social": 20,
     "ciega_resto": 10,

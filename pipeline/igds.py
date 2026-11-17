@@ -808,7 +808,7 @@ def contrastar(pids):
     return True
 
 
-def ejecutar(accion, pids, lote=None, forzar=False, explicitos=False):
+def ejecutar(accion, pids, lote=None, forzar=False, explicitos=False, rehacer_a=False):
     # Sin --partido, el cálculo y la validación solo usan las formaciones que ya
     # tienen lotes: un programa recién cargado no cambia los resultados ni la
     # muestra de validación hasta que se codifique.
@@ -830,6 +830,6 @@ def ejecutar(accion, pids, lote=None, forzar=False, explicitos=False):
     if accion in ('muestra', 'concordancia'):
         from . import igds_validacion  # aquí y no arriba: igds_validacion importa este módulo
         if accion == 'muestra':
-            return igds_validacion.muestra(pids, forzar=forzar)
+            return igds_validacion.muestra(pids, forzar=forzar, rehacer_a=rehacer_a)
         return igds_validacion.concordancia(pids)
     raise SystemExit(f'Acción desconocida: {accion}')
