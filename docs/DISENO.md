@@ -32,7 +32,7 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 | 1 | **Gancho** | Cartel «LEE, NO SE LO ESPERAN.» y cuenta atrás | Reconocer la campaña y crear urgencia |
 | 2 | **Elegir** | «Elige un tema»: 18 mosaicos (desplegable en móvil) | Entrar por lo que le importa a cada persona |
 | 3 | **Leer** | Vista de tema: medidas literales por partido | El corazón: leer y comparar |
-| 4 | **Ver el conjunto** | Mapa «Lo que dicen. Y lo que no.» | Qué peso da cada programa a cada tema |
+| 4 | **Ver el conjunto** | Mapa «En qué temas ponen el foco» | Qué peso da cada programa a cada tema |
 | 5 | **Mirar con sentido crítico** | «Prometer no es garantizar»: el IGDS, de cada 100 medidas. **Retirado de la web el 16-11-2026** | Saber cuántas medidas garantizan un derecho y qué preguntar a cada candidatura |
 | 6 | **Actuar** | «Lee. Compara. Decide.» y compartir | Pasarlo a otra persona |
 
@@ -54,7 +54,7 @@ Es la versión digital de la campaña de calle **«LEE, NO SE LO ESPERAN.»**. I
 │  Barras «Qué parte de cada programa trata de vivienda»
 │  Bloques por partido → fichas de medida → ← Tema anterior · Siguiente tema →
 ├ BANDA DEL MAPA (blanca, filete navy) ─────────────────────────────────────
-│  «LO QUE DICEN. [Y LO QUE NO.]» · matriz 18 temas × 5 partidos + Media
+│  «EN QUÉ TEMAS PONEN EL FOCO» (foco subrayado) · matriz 18 temas × 5 partidos + Media
 ├ BANDA DEL IGDS (blanca, filete navy; solo con igds.activo, apagado desde el 16-11) ──────────────
 │  «PROMETER NO ES [GARANTIZAR.]» · las cuatro preguntas · leyenda-mando
 │  5 rejillas de 100 casillas · notas emergentes · lista de medidas literales
@@ -104,7 +104,8 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
 
 ### Recursos gráficos recurrentes
 
-- **Caja** (`np-caja`): una palabra en caja blanca o teal dentro de un titular, como «ESPERAN.» en el cartel. Se repite en «Y LO QUE NO.» y «DECIDE.».
+- **Caja** (`np-caja`): una palabra en caja blanca o teal dentro de un titular, como «ESPERAN.» en el cartel. Se repite en «DECIDE.».
+- **Subrayado** (`np-subrayado`): una palabra de un titular subrayada en teal, con el trazo en `em` para que crezca con el titular. Se usa en «FOCO», en el título del mapa.
 - **Filete izquierdo** de 4 px en el color de su contexto: sumario, avisos, el peso del tema en cada partido.
 - **Bandas** a todo el ancho para marcar los actos del relato: teal, blanca, mapa, teal.
 
@@ -152,7 +153,7 @@ La DM Serif Display del sistema `.np` (la voz de las citas) se dejó de cargar e
 - **Programa pendiente:** recuadro «Este programa aún no se ha publicado (última comprobación…)». Nunca se muestra como «no propone nada».
 - **Ningún artículo:** «No hemos localizado artículos… ¿Crees que falta alguno? Escríbenos», con enlace a la página de contacto.
 
-### Mapa (`MapaProgramas`) · «Lo que dicen. Y lo que no.»
+### Mapa (`MapaProgramas`) · «En qué temas ponen el foco»
 
 - **Matriz:** 18 temas × 5 partidos. Cada **burbuja** tiene el área proporcional al peso del tema en ese programa.
 - **Casos especiales:** el anillo discontinuo significa ninguna medida localizada y la raya, programa no publicado.
@@ -297,6 +298,7 @@ Se quitaron la banda, las etiquetas de las fichas, la columna `fiscal` del CSV p
 | 16-11 | IGDS: sin la sanidad pública como ejemplo de garantía (hoy no funciona como un derecho social); «entornos convivenciales» en lugar de «familias»; sin la caja de explicación bajo la leyenda ni el bloque de método; la leyenda se deselecciona al volver a pulsarla |
 | 16-11 | **Cambio de criterio en DES:** solo cuenta el acceso público sin ningún tipo de copago (servicio público gratuito o prestación monetaria pública). Un límite al precio, la regulación y la vivienda con renta pasan a DES 0. IGDS: PP 2,4 → 1,5; PSOE 7,0 → 1,8 ([ANALISIS-IGDS.md](ANALISIS-IGDS.md), apartado 0) |
 | 16-11 | Se **retira de la web** el apartado del IGDS («Prometer no es garantizar»): `igds.activo: false`. Se conservan el componente, los datos y el método |
+| 17-11 | Título del mapa: «En qué temas ponen el foco», con «foco» subrayado en teal, en lugar de «Lo que dicen. Y lo que no.» |
 
 ---
 

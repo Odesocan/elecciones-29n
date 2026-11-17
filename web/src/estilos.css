@@ -172,6 +172,15 @@
   background: var(--np-teal);
   color: var(--np-navy);
 }
+/* Subrayado teal bajo la palabra clave de un titular («FOCO» en el mapa).
+   En em, para que el trazo crezca con el titular. */
+.np-subrayado {
+  text-decoration: underline;
+  text-decoration-color: var(--np-teal);
+  text-decoration-thickness: 0.09em;
+  text-underline-offset: 0.08em;
+  text-decoration-skip-ink: none;
+}
 .np-texto {
   font: 300 1.0625rem/1.7 var(--np-sans);
   color: var(--np-cuerpo);
