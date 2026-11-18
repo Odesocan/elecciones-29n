@@ -116,6 +116,7 @@ flowchart LR
 │   ├── clasificacion/{id}.json  temas de cada medida (IA + revisión humana)
 │   ├── fiscal/{id}.json         impacto fiscal de cada medida (archivo, ya no se publica)
 │   ├── revision/                revision-clasificacion.csv: hoja de trabajo del equipo
+│   ├── redes/                   objetos-comparables.json: cuadros de la serie de Instagram (citas literales)
 │   ├── igds/                    IGDS: fase0.json, codificacion/ (IA), ajustes.json (coherencia),
 │   │                            validacion/ (hojas A, B y C para el equipo), igds-medidas.csv,
 │   │                            igds-areas.csv, igds-resultados.json, igds-web.json (lotes/ no va a git)
@@ -158,6 +159,7 @@ flowchart LR
     ├── CRITERIOS-IGDS.md            libro de códigos del IGDS y reglas operativas (prueba)
     ├── ANALISIS-IGDS.md             análisis previo de los resultados del IGDS, antes de visualizarlo
     ├── VALIDACION-IGDS.md           instrucciones para validar el IGDS (hojas A, B y C)
+    ├── COMPARATIVAS-INSTAGRAM.md    serie de Instagram: qué hace cada partido con el mismo asunto (borrador)
     └── INFORME-VOLCADO.md           fuentes, método, incidencias y casos dudosos
 ```
 
