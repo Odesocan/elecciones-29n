@@ -49,7 +49,13 @@ Opcionales (para PDF más difíciles, como el del PSOE):
                   son el titular, que no acaba en punto y puede ocupar dos líneas.
   apartados       cómo marca el programa sus capítulos y apartados, para guardar en
                   cada medida en cuál está: 'pag', 'puntos', 'sangria' o 'causas'
-                  (ver pipeline/apartados.py)."""
+                  (ver pipeline/apartados.py).
+  unidad          'numero' (por defecto: la medida empieza en su número) o 'parrafo'
+                  (UPC: el programa solo numera sus ejes, y cada párrafo o viñeta de un
+                  eje es un fragmento; «inicio» abre el eje y titulo='vinetas' toma como
+                  titular el arranque «Mejora de los salarios:» de una viñeta).
+  cortes_parrafo  (con unidad='parrafo') comienzos de párrafo que el PDF no separa con
+                  una línea en blanco: abren un fragmento nuevo."""
 import re
 from dataclasses import dataclass, field
 from typing import Callable
@@ -99,6 +105,8 @@ class Perfil:
     vineta: str = ''
     apartados: str = ''
     fin_titulo: str = ''
+    unidad: str = 'numero'
+    cortes_parrafo: tuple = ()
     _omitir: re.Pattern = field(init=False, repr=False, compare=False)
 
     def __post_init__(self):
@@ -170,14 +178,25 @@ PERFILES = {
               'titular en la línea siguiente.',
     ),
     'upc': Perfil(
-        inicio=re.compile(rf'^(\d{{1,2}})\.\s+(?=[{MAY}])'),
+        # Desde el 23-11-2026, «Líneas básicas del programa electoral» (19 págs.): 5 bloques y 16 ejes
+        # numerados, y dentro de cada eje párrafos y viñetas sin numerar. La unidad es el FRAGMENTO:
+        # cada párrafo o viñeta de un eje (ver segmentar_parrafos en segmentar.py).
+        inicio=re.compile(rf'^(\d{{1,2}})\.\s+(?=[{MAY}])'),  # «1. La vivienda es un derecho…»: abre un eje
         valida=valida_inicio,
-        titulo='lineas',
-        fin_titulo=rf'^[{MAY}][{MIN}]+mos\b',  # «Defendemos», «Exigimos», «Reclamamos», «Defenderemos»…
-        modo='layout',  # en 'plain' pypdf parte palabras («pol ítico», «canari as»)
-        reparar_palabras=True,  # el layout también parte alguna («s ean»): se repara con el vocabulario de 'plain'
-        notas='Manifiesto de 16 ejes «N. Título» (sin punto, a veces en dos líneas) seguidos de uno o dos '
-              'párrafos que empiezan en primera persona del plural. Sin índice ni apartados: los ejes son las medidas.',
+        titulo='vinetas',
+        unidad='parrafo',
+        modo='layout',  # en 'plain' pypdf parte más palabras («posi bilidades», «1 .800», «3 4 horas»)
+        reparar_palabras=True,  # el layout también parte alguna («trabajar á»): se repara con el vocabulario de 'plain'
+        cortes_parrafo=(
+            # Párrafos que el PDF no separa con una línea en blanco (Word sin espacio entre párrafos)
+            'Incremento de la deducción por gastos de vivienda',  # tras «…Sucesiones y Donaciones», sin punto
+            'Reorientar el modelo turístico para reducir',
+            'Unidad del Pueblo Canario exige al Estado',
+        ),
+        notas='Programa de 5 bloques («BLOQUE N. …») y 16 ejes «N. Título» (a veces en dos líneas, con o sin punto). '
+              'Cada eje tiene párrafos y viñetas «-» o «•» sin numerar, y algunos subapartados sin número '
+              '(«Pesca artesanal…», «Agricultura y ganadería»). Cada párrafo o viñeta es un fragmento; la ruta '
+              'bloque › eje › subapartado va en «apartado».',
     ),
 }
 

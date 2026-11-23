@@ -4,14 +4,14 @@ fase: investigacion
 proyecto: PE_29N
 tags: [PE_29N, clasificacion-tematica, criterios, coherencia, temas]
 status: vigente
-actualizado: 2026-11-16
+actualizado: 2026-11-23
 aliases: ["PE_29N · Criterios de clasificación temática"]
 fuente: "OBSERVATORIO/Programas electorales 29N/docs/CRITERIOS-CLASIFICACION.md"
 ---
 
 # Criterios de clasificación temática
 
-Son las reglas con las que se clasificaron los programas de PP, CC–1ºC, Vox, PSOE y UPC (este último, el 16-11-2026). Hay que usar **exactamente estas reglas** con cualquier documento que se añada para que la comparación sea justa.
+Son las reglas con las que se clasificaron los programas de PP, CC–1ºC, Vox, PSOE y UPC (su manifiesto, el 16-11-2026, y su programa «Líneas básicas del programa electoral», que lo sustituye, el 23-11-2026, por fragmentos). Hay que usar **exactamente estas reglas** con cualquier documento que se añada para que la comparación sea justa.
 
 `python3 maestro.py clasificar preparar --partido ID` copia este documento en las instrucciones de cada lote.
 

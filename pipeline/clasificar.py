@@ -187,7 +187,10 @@ def aplicar_revision() -> bool:
             if not correccion:
                 continue
             pid = (fila.get('partido') or '').strip().lower()
-            m = re.search(r'\d+', fila.get('medida') or '')
+            # La clave es la columna «id» («upc-012»); las hojas anteriores al 23-11-2026 no la
+            # tienen y se usa el número de «medida» («Medida 83»).
+            m = re.fullmatch(rf'{re.escape(pid)}-(\d+)', (fila.get('id') or '').strip()) \
+                or re.search(r'\d+', fila.get('medida') or '')
             etiquetas = [] if correccion.lower() == 'ninguno' else [
                 t for t in re.split(r'[;,\s]+', correccion.lower()) if t]
             malas = [t for t in etiquetas if t not in set(d.ids())]
@@ -196,7 +199,7 @@ def aplicar_revision() -> bool:
                 errores.append(f'fila {n} ({d.columna_correccion}): «{correccion}»'
                                + (f' (desconocidas: {malas})' if malas else '') + (f' ({regla})' if regla else ''))
                 continue
-            clave = f'{pid}-{int(m.group()):03d}'
+            clave = f'{pid}-{int(m.group(1) if m.re.groups else m.group()):03d}'
             cla = cargadas.setdefault((pid, d.id), cargar(pid, d))
             if clave not in cla:
                 errores.append(f'fila {n}: no existe la medida {clave} en {d.nombre}')

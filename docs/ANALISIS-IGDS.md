@@ -4,7 +4,7 @@ fase: analisis
 proyecto: PE_29N
 tags: [PE_29N, igds, analisis, derechos-sociales, robustez]
 status: vigente
-actualizado: 2026-11-16
+actualizado: 2026-11-23
 aliases: ["PE_29N · Análisis previo del IGDS"]
 fuente: "OBSERVATORIO/Programas electorales 29N/docs/ANALISIS-IGDS.md"
 ---
@@ -14,6 +14,8 @@ fuente: "OBSERVATORIO/Programas electorales 29N/docs/ANALISIS-IGDS.md"
 Índice de Garantía de Derechos Sociales aplicado a los programas de las Elecciones Generales del 29N 2026 (Cortes Generales). Estado a 16-11-2026, con las cinco formaciones: el PSOE se incorporó el 15-11 y UPC el 16-11.
 
 **Es una primera codificación, pendiente de validación humana.** La hizo una IA con el libro de códigos de [CRITERIOS-IGDS.md](CRITERIOS-IGDS.md), en lotes independientes, y la coordinación la revisó para que todas las formaciones tuvieran la misma regla. Su visualización, el apartado «Prometer no es garantizar» de la herramienta, se publicó el 16-11-2026 y se retiró de la web ese mismo día a petición del equipo (ver [DISENO.md](DISENO.md), apartado 4). De UPC se codifica su manifiesto «Una sola papeleta. Todo un pueblo» (6 páginas), que la formación comunicó directamente como su único documento programático para el 29N.
+
+> **Aviso (23-11-2026): UPC está desactualizado en este análisis.** El 23-11 su programa «Líneas básicas del programa electoral» (19 págs., 143 fragmentos) sustituyó al manifiesto en la herramienta. Todo lo que aquí se dice de UPC es del manifiesto: los lotes 23 y 24 citan ids (`upc-001`…`upc-016`) que ahora corresponden a otros fragmentos. Antes de recalcular el índice o de recuperar su apartado en la web, hay que recodificar UPC con el programa nuevo.
 
 **Dónde está cada cosa:**
 

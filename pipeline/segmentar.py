@@ -25,7 +25,7 @@ from collections import Counter
 from . import apartados, rutas
 from .extraer import paginas, vocabulario
 from .perfiles import perfil
-from .texto import MAY, MIN, esqueleto, lineas
+from .texto import MAY, MIN, esqueleto, lineas, normalizar_glifos
 
 # Medidas «por anunciar» (PP): «83Permanezca atento a la campaña…»
 POR_ANUNCIAR = re.compile(r'(?:^|\s)(\d{1,3})\s*Permanezca\b', re.I)
@@ -163,6 +163,8 @@ def paginas_de_seccion(todas):
 
 def segmentar(pid):
     c = perfil(pid)
+    if c.unidad == 'parrafo':
+        return segmentar_parrafos(pid, c)
     todas = [(i, lineas(c.con_vinetas(t))) for i, t in enumerate(paginas(pid), 1)]
     if c.numero_suelto:
         todas = [(i, unir_numero_suelto(ls)) for i, ls in todas]
@@ -255,6 +257,137 @@ def segmentar(pid):
     reordenadas = apartados.por_posicion(pid, salida, marcas) if marcas else []
     reordenadas += apartados.en_orden(salida, marcas)
     return salida, secciones, {'no_halladas': no_halladas, 'reordenadas': sorted(set(reordenadas))}
+
+
+# ── Programas que solo numeran sus ejes (UPC desde el 23-11-2026) ────────
+BLOQUE = re.compile(r'^BLOQUE\s+(\d+)\.\s*(.*)$')
+VINETA = re.compile(r'^[-•]\s*(?=\S)')
+FINAL = re.compile(r'[\.\:\;\!\?»"\)]$')  # un párrafo que acaba así puede cerrarse en la línea en blanco
+CONECTOR = 6  # «Defendiendo entre otras actuaciones:»: hasta 6 palabras y dos puntos, sin contenido propio
+# Un subapartado no acaba en una palabra de enlace: «… como mínimo del 0,7%, de los» es una línea cortada.
+NEXOS = {'a', 'al', 'con', 'de', 'del', 'el', 'en', 'la', 'las', 'lo', 'los', 'o', 'para', 'por', 'que', 'se',
+         'su', 'sus', 'un', 'una', 'y', 'e', 'u', 'ni', 'como', 'sobre', 'entre', 'hacia', 'desde', 'sin'}
+
+
+def lineas_con_blancos(pagina):
+    """Como texto.lineas, pero la línea en blanco se conserva como '' (separa párrafos)."""
+    return [re.sub(r'\s+', ' ', l).strip() for l in normalizar_glifos(pagina).splitlines()]
+
+
+def unir_sin_cortes(ls):
+    """Une las líneas de un párrafo de Word, que no parte palabras con guion: el guion
+    de final de línea es parte del texto («afectivo-|sexual» → «afectivo-sexual»;
+    «Palestino -|denunciando» → «Palestino - denunciando»)."""
+    out = ''
+    for l in ls:
+        if not out:
+            out = l
+        elif re.search(rf'[{LETRAS}]-$', out):
+            out += l
+        else:
+            out += ' ' + l
+    return re.sub(r'[ \t ]+', ' ', out).strip()
+
+
+def segmentar_parrafos(pid, c):
+    """Fragmentos de un programa sin medidas numeradas: cada párrafo o viñeta de
+    un eje. Los ejes («1. La vivienda es un derecho y no un negocio.») y los
+    bloques («BLOQUE 1. VIDA DIGNA…») dan la ruta que se guarda en «apartado»; el
+    texto previo al primer eje (presentación) y el lema final no son fragmentos.
+
+    Un fragmento termina en una línea en blanco si su texto acaba en puntuación
+    final (si no, el párrafo sigue en la página siguiente), en una viñeta, en un
+    eje, bloque o subapartado, o en un comienzo de «cortes_parrafo». Un
+    subapartado es una línea corta sin puntuación final tras una línea en blanco
+    («Agricultura y ganadería»)."""
+    vocab = vocabulario(pid) if c.reparar_palabras else set()
+    todas = []
+    for pag, t in enumerate(paginas(pid), 1):
+        for l in lineas_con_blancos(t):
+            if l and c.omitir(l):
+                continue  # número de página
+            todas.append((pag, reparar_palabras(l, vocab) if (l and vocab) else l))
+
+    bloques, ruta, eje, sub = [], {}, 0, ''
+    actual, titulo_eje, en_bloque, fin, conectores = None, None, False, False, []
+
+    def cerrar():
+        nonlocal actual
+        if actual and actual['lineas']:
+            bloques.append(actual)
+        actual = None
+
+    def nuevo(pag, l):
+        nonlocal actual
+        cerrar()
+        actual = {'pagina': pag, 'apartado': [x for x in (ruta.get('bloque'), ruta.get('eje'), sub) if x],
+                  'eje': eje, 'vineta': bool(VINETA.match(l)), 'lineas': [VINETA.sub('', l)]}
+
+    for k, (pag, l) in enumerate(todas):
+        if fin:
+            break
+        if not l:  # línea en blanco
+            if titulo_eje is not None:
+                ruta['eje'] = re.sub(r'\.$', '', unir_sin_cortes(titulo_eje))
+                titulo_eje = None
+            en_bloque = False
+            if actual and FINAL.search(actual['lineas'][-1]):
+                cerrar()
+            continue
+        m = BLOQUE.match(l)
+        if m:
+            cerrar()
+            ruta, sub, en_bloque = {'bloque': f'Bloque {m.group(1)}. {m.group(2)}'.strip()}, '', True
+            continue
+        if es_cabecera(l):
+            if en_bloque:  # el título del bloque sigue en la línea siguiente («… DE» / «CANARIAS»)
+                ruta['bloque'] += ' ' + l
+                continue
+            if eje:  # lema final en mayúsculas: el programa terminó
+                cerrar()
+                fin = True
+            continue
+        en_bloque = False
+        m = c.inicio.match(l)
+        if m and int(m.group(1)) == eje + 1 and c.valida(l[m.end():]):
+            cerrar()
+            eje, sub, titulo_eje = eje + 1, '', [l[m.end():]]
+            continue
+        if titulo_eje is not None:  # el título del eje ocupa dos líneas
+            titulo_eje.append(l)
+            continue
+        if not eje:
+            continue  # presentación anterior al primer eje
+        siguiente = next((x for _, x in todas[k + 1:] if x), '')
+        ultima = (l.split() or [''])[-1].lower()
+        if (actual is None and not VINETA.match(l) and len(l) <= 75 and not FINAL.search(l)
+                and re.match(f'[{MAY}]', l) and re.match(rf'[{MAY}\-•]', siguiente)
+                and ultima not in NEXOS and not re.search(r'\d', l)):
+            sub = l  # subapartado sin número
+            continue
+        if VINETA.match(l) or actual is None or any(l.startswith(x) for x in c.cortes_parrafo):
+            nuevo(pag, l)
+        else:
+            actual['lineas'].append(l)
+    cerrar()
+
+    salida = []
+    for b in bloques:
+        texto = unir_sin_cortes(b['lineas'])
+        if texto.endswith(':') and len(texto.split()) <= CONECTOR:
+            conectores.append(texto)  # sin contenido propio: abre la lista que sigue
+            continue
+        titulo = ''
+        m = re.match(rf'^([{MAY}][^.:;]{{3,60}}?)\s*:\s+(?=\S)', texto) if b['vineta'] else None
+        if m and len(m.group(1).split()) <= 8:
+            titulo, texto = m.group(1).strip(), texto[m.end():].strip()  # «• Mejora de los salarios: incremento…»
+        n = len(salida) + 1
+        salida.append({'id': f'{pid}-{n:03d}', 'partido': pid, 'ref': f'Eje {b["eje"]}', 'pagina': b['pagina'],
+                       'apartado': b['apartado'], 'titulo': titulo, 'texto': texto,
+                       'aviso': 'Introduce las medidas siguientes' if texto.endswith(':') else ''})
+    if conectores:
+        print(f'        conectores sin contenido propio (no son fragmentos): {conectores}')
+    return salida, set(), {'no_halladas': [], 'reordenadas': []}
 
 
 def reparar_continuaciones(salida):
