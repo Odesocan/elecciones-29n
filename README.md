@@ -4,7 +4,7 @@ fase: investigacion
 proyecto: PE_29N
 tags: [PE_29N, programas-electorales, elecciones-generales-29n, herramienta-web, divi, d3]
 status: vigente
-actualizado: 2026-11-16
+actualizado: 2026-11-23
 aliases: ["PE_29N", "LEE, NO SE LO ESPERAN", "Programas electorales 29N"]
 fuente: "OBSERVATORIO/Programas electorales 29N/README.md"
 ---
@@ -27,10 +27,10 @@ Se publica como un **bloque de código para Divi**: unas pocas líneas que se pe
 | CC–1ºC · *Programa electoral 29N* | publicado | 100 |
 | PP · *La reconstrucción nacional* | publicado | 241 (+ 8 «por anunciar») |
 | PSOE · *La fuerza de seguir avanzando* | publicado | 500 |
-| UPC · *Una sola papeleta. Todo un pueblo* (manifiesto facilitado por el partido) | publicado | 16 ejes |
+| UPC · *Líneas básicas del programa electoral* (sustituye a su manifiesto desde el 23-11-2026) | publicado | 143 fragmentos (16 ejes) |
 | Vox · *Es sentido común* | publicado | 115 |
 
-> La clasificación temática la hizo un agente de IA con reglas escritas y sigue **pendiente de revisión humana**. Los textos son 972 de 972 literales; el detalle está en [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md). **La prueba de las cuentas (impacto fiscal) se descartó el 16-11-2026** y ya no se publica: los motivos están en [docs/CRITERIOS-IMPACTO-FISCAL.md](docs/CRITERIOS-IMPACTO-FISCAL.md).
+> La clasificación temática la hizo un agente de IA con reglas escritas y sigue **pendiente de revisión humana**. Los textos son 1099 de 1099 literales; el detalle está en [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md). **La prueba de las cuentas (impacto fiscal) se descartó el 16-11-2026** y ya no se publica: los motivos están en [docs/CRITERIOS-IMPACTO-FISCAL.md](docs/CRITERIOS-IMPACTO-FISCAL.md).
 
 ---
 
@@ -166,7 +166,7 @@ flowchart LR
 | Archivo | Lo escribe | Lo lee | Formato |
 |---|---|---|---|
 | `config/*.json` | el equipo | pipeline y web | ver el campo `_leeme` de cada archivo |
-| `datos/segmentos/{id}.jsonl` | `segmentar` | `clasificar`, `exportar` | `id` (`pp-083`), `partido`, `ref`, `pagina`, `apartado` (lista: capítulo › apartado), `titulo`, `texto`, `aviso`, `piezas?` |
+| `datos/segmentos/{id}.jsonl` | `segmentar` | `clasificar`, `exportar` | `id` (`pp-083`), `partido`, `ref` (`Medida 83`; en UPC, `Eje 1`), `pagina`, `apartado` (lista: capítulo › apartado), `titulo`, `texto`, `aviso`, `piezas?` |
 | `datos/clasificacion/{id}.json` | IA / equipo (`clasificar revision`) | `exportar` | `{"pp-083": ["tema principal", "otro"]}` (de 1 a 3 temas) |
 | `datos/fiscal/{id}.json` | IA / equipo (`clasificar revision`) | `exportar` (solo la hoja de revisión) | `{"pp-083": ["menos_ingresos"]}` (de 0 a 4 etiquetas; `[]` = sin impacto). Archivo: ya no se publica |
 | `web/public/data/programas.csv` | `exportar` | web ([datos.js](web/src/datos.js)) | `partido, tema, ref, pagina, titulo, texto, url, nota`. `tema` lleva los ids separados por `;`, con el principal primero. Desde el 16-11-2026 no lleva la columna `fiscal` |
@@ -207,13 +207,13 @@ python3 maestro.py [etapa] [opciones]
 
 | Etapa | Qué hace |
 |---|---|
-| `todo` *(por defecto)* | extraer → segmentar → validar la clasificación → volcar → divi → estado |
+| `todo` *(por defecto)* | extraer → segmentar → validar la clasificación temática → volcar → divi → estado |
 | `estado` | Tabla por partido: PDF, medidas, medidas clasificadas y filas en la web. Indica si `divi/` está al día |
 | `descargar` | Baja los PDF oficiales y avisa si un partido **cambia su programa** (no sobrescribe el verificado) |
 | `extraer` | PDF → texto por página (caché en `datos/texto/`; `--forzar` para rehacerla) |
 | `segmentar` | Texto → medidas. Dice qué números faltan, cuáles parecen cortadas y qué cambió respecto a la versión anterior |
 | `clasificar preparar` | Escribe el lote y las instrucciones para clasificar un programa nuevo (`--dimension temas` o `fiscal`) |
-| `clasificar validar` | Etiquetas válidas en las dos dimensiones, sin que falten ni sobren medidas |
+| `clasificar validar` | Etiquetas de tema válidas, sin que falten ni sobren medidas (la dimensión fiscal, archivada, con `--dimension fiscal` o `todas`) |
 | `clasificar revision` | Aplica las correcciones de la hoja de revisión (temas y fiscal) |
 | `clasificar contrastar` | Lista dónde las señales del texto no casan con la etiqueta fiscal (`datos/informes/contraste-fiscal.md`) |
 | `volcar` | Verifica la literalidad y escribe el CSV de la web, la hoja de revisión y el informe |
@@ -244,7 +244,7 @@ El script devuelve un código distinto de 0 si algo falla, así que sirve tambi�
 
 ### Publicar en Divi
 
-`divi/bloque-divi.html` es el **bloque limpio**: un comentario, un contenedor y un script. Necesita que `odesocan-programas.js` y `data/programas.csv` estén publicados en alguna URL, junto con `data/programa-upc-29n.pdf` (el manifiesto de UPC no tiene versión en línea y la web enlaza esa copia). Esa URL va en `config/campana.json → publicacion.base_url`.
+`divi/bloque-divi.html` es el **bloque limpio**: un comentario, un contenedor y un script. Necesita que `odesocan-programas.js` y `data/programas.csv` estén publicados en alguna URL, junto con `data/programa-upc-29n.pdf` (el programa de UPC no tiene una dirección oficial de descarga y la web enlaza esa copia). Esa URL va en `config/campana.json → publicacion.base_url`.
 
 `python3 maestro.py divi` copia ese PDF (y el de cualquier partido con `pdf_propio`) desde `datos/fuentes/`, donde está versionado, así que funciona en un clon recién hecho sin ejecutar antes `volcar`. Si el PDF falta en `datos/fuentes/`, la etapa se detiene con un error y deja `divi/` como estaba.
 
@@ -314,7 +314,7 @@ El `.gitignore` deja fuera:
 
 ### Revisar la clasificación
 
-1. Abre `datos/revision/revision-clasificacion.csv` en Excel. El separador es «;».
+1. Abre `datos/revision/revision-clasificacion.csv` en Excel. El separador es «;». La columna `id` (`upc-012`) es la clave de cada fila: no la cambies.
 2. En cada fila:
    - Marca `revisado_ok` si los temas están bien.
    - O escribe en `correccion` los temas correctos, con el principal primero. Ejemplo: `vivienda;economia`.
@@ -342,7 +342,7 @@ Las columnas que escribe el equipo se conservan siempre. Los criterios están en
    python3 maestro.py descargar --partido psoe
    ```
    Si el partido facilita el documento y no hay versión en línea (como UPC), deja `"url": ""`, pon `"pdf_propio": true`, copia el PDF a `datos/fuentes/` y añádelo como excepción en `.gitignore`. `volcar` lo copia junto al CSV para el servidor de desarrollo; `divi` lo publica en `divi/data/` tomándolo directamente de `datos/fuentes/`, y la web enlaza esa copia. `descargar` solo comprueba que su huella no cambia.
-3. Mira en el PDF cómo empieza cada medida y añade su `Perfil` en [pipeline/perfiles.py](pipeline/perfiles.py). Las instrucciones están al principio del archivo; copia el perfil más parecido. El del PSOE muestra las opciones para PDF difíciles: títulos de apartado sin mayúsculas, palabras partidas, viñetas de Word y números sueltos. El de UPC muestra un manifiesto con títulos sin punto en varias líneas (`titulo='lineas'` y `fin_titulo`).
+3. Mira en el PDF cómo empieza cada medida y añade su `Perfil` en [pipeline/perfiles.py](pipeline/perfiles.py). Las instrucciones están al principio del archivo; copia el perfil más parecido. El del PSOE muestra las opciones para PDF difíciles: títulos de apartado sin mayúsculas, palabras partidas, viñetas de Word y números sueltos. El de UPC muestra un programa que solo numera sus ejes: con `unidad='parrafo'`, cada párrafo o viñeta de un eje es un fragmento, y `cortes_parrafo` separa los párrafos que el PDF no separa con una línea en blanco.
    Indica también en `apartados` cómo marca el programa sus capítulos (índice con «Pág.», índice con puntos, índice con sangría o cabeceras en el texto; ver [pipeline/apartados.py](pipeline/apartados.py)). Si ninguna forma encaja, añade una nueva allí.
 4. Segmenta y repite ajustando el perfil hasta que no falten números ni haya cortes raros, y hasta que todas las medidas tengan apartado:
    ```bash
@@ -454,7 +454,7 @@ Los md del proyecto están en el vault de ODESOCAN (`OBSERVATORIO/Obsidian`) con
 
 - **Código** (`maestro.py`, `pipeline/`, `web/` y lo que genera en `divi/` e `index.html`): [MIT](LICENSE).
 - **Datos, clasificaciones, criterios y documentación de ODESOCAN:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). Se pueden reutilizar citando a ODESOCAN.
-- **No los cubre ninguna licencia:** los textos literales de los programas, el manifiesto de UPC y los logos. Son de cada partido y coalición.
+- **No los cubre ninguna licencia:** los textos literales de los programas, el PDF del programa de UPC y los logos. Son de cada partido y coalición.
 
 El detalle, con la atribución sugerida, está en [LICENSE-DATOS.md](LICENSE-DATOS.md).
 
@@ -464,7 +464,8 @@ El detalle, con la atribución sugerida, está en [LICENSE-DATOS.md](LICENSE-DAT
 - [ ] Revisión humana de la clasificación temática. El equipo hizo una revisión parcial (16-11-2026) y pidió dos temas nuevos, «infancia» e «idi», ya creados. Queda revisar el resto, empezando por los casos dudosos de [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md): el reparto de «administraciones» entre `estado` y `justicia`, y las 71 medidas de los temas nuevos.
 - [x] Revisión humana de la clasificación fiscal: hecha por el equipo el 16-11-2026 en los cuatro programas cargados. Ese mismo día se descartó la prueba de las cuentas, así que la de UPC ya no hace falta revisarla.
 - [ ] IGDS (prueba): rellenar las hojas de validación de `datos/igds/validacion/` siguiendo [docs/VALIDACION-IGDS.md](docs/VALIDACION-IGDS.md) (la A, primero y a ciegas), ejecutar `igds concordancia` y decidir los 8 puntos abiertos del libro de códigos ([docs/ANALISIS-IGDS.md](docs/ANALISIS-IGDS.md)); después, decidir si se recupera su apartado en la web (retirado el 16-11-2026; `igds.activo` en `config/campana.json`).
-- [x] UPC: su manifiesto, facilitado directamente por el partido como único documento programático, se cargó el 16-11-2026 (16 ejes) y se codificó en el IGDS el mismo día (lotes 23 y 24: N 75, IGDS 0,0, declarativas 70,7 %). Falta que el equipo revise su clasificación temática y validar su codificación del IGDS con el resto (hojas A y C).
+- [x] UPC: su manifiesto (16 ejes) se cargó el 16-11-2026. El 23-11-2026 lo sustituyó su programa, «Líneas básicas del programa electoral» (19 págs.): 143 fragmentos, uno por párrafo o viñeta de sus 16 ejes, clasificados por agentes de IA por bloques y auditados por temas ([docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md)). Falta que el equipo revise esa clasificación.
+- [ ] IGDS de UPC: la codificación de los lotes 23 y 24 (N 75, IGDS 0,0) es del **manifiesto** del 16-11 y sus ids (`upc-001`…`upc-016`) ya no corresponden a los fragmentos del programa nuevo. Hay que recodificar UPC (retirar sus lotes 23 y 24 y prepararlos de nuevo con los fragmentos) antes de volver a calcular el índice o de recuperar su apartado en la web. Mientras tanto, `igds-web.json` conserva los resultados del manifiesto.
 - [x] Revisión cruzada de la clasificación del PSOE (temas y fiscal), hecha el 16-11-2026: se leyeron las 500 medidas y se compararon con las equivalentes de los otros tres programas. El resultado está en [docs/INFORME-VOLCADO.md](docs/INFORME-VOLCADO.md).
 - [x] Repositorio público y publicación: https://github.com/Odesocan/elecciones-29n con GitHub Pages (16-11-2026); `publicacion.base_url` apunta a `https://odesocan.github.io/elecciones-29n/divi/`.
 - [x] Licencia del repositorio (16-11-2026): código MIT y datos y documentación de ODESOCAN CC BY 4.0. Los textos de los programas, el PDF de UPC y los logos quedan fuera ([LICENSE-DATOS.md](LICENSE-DATOS.md)).

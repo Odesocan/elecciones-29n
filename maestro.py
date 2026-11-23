@@ -94,8 +94,9 @@ def e_segmentar(args):
 
 def e_clasificar(args):
     accion = args.accion or 'validar'
-    # En «todo» se validan las dos dimensiones; a mano, la que se pida.
-    dim = args.dimension or {'validar': 'todas', 'contrastar': 'fiscal'}.get(accion, 'temas')
+    # En «todo» se validan los temas: la dimensión fiscal es archivo desde el 16-11-2026 (la prueba
+    # de las cuentas se descartó) y el programa de UPC del 23-11 ya no la lleva. A mano, la que se pida.
+    dim = args.dimension or {'contrastar': 'fiscal'}.get(accion, 'temas')
     titulo(f'Clasificación · {accion} · {dim}')
     return clasificar.ejecutar(accion, pids(args), dim)
 

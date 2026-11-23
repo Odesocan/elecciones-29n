@@ -4,12 +4,12 @@ fase: extraccionpdf
 proyecto: PE_29N
 tags: [PE_29N, volcado, extraccion-pdf, segmentacion, literalidad, clasificacion]
 status: vigente
-actualizado: 2026-11-16
+actualizado: 2026-11-23
 aliases: ["PE_29N · Informe del volcado de programas"]
 fuente: "OBSERVATORIO/Programas electorales 29N/docs/INFORME-VOLCADO.md"
 ---
 
-# Volcado de programas · 29N · 13 de noviembre de 2026 (PSOE añadido el 15-11 y UPC el 16-11)
+# Volcado de programas · 29N · 13 de noviembre de 2026 (PSOE añadido el 15-11; UPC, el 16-11, y su programa, que sustituye al manifiesto, el 23-11)
 
 ## Fuentes
 
@@ -19,23 +19,23 @@ fuente: "OBSERVATORIO/Programas electorales 29N/docs/INFORME-VOLCADO.md"
 | CC–1ºC | [Programa electoral 29N](https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf) · 23 págs. | **100 medidas** volcadas |
 | PSOE | [La fuerza de seguir avanzando](https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf) · 114 págs. · PDF creado el 14-11-2026; el equipo lo facilitó el 15-11 y coincide byte a byte con el de su web | **500 compromisos** volcados |
 | Vox | «Programa electoral · 29 de noviembre de 2026» («Es sentido común») · 66 págs. · PDF creado el 4-11-2026 · [PDF oficial](https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf), idéntico byte a byte al archivo que facilitó el equipo | **115 medidas** volcadas |
-| UPC | «Manifiesto electoral de la Unidad del Pueblo Canario. Una sola papeleta. Todo un pueblo» · 6 págs. (portada y contraportada sin texto) · PDF creado el 30-10-2026. UPC lo facilitó directamente a ODESOCAN el 16-11 como su **único documento programático**; no hay versión pública en línea, así que se publica junto a los datos de la herramienta (`data/programa-upc-29n.pdf`) | **16 ejes** volcados |
+| UPC | «Líneas básicas del programa electoral de la Unidad del Pueblo Canario (UPC). Una sola papeleta para defender a todo un pueblo» · 19 págs. (portada en imagen) · 5 bloques y 16 ejes · PDF creado con Word el 16-11-2026. Sustituye desde el 23-11-2026 al manifiesto «Una sola papeleta. Todo un pueblo» (6 págs.), que UPC había facilitado el 16-11 como su único documento programático. El equipo de ODESOCAN lo incorporó como archivo; no hay una dirección oficial de descarga, así que se publica junto a los datos de la herramienta (`data/programa-upc-29n.pdf`) | **143 fragmentos** volcados (párrafos y viñetas de sus 16 ejes) |
 
-PP y CC se descargaron de sus webs oficiales. Los de Vox y el PSOE llegaron primero como archivo; después se comprobó que coinciden byte a byte con el PDF de su web. El de UPC solo existe como archivo facilitado por el partido: se guarda en el proyecto con su huella (sha256) y `descargar` comprueba que no cambia.
+PP y CC se descargaron de sus webs oficiales. Los de Vox y el PSOE llegaron primero como archivo; después se comprobó que coinciden byte a byte con el PDF de su web. El de UPC solo existe como archivo: se guarda en el proyecto con su huella (sha256) y `descargar` comprueba que no cambia. El manifiesto del 16-11 queda en el historial de git (commit af384bf y anteriores), con sus segmentos y su clasificación.
 
-**UPC es un manifiesto, no un programa por medidas.** Sus 16 ejes numerados («1. Autogobierno, soberanía popular y derecho a decidir»…) son las unidades que se vuelcan, igual que las medidas numeradas de los demás. Cada eje es más largo y general que una medida de otro programa (entre 47 y 116 palabras), así que los porcentajes por tema de UPC se calculan sobre 16 unidades y se leen con esa cautela.
+**UPC numera sus ejes, no sus medidas: la unidad es el fragmento.** El programa tiene 5 bloques y 16 ejes numerados («1. La vivienda es un derecho y no un negocio.»). Dentro de cada eje hay párrafos y viñetas sin numerar, y a veces subapartados sin número («Pesca artesanal y gestión sostenible del medio marino»). Cada párrafo o viñeta es un **fragmento**: es la unidad que se vuelca y se clasifica, como las medidas numeradas de los demás. Cada fragmento guarda su ruta bloque › eje › subapartado, y en la web se cita como «Eje N» con su página. Hasta el 23-11 la unidad era el eje entero (16 unidades del manifiesto), así que los porcentajes de UPC de antes y de después no se comparan sin más: ver «UPC: del manifiesto al programa», más abajo.
 
-Solo se vuelcan las **medidas numeradas**. Los manifiestos e introducciones en prosa quedan fuera.
+Solo se vuelcan las **medidas numeradas** (en UPC, los fragmentos de sus ejes). Los manifiestos e introducciones en prosa quedan fuera; en UPC, la presentación anterior al bloque 1 y el lema final.
 
 ## Método
 
 Cada paso es una etapa del [script maestro](../maestro.py) y vive en su propio módulo de [pipeline/](../pipeline/).
 
 1. **Extracción** del texto de cada PDF, página a página ([extraer.py](../pipeline/extraer.py)).
-2. **Segmentación** automática por número de medida ([segmentar.py](../pipeline/segmentar.py), con el perfil de cada PDF en [perfiles.py](../pipeline/perfiles.py)). El texto es el del PDF: solo se unen líneas, se deshacen los guiones de fin de línea y se limpian restos de maquetación (ligaduras y comillas decorativas en los saltos de página).
+2. **Segmentación** automática por número de medida; en UPC, por párrafo o viñeta de cada eje ([segmentar.py](../pipeline/segmentar.py), con el perfil de cada PDF en [perfiles.py](../pipeline/perfiles.py)). El texto es el del PDF: solo se unen líneas, se deshacen los guiones de fin de línea y se limpian restos de maquetación (ligaduras y comillas decorativas en los saltos de página).
 3. **Apartado del programa** (16-11-2026, [apartados.py](../pipeline/apartados.py)). Al segmentar, cada medida guarda el capítulo y el apartado del programa en el que está. Sirve de contexto en la clasificación y en la hoja de revisión. La web no lo muestra y los textos no cambian. Los títulos salen del índice de cada programa y se buscan en el texto en el mismo orden: PP, 4 bloques y 28 apartados; PSOE, 7 capítulos y 66 apartados con medidas; Vox, 13 secciones. CC–1ºC no tiene índice, y sus 10 causas se toman de las cabeceras «1 DEFENDER…». Se encontraron todos los títulos y todas las medidas tienen apartado. En el PDF del PP el texto sale desordenado en tres páginas, así que el apartado de las medidas 158 a 161, 175, 176 y 211 a 213 se decide por su posición visual en la página (modo layout). Además, una medida no puede volver a un apartado anterior, porque la numeración sigue el orden del índice.
-4. **Clasificación** en las 18 temáticas: hasta 3 temas por medida, el principal primero. La hizo un agente de IA por programa, con las mismas reglas escritas ([CRITERIOS-CLASIFICACION.md](CRITERIOS-CLASIFICACION.md)) y sin tocar los textos. **Es preliminar: debe revisarla el equipo.**
-5. **Verificación** ([verificar.py](../pipeline/verificar.py)): cada título y cada texto se buscan en el PDF letra a letra. Entre dos trozos de una medida solo se tolera lo que hay en un salto de página: el número de página o la cabecera fija de ese programa. Resultado: **972 de 972 literales** (241 PP + 100 CC–1ºC + 500 PSOE + 16 UPC + 115 Vox), todas con tema y solo con los 18 temas válidos.
+4. **Clasificación** en las 18 temáticas: hasta 3 temas por medida, el principal primero. La hizo un agente de IA por programa (en UPC, cuatro por bloques y tres auditoras por temas; ver abajo), con las mismas reglas escritas ([CRITERIOS-CLASIFICACION.md](CRITERIOS-CLASIFICACION.md)) y sin tocar los textos. **Es preliminar: debe revisarla el equipo.**
+5. **Verificación** ([verificar.py](../pipeline/verificar.py)): cada título y cada texto se buscan en el PDF letra a letra. Entre dos trozos de una medida solo se tolera lo que hay en un salto de página: el número de página o la cabecera fija de ese programa. Resultado: **1099 de 1099 literales** (241 PP + 100 CC–1ºC + 500 PSOE + 143 UPC + 115 Vox), todas con tema y solo con los 18 temas válidos.
 
 ## Incidencias del propio PDF
 
@@ -52,6 +52,14 @@ Cada paso es una etapa del [script maestro](../maestro.py) y vive en su propio m
   - **Medida 395:** está cortada en el propio PDF («…el correcto desempeño de sus funcione»).
   - **Sin punto final:** muchas medidas acaban sin punto en el original y no se marcan como cortadas.
   - **Medidas 70 y 72:** son la misma propuesta, el impuesto a las viviendas de grandes tenedores que no se destinan al alquiler asequible. El PDF las numera dos veces y se cuentan las dos, como hace el programa.
+
+- **UPC, programa del 23-11-2026** (perfil propio en `pipeline/perfiles.py`, `unidad='parrafo'`):
+  - **Estructura.** Solo numera los 16 ejes. Un fragmento termina en la línea en blanco que separa párrafos (si su texto acaba en puntuación final; si no, sigue en la página siguiente), en una viñeta «-» o «•», en un eje, en un bloque o en un subapartado. Tres párrafos no van separados por una línea en blanco en el PDF y se cortan por su comienzo (`cortes_parrafo`): «Incremento de la deducción por gastos de vivienda…», «Reorientar el modelo turístico…» y «Unidad del Pueblo Canario exige al Estado…».
+  - **Regla de unidad.** Un párrafo del PDF es un fragmento, aunque junte dos propuestas (upc-036 jornada y Convenio 189; upc-061 POSEI y pesca; upc-080 deflactación y resumen fiscal; upc-138 observatorio de bulos y democracia participativa) o continúe la frase del anterior (upc-098, upc-136, upc-137, upc-142). Así la regla es la misma en todo el documento. Las agentes de clasificación lo señalaron y no se ha partido nada a mano.
+  - **Conector sin contenido.** «Defendiendo entre otras actuaciones:» (eje 3) solo abre una lista y no es un fragmento.
+  - **Fragmentos que abren una lista:** upc-001, 003, 045, 050, 060 y 127 acaban en «:» y se muestran con la nota «Introduce las medidas siguientes», como en el PSOE.
+  - **Titulares.** Las viñetas «• Mejora de los salarios: incremento…» (ejes 3 y 14, 13 fragmentos) llevan como titular lo que va antes de los dos puntos. Por eso el texto empieza en minúscula, como en el original.
+  - **Texto.** Se extrae en modo layout, porque en plain pypdf parte más palabras («posi bilidades», «1 .800», «3 4 horas»), y se repara con el vocabulario de la otra extracción. Word no parte palabras con guion: «afectivo-sexual» y «Pueblo Palestino - denunciando» se respetan. Erratas del original que se mantienen: «cambio climático . que incluya» (upc-026), «soluciones menos invasiva» (upc-092), «gestión activa de espacios protegidos y medidas.» (upc-104).
 
 ## Casos dudosos que conviene revisar
 
@@ -111,13 +119,23 @@ Casos dudosos que quedaban para el equipo (los fiscales se revisaron el 16-11-20
   - psoe-022 (pacto de seguridad ferroviaria con una comisión técnica nueva) y psoe-437 (modernizar la justicia con digitalización e IA) están en `[]`, aunque podrían suponer algo de gasto;
   - psoe-162 y psoe-224 son el mismo Plan de Educación Inclusiva, y psoe-325 y psoe-326 la misma medida de conciliación. Se cuentan dos veces porque el programa las repite.
 
-**UPC (16-11-2026).** Clasificación de los 16 ejes con las reglas escritas, tratando sus reclamaciones al Estado igual que las de CC–1ºC. Pendiente de revisión del equipo. Casos dudosos:
-  - **upc-006** (servicios públicos y pensiones) trata sanidad, educación, dependencia y pensiones; con el máximo de tres temas lleva `sanidad` + `educacion` + `empleo` y queda fuera `dependencia`, aunque nombra el sistema público de cuidados;
-  - **upc-016** (juventud) no tiene tema propio: `estado` (voto a los 16, justicia intergeneracional) + `vivienda` + `empleo`;
-  - **upc-001** (autogobierno) lleva `mas_gasto` por reclamar «una financiación justa» y la participación en los presupuestos, como manda la regla de las reclamaciones al Estado; repite en parte el eje 2 (financiación autonómica);
-  - **upc-011** (Canarias feminista) lleva `mas_gasto` por el sistema público de cuidados, que también aparece en upc-006;
-  - **upc-004** (marco financiero de la UE) queda en `[]`, igual que cc-090: es defender fondos europeos, no un gasto del Estado;
-  - **upc-012**, **upc-013** y **upc-007** quedan en `[]`: acogida digna, apoyo a la cultura y gestión pública de los recursos estratégicos, sin instrumento ni gasto concreto.
+**UPC (23-11-2026): programa por fragmentos.** La clasificación del manifiesto (16 ejes, 16-11) se sustituyó entera. Los 143 fragmentos se clasificaron en dos pasadas, con las reglas escritas y calibrando con las medidas equivalentes de los otros cuatro programas:
+  1. **Por bloques del programa:** cuatro agentes de IA, cada una con un tramo coherente (bloque 1; bloque 2, ejes 5 a 8; bloque 2, ejes 9 y 10; bloques 3 a 5).
+  2. **Por temáticas:** tres agentes auditoras, cada una responsable de seis temas, recorrieron los 143 fragmentos buscando falsos positivos, falsos negativos y el orden del tema principal. Propusieron cinco cambios y se aplicaron todos: upc-064 y upc-065 pierden `empleo` (los salarios son una coletilla, como en pp-194 y cc-035); upc-033 pasa a `igualdad` + `empleo` (regla de la conciliación); upc-050 pierde `estado` (el REF solo lleva `estado` si trata de competencias o del Estatuto); upc-135 pasa a `justicia` + `estado` (transparencia y corrupción a la vez). No hay ningún fragmento sin tema.
+
+  Pendiente de revisión del equipo. Casos dudosos:
+  - **upc-017** (limitar la compra de vivienda a extranjeros no residentes): `vivienda` + `migraciones`, como cc-026, que es casi idéntica. Es discutible porque comprar sin residir no es migrar; vox-035 va en `vivienda` + `economia`.
+  - **upc-008** (incentivos fiscales para sacar viviendas vacías al alquiler): `vivienda` + `economia`, por la regla de vivienda con herramientas fiscales (psoe-066, vox-030). cc-024, casi igual, va solo en `vivienda`: conviene revisar cc-024.
+  - **upc-020** (servicios públicos y sociales): `sanidad` + `educacion` + `empleo`. `empleo` representa los servicios sociales, como en psoe-202 a 204, porque el esquema no tiene un tema de servicios sociales.
+  - **upc-023** (derecho subjetivo a la atención temprana): `infancia` + `dependencia`. El orden inverso también es defendible (pp-112 la pone en `dependencia`; psoe-196, en `infancia`).
+  - **upc-056** (programa contra la pobreza del REF): `empleo` como protección social, como cc-016. No hay tema para la pobreza general.
+  - **upc-059** (inversión territorializada): `economia` + `estado`, como cc-007. Quitar `estado` sería defendible por la regla del REF.
+  - **upc-063** (fondos europeos para la acogida de menores no acompañados): `migraciones` + `infancia` + `estado`. La alternativa sería `defensa` (UE) como tercer tema.
+  - **upc-065 y upc-090** (moratoria turística): solo upc-090 lleva `medioambiente`, porque es el que explicita los efectos sobre el territorio y los recursos naturales.
+  - **upc-069** (investigación pesquera aplicada con las universidades): lleva `idi` en tercer lugar.
+  - **upc-072 y upc-073** (suelo agrario y rústico): `economia` + `medioambiente`; cc-041, más general, va solo en `economia`.
+  - **upc-136 y upc-137** (participación y transfuguismo): `estado` + `justicia`, frente a upc-135, que lleva `justicia` primero porque pide prevenir y castigar la corrupción.
+  - **upc-041** (juventud): `vivienda` + `empleo` + `educacion`; la salud mental queda fuera por el máximo de tres temas.
 
 **Huecos del esquema**: ya no queda ninguno.
 
@@ -141,6 +159,45 @@ Las reglas de reparto están en [CRITERIOS-CLASIFICACION.md](CRITERIOS-CLASIFICA
   - la gestión de Adif y Renfe (PSOE 25), en `estado`, frente al pacto de seguridad ferroviaria (PSOE 22), en `justicia`;
   - las multas de tráfico (Vox 45), en `estado` como potestad sancionadora de la Administración.
 
+## UPC: del manifiesto al programa (23-11-2026)
+
+**Pregunta:** ¿el programa nuevo amplía el alcance temático de UPC respecto a su manifiesto? Se comparan la clasificación del manifiesto (16 ejes, 16-11-2026, recuperada de git) y la del programa (143 fragmentos, 23-11-2026), con las mismas 18 temáticas. El cálculo es reproducible y lee los dos estados del repositorio.
+
+**Cautela de método.** La unidad cambió: antes, un eje entero con hasta 3 temas; ahora, un párrafo. El % de unidades (la métrica de la web) depende del tamaño de la unidad: un eje largo marcaba hasta 3 temas a la vez y la tapa de 3 dejaba fuera temas que el eje sí nombraba. Por eso se añade el **% de las palabras** del programa que están en unidades de cada tema, que no depende del tamaño de la unidad, y las **palabras** dedicadas a cada tema. Se cuentan textos, no compromisos ni euros.
+
+- **Extensión:** de 16 ejes y 1.149 palabras a 143 fragmentos y 5.410 palabras (× 4.7).
+- **Cobertura:** de 13 a 17 de los 18 temas. Entran `dependencia` (8 fragmentos), `idi` (3), `digital` (2) y `animales` (1). Solo `memoria` sigue sin nada.
+
+| Tema | Manifiesto: % de los 16 ejes | Programa: % de los 143 fragmentos | % de las palabras (antes → ahora) | Palabras (antes → ahora) | Puesto entre los 5 (antes → ahora) |
+|---|---|---|---|---|---|
+| Economía | 37,5 % (6) | 33,6 % (48) | 37,0 → 36,1 | 425 → 1.951 | 1.º → 3.º |
+| Vivienda | 18,8 % (3) | 18,2 % (26) | 18,8 → 19,2 | 216 → 1.041 | 1.º → 1.º |
+| Medio ambiente, aguas y energía | 6,2 % (1) | 16,8 % (24) | 6,3 → 14,6 | 72 → 791 | 5.º → 2.º |
+| Estructura del Estado | 37,5 % (6) | 15,4 % (22) | 33,2 → 15,3 | 382 → 827 | 1.º → 3.º |
+| Empleo | 25,0 % (4) | 12,6 % (18) | 29,0 → 13,1 | 333 → 708 | 1.º → 3.º |
+| Igualdad | 12,5 % (2) | 11,2 % (16) | 12,4 → 9,1 | 142 → 492 | 2.º → 2.º |
+| Educación | 6,2 % (1) | 6,3 % (9) | 6,4 → 6,1 | 74 → 330 | 4.º → 4.º |
+| Migraciones | 6,2 % (1) | 6,3 % (9) | 6,3 → 5,0 | 72 → 268 | 4.º → 4.º |
+| Defensa y política internacional | 18,8 % (3) | 6,3 % (9) | 21,0 → 5,7 | 241 → 311 | 1.º → 5.º |
+| Dependencia y discapacidad | 0,0 % (0) | 5,6 % (8) | 0,0 → 8,2 | 0 → 443 | 5.º → 2.º |
+| Justicia y seguridad | 6,2 % (1) | 4,9 % (7) | 5,0 → 3,7 | 57 → 199 | 4.º → 4.º |
+| Sanidad | 6,2 % (1) | 3,5 % (5) | 6,4 → 3,4 | 74 → 182 | 3.º → 5.º |
+| Infancia y entornos convivenciales (familias) | 6,2 % (1) | 2,8 % (4) | 6,3 → 4,0 | 72 → 219 | 1.º → 5.º |
+| Cultura y deporte | 6,2 % (1) | 2,8 % (4) | 4,1 → 2,1 | 47 → 113 | 1.º → 5.º |
+| I+D+i (innovación) | 0,0 % (0) | 2,1 % (3) | 0,0 → 2,1 | 0 → 111 | 5.º → 3.º |
+| Derechos digitales y tecnología | 0,0 % (0) | 1,4 % (2) | 0,0 → 1,3 | 0 → 68 | 5.º → 5.º |
+| Bienestar animal | 0,0 % (0) | 0,7 % (1) | 0,0 → 0,7 | 0 → 36 | 4.º → 3.º |
+| Memoria democrática | 0,0 % (0) | 0,0 % (0) | 0,0 → 0,0 | 0 → 0 | 4.º → 4.º |
+
+**Lectura:**
+- **Crece en todos los temas en palabras**, salvo memoria democrática. El salto no es solo de extensión: el programa baja a instrumentos (control de precios y renovación automática de los contratos de alquiler, parque público del 9 %, SMI de 1.800 €, jornada de 37,5 y 34 horas, partidas concretas del REF, IRPF por tramos, refugios climáticos, Ley de Biodiversidad…).
+- **Más peso relativo en derechos sociales y territorio:**
+  - **Medio ambiente, aguas y energía** pasa de 1 eje (6 %) a 24 fragmentos (17 %; del 6 % al 15 % de las palabras), y del último al segundo puesto entre los cinco, por detrás de CC–1ºC.
+  - **Dependencia** pasa de una línea sin tema propio (la tapa de 3 temas la dejaba fuera) a 8 fragmentos con medidas propias: cuidados de larga duración, atención temprana como derecho subjetivo, soledad no deseada, respiro familiar y Convenio 189 de la OIT. Es el 2.º que más peso le da, tras el PSOE.
+  - **Vivienda** sigue siendo su seña: el 18 % del programa, primer puesto entre los cinco, con casi cinco veces más texto (de 216 a 1.041 palabras).
+- **Menos peso relativo en lo institucional e internacional:** Estructura del Estado (del 33 % al 15 % de las palabras), empleo (del 29 % al 13 %) y defensa y política internacional (del 21 % al 6 %) crecen en palabras, pero mucho menos que el resto. En el manifiesto, autogobierno, financiación y UE ocupaban buena parte del texto.
+- **Sigue débil en sanidad:** 5 fragmentos y el 3,5 % del programa, el último de los cinco, aunque con más del doble de texto que antes. Infancia y cultura también quedan al final de los cinco en peso relativo.
+
 ## La prueba de las cuentas (impacto fiscal) · 14-11-2026 · descartada el 16-11-2026
 
 > **Descartada el 16-11-2026.** El equipo decidió no publicarla por tres motivos:
@@ -157,7 +214,7 @@ Las reglas de reparto están en [CRITERIOS-CLASIFICACION.md](CRITERIOS-CLASIFICA
 1. Clasificó un agente de IA por programa, con las mismas instrucciones escritas.
 2. `clasificar contrastar` cruzó las etiquetas con señales del texto y generó [contraste-fiscal.md](../datos/informes/contraste-fiscal.md).
 3. Se revisaron a mano todas las medidas que «suman», porque son pocas, y los casos cruzados entre partidos.
-4. **El equipo la revisó el 16-11-2026 y la da por correcta.** Los casos dudosos de abajo se quedan como están. La de UPC, añadida el mismo día después de esa revisión, está **pendiente** de que la revise el equipo.
+4. **El equipo la revisó el 16-11-2026 y la da por correcta.** Los casos dudosos de abajo se quedan como están. La de UPC se hizo sobre su manifiesto, el mismo día y después de esa revisión. Se retiró el 23-11-2026, cuando el programa sustituyó al manifiesto: las cifras de UPC de abajo son del manifiesto y quedan como registro.
 
 | | CC–1ºC | PP | PSOE | UPC | Vox |
 |---|---|---|---|---|---|

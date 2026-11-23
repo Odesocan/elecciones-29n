@@ -63,14 +63,14 @@
       "color": "#3D9E9A",
       "logo": "logo-upc.png",
       "programa": {
-        "titulo": "Una sola papeleta. Todo un pueblo",
-        "tipo": "manifiesto",
+        "titulo": "Líneas básicas del programa electoral",
+        "tipo": "programa",
         "url": "",
         "pdf_propio": true,
-        "origen": "Manifiesto electoral facilitado directamente por UPC, que lo comunica como su único documento programático para el 29N (16-11-2026). No hay versión pública en línea.",
+        "origen": "«Líneas básicas del programa electoral de la Unidad del Pueblo Canario (UPC). Una sola papeleta para defender a todo un pueblo», 19 págs., 5 bloques y 16 ejes. UPC lo publicó después de su manifiesto y el equipo de ODESOCAN lo incorporó como archivo el 23-11-2026; sustituye al manifiesto «Una sola papeleta. Todo un pueblo» (6 págs., 16-11-2026), que queda en el historial de git. Se publica la copia junto a los datos.",
         "archivo": "programa-upc-29n.pdf",
-        "sha256": "502ce157ba499fb959e5ed735f593f903c2e5f17c79ee28bf2daad8ca18c941b",
-        "paginas": 6,
+        "sha256": "ce35fb3cb8745524bee662d067d22773d73fbf3ef64fcf68c077a2bb7b1087e8",
+        "paginas": 19,
         "memoria_economica": false
       }
     },

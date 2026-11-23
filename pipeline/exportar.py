@@ -26,7 +26,9 @@ from .segmentar import cargar as cargar_segmentos
 from .verificar import Verificador
 
 COLUMNAS_WEB = ['partido', 'tema', 'ref', 'pagina', 'titulo', 'texto', 'url', 'nota']
-COLUMNAS_REVISION = ['partido', 'medida', 'pagina', 'apartado', 'titulo', 'tema_principal', 'otros_temas',
+# «id» es la clave de cada fila (desde el 23-11-2026): «medida» es la referencia visible, que en UPC
+# («Eje 1») se repite en todos los fragmentos de un eje.
+COLUMNAS_REVISION = ['id', 'partido', 'medida', 'pagina', 'apartado', 'titulo', 'tema_principal', 'otros_temas',
                      'impacto_fiscal',
                      'revisado_ok', 'correccion', 'correccion_fiscal', 'comentario']
 MANUALES = ['revisado_ok', 'correccion', 'correccion_fiscal', 'comentario']
@@ -61,21 +63,24 @@ def _filas_partido(pid, temas_validos):
             r['notas'].append(s['id'])
         if s['id'] not in fis:
             r['sin_fiscal'].append(s['id'])
-        filas.append({'partido': pid, 'tema': ';'.join(dict.fromkeys(temas)), 'ref': s['ref'],
+        filas.append({'id': s['id'], 'partido': pid, 'tema': ';'.join(dict.fromkeys(temas)), 'ref': s['ref'],
                       'pagina': s['pagina'], 'titulo': s['titulo'], 'texto': s['texto'], 'url': '',
                       'nota': s['aviso'],
-                      'fiscal': ';'.join(fis[s['id']]) if s['id'] in fis else 'pendiente',
+                      # «—»: sin clasificación fiscal (archivo); el programa de UPC del 23-11-2026 ya no la lleva
+                      'fiscal': ';'.join(fis[s['id']]) if s['id'] in fis else '—',
                       'apartado': apartados.texto(s.get('apartado'))})  # solo para la hoja de revisión
         r['filas'] += 1
     return filas, r
 
 
 def _escribir_revision(filas):
-    # Conservar lo que el equipo ya haya escrito en la hoja.
+    # Conservar lo que el equipo ya haya escrito en la hoja: por «id»; una hoja anterior
+    # al 23-11-2026 no lo tiene y se casa por partido + referencia.
     previas = {}
     if rutas.REVISION.exists():
         for f in clasificar._leer_revision():
-            previas[(f.get('partido', ''), f.get('medida', ''))] = {k: f.get(k, '') for k in MANUALES}
+            clave = f.get('id') or (f.get('partido', ''), f.get('medida', ''))
+            previas[clave] = {k: f.get(k, '') for k in MANUALES}
     rutas.REVISION.parent.mkdir(parents=True, exist_ok=True)
     with open(rutas.REVISION, 'w', encoding='utf-8-sig', newline='') as f:
         w = csv.writer(f, delimiter=';')
@@ -83,8 +88,8 @@ def _escribir_revision(filas):
         for r in filas:
             t = r['tema'].split(';')
             clave = (r['partido'].upper(), r['ref'])
-            manual = previas.get(clave, {})
-            w.writerow([*clave, r['pagina'], r['apartado'], r['titulo'] or r['texto'][:120], t[0], ', '.join(t[1:]),
+            manual = previas.get(r['id']) or previas.get(clave, {})
+            w.writerow([r['id'], *clave, r['pagina'], r['apartado'], r['titulo'] or r['texto'][:120], t[0], ', '.join(t[1:]),
                         r['fiscal'].replace(';', ', ') or 'ninguno', *(manual.get(k, '') for k in MANUALES)])
 
 
